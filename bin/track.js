@@ -6,6 +6,9 @@
 const { execSync }      = require('child_process')
 const { writeFileSync } = require('fs')
 
+const VERSION_LOG = '../version-log.json'
+const versionLog  = require(VERSION_LOG)
+
 function get(url) {
   return execSync('curl -s ' + url)
           .toString()
@@ -72,12 +75,26 @@ writeFileSync(orignalJsFile   , js)
 writeFileSync(formattedHtmlFile , htmlBeautify(orignalHtmlFile))
 writeFileSync(formattedJsFile   , jsBeautify(orignalJsFile))
 
-if (!gitDiff()) {
-  console.log('local is up to date')
-} else {
-  gitCommit('webwxApp' + jsVer)
-  gitPush()
-  console.log('commited new version: ' + jsVer)
+if (!jsVer) {
+  throw new Error('jsVer empty')
 }
 
+if (jsVer in versionLog) {
+  console.log('jsVer is a old version.(gray upgrading?)')
+  return
+}
+
+if (!gitDiff()) {
+  console.log('local is up to date')
+  return
+}
+
+gitCommit('webwxApp' + jsVer)
+gitPush()
+console.log('commited new version: ' + jsVer)
+
+versionLog[jsVer] = new Date()
+writeFileSync(VERSION_LOG, JSON.stringify(versionLog))
+
+console.log(versionLog)
 console.log(jsVer)
