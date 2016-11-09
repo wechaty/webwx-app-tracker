@@ -25,7 +25,7 @@ I put `npm run track` to my crontab with the following setting:(run every 6 hour
 
 ```shell
 zixia@dev:~/git/webwx-app$ crontab -l
-* */6 * * * (cd ~/git/webwx-app && npm run track >> /tmp/cron.log 2>&1)
+* */6 * * * (cd ~/git/webwx-app && npm run track >> /tmp/webwx-app.log 2>&1)
 ```
 
 Any suggestion is welcome.
