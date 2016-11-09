@@ -106,11 +106,12 @@ writeFileSync(formattedHtmlFile , htmlBeautify(orignalHtmlFile))
 writeFileSync(formattedJsFile   , jsBeautify(orignalJsFile))
 
 if (!jsVer) {
-  throw new Error('jsVer empty')
+  log('jsVer empty')
+  return
 }
 
 if (!gitDiff()) {
-  console.log('nothing new')
+  log('nothing new')
   return
 }
 
@@ -119,11 +120,19 @@ if (jsVer in versionMap) {
   return
 }
 
-gitCommit('webwxApp' + jsVer)
-gitPush()
-log('found new version: %s', jsVer)
-
+/**
+ * Save new version to history json file
+ */
 versionMap[jsVer] = new Date()
 
 const json = JSON.stringify(versionMap, null, '  ')
 writeFileSync(VERSION_HISTORY, json)
+
+/**
+ * Commit & Push
+ */
+gitCommit('webwxApp' + jsVer)
+gitPush()
+
+log('new version: %s', jsVer)
+
