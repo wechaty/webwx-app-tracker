@@ -20,31 +20,8 @@
       , angular.module("Controllers")
       .controller("appController", ["$rootScope", "$scope", "$timeout", "$log", "$state", "$window", "ngDialog", "mmpop", "appFactory", "loginFactory", "contactFactory", "accountFactory", "chatFactory", "confFactory", "contextMenuFactory"
         , "notificationFactory", "utilFactory", "reportService", "actionTrack", "surviveCheckService", "subscribeMsgService", "stateManageService"
-        , function(
-          e // $rootScope
-          , t // $scope
-          , o // $timeout
-          , n // $log
-          , r // $state
-          , a // $window
-          , i // ngDialog
-          , c // mmpop
-          , s // appFactory
-          , l // loginFactory
-          , u // contactFactory
-          , f // accountFactory
-          , d // chatFactory
-          , g // confFactory
-          , m // contextMenuFactory
-          , p // notificationFactory
-          , h // utilFactory
-          , M // reportService
-          , y // actionTrack
-          , C // surviveCheckService
-          , v // subscribeMsgService
-          , w // stateManageService
-        ) {
-          function S() {
+        , function(e, t, o, n, r, a, i, c, s, l, u, f, d, g, m, p, h, M, y, C, v, S) {
+          function w() {
             return u.pickContacts(["friend", "chatroom"], {
                 chatroom: {
                   keyword: t.keyword
@@ -61,7 +38,7 @@
           }
 
           function b() {
-            var e = k;
+            var e = F;
             e && setTimeout(function() {
               var t = (e[0].clientHeight - e.find(".ngdialog-content")
                 .height()) / 2;
@@ -149,9 +126,9 @@
           }
 
           function E() {
-            t.debug && (F && o.cancel(F)
+            t.debug && (D && o.cancel(D)
               , C.start(4e4)
-              , F = o(function() {
+              , D = o(function() {
                 s.syncCheck()
                   .then(function(e) {
                     return C.start(5e3)
@@ -168,6 +145,7 @@
             h.log("syncCheckHasChange", e);
             try {
               f.setSyncKey(e.SyncKey)
+                , f.setSyncCheckKey(e.SyncCheckKey)
                 , f.updateUserInfo(e.Profile, function() {})
                 , angular.forEach(e.DelContactList, function(t) {
                   d.deleteChatList(t.UserName)
@@ -216,19 +194,19 @@
                 , f.setPassticket(t.Passticket)
                 , T()
             });
-          var A, I;
+          var I, A;
           t.search = function() {
-              A && o.cancel(A)
-                , A = o(function() {
-                  return t.keyword ? (I && I.close()
-                    , void(I = c.open({
+              I && o.cancel(I)
+                , I = o(function() {
+                  return t.keyword ? (A && A.close()
+                    , void(A = c.open({
                       templateUrl: "searchList.html"
                       , controller: ["$rootScope", "$scope", "$state", function(e, t, o) {
                         t.$watch(function() {
                             return u.contactChangeFlag
                           }, function() {
                             t.allContacts.length = 0
-                              , t.allContacts.push.apply(t.allContacts, S())
+                              , t.allContacts.push.apply(t.allContacts, w())
                           })
                           , t.clickUserCallback = function(n) {
                             n.UserName && (o.go("chat", {
@@ -240,7 +218,7 @@
                       }]
                       , scope: {
                         keyword: t.keyword
-                        , allContacts: S()
+                        , allContacts: w()
                         , heightCalc: function(e) {
                           return "header" === e.type ? 31 : 60
                         }
@@ -248,23 +226,23 @@
                       , className: "recommendation"
                       , autoFoucs: !1
                       , container: angular.element(document.querySelector("#search_bar"))
-                    }))) : void(I && I.close())
+                    }))) : void(A && A.close())
                 }, 200)
             }
             , t.searchKeydown = function(t) {
               switch (t.keyCode) {
                 case g.KEYCODE_ARROW_UP:
-                  I && I.isOpen() && e.$broadcast("root:searchList:keyArrowUp")
+                  A && A.isOpen() && e.$broadcast("root:searchList:keyArrowUp")
                     , t.preventDefault()
                     , t.stopPropagation();
                   break;
                 case g.KEYCODE_ARROW_DOWN:
-                  I && I.isOpen() && e.$broadcast("root:searchList:keyArrowDown")
+                  A && A.isOpen() && e.$broadcast("root:searchList:keyArrowDown")
                     , t.preventDefault()
                     , t.stopPropagation();
                   break;
                 case g.KEYCODE_ENTER:
-                  I && I.isOpen() && e.$broadcast("root:searchList:keyEnter")
+                  A && A.isOpen() && e.$broadcast("root:searchList:keyEnter")
                     , t.preventDefault()
                     , t.stopPropagation()
               }
@@ -272,15 +250,15 @@
             , t.$on("root:searchList:cleanKeyWord", function() {
               t.keyword = ""
             });
-          var k;
+          var F;
           t.$on("ngDialog.opened", function(e, t) {
-              w.change("dialog:open", !0)
-                , k = t
+              S.change("dialog:open", !0)
+                , F = t
                 , b()
             })
             , t.$on("ngDialog.closed", function() {
-              w.change("dialog:open", !1)
-                , k = null
+              S.change("dialog:open", !1)
+                , F = null
             })
             , $(window)
             .on("resize", function() {
@@ -288,7 +266,35 @@
             })
             , t.appClick = function(e) {
               t.$broadcast("app:contextMenu:hide", e)
-            }
+            };
+          var k, U = $(document.body);
+          U.on("dragenter", function(e) {
+              var t = e.originalEvent;
+              k = t.target
+                , t.dataTransfer.dropEffect = "none"
+                , U.addClass("drop-enter")
+                , t.stopPropagation()
+                , t.preventDefault()
+            })
+            , U.on("dragleave", function(e) {
+              var t = e.originalEvent;
+              t.dataTransfer.dropEffect = "none"
+                , k === t.target && U.removeClass("drop-enter")
+                , t.stopPropagation()
+                , t.preventDefault()
+            })
+            , U.on("dragover", function(e) {
+              var t = e.originalEvent;
+              t.dataTransfer.dropEffect = "none"
+                , t.stopPropagation()
+                , t.preventDefault()
+            })
+            , U.on("drop", function(e) {
+              var t = e.originalEvent;
+              t.dataTransfer.dropEffect = "none"
+                , t.stopPropagation()
+                , t.preventDefault()
+            })
             , t.showContextMenu = function(e) {
               t.$broadcast("app:contextMenu:show", e)
             }
@@ -338,18 +344,13 @@
               })
             }
             , C.callback(E);
-          var F
+          var D
         }
       ])
   }(), ! function() {
     "use strict";
     angular.module("Controllers")
-      .controller("loginController", ["$scope", "loginFactory", "utilFactory", "reportService", function(
-        e // $scope
-        , t // loginFactory
-        , o // utilFactory
-        , n // reportService
-      ) {
+      .controller("loginController", ["$scope", "loginFactory", "utilFactory", "reportService", function(e, t, o, n) {
         $(".lang .lang-item")
           .click(function(e) {
             $("script")
@@ -370,8 +371,10 @@
                         , c = t.match(/<wxsid>(.*)<\/wxsid>/)
                         , s = t.match(/<wxuin>(.*)<\/wxuin>/)
                         , l = t.match(/<pass_ticket>(.*)<\/pass_ticket>/)
-                        , u = t.match(/<redirecturl>(.*)<\/redirecturl>/);
-                      return u ? void(window.location.href = u[1]) : (e.$emit("newLoginPage", {
+                        , u = t.match(/<message>(.*)<\/message>/)
+                        , f = t.match(/<redirecturl>(.*)<\/redirecturl>/);
+                      return f ? void(window.location.href = f[1]) : r && "0" != r[1] ? (alert(u && u[1] || "登陆失败")
+                        , void location.reload()) : (e.$emit("newLoginPage", {
                           Ret: r && r[1]
                           , SKey: i && i[1]
                           , Sid: c && c[1]
@@ -447,27 +450,7 @@
     angular.module("Controllers")
       .controller("contentChatController", ["$scope", "$timeout", "$state", "$log", "$document", "$compile", "chatFactory", "accountFactory", "contactFactory", "appFactory", "confFactory", "utilFactory", "chatroomFactory", "mmpop", "ngDialog"
         , "preview", "reportService", "mmHttp", "emojiFactory"
-        , function(
-          e // $scope of contentChatController
-          , t // $timeout
-          , o // $state
-          , n // $log
-          , r // $document
-          , a // $compile
-          , i // chatFactory
-          , c // accountFactory
-          , s // contactFactory
-          , l // appFactory
-          , u // confFactory
-          , f // utilFactory
-          , d // chatroomFactory
-          , g // mmpop
-          , m // ngDialog
-          , p // preview
-          , h // reportService
-          , M // mmHttp
-          , y // emojiFactory
-        ) {
+        , function(e, t, o, n, r, a, i, c, s, l, u, f, d, g, m, p, h, M, y) {
           function C(o) {
             var n = e.currentContact = s.getContact(o);
             if (e.currentUser = o
@@ -492,7 +475,7 @@
               }
           }
 
-          function w(e, t) {
+          function S(e, t) {
             var o, n;
             for (n = 0; n <= e.length; n++) {
               if (o = e[n], !o) {
@@ -506,10 +489,14 @@
             }
             return n
           }
-          var S = r.find("#chatArea .scrollbar-dynamic")[0];
+          var w = r.find("#chatArea .scrollbar-dynamic")[0];
           e.delState = !1
             , e.chatContent = []
             , e.isShowChatRoomMembers = !1
+            , $(w)
+            .on("drop", function() {
+              i.setSendFileUsername(i.getCurrentUserName())
+            })
             , e.$on("message:add:success", function(t, o) {
               o.MMPeerUserName !== i.getCurrentUserName() && (o._h || e.heightCalc(o, function(e) {
                 o._h = e
@@ -520,7 +507,7 @@
             }, function(e) {
               C(e)
                 , setTimeout(function() {
-                  S.scrollTop = 999999
+                  w.scrollTop = 999999
                 }, 10)
             })
             , e.$on("root:cleanMsg", function(t, o) {
@@ -629,7 +616,7 @@
                     msg: t
                     , preview: o
                   }
-                  , a = w(i, l)
+                  , a = S(i, l)
               }
               return a
             }
@@ -829,7 +816,7 @@
           };
           var E = !1;
           e.$on("mmRepeat:change", function() {
-            E && (S.scrollTop = 99999)
+            E && (w.scrollTop = 99999)
           });
           var N, P = !0;
           e.$watchCollection("chatContent", function(e) {
@@ -841,7 +828,7 @@
                     P = !0
                   }, 100), !P)
                   return;
-                E = S.scrollTop + S.clientHeight + 10 >= S.scrollHeight
+                E = w.scrollTop + w.clientHeight + 10 >= w.scrollHeight
                   , P = !1
               }
             })
@@ -955,13 +942,13 @@
           }
 
           function h() {
-            window.getSelection ? (P = window.getSelection()
-              , A = P.getRangeAt(0)) : A = document.selection.createRange()
+            window.getSelection ? (I = window.getSelection()
+              , A = I.getRangeAt(0)) : A = document.selection.createRange()
           }
 
           function M() {
-            A ? window.getSelection ? (P.removeAllRanges()
-              , P.addRange(A)) : A.select() : y()
+            A ? window.getSelection ? (I.removeAllRanges()
+              , I.addRange(A)) : A.select() : y()
           }
 
           function y() {
@@ -1002,7 +989,7 @@
             var o, n;
             if (t || M()
               , window.getSelection) {
-              !t && A ? (o = P
+              !t && A ? (o = I
                   , n = A) : (o = window.getSelection()
                   , n = o.getRangeAt(0))
                 , n.deleteContents();
@@ -1031,20 +1018,20 @@
               , n.select()
           }
 
-          function w() {
+          function S() {
             window.getSelection && (window.getSelection()
               .getRangeAt(0)
-              .insertNode(I)
-              , k = I.offsetLeft
-              , F = I.offsetTop - D.scrollTop
-              , U.appendChild(I))
+              .insertNode(F)
+              , k = F.offsetLeft
+              , U = F.offsetTop - D.scrollTop
+              , R.appendChild(F))
           }
 
-          function S(t) {
+          function w(t) {
             var o = r.open({
               template: "imageUploadPreview.html"
               , controller: ["$scope", function(e) {
-                x = !0;
+                O = !0;
                 var o = "";
                 e.src = ""
                   , e.send = function() {
@@ -1087,23 +1074,30 @@
           }
 
           function T(e) {
-            return j[e.toLowerCase()]
+            return q[e.toLowerCase()]
           }
 
-          function E(e, t) {
+          function E(e) {
+            var t = {
+              mp4: 1
+            };
+            return T(e) ? a.MSGTYPE_IMAGE : t[e.toLowerCase()] ? a.MSGTYPE_VIDEO : a.MSGTYPE_APP
+          }
+
+          function N(e, t) {
             angular.extend(e, {
-              onQueued: K
-              , onProgress: K
-              , onSuccess: K
-              , onError: K
+              onQueued: V
+              , onProgress: V
+              , onSuccess: V
+              , onError: V
             }, t)
           }
 
-          function N() {
+          function P() {
             require.async(["webuploader"], function(e) {
               window.WebUploader = e;
               try {
-                Y = e.create({
+                B = e.create({
                     auto: !0
                     , dnd: "#chatArea"
                     , paste: u.browser.webkit ? "#chatArea" : void 0
@@ -1113,39 +1107,143 @@
                     , pick: ".js_fileupload"
                     , compress: !1
                     , duplicate: !0
+                    , threads: 1
+                    , chunked: !0
+                    , chunkSize: 524288
                   })
                   .on("beforeFileQueued", function(e) {
-                    if (T(e.ext)) {
-                      if (e.size > 1024 * B * 1024)
-                        return alert(MM.context("8c88ff6") + B + "M"), !1
-                    } else if (e.size > 1024 * H * 1024)
-                      return alert(MM.context("0c9c48a") + H + "M"), !1;
-                    /untitled\d+.png/i.test(e.name) ? E(e, W) : E(e, V)
-                  })
-                  .on("filesQueued", function(e) {
-                    for (var t = 0, o = e.length; o > t; ++t) {
-                      var n = e[t];
-                      n.onQueued.call(n)
+                    if (e._checked)
+                      return !0;
+                    if (0 == e.size)
+                      return B.skipFile(e)
+                        , alert(MM.context("61e885c")), !1;
+                    if (e._data = e._data || {}
+                      , /untitled\d+.png/i.test(e.name))
+                      N(e, z)
+                      , e.ToUserName = s.getCurrentUserName();
+                    else if (e.ToUserName || (e.ToUserName = s.getSendFileUsername())
+                      , N(e, W)
+                      , "gif" !== e.ext.toLowerCase() && !T(e.ext)) {
+                      var n = E(e.ext);
+                      if (n == a.MSGTYPE_VIDEO && e.size >= 1024 * H * 1024)
+                        return B.skipFile(e)
+                          , void alert(MM.context("9a7dbbc"));
+                      e.ToUserName != s.getCurrentUserName() && u.reportSendState("sendFileWrong")
+                        , e.MMSendMsg = s.createMessage({
+                          ToUserName: e.ToUserName
+                          , MsgType: n
+                          , FileName: e.name
+                          , FileSize: e.size
+                          , MMFileId: e.id
+                          , MMFileExt: e.ext
+                          , MMUploadProgress: 0
+                          , MMFileStatus: a.MM_SEND_FILE_STATUS_SENDING
+                          , MMCancelUploadFileFunc: K
+                        })
+                        , s.appendMessage(e.MMSendMsg)
+                        , t.$$phase || t.$digest()
                     }
+                    var r = !1;
+                    e.size > 1024 * j * 1024 && (r = !0);
+                    var c = Date.now();
+                    return B.md5File(e)
+                      .then(function(t) {
+                        function n(e, t, o) {
+                          var n, r = angular.extend(i.getBaseRequest(), {
+                              ClientMediaId: u.now()
+                              , TotalLen: e.size
+                              , StartPos: 0
+                              , DataLen: e.size
+                              , MediaType: a.UPLOAD_MEDIA_TYPE_ATTACHMENT
+                              , FromUserName: f.FromUserName
+                              , ToUserName: f.ToUserName
+                              , FileMd5: f.FileMd5
+                              , AESKey: f.AESKey
+                              , Signature: f.Signature
+                            })
+                            , c = E(e.ext);
+                          switch (c) {
+                            case a.MSGTYPE_IMAGE:
+                              n = "pic";
+                              break;
+                            case a.MSGTYPE_VIDEO:
+                              n = "video";
+                              break;
+                            default:
+                              n = "doc"
+                          }
+                          var s = {
+                            mediatype: n
+                            , uploadmediarequest: JSON.stringify(angular.extend({
+                              UploadType: 1
+                            }, r))
+                            , webwx_data_ticket: u.getCookie("webwx_data_ticket")
+                            , pass_ticket: decodeURIComponent(i.getPassticket())
+                          };
+                          e._uploadParams = s
+                            , e._uploadmediarequestBase = r
+                            , t ? (B.trigger("fileQueued", e)
+                              , B.trigger("uploadSuccess", e, o)
+                              , B.skipFile(e)) : (e._checked = !0
+                              , B.addFiles(e))
+                        }
+                        console.log("md5 result:", t);
+                        var s = Date.now() - c
+                          , l = s / e.size * 1024 * 1024;
+                        e.size > 1048576 ? u.reportSendState("MD5TimeBigFilePerMb", Math.floor(l)) : u.reportSendState("MD5TimeSmallFile", s);
+                        var f, d = {
+                          FromUserName: i.getUserName()
+                          , ToUserName: e.ToUserName
+                          , FileSize: e.size
+                          , FileMd5: t
+                          , FileName: e.name
+                          , FileType: 7
+                        };
+                        if (r) {
+                          var g = angular.extend(d, i.getBaseRequest());
+                          f = angular.extend({}, d)
+                            , o({
+                              method: "POST"
+                              , url: a.API_checkupload
+                              , data: g
+                            })
+                            .success(function(t) {
+                              0 == t.BaseResponse.Ret ? (f = angular.extend(f, {
+                                  AESKey: t.AESKey
+                                  , Signature: t.Signature
+                                })
+                                , e.Signature = t.Signature
+                                , n(e, t.MediaId, t)) : (e.MMSendMsg && (e.MMSendMsg.MMFileStatus = a.MM_SEND_FILE_STATUS_FAIL
+                                  , e.MMSendMsg.MMStatus = a.MSG_SEND_STATUS_FAIL)
+                                , alert(t.BaseResponse.ErrMsg))
+                            })
+                            .error(function() {
+                              e.MMSendMsg && (e.MMSendMsg.MMFileStatus = a.MM_SEND_FILE_STATUS_FAIL
+                                  , e.MMSendMsg.MMStatus = a.MSG_SEND_STATUS_FAIL)
+                                , alert("上传失败")
+                            })
+                        } else
+                          f = angular.extend({}, d)
+                          , n(e)
+                      }), !1
+                  })
+                  .on("fileQueued", function(e) {
+                    e.onQueued.call(e)
                   })
                   .on("uploadBeforeSend", function(e, t) {
                     var o = e.file;
-                    t.mediatype = T(o.ext) ? "pic" : "doc"
-                      , t.uploadmediarequest = JSON.stringify(angular.extend(i.getBaseRequest(), {
-                        ClientMediaId: u.now()
-                        , TotalLen: o.size
-                        , StartPos: 0
-                        , DataLen: o.size
-                        , MediaType: a.UPLOAD_MEDIA_TYPE_ATTACHMENT
-                      }))
-                      , t.webwx_data_ticket = u.getCookie("webwx_data_ticket")
-                      , t.pass_ticket = decodeURIComponent(i.getPassticket())
+                    o._data || {}
+                      , angular.extend(t, o._uploadParams, {
+                        uploadmediarequest: JSON.stringify(angular.extend({
+                          UploadType: 2
+                        }, o._uploadmediarequestBase))
+                      })
                   })
                   .on("uploadProgress", function(e, t) {
                     e.onProgress.call(e, t)
                   })
                   .on("uploadFinished", function() {
-                    Y.reset()
+                    B.reset()
                   })
                   .on("uploadSuccess", function(e, t) {
                     e.onSuccess.call(e, t)
@@ -1159,7 +1257,7 @@
                       , type: e
                     })
                   })
-              } catch (o) {
+              } catch (n) {
                 t.noflash = !0
                   , m.report(m.ReportType.uploaderError, {
                     text: "WebUploader 出错"
@@ -1168,13 +1266,13 @@
               }
             })
           }
-          var P, A, I = document.getElementById("caretPosHelper")
+          var I, A, F = document.getElementById("caretPosHelper")
             , k = 0
-            , F = 0
+            , U = 0
             , D = document.getElementById("editArea")
-            , U = D.parentNode
-            , R = u.getShareObject("editingContents")
-            , x = !1;
+            , R = D.parentNode
+            , x = u.getShareObject("editingContents")
+            , O = !1;
           $(D)
             .on("input", function() {
               h()
@@ -1182,20 +1280,25 @@
             .on("click", function() {
               h()
             })
+            , $("#J_CatchDrop")
+            .on("drop", function(e) {
+              e.stopPropagation()
+                , e.preventDefault()
+            })
             , t.isDisabled = !t.userName
             , t.isMacOS = navigator.userAgent.toUpperCase()
             .indexOf("MAC OS") > -1
             , t.editAreaCtn = "";
-          var O;
+          var L;
           t.$on("$destroy", function() {
-              O && (R[O] = D.innerHTML)
+              L && (x[L] = D.innerHTML)
             })
             , t.$watch(function() {
               return s.getCurrentUserName()
             }, function(e, t) {
-              t && e != t && (R[t] = D.innerHTML)
-                , O = e
-                , b(R[e])
+              t && e != t && (x[t] = D.innerHTML)
+                , L = e
+                , b(x[e])
             })
             , t.showEmojiPanel = function(e) {
               f.toggleOpen({
@@ -1211,6 +1314,9 @@
                 })
                 , e.preventDefault()
             }
+            , t.sendClick = function() {
+              s.setSendFileUsername(s.getCurrentUserName())
+            }
             , t.screenShot = function() {
               var e;
               l.isSupport() ? l.capture({
@@ -1219,7 +1325,7 @@
                     MsgType: a.MSGTYPE_IMAGE
                     , Type: a.MSGTYPE_IMAGE
                   });
-                  e = S(t)
+                  e = w(t)
                     , l.upload(JSON.stringify(t), function(t) {
                       !t.BaseResponse || t.BaseResponse && 0 != t.BaseResponse.Ret ? (alert(MM.context("76a7e04"))
                         , e.close()) : (console.log("capture upload success")
@@ -1228,43 +1334,43 @@
                 }
               }) : "Win64" == navigator.platform && u.browser.msie ? alert(MM.context("82cf63d")) : confirm(MM.context("112a5c0")) && l.install()
             };
-          var L, G;
+          var G, Y;
           t.editAreaKeyup = function(e) {
               if (MMDEV && e.keyCode == a.KEYCODE_NUM2 && "@" == C(1)) {
                 var o = s.getCurrentUserName();
                 if (!u.isRoomContact(o))
                   return;
-                w()
-                  , G = function() {
-                    L = null
-                      , G = null;
+                S()
+                  , Y = function() {
+                    G = null
+                      , Y = null;
                     var e = c.getChatRoomMembersContact(o, "withoutMe");
                     h()
                       , f.open({
                         templateUrl: "editAreaContactPanel.html"
                         , controller: "editAreaContactListController"
                         , left: k
-                        , top: F
+                        , top: U
                         , scope: {
                           chatRoomUserName: o
                           , memberList: angular.copy(e)
                           , insertContactToEditArea: t.insertToEditArea
                         }
                         , autoFoucs: !1
-                        , container: angular.element(U)
+                        , container: angular.element(R)
                       })
                   }
-                  , !L && G && G()
-                  , clearTimeout(L)
-                  , L = setTimeout(function() {
-                    G && G()
-                      , L = null
+                  , !G && Y && Y()
+                  , clearTimeout(G)
+                  , G = setTimeout(function() {
+                    Y && Y()
+                      , G = null
                   }, 300)
               }
             }
             , t.editAreaKeydown = function(e) {
               if (p()
-                , L)
+                , G)
                 return void e.preventDefault();
               var o = e.keyCode;
               if (o == a.KEYCODE_ENTER) {
@@ -1290,11 +1396,11 @@
                 , (o >= 65 && 111 >= o || o >= 186 && 222 >= o) && f.close()
             }
             , t.editAreaBlur = function() {
-              G = null
+              Y = null
                 , d.change("sender:active", !1)
             }
             , t.editAreaClick = function() {
-              w()
+              S()
             }
             , t.sendTextMessage = function() {
               if (f.close(), !t.editAreaCtn.replace(/<br\/?>/g, "")
@@ -1305,7 +1411,7 @@
                 });
                 s.appendMessage(e)
                   , s.sendMessage(e)
-                  , R[s.getCurrentUserName()] = ""
+                  , x[s.getCurrentUserName()] = ""
                   , t.editAreaCtn = ""
               }
             }
@@ -1329,72 +1435,81 @@
                 , s.sendMessage(o)
             }
             , t.sendGif = function() {};
-          var Y, B = 10
-            , H = 20
-            , j = {
+          var B, H = 20
+            , j = 25
+            , q = {
               bmp: 1
               , png: 1
               , jpeg: 1
               , jpg: 1
               , gif: 0
             }
-            , q = function(e) {
-              Y.cancelFile(e.MMFileId)
+            , K = function(e) {
+              B.cancelFile(e.MMFileId)
                 , e.MMFileStatus = a.MM_SEND_FILE_STATUS_CANCEL
+                , e.MMStatus = a.MSG_SEND_STATUS_READY
             }
-            , K = function() {}
-            , V = {
+            , V = function() {}
+            , W = {
               onQueued: function() {
-                return "gif" == this.ext.toLowerCase() ? (this.MMSendMsg = s.createMessage({
-                    MsgType: a.MSGTYPE_EMOTICON
-                    , EmojiFlag: a.EMOJI_FLAG_GIF
-                  })
-                  , void
-                  function(e) {
-                    Y.makeThumb(e, function(t, o) {
-                      o && (e.MMSendMsg.MMThumbSrc = o)
-                        , s.appendMessage(e.MMSendMsg)
-                        , console.log(o)
-                    }, 1, 1)
-                  }(this)) : (this.MMSendMsg = s.createMessage({
-                    MsgType: T(this.ext) ? a.MSGTYPE_IMAGE : a.MSGTYPE_APP
-                    , FileName: this.name
-                    , FileSize: this.size
-                    , MMFileId: this.id
-                    , MMFileExt: this.ext
-                    , MMUploadProgress: 0
-                    , MMFileStatus: a.MM_SEND_FILE_STATUS_QUEUED
-                    , MMCancelUploadFileFunc: q
-                  })
-                  , void(T(this.ext) ? ! function(t) {
-                    t.MMSendMsg.MMThumbSrc = ""
-                      , Y.makeThumb(t, function(o, n) {
-                        (o || !n) && m.report(m.ReportType.uploaderError, {
-                            text: "创建缩略图失败"
-                            , fileName: t.MMSendMsg.MMFileExt
-                            , fileSize: t.MMSendMsg.FileSize
-                          })
-                          , n && (t.MMSendMsg.MMThumbSrc = n)
-                          , s.appendMessage(t.MMSendMsg)
-                          , e.$digest()
-                      })
-                  }(this) : s.appendMessage(this.MMSendMsg)))
+                if ((T(this.ext) || "gif" == this.ext.toLowerCase()) && this.ToUserName != s.getCurrentUserName() && u.reportSendState("sendImageWrong")
+                  , "gif" == this.ext.toLowerCase())
+                  return this.MMSendMsg = s.createMessage({
+                      ToUserName: this.ToUserName
+                      , MsgType: a.MSGTYPE_EMOTICON
+                      , EmojiFlag: a.EMOJI_FLAG_GIF
+                    })
+                    , void
+                function(e) {
+                  B.makeThumb(e, function(t, o) {
+                    o && (e.MMSendMsg.MMThumbSrc = o)
+                      , s.appendMessage(e.MMSendMsg)
+                      , console.log(o)
+                  }, 1, 1)
+                }(this);
+                if (T(this.ext)) {
+                  var t = E(this.ext);
+                  this.MMSendMsg = s.createMessage({
+                      ToUserName: this.ToUserName
+                      , MsgType: t
+                      , FileName: this.name
+                      , FileSize: this.size
+                      , MMFileId: this.id
+                      , MMFileExt: this.ext
+                      , MMUploadProgress: 0
+                      , MMFileStatus: a.MM_SEND_FILE_STATUS_QUEUED
+                      , MMCancelUploadFileFunc: K
+                    })
+                    , function(t) {
+                      t.MMSendMsg.MMThumbSrc = ""
+                        , B.makeThumb(t, function(o, n) {
+                          (o || !n) && m.report(m.ReportType.uploaderError, {
+                              text: "创建缩略图失败"
+                              , fileName: t.MMSendMsg.MMFileExt
+                              , fileSize: t.MMSendMsg.FileSize
+                            })
+                            , n && (t.MMSendMsg.MMThumbSrc = n)
+                            , s.appendMessage(t.MMSendMsg)
+                            , e.$digest()
+                        })
+                    }(this)
+                }
               }
               , onProgress: function(e) {
                 var o = this;
                 t.$apply(function() {
-                  o.MMSendMsg.MMFileStatus = a.MM_SEND_FILE_STATUS_SENDING
-                    , o.MMSendMsg.MMUploadProgress = parseInt(100 * e)
+                  o.MMSendMsg && (o.MMSendMsg.MMFileStatus = a.MM_SEND_FILE_STATUS_SENDING
+                    , o.MMSendMsg.MMUploadProgress = parseInt(100 * e))
                 })
               }
               , onSuccess: function(e) {
                 if (0 == e.BaseResponse.Ret) {
                   var o = this.MMSendMsg;
                   o.MediaId = e.MediaId
+                    , o.Signature = this.Signature
                     , s.sendMessage(o)
-                    , t.$apply(function() {
-                      o.MMFileStatus = a.MM_SEND_FILE_STATUS_SUCCESS
-                    })
+                    , o.MMFileStatus = a.MM_SEND_FILE_STATUS_SUCCESS
+                    , t.$$phase || t.$digest()
                 } else
                   this.onError("Ret: " + e.BaseResponse.Ret)
               }
@@ -1412,13 +1527,14 @@
                   })
               }
             }
-            , W = {
+            , z = {
               onQueued: function() {
                 var e = s.createMessage({
-                  MsgType: a.MSGTYPE_IMAGE
+                  ToUserName: this.ToUserName
+                  , MsgType: a.MSGTYPE_IMAGE
                   , Type: a.MSGTYPE_IMAGE
                 });
-                this._uploadPreviewUpdate = S(e)
+                this._uploadPreviewUpdate = w(e)
                   .update
               }
               , onSuccess: function(e) {
@@ -1434,8 +1550,8 @@
                   , alert(MM.context("c5795a7") + e)
               }
             };
-          window.WebUploader ? N() : e.$on("root:pageInit:success", function() {
-            N()
+          window.WebUploader ? P() : e.$on("root:pageInit:success", function() {
+            P()
           })
         }
       ])
@@ -1478,24 +1594,7 @@
     angular.module("Controllers")
       .controller("createChatroomController", ["$rootScope", "$scope", "$timeout", "$state", "$log", "$document", "chatFactory", "contactFactory", "appFactory", "chatroomFactory", "confFactory", "mmpop", "ngDialog", "utilFactory"
         , "stateManageService", "accountFactory"
-        , function(
-          e // $rootScope
-          , t // $scope
-          , o // $timeout
-          , n // $state
-          , r // $log
-          , a // $document
-          , i // chatFactory
-          , c // contactFactory
-          , s // appFactory
-          , l // chatroomFactory
-          , u // confFactory
-          , f // mmpop
-          , d // ngDialog
-          , g // utilFactory
-          , m // stateManageService
-          , p // accountFactory
-        ) {
+        , function(e, t, o, n, r, a, i, c, s, l, u, f, d, g, m, p) {
           o(function() {
               t.ngDialogData.isCreate && (h = [])
                 , t.allContacts = c.pickContacts(["star", "friend"], {
@@ -1537,8 +1636,7 @@
               angular.forEach(t.selectedUsers, function(e) {
                   o.push(e.UserName)
                 })
-                , (l as chatroomFactory)
-                .addMember(e.UserName, o.join(","), function(e) {
+                , l.addMember(e.UserName, o.join(","), function(e) {
                   e.BaseResponse && 0 != e.BaseResponse.Ret && -2013 != e.BaseResponse.Ret && d.openConfirm({
                     className: "default "
                     , templateUrl: "comfirmTips.html"
@@ -1611,20 +1709,8 @@
   }(), ! function() {
     "use strict";
     angular.module("Controllers")
-      .controller("contextMenuController", ["$rootScope", "$scope", "$state", "contextMenuFactory", "accountFactory", "confFactory", "contactFactory", "ngDialog", "chatroomFactory", "emojiFactory", "utilFactory", "chatFactory", function(
-        e // $rootScope
-        , t // $scope
-        , o // $state
-        , n // contextMenuFactory
-        , r // accountFactory
-        , a // confFactory
-        , i // contactFactory
-        , c // ngDialog
-        , s // chatroomFactory
-        , l // emojiFactory
-        , u // utilFactory
-        , f // chatFactory
-      ) {
+      .controller("contextMenuController", ["$rootScope", "$scope", "$state", "contextMenuFactory", "accountFactory", "confFactory", "contactFactory", "ngDialog", "chatroomFactory", "emojiFactory", "utilFactory", "chatFactory", function(e, t, o, n
+        , r, a, i, c, s, l, u, f) {
         function d(e) {
           function o(e) {
             return e.parentNode != e.document ? (n.push(e.parentNode)
@@ -1987,13 +2073,11 @@
           }
           , t.copyLink = function() {
             return console.log(o.current)
-              , console.log("fuck you copy link")
               , t.closeThisMmPop()
               , o.current && o.current.Url
           }
           , t.forwarding = function() {
-            console.log("fuck you forwarding")
-              , t.closeThisMmPop()
+            t.closeThisMmPop()
           }
           , t.openTab = function() {
             var e = o.current.Url
@@ -2012,10 +2096,12 @@
             var o = angular.copy(e);
             o.ToUserName = t
               , o.FromUserName = p.getUserName()
+              , o.isTranspond = !0
               , o._h = void 0
               , o._offsetTop = void 0
               , o.MMSourceMsgId = e.MsgId
               , o.Content = o.MMActualContent
+              , o.Scene = 2
               , o = i.createMessage(o)
               , i.appendMessage(o)
               , i.sendMessage(o)
@@ -2066,16 +2152,7 @@
   , angular.module("Services", []), ! function() {
     "use strict";
     angular.module("Services")
-      .factory("appFactory", ["$http", "$q", "confFactory", "accountFactory", "loginFactory", "utilFactory", "reportService", "mmHttp", function(
-        e // $http
-        , t // $q
-        , o // confFactory
-        , n // accountFactory
-        , r // loginFactory
-        , a // utilFactory
-        , i // reportService
-        , c // mmHttp
-      ) {
+      .factory("appFactory", ["$http", "$q", "confFactory", "accountFactory", "loginFactory", "utilFactory", "reportService", "mmHttp", function(e, t, o, n, r, a, i, c) {
         var s = {
           globalData: {
             chatList: []
@@ -2135,7 +2212,7 @@
           , syncCheck: function() {
             var e = t.defer()
               , c = this
-              , s = o.API_synccheck + "?" + ["r=" + a.now(), "skey=" + encodeURIComponent(n.getSkey()), "sid=" + encodeURIComponent(n.getSid()), "uin=" + n.getUin(), "deviceid=" + n.getDeviceID(), "synckey=" + encodeURIComponent(n.getFormateSyncKey())]
+              , s = o.API_synccheck + "?" + ["r=" + a.now(), "skey=" + encodeURIComponent(n.getSkey()), "sid=" + encodeURIComponent(n.getSid()), "uin=" + n.getUin(), "deviceid=" + n.getDeviceID(), "synckey=" + encodeURIComponent(n.getFormateSyncCheckKey())]
               .join("&");
             return window.synccheck && (window.synccheck.selector = 0)
               , $.ajax({
@@ -2147,9 +2224,8 @@
                 window.synccheck && "0" == window.synccheck.retcode ? "0" != window.synccheck.selector ? c.sync()
                   .then(function(t) {
                     e.resolve(t)
-                  }, function(t) {
-                    console.log("syncCheck sync nothing", t)
-                      , e.reject("sycn net error")
+                  }, function(e) {
+                    console.log("syncCheck sync nothing", e)
                   }) : e.reject(window.synccheck && window.synccheck.selector) : !window.synccheck || "1101" != window.synccheck.retcode && "1102" != window.synccheck.retcode ? window.synccheck && "1100" == window.synccheck.retcode ? r.loginout(
                     0) : (e.reject("syncCheck net error")
                     , i.report(i.ReportType.netError, {
@@ -2181,21 +2257,46 @@
           , _currentUserName = ""
           , _addedMsgIdsMap = {}
           , _msgMap = {}
-          , service = {
+          , _sendFileUserName, service = {
             setCurrentUserName: function(e) {
               _currentUserName = e
             }
             , getCurrentUserName: function() {
               return _currentUserName
             }
+            , setSendFileUsername: function(e) {
+              _sendFileUserName = e
+            }
+            , resetSendFileUsername: function() {
+              _sendFileUserName = ""
+            }
+            , getSendFileUsername: function() {
+              return _sendFileUserName || _currentUserName
+            }
+            , _sendCheck: function(e) {
+              var t = $("#chatArea .title_wrap .title_name")
+                .eq(0)
+                , o = $(".chat_list .chat_item.active")
+                .eq(0);
+              if (t && o) {
+                var n = t.attr("data-username")
+                  , r = o.attr("data-username");
+                return console.log(e, n, r)
+                  , n == r && r == e ? !0 : !1
+              }
+              return !1
+            }
             , createMessage: function(e) {
               switch (e.FromUserName || (e.FromUserName = accountFactory.getUserName())
                 , e.ToUserName || (e.ToUserName = this.getCurrentUserName())
+                , e.isTranspond || this._sendCheck(e.ToUserName) || (utilFactory.reportSendState("uiCheckFail")
+                  , reportService.report(reportService.ReportType.sendError, {}))
                 , e.ClientMsgId = e.LocalID = e.MsgId = (utilFactory.now() + Math.random()
                   .toFixed(3))
                 .replace(".", "")
                 , e.CreateTime = Math.round(utilFactory.now() / 1e3)
                 , e.MMStatus = confFactory.MSG_SEND_STATUS_READY
+                , e.sendByLocal = !0
                 , e.MsgType) {
                 case confFactory.MSGTYPE_TEXT:
                   var t = [];
@@ -2234,6 +2335,9 @@
                 case confFactory.MSGTYPE_IMAGE:
                   this.postImgMessage(e);
                   break;
+                case confFactory.MSGTYPE_VIDEO:
+                  this.postVideoMessage(e);
+                  break;
                 case confFactory.MSGTYPE_APP:
                   this.postAppMessage(e);
                   break;
@@ -2249,6 +2353,7 @@
                 , data = angular.extend(accountFactory.getBaseRequest(), {
                   Msg: data
                 })
+                , data.Scene = msg.Scene || 0
                 , utilFactory.browser.msie && parseInt(utilFactory.browser.version) < 9 && url == confFactory.API_webwxsendmsg && (data = eval("'" + JSON.stringify(data) + "'"))
                 , mmHttp({
                   method: "POST"
@@ -2294,9 +2399,17 @@
               };
               this._postMessage(confFactory.API_webwxsendmsgimg + "?fun=async&f=json", t, e)
             }
+            , postVideoMessage: function(e) {
+              var t = {
+                Type: confFactory.MSGTYPE_VIDEO
+                , MediaId: e.MediaId
+              };
+              this._postMessage(confFactory.API_webwxsendmsgvedio + "?fun=async&f=json", t, e)
+            }
             , postAppMessage: function(e) {
               var t = {
-                Type: confFactory.APPMSGTYPE_ATTACH
+                Signature: e.Signature
+                , Type: confFactory.APPMSGTYPE_ATTACH
                 , Content: "<appmsg appid='wxeb7ec651dd0aefa9' sdkver=''><title>" + e.FileName + "</title><des></des><action></action><type>" + confFactory.APPMSGTYPE_ATTACH +
                   "</type><content></content><url></url><lowurl></lowurl><appattach><totallen>" + e.FileSize + "</totallen><attachid>" + e.MediaId + "</attachid><fileext>" + e.MMFileExt + "</fileext></appattach><extinfo></extinfo></appmsg>"
               };
@@ -2656,7 +2769,7 @@
                 .replace(/<br\/>/g, "");
               t = utilFactory.encodeEmoji(t)
                 , t = utilFactory.xml2json(t)
-                , this._appAsTextMsgProcess(e, utilFactory.decodeEmoji(t.appmsg.title))
+                , this._appAsTextMsgProcess(e, utilFactory.decodeEmoji(utilFactory.htmlEncode(t.appmsg.title)))
             }
             , _appAudioMsgProcess: function(e) {
               var t = this
@@ -2706,7 +2819,7 @@
               t = utilFactory.encodeEmoji(t)
                 , t = utilFactory.xml2json(t)
                 , e.MMDigest += MM.context("6daeae3")
-                , e.MMFileStatus = confFactory.MM_SEND_FILE_STATUS_SUCCESS
+                , e.MMFileStatus = e.sendByLocal ? confFactory.MM_SEND_FILE_STATUS_SENDING : confFactory.MM_SEND_FILE_STATUS_SUCCESS
                 , e.MMAppMsgFileExt = t.appmsg.appattach.fileext.toLowerCase()
                 , e.MMAppMsgFileSize = utilFactory.getSize(+t.appmsg.appattach.totallen)
                 , e.MMAppMsgDownloadUrl = confFactory.API_webwxdownloadmedia + "?sender=" + e.FromUserName + "&mediaid=" + e.MediaId + "&filename=" + encodeURIComponent(e.FileName) + "&fromuser=" + accountFactory.getUin() + "&pass_ticket=" +
@@ -2907,19 +3020,7 @@
   }(), ! function() {
     "use strict";
     angular.module("Services")
-      .factory("chatroomFactory", ["$rootScope", "$timeout", "$http", "$q", "contactFactory", "accountFactory", "emojiFactory", "confFactory", "utilFactory", "reportService", "mmHttp", function(
-        e // $rootScope
-        , t // $timeout
-        , o // $http
-        , n // $q
-        , r // contactFactory
-        , a // accountFactory
-        , i // emojiFactory
-        , c // confFactory
-        , s // utilFactory
-        , l // reportService
-        , _ // mmHttp ?
-      ) {
+      .factory("chatroomFactory", ["$rootScope", "$timeout", "$http", "$q", "contactFactory", "accountFactory", "emojiFactory", "confFactory", "utilFactory", "reportService", "mmHttp", function(e, t, o, n, r, a, i, c, s, l) {
         var u, f = {}
           , d = {
             setCurrentContact: function(e) {
@@ -3031,34 +3132,35 @@
       .factory("accountFactory", ["$q", "confFactory", "utilFactory", function(e, t, o) {
         var n, r, a, i = {}
           , c = null
-          , s = {
+          , s = null
+          , l = {
             type: ""
             , ver: ""
           }
-          , l = "" === o.getCookie("MM_WX_NOTIFY_STATE") ? t.MM_NOTIFY_OPEN : o.getCookie("MM_WX_NOTIFY_STATE")
-          , u = "" === o.getCookie("MM_WX_SOUND_STATE") ? t.MM_SOUND_OPEN : o.getCookie("MM_WX_SOUND_STATE")
-          , f = {
+          , u = "" === o.getCookie("MM_WX_NOTIFY_STATE") ? t.MM_NOTIFY_OPEN : o.getCookie("MM_WX_NOTIFY_STATE")
+          , f = "" === o.getCookie("MM_WX_SOUND_STATE") ? t.MM_SOUND_OPEN : o.getCookie("MM_WX_SOUND_STATE")
+          , d = {
             openNotify: function() {
-              l = t.MM_NOTIFY_OPEN
+              u = t.MM_NOTIFY_OPEN
                 , o.setCookie("MM_WX_NOTIFY_STATE", t.MM_NOTIFY_OPEN)
             }
             , closeNotify: function() {
-              l = t.MM_NOTIFY_CLOSE
+              u = t.MM_NOTIFY_CLOSE
                 , o.setCookie("MM_WX_NOTIFY_STATE", t.MM_NOTIFY_CLOSE)
             }
             , isNotifyOpen: function() {
-              return !!l
+              return !!u
             }
             , openSound: function() {
-              u = t.MM_SOUND_OPEN
+              f = t.MM_SOUND_OPEN
                 , o.setCookie("MM_WX_SOUND_STATE", t.MM_SOUND_OPEN)
             }
             , closeSound: function() {
-              u = t.MM_SOUND_CLOSE
+              f = t.MM_SOUND_CLOSE
                 , o.setCookie("MM_WX_SOUND_STATE", t.MM_SOUND_CLOSE)
             }
             , isSoundOpen: function() {
-              return !!u
+              return !!f
             }
             , setUserInfo: function(e) {
               angular.extend(i, e)
@@ -3085,11 +3187,13 @@
                 List: []
               }
             }
-            , getFormateSyncKey: function() {
-              for (var e = this.getSyncKey()
-                  .List, t = [], o = 0, n = e.length; n > o; o++)
-                t.push(e[o].Key + "_" + e[o].Val);
-              return t.join("|")
+            , getFormateSyncCheckKey: function() {
+              for (var e = s || this.getSyncKey(), t = e.List, o = [], n = 0, r = t.length; r > n; n++)
+                o.push(t[n].Key + "_" + t[n].Val);
+              return o.join("|")
+            }
+            , setSyncCheckKey: function(e) {
+              e && e.Count > 0 ? s = e : o.log("JS Function: setSyncCheckKey. Error. no synccheckkey")
             }
             , setSyncKey: function(e) {
               e && e.Count > 0 ? c = e : o.log("JS Function: setSyncKey. Error. no synckey")
@@ -3136,7 +3240,7 @@
                 .substring(2, 17)
             }
             , isHigherVer: function() {
-              return s.ver >= 4.5
+              return l.ver >= 4.5
             }
             , setClientVer: function(e) {
               var t = parseInt(e, 10)
@@ -3144,37 +3248,33 @@
                 , o = t.substr(0, 1)
                 , t = t.substr(1, 3)
                 .replace("0", ".");
-              s.type = o
-                , s.ver = t
+              l.type = o
+                , l.ver = t
             }
           };
-        return l == t.MM_NOTIFY_OPEN ? f.openNotify() : f.closeNotify()
-          , u == t.MM_SOUND_OPEN ? f.openSound() : f.closeSound()
-          , f
+        return u == t.MM_NOTIFY_OPEN ? d.openNotify() : d.closeNotify()
+          , f == t.MM_SOUND_OPEN ? d.openSound() : d.closeSound()
+          , d
       }])
   }(), ! function() {
     "use strict";
     angular.module("Services")
       .factory("confFactory", ["$q", function() {
         var e = location.host
-          , t = "weixin.qq.com"
+          , t = "login.weixin.qq.com"
           , o = "file.wx.qq.com"
           , n = "webpush.weixin.qq.com";
-        e.indexOf("wx2.qq.com") > -1 ? (t = "weixin.qq.com"
-          , o = "file2.wx.qq.com"
-          , n = "webpush2.weixin.qq.com") : e.indexOf("qq.com") > -1 ? (t = "weixin.qq.com"
+        e.indexOf("wx2.qq.com") > -1 ? (t = "login.wx2.qq.com"
+          , o = "file.wx2.qq.com"
+          , n = "webpush.wx2.qq.com") : e.indexOf("wx8.qq.com") > -1 ? (t = "login.wx8.qq.com"
+          , o = "file.wx8.qq.com"
+          , n = "webpush.wx8.qq.com") : e.indexOf("qq.com") > -1 ? (t = "login.wx.qq.com"
           , o = "file.wx.qq.com"
-          , n = "webpush.weixin.qq.com") : e.indexOf("web1.wechat.com") > -1 ? (t = "wechat.com"
-          , o = "file1.wechat.com"
-          , n = "webpush1.wechat.com") : e.indexOf("web2.wechat.com") > -1 ? (t = "wechat.com"
-          , o = "file2.wechat.com"
-          , n = "webpush2.wechat.com") : e.indexOf("wechat.com") > -1 ? (t = "wechat.com"
-          , o = "file.wechat.com"
-          , n = "webpush.wechat.com") : e.indexOf("web1.wechatapp.com") > -1 ? (t = "wechatapp.com"
-          , o = "file1.wechatapp.com"
-          , n = "webpush1.wechatapp.com") : (t = "wechatapp.com"
-          , o = "file.wechatapp.com"
-          , n = "webpush.wechatapp.com");
+          , n = "webpush.wx.qq.com") : e.indexOf("web2.wechat.com") > -1 ? (t = "login.web2.wechat.com"
+          , o = "file.web2.wechat.com"
+          , n = "webpush.web2.wechat.com") : e.indexOf("wechat.com") > -1 && (t = "login.web.wechat.com"
+          , o = "file.web.wechat.com"
+          , n = "webpush.web.wechat.com");
         var r = navigator.language || navigator.browserLanguage;
         r || (r = "zh-cn")
           , r = r.split("-")
@@ -3182,10 +3282,10 @@
           .toUpperCase();
         var a = {
           LANG: r
-          , EMOTICON_REG: 'img\\sclass="(qq)?emoji (qq)?emoji([\\da-f]*?)"\\s(text="[^<>\\s]*")?\\s?src="[^<>\\s]*"\\s*'
+          , EMOTICON_REG: 'img\\sclass="(qq)?emoji (qq)?emoji([\\da-f]*?)"\\s(text="[^<>(\\s]*")?\\s?src="[^<>(\\s]*"\\s*'
           , RES_PATH: "/zh_CN/htmledition/v2/"
-          , API_jsLogin: "https://login." + t + "/jslogin?appid=wx782c26e4c19acffb&redirect_uri=" + encodeURIComponent(location.protocol + "//" + location.host + "/cgi-bin/mmwebwx-bin/webwxnewloginpage") + "&fun=new&lang=" + r
-          , API_login: "https://login." + t + "/cgi-bin/mmwebwx-bin/login"
+          , API_jsLogin: "https://" + t + "/jslogin?appid=wx782c26e4c19acffb&redirect_uri=" + encodeURIComponent(location.protocol + "//" + location.host + "/cgi-bin/mmwebwx-bin/webwxnewloginpage") + "&fun=new&lang=" + r
+          , API_login: "https://" + t + "/cgi-bin/mmwebwx-bin/login"
           , API_synccheck: "https://" + n + "/cgi-bin/mmwebwx-bin/synccheck"
           , API_webwxdownloadmedia: "https://" + o + "/cgi-bin/mmwebwx-bin/webwxgetmedia"
           , API_webwxuploadmedia: "https://" + o + "/cgi-bin/mmwebwx-bin/webwxuploadmedia"
@@ -3197,6 +3297,7 @@
           , API_webwxgeticon: "/cgi-bin/mmwebwx-bin/webwxgeticon"
           , API_webwxsendmsg: "/cgi-bin/mmwebwx-bin/webwxsendmsg"
           , API_webwxsendmsgimg: "/cgi-bin/mmwebwx-bin/webwxsendmsgimg"
+          , API_webwxsendmsgvedio: "/cgi-bin/mmwebwx-bin/webwxsendvideomsg"
           , API_webwxsendemoticon: "/cgi-bin/mmwebwx-bin/webwxsendemoticon"
           , API_webwxsendappmsg: "/cgi-bin/mmwebwx-bin/webwxsendappmsg"
           , API_webwxgetheadimg: "/cgi-bin/mmwebwx-bin/webwxgetheadimg"
@@ -3214,6 +3315,7 @@
           , API_webwxreport: "/cgi-bin/mmwebwx-bin/webwxstatreport"
           , API_webwxsearch: "/cgi-bin/mmwebwx-bin/webwxsearchcontact"
           , API_webwxoplog: "/cgi-bin/mmwebwx-bin/webwxoplog"
+          , API_checkupload: "/cgi-bin/mmwebwx-bin/webwxcheckupload"
           , oplogCmdId: {
             TOPCONTACT: 3
             , MODREMARKNAME: 2
@@ -3384,19 +3486,7 @@
   }(), ! function() {
     "use strict";
     angular.module("Services")
-      .factory("contactFactory", ["$rootScope", "$http", "$q", "$timeout", "confFactory", "accountFactory", "emojiFactory", "utilFactory", "resourceService", "reportService", "mmHttp", function(
-        e // $rootScope
-        , t // $http
-        , o // $q
-        , n // $timeout
-        , r // confFactory
-        , a // accountFactory
-        , i // emojiFactory
-        , c // utilFactory
-        , s // resourceService
-        , l // reportService
-        , u // mmHttp
-      ) {
+      .factory("contactFactory", ["$rootScope", "$http", "$q", "$timeout", "confFactory", "accountFactory", "emojiFactory", "utilFactory", "resourceService", "reportService", "mmHttp", function(e, t, o, n, r, a, i, c, s, l, u) {
         function f(e) {
           return e = angular.extend({
               RemarkPYQuanPin: ""
@@ -3415,8 +3505,8 @@
           , y = []
           , C = window._chatRoomMemberDisplayNames = {}
           , v = []
-          , w = []
           , S = []
+          , w = []
           , b = {}
           , T = {}
           , E = 0
@@ -3492,7 +3582,7 @@
                   for (var n = 0, r = t.MemberList.length; r > n && 10 > n; ++n) {
                     o.length > 0 && (o += ", ");
                     var a = t.MemberList[n]
-                      , i = A.getContact(a.UserName);
+                      , i = I.getContact(a.UserName);
                     o += i && i.RemarkName || i && i.NickName || a.NickName
                   }
                 else
@@ -3502,7 +3592,7 @@
               return o
             }
             , getMemberDisplayName: function(e) {
-              return A.getChatroomIdByUserName(e)
+              return I.getChatroomIdByUserName(e)
                 , e && C[e] ? C[e][this.UserName] : ""
             }
             , chatroomCanSearch: function(e) {
@@ -3511,7 +3601,7 @@
                   return !0;
                 for (var t = 0, o = this.MemberList.length; o > t; t++) {
                   var n = this.MemberList[t].UserName
-                    , r = A.getContact(n);
+                    , r = I.getContact(n);
                   if (r && r.canSearch(e))
                     return !0
                 }
@@ -3545,7 +3635,7 @@
               e && angular.extend(this, e)
             }
           }
-          , A = {
+          , I = {
             contactChangeFlag: ""
             , setCurrentContact: function(e) {
               d = e
@@ -3668,8 +3758,8 @@
               return t.EncryChatRoomId
             }
             , inContactsWithErrorToGetList: function(e) {
-              for (var t = 0, o = S.length; o > t; t++)
-                if (S[t].UserName == e.UserName)
+              for (var t = 0, o = w.length; o > t; t++)
+                if (w[t].UserName == e.UserName)
                   return t;
               return -1
             }
@@ -3680,8 +3770,8 @@
               return -1
             }
             , inContactsGettingList: function(e) {
-              for (var t = 0, o = w.length; o > t; t++)
-                if (w[t].UserName == e.UserName)
+              for (var t = 0, o = S.length; o > t; t++)
+                if (S[t].UserName == e.UserName)
                   return t;
               return -1
             }
@@ -3715,20 +3805,20 @@
                   })
                   , console.timeEnd("addContactsHandler")
                   , d.addContacts(e.ContactList, !0)
-                  , w = [], !w.length && v.length > 0 && d.batchGetContact()
+                  , S = [], !S.length && v.length > 0 && d.batchGetContact()
                   .then(i, s)
               }
 
               function s(e) {
-                var t = w;
-                w = []
+                var t = S;
+                S = []
                   , E++
                   , f.reject(e)
                   , 1 == t.length ? (console.log("batchGetContactError", t[0])
                     , b[t[0].UserName] = 1) : angular.forEach(t, function(e) {
                     d.addBatchgetContact(e, !1, !0)
                   })
-                  , w.length || !v.length && !S.length || d.batchGetContact()
+                  , S.length || !v.length && !w.length || d.batchGetContact()
                   .then(i, s)
               }
               var l, u, f = o.defer()
@@ -3737,7 +3827,7 @@
                 if (r) {
                   if (d.inContactsWithErrorToGetList(e) > -1)
                     return;
-                  S.push(e)
+                  w.push(e)
                     , l = d.inContactsToGetList(e)
                     , l > -1 && v.splice(l, 1)
                 } else {
@@ -3747,7 +3837,7 @@
                 }
                 return u && n.cancel(u)
                   , u = n(function() {
-                    w.length || !v.length && !S.length || d.batchGetContact()
+                    S.length || !v.length && !w.length || d.batchGetContact()
                       .then(i, s)
                   }, 200)
                   , f.promise
@@ -3777,15 +3867,15 @@
             , batchGetContact: function(e) {
               var n = o.defer()
                 , i = 1;
-              return S.length ? (i = S.length < 6 || E > 2 ? 1 : S.length < 40 ? 5 : 10
-                  , w = S.splice(0, i)
-                  , console.log("_contactsWithErrorToGetList lenght:", S.length)) : w = v.splice(0, 50)
+              return w.length ? (i = w.length < 6 || E > 2 ? 1 : w.length < 40 ? 5 : 10
+                  , S = w.splice(0, i)
+                  , console.log("_contactsWithErrorToGetList lenght:", w.length)) : S = v.splice(0, 50)
                 , t({
                   method: "POST"
                   , url: r.API_webwxbatchgetcontact + "?type=ex&r=" + c.now()
                   , data: angular.extend(a.getBaseRequest(), {
-                    Count: w.length
-                    , List: w
+                    Count: S.length
+                    , List: S
                   })
                 })
                 .success(function(t) {
@@ -3907,12 +3997,7 @@
                 .error(function() {})
                 , i.promise
             }
-            , pickContacts: function(
-              e: string[]
-              , t: {}
-              filter
-              , o: boolean ?
-            ) {
+            , pickContacts: function(e, t, o) {
               for (var n, r, a, i = [], c = this, s = t.all || {}, l = 0; l < e.length; l++)
                 switch (n = e[l]
                   , a = t[n] || {}
@@ -4034,21 +4119,12 @@
                 .error(function() {})
             }
           };
-        return A
+        return I
       }])
   }(), ! function() {
     "use strict";
     angular.module("Services")
-      .factory("loginFactory", ["$http", "$q", "$timeout", "accountFactory", "confFactory", "utilFactory", "mmHttp", "reportService", function(
-        e // $http
-        , t // $q
-        , o // $timeout
-        , n // accountFactory
-        , r // confFactory
-        , a // utilFactory
-        , i // mmHttp
-        , c // reportService
-      ) {
+      .factory("loginFactory", ["$http", "$q", "$timeout", "accountFactory", "confFactory", "utilFactory", "mmHttp", "reportService", function(e, t, o, n, r, a, i, c) {
         var s = {
           getUUID: function() {
             var e = t.defer();
@@ -4129,11 +4205,7 @@
   }(), ! function() {
     "use strict";
     angular.module("Services")
-      .factory("utilFactory", ["$q", "$rootScope", "confFactory", function(
-        e // $q
-        , t // $rootScope
-        , o // $confFactory
-      ) {
+      .factory("utilFactory", ["$q", "$rootScope", "confFactory", function(e, t, o) {
         function n(e, t, o, n) {
           var r;
           (r = l[e]) ? (r.intervalSum += o
@@ -4425,6 +4497,39 @@
           , getShareObject: function(e) {
             return a[e] = a[e] || {}
               , a[e]
+          }
+          , reportSendState: function(e, t) {
+            var o = 63637
+              , n = this.browser.msie
+              , r = {
+                sendFileWrong: {
+                  ie: 63
+                  , notIe: 64
+                }
+                , sendImageWrong: {
+                  ie: 65
+                  , notIe: 66
+                }
+                , uiCheckFail: {
+                  ie: 67
+                  , notIe: 68
+                }
+                , MD5TimeBigFilePerMb: {
+                  ie: 69
+                  , notIe: 70
+                }
+                , MD5TimeSmallFile: {
+                  ie: 71
+                  , notIe: 72
+                }
+              }
+              , a = r[e];
+            a && this.reportIdkey(o, a[n ? "ie" : "notIe"], t)
+          }
+          , reportIdkey: function(e, t, o) {
+            var n = "https://support.weixin.qq.com/cgi-bin/mmsupport-bin/reportforweb?rid=" + e + "&rkey=" + t + "&rvalue=" + (o || 1);
+            (new Image)
+            .src = n
           }
           , isUserName: function() {}
           , isWindows: /windows/gi.test(navigator.userAgent)
@@ -5875,11 +5980,11 @@
         }
 
         function l() {
-          var e = JSON.parse(b.getItem(S));
+          var e = JSON.parse(b.getItem(w));
           if (e && e.length > 0) {
             for (var t = 0; t < e.length; t++)
               u(e[t].type, e[t].data);
-            b.setItem(S, null)
+            b.setItem(w, null)
           }
         }
 
@@ -5889,7 +5994,11 @@
           if (e == T.timing)
             return void a(t);
           var n, r = o || !1;
-          e.indexOf("-error") > 0 ? (r = !0
+          e.indexOf("send-error") > 0 ? (r = !0
+              , n = {
+                Type: 16
+                , Text: s(e, t)
+              }) : e.indexOf("-error") > 0 ? (r = !0
               , n = {
                 Type: 2
                 , Text: s(e, t)
@@ -5904,7 +6013,7 @@
           for (var e = [0, 15e3, 6e5], o = 0; o < e.length; o++)
             setTimeout(function(e) {
               return function() {
-                w[e] = m(t)
+                S[e] = m(t)
               }
             }(e[o]), e[o])
         }
@@ -5912,17 +6021,17 @@
         function d() {
           $(window)
             .unload(function() {
-              w.unload = m(t)
+              S.unload = m(t)
                 , v.push({
                   type: T.runtime
-                  , data: w
+                  , data: S
                 }), !P && v.push({
                   type: T.timing
                   , data: {
                     fullTiming: r()
                   }
                 })
-                , localStorage.setItem(S, JSON.stringify(v))
+                , localStorage.setItem(w, JSON.stringify(v))
             })
         }
 
@@ -5987,6 +6096,7 @@
                 BaseRequest: {
                   Uin: n.getUin()
                   , Sid: n.getSid()
+                  , DeviceID: n.getDeviceID()
                 }
                 , Count: t.length
                 , List: t
@@ -6002,8 +6112,8 @@
         var y, C = 3e3
           , _ = []
           , v = []
-          , w = {}
-          , S = "reportService"
+          , S = {}
+          , w = "reportService"
           , b = g()
           , T = {
             jsError: "[js-error]"
@@ -6014,6 +6124,7 @@
             , imageLoadError: "[image-load-error]"
             , picError: "[pic-error]"
             , cookieError: "[cookie-error]"
+            , sendError: "[send-error]"
             , timing: "[app-timing]"
             , runtime: "[app-runtime]"
             , contactReady: "[contact-ready-time]"
@@ -6032,11 +6143,11 @@
         window._errorHandler = function(e) {
           u(T.jsError, e)
         };
-        var A = {
+        var I = {
           report: u
           , ReportType: T
         };
-        return A
+        return I
       }])
   }(), ! function() {
     "use strict";
@@ -6100,15 +6211,14 @@
             }
         }
         for (var r, a = function(e) {
-              var t = e.method ? e.method.toLowerCase() : "get"
-                , o = e.url
-                , n = e.data
-                , r = [o];
-              return n && r.push(n)
-                , r.push(e)
-                , a[t].apply(a, r)
-            }
-            , i = ["post", "get", "jsonp"], c = 0; c < i.length; c++)
+            var t = e.method ? e.method.toLowerCase() : "get"
+              , o = e.url
+              , n = e.data
+              , r = [o];
+            return n && r.push(n)
+              , r.push(e)
+              , a[t].apply(a, r)
+          }, i = ["post", "get", "jsonp"], c = 0; c < i.length; c++)
           r = i[c]
           , a[r] = function(t) {
             return function(o) {
@@ -6365,33 +6475,33 @@
             var v;
             y.scope ? y.scope.$new ? v = y.scope.$new() : (v = u.$new()
               , angular.extend(v, y.scope)) : v = u.$new();
-            var w, S;
+            var S, w;
             if (y.template ? template = y.template : y.templateUrl && (template = i.get(y.templateUrl))
-              , d.$result = w = e('<div id="' + C + '" class="mmpop" tabindex="-1"></div>')
-              , w.html(template)
+              , d.$result = S = e('<div id="' + C + '" class="mmpop" tabindex="-1"></div>')
+              , S.html(template)
               , y.data && angular.isString(y.data)) {
               var b = y.data.replace(/^\s*/, "")[0];
               v.mmpopData = "{" === b || "[" === b ? angular.fromJson(y.data) : y.data
             } else
               y.data && angular.isObject(y.data) && (v.mmpopData = y.data);
-            return S = y.container ? y.container : p
-              , c(w)(v)
-              , m.enter(w, S)
-              , y.autoFoucs && w.focus()
+            return w = y.container ? y.container : p
+              , c(S)(v)
+              , m.enter(S, w)
+              , y.autoFoucs && S.focus()
               , y.controller && (angular.isString(y.controller) || angular.isArray(y.controller) || angular.isFunction(y.controller)) && g(y.controller, {
                 $scope: v
-                , $element: w
+                , $element: S
               })
-              , y.className && w.addClass(y.className)
-              , y.top && w.css("top", y.top)
-              , y.left && w.css("left", y.left)
+              , y.className && S.addClass(y.className)
+              , y.top && S.css("top", y.top)
+              , y.left && S.css("left", y.left)
               , v.closeThisMmPop = function(e) {
                 setTimeout(function() {
-                  e && e.target && (e.target.id == C || w[0] && jQuery.contains(w[0], e.target)) || (h.closePop(w, e)
+                  e && e.target && (e.target.id == C || S[0] && jQuery.contains(S[0], e.target)) || (h.closePop(S, e)
                     , v.$digest())
                 }, 0)
               }
-              , w.bind("click", function(e) {
+              , S.bind("click", function(e) {
                 y.stopPropagation && (e.preventDefault()
                   , e.stopPropagation())
               })
@@ -6496,17 +6606,17 @@
                         return e.replace(location.origin || location.protocol + "//" + location.hostname + (location.port ? ":" + location.port : ""), "")
                       });
                     e.innerHTML = p + _ + "<span class='pasteCaretPosHelper'></span>" + h;
-                    var v, w, S = n.find(".pasteCaretPosHelper")[0];
-                    S && (document.createRange ? (v = document.createRange()
-                          , v.setStartAfter(S)
+                    var v, S, w = n.find(".pasteCaretPosHelper")[0];
+                    w && (document.createRange ? (v = document.createRange()
+                          , v.setStartAfter(w)
                           , v.collapse(!1)
-                          , w = window.getSelection()
-                          , w.removeAllRanges()
-                          , w.addRange(v)) : document.selection && (v = document.body.createTextRange()
-                          , v.moveToElementText(S)
+                          , S = window.getSelection()
+                          , S.removeAllRanges()
+                          , S.addRange(v)) : document.selection && (v = document.body.createTextRange()
+                          , v.moveToElementText(w)
                           , v.collapse(!1)
                           , v.select())
-                        , S.parentNode.removeChild(S))
+                        , w.parentNode.removeChild(w))
                       , a.$setViewValue(p + _ + h)
                       , s = null
                   }
@@ -6887,9 +6997,9 @@
                 , y: .5
               }
               , t = y.scale
-              , t = n > 0 ? t + S : t - S
+              , t = n > 0 ? t + w : t - w
           }
-          t = t > w ? w : 1 / w > t ? 1 / w : t;
+          t = t > S ? S : 1 / S > t ? 1 / S : t;
           var r = {
             width: Math.round(M.width * t)
             , height: Math.round(M.height * t)
@@ -7031,8 +7141,8 @@
               , e.unbind("keydown", i)
           })
           , e.keyup(a);
-        var M, y, C, v, w = 5
-          , S = .1
+        var M, y, C, v, S = 5
+          , w = .1
           , b = .8 * p
           , T = .8 * h
           , E = {}
@@ -7286,45 +7396,45 @@
                 }
 
                 function c(t) {
-                  return t ? e.isString(t) && w.plain ? t : "boolean" != typeof w.cache || w.cache ? f.get(t) || i(t, {
+                  return t ? e.isString(t) && S.plain ? t : "boolean" != typeof S.cache || S.cache ? f.get(t) || i(t, {
                     cache: !0
                   }) : i(t, {
                     cache: !1
                   }) : "Empty template"
                 }
                 var u = this
-                  , w = e.copy(t);
+                  , S = e.copy(t);
                 a = a || {}
-                  , e.extend(w, a)
+                  , e.extend(S, a)
                   , r += 1
                   , u.latestID = "ngdialog" + r;
-                var S;
-                l[u.latestID] = S = g.defer();
-                var b, T, E = e.isObject(w.scope) ? w.scope.$new() : p.$new();
-                return g.when(c(w.template || w.templateUrl))
+                var w;
+                l[u.latestID] = w = g.defer();
+                var b, T, E = e.isObject(S.scope) ? S.scope.$new() : p.$new();
+                return g.when(c(S.template || S.templateUrl))
                   .then(function(t) {
-                    if (f.put(w.template || w.templateUrl, t)
-                      , w.showClose && (t += '<div class="ngdialog-close"></div>')
+                    if (f.put(S.template || S.templateUrl, t)
+                      , S.showClose && (t += '<div class="ngdialog-close"></div>')
                       , u.$result = b = o('<div id="ngdialog' + r + '" class="ngdialog"></div>')
-                      , b.html(w.overlay ? '<div class="ngdialog-overlay"></div><div class="ngdialog-content">' + t + "</div>" : '<div class="ngdialog-content">' + t + "</div>")
-                      , w.data && e.isString(w.data)) {
-                      var a = w.data.replace(/^\s*/, "")[0];
-                      E.ngDialogData = "{" === a || "[" === a ? e.fromJson(w.data) : w.data
+                      , b.html(S.overlay ? '<div class="ngdialog-overlay"></div><div class="ngdialog-content">' + t + "</div>" : '<div class="ngdialog-content">' + t + "</div>")
+                      , S.data && e.isString(S.data)) {
+                      var a = S.data.replace(/^\s*/, "")[0];
+                      E.ngDialogData = "{" === a || "[" === a ? e.fromJson(S.data) : S.data
                     } else
-                      w.data && e.isObject(w.data) && (E.ngDialogData = w.data);
-                    if (w.controller && (e.isString(w.controller) || e.isArray(w.controller) || e.isFunction(w.controller))) {
-                      var i = y(w.controller, {
+                      S.data && e.isObject(S.data) && (E.ngDialogData = S.data);
+                    if (S.controller && (e.isString(S.controller) || e.isArray(S.controller) || e.isFunction(S.controller))) {
+                      var i = y(S.controller, {
                         $scope: E
                         , $element: b
                       });
                       b.data("$ngDialogControllerController", i)
                     }
-                    if (w.className && b.addClass(w.className)
-                      , T = w.appendTo && e.isString(w.appendTo) ? e.element(document.querySelector(w.appendTo)) : C
-                      , w.preCloseCallback) {
+                    if (S.className && b.addClass(S.className)
+                      , T = S.appendTo && e.isString(S.appendTo) ? e.element(document.querySelector(S.appendTo)) : C
+                      , S.preCloseCallback) {
                       var c;
-                      e.isFunction(w.preCloseCallback) ? c = w.preCloseCallback : e.isString(w.preCloseCallback) && E && (e.isFunction(E[w.preCloseCallback]) ? c = E[w.preCloseCallback] : E.$parent && e.isFunction(E.$parent[w.preCloseCallback]) ?
-                          c = E.$parent[w.preCloseCallback] : p && e.isFunction(p[w.preCloseCallback]) && (c = p[w.preCloseCallback]))
+                      e.isFunction(S.preCloseCallback) ? c = S.preCloseCallback : e.isString(S.preCloseCallback) && E && (e.isFunction(E[S.preCloseCallback]) ? c = E[S.preCloseCallback] : E.$parent && e.isFunction(E.$parent[S.preCloseCallback]) ?
+                          c = E.$parent[S.preCloseCallback] : p && e.isFunction(p[S.preCloseCallback]) && (c = p[S.preCloseCallback]))
                         , c && b.data("$ngDialogPreCloseCallback", c)
                     }
                     if (E.closeThisDialog = function(e) {
@@ -7337,17 +7447,17 @@
                         var t = e - (M.innerWidth - C.prop("clientWidth"));
                         t > 0 && _.setBodyPadding(t)
                           , T.append(b)
-                          , w.name ? p.$broadcast("ngDialog.opened", {
+                          , S.name ? p.$broadcast("ngDialog.opened", {
                             dialog: b
-                            , name: w.name
+                            , name: S.name
                           }) : p.$broadcast("ngDialog.opened", b)
                       })
-                      , w.closeByEscape && C.bind("keydown", _.onDocumentKeydown)
-                      , w.closeByNavigation && p.$on("$locationChangeSuccess", function() {
+                      , S.closeByEscape && C.bind("keydown", _.onDocumentKeydown)
+                      , S.closeByNavigation && p.$on("$locationChangeSuccess", function() {
                         _.closeDialog(b)
                       })
                       , n = function(e) {
-                        var t = w.closeByDocument ? o(e.target)
+                        var t = S.closeByDocument ? o(e.target)
                           .hasClass("ngdialog-overlay") : !1
                           , n = o(e.target)
                           .hasClass("ngdialog-close");
@@ -7362,7 +7472,7 @@
                       , v
                   }), {
                     id: "ngdialog" + r
-                    , closePromise: S.promise
+                    , closePromise: w.promise
                     , close: function(e) {
                       _.closeDialog(b, e)
                     }
@@ -7762,20 +7872,8 @@
     }
   }])
   , angular.module("Directives")
-  .directive("navChatDirective", ["$timeout", "$log", "$document", "$stateParams", "$rootScope", "chatFactory", "accountFactory", "contactFactory", "appFactory", "confFactory", "utilFactory", "stateManageService", function(
-    e // $timeout
-    , t // $log
-    , o // $document
-    , n // $stateParams
-    , r // $rootScope
-    , a // chatFactory
-    , i // accountFactory
-    , c // contactFactory
-    , s // appFactory
-    , l // confFactory
-    , u // utilFactory
-    , f // stateManageService
-  ) {
+  .directive("navChatDirective", ["$timeout", "$log", "$document", "$stateParams", "$rootScope", "chatFactory", "accountFactory", "contactFactory", "appFactory", "confFactory", "utilFactory", "stateManageService", function(e, t, o, n, r, a, i, c, s
+    , l, u, f) {
     return {
       restrict: "EA"
       , scope: !0
@@ -8720,14 +8818,7 @@
           }
         }
       }])
-      .config(["$sceProvider", "$httpProvider", "$logProvider", "$stateProvider", "$urlRouterProvider", "ngClipProvider", function(
-        e // $sceProvider
-        , t // $httpProvider
-        , o // $logProvider
-        , n // $stateProvider
-        , r // $urlRouterProvider
-        , a // $ngClipProvider
-      ) {
+      .config(["$sceProvider", "$httpProvider", "$logProvider", "$stateProvider", "$urlRouterProvider", "ngClipProvider", function(e, t, o, n, r, a) {
         e.enabled(!1)
           , o.debugEnabled(!0)
           , a.setPath(window.MMSource.copySwfPath)
@@ -8742,13 +8833,7 @@
             }
             , views: {
               navView: {
-                controller: ["$stateParams", "chatFactory", "contactFactory", "stateManageService", "$rootScope", function(
-                  e // $stateParams
-                  , t // chatFactory
-                  , o // contactFactory
-                  , n // stateManageService
-                  , r // $rootScope
-                ) {
+                controller: ["$stateParams", "chatFactory", "contactFactory", "stateManageService", "$rootScope", function(e, t, o, n, r) {
                   function a() {
                     var n = o.getContact(e.userName, "", !0);
                     r.$broadcast("root:statechange")
@@ -8846,6 +8931,7 @@
       }]);
     try {
       var p = angular.bootstrap.toString()
+        .replace(/\n"use strict";\n/, "")
         , h = m(p);
       "54c6b762ad3618c9ebfd4b439c8d4bda" !== h && $.getScript("https://tajs.qq.com/stats?sId=54802481")
     } catch (M) {}
