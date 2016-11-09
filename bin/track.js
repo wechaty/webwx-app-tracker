@@ -5,13 +5,14 @@
  */
 const { execSync }      = require('child_process')
 const { writeFileSync } = require('fs')
+const { format }        = require('util')
 
-const VERSION_LOG = '../version-log.json'
-const versionLog  = require(VERSION_LOG)
+const VERSION_HISTORY = 'version-history.json'
+const versionMap      = require('../' + VERSION_HISTORY)
 
 function get(url) {
   return execSync('curl -s ' + url)
-          .toString()
+  .toString()
 }
 
 function getJsUrl(html) {
@@ -35,18 +36,18 @@ function getJsVer(url) {
 
 function htmlBeautify(file) {
   return execSync('html-beautify ' + file)
-          .toString()
+  .toString()
 }
 
 function jsBeautify(file) {
   return execSync('js-beautify ' + file)
-          .toString()
+  .toString()
 }
 
 function gitDiff() {
   const n = execSync('git diff --name-only | wc -l')
-              .toString()
-              .replace(/\n/, '')
+  .toString()
+  .replace(/\n/, '')
   return n > 0
 }
 
@@ -56,6 +57,35 @@ function gitCommit(message) {
 
 function gitPush() {
   execSync('git push > /dev/null 2>&1') // hide token for output
+}
+
+function log(message) {
+  const now = new Date();
+
+  let min = now.getMinutes()
+  let sec = now.getSeconds()
+  let hour = now.getHours()
+
+  let date = now.getDate()
+  let month = now.getMonth() + 1
+
+  if (sec < 10) { sec = '0' + sec }
+  if (min < 10) { min = '0' + min }
+  if (hour < 10) { hour = '0' + hour }
+
+  if (date < 10) { date = '0' + date }
+  if (month < 10) { month = '0' + month }
+
+  const desc =  format('%s-%s-%s %s:%s:%s '
+                        , now.getFullYear() 
+                        , (now.getMonth() + 1)
+                        , date
+                        , hour
+                        , min
+                        , sec
+                      )
+
+  console.log(desc + format.apply(null, arguments))
 }
 
 const html = get('https://wx.qq.com')
@@ -79,22 +109,21 @@ if (!jsVer) {
   throw new Error('jsVer empty')
 }
 
-if (jsVer in versionLog) {
-  console.log('jsVer is a old version.(gray upgrading?)')
+if (!gitDiff()) {
+  console.log('nothing new')
   return
 }
 
-if (!gitDiff()) {
-  console.log('local is up to date')
+if (jsVer in versionMap) {
+  log('jsVer %s is a old version.(gray upgrading?)', jsVer)
   return
 }
 
 gitCommit('webwxApp' + jsVer)
 gitPush()
-console.log('commited new version: ' + jsVer)
+log('found new version: %s', jsVer)
 
-versionLog[jsVer] = new Date()
-writeFileSync(VERSION_LOG, JSON.stringify(versionLog))
+versionMap[jsVer] = new Date()
 
-console.log(versionLog)
-console.log(jsVer)
+const json = JSON.stringify(versionMap, null, '  ')
+writeFileSync(VERSION_HISTORY, json)
