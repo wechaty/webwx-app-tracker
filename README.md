@@ -1,4 +1,4 @@
-# webwx-app
+# webwx-app-tracker
 webwxApp SPA Html &amp; AngularJS Script Tracker for Web Wechat
 
 # Introduction
@@ -15,7 +15,7 @@ What it is doing is:
 
 # Quick Start
 
-Open https://github.com/wechaty/webwx-app/commits/master to know the day to day change of web wechat html/javascript code.
+Open https://github.com/wechaty/webwx-app-tracker/commits/master to know the day to day change of web wechat html/javascript code.
 
 Or clone this repository on github, then run on your own machine.
 
@@ -24,8 +24,8 @@ Or clone this repository on github, then run on your own machine.
 I put `npm run track` to my crontab with the following setting:(run every 6 hours)
 
 ```shell
-zixia@dev:~/git/webwx-app$ crontab -l
-* */6 * * * (cd ~/git/webwx-app && npm run track >> /tmp/webwx-app.log 2>&1)
+zixia@dev:~/git/webwx-app-tracker$ crontab -l
+* */6 * * * (cd ~/git/webwx-app-tracker && npm run track >> /tmp/webwx-app-tracker.log 2>&1)
 ```
 
 Any suggestion is welcome.
