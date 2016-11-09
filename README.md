@@ -24,6 +24,8 @@ Or clone this repository on github, and run on your own machine.
 I put `npm run update` to my crontab with the following setting:
 
 ```shell
+zixia@dev:~/git/webwx-app$ crontab -l
+* */6 * * * (cd ~/git/webwx-app && npm run track >> /tmp/cron.log 2>&1)
 ```
 
 Any suggestion is welcome.
