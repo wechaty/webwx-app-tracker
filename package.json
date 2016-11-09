@@ -1,0 +1,27 @@
+{
+  "name": "webwx-app-tracker",
+  "version": "0.0.1",
+  "description": "webwxApp SPA Html & AngularJS Script Tracker for Web Wechat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo test test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wechaty/webwx-app.git"
+  },
+  "keywords": [
+    "wechat",
+    "web",
+    "javascript"
+  ],
+  "author": "Zhuohuan LI <zixia@zixia.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wechaty/webwx-app/issues"
+  },
+  "homepage": "https://github.com/wechaty/webwx-app#readme",
+  "dependencies": {
+    "js-beautify": "^1.6.4"
+  }
+}
