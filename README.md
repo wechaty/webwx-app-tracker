@@ -21,7 +21,7 @@ Or clone this repository on github, and run on your own machine.
 
 # Cron
 
-I put `npm run update` to my crontab with the following setting:
+I put `npm run update` to my crontab with the following setting:(run every 6 hours)
 
 ```shell
 zixia@dev:~/git/webwx-app$ crontab -l
