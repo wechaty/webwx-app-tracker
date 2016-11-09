@@ -807,7 +807,10 @@
                     else if (e.ToUserName || (e.ToUserName = s.getSendFileUsername()), N(e, W), "gif" !== e.ext.toLowerCase() && !T(e.ext)) {
                       var n = E(e.ext);
                       if (n == a.MSGTYPE_VIDEO && e.size >= 1024 * H * 1024) return B.skipFile(e), void alert(MM.context("9a7dbbc"));
-                      e.ToUserName != s.getCurrentUserName() && u.reportSendState("sendFileWrong"), e.MMSendMsg = s.createMessage({
+                      e.ToUserName != s.getCurrentUserName() && (u.reportSendState("sendFileWrong"), m.report(m.ReportType.sendError, {
+                        type: "sendFileWrong"
+                        , browser: u.browser.msie ? "ie" : "other"
+                      })), e.MMSendMsg = s.createMessage({
                         ToUserName: e.ToUserName
                         , MsgType: n
                         , FileName: e.name
@@ -861,7 +864,7 @@
                         console.log("md5 result:", t);
                         var s = Date.now() - c
                           , l = s / e.size * 1024 * 1024;
-                        e.size > 1048576 ? u.reportSendState("MD5TimeBigFilePerMb", Math.floor(l)) : u.reportSendState("MD5TimeSmallFile", s);
+                        e.size > 1048576 ? (u.reportSendState("MD5TimeBigFilePerMb", Math.floor(l)), u.reportSendState("MD5TimeBigFilePerMbCount")) : (u.reportSendState("MD5TimeSmallFile", s), u.reportSendState("MD5TimeSmallFileCount"));
                         var f, d = {
                           FromUserName: i.getUserName()
                           , ToUserName: e.ToUserName
@@ -1064,7 +1067,10 @@
             , V = function() {}
             , W = {
               onQueued: function() {
-                if ((T(this.ext) || "gif" == this.ext.toLowerCase()) && this.ToUserName != s.getCurrentUserName() && u.reportSendState("sendImageWrong"), "gif" == this.ext.toLowerCase()) return this.MMSendMsg = s.createMessage({
+                if ((T(this.ext) || "gif" == this.ext.toLowerCase()) && this.ToUserName != s.getCurrentUserName() && (u.reportSendState("sendImageWrong"), m.report(m.ReportType.sendError, {
+                    type: "sendImageWrong"
+                    , browser: u.browser.msie ? "ie" : "other"
+                  })), "gif" == this.ext.toLowerCase()) return this.MMSendMsg = s.createMessage({
                   ToUserName: this.ToUserName
                   , MsgType: a.MSGTYPE_EMOTICON
                   , EmojiFlag: a.EMOJI_FLAG_GIF
@@ -1749,8 +1755,8 @@
               return !1
             }
             , createMessage: function(e) {
-              switch (e.FromUserName || (e.FromUserName = accountFactory.getUserName()), e.ToUserName || (e.ToUserName = this.getCurrentUserName()), e.isTranspond || this._sendCheck(e.ToUserName) || (utilFactory.reportSendState("uiCheckFail")
-                  , reportService.report(reportService.ReportType.sendError, {})), e.ClientMsgId = e.LocalID = e.MsgId = (utilFactory.now() + Math.random()
+              switch (e.FromUserName || (e.FromUserName = accountFactory.getUserName()), e.ToUserName || (e.ToUserName = this.getCurrentUserName()), e.isTranspond || this._sendCheck(e.ToUserName) || utilFactory.reportSendState("uiCheckFail")
+                , e.ClientMsgId = e.LocalID = e.MsgId = (utilFactory.now() + Math.random()
                   .toFixed(3))
                 .replace(".", ""), e.CreateTime = Math.round(utilFactory.now() / 1e3), e.MMStatus = confFactory.MSG_SEND_STATUS_READY, e.sendByLocal = !0, e.MsgType) {
                 case confFactory.MSGTYPE_TEXT:
@@ -3658,6 +3664,14 @@
                 , MD5TimeSmallFile: {
                   ie: 71
                   , notIe: 72
+                }
+                , MD5TimeBigFilePerMbCount: {
+                  ie: 73
+                  , notIe: 74
+                }
+                , MD5TimeSmallFileCount: {
+                  ie: 75
+                  , notIe: 76
                 }
               }
               , a = r[e];
