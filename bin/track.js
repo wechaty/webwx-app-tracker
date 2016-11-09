@@ -52,7 +52,7 @@ function gitCommit(message) {
 }
 
 function gitPush() {
-  execSync('git push')
+  execSync('git push > /dev/null 2>&1') // hide token for output
 }
 
 const html = get('https://wx.qq.com')
