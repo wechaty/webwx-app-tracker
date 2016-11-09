@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo test test",
-    "update": "node bin/update.js"
+    "track": "node bin/track.js"
   },
   "repository": {
     "type": "git",
