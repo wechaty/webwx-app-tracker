@@ -75,7 +75,7 @@ writeFileSync(formattedJsFile   , jsBeautify(orignalJsFile))
 if (!gitDiff()) {
   console.log('local is up to date')
 } else {
-  gitCommit(jsVer)
+  gitCommit('webwxApp' + jsVer)
   gitPush()
   console.log('commited new version: ' + jsVer)
 }
