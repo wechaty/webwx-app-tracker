@@ -4,7 +4,8 @@
   "description": "webwxApp SPA Html & AngularJS Script Tracker for Web Wechat",
   "main": "index.js",
   "scripts": {
-    "test": "echo test test"
+    "test": "echo test test",
+    "update": "node bin/update.js"
   },
   "repository": {
     "type": "git",
