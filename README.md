@@ -19,11 +19,11 @@ I have a webwxApp.js which was saved on May, about 5 months ago before I setup t
 
 1. After I finished this tracker, I got a diff on webwxApp between version Nov to May, you can see, there's not much change at the past half year:
 
-https://github.com/wechaty/webwx-app-tracker/commit/ab292418e2651ec7e2630da156b3c18f0dca26fd
+  https://github.com/wechaty/webwx-app-tracker/commit/ab292418e2651ec7e2630da156b3c18f0dca26fd
 
 2. However there has a new little bug been introduced, it's a typo of `API_webwxsendmsgvedio`:
 
-https://github.com/wechaty/webwx-app-tracker/commit/ab292418e2651ec7e2630da156b3c18f0dca26fd#diff-80c9da80c8ca080b37c6c49864880646R3300
+  https://github.com/wechaty/webwx-app-tracker/commit/ab292418e2651ec7e2630da156b3c18f0dca26fd#diff-80c9da80c8ca080b37c6c49864880646R3300
 
 Enjoy it!
 
