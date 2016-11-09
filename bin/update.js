@@ -51,6 +51,10 @@ function gitCommit(message) {
   execSync('git commit -am "' + message + '"')
 }
 
+function gitPush() {
+  execSync('git push')
+}
+
 const html = get('https://wx.qq.com')
 const jsUrl = getJsUrl(html)
 const jsVer = getJsVer(jsUrl)
@@ -72,6 +76,7 @@ if (!gitDiff()) {
   console.log('local is up to date')
 } else {
   gitCommit(jsVer)
+  gitPush()
   console.log('commited new version: ' + jsVer)
 }
 
