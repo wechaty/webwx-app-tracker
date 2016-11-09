@@ -40,6 +40,17 @@ function jsBeautify(file) {
           .toString()
 }
 
+function gitDiff() {
+  const n = execSync('git diff --name-only | wc -l')
+              .toString()
+              .replace(/\n/, '')
+  return n > 0
+}
+
+function gitCommit(message) {
+  execSync('git commit -am "' + message + '"')
+}
+
 const html = get('https://wx.qq.com')
 const jsUrl = getJsUrl(html)
 const jsVer = getJsVer(jsUrl)
@@ -56,5 +67,12 @@ writeFileSync(orignalJsFile   , js)
 
 writeFileSync(formattedHtmlFile , htmlBeautify(orignalHtmlFile))
 writeFileSync(formattedJsFile   , jsBeautify(orignalJsFile))
+
+if (!gitDiff()) {
+  console.log('local is up to date')
+} else {
+  gitCommit(jsVer)
+  console.log('commited new version: ' + jsVer)
+}
 
 console.log(jsVer)
