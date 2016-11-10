@@ -7,7 +7,7 @@ const { execSync }      = require('child_process')
 const { writeFileSync } = require('fs')
 const { format }        = require('util')
 
-const VERSION_HISTORY = 'version-history.json'
+const VERSION_HISTORY = 'history-version.json'
 const versionMap      = require('../' + VERSION_HISTORY)
 
 function get(url) {
