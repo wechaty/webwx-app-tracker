@@ -52,7 +52,7 @@ function gitDiff() {
 }
 
 function gitCommit(message) {
-  execSync('git commit --author="Mike Bo <mike@zixia.net>" -am "' + message + '"')
+  execSync('git commit --author="Mike BO <mike@zixia.net>" -am "' + message + '"')
 }
 
 function gitPush() {
