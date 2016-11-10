@@ -60,7 +60,7 @@ function gitPull() {
 }
 
 function gitPush() {
-  execSync('git push &>/dev/null') // hide token for output
+  execSync('git push >/dev/null 2>&1') // hide token for output
 }
 
 function log(message) {
