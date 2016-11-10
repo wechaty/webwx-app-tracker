@@ -15,13 +15,13 @@ What it is doing is:
 
 # Case Study
 
-I have a webwxApp.js which was saved on May, about 5 months ago before I setup this tracker.
+I have a webwxApp.js which was saved on May 2016, about 5 months ago before I setup this tracker.
 
-1. After I finished this tracker, I got a diff on webwxApp between version Nov to May, you can see, there's not much change at the past half year:
+1. After I finished this tracker, I got a diff on webwxApp between version May to Nov, you can see, there's no much change at the past half year:
 
   https://github.com/wechaty/webwx-app-tracker/commit/ab292418e2651ec7e2630da156b3c18f0dca26fd
 
-2. However there has a new little bug been introduced, it's a typo of `API_webwxsendmsgvedio`:
+2. However there was a new little bug introduced in, it's a typo of `API_webwxsendmsgvedio`:
 
   https://github.com/wechaty/webwx-app-tracker/commit/ab292418e2651ec7e2630da156b3c18f0dca26fd#diff-80c9da80c8ca080b37c6c49864880646R3300
 
@@ -35,11 +35,11 @@ Or clone this repository on github, then run on your own machine.
 
 # Cron
 
-I put `npm run track` to my crontab with the following setting:(run every 6 hours)
+I put `npm run track` to my crontab with the following setting:(run every hour)
 
 ```shell
 zixia@dev:~/git/webwx-app-tracker$ crontab -l
-1 */6 * * * (date && cd ~/git/webwx-app-tracker && npm run -s track >> /tmp/webwx-app-tracker.log 2>&1)
+1 * * * * (date && cd ~/git/webwx-app-tracker && npm run -s track >> /tmp/webwx-app-tracker.log 2>&1)
 ```
 
 P.S. You need to use Github Personal Token to enable push in crontab:
