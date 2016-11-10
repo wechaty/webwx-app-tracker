@@ -14,7 +14,7 @@
       }]) : angular.module("exceptionOverride", []), angular.module("Controllers")
       .controller("appController", ["$rootScope", "$scope", "$timeout", "$log", "$state", "$window", "ngDialog", "mmpop", "appFactory", "loginFactory", "contactFactory", "accountFactory", "chatFactory", "confFactory", "contextMenuFactory"
         , "notificationFactory", "utilFactory", "reportService", "actionTrack", "surviveCheckService", "subscribeMsgService", "stateManageService"
-        , function(e, t, o, n, r, a, i, c, s, l, u, f, d, g, m, p, h, M, y, C, v, S) {
+        , function(e, t, o, n, r, a, i, c, s, l, u, f, d, g, m, p, h, M, y, C, S, v) {
           function w() {
             return u.pickContacts(["friend", "chatroom"], {
                 chatroom: {
@@ -60,7 +60,7 @@
                     }
                   }]
                 }));
-                f.setUserInfo(n.User), f.setSkey(n.SKey), f.setSyncKey(n.SyncKey), u.addContact(n.User), u.addContacts(n.ContactList), d.initChatList(n.ChatSet), d.notifyMobile(f.getUserName(), g.StatusNotifyCode_INITED), v.init(n.MPSubscribeMsgList)
+                f.setUserInfo(n.User), f.setSkey(n.SKey), f.setSyncKey(n.SyncKey), u.addContact(n.User), u.addContacts(n.ContactList), d.initChatList(n.ChatSet), d.notifyMobile(f.getUserName(), g.StatusNotifyCode_INITED), S.init(n.MPSubscribeMsgList)
                   , e.$broadcast("root:pageInit:success"), h.setCheckUrl(f), h.log("getUserInfo", f.getUserInfo()), t.$broadcast("updateUser"), M.report(M.ReportType.timing, {
                     timing: {
                       initEnd: Date.now()
@@ -176,9 +176,9 @@
           });
           var F;
           t.$on("ngDialog.opened", function(e, t) {
-              S.change("dialog:open", !0), F = t, b()
+              v.change("dialog:open", !0), F = t, b()
             }), t.$on("ngDialog.closed", function() {
-              S.change("dialog:open", !1), F = null
+              v.change("dialog:open", !1), F = null
             }), $(window)
             .on("resize", function() {
               b()
@@ -335,7 +335,7 @@
             }
           }
 
-          function v(t) {
+          function S(t) {
             for (var o = e.imagesMessagesList, n = 0; n < o.length; n++)
               if (o[n].msg.MsgId == t.MsgId) {
                 o.splice(n, 1);
@@ -343,7 +343,7 @@
               }
           }
 
-          function S(e, t) {
+          function v(e, t) {
             var o, n;
             for (n = 0; n <= e.length; n++) {
               if (o = e[n], !o) {
@@ -395,7 +395,7 @@
             }, e.getMsgVideo = function(e) {
               return u.API_webwxgetvideo + "?msgid=" + e + "&skey=" + encodeURIComponent(c.getSkey())
             }, e.messageHandle = function(e) {
-              e.MMRecall && v(e)
+              e.MMRecall && S(e)
             }, e.getUserContact = function(e, t) {
               return e || t ? t && e != t ? s.getContact(e, t) : s.getContact(e) : void 0
             }, e.appMsgClick = function(e, t) {
@@ -446,7 +446,7 @@
                 } : {
                   msg: t
                   , preview: o
-                }, a = S(i, l)
+                }, a = v(i, l)
               }
               return a
             }, e.showChatRoomMembers = function(o) {
@@ -706,7 +706,7 @@
             return n
           }
 
-          function v(e, t) {
+          function S(e, t) {
             var o, n;
             if (t || M(), window.getSelection) {
               !t && A ? (o = I, n = A) : (o = window.getSelection(), n = o.getRangeAt(0)), n.deleteContents();
@@ -725,7 +725,7 @@
               .replace(/>/gi, "&gt;"), n.pasteHTML(e), n.select()
           }
 
-          function S() {
+          function v() {
             window.getSelection && (window.getSelection()
               .getRangeAt(0)
               .insertNode(F), k = F.offsetLeft, U = F.offsetTop - D.scrollTop, R.appendChild(F))
@@ -987,7 +987,7 @@
             if (MMDEV && e.keyCode == a.KEYCODE_NUM2 && "@" == C(1)) {
               var o = s.getCurrentUserName();
               if (!u.isRoomContact(o)) return;
-              S(), Y = function() {
+              v(), Y = function() {
                 G = null, Y = null;
                 var e = c.getChatRoomMembersContact(o, "withoutMe");
                 h(), f.open({
@@ -1029,7 +1029,7 @@
           }, t.editAreaBlur = function() {
             Y = null, d.change("sender:active", !1)
           }, t.editAreaClick = function() {
-            S()
+            v()
           }, t.sendTextMessage = function() {
             if (f.close(), !t.editAreaCtn.replace(/<br\/?>/g, "")
               .match(/^\s*$/)) {
@@ -1042,7 +1042,7 @@
           }, t.$on("root:quoteMsg", function(e, t) {
             b(t + (D.innerHTML.replace("<br>", "") ? D.innerHTML : "<br>")), D.scrollTop = 9999
           }), t.insertToEditArea = function(e, o) {
-            v(e, o), t.editAreaCtn = D.innerHTML
+            S(e, o), t.editAreaCtn = D.innerHTML
           }, t.sendTuzkiEmoji = function(e, t) {
             var o = s.createMessage({
               MsgType: a.MSGTYPE_EMOTICON
@@ -1734,10 +1734,7 @@
               return _currentUserName
             }
             , setSendFileUsername: function(e) {
-              _sendFileUserName = e, this._sendCheck(e) || (utilFactory.reportSendState("uiCheckFail"), reportService.report(reportService.ReportType.sendError, {
-                type: "uiCheckFail"
-                , browser: utilFactory.browser.msie ? "ie" : "other"
-              }))
+              _sendFileUserName = e, this._sendCheck(e)
             }
             , resetSendFileUsername: function() {
               _sendFileUserName = ""
@@ -1753,7 +1750,16 @@
                   , r = $(o)
                   , a = n.attr("data-username")
                   , i = r.attr("data-username");
-                return a && i || utilFactory.reportSendState("sendcheckAttrError"), a == i && i == e ? !0 : !1
+                return a && i || utilFactory.reportSendState("sendcheckAttrError"), e || utilFactory.reportSendState("toUserNameNotFound"), a == i && i == e ? !0 : (i != e && utilFactory.reportSendState("toUserNameConflictNav"), a != e &&
+                  utilFactory.reportSendState("toUserNameConflictChat"), utilFactory.reportSendState("uiCheckFail"), reportService.report(reportService.ReportType.sendError, {
+                    type: "uiCheckFail"
+                    , browser: utilFactory.browser.msie ? "ie" : "other"
+                    , values: {
+                      chatuser: a
+                      , navuser: i
+                      , userName: e
+                    }
+                  }), !1)
               }
               return t || utilFactory.reportSendState("chatCurrentNameNotFound"), o || utilFactory.reportSendState("navcurrentNameNotFound"), utilFactory.reportSendState("sendcheckElementError"), !1
             }
@@ -2801,8 +2807,8 @@
           , M = []
           , y = []
           , C = window._chatRoomMemberDisplayNames = {}
-          , v = []
           , S = []
+          , v = []
           , w = []
           , b = {}
           , T = {}
@@ -3025,13 +3031,13 @@
               return -1
             }
             , inContactsToGetList: function(e) {
-              for (var t = 0, o = v.length; o > t; t++)
-                if (v[t].UserName == e.UserName) return t;
+              for (var t = 0, o = S.length; o > t; t++)
+                if (S[t].UserName == e.UserName) return t;
               return -1
             }
             , inContactsGettingList: function(e) {
-              for (var t = 0, o = S.length; o > t; t++)
-                if (S[t].UserName == e.UserName) return t;
+              for (var t = 0, o = v.length; o > t; t++)
+                if (v[t].UserName == e.UserName) return t;
               return -1
             }
             , inContactsGetErrMap: function(e) {
@@ -3043,7 +3049,7 @@
                     var t = d.inContactsToGetList({
                       UserName: e.UserName
                     });
-                    t > -1 && v.splice(t, 1), c.isRoomContact(e.UserName) && e.MemberList && e.MemberList.length ? angular.forEach(e.MemberList, function(t) {
+                    t > -1 && S.splice(t, 1), c.isRoomContact(e.UserName) && e.MemberList && e.MemberList.length ? angular.forEach(e.MemberList, function(t) {
                       var o = d.getContact(t.UserName, "", !0);
                       o && o.isContact() || (t.HeadImgUrl = c.getContactHeadImgUrl({
                         EncryChatRoomId: e.EncryChatRoomId
@@ -3053,17 +3059,17 @@
                       var n = d.inContactsToGetList({
                         UserName: t.UserName
                       });
-                      n > -1 && v.splice(n, 1)
+                      n > -1 && S.splice(n, 1)
                     }) : d.addChatroomMemberDisplayName(e, e.UserName)
-                  }), console.timeEnd("addContactsHandler"), d.addContacts(e.ContactList, !0), S = [], !S.length && v.length > 0 && d.batchGetContact()
+                  }), console.timeEnd("addContactsHandler"), d.addContacts(e.ContactList, !0), v = [], !v.length && S.length > 0 && d.batchGetContact()
                   .then(i, s)
               }
 
               function s(e) {
-                var t = S;
-                S = [], E++, f.reject(e), 1 == t.length ? (console.log("batchGetContactError", t[0]), b[t[0].UserName] = 1) : angular.forEach(t, function(e) {
+                var t = v;
+                v = [], E++, f.reject(e), 1 == t.length ? (console.log("batchGetContactError", t[0]), b[t[0].UserName] = 1) : angular.forEach(t, function(e) {
                     d.addBatchgetContact(e, !1, !0)
-                  }), S.length || !v.length && !w.length || d.batchGetContact()
+                  }), v.length || !S.length && !w.length || d.batchGetContact()
                   .then(i, s)
               }
               var l, u, f = o.defer()
@@ -3071,13 +3077,13 @@
               if (e && e.UserName) {
                 if (r) {
                   if (d.inContactsWithErrorToGetList(e) > -1) return;
-                  w.push(e), l = d.inContactsToGetList(e), l > -1 && v.splice(l, 1)
+                  w.push(e), l = d.inContactsToGetList(e), l > -1 && S.splice(l, 1)
                 } else {
                   if (d.inContactsToGetList(e) > -1 || d.inContactsGettingList(e) > -1 || d.inContactsGetErrMap(e)) return;
-                  c.isRoomContact(e.UserName) || t ? v.unshift(e) : v.push(e)
+                  c.isRoomContact(e.UserName) || t ? S.unshift(e) : S.push(e)
                 }
                 return u && n.cancel(u), u = n(function() {
-                  S.length || !v.length && !w.length || d.batchGetContact()
+                  v.length || !S.length && !w.length || d.batchGetContact()
                     .then(i, s)
                 }, 200), f.promise
               }
@@ -3105,12 +3111,12 @@
             , batchGetContact: function(e) {
               var n = o.defer()
                 , i = 1;
-              return w.length ? (i = w.length < 6 || E > 2 ? 1 : w.length < 40 ? 5 : 10, S = w.splice(0, i), console.log("_contactsWithErrorToGetList lenght:", w.length)) : S = v.splice(0, 50), t({
+              return w.length ? (i = w.length < 6 || E > 2 ? 1 : w.length < 40 ? 5 : 10, v = w.splice(0, i), console.log("_contactsWithErrorToGetList lenght:", w.length)) : v = S.splice(0, 50), t({
                   method: "POST"
                   , url: r.API_webwxbatchgetcontact + "?type=ex&r=" + c.now()
                   , data: angular.extend(a.getBaseRequest(), {
-                    Count: S.length
-                    , List: S
+                    Count: v.length
+                    , List: v
                   })
                 })
                 .success(function(t) {
@@ -3656,8 +3662,8 @@
                   , notIe: 66
                 }
                 , uiCheckFail: {
-                  ie: 67
-                  , notIe: 68
+                  ie: 84
+                  , notIe: 84
                 }
                 , MD5TimeBigFilePerMb: {
                   ie: 69
@@ -3690,6 +3696,18 @@
                 , navcurrentNameNotFound: {
                   ie: 80
                   , notIe: 80
+                }
+                , toUserNameNotFound: {
+                  ie: 81
+                  , notIe: 81
+                }
+                , toUserNameConflictNav: {
+                  ie: 82
+                  , notIe: 82
+                }
+                , toUserNameConflictChat: {
+                  ie: 83
+                  , notIe: 83
                 }
               }
               , a = r[e];
@@ -5126,7 +5144,7 @@
         function f() {
           for (var e = [0, 15e3, 6e5], o = 0; o < e.length; o++) setTimeout(function(e) {
             return function() {
-              S[e] = m(t)
+              v[e] = m(t)
             }
           }(e[o]), e[o])
         }
@@ -5134,15 +5152,15 @@
         function d() {
           $(window)
             .unload(function() {
-              S.unload = m(t), v.push({
+              v.unload = m(t), S.push({
                 type: T.runtime
-                , data: S
-              }), !P && v.push({
+                , data: v
+              }), !P && S.push({
                 type: T.timing
                 , data: {
                   fullTiming: r()
                 }
-              }), localStorage.setItem(w, JSON.stringify(v))
+              }), localStorage.setItem(w, JSON.stringify(S))
             })
         }
 
@@ -5215,8 +5233,8 @@
         }
         var y, C = 3e3
           , _ = []
-          , v = []
-          , S = {}
+          , S = []
+          , v = {}
           , w = "reportService"
           , b = g()
           , T = {
@@ -5522,27 +5540,27 @@
             u.$broadcast("root:mmpop:open", C);
             var _;
             r[d.latestID] = _ = s.defer();
-            var v;
-            y.scope ? y.scope.$new ? v = y.scope.$new() : (v = u.$new(), angular.extend(v, y.scope)) : v = u.$new();
-            var S, w;
-            if (y.template ? template = y.template : y.templateUrl && (template = i.get(y.templateUrl)), d.$result = S = e('<div id="' + C + '" class="mmpop" tabindex="-1"></div>'), S.html(template), y.data && angular.isString(y.data)) {
+            var S;
+            y.scope ? y.scope.$new ? S = y.scope.$new() : (S = u.$new(), angular.extend(S, y.scope)) : S = u.$new();
+            var v, w;
+            if (y.template ? template = y.template : y.templateUrl && (template = i.get(y.templateUrl)), d.$result = v = e('<div id="' + C + '" class="mmpop" tabindex="-1"></div>'), v.html(template), y.data && angular.isString(y.data)) {
               var b = y.data.replace(/^\s*/, "")[0];
-              v.mmpopData = "{" === b || "[" === b ? angular.fromJson(y.data) : y.data
-            } else y.data && angular.isObject(y.data) && (v.mmpopData = y.data);
-            return w = y.container ? y.container : p, c(S)(v), m.enter(S, w), y.autoFoucs && S.focus(), y.controller && (angular.isString(y.controller) || angular.isArray(y.controller) || angular.isFunction(y.controller)) && g(y.controller
+              S.mmpopData = "{" === b || "[" === b ? angular.fromJson(y.data) : y.data
+            } else y.data && angular.isObject(y.data) && (S.mmpopData = y.data);
+            return w = y.container ? y.container : p, c(v)(S), m.enter(v, w), y.autoFoucs && v.focus(), y.controller && (angular.isString(y.controller) || angular.isArray(y.controller) || angular.isFunction(y.controller)) && g(y.controller
               , {
-                $scope: v
-                , $element: S
-              }), y.className && S.addClass(y.className), y.top && S.css("top", y.top), y.left && S.css("left", y.left), v.closeThisMmPop = function(e) {
+                $scope: S
+                , $element: v
+              }), y.className && v.addClass(y.className), y.top && v.css("top", y.top), y.left && v.css("left", y.left), S.closeThisMmPop = function(e) {
               setTimeout(function() {
-                e && e.target && (e.target.id == C || S[0] && jQuery.contains(S[0], e.target)) || (h.closePop(S, e), v.$digest())
+                e && e.target && (e.target.id == C || v[0] && jQuery.contains(v[0], e.target)) || (h.closePop(v, e), S.$digest())
               }, 0)
-            }, S.bind("click", function(e) {
+            }, v.bind("click", function(e) {
               y.stopPropagation && (e.preventDefault(), e.stopPropagation())
             }), f(function() {
-              a.bind("click", v.closeThisMmPop)
+              a.bind("click", S.closeThisMmPop)
             }, 0), y.closeByEscape && p.bind("keydown", h.onDocumentKeydown), n += 1, {
-              close: v.closeThisMmPop
+              close: S.closeThisMmPop
               , isOpen: function() {
                 return e(document.getElementById(C))
                   .length
@@ -5625,9 +5643,9 @@
                     return e.replace(location.origin || location.protocol + "//" + location.hostname + (location.port ? ":" + location.port : ""), "")
                   });
                 e.innerHTML = p + _ + "<span class='pasteCaretPosHelper'></span>" + h;
-                var v, S, w = n.find(".pasteCaretPosHelper")[0];
-                w && (document.createRange ? (v = document.createRange(), v.setStartAfter(w), v.collapse(!1), S = window.getSelection(), S.removeAllRanges(), S.addRange(v)) : document.selection && (v = document.body.createTextRange()
-                  , v.moveToElementText(w), v.collapse(!1), v.select()), w.parentNode.removeChild(w)), a.$setViewValue(p + _ + h), s = null
+                var S, v, w = n.find(".pasteCaretPosHelper")[0];
+                w && (document.createRange ? (S = document.createRange(), S.setStartAfter(w), S.collapse(!1), v = window.getSelection(), v.removeAllRanges(), v.addRange(S)) : document.selection && (S = document.body.createTextRange()
+                  , S.moveToElementText(w), S.collapse(!1), S.select()), w.parentNode.removeChild(w)), a.$setViewValue(p + _ + h), s = null
               }
             }, 50)
           }), t.browser.msie ? n.bind("keyup paste", c) : n.bind("input", c);
@@ -5975,7 +5993,7 @@
               , y: .5
             }, t = y.scale, t = n > 0 ? t + w : t - w
           }
-          t = t > S ? S : 1 / S > t ? 1 / S : t;
+          t = t > v ? v : 1 / v > t ? 1 / v : t;
           var r = {
             width: Math.round(M.width * t)
             , height: Math.round(M.height * t)
@@ -5990,8 +6008,8 @@
 
         function l(e) {
           s({
-            top: e.clientY - C.y + v.top
-            , left: e.clientX - C.x + v.left
+            top: e.clientY - C.y + S.top
+            , left: e.clientX - C.x + S.left
           }), e.preventDefault()
         }
 
@@ -6000,7 +6018,7 @@
               return N ? void n.actions.close() : (C = {
                 x: e.clientX
                 , y: e.clientY
-              }, v = {
+              }, S = {
                 top: y.top
                 , left: y.left
               }, g.css("display", "none"), d.on("mousemove", l), void e.stopPropagation())
@@ -6079,7 +6097,7 @@
         }, n.$on("$destroy", function() {
           e.unbind("keyup", a), e.unbind("keydown", i)
         }), e.keyup(a);
-        var M, y, C, v, S = 5
+        var M, y, C, S, v = 5
           , w = .1
           , b = .8 * p
           , T = .8 * h
@@ -6241,7 +6259,7 @@
         });
         var _ = {
             onDocumentKeydown: function(e) {
-              27 === e.keyCode && v.close("$escape")
+              27 === e.keyCode && S.close("$escape")
             }
             , setBodyPadding: function(e) {
               var t = parseInt(C.css("padding-right") || 0, 10);
@@ -6285,7 +6303,7 @@
               } else _.performCloseDialog(t, o)
             }
           }
-          , v = {
+          , S = {
             open: function(a) {
               function i(e, t) {
                 return m.get(e, t || {})
@@ -6295,36 +6313,36 @@
               }
 
               function c(t) {
-                return t ? e.isString(t) && S.plain ? t : "boolean" != typeof S.cache || S.cache ? f.get(t) || i(t, {
+                return t ? e.isString(t) && v.plain ? t : "boolean" != typeof v.cache || v.cache ? f.get(t) || i(t, {
                   cache: !0
                 }) : i(t, {
                   cache: !1
                 }) : "Empty template"
               }
               var u = this
-                , S = e.copy(t);
-              a = a || {}, e.extend(S, a), r += 1, u.latestID = "ngdialog" + r;
+                , v = e.copy(t);
+              a = a || {}, e.extend(v, a), r += 1, u.latestID = "ngdialog" + r;
               var w;
               l[u.latestID] = w = g.defer();
-              var b, T, E = e.isObject(S.scope) ? S.scope.$new() : p.$new();
-              return g.when(c(S.template || S.templateUrl))
+              var b, T, E = e.isObject(v.scope) ? v.scope.$new() : p.$new();
+              return g.when(c(v.template || v.templateUrl))
                 .then(function(t) {
-                  if (f.put(S.template || S.templateUrl, t), S.showClose && (t += '<div class="ngdialog-close"></div>'), u.$result = b = o('<div id="ngdialog' + r + '" class="ngdialog"></div>'), b.html(S.overlay ?
-                      '<div class="ngdialog-overlay"></div><div class="ngdialog-content">' + t + "</div>" : '<div class="ngdialog-content">' + t + "</div>"), S.data && e.isString(S.data)) {
-                    var a = S.data.replace(/^\s*/, "")[0];
-                    E.ngDialogData = "{" === a || "[" === a ? e.fromJson(S.data) : S.data
-                  } else S.data && e.isObject(S.data) && (E.ngDialogData = S.data);
-                  if (S.controller && (e.isString(S.controller) || e.isArray(S.controller) || e.isFunction(S.controller))) {
-                    var i = y(S.controller, {
+                  if (f.put(v.template || v.templateUrl, t), v.showClose && (t += '<div class="ngdialog-close"></div>'), u.$result = b = o('<div id="ngdialog' + r + '" class="ngdialog"></div>'), b.html(v.overlay ?
+                      '<div class="ngdialog-overlay"></div><div class="ngdialog-content">' + t + "</div>" : '<div class="ngdialog-content">' + t + "</div>"), v.data && e.isString(v.data)) {
+                    var a = v.data.replace(/^\s*/, "")[0];
+                    E.ngDialogData = "{" === a || "[" === a ? e.fromJson(v.data) : v.data
+                  } else v.data && e.isObject(v.data) && (E.ngDialogData = v.data);
+                  if (v.controller && (e.isString(v.controller) || e.isArray(v.controller) || e.isFunction(v.controller))) {
+                    var i = y(v.controller, {
                       $scope: E
                       , $element: b
                     });
                     b.data("$ngDialogControllerController", i)
                   }
-                  if (S.className && b.addClass(S.className), T = S.appendTo && e.isString(S.appendTo) ? e.element(document.querySelector(S.appendTo)) : C, S.preCloseCallback) {
+                  if (v.className && b.addClass(v.className), T = v.appendTo && e.isString(v.appendTo) ? e.element(document.querySelector(v.appendTo)) : C, v.preCloseCallback) {
                     var c;
-                    e.isFunction(S.preCloseCallback) ? c = S.preCloseCallback : e.isString(S.preCloseCallback) && E && (e.isFunction(E[S.preCloseCallback]) ? c = E[S.preCloseCallback] : E.$parent && e.isFunction(E.$parent[S.preCloseCallback]) ?
-                      c = E.$parent[S.preCloseCallback] : p && e.isFunction(p[S.preCloseCallback]) && (c = p[S.preCloseCallback])), c && b.data("$ngDialogPreCloseCallback", c)
+                    e.isFunction(v.preCloseCallback) ? c = v.preCloseCallback : e.isString(v.preCloseCallback) && E && (e.isFunction(E[v.preCloseCallback]) ? c = E[v.preCloseCallback] : E.$parent && e.isFunction(E.$parent[v.preCloseCallback]) ?
+                      c = E.$parent[v.preCloseCallback] : p && e.isFunction(p[v.preCloseCallback]) && (c = p[v.preCloseCallback])), c && b.data("$ngDialogPreCloseCallback", c)
                   }
                   if (E.closeThisDialog = function(e) {
                       _.closeDialog(b, e)
@@ -6333,23 +6351,23 @@
                       var e = M.innerWidth - C.prop("clientWidth");
                       C.addClass("ngdialog-open");
                       var t = e - (M.innerWidth - C.prop("clientWidth"));
-                      t > 0 && _.setBodyPadding(t), T.append(b), S.name ? p.$broadcast("ngDialog.opened", {
+                      t > 0 && _.setBodyPadding(t), T.append(b), v.name ? p.$broadcast("ngDialog.opened", {
                         dialog: b
-                        , name: S.name
+                        , name: v.name
                       }) : p.$broadcast("ngDialog.opened", b)
-                    }), S.closeByEscape && C.bind("keydown", _.onDocumentKeydown), S.closeByNavigation && p.$on("$locationChangeSuccess", function() {
+                    }), v.closeByEscape && C.bind("keydown", _.onDocumentKeydown), v.closeByNavigation && p.$on("$locationChangeSuccess", function() {
                       _.closeDialog(b)
                     }), n = function(e) {
-                      var t = S.closeByDocument ? o(e.target)
+                      var t = v.closeByDocument ? o(e.target)
                         .hasClass("ngdialog-overlay") : !1
                         , n = o(e.target)
                         .hasClass("ngdialog-close");
-                      (t || n) && v.close(b.attr("id"), n ? "$closeButton" : "$document")
+                      (t || n) && S.close(b.attr("id"), n ? "$closeButton" : "$document")
                     }, "undefined" != typeof M.Hammer) {
                     var l = E.hammerTime = M.Hammer(b[0]);
                     l.on("tap", n)
                   } else b.bind("click", n);
-                  return s += 1, v
+                  return s += 1, S
                 }), {
                   id: "ngdialog" + r
                   , closePromise: w.promise
@@ -6369,14 +6387,14 @@
                 var t = o(document.getElementById(a.id));
                 _.performCloseDialog(t, e)
               };
-              var a = v.open(r);
+              var a = S.open(r);
               return a.closePromise.then(function(e) {
                 return e ? n.reject(e.value) : n.reject()
               }), n.promise
             }
             , close: function(e, t) {
               var n = o(document.getElementById(e));
-              return n.length ? _.closeDialog(n, t) : v.closeAll(t), v
+              return n.length ? _.closeDialog(n, t) : S.closeAll(t), S
             }
             , closeAll: function(t) {
               var n = document.querySelectorAll(".ngdialog");
@@ -6388,7 +6406,7 @@
               return t
             }
           };
-        return v
+        return S
       }]
     }), t.directive("ngDialog", ["ngDialog", function(t) {
       return {
@@ -6888,7 +6906,7 @@
         }
 
         function a(t) {
-          p.onerror = null, p.onload = null, c() || (console.log(t), n.$set(u, f), v && e[v] && e[v].call(o))
+          p.onerror = null, p.onload = null, c() || (console.log(t), n.$set(u, f), S && e[S] && e[S].call(o))
         }
 
         function i() {
@@ -6927,7 +6945,7 @@
           , y = []
           , C = []
           , _ = n.mmSrcLoad
-          , v = n.mmSrcError;
+          , S = n.mmSrcError;
         n.$observe("mmSrc", function(e) {
           e && (s = e, i())
         }), e.$on("$destroy", function() {
