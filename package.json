@@ -7,6 +7,9 @@
     "test": "echo test test",
     "track": "node bin/track.js"
   },
+  "engines": {
+    "node": ">= 6"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wechaty/webwx-app.git"
