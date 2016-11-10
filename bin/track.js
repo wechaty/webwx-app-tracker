@@ -105,13 +105,16 @@ writeFileSync(orignalJsFile   , js)
 writeFileSync(formattedHtmlFile , htmlBeautify(orignalHtmlFile))
 writeFileSync(formattedJsFile   , jsBeautify(orignalJsFile))
 
-if (!jsVer) {
-  log('jsVer empty')
+if (!gitDiff()) {
+  log('nothing new; current: %s', jsVer)
   return
 }
 
-if (!gitDiff()) {
-  log('nothing new; current: %s', jsVer)
+/**
+ * check jsVer
+ */
+if (!jsVer) {
+  log('jsVer empty')
   return
 }
 
