@@ -111,7 +111,7 @@ if (!jsVer) {
 }
 
 if (!gitDiff()) {
-  log('nothing new')
+  log('nothing new; current: %s', jsVer)
   return
 }
 
@@ -124,6 +124,7 @@ if (jsVer in versionMap) {
  * Save new version to history json file
  */
 versionMap[jsVer] = new Date()
+versionMap['latest'] = jsVer
 
 const json = JSON.stringify(versionMap, null, '  ')
 writeFileSync(VERSION_HISTORY, json)
