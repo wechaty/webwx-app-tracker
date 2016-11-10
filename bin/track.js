@@ -55,8 +55,12 @@ function gitCommit(message) {
   execSync('git commit --author="Mike BO <mike@zixia.net>" -am "' + message + '"')
 }
 
+function gitPull() {
+  execSync('git pull &>/dev/null') // hide token for output
+}
+
 function gitPush() {
-  execSync('git push > /dev/null 2>&1') // hide token for output
+  execSync('git push &>/dev/null') // hide token for output
 }
 
 function log(message) {
@@ -136,6 +140,7 @@ writeFileSync(VERSION_HISTORY, json)
  * Commit & Push
  */
 gitCommit('webwxApp' + jsVer)
+gitPull()
 gitPush()
 
 log('new version: %s', jsVer)
