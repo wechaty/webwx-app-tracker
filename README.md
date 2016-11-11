@@ -29,7 +29,7 @@ Enjoy it!
 
 # Quick Start
 
-Open https://github.com/wechaty/webwx-app-tracker/commits/master to know the day to day change of web wechat html/javascript code.
+Open https://github.com/wechaty/webwx-app-tracker/commits/master/formatted/webwxApp.js to know the day to day change of web wechat app code.
 
 Or clone this repository on github, then run on your own machine.
 
