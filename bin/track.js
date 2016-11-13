@@ -8,7 +8,7 @@ const { writeFileSync } = require('fs')
 const { format }        = require('util')
 
 const VERSION_HISTORY = 'history-version.json'
-const versionMap      = require('../' + VERSION_HISTORY)
+const versionHistory      = require('../' + VERSION_HISTORY)
 
 function get(url) {
   return execSync('curl -s ' + url)
@@ -92,6 +92,8 @@ function log(message) {
   console.log(desc + format.apply(null, arguments))
 }
 
+gitPull()
+
 const html = get('https://wx.qq.com')
 const jsUrl = getJsUrl(html)
 const jsVer = getJsVer(jsUrl)
@@ -122,25 +124,37 @@ if (!jsVer) {
   return
 }
 
-if (jsVer in versionMap) {
-  log('jsVer %s is a old version.(gray upgrading?)', jsVer)
+if (jsVer in versionHistory) {
+  const latestVer = versionHistory['latest']
+
+  if (latestVer === jsVer) {
+    log('jsVer is the latest, but local has gitDiff()')
+    return
+  }
+
+  const latestVerDate = versionHistory[latestVer]
+  jsVerDate = versionHistory[jsVer]
+
+  log('jsVer found %s[%s] latest %s[%s]. maybe Fifty Shades of Grey?'
+      , jsVer, jsVerDate
+      , latestVer, latestVerDate
+  )
   return
 }
 
 /**
  * Save new version to history json file
  */
-versionMap[jsVer] = new Date()
-versionMap['latest'] = jsVer
+versionHistory[jsVer] = new Date()
+versionHistory['latest'] = jsVer
 
-const json = JSON.stringify(versionMap, null, '  ')
+const json = JSON.stringify(versionHistory, null, '  ')
 writeFileSync(VERSION_HISTORY, json)
 
 /**
  * Commit & Push
  */
 gitCommit('webwxApp' + jsVer)
-gitPull()
 gitPush()
 
 log('new version: %s', jsVer)
