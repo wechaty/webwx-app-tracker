@@ -20,19 +20,19 @@
 
   </script>
   <link rel="shortcut icon"
-      href="https://res.wx.qq.com/zh_CN/htmledition/v2/images/favicon31b57c.ico"
+      href="https://res.wx.qq.com/zh_CN/htmledition/v2/images/favicon31e225.ico"
       type="image/x-icon" />
   <link rel="stylesheet"
       type="text/css"
-      href="https://res.wx.qq.com/zh_CN/htmledition/v2/css/base/base31b57c.css">
+      href="https://res.wx.qq.com/zh_CN/htmledition/v2/css/base/base31e225.css">
   <!--[if lt IE 9]>
-      <script src="https://res.wx.qq.com/zh_CN/htmledition/v2/third_party/es5-shim31b57c.js"></script>
-      <script src="https://res.wx.qq.com/zh_CN/htmledition/v2/third_party/es5-sham31b57c.js"></script>
-      <script src="https://res.wx.qq.com/zh_CN/htmledition/v2/third_party/html5shiv31b57c.js"></script>
+      <script src="https://res.wx.qq.com/zh_CN/htmledition/v2/third_party/es5-shim31e225.js"></script>
+      <script src="https://res.wx.qq.com/zh_CN/htmledition/v2/third_party/es5-sham31e225.js"></script>
+      <script src="https://res.wx.qq.com/zh_CN/htmledition/v2/third_party/html5shiv31e225.js"></script>
     <![endif]-->
   <!--[if lte IE 8]>
-    <script type="text/javascript" src="https://res.wx.qq.com/zh_CN/htmledition/v2/third_party/json331b57c.js"></script>
-    <link rel="stylesheet" href="https://res.wx.qq.com/zh_CN/htmledition/v2/css/widget/icon.css31b57c.css"/>
+    <script type="text/javascript" src="https://res.wx.qq.com/zh_CN/htmledition/v2/third_party/json331e225.js"></script>
+    <link rel="stylesheet" href="https://res.wx.qq.com/zh_CN/htmledition/v2/css/widget/icon.css31e225.css"/>
     <![endif]-->
   <script type="text/javascript">
     ! function() {
@@ -55,6 +55,7 @@
       , "0d2fc2c": "程序初始化失败，点击确认刷新页面"
       , "61e885c": "不允许发送空文件"
       , "9a7dbbc": "发送视频文件不允许超过 20MB"
+      , "599d8df": "发送文件出错，请刷新后再试"
       , "76a7e04": "图片上传失败，请检查你的网络"
       , "82cf63d": "抱歉，截屏工具暂不支持64位操作系统下的IE浏览器。"
       , "112a5c0": "请检查你是否禁用了截屏插件。如果你还没安装截屏插件，点击确定安装。"
@@ -165,7 +166,7 @@
             mm-src-parallel
             mm-src-timeout="10"
             mm-src-retry-count="2"
-            src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/img31b57c.gif">
+            src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/img31e225.gif">
         <p class="sub_title">扫描二维码登录微信</p>
         <div class="extension">
           <div class="item">
@@ -196,7 +197,7 @@
         <img class="img"
             mm-src="{{userAvatar}}"
             alt=""
-            src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/img31b57c.gif" />
+            src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/img31e225.gif" />
         <h4 class="sub_title">扫描成功</h4>
         <p class="tips">请在手机上点击确认以登录</p>
         <a href="javascript:;"
@@ -251,7 +252,7 @@
         <div class="header">
           <div class="avatar">
             <img class="img"
-                src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/web_wechat_no_contect31b57c.png"
+                src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/web_wechat_no_contect31e225.png"
                 mm-src="{{account.HeadImgUrl}}"
                 ng-click="showProfile($event)" />
           </div>
@@ -371,7 +372,7 @@
             ng-repeat="item in currentContact.MemberList"
             title="{{getUserContact(item.UserName,currentContact.UserName).getDisplayName(currentContact.UserName)|emojiHideFilter}}">
           <img class="avatar"
-              src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/web_wechat_no_contect31b57c.png"
+              src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/web_wechat_no_contect31e225.png"
               mm-src="{{getUserContact(item.UserName,currentContact.UserName).HeadImgUrl}}"
               alt=""
               ng-click="showProfile($event,item.UserName)"
@@ -392,7 +393,7 @@
         <div class="member"
             href="javascript:;">
           <img class="avatar"
-              src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/img31b57c.gif"
+              src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/img31e225.gif"
               mm-src="{{getUserContact(currentContact.UserName).HeadImgUrl}}"
               alt=""
               ng-click="showProfile($event,currentContact.UserName)"
@@ -1090,7 +1091,7 @@
               displayname="{{member.getDisplayName(chatRoomUserName)}}">
             <div class="avatar">
               <img class="img"
-                  src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/web_wechat_no_contect31b57c.png"
+                  src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/web_wechat_no_contect31e225.png"
                   mm-src="{{member.HeadImgUrl}}"
                   alt="" />
             </div>
@@ -1112,10 +1113,10 @@
     <div class="dialog_bd">
       <img class="loading"
           ng-show="!src"
-          src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/icon/black_ico_load@2x31b57c.gif"
+          src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/icon/black_ico_load@2x31e225.gif"
           alt="" />
       <img class="img"
-          src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/img31b57c.gif"
+          src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/img31e225.gif"
           mm-src="{{src}}"
           alt="" />
       <span class="vm_box"></span>
@@ -1135,7 +1136,7 @@
 
       <div class="avatar">
         <img class="img"
-            src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/web_wechat_no_contect31b57c.png"
+            src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/web_wechat_no_contect31e225.png"
             mm-src="{{user.HeadImgUrl + '&type=big'}}"
             alt="">
       </div>
@@ -1202,7 +1203,7 @@
     <div class="profile_mini">
       <div class="profile_mini_hd">
         <img class="avatar"
-            src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/web_wechat_no_contect31b57c.png"
+            src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/web_wechat_no_contect31e225.png"
             mm-src="{{contact.HeadImgUrl + '&type=big'}}"
             alt="">
         <div class="filter"
@@ -1288,7 +1289,7 @@
       <div class="profile_mini_hd">
         <div class="avatar">
           <img class="img"
-              src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/web_wechat_no_contect31b57c.png"
+              src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/web_wechat_no_contect31e225.png"
               mm-src="{{contact.HeadImgUrl + '&type=big'}}"
               alt="">
         </div>
@@ -1443,7 +1444,7 @@
       </div>
       <div class="avatar">
         <img class="img lazy"
-            src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/web_wechat_no_contect31b57c.png"
+            src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/web_wechat_no_contect31e225.png"
             mm-src="{{user.HeadImgUrl}}"
             alt="" />
       </div>
@@ -1487,7 +1488,7 @@
         id="J_NavChatScrollBody"
         data-username="{{currentUserName}}">
       <p class="ico_loading"
-          ng-hide="chatList.length > 0"><img src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/icon/ico_loading31b57c.gif"
+          ng-hide="chatList.length > 0"><img src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/icon/ico_loading31e225.gif"
             alt="" />正在获取最近的聊天...</p>
 
       <div data-no-cache="true"
@@ -1513,7 +1514,7 @@
 
           <div class="avatar">
             <img class="img"
-                src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/web_wechat_no_contect31b57c.png"
+                src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/web_wechat_no_contect31e225.png"
                 mm-src="{{chatContact.HeadImgUrl}}"
                 alt="" />
 
@@ -1570,7 +1571,7 @@
         id="J_NavReadScrollBody">
 
       <p class="ico_loading"
-          ng-show="subscribeMsgs.defaultValue"><img src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/icon/ico_loading31b57c.gif"
+          ng-show="subscribeMsgs.defaultValue"><img src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/icon/ico_loading31e225.gif"
             alt="" />加载中...</p>
       <p class="ico_loading"
           ng-show="!subscribeMsgs.defaultValue && subscribeMsgs.length == 0">暂无文章...</p>
@@ -1587,7 +1588,7 @@
             <p class="date">{{readItem.Time|timeFormat}}</p>
             <div class="avatar">
               <img class="img"
-                  src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/img31b57c.gif"
+                  src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/img31e225.gif"
                   mm-src="{{readItem.HeadImgUrl}}"
                   alt="" />
             </div>
@@ -1805,7 +1806,7 @@
         <p ng-if="message.MMTime"
             class="message_system"><span class="content">{{message.MMTime}}</span></p>
         <img class="avatar"
-            src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/web_wechat_no_contect31b57c.png"
+            src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/web_wechat_no_contect31e225.png"
             mm-src="{{getUserContact(message.MMActualSender,message.MMPeerUserName).HeadImgUrl}}"
             data-cm='{"type":"avatar","username":"{{message.MMActualSender}}","isFriend":"{{getUserContact(message.MMActualSender,message.MMPeerUserName).isContact()}}"}'
             title="{{getUserContact(message.MMActualSender,message.MMPeerUserName).getDisplayName(message.MMPeerUserName)|emojiHideFilter}}"
@@ -1859,7 +1860,7 @@
                     ng-bind-html="message.MMActualContent"></pre>
                 <img ng-show="message.MMStatus == 1"
                     class="ico_loading"
-                    src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/icon/ico_loading31b57c.gif"
+                    src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/icon/ico_loading31e225.gif"
                     alt="" />
                 <i class="ico_fail web_wechat_message_fail"
                     ng-click="resendMsg(message)"
@@ -1877,7 +1878,7 @@
                   <img mm-src="/cgi-bin/mmwebwx-bin/webwxgetpubliclinkimg?url=xxx&msgid={{message.MsgId}}&pictype=location"
                       alt=""
                       class="img"
-                      src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/img31b57c.gif" />
+                      src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/img31e225.gif" />
                   <p class="desc">{{message.MMLocationDesc}}</p>
                 </a>
               </div>
@@ -1898,7 +1899,7 @@
                 <i class="arrow"></i>
                 <p class="loading"
                     ng-show="message.MMStatus == 1 || message.MMFileStatus == CONF.MM_SEND_FILE_STATUS_FAIL">
-                  <img src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/icon/ico_loading31b57c.gif"
+                  <img src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/icon/ico_loading31e225.gif"
                       alt="" />
                 </p>
               </div>
@@ -1932,14 +1933,14 @@
                     class="arrow"></i>
                 <img ng-if="message.MMStatus == 1 || message.MMFileStatus == CONF.MM_SEND_FILE_STATUS_FAIL"
                     class="msg-img"
-                    src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/img31b57c.gif"
+                    src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/img31e225.gif"
                     width="160"
                     height="120"
                     alt="">
 
                 <p class="loading"
                     ng-show="message.MMStatus == 1 || message.MMFileStatus == CONF.MM_SEND_FILE_STATUS_FAIL">
-                  <img src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/icon/ico_loading31b57c.gif"
+                  <img src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/icon/ico_loading31e225.gif"
                       alt="" />
                 </p>
               </div>
@@ -2446,16 +2447,16 @@
   </script>
 
   <script type="text/javascript"
-      src="https://res.wx.qq.com/zh_CN/htmledition/v2/js/libs31b57c.js"></script>
+      src="https://res.wx.qq.com/zh_CN/htmledition/v2/js/libs31e225.js"></script>
   <script type="text/javascript">
     (function() {
       window.MMCgi = {
         isLogin: !!""
       };
       window.MMSource = {
-        /*videoSwfPath:'https://res.wx.qq.com/zh_CN/htmledition/v2/third_party/video-js-4.11.2/video-js31b57c.swf',*/
+        /*videoSwfPath:'https://res.wx.qq.com/zh_CN/htmledition/v2/third_party/video-js-4.11.2/video-js31e225.swf',*/
         copySwfPath: './zh_CN/htmledition/v2/third_party/zeroclipboard-2.0.2/ZeroClipboard.swf'
-        , jplayerSwfPath: 'https://res.wx.qq.com/zh_CN/htmledition/v2/third_party/jPlayer-2.9.2/jquery.jplayer31b57c.swf'
+        , jplayerSwfPath: 'https://res.wx.qq.com/zh_CN/htmledition/v2/third_party/jPlayer-2.9.2/jquery.jplayer31e225.swf'
 
       };
       window.MMDEV = location.host.indexOf("dev") > -1;
@@ -2464,17 +2465,17 @@
       require.resourceMap({
         "res": {
           "ZeroClipboard.js": {
-            "url": "https://res.wx.qq.com/zh_CN/htmledition/v2/modules/ZeroClipboard31b57c.js"
+            "url": "https://res.wx.qq.com/zh_CN/htmledition/v2/modules/ZeroClipboard31e225.js"
           }
           , "jplayer.js": {
             "deps": ["jquery"]
-            , "url": "https://res.wx.qq.com/zh_CN/htmledition/v2/modules/jplayer31b57c.js"
+            , "url": "https://res.wx.qq.com/zh_CN/htmledition/v2/modules/jplayer31e225.js"
           }
           , "jquery.js": {
-            "url": "https://res.wx.qq.com/zh_CN/htmledition/v2/modules/jquery31b57c.js"
+            "url": "https://res.wx.qq.com/zh_CN/htmledition/v2/modules/jquery31e225.js"
           }
           , "webuploader.js": {
-            "url": "https://res.wx.qq.com/zh_CN/htmledition/v2/modules/webuploader31b57c.js"
+            "url": "https://res.wx.qq.com/zh_CN/htmledition/v2/modules/webuploader31e225.js"
           }
         }
         , "pkg": {}
@@ -2483,7 +2484,7 @@
 
   </script>
   <script type="text/javascript"
-      src="https://res.wx.qq.com/zh_CN/htmledition/v2/js/webwxApp31b57c.js"></script>
+      src="https://res.wx.qq.com/zh_CN/htmledition/v2/js/webwxApp31e225.js"></script>
   <script type="text/javascript"
       src="https://tajs.qq.com/stats?sId=43209744"
       charset="UTF-8"></script>

@@ -14,7 +14,7 @@
       }]) : angular.module("exceptionOverride", []), angular.module("Controllers")
       .controller("appController", ["$rootScope", "$scope", "$timeout", "$log", "$state", "$window", "ngDialog", "mmpop", "appFactory", "loginFactory", "contactFactory", "accountFactory", "chatFactory", "confFactory", "contextMenuFactory"
         , "notificationFactory", "utilFactory", "reportService", "actionTrack", "surviveCheckService", "subscribeMsgService", "stateManageService"
-        , function(e, t, o, n, r, a, i, c, s, l, u, f, d, g, m, p, h, M, y, C, S, v) {
+        , function(e, t, o, n, r, a, i, c, s, l, u, f, d, m, g, p, h, M, y, C, v, S) {
           function w() {
             return u.pickContacts(["friend", "chatroom"], {
                 chatroom: {
@@ -60,7 +60,7 @@
                     }
                   }]
                 }));
-                f.setUserInfo(n.User), f.setSkey(n.SKey), f.setSyncKey(n.SyncKey), u.addContact(n.User), u.addContacts(n.ContactList), d.initChatList(n.ChatSet), d.notifyMobile(f.getUserName(), g.StatusNotifyCode_INITED), S.init(n.MPSubscribeMsgList)
+                f.setUserInfo(n.User), f.setSkey(n.SKey), f.setSyncKey(n.SyncKey), u.addContact(n.User), u.addContacts(n.ContactList), d.initChatList(n.ChatSet), d.notifyMobile(f.getUserName(), m.StatusNotifyCode_INITED), v.init(n.MPSubscribeMsgList)
                   , e.$broadcast("root:pageInit:success"), h.setCheckUrl(f), h.log("getUserInfo", f.getUserInfo()), t.$broadcast("updateUser"), M.report(M.ReportType.timing, {
                     timing: {
                       initEnd: Date.now()
@@ -101,7 +101,7 @@
                   return C.start(2e3), e
                 })
                 .then(N, P)
-            }, g.TIMEOUT_SYNC_CHECK))
+            }, m.TIMEOUT_SYNC_CHECK))
           }
 
           function N(e) {
@@ -126,7 +126,7 @@
           function P() {
             E()
           }
-          window._appTiming = {}, r.go("chat"), e.CONF = g, t.isUnLogin = !window.MMCgi.isLogin, t.debug = !0, t.isShowReader = /qq\.com/gi.test(location.href), window.MMCgi.isLogin && (T(), h.browser.chrome && !MMDEV && (window.onbeforeunload =
+          window._appTiming = {}, r.go("chat"), e.CONF = m, t.isUnLogin = !window.MMCgi.isLogin, t.debug = !0, t.isShowReader = /qq\.com/gi.test(location.href), window.MMCgi.isLogin && (T(), h.browser.chrome && !MMDEV && (window.onbeforeunload =
             function(e) {
               return e = e || window.event, e && (e.returnValue = "关闭浏览器聊天内容将会丢失。"), "关闭浏览器聊天内容将会丢失。"
             })), t.$on("newLoginPage", function(e, t) {
@@ -162,13 +162,13 @@
             }, 200)
           }, t.searchKeydown = function(t) {
             switch (t.keyCode) {
-              case g.KEYCODE_ARROW_UP:
+              case m.KEYCODE_ARROW_UP:
                 A && A.isOpen() && e.$broadcast("root:searchList:keyArrowUp"), t.preventDefault(), t.stopPropagation();
                 break;
-              case g.KEYCODE_ARROW_DOWN:
+              case m.KEYCODE_ARROW_DOWN:
                 A && A.isOpen() && e.$broadcast("root:searchList:keyArrowDown"), t.preventDefault(), t.stopPropagation();
                 break;
-              case g.KEYCODE_ENTER:
+              case m.KEYCODE_ENTER:
                 A && A.isOpen() && e.$broadcast("root:searchList:keyEnter"), t.preventDefault(), t.stopPropagation()
             }
           }, t.$on("root:searchList:cleanKeyWord", function() {
@@ -176,9 +176,9 @@
           });
           var F;
           t.$on("ngDialog.opened", function(e, t) {
-              v.change("dialog:open", !0), F = t, b()
+              S.change("dialog:open", !0), F = t, b()
             }), t.$on("ngDialog.closed", function() {
-              v.change("dialog:open", !1), F = null
+              S.change("dialog:open", !1), F = null
             }), $(window)
             .on("resize", function() {
               b()
@@ -323,7 +323,7 @@
     angular.module("Controllers")
       .controller("contentChatController", ["$scope", "$timeout", "$state", "$log", "$document", "$compile", "chatFactory", "accountFactory", "contactFactory", "appFactory", "confFactory", "utilFactory", "chatroomFactory", "mmpop", "ngDialog"
         , "preview", "reportService", "mmHttp", "emojiFactory"
-        , function(e, t, o, n, r, a, i, c, s, l, u, f, d, g, m, p, h, M, y) {
+        , function(e, t, o, n, r, a, i, c, s, l, u, f, d, m, g, p, h, M, y) {
           function C(o) {
             var n = e.currentContact = s.getContact(o);
             if (e.currentUser = o, e.chatContent = i.getChatMessage(o, !0), e.imagesMessagesList = [], e.messagesAnimate = !1, t(function() {
@@ -335,7 +335,7 @@
             }
           }
 
-          function S(t) {
+          function v(t) {
             for (var o = e.imagesMessagesList, n = 0; n < o.length; n++)
               if (o[n].msg.MsgId == t.MsgId) {
                 o.splice(n, 1);
@@ -343,7 +343,7 @@
               }
           }
 
-          function v(e, t) {
+          function S(e, t) {
             var o, n;
             for (n = 0; n <= e.length; n++) {
               if (o = e[n], !o) {
@@ -358,9 +358,10 @@
             return n
           }
           var w = r.find("#chatArea .scrollbar-dynamic")[0];
-          e.delState = !1, e.chatContent = [], e.isShowChatRoomMembers = !1, $(w)
-            .on("drop", function() {
-              i.setSendFileUsername(i.getCurrentUserName())
+          e.delState = !1, e.chatContent = [], e.isShowChatRoomMembers = !1, r.find("#chatArea")
+            .on("drop", function(e) {
+              var t = i.setSendFileUsername(i.getCurrentUserName());
+              return t ? void 0 : (alert(MM.context("599d8df")), e.preventDefault(), e.stopPropagation(), e.stopImmediatePropagation(), !1)
             }), e.$on("message:add:success", function(t, o) {
               o.MMPeerUserName !== i.getCurrentUserName() && (o._h || e.heightCalc(o, function(e) {
                 o._h = e
@@ -395,13 +396,13 @@
             }, e.getMsgVideo = function(e) {
               return u.API_webwxgetvideo + "?msgid=" + e + "&skey=" + encodeURIComponent(c.getSkey())
             }, e.messageHandle = function(e) {
-              e.MMRecall && S(e)
+              e.MMRecall && v(e)
             }, e.getUserContact = function(e, t) {
               return e || t ? t && e != t ? s.getContact(e, t) : s.getContact(e) : void 0
             }, e.appMsgClick = function(e, t) {
               t && (alert(t), e.preventDefault())
             }, e.showVideo = function(t) {
-              m.open({
+              g.open({
                 className: "default microvideo_preview_dialog"
                 , template: '<div jplayer-directive                                id="jplayer-dialog-{{MsgId}}"                                class="jp-jplayer microvideo"                                src="{{getMsgVideo(MsgId)}}"                                timeout="10"                                ng-class="{loaded:loaded}"                                poster="{{getMsgImg(MsgId,\'slave\')}}" autoplay loop></div>'
                 , plain: !0
@@ -410,7 +411,7 @@
                 }]
               })
             }, e.showMicroVideo = function(t) {
-              m.open({
+              g.open({
                 className: "default microvideo_preview_dialog"
                 , template: '<div jplayer-directive                                id="jplayer-dialog-{{MsgId}}"                                class="jp-jplayer microvideo"                                src="{{getMsgVideo(MsgId)}}"                                timeout="10"                                ng-class="{loaded:loaded}"                                poster="{{getMsgImg(MsgId,\'slave\')}}" autoplay loop></div>'
                 , plain: !0
@@ -446,11 +447,11 @@
                 } : {
                   msg: t
                   , preview: o
-                }, a = v(i, l)
+                }, a = S(i, l)
               }
               return a
             }, e.showChatRoomMembers = function(o) {
-              g.toggleOpen({
+              m.toggleOpen({
                 templateUrl: "chatRoomMember.html"
                 , scope: e
                 , container: angular.element(document.getElementById("chatRoomMembersWrap"))
@@ -464,7 +465,7 @@
                     var e = {};
                     angular.forEach(o.currentContact.MemberList, function(t) {
                       e[t.UserName] = t
-                    }), d.setCurrentContact(o.currentContact), d.setFilterContacts(e), m.open({
+                    }), d.setCurrentContact(o.currentContact), d.setFilterContacts(e), g.open({
                       templateUrl: "createChatroom.html"
                       , controller: "createChatroomController"
                       , className: "default add_chatroom"
@@ -473,7 +474,7 @@
                       }
                     }), o.closeThisMmPop()
                   }, o.createChatroom = function() {
-                    m.open({
+                    g.open({
                       templateUrl: "createChatroom.html"
                       , controller: "createChatroomController"
                       , className: "default create_chatroom_dlg"
@@ -495,7 +496,7 @@
                 , p = i.height()
                 , h = t.pageY
                 , C = t.pageX;
-              d - t.pageX < l && (C = t.pageX - l), p - t.pageY < f && (h = t.pageY - f), g.open({
+              d - t.pageX < l && (C = t.pageX - l), p - t.pageY < f && (h = t.pageY - f), m.open({
                 templateUrl: "profile_mini.html"
                 , className: "profile_mini_wrap scale-fade"
                 , top: h
@@ -558,7 +559,7 @@
                       .then(function() {
                         e.closeThisMmPop()
                       }, function(t) {
-                        e.closeThisMmPop(), m.openConfirm({
+                        e.closeThisMmPop(), g.openConfirm({
                           className: "default "
                           , templateUrl: "comfirmTips.html"
                           , controller: ["$scope", function(e) {
@@ -572,7 +573,7 @@
                 }]
               })
             }, e.removeMemberFromChatroom = function(e, t) {
-              d.delMember(e, t), g.close("mmpop_chatroom_members")
+              d.delMember(e, t), m.close("mmpop_chatroom_members")
             };
           var b = jQuery("#voiceMsgPlayer")
             , T = function() {
@@ -672,7 +673,7 @@
     angular.module("Controllers")
       .controller("chatSenderController", ["$rootScope", "$scope", "$http", "$timeout", "ngDialog", "confFactory", "accountFactory", "contactFactory", "chatFactory", "screenShotFactory", "utilFactory", "mmpop", "stateManageService", "emojiFactory"
         , "reportService"
-        , function(e, t, o, n, r, a, i, c, s, l, u, f, d, g, m) {
+        , function(e, t, o, n, r, a, i, c, s, l, u, f, d, m, g) {
           function p() {
             var e = "undefined" != typeof D.textContent ? D.textContent : D.innerText
               , t = D.getElementsByTagName("img")
@@ -706,7 +707,7 @@
             return n
           }
 
-          function S(e, t) {
+          function v(e, t) {
             var o, n;
             if (t || M(), window.getSelection) {
               !t && A ? (o = I, n = A) : (o = window.getSelection(), n = o.getRangeAt(0)), n.deleteContents();
@@ -725,7 +726,7 @@
               .replace(/>/gi, "&gt;"), n.pasteHTML(e), n.select()
           }
 
-          function v() {
+          function S() {
             window.getSelection && (window.getSelection()
               .getRangeAt(0)
               .insertNode(F), k = F.offsetLeft, U = F.offsetTop - D.scrollTop, R.appendChild(F))
@@ -763,7 +764,7 @@
           }
 
           function T(e) {
-            return q[e.toLowerCase()]
+            return K[e.toLowerCase()]
           }
 
           function E(e) {
@@ -775,10 +776,10 @@
 
           function N(e, t) {
             angular.extend(e, {
-              onQueued: V
-              , onProgress: V
-              , onSuccess: V
-              , onError: V
+              onQueued: W
+              , onProgress: W
+              , onSuccess: W
+              , onError: W
             }, t)
           }
 
@@ -786,7 +787,7 @@
             require.async(["webuploader"], function(e) {
               window.WebUploader = e;
               try {
-                B = e.create({
+                H = e.create({
                     auto: !0
                     , dnd: "#chatArea"
                     , paste: u.browser.webkit ? "#chatArea" : void 0
@@ -802,12 +803,12 @@
                   })
                   .on("beforeFileQueued", function(e) {
                     if (e._checked) return !0;
-                    if (0 == e.size) return B.skipFile(e), alert(MM.context("61e885c")), !1;
-                    if (e._data = e._data || {}, /untitled\d+.png/i.test(e.name)) N(e, z), e.ToUserName = s.getCurrentUserName();
-                    else if (e.ToUserName || (e.ToUserName = s.getSendFileUsername()), N(e, W), "gif" !== e.ext.toLowerCase() && !T(e.ext)) {
+                    if (0 == e.size) return H.skipFile(e), alert(MM.context("61e885c")), !1;
+                    if (e._data = e._data || {}, /untitled\d+.png/i.test(e.name)) N(e, Q), e.ToUserName = s.getCurrentUserName();
+                    else if (e.ToUserName || (e.ToUserName = s.getSendFileUsername()), N(e, z), "gif" !== e.ext.toLowerCase() && !T(e.ext)) {
                       var n = E(e.ext);
-                      if (n == a.MSGTYPE_VIDEO && e.size >= 1024 * H * 1024) return B.skipFile(e), void alert(MM.context("9a7dbbc"));
-                      e.ToUserName != s.getCurrentUserName() && (u.reportSendState("sendFileWrong"), m.report(m.ReportType.sendError, {
+                      if (n == a.MSGTYPE_VIDEO && e.size >= 1024 * j * 1024) return H.skipFile(e), void alert(MM.context("9a7dbbc"));
+                      e.ToUserName != s.getCurrentUserName() && (u.reportSendState("sendFileWrong"), g.report(g.ReportType.sendError, {
                         type: "sendFileWrong"
                         , browser: u.browser.msie ? "ie" : "other"
                       })), e.MMSendMsg = s.createMessage({
@@ -819,13 +820,13 @@
                         , MMFileExt: e.ext
                         , MMUploadProgress: 0
                         , MMFileStatus: a.MM_SEND_FILE_STATUS_SENDING
-                        , MMCancelUploadFileFunc: K
+                        , MMCancelUploadFileFunc: V
                       }), s.appendMessage(e.MMSendMsg), t.$$phase || t.$digest()
                     }
                     var r = !1;
-                    e.size > 1024 * j * 1024 && (r = !0);
+                    e.size > 1024 * q * 1024 && (r = !0);
                     var c = Date.now();
-                    return B.md5File(e)
+                    return H.md5File(e)
                       .then(function(t) {
                         function n(e, t, o) {
                           var n, r = angular.extend(i.getBaseRequest(), {
@@ -859,7 +860,7 @@
                             , webwx_data_ticket: u.getCookie("webwx_data_ticket")
                             , pass_ticket: decodeURIComponent(i.getPassticket())
                           };
-                          e._uploadParams = s, e._uploadmediarequestBase = r, t ? (B.trigger("fileQueued", e), B.trigger("uploadSuccess", e, o), B.skipFile(e)) : (e._checked = !0, B.addFiles(e))
+                          e._uploadParams = s, e._uploadmediarequestBase = r, t ? (H.trigger("fileQueued", e), H.trigger("uploadSuccess", e, o), H.skipFile(e)) : (e._checked = !0, H.addFiles(e))
                         }
                         console.log("md5 result:", t);
                         var s = Date.now() - c
@@ -874,11 +875,11 @@
                           , FileType: 7
                         };
                         if (r) {
-                          var g = angular.extend(d, i.getBaseRequest());
+                          var m = angular.extend(d, i.getBaseRequest());
                           f = angular.extend({}, d), o({
                               method: "POST"
                               , url: a.API_checkupload
-                              , data: g
+                              , data: m
                             })
                             .success(function(t) {
                               0 == t.BaseResponse.Ret ? (f = angular.extend(f, {
@@ -907,7 +908,7 @@
                     e.onProgress.call(e, t)
                   })
                   .on("uploadFinished", function() {
-                    B.reset()
+                    H.reset()
                   })
                   .on("uploadSuccess", function(e, t) {
                     e.onSuccess.call(e, t)
@@ -916,13 +917,13 @@
                     e.onError.call(e, t)
                   })
                   .on("error", function(e) {
-                    m.report(m.ReportType.uploaderError, {
+                    g.report(g.ReportType.uploaderError, {
                       text: "WebUploader 出错"
                       , type: e
                     })
                   })
               } catch (n) {
-                t.noflash = !0, m.report(m.ReportType.uploaderError, {
+                t.noflash = !0, g.report(g.ReportType.uploaderError, {
                   text: "WebUploader 出错"
                   , type: "no_flash"
                 })
@@ -966,8 +967,11 @@
               , autoFoucs: !1
               , container: angular.element(document.getElementById("tool_bar"))
             }), e.preventDefault()
-          }, t.sendClick = function() {
-            s.setSendFileUsername(s.getCurrentUserName())
+          };
+          var G;
+          t.sendClick = function(e) {
+            var t = s.setSendFileUsername(s.getCurrentUserName());
+            return t ? void 0 : ((!G || e.timeStamp - G > 30) && (G = e.timeStamp, alert(MM.context("599d8df"))), e.preventDefault(), e.stopPropagation(), !1)
           }, t.screenShot = function() {
             var e;
             l.isSupport() ? l.capture({
@@ -982,13 +986,13 @@
               }
             }) : "Win64" == navigator.platform && u.browser.msie ? alert(MM.context("82cf63d")) : confirm(MM.context("112a5c0")) && l.install()
           };
-          var G, Y;
+          var Y, B;
           t.editAreaKeyup = function(e) {
             if (MMDEV && e.keyCode == a.KEYCODE_NUM2 && "@" == C(1)) {
               var o = s.getCurrentUserName();
               if (!u.isRoomContact(o)) return;
-              v(), Y = function() {
-                G = null, Y = null;
+              S(), B = function() {
+                Y = null, B = null;
                 var e = c.getChatRoomMembersContact(o, "withoutMe");
                 h(), f.open({
                   templateUrl: "editAreaContactPanel.html"
@@ -1003,12 +1007,12 @@
                   , autoFoucs: !1
                   , container: angular.element(R)
                 })
-              }, !G && Y && Y(), clearTimeout(G), G = setTimeout(function() {
-                Y && Y(), G = null
+              }, !Y && B && B(), clearTimeout(Y), Y = setTimeout(function() {
+                B && B(), Y = null
               }, 300)
             }
           }, t.editAreaKeydown = function(e) {
-            if (p(), G) return void e.preventDefault();
+            if (p(), Y) return void e.preventDefault();
             var o = e.keyCode;
             if (o == a.KEYCODE_ENTER) {
               if (e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) {
@@ -1027,9 +1031,9 @@
             }
             83 == o && e.altKey && (t.sendTextMessage(), e.preventDefault()), (o >= 65 && 111 >= o || o >= 186 && 222 >= o) && f.close()
           }, t.editAreaBlur = function() {
-            Y = null, d.change("sender:active", !1)
+            B = null, d.change("sender:active", !1)
           }, t.editAreaClick = function() {
-            v()
+            S()
           }, t.sendTextMessage = function() {
             if (f.close(), !t.editAreaCtn.replace(/<br\/?>/g, "")
               .match(/^\s*$/)) {
@@ -1042,7 +1046,7 @@
           }, t.$on("root:quoteMsg", function(e, t) {
             b(t + (D.innerHTML.replace("<br>", "") ? D.innerHTML : "<br>")), D.scrollTop = 9999
           }), t.insertToEditArea = function(e, o) {
-            S(e, o), t.editAreaCtn = D.innerHTML
+            v(e, o), t.editAreaCtn = D.innerHTML
           }, t.sendTuzkiEmoji = function(e, t) {
             var o = s.createMessage({
               MsgType: a.MSGTYPE_EMOTICON
@@ -1052,22 +1056,22 @@
             });
             o.MMPreviewSrc = a.RES_PATH + "images/icon/Tuzki/" + t, s.appendMessage(o), s.sendMessage(o)
           }, t.sendGif = function() {};
-          var B, H = 20
-            , j = 25
-            , q = {
+          var H, j = 20
+            , q = 25
+            , K = {
               bmp: 1
               , png: 1
               , jpeg: 1
               , jpg: 1
               , gif: 0
             }
-            , K = function(e) {
-              B.cancelFile(e.MMFileId), e.MMFileStatus = a.MM_SEND_FILE_STATUS_CANCEL, e.MMStatus = a.MSG_SEND_STATUS_READY
+            , V = function(e) {
+              H.cancelFile(e.MMFileId), e.MMFileStatus = a.MM_SEND_FILE_STATUS_CANCEL, e.MMStatus = a.MSG_SEND_STATUS_READY
             }
-            , V = function() {}
-            , W = {
+            , W = function() {}
+            , z = {
               onQueued: function() {
-                if ((T(this.ext) || "gif" == this.ext.toLowerCase()) && this.ToUserName != s.getCurrentUserName() && (u.reportSendState("sendImageWrong"), m.report(m.ReportType.sendError, {
+                if ((T(this.ext) || "gif" == this.ext.toLowerCase()) && this.ToUserName != s.getCurrentUserName() && (u.reportSendState("sendImageWrong"), g.report(g.ReportType.sendError, {
                     type: "sendImageWrong"
                     , browser: u.browser.msie ? "ie" : "other"
                   })), "gif" == this.ext.toLowerCase()) return this.MMSendMsg = s.createMessage({
@@ -1076,7 +1080,7 @@
                   , EmojiFlag: a.EMOJI_FLAG_GIF
                 }), void
                 function(e) {
-                  B.makeThumb(e, function(t, o) {
+                  H.makeThumb(e, function(t, o) {
                     o && (e.MMSendMsg.MMThumbSrc = o), s.appendMessage(e.MMSendMsg), console.log(o)
                   }, 1, 1)
                 }(this);
@@ -1091,11 +1095,11 @@
                       , MMFileExt: this.ext
                       , MMUploadProgress: 0
                       , MMFileStatus: a.MM_SEND_FILE_STATUS_QUEUED
-                      , MMCancelUploadFileFunc: K
+                      , MMCancelUploadFileFunc: V
                     })
                     , function(t) {
-                      t.MMSendMsg.MMThumbSrc = "", B.makeThumb(t, function(o, n) {
-                        (o || !n) && m.report(m.ReportType.uploaderError, {
+                      t.MMSendMsg.MMThumbSrc = "", H.makeThumb(t, function(o, n) {
+                        (o || !n) && g.report(g.ReportType.uploaderError, {
                           text: "创建缩略图失败"
                           , fileName: t.MMSendMsg.MMFileExt
                           , fileSize: t.MMSendMsg.FileSize
@@ -1118,7 +1122,7 @@
               }
               , onError: function(e) {
                 var o = this;
-                m.report(m.ReportType.uploaderError, {
+                g.report(g.ReportType.uploaderError, {
                   text: "chooseFile 上传失败"
                   , reason: e
                   , fileName: this.ext
@@ -1128,7 +1132,7 @@
                 })
               }
             }
-            , z = {
+            , Q = {
               onQueued: function() {
                 var e = s.createMessage({
                   ToUserName: this.ToUserName
@@ -1142,7 +1146,7 @@
                 0 == e.BaseResponse.Ret ? this._uploadPreviewUpdate(a.API_webwxpreview + "?fun=preview&mediaid=" + e.MediaId, e.MediaId) : this.onError("Ret: " + e.BaseResponse.Ret)
               }
               , onError: function(e) {
-                m.report(m.ReportType.uploaderError, {
+                g.report(g.ReportType.uploaderError, {
                   text: "pasteImg 上传失败"
                   , reason: e
                   , fileName: this.ext
@@ -1185,7 +1189,7 @@
     angular.module("Controllers")
       .controller("createChatroomController", ["$rootScope", "$scope", "$timeout", "$state", "$log", "$document", "chatFactory", "contactFactory", "appFactory", "chatroomFactory", "confFactory", "mmpop", "ngDialog", "utilFactory"
         , "stateManageService", "accountFactory"
-        , function(e, t, o, n, r, a, i, c, s, l, u, f, d, g, m, p) {
+        , function(e, t, o, n, r, a, i, c, s, l, u, f, d, m, g, p) {
           o(function() {
             t.ngDialogData.isCreate && (h = []), t.allContacts = c.pickContacts(["star", "friend"], {
                 star: {
@@ -1294,10 +1298,10 @@
                 , left: e.pageX
               }, c.type) {
                 case "chat":
-                  g(c.username), e.preventDefault();
+                  m(c.username), e.preventDefault();
                   break;
                 case "clean":
-                  m(c.username), e.preventDefault();
+                  g(c.username), e.preventDefault();
                   break;
                 case "avatar":
                   p(e, c.username, c.isFriend), e.preventDefault();
@@ -1323,7 +1327,7 @@
           }
         }
 
-        function g(o) {
+        function m(o) {
           t.contextMenuList = [];
           var n = i.getContact(o);
           (n.isRoomContact() || n.isContact()) && t.contextMenuList.push(n.isTop() ? {
@@ -1365,7 +1369,7 @@
           })
         }
 
-        function m(o) {
+        function g(o) {
           t.contextMenuList = [{
             content: MM.context("91382d9")
             , callback: function() {
@@ -1404,7 +1408,7 @@
         }
 
         function h(o, n, s, l, d) {
-          function g(e) {
+          function m(e) {
             var t = e && e.target;
             if (!t) return !1;
             if (t = angular.element(t), t.hasClass("js_message_bubble") || (t = t.parents(".js_message_bubble")), t = t.find(".js_message_plain"), t.length) {
@@ -1415,18 +1419,18 @@
             }
             return ""
           }
-          var m = f.getMsg(l);
-          if (!m) return void(t.isShowContextMenu = !1);
-          var p = m.MMDigest
+          var g = f.getMsg(l);
+          if (!g) return void(t.isShowContextMenu = !1);
+          var p = g.MMDigest
             , h = i.getContact(o)
-            , M = i.getContact(m.FromUserName);
+            , M = i.getContact(g.FromUserName);
           if (!h || !M) return void(t.isShowContextMenu = !1);
           switch (+n) {
             case a.MSGTYPE_TEXT:
               t.contextMenuList = [];
               var y;
-              if (y = M.isRoomContact() ? h.getMemberDisplayName(m.FromUserName) || h.NickName : h.NickName, s && parseInt(s)) return void(t.isShowContextMenu = !1);
-              p = y ? y + ":" + m.MMActualContent : m.MMActualContent, p = p.replace(":", ": "), t.contextMenuList.push({
+              if (y = M.isRoomContact() ? h.getMemberDisplayName(g.FromUserName) || h.NickName : h.NickName, s && parseInt(s)) return void(t.isShowContextMenu = !1);
+              p = y ? y + ":" + g.MMActualContent : g.MMActualContent, p = p.replace(":", ": "), t.contextMenuList.push({
                 content: MM.context("3b61c96")
                 , callback: function() {
                   var t = [MM.context("d9eb6f5"), p, MM.context("83b6d34"), "<br>—————————<br>"].join("");
@@ -1441,7 +1445,7 @@
                 , copyCallBack: function() {
                   var e = $.Range.current()
                     .toString();
-                  return e ? e : g(d)
+                  return e ? e : m(d)
                 }
               }), d.preventDefault();
               break;
@@ -1457,7 +1461,7 @@
               break;
             default:
               t.contextMenuList = []
-          }(m.MsgType == a.MSGTYPE_TEXT || m.MsgType == a.MSGTYPE_APP && m.AppMsgType == a.APPMSGTYPE_ATTACH) && t.contextMenuList.push({
+          }(g.MsgType == a.MSGTYPE_TEXT || g.MsgType == a.MSGTYPE_APP && g.AppMsgType == a.APPMSGTYPE_ATTACH) && t.contextMenuList.push({
             content: MM.context("21e106f")
             , callback: function() {
               c.open({
@@ -1465,7 +1469,7 @@
                 , controller: "transpondDialogController"
                 , className: "default transpond-dialog"
                 , data: {
-                  msg: m
+                  msg: g
                 }
               })
             }
@@ -1587,7 +1591,7 @@
     angular.module("Controllers")
       .controller("transpondDialogController", ["$rootScope", "$scope", "$timeout", "$state", "$log", "$document", "chatFactory", "contactFactory", "appFactory", "chatroomFactory", "confFactory", "mmpop", "ngDialog", "utilFactory"
         , "stateManageService", "accountFactory"
-        , function(e, t, o, n, r, a, i, c, s, l, u, f, d, g, m, p) {
+        , function(e, t, o, n, r, a, i, c, s, l, u, f, d, m, g, p) {
           function h(e, t) {
             var o = angular.copy(e);
             o.ToUserName = t, o.FromUserName = p.getUserName(), o.isTranspond = !0, o._h = void 0, o._offsetTop = void 0, o.MMSourceMsgId = e.MsgId, o.Content = o.MMActualContent, o.Scene = 2, o = i.createMessage(o), i.appendMessage(o), i.sendMessage(
@@ -1734,7 +1738,7 @@
               return _currentUserName
             }
             , setSendFileUsername: function(e) {
-              _sendFileUserName = e, this._sendCheck(e)
+              return this._sendCheck(e) ? (_sendFileUserName = e, !0) : !1
             }
             , resetSendFileUsername: function() {
               _sendFileUserName = ""
@@ -2800,15 +2804,15 @@
             , PYQuanPin: ""
           }, e, P), e.HeadImgUrl || (e.HeadImgUrl = r.API_webwxgeticon + "?seq=0&username=" + e.UserName + "&skey=" + a.getSkey()), e
         }
-        var d, g = window._contacts = {}
-          , m = window._strangerContacts = {}
+        var d, m = window._contacts = {}
+          , g = window._strangerContacts = {}
           , p = []
           , h = []
           , M = []
           , y = []
           , C = window._chatRoomMemberDisplayNames = {}
-          , S = []
           , v = []
+          , S = []
           , w = []
           , b = {}
           , T = {}
@@ -2977,10 +2981,10 @@
             , addFriendContact: function(e) {
               var t, o = this;
               if (e) {
-                if (e = o.specialContactHandler(e), t = g[e.UserName]) {
+                if (e = o.specialContactHandler(e), t = m[e.UserName]) {
                   for (var n in e) e[n] || delete e[n];
                   angular.extend(t, e)
-                } else g[e.UserName] = e;
+                } else m[e.UserName] = e;
                 o.contactChangeFlag = +new Date, s.load({
                   url: e.HeadImgUrl
                   , type: "image"
@@ -2995,24 +2999,24 @@
             }
             , deleteContact: function(e) {
               var t = this.getContact(e.UserName);
-              t && (delete g[e.UserName], angular.extend(t, e), m[e.UserName] = t)
+              t && (delete m[e.UserName], angular.extend(t, e), g[e.UserName] = t)
             }
             , getContact: function(e, t, o) {
               var n, r = this;
-              return n = g[e], n || (n = r.getStrangerContacts(e)), o ? n : ((!n || c.isRoomContact(e) && 0 == n.MemberList.length) && r.addBatchgetContact({
+              return n = m[e], n || (n = r.getStrangerContacts(e)), o ? n : ((!n || c.isRoomContact(e) && 0 == n.MemberList.length) && r.addBatchgetContact({
                 UserName: e
                 , EncryChatRoomId: t || ""
               }), n)
             }
             , getStrangerContacts: function(e) {
-              return m[e]
+              return g[e]
             }
             , addStrangerContact: function(e) {
               var t;
-              if (t = m[e.UserName]) {
+              if (t = g[e.UserName]) {
                 for (var o in e) e[o] || delete e[o];
                 angular.extend(t, e)
-              } else m[e.UserName] = e;
+              } else g[e.UserName] = e;
               s.load({
                 url: e.HeadImgUrl
                 , type: "image"
@@ -3022,7 +3026,7 @@
               e.DisplayName && t && (C[t] || (C[t] = {}), C[t][e.UserName] = e.DisplayName)
             }
             , getChatroomIdByUserName: function(e) {
-              var t = g[e] || {};
+              var t = m[e] || {};
               return t.EncryChatRoomId
             }
             , inContactsWithErrorToGetList: function(e) {
@@ -3031,13 +3035,13 @@
               return -1
             }
             , inContactsToGetList: function(e) {
-              for (var t = 0, o = S.length; o > t; t++)
-                if (S[t].UserName == e.UserName) return t;
+              for (var t = 0, o = v.length; o > t; t++)
+                if (v[t].UserName == e.UserName) return t;
               return -1
             }
             , inContactsGettingList: function(e) {
-              for (var t = 0, o = v.length; o > t; t++)
-                if (v[t].UserName == e.UserName) return t;
+              for (var t = 0, o = S.length; o > t; t++)
+                if (S[t].UserName == e.UserName) return t;
               return -1
             }
             , inContactsGetErrMap: function(e) {
@@ -3049,7 +3053,7 @@
                     var t = d.inContactsToGetList({
                       UserName: e.UserName
                     });
-                    t > -1 && S.splice(t, 1), c.isRoomContact(e.UserName) && e.MemberList && e.MemberList.length ? angular.forEach(e.MemberList, function(t) {
+                    t > -1 && v.splice(t, 1), c.isRoomContact(e.UserName) && e.MemberList && e.MemberList.length ? angular.forEach(e.MemberList, function(t) {
                       var o = d.getContact(t.UserName, "", !0);
                       o && o.isContact() || (t.HeadImgUrl = c.getContactHeadImgUrl({
                         EncryChatRoomId: e.EncryChatRoomId
@@ -3059,17 +3063,17 @@
                       var n = d.inContactsToGetList({
                         UserName: t.UserName
                       });
-                      n > -1 && S.splice(n, 1)
+                      n > -1 && v.splice(n, 1)
                     }) : d.addChatroomMemberDisplayName(e, e.UserName)
-                  }), console.timeEnd("addContactsHandler"), d.addContacts(e.ContactList, !0), v = [], !v.length && S.length > 0 && d.batchGetContact()
+                  }), console.timeEnd("addContactsHandler"), d.addContacts(e.ContactList, !0), S = [], !S.length && v.length > 0 && d.batchGetContact()
                   .then(i, s)
               }
 
               function s(e) {
-                var t = v;
-                v = [], E++, f.reject(e), 1 == t.length ? (console.log("batchGetContactError", t[0]), b[t[0].UserName] = 1) : angular.forEach(t, function(e) {
+                var t = S;
+                S = [], E++, f.reject(e), 1 == t.length ? (console.log("batchGetContactError", t[0]), b[t[0].UserName] = 1) : angular.forEach(t, function(e) {
                     d.addBatchgetContact(e, !1, !0)
-                  }), v.length || !S.length && !w.length || d.batchGetContact()
+                  }), S.length || !v.length && !w.length || d.batchGetContact()
                   .then(i, s)
               }
               var l, u, f = o.defer()
@@ -3077,13 +3081,13 @@
               if (e && e.UserName) {
                 if (r) {
                   if (d.inContactsWithErrorToGetList(e) > -1) return;
-                  w.push(e), l = d.inContactsToGetList(e), l > -1 && S.splice(l, 1)
+                  w.push(e), l = d.inContactsToGetList(e), l > -1 && v.splice(l, 1)
                 } else {
                   if (d.inContactsToGetList(e) > -1 || d.inContactsGettingList(e) > -1 || d.inContactsGetErrMap(e)) return;
-                  c.isRoomContact(e.UserName) || t ? S.unshift(e) : S.push(e)
+                  c.isRoomContact(e.UserName) || t ? v.unshift(e) : v.push(e)
                 }
                 return u && n.cancel(u), u = n(function() {
-                  v.length || !S.length && !w.length || d.batchGetContact()
+                  S.length || !v.length && !w.length || d.batchGetContact()
                     .then(i, s)
                 }, 200), f.promise
               }
@@ -3111,12 +3115,12 @@
             , batchGetContact: function(e) {
               var n = o.defer()
                 , i = 1;
-              return w.length ? (i = w.length < 6 || E > 2 ? 1 : w.length < 40 ? 5 : 10, v = w.splice(0, i), console.log("_contactsWithErrorToGetList lenght:", w.length)) : v = S.splice(0, 50), t({
+              return w.length ? (i = w.length < 6 || E > 2 ? 1 : w.length < 40 ? 5 : 10, S = w.splice(0, i), console.log("_contactsWithErrorToGetList lenght:", w.length)) : S = v.splice(0, 50), t({
                   method: "POST"
                   , url: r.API_webwxbatchgetcontact + "?type=ex&r=" + c.now()
                   , data: angular.extend(a.getBaseRequest(), {
-                    Count: v.length
-                    , List: v
+                    Count: S.length
+                    , List: S
                   })
                 })
                 .success(function(t) {
@@ -3131,7 +3135,7 @@
             }
             , getChatRoomMembersContact: function(e, t) {
               var o = this
-                , n = g[e]
+                , n = m[e]
                 , r = [];
               return n ? (angular.forEach(n.MemberList, function(e) {
                 var n = o.getContact(e.UserName);
@@ -3139,15 +3143,15 @@
               }), r) : []
             }
             , getAllContacts: function() {
-              return g
+              return m
             }
             , getAllStarContact: function(e) {
               e = e || {};
               var t;
               t = e.isNewArray ? [] : h, t.length = 0;
               var o = e.filterContacts || {};
-              for (var n in g) {
-                var r = g[n];
+              for (var n in m) {
+                var r = m[n];
                 r.isSelf() || 1 != r.StarFriend || o[n] || !r.canSearch(e.keyword) || t.push(r)
               }
               return t = t.sort(function(e, t) {
@@ -3159,8 +3163,8 @@
               var t;
               t = e.isNewArray ? [] : M, t.length = 0;
               var o = e.filterContacts || {};
-              for (var n in g) {
-                var r = g[n];
+              for (var n in m) {
+                var r = m[n];
                 if (r.isRoomContact() && (!e.keyword || r.chatroomCanSearch(e.keyword)) && !o[n]) {
                   if (e.isSaved && !r.isContact()) continue;
                   t.push(r)
@@ -3174,8 +3178,8 @@
               e = e || {};
               var t;
               t = e.isNewArray ? [] : y, t.length = 0;
-              for (var o in g) {
-                var n = g[o];
+              for (var o in m) {
+                var n = m[o];
                 n.isBrandContact() && n.canSearch(e.keyword) && t.push(n)
               }
               return t.sort(function(e, t) {
@@ -3186,9 +3190,9 @@
               e = e || {};
               var t;
               t = e.isNewArray ? [] : p, t.length = 0, e.filterContacts = e.filterContacts || {};
-              for (var o in g)
+              for (var o in m)
                 if (!e.filterContacts[o]) {
-                  var n = g[o];
+                  var n = m[o];
                   n.isSelf() && !a.isHigherVer() || !n.isContact() || e.isWithoutStar && 1 == n.StarFriend || n.isRoomContact() || e.isWithoutBrand && n.isBrandContact() || n.isShieldUser() || n.canSearch(e.keyword) && t.push(n)
                 }
               return t.sort(function(e, t) {
@@ -3197,7 +3201,7 @@
             }
             , remoteSearch: function(e) {
               function n(e) {
-                for (var t, o, n = [], r = 0; r < e.length; r++) t = e[r].EncryUserName, o = g[t], o && o.isContact() && !o.isBrandContact() && n.push(o);
+                for (var t, o, n = [], r = 0; r < e.length; r++) t = e[r].EncryUserName, o = m[t], o && o.isContact() && !o.isBrandContact() && n.push(o);
                 return n
               }
               var i = o.defer();
@@ -4864,8 +4868,8 @@
           var o;
           return window.Notification ? o = new window.Notification(e, {
               icon: angular.isString(t.icon) ? t.icon : t.icon.x32
-              , body: t.body || g
-              , tag: t.tag || g
+              , body: t.body || m
+              , tag: t.tag || m
             }) : window.webkitNotifications ? (o = window.webkitNotifications.createNotification(t.icon, e, t.body), o.show()) : navigator.mozNotification ? (o = navigator.mozNotification.createNotification(e, t.body, t.icon), o.show()) : window
             .external && window.external.msIsSiteMode() && (window.external.msSiteModeClearIconOverlay(), window.external.msSiteModeSetIconOverlay(angular.isString(t.icon) ? t.icon : t.icon.x16, e), window.external.msSiteModeActivate(), o = {
               ieVerification: p + 1
@@ -4881,7 +4885,7 @@
         }
 
         function n(e) {
-          if (m) {
+          if (g) {
             var t = angular.isFunction(e) ? e : angular.noop;
             window.webkitNotifications && window.webkitNotifications.checkPermission ? window.webkitNotifications.requestPermission(t) : window.Notification && window.Notification.requestPermission && window.Notification.requestPermission(t)
           }
@@ -4889,7 +4893,7 @@
 
         function r() {
           var e;
-          return m ? (window.Notification && window.Notification.permissionLevel ? e = window.Notification.permissionLevel() : window.webkitNotifications && window.webkitNotifications.checkPermission ? e = f[window.webkitNotifications.checkPermission()] :
+          return g ? (window.Notification && window.Notification.permissionLevel ? e = window.Notification.permissionLevel() : window.webkitNotifications && window.webkitNotifications.checkPermission ? e = f[window.webkitNotifications.checkPermission()] :
             window.Notification && window.Notification.permission ? e = window.Notification.permission : navigator.mozNotification ? e = l : window.external && void 0 !== window.external.msIsSiteMode() && (e = window.external.msIsSiteMode() ?
               l : s), e) : void 0
         }
@@ -4906,7 +4910,7 @@
           h.length >= M.total && h.shift()
             .close();
           var a, c;
-          return m && i() && angular.isString(e) && n && (angular.isString(n.icon) || angular.isObject(n.icon)) && r() === l && (a = t(e, n)), c = o(a), h.push(c), M.autoClose && a && !a.ieVerification && a.addEventListener && a.addEventListener(
+          return g && i() && angular.isString(e) && n && (angular.isString(n.icon) || angular.isObject(n.icon)) && r() === l && (a = t(e, n)), c = o(a), h.push(c), M.autoClose && a && !a.ieVerification && a.addEventListener && a.addEventListener(
             "show"
             , function() {
               var e = c;
@@ -4924,8 +4928,8 @@
             , autoClose: 5e3
             , total: 3
           }
-          , g = ""
-          , m = function() {
+          , m = ""
+          , g = function() {
             var t = !1;
             try {
               t = !!(window.Notification || window.webkitNotifications || navigator.mozNotification || window.external && void 0 !== window.external.msIsSiteMode())
@@ -4941,7 +4945,7 @@
             PERMISSION_DEFAULT: s
             , PERMISSION_GRANTED: l
             , PERMISSION_DENIED: u
-            , isSupported: m
+            , isSupported: g
             , config: a
             , createNotification: c
             , permissionLevel: r
@@ -5144,7 +5148,7 @@
         function f() {
           for (var e = [0, 15e3, 6e5], o = 0; o < e.length; o++) setTimeout(function(e) {
             return function() {
-              v[e] = m(t)
+              S[e] = g(t)
             }
           }(e[o]), e[o])
         }
@@ -5152,19 +5156,19 @@
         function d() {
           $(window)
             .unload(function() {
-              v.unload = m(t), S.push({
+              S.unload = g(t), v.push({
                 type: T.runtime
-                , data: v
-              }), !P && S.push({
+                , data: S
+              }), !P && v.push({
                 type: T.timing
                 , data: {
                   fullTiming: r()
                 }
-              }), localStorage.setItem(w, JSON.stringify(S))
+              }), localStorage.setItem(w, JSON.stringify(v))
             })
         }
 
-        function g() {
+        function m() {
           var e, t = window.localStorage;
           return e = t ? {
             setItem: function() {
@@ -5187,13 +5191,13 @@
           }
         }
 
-        function m(e, t) {
+        function g(e, t) {
           t || (t = {
             listenerCount: 0
             , watchersCount: 0
             , scopesCount: 0
           });
-          for (var o = e.$$childHead; o;) m(o, t), o = o.$$nextSibling;
+          for (var o = e.$$childHead; o;) g(o, t), o = o.$$nextSibling;
           var n = e.$$listenerCount;
           for (var r in n) t.listenerCount += n[r];
           return t.watchersCount += e.$$watchers && e.$$watchers.length, t.scopesCount += 1, t
@@ -5233,10 +5237,10 @@
         }
         var y, C = 3e3
           , _ = []
-          , S = []
-          , v = {}
+          , v = []
+          , S = {}
           , w = "reportService"
-          , b = g()
+          , b = m()
           , T = {
             jsError: "[js-error]"
             , initError: "[init-error]"
@@ -5279,7 +5283,7 @@
               .success(i)
               .error(c), o(function() {
                 l.complete || s()
-              }, g)
+              }, m)
           }
 
           function a(e, t, o) {
@@ -5295,14 +5299,14 @@
           }
 
           function s() {
-            return M >= d || l.complete ? !1 : (m && (y.resolve(), y = t.defer(), u.timeout = y.promise), M++, r(n.method, n.args), !0)
+            return M >= d || l.complete ? !1 : (g && (y.resolve(), y = t.defer(), u.timeout = y.promise), M++, r(n.method, n.args), !0)
           }
           var l = n.data
             , u = n.config
             , f = u.MMRetry
             , d = "undefined" == typeof f.count ? 3 : f.count
-            , g = f.timeout || 15e3
-            , m = f.serial
+            , m = f.timeout || 15e3
+            , g = f.serial
             , p = []
             , h = []
             , M = 0
@@ -5509,7 +5513,7 @@
     var o = 0
       , n = 0
       , r = {};
-    this.$get = ["$document", "$templateCache", "$compile", "$q", "$http", "$rootScope", "$timeout", "$window", "$controller", "$animate", function(a, i, c, s, l, u, f, d, g, m) {
+    this.$get = ["$document", "$templateCache", "$compile", "$q", "$http", "$rootScope", "$timeout", "$window", "$controller", "$animate", function(a, i, c, s, l, u, f, d, m, g) {
       var p = a.find("body")
         , h = {
           onDocumentKeydown: function(e) {
@@ -5518,7 +5522,7 @@
           , performClosePop: function(e, t) {
             var o = e.attr("id")
               , i = e.scope();
-            i && !i.closing && (i.closing = !0, e.unbind("click"), 1 === n && p.unbind("keydown"), u.$broadcast("root:mmpop:closing", o), m.leave(e, function() {
+            i && !i.closing && (i.closing = !0, e.unbind("click"), 1 === n && p.unbind("keydown"), u.$broadcast("root:mmpop:closing", o), g.leave(e, function() {
               i && (u.$broadcast("root:mmpop:closed", o), a.unbind("click", i.closeThisMmPop), i.$destroy())
             }), r[o] && (r[o].resolve({
               id: o
@@ -5540,27 +5544,27 @@
             u.$broadcast("root:mmpop:open", C);
             var _;
             r[d.latestID] = _ = s.defer();
-            var S;
-            y.scope ? y.scope.$new ? S = y.scope.$new() : (S = u.$new(), angular.extend(S, y.scope)) : S = u.$new();
-            var v, w;
-            if (y.template ? template = y.template : y.templateUrl && (template = i.get(y.templateUrl)), d.$result = v = e('<div id="' + C + '" class="mmpop" tabindex="-1"></div>'), v.html(template), y.data && angular.isString(y.data)) {
+            var v;
+            y.scope ? y.scope.$new ? v = y.scope.$new() : (v = u.$new(), angular.extend(v, y.scope)) : v = u.$new();
+            var S, w;
+            if (y.template ? template = y.template : y.templateUrl && (template = i.get(y.templateUrl)), d.$result = S = e('<div id="' + C + '" class="mmpop" tabindex="-1"></div>'), S.html(template), y.data && angular.isString(y.data)) {
               var b = y.data.replace(/^\s*/, "")[0];
-              S.mmpopData = "{" === b || "[" === b ? angular.fromJson(y.data) : y.data
-            } else y.data && angular.isObject(y.data) && (S.mmpopData = y.data);
-            return w = y.container ? y.container : p, c(v)(S), m.enter(v, w), y.autoFoucs && v.focus(), y.controller && (angular.isString(y.controller) || angular.isArray(y.controller) || angular.isFunction(y.controller)) && g(y.controller
+              v.mmpopData = "{" === b || "[" === b ? angular.fromJson(y.data) : y.data
+            } else y.data && angular.isObject(y.data) && (v.mmpopData = y.data);
+            return w = y.container ? y.container : p, c(S)(v), g.enter(S, w), y.autoFoucs && S.focus(), y.controller && (angular.isString(y.controller) || angular.isArray(y.controller) || angular.isFunction(y.controller)) && m(y.controller
               , {
-                $scope: S
-                , $element: v
-              }), y.className && v.addClass(y.className), y.top && v.css("top", y.top), y.left && v.css("left", y.left), S.closeThisMmPop = function(e) {
+                $scope: v
+                , $element: S
+              }), y.className && S.addClass(y.className), y.top && S.css("top", y.top), y.left && S.css("left", y.left), v.closeThisMmPop = function(e) {
               setTimeout(function() {
-                e && e.target && (e.target.id == C || v[0] && jQuery.contains(v[0], e.target)) || (h.closePop(v, e), S.$digest())
+                e && e.target && (e.target.id == C || S[0] && jQuery.contains(S[0], e.target)) || (h.closePop(S, e), v.$digest())
               }, 0)
-            }, v.bind("click", function(e) {
+            }, S.bind("click", function(e) {
               y.stopPropagation && (e.preventDefault(), e.stopPropagation())
             }), f(function() {
-              a.bind("click", S.closeThisMmPop)
+              a.bind("click", v.closeThisMmPop)
             }, 0), y.closeByEscape && p.bind("keydown", h.onDocumentKeydown), n += 1, {
-              close: S.closeThisMmPop
+              close: v.closeThisMmPop
               , isOpen: function() {
                 return e(document.getElementById(C))
                   .length
@@ -5615,24 +5619,24 @@
               if (-1 != l && -1 != u) {
                 if (u = d - 1 - u, l >= u) {
                   f = l;
-                  for (var g = r.substr(f + 1, 10); ++f < d;)
-                    if (g == c.substr(f, g.length)) {
+                  for (var m = r.substr(f + 1, 10); ++f < d;)
+                    if (m == c.substr(f, m.length)) {
                       u = f;
                       break
                     }
                   f == d && (u = d - 1)
                 }
                 "<" == c.substr(l - 1, 1) && --l, ">" == c.substr(u + 1, 1) && ++u;
-                var m = c.substring(l, u + 1)
+                var g = c.substring(l, u + 1)
                   , p = c.substr(0, l)
-                  , h = c.substr(l + m.length)
+                  , h = c.substr(l + g.length)
                   , M = p.lastIndexOf("<")
                   , y = p.lastIndexOf(">");
-                if (M > y && (m = p.slice(M) + m, p = p.slice(0, M)), M = m.lastIndexOf("<"), y = m.lastIndexOf(">"), M > y) {
+                if (M > y && (g = p.slice(M) + g, p = p.slice(0, M)), M = g.lastIndexOf("<"), y = g.lastIndexOf(">"), M > y) {
                   var C = h.indexOf(">") + 1;
-                  m += h.slice(0, C), h = h.slice(C)
+                  g += h.slice(0, C), h = h.slice(C)
                 }
-                var _ = i(m)
+                var _ = i(g)
                   .replace(/&nbsp;/g, " ")
                   .replace(new RegExp("<(?!br|" + o.EMOTICON_REG + ").*?>", "g"), "")
                   .replace(new RegExp("&lt;(br|" + o.EMOTICON_REG + "/?)&gt;", "g"), "<$1>")
@@ -5643,9 +5647,9 @@
                     return e.replace(location.origin || location.protocol + "//" + location.hostname + (location.port ? ":" + location.port : ""), "")
                   });
                 e.innerHTML = p + _ + "<span class='pasteCaretPosHelper'></span>" + h;
-                var S, v, w = n.find(".pasteCaretPosHelper")[0];
-                w && (document.createRange ? (S = document.createRange(), S.setStartAfter(w), S.collapse(!1), v = window.getSelection(), v.removeAllRanges(), v.addRange(S)) : document.selection && (S = document.body.createTextRange()
-                  , S.moveToElementText(w), S.collapse(!1), S.select()), w.parentNode.removeChild(w)), a.$setViewValue(p + _ + h), s = null
+                var v, S, w = n.find(".pasteCaretPosHelper")[0];
+                w && (document.createRange ? (v = document.createRange(), v.setStartAfter(w), v.collapse(!1), S = window.getSelection(), S.removeAllRanges(), S.addRange(v)) : document.selection && (v = document.body.createTextRange()
+                  , v.moveToElementText(w), v.collapse(!1), v.select()), w.parentNode.removeChild(w)), a.$setViewValue(p + _ + h), s = null
               }
             }, 50)
           }), t.browser.msie ? n.bind("keyup paste", c) : n.bind("input", c);
@@ -5993,7 +5997,7 @@
               , y: .5
             }, t = y.scale, t = n > 0 ? t + w : t - w
           }
-          t = t > v ? v : 1 / v > t ? 1 / v : t;
+          t = t > S ? S : 1 / S > t ? 1 / S : t;
           var r = {
             width: Math.round(M.width * t)
             , height: Math.round(M.height * t)
@@ -6008,8 +6012,8 @@
 
         function l(e) {
           s({
-            top: e.clientY - C.y + S.top
-            , left: e.clientX - C.x + S.left
+            top: e.clientY - C.y + v.top
+            , left: e.clientX - C.x + v.left
           }), e.preventDefault()
         }
 
@@ -6018,13 +6022,13 @@
               return N ? void n.actions.close() : (C = {
                 x: e.clientX
                 , y: e.clientY
-              }, S = {
+              }, v = {
                 top: y.top
                 , left: y.left
-              }, g.css("display", "none"), d.on("mousemove", l), void e.stopPropagation())
+              }, m.css("display", "none"), d.on("mousemove", l), void e.stopPropagation())
             })
             .on("mouseup", function() {
-              d.off("mousemove", l), g.css("display", "block")
+              d.off("mousemove", l), m.css("display", "block")
             })
             .on(P, function(e) {
               var t, o = e.originalEvent;
@@ -6066,16 +6070,16 @@
               scale: e
             }) : 1 > o ? c({
               scale: o
-            }) : d.css(y), angular.extend(E, y), m[0].src = t.src, n.isLoaded = !0, n.containerStyle = null, n.$digest()
+            }) : d.css(y), angular.extend(E, y), g[0].src = t.src, n.isLoaded = !0, n.containerStyle = null, n.$digest()
           }, t.onerror = function() {
             t.onerror = null, alert(MM.context("845ec73"))
           }, t.src = n.imageList[n.current].url
         }
         var d = r.find("#img_dom")
-          , g = r.find("#img_opr_container")
-          , m = d.find("#img_preview")
+          , m = r.find("#img_opr_container")
+          , g = d.find("#img_preview")
           , p = document.documentElement.clientWidth
-          , h = document.documentElement.clientHeight - parseInt(g.css("bottom")) - parseInt(g.height());
+          , h = document.documentElement.clientHeight - parseInt(m.css("bottom")) - parseInt(m.height());
         n.isLoaded = !1, n.rotateDeg = 0, n.isIE = !!(o.browser.msie && o.version < 10), n.actions = {
           next: function() {
             n.current < n.imageList.length - 1 && (n.current++, f())
@@ -6097,7 +6101,7 @@
         }, n.$on("$destroy", function() {
           e.unbind("keyup", a), e.unbind("keydown", i)
         }), e.keyup(a);
-        var M, y, C, S, v = 5
+        var M, y, C, v, S = 5
           , w = .1
           , b = .8 * p
           , T = .8 * h
@@ -6106,7 +6110,7 @@
           , P = N ? "DOMMouseScroll" : "mousewheel";
         d.on("click", function(e) {
             e.stopPropagation()
-          }), g.on("click", function(e) {
+          }), m.on("click", function(e) {
             e.stopPropagation()
           }), $("#preview_container")
           .on("click", function() {
@@ -6252,14 +6256,14 @@
       var n, r = 0
         , s = 0
         , l = {};
-      this.$get = ["$document", "$templateCache", "$compile", "$q", "$http", "$rootScope", "$timeout", "$window", "$controller", function(u, f, d, g, m, p, h, M, y) {
+      this.$get = ["$document", "$templateCache", "$compile", "$q", "$http", "$rootScope", "$timeout", "$window", "$controller", function(u, f, d, m, g, p, h, M, y) {
         var C = u.find("body");
         c && p.$on("$locationChangeSuccess", function() {
           C = u.find("body")
         });
         var _ = {
             onDocumentKeydown: function(e) {
-              27 === e.keyCode && S.close("$escape")
+              27 === e.keyCode && v.close("$escape")
             }
             , setBodyPadding: function(e) {
               var t = parseInt(C.css("padding-right") || 0, 10);
@@ -6303,46 +6307,46 @@
               } else _.performCloseDialog(t, o)
             }
           }
-          , S = {
+          , v = {
             open: function(a) {
               function i(e, t) {
-                return m.get(e, t || {})
+                return g.get(e, t || {})
                   .then(function(e) {
                     return e.data || ""
                   })
               }
 
               function c(t) {
-                return t ? e.isString(t) && v.plain ? t : "boolean" != typeof v.cache || v.cache ? f.get(t) || i(t, {
+                return t ? e.isString(t) && S.plain ? t : "boolean" != typeof S.cache || S.cache ? f.get(t) || i(t, {
                   cache: !0
                 }) : i(t, {
                   cache: !1
                 }) : "Empty template"
               }
               var u = this
-                , v = e.copy(t);
-              a = a || {}, e.extend(v, a), r += 1, u.latestID = "ngdialog" + r;
+                , S = e.copy(t);
+              a = a || {}, e.extend(S, a), r += 1, u.latestID = "ngdialog" + r;
               var w;
-              l[u.latestID] = w = g.defer();
-              var b, T, E = e.isObject(v.scope) ? v.scope.$new() : p.$new();
-              return g.when(c(v.template || v.templateUrl))
+              l[u.latestID] = w = m.defer();
+              var b, T, E = e.isObject(S.scope) ? S.scope.$new() : p.$new();
+              return m.when(c(S.template || S.templateUrl))
                 .then(function(t) {
-                  if (f.put(v.template || v.templateUrl, t), v.showClose && (t += '<div class="ngdialog-close"></div>'), u.$result = b = o('<div id="ngdialog' + r + '" class="ngdialog"></div>'), b.html(v.overlay ?
-                      '<div class="ngdialog-overlay"></div><div class="ngdialog-content">' + t + "</div>" : '<div class="ngdialog-content">' + t + "</div>"), v.data && e.isString(v.data)) {
-                    var a = v.data.replace(/^\s*/, "")[0];
-                    E.ngDialogData = "{" === a || "[" === a ? e.fromJson(v.data) : v.data
-                  } else v.data && e.isObject(v.data) && (E.ngDialogData = v.data);
-                  if (v.controller && (e.isString(v.controller) || e.isArray(v.controller) || e.isFunction(v.controller))) {
-                    var i = y(v.controller, {
+                  if (f.put(S.template || S.templateUrl, t), S.showClose && (t += '<div class="ngdialog-close"></div>'), u.$result = b = o('<div id="ngdialog' + r + '" class="ngdialog"></div>'), b.html(S.overlay ?
+                      '<div class="ngdialog-overlay"></div><div class="ngdialog-content">' + t + "</div>" : '<div class="ngdialog-content">' + t + "</div>"), S.data && e.isString(S.data)) {
+                    var a = S.data.replace(/^\s*/, "")[0];
+                    E.ngDialogData = "{" === a || "[" === a ? e.fromJson(S.data) : S.data
+                  } else S.data && e.isObject(S.data) && (E.ngDialogData = S.data);
+                  if (S.controller && (e.isString(S.controller) || e.isArray(S.controller) || e.isFunction(S.controller))) {
+                    var i = y(S.controller, {
                       $scope: E
                       , $element: b
                     });
                     b.data("$ngDialogControllerController", i)
                   }
-                  if (v.className && b.addClass(v.className), T = v.appendTo && e.isString(v.appendTo) ? e.element(document.querySelector(v.appendTo)) : C, v.preCloseCallback) {
+                  if (S.className && b.addClass(S.className), T = S.appendTo && e.isString(S.appendTo) ? e.element(document.querySelector(S.appendTo)) : C, S.preCloseCallback) {
                     var c;
-                    e.isFunction(v.preCloseCallback) ? c = v.preCloseCallback : e.isString(v.preCloseCallback) && E && (e.isFunction(E[v.preCloseCallback]) ? c = E[v.preCloseCallback] : E.$parent && e.isFunction(E.$parent[v.preCloseCallback]) ?
-                      c = E.$parent[v.preCloseCallback] : p && e.isFunction(p[v.preCloseCallback]) && (c = p[v.preCloseCallback])), c && b.data("$ngDialogPreCloseCallback", c)
+                    e.isFunction(S.preCloseCallback) ? c = S.preCloseCallback : e.isString(S.preCloseCallback) && E && (e.isFunction(E[S.preCloseCallback]) ? c = E[S.preCloseCallback] : E.$parent && e.isFunction(E.$parent[S.preCloseCallback]) ?
+                      c = E.$parent[S.preCloseCallback] : p && e.isFunction(p[S.preCloseCallback]) && (c = p[S.preCloseCallback])), c && b.data("$ngDialogPreCloseCallback", c)
                   }
                   if (E.closeThisDialog = function(e) {
                       _.closeDialog(b, e)
@@ -6351,23 +6355,23 @@
                       var e = M.innerWidth - C.prop("clientWidth");
                       C.addClass("ngdialog-open");
                       var t = e - (M.innerWidth - C.prop("clientWidth"));
-                      t > 0 && _.setBodyPadding(t), T.append(b), v.name ? p.$broadcast("ngDialog.opened", {
+                      t > 0 && _.setBodyPadding(t), T.append(b), S.name ? p.$broadcast("ngDialog.opened", {
                         dialog: b
-                        , name: v.name
+                        , name: S.name
                       }) : p.$broadcast("ngDialog.opened", b)
-                    }), v.closeByEscape && C.bind("keydown", _.onDocumentKeydown), v.closeByNavigation && p.$on("$locationChangeSuccess", function() {
+                    }), S.closeByEscape && C.bind("keydown", _.onDocumentKeydown), S.closeByNavigation && p.$on("$locationChangeSuccess", function() {
                       _.closeDialog(b)
                     }), n = function(e) {
-                      var t = v.closeByDocument ? o(e.target)
+                      var t = S.closeByDocument ? o(e.target)
                         .hasClass("ngdialog-overlay") : !1
                         , n = o(e.target)
                         .hasClass("ngdialog-close");
-                      (t || n) && S.close(b.attr("id"), n ? "$closeButton" : "$document")
+                      (t || n) && v.close(b.attr("id"), n ? "$closeButton" : "$document")
                     }, "undefined" != typeof M.Hammer) {
                     var l = E.hammerTime = M.Hammer(b[0]);
                     l.on("tap", n)
                   } else b.bind("click", n);
-                  return s += 1, S
+                  return s += 1, v
                 }), {
                   id: "ngdialog" + r
                   , closePromise: w.promise
@@ -6377,7 +6381,7 @@
                 }
             }
             , openConfirm: function(t) {
-              var n = g.defer()
+              var n = m.defer()
                 , r = {
                   closeByEscape: !1
                   , closeByDocument: !1
@@ -6387,14 +6391,14 @@
                 var t = o(document.getElementById(a.id));
                 _.performCloseDialog(t, e)
               };
-              var a = S.open(r);
+              var a = v.open(r);
               return a.closePromise.then(function(e) {
                 return e ? n.reject(e.value) : n.reject()
               }), n.promise
             }
             , close: function(e, t) {
               var n = o(document.getElementById(e));
-              return n.length ? _.closeDialog(n, t) : S.closeAll(t), S
+              return n.length ? _.closeDialog(n, t) : v.closeAll(t), v
             }
             , closeAll: function(t) {
               var n = document.querySelectorAll(".ngdialog");
@@ -6406,7 +6410,7 @@
               return t
             }
           };
-        return S
+        return v
       }]
     }), t.directive("ngDialog", ["ngDialog", function(t) {
       return {
@@ -6528,9 +6532,9 @@
           }
           , f = n.mmRepeat.match(/^\s*([\s\S]+?)\s+in\s+([\s\S]+?)(?:\s+track\s+by\s+([\s\S]+?))?\s*$/)
           , d = f[2]
-          , g = (f[1], '<div ng-style="{height:topHeight}" class="top-placeholder"></div><div ng-repeat="' + n.mmRepeat + '">' + o.html() + '</div><div ng-style="{height:bottomHeight}" class="bottom-placeholder"></div>')
-          , m = t(g)(e);
-        o.html(""), o.append(m), e.bufferHeight || (e.bufferHeight = 100), e.preCalc = n.preCalc && "false" !== n.preCalc ? !0 : !1, e[d] = [], e.$on("onScroll", function(t, o) {
+          , m = (f[1], '<div ng-style="{height:topHeight}" class="top-placeholder"></div><div ng-repeat="' + n.mmRepeat + '">' + o.html() + '</div><div ng-style="{height:bottomHeight}" class="bottom-placeholder"></div>')
+          , g = t(m)(e);
+        o.html(""), o.append(g), e.bufferHeight || (e.bufferHeight = 100), e.preCalc = n.preCalc && "false" !== n.preCalc ? !0 : !1, e[d] = [], e.$on("onScroll", function(t, o) {
           return u = o.y, e.heightCalc && 2 === e.heightCalc.length && !l(r) ? void s(r, e.heightCalc, function() {
             l(r) && (i(r), a(e, u, e[d], r), e.$digest())
           }) : (a(e, u, e[d], r), void e.$digest())
@@ -6572,28 +6576,28 @@
         function c(e) {
           if (u) {
             var n, r = !1;
-            if (n = e.ctrlKey ? m.ctrl || m["default"] : m["default"], n || (n = function() {
+            if (n = e.ctrlKey ? g.ctrl || g["default"] : g["default"], n || (n = function() {
                 return !0
-              }), !g) {
-              if (g = u[0], !g) return;
-              if (n(g)) return void a(g)
+              }), !m) {
+              if (m = u[0], !m) return;
+              if (n(m)) return void a(m)
             }
-            if (g) {
-              var c = g;
+            if (m) {
+              var c = m;
               if (c) {
                 switch (e.keyCode) {
                   case o.KEYCODE_ARROW_UP:
-                    do c = c._index - 1 < 0 ? g : u[c._index - 1]; while (!n(c));
-                    c == g && (r = !0);
+                    do c = c._index - 1 < 0 ? m : u[c._index - 1]; while (!n(c));
+                    c == m && (r = !0);
                     break;
                   case o.KEYCODE_ARROW_DOWN:
-                    do c = c._index + 1 >= u.length ? g : u[c._index + 1]; while (!n(c));
+                    do c = c._index + 1 >= u.length ? m : u[c._index + 1]; while (!n(c));
                     break;
                   default:
                     return
                 }
-                g = c, t.wait(function() {
-                  return "undefined" != typeof g._offsetTop
+                m = c, t.wait(function() {
+                  return "undefined" != typeof m._offsetTop
                 }, function() {
                   i(d, c, r), a(c)
                 }, 10)
@@ -6610,7 +6614,7 @@
           , f = r.mmRepeatKeyboardScrollSelector
           , d = $(f)[0];
         if (!d) return void console.error("scrollContainer 不存在");
-        var g, m = {};
+        var m, g = {};
         e.$parent.mmRepeatKeyboard = {
           started: !1
           , start: function() {
@@ -6622,10 +6626,10 @@
               .off("keydown", "body", c)
           }
           , setJudgeFun: function(e, t) {
-            t ? m[t] = e : m["default"] = e
+            t ? g[t] = e : g["default"] = e
           }
           , setSelectItem: function(e) {
-            g = e
+            m = e
           }
         }, e.$on("$destroy", function() {
           $(document)
@@ -6858,8 +6862,8 @@
     }
   }]), angular.module("Directives")
   .directive("navReadDirective", ["$timeout", "$log", "$document", "$stateParams", "$rootScope", "$state", "chatFactory", "accountFactory", "contactFactory", "appFactory", "confFactory", "utilFactory", "stateManageService", "subscribeMsgService"
-    , function(e, t, o, n, r, a, i, c, s, l, u, f, d, g) {
-      function m(e) {
+    , function(e, t, o, n, r, a, i, c, s, l, u, f, d, m) {
+      function g(e) {
         for (var t, o = [], n = 0; n < e.length; n++) t = e[n], o.push(t), [].push.apply(o, t.MPArticleList);
         return o
       }
@@ -6869,9 +6873,9 @@
         , templateUrl: "navRead.html"
         , link: function(e) {
           e.subscribeMsgs = [], e.articleList = [], e.subscribeMsgs.defaultValue = !0, e.$watch(function() {
-            return g.changeFlag
+            return m.changeFlag
           }, function(t) {
-            0 != t && (e.subscribeMsgs = g.getSubscribeMsgs(), e.articleList = m(e.subscribeMsgs), !e.currentItem && e.subscribeMsgs.length > 0 && (g.current = e.currentItem = e.subscribeMsgs[0].MPArticleList[0], e.mmRepeatKeyboard.setSelectItem(
+            0 != t && (e.subscribeMsgs = m.getSubscribeMsgs(), e.articleList = g(e.subscribeMsgs), !e.currentItem && e.subscribeMsgs.length > 0 && (m.current = e.currentItem = e.subscribeMsgs[0].MPArticleList[0], e.mmRepeatKeyboard.setSelectItem(
               e.currentItem)))
           }), e.mmRepeatKeyboard.setJudgeFun(function(e) {
             return !e.UserName
@@ -6886,9 +6890,9 @@
               a.go("read", {
                 readItem: o
               })
-            }, 200, 1400), g.current = e.currentItem = o, console.log("select", o)
+            }, 200, 1400), m.current = e.currentItem = o, console.log("select", o)
           }), e.itemClick = function(t) {
-            g.current = e.currentItem = t, e.mmRepeatKeyboard.setSelectItem(t), a.go("read", {
+            m.current = e.currentItem = t, e.mmRepeatKeyboard.setSelectItem(t), a.go("read", {
               readItem: t
             })
           }
@@ -6906,7 +6910,7 @@
         }
 
         function a(t) {
-          p.onerror = null, p.onload = null, c() || (console.log(t), n.$set(u, f), S && e[S] && e[S].call(o))
+          p.onerror = null, p.onload = null, c() || (console.log(t), n.$set(u, f), v && e[v] && e[v].call(o))
         }
 
         function i() {
@@ -6918,9 +6922,9 @@
         }
 
         function c() {
-          if (g > h) {
-            if (h++, m) {
-              l = s, console.log("retry count", h, g), l.indexOf("?") < 0 && (l += "?"), l += "&mmSrcParallelRetry=" + Date.now();
+          if (m > h) {
+            if (h++, g) {
+              l = s, console.log("retry count", h, m), l.indexOf("?") < 0 && (l += "?"), l += "&mmSrcParallelRetry=" + Date.now();
               var e = new Image;
               e.onload = function() {
                 n.$set(u, e.src), console.log(e.src, e, p.complete), r()
@@ -6937,15 +6941,15 @@
         var s, l, u = "src"
           , f = n.src
           , d = n.mmSrcTimeout ? parseInt(n.mmSrcTimeout) : 5e3
-          , g = n.mmSrcRetryCount ? parseInt(n.mmSrcRetryCount) : 4
-          , m = "undefined" != typeof n.mmSrcParallel
+          , m = n.mmSrcRetryCount ? parseInt(n.mmSrcRetryCount) : 4
+          , g = "undefined" != typeof n.mmSrcParallel
           , p = o[0]
           , h = 0
           , M = !1
           , y = []
           , C = []
           , _ = n.mmSrcLoad
-          , S = n.mmSrcError;
+          , v = n.mmSrcError;
         n.$observe("mmSrc", function(e) {
           e && (s = e, i())
         }), e.$on("$destroy", function() {
@@ -7018,14 +7022,14 @@
         }), f.change("contactPicker:active", !0), t.$on("$destroy", function() {
           f.change("contactPicker:active", !1)
         });
-        var g, m, p = t.pickConfig;
+        var m, g, p = t.pickConfig;
         p.opt.all = p.opt.all || {};
         var h = t.initList || [];
         t.contactList = r(c.pickContacts(p.types, p.opt, !0)
             .result, h), t.selectList = t.selectList || [], i(), t.search = function() {
-            g && e.cancel(g), g = e(function() {
+            m && e.cancel(m), m = e(function() {
               if (t.keyword) {
-                c.searchKey = t.keyword, m && m.close();
+                c.searchKey = t.keyword, g && g.close();
                 var e = $.extend(d(t.selectList), p.opt.all.filterContacts)
                   , o = $.extend({}, p.opt, {
                     all: $.extend({}, p.opt.all, {
@@ -7309,23 +7313,23 @@
     function c(t, o) {
       t[o >> 5] |= 128 << o % 32, t[(o + 64 >>> 9 << 4) + 14] = o;
       var c, s, l, u, f, d = 1732584193
-        , g = -271733879
-        , m = -1732584194
+        , m = -271733879
+        , g = -1732584194
         , p = 271733878;
-      for (c = 0; c < t.length; c += 16) s = d, l = g, u = m, f = p, d = n(d, g, m, p, t[c], 7, -680876936), p = n(p, d, g, m, t[c + 1], 12, -389564586), m = n(m, p, d, g, t[c + 2], 17, 606105819), g = n(g, m, p, d, t[c + 3], 22, -1044525330), d = n(
-          d, g, m, p, t[c + 4], 7, -176418897), p = n(p, d, g, m, t[c + 5], 12, 1200080426), m = n(m, p, d, g, t[c + 6], 17, -1473231341), g = n(g, m, p, d, t[c + 7], 22, -45705983), d = n(d, g, m, p, t[c + 8], 7, 1770035416), p = n(p, d, g, m, t[c +
-          9], 12, -1958414417), m = n(m, p, d, g, t[c + 10], 17, -42063), g = n(g, m, p, d, t[c + 11], 22, -1990404162), d = n(d, g, m, p, t[c + 12], 7, 1804603682), p = n(p, d, g, m, t[c + 13], 12, -40341101), m = n(m, p, d, g, t[c + 14], 17, -
-          1502002290), g = n(g, m, p, d, t[c + 15], 22, 1236535329), d = r(d, g, m, p, t[c + 1], 5, -165796510), p = r(p, d, g, m, t[c + 6], 9, -1069501632), m = r(m, p, d, g, t[c + 11], 14, 643717713), g = r(g, m, p, d, t[c], 20, -373897302), d = r(
-          d, g, m, p, t[c + 5], 5, -701558691), p = r(p, d, g, m, t[c + 10], 9, 38016083), m = r(m, p, d, g, t[c + 15], 14, -660478335), g = r(g, m, p, d, t[c + 4], 20, -405537848), d = r(d, g, m, p, t[c + 9], 5, 568446438), p = r(p, d, g, m, t[c +
-          14], 9, -1019803690), m = r(m, p, d, g, t[c + 3], 14, -187363961), g = r(g, m, p, d, t[c + 8], 20, 1163531501), d = r(d, g, m, p, t[c + 13], 5, -1444681467), p = r(p, d, g, m, t[c + 2], 9, -51403784), m = r(m, p, d, g, t[c + 7], 14
-          , 1735328473), g = r(g, m, p, d, t[c + 12], 20, -1926607734), d = a(d, g, m, p, t[c + 5], 4, -378558), p = a(p, d, g, m, t[c + 8], 11, -2022574463), m = a(m, p, d, g, t[c + 11], 16, 1839030562), g = a(g, m, p, d, t[c + 14], 23, -35309556)
-        , d = a(d, g, m, p, t[c + 1], 4, -1530992060), p = a(p, d, g, m, t[c + 4], 11, 1272893353), m = a(m, p, d, g, t[c + 7], 16, -155497632), g = a(g, m, p, d, t[c + 10], 23, -1094730640), d = a(d, g, m, p, t[c + 13], 4, 681279174), p = a(p, d, g
-          , m, t[c], 11, -358537222), m = a(m, p, d, g, t[c + 3], 16, -722521979), g = a(g, m, p, d, t[c + 6], 23, 76029189), d = a(d, g, m, p, t[c + 9], 4, -640364487), p = a(p, d, g, m, t[c + 12], 11, -421815835), m = a(m, p, d, g, t[c + 15], 16
-          , 530742520), g = a(g, m, p, d, t[c + 2], 23, -995338651), d = i(d, g, m, p, t[c], 6, -198630844), p = i(p, d, g, m, t[c + 7], 10, 1126891415), m = i(m, p, d, g, t[c + 14], 15, -1416354905), g = i(g, m, p, d, t[c + 5], 21, -57434055), d =
-        i(d, g, m, p, t[c + 12], 6, 1700485571), p = i(p, d, g, m, t[c + 3], 10, -1894986606), m = i(m, p, d, g, t[c + 10], 15, -1051523), g = i(g, m, p, d, t[c + 1], 21, -2054922799), d = i(d, g, m, p, t[c + 8], 6, 1873313359), p = i(p, d, g, m, t[
-          c + 15], 10, -30611744), m = i(m, p, d, g, t[c + 6], 15, -1560198380), g = i(g, m, p, d, t[c + 13], 21, 1309151649), d = i(d, g, m, p, t[c + 4], 6, -145523070), p = i(p, d, g, m, t[c + 11], 10, -1120210379), m = i(m, p, d, g, t[c + 2], 15
-          , 718787259), g = i(g, m, p, d, t[c + 9], 21, -343485551), d = e(d, s), g = e(g, l), m = e(m, u), p = e(p, f);
-      return [d, g, m, p]
+      for (c = 0; c < t.length; c += 16) s = d, l = m, u = g, f = p, d = n(d, m, g, p, t[c], 7, -680876936), p = n(p, d, m, g, t[c + 1], 12, -389564586), g = n(g, p, d, m, t[c + 2], 17, 606105819), m = n(m, g, p, d, t[c + 3], 22, -1044525330), d = n(
+          d, m, g, p, t[c + 4], 7, -176418897), p = n(p, d, m, g, t[c + 5], 12, 1200080426), g = n(g, p, d, m, t[c + 6], 17, -1473231341), m = n(m, g, p, d, t[c + 7], 22, -45705983), d = n(d, m, g, p, t[c + 8], 7, 1770035416), p = n(p, d, m, g, t[c +
+          9], 12, -1958414417), g = n(g, p, d, m, t[c + 10], 17, -42063), m = n(m, g, p, d, t[c + 11], 22, -1990404162), d = n(d, m, g, p, t[c + 12], 7, 1804603682), p = n(p, d, m, g, t[c + 13], 12, -40341101), g = n(g, p, d, m, t[c + 14], 17, -
+          1502002290), m = n(m, g, p, d, t[c + 15], 22, 1236535329), d = r(d, m, g, p, t[c + 1], 5, -165796510), p = r(p, d, m, g, t[c + 6], 9, -1069501632), g = r(g, p, d, m, t[c + 11], 14, 643717713), m = r(m, g, p, d, t[c], 20, -373897302), d = r(
+          d, m, g, p, t[c + 5], 5, -701558691), p = r(p, d, m, g, t[c + 10], 9, 38016083), g = r(g, p, d, m, t[c + 15], 14, -660478335), m = r(m, g, p, d, t[c + 4], 20, -405537848), d = r(d, m, g, p, t[c + 9], 5, 568446438), p = r(p, d, m, g, t[c +
+          14], 9, -1019803690), g = r(g, p, d, m, t[c + 3], 14, -187363961), m = r(m, g, p, d, t[c + 8], 20, 1163531501), d = r(d, m, g, p, t[c + 13], 5, -1444681467), p = r(p, d, m, g, t[c + 2], 9, -51403784), g = r(g, p, d, m, t[c + 7], 14
+          , 1735328473), m = r(m, g, p, d, t[c + 12], 20, -1926607734), d = a(d, m, g, p, t[c + 5], 4, -378558), p = a(p, d, m, g, t[c + 8], 11, -2022574463), g = a(g, p, d, m, t[c + 11], 16, 1839030562), m = a(m, g, p, d, t[c + 14], 23, -35309556)
+        , d = a(d, m, g, p, t[c + 1], 4, -1530992060), p = a(p, d, m, g, t[c + 4], 11, 1272893353), g = a(g, p, d, m, t[c + 7], 16, -155497632), m = a(m, g, p, d, t[c + 10], 23, -1094730640), d = a(d, m, g, p, t[c + 13], 4, 681279174), p = a(p, d, m
+          , g, t[c], 11, -358537222), g = a(g, p, d, m, t[c + 3], 16, -722521979), m = a(m, g, p, d, t[c + 6], 23, 76029189), d = a(d, m, g, p, t[c + 9], 4, -640364487), p = a(p, d, m, g, t[c + 12], 11, -421815835), g = a(g, p, d, m, t[c + 15], 16
+          , 530742520), m = a(m, g, p, d, t[c + 2], 23, -995338651), d = i(d, m, g, p, t[c], 6, -198630844), p = i(p, d, m, g, t[c + 7], 10, 1126891415), g = i(g, p, d, m, t[c + 14], 15, -1416354905), m = i(m, g, p, d, t[c + 5], 21, -57434055), d =
+        i(d, m, g, p, t[c + 12], 6, 1700485571), p = i(p, d, m, g, t[c + 3], 10, -1894986606), g = i(g, p, d, m, t[c + 10], 15, -1051523), m = i(m, g, p, d, t[c + 1], 21, -2054922799), d = i(d, m, g, p, t[c + 8], 6, 1873313359), p = i(p, d, m, g, t[
+          c + 15], 10, -30611744), g = i(g, p, d, m, t[c + 6], 15, -1560198380), m = i(m, g, p, d, t[c + 13], 21, 1309151649), d = i(d, m, g, p, t[c + 4], 6, -145523070), p = i(p, d, m, g, t[c + 11], 10, -1120210379), g = i(g, p, d, m, t[c + 2], 15
+          , 718787259), m = i(m, g, p, d, t[c + 9], 21, -343485551), d = e(d, s), m = e(m, l), g = e(g, u), p = e(p, f);
+      return [d, m, g, p]
     }
 
     function s(e) {
@@ -7356,12 +7360,12 @@
       return unescape(encodeURIComponent(e))
     }
 
-    function g(e) {
+    function m(e) {
       return u(d(e))
     }
 
-    function m(e) {
-      return f(g(e))
+    function g(e) {
+      return f(m(e))
     }
     angular.module("webwxApp", ["ui.router", "ngAnimate", "Services", "Controllers", "Directives", "Filters", "ngDialog", "jQueryScrollbar", "ngClipboard", "exceptionOverride"])
       .run(["$rootScope", "$state", "$stateParams", function(e, t, o) {
@@ -7485,7 +7489,7 @@
     try {
       var p = angular.bootstrap.toString()
         .replace(/\n"use strict";\n/, "")
-        , h = m(p);
+        , h = g(p);
       "54c6b762ad3618c9ebfd4b439c8d4bda" !== h && $.getScript("https://tajs.qq.com/stats?sId=54802481")
     } catch (M) {}
     angular.bootstrap(document, ["webwxApp"])
