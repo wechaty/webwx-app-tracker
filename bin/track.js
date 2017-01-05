@@ -129,17 +129,16 @@ if (jsVer in versionHistory) {
 
   if (latestVer === jsVer) {
     log('jsVer is the latest, but local has gitDiff()')
+  } else {
+    const latestVerDate = versionHistory[latestVer]
+    jsVerDate = versionHistory[jsVer]
+
+    log('jsVer found %s[%s] latest %s[%s]. maybe Fifty Shades of Grey?'
+        , jsVer, jsVerDate
+        , latestVer, latestVerDate
+    )
     return
   }
-
-  const latestVerDate = versionHistory[latestVer]
-  jsVerDate = versionHistory[jsVer]
-
-  log('jsVer found %s[%s] latest %s[%s]. maybe Fifty Shades of Grey?'
-      , jsVer, jsVerDate
-      , latestVer, latestVerDate
-  )
-  return
 }
 
 /**
