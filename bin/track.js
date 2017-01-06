@@ -1,3 +1,5 @@
+#!/usr/bin/env nodejs
+
 /**
  * webwxApp SPA Html &amp; AngularJS Script Tracker for Web Wechat
  *  https://github.com/wechaty/webwx-app/
@@ -139,16 +141,17 @@ if (jsVer in versionHistory) {
     )
     return
   }
+} else {
+
+   /**
+   * Save new version to history json file
+   */
+  versionHistory[jsVer] = new Date()
+  versionHistory['latest'] = jsVer
+  
+  const json = JSON.stringify(versionHistory, null, '  ')
+  writeFileSync(VERSION_HISTORY, json)
 }
-
-/**
- * Save new version to history json file
- */
-versionHistory[jsVer] = new Date()
-versionHistory['latest'] = jsVer
-
-const json = JSON.stringify(versionHistory, null, '  ')
-writeFileSync(VERSION_HISTORY, json)
 
 /**
  * Commit & Push
