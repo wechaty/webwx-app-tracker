@@ -47,3 +47,7 @@ P.S. You need to use Github Personal Token to enable push in crontab:
 * http://stackoverflow.com/questions/18935539/authenticate-with-github-using-token
 
 Any suggestion is welcome.
+
+# See Also
+
+* [网页QQ/微信/新浪微博等重要文件监控，方便发现文件变动，及时更新相关项目](https://github.com/sjdy521/Mojo-URLMonitor)
