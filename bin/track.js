@@ -158,7 +158,7 @@ if (jsVer in versionHistory) {
 /**
  * Commit & Push
  */
-gitCommit('webwxApp' + jsVer)
+gitCommit('webwx-' + jsVer)
 gitPush()
 
 log('new version: %s', jsVer)
