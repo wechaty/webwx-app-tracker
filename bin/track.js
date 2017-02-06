@@ -18,8 +18,9 @@ function get(url) {
 }
 
 function getJsUrl(html) {
-  //  <script type="text/javascript" src="https://res.wx.qq.com/zh_CN/htmledition/v2/js/webwxApp31aa32.js"></script>
-  const re = new RegExp(' src="(https://res.wx.qq.com/.+?/js/webwxApp.+?\.js)"></script>', 'i')
+  // 2016:   <script type="text/javascript" src="https://res.wx.qq.com/zh_CN/htmledition/v2/js/webwxApp31aa32.js"></script>
+  // 201702: <script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_0c7087d.js">
+  const re = new RegExp(' src="//(res.wx.qq.com/[^"]+?/js/index_.+?\.js)"></script>', 'i')
   const match = re.exec(html)
   if (!match) {
     return null
@@ -28,7 +29,8 @@ function getJsUrl(html) {
 }
 
 function getJsVer(url) {
-  const re = /webwxApp(.+?)\.js/i
+  // res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_0c7087d.js
+  const re = /index_(.+?)\.js/i
   const match = re.exec(url)
   if (!match) {
     throw new Error('no version')
