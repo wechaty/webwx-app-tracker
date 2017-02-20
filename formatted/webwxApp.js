@@ -221,29 +221,14 @@ webpackJsonp([1], {
                         e.readItem = r || i && i.MPArticleList[0]
                       }
                       e.optionMenu = function() {
-                          n.toggleOpen({
-                            templateUrl: "readMenu.html"
-                            , container: angular.element(document.querySelector(".read_list_header"))
-                            , controller: "readMenuController"
-                            , singletonId: "mmpop_reader_menu"
-                            , className: "reader_menu"
-                          })
-                        }, c || $("#reader")
-                        .load(function() {
-                          var e = $(this)
-                            .contents()
-                            .find("body")
-                            , t = e.find("#js_view_source");
-                          if (t.length > 0) {
-                            e.css({
-                              position: "relative"
-                            });
-                            var a = $(
-                              '<a href="javascript:;" onclick="var url = window.msg_source_url || window.location.href; var win = window.top.open(url, \'_blank\'); win.focus();" style="position: absolute; bottom: 20px; left: 15px; width: 4em; height: 25px; background: #FFFFFF;">阅读原文</a>'
-                            );
-                            e.append(a)
-                          }
+                        n.toggleOpen({
+                          templateUrl: "readMenu.html"
+                          , container: angular.element(document.querySelector(".read_list_header"))
+                          , controller: "readMenuController"
+                          , singletonId: "mmpop_reader_menu"
+                          , className: "reader_menu"
                         })
+                      }
                     }]
                   }
                 }
@@ -2286,14 +2271,13 @@ webpackJsonp([1], {
                 return _chatListInfos.length = 0, angular.forEach(_chatList, function(a, n) {
                   var i, o = contactFactory.getContact(a)
                     , c = {};
-                  !o || o.isBrandContact() || o.isShieldUser() || (a == _currentUserName && e.markMsgsRead(a) && e.notifyMobile(a, confFactory.StatusNotifyCode_READED)
-                    , i = e._getLastMessage(o.UserName), angular.extend(c, o, {
-                      MMDigest: i.MMDigest || ""
-                      , NoticeCount: e.getUnreadMsgsCount(a)
-                      , MMStatus: i.MMStatus
-                      , MMTime: i.MMTime || ""
-                      , MMDigestTime: i.MMDigestTime || ""
-                    }), t.push(c))
+                  !o || o.isBrandContact() || o.isShieldUser() || (a == _currentUserName && e.markMsgsRead(a) && e.notifyMobile(a, confFactory.StatusNotifyCode_READED), i = e._getLastMessage(o.UserName), angular.extend(c, o, {
+                    MMDigest: i.MMDigest || ""
+                    , NoticeCount: e.getUnreadMsgsCount(a)
+                    , MMStatus: i.MMStatus
+                    , MMTime: i.MMTime || ""
+                    , MMDigestTime: i.MMDigestTime || ""
+                  }), t.push(c))
                 }), [].push.apply(_chatListInfos, handleChatList(t)), _chatListInfos
               }
               , _getLastMessage: function(e) {
@@ -3393,7 +3377,7 @@ webpackJsonp([1], {
               }
               , addContact: function(e) {
                 e && (e.isContact || (e = f(e), e.MMOrderSymbol = this.getContactOrderSymbol(e)), e.EncryChatRoomId && e.UserName && (e.MMFromBatchget = !0), e.RemarkName = e.RemarkName && c.transformSpanToImg(e.RemarkName), e.NickName =
-                  e.NickName && c.transformSpanToImg(e.NickName), e.isShieldUser() || !e.isContact() && !e.isRoomContact() ? this.addStrangerContact(e) : this.addFriendContact(e))
+                  e.NickName && c.transformSpanToImg(e.NickName), e.isShieldUser() || !e.isContact() && !e.isRoomContact() ? this.addStrangerContact(e) : this.addFriendContact(e));
               }
               , addFriendContact: function(e) {
                 var t, a = this;
@@ -6700,7 +6684,8 @@ webpackJsonp([1], {
                 a.trigger(i)
               }, 200)
             }), t.$on("onUpdate", function() {
-              c++, o()
+              c++
+              , o()
             }), s()
           }
         }
@@ -7838,4 +7823,4 @@ webpackJsonp([1], {
         }])
     }()
   }
-}); /* vhtml-webpack-plugin version: 0.1.8 */
+}); /* vhtml-webpack-plugin version: 0.1.11 */
