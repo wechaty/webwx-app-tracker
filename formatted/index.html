@@ -211,7 +211,7 @@
               ng-input="search($event)"
               ng-keydown="searchKeydown($event)"
               ng-blur="focus = false;"
-              placeholder='_("搜索")' />
+              placeholder='搜索' />
         </div>
         <!--END search-->
 
@@ -222,18 +222,18 @@
             <a class="chat"
                 ui-sref="chat"
                 ng-dblclick="dblclickChat()"
-                title='_("聊天")'><i class="web_wechat_tab_chat" ng-class="{web_wechat_tab_chat_hl: $state.includes('chat')}"></i></a>
+                title='聊天'><i class="web_wechat_tab_chat" ng-class="{web_wechat_tab_chat_hl: $state.includes('chat')}"></i></a>
           </div>
           <div class="tab_item"
               ng-if="isShowReader">
             <a class="chat"
                 ui-sref="read"
-                title='_("阅读")'><i class="web_wechat_tab_public" ng-class="{web_wechat_tab_public_hl: $state.includes('read')}"></i></a>
+                title='阅读'><i class="web_wechat_tab_public" ng-class="{web_wechat_tab_public_hl: $state.includes('read')}"></i></a>
           </div>
           <div class="tab_item no_extra">
             <a class="chat"
                 ui-sref="contact"
-                title='_("通讯录")'><i class="web_wechat_tab_friends" ng-class="{web_wechat_tab_friends_hl: $state.includes('contact')}"></i></a>
+                title='通讯录'><i class="web_wechat_tab_friends" ng-class="{web_wechat_tab_friends_hl: $state.includes('contact')}"></i></a>
           </div>
         </div>
         <!--END tab-->
@@ -2294,7 +2294,7 @@
           <i class="addchat_searchicon"></i>
           <input type="text"
               class="input"
-              placeholder="搜索"
+              placeholder='搜索'
               ng-model="keyword"
               ng-input="search($event)"
               autofocus/>
@@ -2435,11 +2435,7 @@
       }, "_" in window || (window._ = n)
     }();
     _({
-      "e5f71fc": "搜索"
-      , "c0abbfb": "聊天"
-      , "687a7e7": "阅读"
-      , "183abe8": "通讯录"
-      , "02d9819": "提示"
+      "02d9819": "提示"
       , "0d2fc2c": "程序初始化失败，点击确认刷新页面"
       , "599d8df": "发送文件出错，请刷新后再试"
       , "8d521cc": "点击修改备注"
@@ -2536,8 +2532,8 @@
     });
 
   </script>
-  <script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_ea8b021.js"></script>
-  <script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_65bba16.js"></script>
+  <script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_0cc94ce.js"></script>
+  <script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_8f1ca59.js"></script>
 </body>
 
 </html>
