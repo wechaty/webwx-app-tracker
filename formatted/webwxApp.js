@@ -1,46 +1,40 @@
-webpackJsonp([1], {
-  0: function(e, exports, t) {
-    e.exports = t(282) + t(297);
-  }
-  , 68: function(e, exports, t) {
+webpackJsonp([1], [function(e, exports, t) {
+    e.exports = t(262) + t(277);
+  }, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , function(e, exports, t) {
     e.exports = t.p + "/static/img/3wOU-7F.ico"
-  }
-  , 69: function(e, exports, t) {
+  }, function(e, exports, t) {
     e.exports = t.p + "/static/img/qMUjOdv.png"
-  }
-  , 70: function(e, exports, t) {
+  }, function(e, exports, t) {
     e.exports = t.p + "/static/img/2kAS7mD.png"
-  }
-  , 71: function(e, exports) {}
-  , 82: function(e, exports, t) {
+  }, function(e, exports) {}, , , , , , , , , , , function(e, exports, t) {
     e.exports = t.p + "/static/img/a7Nznaj.gif"
-  }
-  , 113: function(e, exports) {}
-  , 279: function(e, exports, t) {
+  }, , , , , , , , , , , function(e, exports) {}, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , 
+  , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , 
+  , function(e, exports, t) {
     e.exports = t.p + "/static/img/2z6meE1.gif"
   }
-  , 280: function(e, exports, t) {
+  , function(e, exports, t) {
     e.exports = t.p + "/static/img/2KriyDK.png"
   }
-  , 281: function(e, exports, t) {
+  , function(e, exports, t) {
     e.exports = t.p + "/static/img/25x4Rho.gif"
   }
-  , 282: function(e, exports, t) {
+  , function(e, exports, t) {
     window.MMSource = {
-      copySwfPath: t(283)
-      , jplayerSwfPath: t(284)
-    }, t(285), t(289), t(290), t(291), t(292), t(293), t(294), t(295), t(296)
+      copySwfPath: t(263)
+      , jplayerSwfPath: t(264)
+    }, t(265), t(269), t(270), t(271), t(272), t(273), t(274), t(275), t(276)
   }
-  , 283: function(e, exports, t) {
+  , function(e, exports, t) {
     e.exports = t.p + "/static/res/1OM7Ut2.swf"
   }
-  , 284: function(e, exports, t) {
+  , function(e, exports, t) {
     e.exports = t.p + "/static/res/GIqH2cS.swf"
-  }
-  , 297: function(e, exports, t) {
-    angular.module("Controllers", []), t(298), t(299), t(300), t(302), t(303), t(305), t(306), t(307), t(308), t(309), t(310), t(311), angular.module("Services", []), t(312), t(313), t(314), t(315), t(316), t(317), t(318), t(319), t(320), t(
-        321), t(322), t(323), t(324), t(325), t(326), t(327), t(328), t(329), t(330), t(331), angular.module("Directives", []), t(332), t(333), t(334), t(335), t(336), t(337), t(338), t(339), t(340), t(341), t(342), t(343), t(344), t(345), t(
-        346), t(347), t(348), t(349), t(350), t(351), t(352), t(353), t(354), t(355), t(356), angular.module("Filters", []), t(358), t(359)
+  }, , , , , , , , , , , , 
+  , function(e, exports, t) {
+    angular.module("Controllers", []), t(278), t(279), t(280), t(282), t(283), t(285), t(286), t(287), t(288), t(289), t(290), t(291), angular.module("Services", []), t(292), t(293), t(294), t(295), t(296), t(297), t(298), t(299), t(300), t(301)
+      , t(302), t(303), t(304), t(305), t(306), t(307), t(308), t(309), t(310), t(311), angular.module("Directives", []), t(312), t(313), t(314), t(315), t(316), t(317), t(318), t(319), t(320), t(321), t(322), t(323), t(324), t(325), t(326), t(
+        327), t(328), t(329), t(330), t(331), t(332), t(333), t(334), t(335), t(336), angular.module("Filters", []), t(338), t(339)
       , function() {
         "use strict";
 
@@ -80,20 +74,19 @@ webpackJsonp([1], {
             , m = -271733879
             , g = -1732584194
             , p = 271733878;
-          for (r = 0; r < t.length; r += 16) s = u, l = m, d = g, f = p, u = n(u, m, g, p, t[r], 7, -680876936), p = n(p, u, m, g, t[r + 1], 12, -389564586), g = n(g, p, u, m, t[r + 2], 17, 606105819), m = n(m, g, p, u, t[r + 3], 22, -
-              1044525330), u = n(u, m, g, p, t[r + 4], 7, -176418897), p = n(p, u, m, g, t[r + 5], 12, 1200080426), g = n(g, p, u, m, t[r + 6], 17, -1473231341), m = n(m, g, p, u, t[r + 7], 22, -45705983), u = n(u, m, g, p, t[r + 8], 7
-              , 1770035416), p = n(p, u, m, g, t[r + 9], 12, -1958414417), g = n(g, p, u, m, t[r + 10], 17, -42063), m = n(m, g, p, u, t[r + 11], 22, -1990404162), u = n(u, m, g, p, t[r + 12], 7, 1804603682), p = n(p, u, m, g, t[r + 13], 12, -
-              40341101), g = n(g, p, u, m, t[r + 14], 17, -1502002290), m = n(m, g, p, u, t[r + 15], 22, 1236535329), u = i(u, m, g, p, t[r + 1], 5, -165796510), p = i(p, u, m, g, t[r + 6], 9, -1069501632), g = i(g, p, u, m, t[r + 11], 14
-              , 643717713), m = i(m, g, p, u, t[r], 20, -373897302), u = i(u, m, g, p, t[r + 5], 5, -701558691), p = i(p, u, m, g, t[r + 10], 9, 38016083), g = i(g, p, u, m, t[r + 15], 14, -660478335), m = i(m, g, p, u, t[r + 4], 20, -
-              405537848), u = i(u, m, g, p, t[r + 9], 5, 568446438), p = i(p, u, m, g, t[r + 14], 9, -1019803690), g = i(g, p, u, m, t[r + 3], 14, -187363961), m = i(m, g, p, u, t[r + 8], 20, 1163531501), u = i(u, m, g, p, t[r + 13], 5, -
-              1444681467), p = i(p, u, m, g, t[r + 2], 9, -51403784), g = i(g, p, u, m, t[r + 7], 14, 1735328473), m = i(m, g, p, u, t[r + 12], 20, -1926607734), u = o(u, m, g, p, t[r + 5], 4, -378558), p = o(p, u, m, g, t[r + 8], 11, -
-              2022574463), g = o(g, p, u, m, t[r + 11], 16, 1839030562), m = o(m, g, p, u, t[r + 14], 23, -35309556), u = o(u, m, g, p, t[r + 1], 4, -1530992060), p = o(p, u, m, g, t[r + 4], 11, 1272893353), g = o(g, p, u, m, t[r + 7], 16, -
-              155497632), m = o(m, g, p, u, t[r + 10], 23, -1094730640), u = o(u, m, g, p, t[r + 13], 4, 681279174), p = o(p, u, m, g, t[r], 11, -358537222), g = o(g, p, u, m, t[r + 3], 16, -722521979), m = o(m, g, p, u, t[r + 6], 23, 76029189)
-            , u = o(u, m, g, p, t[r + 9], 4, -640364487), p = o(p, u, m, g, t[r + 12], 11, -421815835), g = o(g, p, u, m, t[r + 15], 16, 530742520), m = o(m, g, p, u, t[r + 2], 23, -995338651), u = c(u, m, g, p, t[r], 6, -198630844), p = c(p
-              , u, m, g, t[r + 7], 10, 1126891415), g = c(g, p, u, m, t[r + 14], 15, -1416354905), m = c(m, g, p, u, t[r + 5], 21, -57434055), u = c(u, m, g, p, t[r + 12], 6, 1700485571), p = c(p, u, m, g, t[r + 3], 10, -1894986606), g = c(g
-              , p, u, m, t[r + 10], 15, -1051523), m = c(m, g, p, u, t[r + 1], 21, -2054922799), u = c(u, m, g, p, t[r + 8], 6, 1873313359), p = c(p, u, m, g, t[r + 15], 10, -30611744), g = c(g, p, u, m, t[r + 6], 15, -1560198380), m = c(m, g
-              , p, u, t[r + 13], 21, 1309151649), u = c(u, m, g, p, t[r + 4], 6, -145523070), p = c(p, u, m, g, t[r + 11], 10, -1120210379), g = c(g, p, u, m, t[r + 2], 15, 718787259), m = c(m, g, p, u, t[r + 9], 21, -343485551), u = e(u, s)
-            , m = e(m, l), g = e(g, d), p = e(p, f);
+          for (r = 0; r < t.length; r += 16) s = u, l = m, d = g, f = p, u = n(u, m, g, p, t[r], 7, -680876936), p = n(p, u, m, g, t[r + 1], 12, -389564586), g = n(g, p, u, m, t[r + 2], 17, 606105819), m = n(m, g, p, u, t[r + 3], 22, -1044525330)
+            , u = n(u, m, g, p, t[r + 4], 7, -176418897), p = n(p, u, m, g, t[r + 5], 12, 1200080426), g = n(g, p, u, m, t[r + 6], 17, -1473231341), m = n(m, g, p, u, t[r + 7], 22, -45705983), u = n(u, m, g, p, t[r + 8], 7, 1770035416), p = n(p
+              , u, m, g, t[r + 9], 12, -1958414417), g = n(g, p, u, m, t[r + 10], 17, -42063), m = n(m, g, p, u, t[r + 11], 22, -1990404162), u = n(u, m, g, p, t[r + 12], 7, 1804603682), p = n(p, u, m, g, t[r + 13], 12, -40341101), g = n(g, p, u
+              , m, t[r + 14], 17, -1502002290), m = n(m, g, p, u, t[r + 15], 22, 1236535329), u = i(u, m, g, p, t[r + 1], 5, -165796510), p = i(p, u, m, g, t[r + 6], 9, -1069501632), g = i(g, p, u, m, t[r + 11], 14, 643717713), m = i(m, g, p, u
+              , t[r], 20, -373897302), u = i(u, m, g, p, t[r + 5], 5, -701558691), p = i(p, u, m, g, t[r + 10], 9, 38016083), g = i(g, p, u, m, t[r + 15], 14, -660478335), m = i(m, g, p, u, t[r + 4], 20, -405537848), u = i(u, m, g, p, t[r + 9]
+              , 5, 568446438), p = i(p, u, m, g, t[r + 14], 9, -1019803690), g = i(g, p, u, m, t[r + 3], 14, -187363961), m = i(m, g, p, u, t[r + 8], 20, 1163531501), u = i(u, m, g, p, t[r + 13], 5, -1444681467), p = i(p, u, m, g, t[r + 2], 9, -
+              51403784), g = i(g, p, u, m, t[r + 7], 14, 1735328473), m = i(m, g, p, u, t[r + 12], 20, -1926607734), u = o(u, m, g, p, t[r + 5], 4, -378558), p = o(p, u, m, g, t[r + 8], 11, -2022574463), g = o(g, p, u, m, t[r + 11], 16
+              , 1839030562), m = o(m, g, p, u, t[r + 14], 23, -35309556), u = o(u, m, g, p, t[r + 1], 4, -1530992060), p = o(p, u, m, g, t[r + 4], 11, 1272893353), g = o(g, p, u, m, t[r + 7], 16, -155497632), m = o(m, g, p, u, t[r + 10], 23, -
+              1094730640), u = o(u, m, g, p, t[r + 13], 4, 681279174), p = o(p, u, m, g, t[r], 11, -358537222), g = o(g, p, u, m, t[r + 3], 16, -722521979), m = o(m, g, p, u, t[r + 6], 23, 76029189), u = o(u, m, g, p, t[r + 9], 4, -640364487), p =
+            o(p, u, m, g, t[r + 12], 11, -421815835), g = o(g, p, u, m, t[r + 15], 16, 530742520), m = o(m, g, p, u, t[r + 2], 23, -995338651), u = c(u, m, g, p, t[r], 6, -198630844), p = c(p, u, m, g, t[r + 7], 10, 1126891415), g = c(g, p, u, m
+              , t[r + 14], 15, -1416354905), m = c(m, g, p, u, t[r + 5], 21, -57434055), u = c(u, m, g, p, t[r + 12], 6, 1700485571), p = c(p, u, m, g, t[r + 3], 10, -1894986606), g = c(g, p, u, m, t[r + 10], 15, -1051523), m = c(m, g, p, u, t[r +
+              1], 21, -2054922799), u = c(u, m, g, p, t[r + 8], 6, 1873313359), p = c(p, u, m, g, t[r + 15], 10, -30611744), g = c(g, p, u, m, t[r + 6], 15, -1560198380), m = c(m, g, p, u, t[r + 13], 21, 1309151649), u = c(u, m, g, p, t[r + 4]
+              , 6, -145523070), p = c(p, u, m, g, t[r + 11], 10, -1120210379), g = c(g, p, u, m, t[r + 2], 15, 718787259), m = c(m, g, p, u, t[r + 9], 21, -343485551), u = e(u, s), m = e(m, l), g = e(g, d), p = e(p, f);
           return [u, m, g, p]
         }
 
@@ -243,7 +236,7 @@ webpackJsonp([1], {
         angular.bootstrap(document, ["webwxApp"])
       }()
   }
-  , 298: function(e, exports) {
+  , function(e, exports) {
     ! function() {
       "use strict";
       location.href.indexOf("dev.web") < 0 ? angular.module("exceptionOverride", [])
@@ -272,7 +265,7 @@ webpackJsonp([1], {
             }
 
             function S() {
-              var e = A;
+              var e = U;
               e && setTimeout(function() {
                 var t = (e[0].clientHeight - e.find(".ngdialog-content")
                   .height()) / 2;
@@ -421,24 +414,24 @@ webpackJsonp([1], {
             }, t.$on("root:searchList:cleanKeyWord", function(e) {
               t.keyword = ""
             });
-            var A;
+            var U;
             t.$on("ngDialog.opened", function(e, t) {
-                C.change("dialog:open", !0), A = t, S()
+                C.change("dialog:open", !0), U = t, S()
               }), t.$on("ngDialog.closed", function(e, t) {
-                C.change("dialog:open", !1), A = null
+                C.change("dialog:open", !1), U = null
               }), $(window)
               .on("resize", function(e) {
                 S()
               }), t.appClick = function(e) {
                 t.$broadcast("app:contextMenu:hide", e)
               };
-            var U, F = $(document.body);
+            var A, F = $(document.body);
             F.on("dragenter", function(e) {
               var t = e.originalEvent;
-              U = t.target, t.dataTransfer.dropEffect = "none", F.addClass("drop-enter"), t.stopPropagation(), t.preventDefault()
+              A = t.target, t.dataTransfer.dropEffect = "none", F.addClass("drop-enter"), t.stopPropagation(), t.preventDefault()
             }), F.on("dragleave", function(e) {
               var t = e.originalEvent;
-              t.dataTransfer.dropEffect = "none", U === t.target && F.removeClass("drop-enter"), t.stopPropagation(), t.preventDefault()
+              t.dataTransfer.dropEffect = "none", A === t.target && F.removeClass("drop-enter"), t.stopPropagation(), t.preventDefault()
             }), F.on("dragover", function(e) {
               var t = e.originalEvent;
               t.dataTransfer.dropEffect = "none", t.stopPropagation(), t.preventDefault()
@@ -490,7 +483,7 @@ webpackJsonp([1], {
         ])
     }()
   }
-  , 299: function(e, exports) {
+  , function(e, exports) {
     ! function() {
       "use strict";
       angular.module("Controllers")
@@ -614,16 +607,17 @@ webpackJsonp([1], {
         }])
     }()
   }
-  , 300: function(e, exports, t) {
+  , function(e, exports, t) {
     ! function() {
       "use strict";
       angular.module("Controllers")
-        .controller("contentChatController", ["$scope", "$timeout", "$state", "$log", "$document", "$compile", "chatFactory", "accountFactory", "contactFactory", "appFactory", "confFactory", "utilFactory", "chatroomFactory", "mmpop"
-          , "ngDialog", "preview", "reportService", "mmHttp", "emojiFactory"
+        .controller("contentChatController", ["$scope", "$timeout", "$state", "$log", "$document", "$compile", "chatFactory", "accountFactory", "contactFactory", "appFactory", "confFactory", "utilFactory", "chatroomFactory", "mmpop", "ngDialog"
+          , "preview", "reportService", "mmHttp", "emojiFactory"
           , function(e, a, n, i, o, c, r, s, l, d, f, u, m, g, p, h, M, v, y) {
             function b(t) {
               var n = e.currentContact = l.getContact(t);
-              if (e.currentUser = t, e.chatContent = r.getChatMessage(t, !0), e.imagesMessagesList = [], e.messagesAnimate = !1, a(function() {
+              if (n && (e.unreadMessageCount = n.unreadCount, n.unreadCount = 0), e.isChangeUserFlag = !0, e.currentUser = t, e.chatContent = r.getChatMessage(t, !0), e.unreadMessage = e.chatContent[e.chatContent.length - e.unreadMessageCount]
+                , e.imagesMessagesList = [], e.messagesAnimate = !1, a(function() {
                   e.messagesAnimate = !0
                 }, 200), n) {
                 var i =
@@ -654,7 +648,11 @@ webpackJsonp([1], {
               }
               return n
             }
-            var S = o.find("#chatArea .scrollbar-dynamic")[0];
+
+            function S() {
+              e.currentContact && r.markMsgsRead(e.currentContact.UserName), e.bottomUnreadCount = 0, r.getChatList()
+            }
+            var T = o.find("#chatArea .scrollbar-dynamic")[0];
             e.delState = !1, e.chatContent = [], e.isShowChatRoomMembers = !1, o.find("#chatArea")
               .on("drop", function(e) {
                 var t = r.setSendFileUsername(r.getCurrentUserName());
@@ -665,9 +663,11 @@ webpackJsonp([1], {
                 }))
               }), e.$watch(function() {
                 return r.getCurrentUserName()
-              }, function(e) {
-                b(e), setTimeout(function() {
-                  S.scrollTop = 999999
+              }, function(t) {
+                b(t), e.newMsg = null, e.isScrollToUnread = !1, setTimeout(function() {
+                  T.scrollTop = 999999, e.autoScrollFlag = !0, setTimeout(function() {
+                    e.autoScrollFlag = !1
+                  }, 200)
                 }, 10)
               }), e.$on("root:cleanMsg", function(t, a) {
                 r.cleanChatMessage(a), r.getChatList(), a == r.getCurrentUserName() && (e.imagesMessagesList = [])
@@ -716,180 +716,204 @@ webpackJsonp([1], {
                     a.MsgId = t, a.getMsgVideo = e.getMsgVideo, a.getMsgImg = e.getMsgImg, a.width = 800, a.height = 600
                   }]
                 })
-              }, e.previewImg = function(t) {
-                for (var a, n, i = 0; i < e.imagesMessagesList.length; i++)
-                  if (a = e.imagesMessagesList[i], a.msg == t) {
-                    n = i;
-                    break
+              }, e.scrollToTopUnread = function() {
+                e.unreadMessage && (e.newMsg = e.unreadMessage, e.isScrollToUnread = !0, e.unreadMessageCount = 0, T.scrollTop = e.unreadMessage._offsetTop)
+              }, e.scrollToBottomUnread = function() {
+                if (e.bottomUnreadIndex && e.bottomUnreadCount) {
+                  var t = e.chatContent[e.bottomUnreadIndex];
+                  if (t) {
+                    e.newMsg = t, t._h = 0, e.isScrollToUnread = !0, e.bottomUnreadIndex = 0, S(), T.scrollTop = t._offsetTop;
+                    var a = e.$on("mmRepeat:reCalc", function() {
+                      T.scrollTop = t._offsetTop, a()
+                    })
                   }
-                var o = t.MMStatus;
-                void 0 !== o && o != f.MSG_SEND_STATUS_SUCC || h.open({
-                  imageList: e.imagesMessagesList
-                  , current: n
-                })
-              }, e.resendMsg = function(e) {
-                r.sendMessage(e)
-              }, e.imageInit = function(t, a) {
-                for (var n, i, o, c = e.imagesMessagesList, r = !1, i = e.getMsgImg(t.MsgId), s = 0; s < c.length; s++)
-                  if (n = c[s], n.msg === t) {
-                    r = !0, n.url = i, o = s;
-                    break
-                  }
-                if (!r) {
-                  var l;
-                  l = "undefined" == typeof t.MMStatus || t.MMStatus == f.MSG_SEND_STATUS_SUCC ? {
-                    url: i
-                    , msg: t
-                    , preview: a
-                  } : {
-                    msg: t
-                    , preview: a
-                  }, o = w(c, l)
                 }
-                return o
-              }, e.showChatRoomMembers = function(t) {
-                g.toggleOpen({
-                  templateUrl: "chatRoomMember.html"
-                  , scope: e
-                  , container: angular.element(document.getElementById("chatRoomMembersWrap"))
-                  , className: "members_wrp slide-down"
-                  , singletonId: "mmpop_chatroom_members"
-                  , stopPropagation: !1
-                  , controller: ["$scope", function(t) {
-                    a(function(a) {
-                      t.currentContact = e.currentContact, t.accountUserName = s.getUserName()
-                    }, 100), t.addCharRoomMember = function() {
-                      var e = {};
-                      angular.forEach(t.currentContact.MemberList, function(t) {
-                        e[t.UserName] = t
-                      }), m.setCurrentContact(t.currentContact), m.setFilterContacts(e), p.open({
-                        templateUrl: "createChatroom.html"
-                        , controller: "createChatroomController"
-                        , className: "default add_chatroom"
-                        , data: {
-                          isAdd: !0
-                        }
-                      }), t.closeThisMmPop()
-                    }, t.createChatroom = function() {
-                      p.open({
-                        templateUrl: "createChatroom.html"
-                        , controller: "createChatroomController"
-                        , className: "default create_chatroom_dlg"
-                        , data: {
-                          isCreate: !0
-                          , initSelectedContacts: [t.currentContact]
-                        }
-                      }), t.closeThisMmPop()
-                    }
-                  }]
-                }), e.isShowChatRoomMembers = !0, t.preventDefault()
-              }, e.showProfile = function(t, a, i) {
-                var o;
-                o = a ? l.getContact(a, e.currentContact.UserName) : e.currentContact;
-                var c = angular.element(window)
-                  , r = 230
-                  , d = 360
-                  , u = c.width()
-                  , m = c.height()
-                  , h = t.pageY
-                  , M = t.pageX;
-                u - t.pageX < r && (M = t.pageX - r), m - t.pageY < d && (h = t.pageY - d), g.open({
-                  templateUrl: "profile_mini.html"
-                  , className: "profile_mini_wrap scale-fade"
-                  , top: h
-                  , left: M
-                  , blurClose: !0
-                  , singletonId: "mmpop_profile"
-                  , controller: ["$scope", function(e) {
-                    e.contact = o, e.MMDefaultRemark = _("8d521cc"), e.addUserContent = _("5a97440") + y.formatHTMLToSend(s.getUserInfo()
-                      .NickName), e.isShowSendBox = i || !1, e.chat = function(t) {
-                      n.go("chat", {
-                        userName: t
-                      }), e.closeThisMmPop()
-                    }, e.verifyUser = function(t) {
-                      l.verifyUser({
-                          UserName: o.UserName
-                          , Opcode: f.VERIFYUSER_OPCODE_VERIFYOK
-                          , Scene: f.ADDSCENE_PF_WEB
-                          , Ticket: o.Ticket
-                        })
-                        .then(function(t) {
-                          e.closeThisMmPop()
-                        }, function(t) {
-                          e.closeThisMmPop(), alert("verify user error.")
-                        })
-                    }, e.editRemarkName = function() {
-                      e.MMDefaultRemark == _("8d521cc") && (e.MMDefaultRemark = "")
-                    }, e.text = y.transformSpanToImg(e.contact.RemarkName || ""), e.save = function(t) {
-                      var a = $(".profile_mini_wrap .J_Text")
-                        , n = a.text()
-                        , i = n.length;
-                      return t && [8, 37, 39, 46, 13].indexOf(t.keyCode) === -1 && i > 13 ? void t.preventDefault() : void(t && 13 != t.keyCode || (n.length > 17 && (n = n.substring(0, 18)), e.editing = !1, e.contact.RemarkName = n
-                        , v({
-                          method: "POST"
-                          , url: f.API_webwxoplog
-                          , data: angular.extend({
-                            UserName: e.contact.UserName
-                            , CmdId: f.oplogCmdId.MODREMARKNAME
-                            , RemarkName: y.formatHTMLToSend(n)
-                          }, s.getBaseRequest())
-                          , MMRetry: {
-                            count: 3
-                            , timeout: 1e4
-                            , serial: !0
-                          }
-                        })
-                        .success(function(t) {
-                          e.MMDefaultRemark = _("8d521cc")
-                        })
-                        .error(function(e) {}), $('<div contenteditable="true"></div>')
-                        .appendTo("body")
-                        .focus()
-                        .remove()))
-                    }, e.addUser = function(t, a) {
-                      l.verifyUser({
-                          UserName: o.UserName
-                          , Opcode: f.VERIFYUSER_OPCODE_SENDREQUEST
-                          , Scene: f.ADDSCENE_PF_WEB
-                          , Ticket: o.Ticket
-                          , VerifyContent: a || ""
-                        })
-                        .then(function(t) {
-                          e.closeThisMmPop()
-                        }, function(t) {
-                          e.closeThisMmPop(), p.openConfirm({
-                            className: "default "
-                            , templateUrl: "comfirmTips.html"
-                            , controller: ["$scope", function(e) {
-                              e.title = _("02d9819"), e.content = t.BaseResponse.ErrMsg || _("f45a3d8"), e.callback = function() {
-                                e.closeThisDialog()
-                              }
-                            }]
-                          })
-                        })
-                    }
-                  }]
-                })
-              }, e.removeMemberFromChatroom = function(e, t) {
-                m.delMember(e, t), g.close("mmpop_chatroom_members")
               };
-            var T = function() {
+            var N = null;
+            e.$on("onScroll", function(t, a) {
+              var n = a.y;
+              if (e.currentContact && (n.maxScroll - n.scroll > 260 ? e.currentContact._notActive || (e.bottomUnreadIndex = e.chatContent.length, e.currentContact._notActive = !0, e.$digest()) : (S(), e.currentContact._notActive = !1, e.$digest()))
+                , e.bottomUnreadIndex) {
+                var i = e.chatContent[e.bottomUnreadIndex];
+                i ? i._offsetTop < n.scroll + n.visible && (S(), n.maxScroll - n.scroll > 260 && (e.bottomUnreadIndex = e.chatContent.length)) : S()
+              }
+              clearTimeout(N), N = setTimeout(function() {
+                e.autoScrollFlag || e.unreadMessage && e.unreadMessage._offsetTop >= n.scroll && (e.unreadMessageCount = 0, e.$digest())
+              }, 100)
+            }), e.previewImg = function(t) {
+              for (var a, n, i = 0; i < e.imagesMessagesList.length; i++)
+                if (a = e.imagesMessagesList[i], a.msg == t) {
+                  n = i;
+                  break
+                }
+              var o = t.MMStatus;
+              void 0 !== o && o != f.MSG_SEND_STATUS_SUCC || h.open({
+                imageList: e.imagesMessagesList
+                , current: n
+              })
+            }, e.resendMsg = function(e) {
+              r.sendMessage(e)
+            }, e.imageInit = function(t, a) {
+              for (var n, i, o, c = e.imagesMessagesList, r = !1, i = e.getMsgImg(t.MsgId), s = 0; s < c.length; s++)
+                if (n = c[s], n.msg === t) {
+                  r = !0, n.url = i, o = s;
+                  break
+                }
+              if (!r) {
+                var l;
+                l = "undefined" == typeof t.MMStatus || t.MMStatus == f.MSG_SEND_STATUS_SUCC ? {
+                  url: i
+                  , msg: t
+                  , preview: a
+                } : {
+                  msg: t
+                  , preview: a
+                }, o = w(c, l)
+              }
+              return o
+            }, e.showChatRoomMembers = function(t) {
+              g.toggleOpen({
+                templateUrl: "chatRoomMember.html"
+                , scope: e
+                , container: angular.element(document.getElementById("chatRoomMembersWrap"))
+                , className: "members_wrp slide-down"
+                , singletonId: "mmpop_chatroom_members"
+                , stopPropagation: !1
+                , controller: ["$scope", function(t) {
+                  a(function(a) {
+                    t.currentContact = e.currentContact, t.accountUserName = s.getUserName()
+                  }, 100), t.addCharRoomMember = function() {
+                    var e = {};
+                    angular.forEach(t.currentContact.MemberList, function(t) {
+                      e[t.UserName] = t
+                    }), m.setCurrentContact(t.currentContact), m.setFilterContacts(e), p.open({
+                      templateUrl: "createChatroom.html"
+                      , controller: "createChatroomController"
+                      , className: "default add_chatroom"
+                      , data: {
+                        isAdd: !0
+                      }
+                    }), t.closeThisMmPop()
+                  }, t.createChatroom = function() {
+                    p.open({
+                      templateUrl: "createChatroom.html"
+                      , controller: "createChatroomController"
+                      , className: "default create_chatroom_dlg"
+                      , data: {
+                        isCreate: !0
+                        , initSelectedContacts: [t.currentContact]
+                      }
+                    }), t.closeThisMmPop()
+                  }
+                }]
+              }), e.isShowChatRoomMembers = !0, t.preventDefault()
+            }, e.showProfile = function(t, a, i) {
+              var o;
+              o = a ? l.getContact(a, e.currentContact.UserName) : e.currentContact;
+              var c = angular.element(window)
+                , r = 230
+                , d = 360
+                , u = c.width()
+                , m = c.height()
+                , h = t.pageY
+                , M = t.pageX;
+              u - t.pageX < r && (M = t.pageX - r), m - t.pageY < d && (h = t.pageY - d), g.open({
+                templateUrl: "profile_mini.html"
+                , className: "profile_mini_wrap scale-fade"
+                , top: h
+                , left: M
+                , blurClose: !0
+                , singletonId: "mmpop_profile"
+                , controller: ["$scope", function(e) {
+                  e.contact = o, e.MMDefaultRemark = _("8d521cc"), e.addUserContent = _("5a97440") + y.formatHTMLToSend(s.getUserInfo()
+                    .NickName), e.isShowSendBox = i || !1, e.chat = function(t) {
+                    n.go("chat", {
+                      userName: t
+                    }), e.closeThisMmPop()
+                  }, e.verifyUser = function(t) {
+                    l.verifyUser({
+                        UserName: o.UserName
+                        , Opcode: f.VERIFYUSER_OPCODE_VERIFYOK
+                        , Scene: f.ADDSCENE_PF_WEB
+                        , Ticket: o.Ticket
+                      })
+                      .then(function(t) {
+                        e.closeThisMmPop()
+                      }, function(t) {
+                        e.closeThisMmPop(), alert("verify user error.")
+                      })
+                  }, e.editRemarkName = function() {
+                    e.MMDefaultRemark == _("8d521cc") && (e.MMDefaultRemark = "")
+                  }, e.text = y.transformSpanToImg(e.contact.RemarkName || ""), e.save = function(t) {
+                    var a = $(".profile_mini_wrap .J_Text")
+                      , n = a.text()
+                      , i = n.length;
+                    return t && [8, 37, 39, 46, 13].indexOf(t.keyCode) === -1 && i > 13 ? void t.preventDefault() : void(t && 13 != t.keyCode || (n.length > 17 && (n = n.substring(0, 18)), e.editing = !1, e.contact.RemarkName = n
+                      , v({
+                        method: "POST"
+                        , url: f.API_webwxoplog
+                        , data: angular.extend({
+                          UserName: e.contact.UserName
+                          , CmdId: f.oplogCmdId.MODREMARKNAME
+                          , RemarkName: y.formatHTMLToSend(n)
+                        }, s.getBaseRequest())
+                        , MMRetry: {
+                          count: 3
+                          , timeout: 1e4
+                          , serial: !0
+                        }
+                      })
+                      .success(function(t) {
+                        e.MMDefaultRemark = _("8d521cc")
+                      })
+                      .error(function(e) {}), $('<div contenteditable="true"></div>')
+                      .appendTo("body")
+                      .focus()
+                      .remove()))
+                  }, e.addUser = function(t, a) {
+                    l.verifyUser({
+                        UserName: o.UserName
+                        , Opcode: f.VERIFYUSER_OPCODE_SENDREQUEST
+                        , Scene: f.ADDSCENE_PF_WEB
+                        , Ticket: o.Ticket
+                        , VerifyContent: a || ""
+                      })
+                      .then(function(t) {
+                        e.closeThisMmPop()
+                      }, function(t) {
+                        e.closeThisMmPop(), p.openConfirm({
+                          className: "default "
+                          , templateUrl: "comfirmTips.html"
+                          , controller: ["$scope", function(e) {
+                            e.title = _("02d9819"), e.content = t.BaseResponse.ErrMsg || _("f45a3d8"), e.callback = function() {
+                              e.closeThisDialog()
+                            }
+                          }]
+                        })
+                      })
+                  }
+                }]
+              })
+            }, e.removeMemberFromChatroom = function(e, t) {
+              m.delMember(e, t), g.close("mmpop_chatroom_members")
+            };
+            var E = function() {
               window.MMplayingMsg && (window.MMplayingMsg.MMPlaying = !1, window.MMplayingMsg = null, e.$$phase || e.$digest())
             };
             e.playVoice = function(e) {
               t.e(2, function(require) {
-                var a = (t(301), jQuery("#voiceMsgPlayer"));
+                var a = (t(281), jQuery("#voiceMsgPlayer"));
                 if (window.MMplayingMsg) {
                   if (e.MsgId == window.MMplayingMsg.MsgId && e.MMPlaying) return void a.jPlayer("stop");
-                  T()
+                  E()
                 }
                 var n = f.API_webwxgetvoice + "?msgid=" + e.MsgId + "&skey=" + s.getSkey();
                 e.MMVoiceUnRead && (e.MMVoiceUnRead = !1), e.MMPlaying = !0, a.jPlayer({
                   ready: function() {}
                   , timeupdate: function(e) {}
                   , play: function(e) {}
-                  , pause: T
-                  , ended: T
+                  , pause: E
+                  , ended: E
                   , swfPath: window.MMSource.jplayerSwfPath
                   , solution: "html, flash"
                   , supplied: "mp3"
@@ -899,18 +923,18 @@ webpackJsonp([1], {
                 }), a.jPlayer("play")
               })
             };
-            var N = !1;
+            var G = !1;
             e.$on("mmRepeat:change", function() {
-              N && (S.scrollTop = 99999)
+              G && (T.scrollTop = 99999)
             });
-            var E, G = !0;
-            e.$watchCollection("chatContent", function(e) {
-              if (e.length > 0 && e[e.length - 1].FromUserName === s.getUserName()) N = !0;
+            var k, I = !0;
+            e.$watchCollection("chatContent", function(t) {
+              if (t.length > 0 && t[t.length - 1].FromUserName === s.getUserName()) G = !0;
               else {
-                if (E && clearTimeout(E), E = setTimeout(function() {
-                    G = !0
-                  }, 100), !G) return;
-                N = S.scrollTop + S.clientHeight + 10 >= S.scrollHeight, G = !1
+                if (e.isChangeUserFlag ? (e.isChangeUserFlag = !1, S()) : e.bottomUnreadIndex && e.currentContact ? e.bottomUnreadCount = r.getUnreadMsgsCount(e.currentContact.UserName) : S(), k && clearTimeout(k), k = setTimeout(function() {
+                    I = !0
+                  }, 100), !I) return;
+                G = T.scrollTop + T.clientHeight + 260 >= T.scrollHeight, I = !1
               }
             }), e.heightCalc = function(t, a) {
               var n = "<div message-directive ></div>"
@@ -957,8 +981,8 @@ webpackJsonp([1], {
           }
         ])
     }()
-  }
-  , 302: function(e, exports) {
+  }, 
+  , function(e, exports) {
     ! function() {
       "use strict";
       angular.module("Controllers")
@@ -971,7 +995,7 @@ webpackJsonp([1], {
         }])
     }()
   }
-  , 303: function(e, exports, t) {
+  , function(e, exports, t) {
     ! function() {
       "use strict";
       angular.module("Controllers")
@@ -1025,7 +1049,7 @@ webpackJsonp([1], {
                 var s = i.lastChild;
                 n.insertNode(i), n.setStartAfter(s), a.removeAllRanges(), a.addRange(n);
                 var l = s.offsetTop - 42 + s.offsetHeight - V.offsetHeight;
-                V.scrollTop < l && (V.scrollTop = l)
+                V.scrollTop < l && (V.scrollTop = l);
               } else n = t || !P ? document.selection.createRange() : P, e = e.replace(/</gi, "&lt;")
                 .replace(/>/gi, "&gt;"), n.pasteHTML(e), n.select()
             }
@@ -1033,7 +1057,7 @@ webpackJsonp([1], {
             function w() {
               window.getSelection && (window.getSelection()
                 .getRangeAt(0)
-                .insertNode(A), U = A.offsetLeft, F = A.offsetTop - V.scrollTop, x.appendChild(A))
+                .insertNode(U), A = U.offsetLeft, F = U.offsetTop - V.scrollTop, x.appendChild(U))
             }
 
             function S(t) {
@@ -1089,7 +1113,7 @@ webpackJsonp([1], {
 
             function k() {
               t.e(3, function(require) {
-                var e = t(304);
+                var e = t(284);
                 window.WebUploader = e;
                 try {
                   Y = e.create({
@@ -1236,8 +1260,8 @@ webpackJsonp([1], {
                 }
               })
             }
-            var I, P, A = document.getElementById("caretPosHelper")
-              , U = 0
+            var I, P, U = document.getElementById("caretPosHelper")
+              , A = 0
               , F = 0
               , V = document.getElementById("editArea")
               , x = V.parentNode
@@ -1303,7 +1327,7 @@ webpackJsonp([1], {
                   M(), u.open({
                     templateUrl: "editAreaContactPanel.html"
                     , controller: "editAreaContactListController"
-                    , left: U
+                    , left: A
                     , top: F
                     , scope: {
                       chatRoomUserName: t
@@ -1466,8 +1490,8 @@ webpackJsonp([1], {
           }
         ])
     }()
-  }
-  , 305: function(e, exports) {
+  }, 
+  , function(e, exports) {
     ! function() {
       "use strict";
       angular.module("Controllers")
@@ -1495,7 +1519,7 @@ webpackJsonp([1], {
         }])
     }()
   }
-  , 306: function(e, exports) {
+  , function(e, exports) {
     ! function() {
       "use strict";
       angular.module("Controllers")
@@ -1594,7 +1618,7 @@ webpackJsonp([1], {
         ])
     }()
   }
-  , 307: function(e, exports) {
+  , function(e, exports) {
     ! function() {
       "use strict";
       angular.module("Controllers")
@@ -1810,7 +1834,7 @@ webpackJsonp([1], {
         }])
     }()
   }
-  , 308: function(e, exports) {
+  , function(e, exports) {
     ! function() {
       "use strict";
       angular.module("Controllers")
@@ -1862,7 +1886,7 @@ webpackJsonp([1], {
         }])
     }()
   }
-  , 309: function(e, exports) {
+  , function(e, exports) {
     ! function() {
       "use strict";
       angular.module("Controllers")
@@ -1903,7 +1927,7 @@ webpackJsonp([1], {
         }])
     }()
   }
-  , 310: function(e, exports) {
+  , function(e, exports) {
     ! function() {
       "use strict";
       angular.module("Controllers")
@@ -1920,7 +1944,7 @@ webpackJsonp([1], {
         }])
     }()
   }
-  , 311: function(e, exports) {
+  , function(e, exports) {
     ! function() {
       "use strict";
       angular.module("Controllers")
@@ -1931,8 +1955,8 @@ webpackJsonp([1], {
               if (e.MsgType != d.MSGTYPE_SYS) {
                 var a = angular.copy(e);
                 a.ToUserName = t, a.FromUserName = p.getUserName(), a.isTranspond = !0, a.MsgIdBeforeTranspond = e.MsgIdBeforeTranspond || e.MsgId, a._h = void 0, a._offsetTop = void 0, a.MMSourceMsgId = e.MsgId, a.Scene = 2, a = c.createMessage(
-                  a), a.sendByLocal = !1, a.Content = m.htmlDecode(a.Content.replace(/^@\w+:<br\/>/, "")), a.MMActualSender = p.getUserName(), a.MMSendContent && (a.MMSendContent = a.MMSendContent.replace(/^@\w+:\s/, "")), a.MMDigest && (a
-                  .MMDigest = a.MMDigest.replace(/^@\w+:/, "")), a.MMActualContent && (a.MMActualContent = m.clearHtmlStr(a.MMActualContent.replace(/^@\w+:<br\/>/, ""))), c.appendMessage(a), c.sendMessage(a)
+                  a), a.sendByLocal = !1, a.Content = m.htmlDecode(a.Content.replace(/^@\w+:<br\/>/, "")), a.MMActualSender = p.getUserName(), a.MMSendContent && (a.MMSendContent = a.MMSendContent.replace(/^@\w+:\s/, "")), a.MMDigest && (a.MMDigest =
+                  a.MMDigest.replace(/^@\w+:/, "")), a.MMActualContent && (a.MMActualContent = m.clearHtmlStr(a.MMActualContent.replace(/^@\w+:<br\/>/, ""))), c.appendMessage(a), c.sendMessage(a)
               }
             }
             var M = t.ngDialogData.msg;
@@ -1972,7 +1996,7 @@ webpackJsonp([1], {
         ])
     }()
   }
-  , 312: function(e, exports) {
+  , function(e, exports) {
     ! function() {
       "use strict";
       angular.module("Services")
@@ -2056,7 +2080,7 @@ webpackJsonp([1], {
         }])
     }()
   }
-  , 313: function(module, exports) {
+  , function(module, exports) {
     ! function(_aoUndefined) {
       "use strict";
       angular.module("Services")
@@ -2072,9 +2096,12 @@ webpackJsonp([1], {
             , _currentUserName = ""
             , _addedMsgIdsMap = {}
             , _msgMap = {}
-            , _sendFileUserName, service = {
+            , _sendFileUserName, _currentUnreadMap = {}
+            , service = {
               setCurrentUserName: function(e) {
-                _currentUserName = e
+                _currentUserName = e;
+                var t = contactFactory.getContact(e);
+                t._notActive = !1
               }
               , getCurrentUserName: function() {
                 return _currentUserName
@@ -2233,7 +2260,8 @@ webpackJsonp([1], {
                   , EMoticonMd5: e.EMoticonMd5 || e.md5
                 };
                 e.MediaId && (t.MediaId = e.MediaId), e.MMSourceMsgId && "undefined" != typeof e.MMStatus && e.MMStatus != confFactory.MSG_SEND_STATUS_SUCC && (e.MMPreviewSrc = confFactory.API_webwxgetmsgimg + "?&MsgID=" + e.MMSourceMsgId +
-                  "&skey=" + encodeURIComponent(accountFactory.getSkey()) + "&type=big"), this._postMessage(confFactory.API_webwxsendemoticon + "?fun=sys", t, e)
+                    "&skey=" + encodeURIComponent(accountFactory.getSkey()) + "&type=big")
+                  , this._postMessage(confFactory.API_webwxsendemoticon + "?fun=sys", t, e)
               }
               , initChatList: function(e) {
                 var t = this
@@ -2271,13 +2299,19 @@ webpackJsonp([1], {
                 return _chatListInfos.length = 0, angular.forEach(_chatList, function(a, n) {
                   var i, o = contactFactory.getContact(a)
                     , c = {};
-                  !o || o.isBrandContact() || o.isShieldUser() || (a == _currentUserName && e.markMsgsRead(a) && e.notifyMobile(a, confFactory.StatusNotifyCode_READED), i = e._getLastMessage(o.UserName), angular.extend(c, o, {
-                    MMDigest: i.MMDigest || ""
-                    , NoticeCount: e.getUnreadMsgsCount(a)
-                    , MMStatus: i.MMStatus
-                    , MMTime: i.MMTime || ""
-                    , MMDigestTime: i.MMDigestTime || ""
-                  }), t.push(c))
+                  if (o && !o.isBrandContact() && !o.isShieldUser()) {
+                    if (a == _currentUserName) {
+                      var r = e.getUnreadMsgsCount(a);
+                      (!o.unreadCount || o.unreadCount < r) && (o.unreadCount = e.getUnreadMsgsCount(a)), o._notActive || e.markMsgsRead(a) && e.notifyMobile(a, confFactory.StatusNotifyCode_READED)
+                    }
+                    i = e._getLastMessage(o.UserName), angular.extend(c, o, {
+                      MMDigest: i.MMDigest || ""
+                      , NoticeCount: e.getUnreadMsgsCount(a)
+                      , MMStatus: i.MMStatus
+                      , MMTime: i.MMTime || ""
+                      , MMDigestTime: i.MMDigestTime || ""
+                    }), t.push(c)
+                  }
                 }), [].push.apply(_chatListInfos, handleChatList(t)), _chatListInfos
               }
               , _getLastMessage: function(e) {
@@ -2320,15 +2354,19 @@ webpackJsonp([1], {
                 var n = this;
                 return _currentUserName = e, n.clearChatNoticeCount(), _chatMessages[e] ? _chatMessages[e].slice(t, a) : []
               }
+              , setCurrentUnread: function(e, t) {
+                _currentUnreadMap[e] = t
+              }
               , getUnreadMsgsCount: function(e) {
                 var t, a = 0;
+                if (_currentUnreadMap[e]) return _currentUnreadMap[e];
                 if (t = _chatMessages[e])
                   for (var n = t.length - 1; n >= 0; n--) t[n].MMUnread && ++a;
                 return a
               }
               , markMsgsRead: function(e) {
                 for (var t = this.getChatMessage(e), a = !1, n = 0, i = t.length; n < i; n++) t[n].MMUnread && (a = !0), t[n].MMUnread = !1;
-                return a
+                return this.setCurrentUnread(e, 0), a
               }
               , messageProcess: function(e) {
                 var t = this
@@ -2360,8 +2398,8 @@ webpackJsonp([1], {
                       t._mircovideoMsgProcess(e);
                       break;
                     case confFactory.MSGTYPE_TEXT:
-                      "newsapp" == e.FromUserName ? t._newsMsgProcess(e) : e.AppMsgType == confFactory.APPMSGTYPE_RED_ENVELOPES ? (e.MsgType = confFactory.MSGTYPE_APP, t._appMsgProcess(e)) : e.SubMsgType == confFactory.MSGTYPE_LOCATION ?
-                        t._locationMsgProcess(e) : t._textMsgProcess(e);
+                      "newsapp" == e.FromUserName ? t._newsMsgProcess(e) : e.AppMsgType == confFactory.APPMSGTYPE_RED_ENVELOPES ? (e.MsgType = confFactory.MSGTYPE_APP, t._appMsgProcess(e)) : e.SubMsgType == confFactory.MSGTYPE_LOCATION ? t
+                        ._locationMsgProcess(e) : t._textMsgProcess(e);
                       break;
                     case confFactory.MSGTYPE_RECALLED:
                       return void t._recalledMsgProcess(e);
@@ -2390,8 +2428,8 @@ webpackJsonp([1], {
                   }
                   e.MMActualContent = utilFactory.hrefEncode(e.MMActualContent);
                   var n = contactFactory.getContact(e.MMPeerUserName);
-                  e.MMIsSend || n && (n.isMuted() || n.isBrandContact()) || e.MsgType == confFactory.MSGTYPE_SYS || (accountFactory.isNotifyOpen() && t._notify(e), accountFactory.isSoundOpen() && utilFactory.initMsgNoticePlayer(
-                    confFactory.RES_SOUND_RECEIVE_MSG)), t.addChatMessage(e), t.addChatList([e])
+                  e.MMIsSend || n && (n.isMuted() || n.isBrandContact()) || e.MsgType == confFactory.MSGTYPE_SYS || (accountFactory.isNotifyOpen() && t._notify(e), accountFactory.isSoundOpen() && utilFactory.initMsgNoticePlayer(confFactory
+                    .RES_SOUND_RECEIVE_MSG)), t.addChatMessage(e), t.addChatList([e])
                 }
               }
               , _statusNotifyProcessor: function(e) {
@@ -2414,9 +2452,9 @@ webpackJsonp([1], {
                 e.Content = e.Content || "", e.MMDigest = "", e.MMIsSend = e.FromUserName == accountFactory.getUserName() || "" == e.FromUserName, a = n.getChatMessage(e.MMPeerUserName), utilFactory.isRoomContact(e.MMPeerUserName) ? (e.MMIsChatRoom = !
                     0, i = e.Content.replace(/^(@[a-zA-Z0-9]+|[a-zA-Z0-9_-]+):<br\/>/, function(e, t) {
                       return o = t, ""
-                    }), o && o != accountFactory.getUserName() && (t = contactFactory.getContact(o, e.MMPeerUserName), t && (c = t.getDisplayName(e.MMPeerUserName), c && (e.MMDigest = c + ":")))) : (e.MMIsChatRoom = !1, i = e.Content), e
-                  .MMIsSend || e.MMUnread != _aoUndefined || e.MsgType == confFactory.MSGTYPE_SYS || (e.MMUnread = !0), e.LocalID || (e.ClientMsgId = e.LocalID = e.MsgId), i = emojiFactory.emoticonFormat(i), e.MMActualContent = i, e.MMActualSender =
-                  o || e.FromUserName, n._calcMsgDisplayTime(a[a.length - 1], e)
+                    }), o && o != accountFactory.getUserName() && (t = contactFactory.getContact(o, e.MMPeerUserName), t && (c = t.getDisplayName(e.MMPeerUserName), c && (e.MMDigest = c + ":")))) : (e.MMIsChatRoom = !1, i = e.Content), e.MMIsSend ||
+                  e.MMUnread != _aoUndefined || e.MsgType == confFactory.MSGTYPE_SYS || (e.MMUnread = !0), e.LocalID || (e.ClientMsgId = e.LocalID = e.MsgId), i = emojiFactory.emoticonFormat(i), e.MMActualContent = i, e.MMActualSender = o ||
+                  e.FromUserName, n._calcMsgDisplayTime(a[a.length - 1], e)
               }
               , _textMsgProcess: function(e) {
                 e.MsgType = confFactory.MSGTYPE_TEXT, e.MMDigest += e.MMActualContent.replace(/<br ?[^><]*\/?>/g, "")
@@ -2543,8 +2581,8 @@ webpackJsonp([1], {
               , _appAttachMsgProcess: function(e) {
                 var t = utilFactory.htmlDecode(e.MMActualContent)
                   .replace(/<br\/>/g, "");
-                t = utilFactory.encodeEmoji(t), t = utilFactory.xml2json(t), e.MMDigest += _("6daeae3"), e.sendByLocal ? e.MMFileStatus = confFactory.MM_SEND_FILE_STATUS_SENDING : e.MMFileStatus = confFactory.MM_SEND_FILE_STATUS_SUCCESS
-                  , e.MMAppMsgFileExt = t.appmsg.appattach.fileext.toLowerCase(), e.MMAppMsgFileSize = utilFactory.getSize(+t.appmsg.appattach.totallen), e.MMAppMsgDownloadUrl = confFactory.API_webwxdownloadmedia + "?sender=" + e.FromUserName +
+                t = utilFactory.encodeEmoji(t), t = utilFactory.xml2json(t), e.MMDigest += _("6daeae3"), e.sendByLocal ? e.MMFileStatus = confFactory.MM_SEND_FILE_STATUS_SENDING : e.MMFileStatus = confFactory.MM_SEND_FILE_STATUS_SUCCESS, e
+                  .MMAppMsgFileExt = t.appmsg.appattach.fileext.toLowerCase(), e.MMAppMsgFileSize = utilFactory.getSize(+t.appmsg.appattach.totallen), e.MMAppMsgDownloadUrl = confFactory.API_webwxdownloadmedia + "?sender=" + e.FromUserName +
                   "&mediaid=" + e.MediaId + "&filename=" + encodeURIComponent(e.FileName) + "&fromuser=" + accountFactory.getUin() + "&pass_ticket=" + encodeURIComponent(accountFactory.getPassticket()) + "&webwx_data_ticket=" +
                   encodeURIComponent(utilFactory.getCookie("webwx_data_ticket"))
               }
@@ -2644,8 +2682,8 @@ webpackJsonp([1], {
               }
               , _notify: function(e) {
                 function t() {
-                  for (var t = contactFactory.getContact(e.MMPeerUserName), a = t ? t.getDisplayName(e.MMPeerUserName) : "", n = t ? t.HeadImgUrl : "", i = e.MMDigest.replace(/(<img.*?\/>)|<span class="emoji.*?<\/span>/g, _("809bb9d"))
-                      , o = utilFactory.clearHtmlStr(i), c = "", r = 80, s = 0, l = 0; l < o.length; l++) {
+                  for (var t = contactFactory.getContact(e.MMPeerUserName), a = t ? t.getDisplayName(e.MMPeerUserName) : "", n = t ? t.HeadImgUrl : "", i = e.MMDigest.replace(/(<img.*?\/>)|<span class="emoji.*?<\/span>/g, _("809bb9d")), o =
+                      utilFactory.clearHtmlStr(i), c = "", r = 80, s = 0, l = 0; l < o.length; l++) {
                     if (s += o.charCodeAt(l) <= 128 ? 1 : 2, s >= r) {
                       c = o.slice(0, l + 1), l < o.length - 1 && (c += "…");
                       break
@@ -2743,7 +2781,7 @@ webpackJsonp([1], {
         }])
     }()
   }
-  , 314: function(e, exports) {
+  , function(e, exports) {
     ! function(e) {
       "use strict";
       angular.module("Services")
@@ -2849,7 +2887,7 @@ webpackJsonp([1], {
         }])
     }()
   }
-  , 315: function(e, exports) {
+  , function(e, exports) {
     ! function() {
       "use strict";
       angular.module("Services")
@@ -2971,7 +3009,7 @@ webpackJsonp([1], {
         }])
     }()
   }
-  , 316: function(e, exports) {
+  , function(e, exports) {
     ! function() {
       "use strict";
       angular.module("Services")
@@ -3191,7 +3229,7 @@ webpackJsonp([1], {
         }])
     }()
   }
-  , 317: function(e, exports) {
+  , function(e, exports) {
     ! function() {
       "use strict";
       angular.module("Services")
@@ -3376,8 +3414,8 @@ webpackJsonp([1], {
                 return t[e.UserName] && (e.NickName = t[e.UserName]), "fmessage" == e.UserName && (e.ContactFlag = 0), e
               }
               , addContact: function(e) {
-                e && (e.isContact || (e = f(e), e.MMOrderSymbol = this.getContactOrderSymbol(e)), e.EncryChatRoomId && e.UserName && (e.MMFromBatchget = !0), e.RemarkName = e.RemarkName && c.transformSpanToImg(e.RemarkName), e.NickName =
-                  e.NickName && c.transformSpanToImg(e.NickName), e.isShieldUser() || !e.isContact() && !e.isRoomContact() ? this.addStrangerContact(e) : this.addFriendContact(e));
+                e && (e.isContact || (e = f(e), e.MMOrderSymbol = this.getContactOrderSymbol(e)), e.EncryChatRoomId && e.UserName && (e.MMFromBatchget = !0), e.RemarkName = e.RemarkName && c.transformSpanToImg(e.RemarkName), e.NickName = e
+                  .NickName && c.transformSpanToImg(e.NickName), e.isShieldUser() || !e.isContact() && !e.isRoomContact() ? this.addStrangerContact(e) : this.addFriendContact(e))
               }
               , addFriendContact: function(e) {
                 var t, a = this;
@@ -3732,7 +3770,7 @@ webpackJsonp([1], {
         }])
     }()
   }
-  , 318: function(e, exports) {
+  , function(e, exports) {
     ! function() {
       "use strict";
       angular.module("Services")
@@ -3826,7 +3864,7 @@ webpackJsonp([1], {
         }])
     }()
   }
-  , 319: function(e, exports, t) {
+  , function(e, exports, t) {
     ! function() {
       "use strict";
       angular.module("Services")
@@ -3992,7 +4030,7 @@ webpackJsonp([1], {
             }
             , initMsgNoticePlayer: function(e) {
               t.e(2, function(require) {
-                var a = (t(301), jQuery("#msgNoticePlayer"));
+                var a = (t(281), jQuery("#msgNoticePlayer"));
                 a.jPlayer({
                   ready: function() {}
                   , swfPath: window.MMSource.jplayerSwfPath
@@ -4158,7 +4196,7 @@ webpackJsonp([1], {
         }])
     }()
   }
-  , 320: function(e, exports) {
+  , function(e, exports) {
     ! function() {
       "use strict";
       angular.module("Services")
@@ -4207,15 +4245,15 @@ webpackJsonp([1], {
             , getMd5ByTuzki: function(e) {
               return this.Tuzki2Md5[e]
             }
-            , QQFaceList: ["微笑", "撇嘴", "色", "发呆", "得意", "流泪", "害羞", "闭嘴", "睡", "大哭", "尴尬", "发怒", "调皮", "呲牙", "惊讶", "难过", "酷", "冷汗", "抓狂", "吐", "偷笑", "愉快", "白眼", "傲慢", "饥饿", "困", "惊恐", "流汗", "憨笑", "悠闲", "奋斗", "咒骂", "疑问", "嘘", "晕", "疯了"
-              , "衰", "骷髅", "敲打", "再见", "擦汗", "抠鼻", "鼓掌", "糗大了", "坏笑", "左哼哼", "右哼哼", "哈欠", "鄙视", "委屈", "快哭了", "阴险", "亲亲", "吓", "可怜", "菜刀", "西瓜", "啤酒", "篮球", "乒乓", "咖啡", "饭", "猪头", "玫瑰", "凋谢", "嘴唇", "爱心", "心碎", "蛋糕", "闪电", "炸弹", "刀"
-              , "足球", "瓢虫", "便便", "月亮", "太阳", "礼物", "拥抱", "强", "弱", "握手", "胜利", "抱拳", "勾引", "拳头", "差劲", "爱你", "NO", "OK", "爱情", "飞吻", "跳跳", "发抖", "怄火", "转圈", "磕头", "回头", "跳绳", "投降", "激动", "乱舞", "献吻", "左太极", "右太极"
+            , QQFaceList: ["微笑", "撇嘴", "色", "发呆", "得意", "流泪", "害羞", "闭嘴", "睡", "大哭", "尴尬", "发怒", "调皮", "呲牙", "惊讶", "难过", "酷", "冷汗", "抓狂", "吐", "偷笑", "愉快", "白眼", "傲慢", "饥饿", "困", "惊恐", "流汗", "憨笑", "悠闲", "奋斗", "咒骂", "疑问", "嘘", "晕", "疯了", "衰"
+              , "骷髅", "敲打", "再见", "擦汗", "抠鼻", "鼓掌", "糗大了", "坏笑", "左哼哼", "右哼哼", "哈欠", "鄙视", "委屈", "快哭了", "阴险", "亲亲", "吓", "可怜", "菜刀", "西瓜", "啤酒", "篮球", "乒乓", "咖啡", "饭", "猪头", "玫瑰", "凋谢", "嘴唇", "爱心", "心碎", "蛋糕", "闪电", "炸弹", "刀", "足球", "瓢虫"
+              , "便便", "月亮", "太阳", "礼物", "拥抱", "强", "弱", "握手", "胜利", "抱拳", "勾引", "拳头", "差劲", "爱你", "NO", "OK", "爱情", "飞吻", "跳跳", "发抖", "怄火", "转圈", "磕头", "回头", "跳绳", "投降", "激动", "乱舞", "献吻", "左太极", "右太极"
             ]
-            , EmojiList: ["笑脸", "开心", "大笑", "热情", "眨眼", "色", "接吻", "亲吻", "脸红", "露齿笑", "满意", "戏弄", "吐舌", "无语", "得意", "汗", "失望", "低落", "呸", "焦虑", "担心", "震惊", "悔恨", "眼泪", "哭", "破涕为笑", "晕", "恐惧", "心烦", "生气", "睡觉", "生病", "恶魔", "外星人", "心"
-              , "心碎", "丘比特", "闪烁", "星星", "叹号", "问号", "睡着", "水滴", "音乐", "火", "便便", "强", "弱", "拳头", "胜利", "上", "下", "右", "左", "第一", "强壮", "吻", "热恋", "男孩", "女孩", "女士", "男士", "天使", "骷髅", "红唇", "太阳", "下雨", "多云", "雪人", "月亮", "闪电", "海浪", "猫"
-              , "小狗", "老鼠", "仓鼠", "兔子", "狗", "青蛙", "老虎", "考拉", "熊", "猪", "牛", "野猪", "猴子", "马", "蛇", "鸽子", "鸡", "企鹅", "毛虫", "章鱼", "鱼", "鲸鱼", "海豚", "玫瑰", "花", "棕榈树", "仙人掌", "礼盒", "南瓜灯", "鬼魂", "圣诞老人", "圣诞树", "礼物", "铃", "庆祝", "气球", "CD"
-              , "相机", "录像机", "电脑", "电视", "电话", "解锁", "锁", "钥匙", "成交", "灯泡", "邮箱", "浴缸", "钱", "炸弹", "手枪", "药丸", "橄榄球", "篮球", "足球", "棒球", "高尔夫", "奖杯", "入侵者", "唱歌", "吉他", "比基尼", "皇冠", "雨伞", "手提包", "口红", "戒指", "钻石", "咖啡", "啤酒", "干杯", "鸡尾酒"
-              , "汉堡", "薯条", "意面", "寿司", "面条", "煎蛋", "冰激凌", "蛋糕", "苹果", "飞机", "火箭", "自行车", "高铁", "警告", "旗", "男人", "女人", "O", "X", "版权", "注册商标", "商标"
+            , EmojiList: ["笑脸", "生病", "破涕为笑", "吐舌", "脸红", "恐惧", "失望", "无语", "嘿哈", "捂脸", "奸笑", "机智", "皱眉", "耶", "鬼魂", "合十", "强壮", "庆祝", "礼物", "红包", "鸡", "开心", "大笑", "热情", "眨眼", "色", "接吻", "亲吻", "露齿笑", "满意", "戏弄", "得意", "汗", "低落", "呸", "焦虑"
+              , "担心", "震惊", "悔恨", "眼泪", "哭", "晕", "心烦", "生气", "睡觉", "恶魔", "外星人", "心", "心碎", "丘比特", "闪烁", "星星", "叹号", "问号", "睡着", "水滴", "音乐", "火", "便便", "弱", "拳头", "胜利", "上", "下", "右", "左", "第一", "吻", "热恋", "男孩", "女孩", "女士", "男士", "天使"
+              , "骷髅", "红唇", "太阳", "下雨", "多云", "雪人", "月亮", "闪电", "海浪", "猫", "小狗", "老鼠", "仓鼠", "兔子", "狗", "青蛙", "老虎", "考拉", "熊", "猪", "牛", "野猪", "猴子", "马", "蛇", "鸽子", "鸡", "企鹅", "毛虫", "章鱼", "鱼", "鲸鱼", "海豚", "玫瑰", "花", "棕榈树", "仙人掌", "礼盒"
+              , "南瓜灯", "圣诞老人", "圣诞树", "礼物", "铃", "气球", "CD", "相机", "录像机", "电脑", "电视", "电话", "解锁", "锁", "钥匙", "成交", "灯泡", "邮箱", "浴缸", "钱", "炸弹", "手枪", "药丸", "橄榄球", "篮球", "足球", "棒球", "高尔夫", "奖杯", "入侵者", "唱歌", "吉他", "比基尼", "皇冠", "雨伞", "手提包"
+              , "口红", "戒指", "钻石", "咖啡", "啤酒", "干杯", "鸡尾酒", "汉堡", "薯条", "意面", "寿司", "面条", "煎蛋", "冰激凌", "蛋糕", "苹果", "飞机", "火箭", "自行车", "高铁", "警告", "旗", "男人", "女人", "O", "X", "版权", "注册商标", "商标"
             ]
             , QQFaceMap: {
               "微笑": "0"
@@ -4327,6 +4365,14 @@ webpackJsonp([1], {
               , "献吻": "102"
               , "左太极": "103"
               , "右太极": "104"
+              , "嘿哈": "105"
+              , "捂脸": "106"
+              , "奸笑": "107"
+              , "机智": "108"
+              , "皱眉": "109"
+              , "耶": "110"
+              , "鸡": "111"
+              , "红包": "112"
               , Smile: "0"
               , Grimace: "1"
               , Drool: "2"
@@ -4463,6 +4509,14 @@ webpackJsonp([1], {
               , "TaiChi L": "103"
               , "TaiJi R": "104"
               , "TaiChi R": "104"
+              , Hey: "105"
+              , Facepalm: "106"
+              , Smirk: "107"
+              , Smart: "108"
+              , Concerned: "109"
+              , "Yeah!": "110"
+              , Chicken: "111"
+              , Packet: "112"
               , "發呆": "3"
               , "流淚": "5"
               , "閉嘴": "7"
@@ -4520,6 +4574,13 @@ webpackJsonp([1], {
               , "獻吻": "102"
               , "左太極": "103"
               , "右太極": "104"
+              , "吼嘿": "105"
+              , "掩面": "106"
+              , "機智": "108"
+              , "皺眉": "109"
+              , "歐耶": "110"
+              , "雞": "111"
+              , "紅包": "112"
               , "<笑脸>": "1f604"
               , "<笑臉>": "1f604"
               , "<Laugh>": "1f604"
@@ -4565,6 +4626,8 @@ webpackJsonp([1], {
               , "<Sweat>": "1f613"
               , "<失望>": "1f640"
               , "<Let Down>": "1f640"
+              , "<合十>": "1f64f"
+              , "<祈禱>": "1f64f"
               , "<低落>": "1f61e"
               , "<Low>": "1f61e"
               , "<呸>": "1f616"
@@ -4681,6 +4744,7 @@ webpackJsonp([1], {
               , "<天使>": "1f47c"
               , "<Angel>": "1f47c"
               , "<骷髅>": "1f480"
+              , "<骷髏頭>": "1f480"
               , "<骷髏>": "1f480"
               , "<Skull>": "1f480"
               , "<红唇>": "1f48b"
@@ -4878,6 +4942,7 @@ webpackJsonp([1], {
               , "<手提包>": "1f45c"
               , "<Purse>": "1f45c"
               , "<口红>": "1f484"
+              , "<口紅>": "1f484"
               , "<Lipstick>": "1f484"
               , "<戒指>": "1f48d"
               , "<Ring>": "1f48d"
@@ -4953,7 +5018,8 @@ webpackJsonp([1], {
               , "<Trademark>": "2122"
             }
             , EmojiCodeMap: {
-              "1f604": ""
+              "1f64f": ""
+              , "1f604": ""
               , "1f60a": ""
               , "1f603": ""
               , "263a": ""
@@ -5211,7 +5277,7 @@ webpackJsonp([1], {
         }])
     }()
   }
-  , 321: function(e, exports) {
+  , function(e, exports) {
     ! function() {
       "use strict";
       angular.module("Services")
@@ -5232,7 +5298,7 @@ webpackJsonp([1], {
         }])
     }()
   }
-  , 322: function(e, exports) {
+  , function(e, exports) {
     ! function() {
       "use strict";
       angular.module("Services")
@@ -5298,7 +5364,7 @@ webpackJsonp([1], {
         }])
     }()
   }
-  , 323: function(e, exports) {
+  , function(e, exports) {
     ! function() {
       "use strict";
       angular.module("Services")
@@ -5396,7 +5462,7 @@ webpackJsonp([1], {
         }])
     }()
   }
-  , 324: function(e, exports) {
+  , function(e, exports) {
     ! function(e) {
       "use strict";
       angular.module("Services")
@@ -5429,7 +5495,7 @@ webpackJsonp([1], {
         }])
     }()
   }
-  , 325: function(e, exports) {
+  , function(e, exports) {
     ! function() {
       "use strict";
       angular.module("Services")
@@ -5504,7 +5570,7 @@ webpackJsonp([1], {
         }])
     }()
   }
-  , 326: function(e, exports) {
+  , function(e, exports) {
     ! function() {
       "use strict";
       angular.module("Services")
@@ -5525,7 +5591,7 @@ webpackJsonp([1], {
         }])
     }()
   }
-  , 327: function(e, exports) {
+  , function(e, exports) {
     ! function() {
       "use strict";
       angular.module("Services")
@@ -5721,7 +5787,7 @@ webpackJsonp([1], {
         }])
     }()
   }
-  , 328: function(e, exports) {
+  , function(e, exports) {
     ! function() {
       "use strict";
       angular.module("Services")
@@ -5797,7 +5863,7 @@ webpackJsonp([1], {
         }])
     }()
   }
-  , 329: function(e, exports) {
+  , function(e, exports) {
     ! function() {
       "use strict";
       angular.module("Services")
@@ -5819,7 +5885,7 @@ webpackJsonp([1], {
         }])
     }()
   }
-  , 330: function(e, exports) {
+  , function(e, exports) {
     ! function(e) {
       "use strict";
       angular.module("Services")
@@ -5876,7 +5942,7 @@ webpackJsonp([1], {
         }])
     }()
   }
-  , 331: function(e, exports) {
+  , function(e, exports) {
     ! function(e) {
       "use strict";
       angular.module("Services")
@@ -5911,7 +5977,7 @@ webpackJsonp([1], {
         }])
     }()
   }
-  , 332: function(e, exports) {
+  , function(e, exports) {
     ! function() {
       "use strict";
       angular.module("Directives")
@@ -5924,7 +5990,7 @@ webpackJsonp([1], {
         }])
     }()
   }
-  , 333: function(e, exports) {
+  , function(e, exports) {
     angular.module("Directives")
       .directive("ngInput", ["$parse", function(e) {
         return function(t, a, n) {
@@ -5941,7 +6007,7 @@ webpackJsonp([1], {
         }
       }])
   }
-  , 334: function(e, exports) {
+  , function(e, exports) {
     angular.module("Directives")
       .directive("ngRightClick", ["$parse", function(e) {
         return function(t, a, n) {
@@ -5956,7 +6022,7 @@ webpackJsonp([1], {
         }
       }])
   }
-  , 335: function(e, exports) {
+  , function(e, exports) {
     angular.module("Directives")
       .directive("mmpopDirective", ["$timeout", "$document", "mmpop", "$animate", function(e, t, a, n) {
         return {
@@ -6064,7 +6130,7 @@ webpackJsonp([1], {
         }]
       })
   }
-  , 336: function(e, exports) {
+  , function(e, exports) {
     angular.module("Directives")
       .directive("contenteditableDirective", ["$timeout", "utilFactory", "confFactory", function(e, t, a) {
         return {
@@ -6090,8 +6156,8 @@ webpackJsonp([1], {
                 var e = this
                   , i = e.innerHTML;
                 s && clearTimeout(s), s = setTimeout(function() {
-                  for (var r = e.innerHTML, l = -1, d = -1, f = 0, u = r.length; f < u && (l == -1 && i.substr(f, 1) != r.substr(f, 1) && (l = f), d == -1 && i.substr(i.length - f - 1, 1) != r.substr(r.length - f - 1, 1) && (d =
-                      f), !(l != -1 && d != -1 || u - 1 - d <= l)); ++f);
+                  for (var r = e.innerHTML, l = -1, d = -1, f = 0, u = r.length; f < u && (l == -1 && i.substr(f, 1) != r.substr(f, 1) && (l = f), d == -1 && i.substr(i.length - f - 1, 1) != r.substr(r.length - f - 1, 1) && (d = f)
+                      , !(l != -1 && d != -1 || u - 1 - d <= l)); ++f);
                   if (l != -1 && d != -1) {
                     if (d = u - 1 - d, d <= l) {
                       f = l;
@@ -6138,7 +6204,7 @@ webpackJsonp([1], {
         }
       }])
   }
-  , 337: function(e, exports) {
+  , function(e, exports) {
     ! function() {
       "use strict";
       angular.module("Directives")
@@ -6168,7 +6234,7 @@ webpackJsonp([1], {
         }])
     }()
   }
-  , 338: function(e, exports) {
+  , function(e, exports) {
     ! function() {
       "use strict";
       angular.module("Directives")
@@ -6225,7 +6291,7 @@ webpackJsonp([1], {
         }])
     }()
   }
-  , 339: function(e, exports) {
+  , function(e, exports) {
     ! function() {
       "use strict";
       angular.module("Directives")
@@ -6260,7 +6326,7 @@ webpackJsonp([1], {
         }])
     }()
   }
-  , 340: function(e, exports) {
+  , function(e, exports) {
     ! function() {
       "use strict";
       angular.module("Directives")
@@ -6276,7 +6342,7 @@ webpackJsonp([1], {
         }])
     }()
   }
-  , 341: function(e, exports) {
+  , function(e, exports) {
     ! function(e, t) {
       "use strict";
       e.module("Directives")
@@ -6351,7 +6417,7 @@ webpackJsonp([1], {
         }])
     }(angular)
   }
-  , 342: function(e, exports, t) {
+  , function(e, exports, t) {
     ! function(e) {
       "use strict";
       angular.module("Directives")
@@ -6361,7 +6427,7 @@ webpackJsonp([1], {
             , link: function(i, o, c) {
               function r() {
                 t.e(2, function(require) {
-                  t(301);
+                  t(281);
                   jQuery(o)
                     .jPlayer({
                       ready: function() {
@@ -6430,7 +6496,7 @@ webpackJsonp([1], {
         }])
     }()
   }
-  , 343: function(e, exports) {
+  , function(e, exports) {
     angular.module("Directives")
       .directive("previewDirective", ["$document", "confFactory", "utilFactory", function(e, t, a) {
         return {
@@ -6563,7 +6629,7 @@ webpackJsonp([1], {
                 }) : m.css(y), angular.extend(E, y), p[0].src = t.src, n.isLoaded = !0, n.containerStyle = null, n.$digest()
               }, t.onerror = function() {
                 t.onerror = null, alert(_("845ec73"))
-              }, t.src = n.imageList[n.current].url
+              }, t.src = n.imageList[n.current].url;
             }
             var m = i.find("#img_dom")
               , g = i.find("#img_opr_container")
@@ -6642,7 +6708,7 @@ webpackJsonp([1], {
         }
       })
   }
-  , 344: function(e, exports) {
+  , function(e, exports) {
     angular.module("Directives")
       .directive("mmlazyDirective", function(e) {
         return {
@@ -6684,8 +6750,7 @@ webpackJsonp([1], {
                 a.trigger(i)
               }, 200)
             }), t.$on("onUpdate", function() {
-              c++
-              , o()
+              c++, o()
             }), s()
           }
         }
@@ -6719,10 +6784,10 @@ webpackJsonp([1], {
         }
       })
   }
-  , 345: function(e, exports, t) {
+  , function(e, exports, t) {
     var a, n, i;
     ! function(o, c) {
-      "undefined" != typeof e && e.exports ? e.exports = c(t(289)) : (n = [t(289)], a = c, i = "function" == typeof a ? a.apply(exports, n) : a, !(void 0 !== i && (e.exports = i)))
+      "undefined" != typeof e && e.exports ? e.exports = c(t(269)) : (n = [t(269)], a = c, i = "function" == typeof a ? a.apply(exports, n) : a, !(void 0 !== i && (e.exports = i)))
     }(this, function(e, t) {
       "use strict";
       var a = e.module("ngDialog", [])
@@ -6939,7 +7004,7 @@ webpackJsonp([1], {
       }])
     })
   }
-  , 346: function(e, exports) {
+  , function(e, exports) {
     angular.module("Directives")
       .directive("mmRepeat", ["$document", "$compile", "$rootScope", function(e, t, a) {
         function n(e, t, a, n, i) {
@@ -7037,7 +7102,7 @@ webpackJsonp([1], {
               , g = t(m)(e);
             a.html(""), a.append(g), e.bufferHeight || (e.bufferHeight = 100), n.preCalc && "false" !== n.preCalc ? e.preCalc = !0 : e.preCalc = !1, e[u] = [], e.$on("onScroll", function(t, a) {
               return o = a.y, e.heightCalc && 2 === e.heightCalc.length && !d(i) ? void l(i, e.heightCalc, function() {
-                d(i) && (r(i), c(e, o, e[u], i), e.$digest())
+                d(i) && (r(i), c(e, o, e[u], i), e.$digest(), e.$emit("mmRepeat:reCalc"))
               }) : (c(e, o, e[u], i), void e.$digest())
             }), e.$parent.$watch(n.heightCalc, function(t) {
               "function" == typeof t && (e.heightCalc = t)
@@ -7056,7 +7121,7 @@ webpackJsonp([1], {
         }
       }])
   }
-  , 347: function(e, exports) {
+  , function(e, exports) {
     angular.module("Directives")
       .directive("mmRepeatKeyboard", ["$timeout", "utilFactory", "confFactory", function(e, t, a) {
         return {
@@ -7145,7 +7210,7 @@ webpackJsonp([1], {
         }
       }])
   }
-  , 348: function(e, exports) {
+  , function(e, exports) {
     angular.module("Directives")
       .directive("searchListDirective", [function() {
         return {
@@ -7182,7 +7247,7 @@ webpackJsonp([1], {
         }
       }])
   }
-  , 349: function(e, exports) {
+  , function(e, exports) {
     angular.module("Directives")
       .directive("navChatDirective", ["$timeout", "$log", "$document", "$stateParams", "$rootScope", "chatFactory", "accountFactory", "contactFactory", "appFactory", "confFactory", "utilFactory", "stateManageService", function(e, t, a, n, i, o
         , c, r, s, l, d, f) {
@@ -7275,7 +7340,7 @@ webpackJsonp([1], {
         }
       }])
   }
-  , 350: function(e, exports) {
+  , function(e, exports) {
     angular.module("Directives")
       .directive("navContactDirective", ["$rootScope", "$timeout", "$state", "contactFactory", "stateManageService", "confFactory", "utilFactory", function(e, t, a, n, i, o, c) {
         return {
@@ -7379,7 +7444,7 @@ webpackJsonp([1], {
         }
       }])
   }
-  , 351: function(e, exports) {
+  , function(e, exports) {
     angular.module("Directives")
       .directive("navReadDirective", ["$timeout", "$log", "$document", "$stateParams", "$rootScope", "$state", "chatFactory", "accountFactory", "contactFactory", "appFactory", "confFactory", "utilFactory", "stateManageService"
         , "subscribeMsgService"
@@ -7396,8 +7461,8 @@ webpackJsonp([1], {
               e.subscribeMsgs = [], e.articleList = [], e.subscribeMsgs.defaultValue = !0, e.$watch(function() {
                 return m.changeFlag
               }, function(t) {
-                0 != t && (e.subscribeMsgs = m.getSubscribeMsgs(), e.articleList = g(e.subscribeMsgs), !e.currentItem && e.subscribeMsgs.length > 0 && (m.current = e.currentItem = e.subscribeMsgs[0].MPArticleList[0], e.mmRepeatKeyboard
-                  .setSelectItem(e.currentItem)))
+                0 != t && (e.subscribeMsgs = m.getSubscribeMsgs(), e.articleList = g(e.subscribeMsgs), !e.currentItem && e.subscribeMsgs.length > 0 && (m.current = e.currentItem = e.subscribeMsgs[0].MPArticleList[0], e.mmRepeatKeyboard.setSelectItem(
+                  e.currentItem)))
               }), e.mmRepeatKeyboard.setJudgeFun(function(e) {
                 return !e.UserName
               }), u.on("dialog:open", function(t) {
@@ -7422,7 +7487,7 @@ webpackJsonp([1], {
         }
       ])
   }
-  , 352: function(e, exports) {
+  , function(e, exports) {
     angular.module("Directives")
       .directive("mmSrc", ["$document", "$timeout", "$rootScope", function(e, t, a) {
         return {
@@ -7483,7 +7548,7 @@ webpackJsonp([1], {
         }
       }])
   }
-  , 353: function(e, exports) {
+  , function(e, exports) {
     angular.module("Directives")
       .directive("mmPaste", ["$timeout", "utilFactory", "stateManageService", function(e, t, a) {
         return {
@@ -7507,7 +7572,7 @@ webpackJsonp([1], {
         }
       }])
   }
-  , 354: function(e, exports) {
+  , function(e, exports) {
     angular.module("Directives")
       .directive("contactPicker", ["$timeout", "$log", "$document", "$stateParams", "$rootScope", "chatFactory", "accountFactory", "contactFactory", "appFactory", "confFactory", "utilFactory", "stateManageService", "mmpop", function(e, t, a, n
         , i, o, c, r, s, l, d, f, u) {
@@ -7609,7 +7674,7 @@ webpackJsonp([1], {
         }
       }])
   }
-  , 355: function(e, exports) {
+  , function(e, exports) {
     angular.module("Directives")
       .directive("mmActionTrack", ["actionTrack", "utilFactory", function(e, t) {
         var a = $(window)
@@ -7687,7 +7752,7 @@ webpackJsonp([1], {
         return n
       }])
   }
-  , 356: function(e, exports, t) {
+  , function(e, exports, t) {
     ! function(e, a, n) {
       "use strict";
       a.module("ngClipboard", [])
@@ -7711,7 +7776,7 @@ webpackJsonp([1], {
         .run(["$rootScope", "ngClip", function(n, i) {
           function o() {
             t.e(4, function(require) {
-              var e = t(357);
+              var e = t(337);
               e.config(a.extend(c, i.config || {}))
             })
           }
@@ -7735,7 +7800,7 @@ webpackJsonp([1], {
             , restrict: "A"
             , link: function(e, n, i) {
               t.e(4, function(require) {
-                var o = t(357);
+                var o = t(337);
                 if (o.isFlashUnusable()) return void n.bind("click", function(t) {
                   e.$apply(e.clipClickFallback({
                     $event: t
@@ -7760,8 +7825,8 @@ webpackJsonp([1], {
           }
         }])
     }(window, window.angular)
-  }
-  , 358: function(e, exports) {
+  }, 
+  , function(e, exports) {
     ! function() {
       "use strict";
       angular.module("Filters")
@@ -7810,7 +7875,7 @@ webpackJsonp([1], {
         }])
     }()
   }
-  , 359: function(e, exports) {
+  , function(e, exports) {
     ! function() {
       "use strict";
       angular.module("Filters")
@@ -7823,4 +7888,4 @@ webpackJsonp([1], {
         }])
     }()
   }
-}); /* vhtml-webpack-plugin version: 0.1.12 */
+]); /* vhtml-webpack-plugin version: 0.1.15 */
