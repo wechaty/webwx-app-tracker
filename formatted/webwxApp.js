@@ -326,7 +326,7 @@ webpackJsonp([1], [function(e, exports, t) {
             }
 
             function N() {
-              t.debug && (V && a.cancel(V), y.start(4e4), V = a(function() {
+              t.debug && (F && a.cancel(F), y.start(4e4), F = a(function() {
                 s.syncCheck()
                   .then(function(e) {
                     return y.start(5e3), e
@@ -425,17 +425,17 @@ webpackJsonp([1], [function(e, exports, t) {
               }), t.appClick = function(e) {
                 t.$broadcast("app:contextMenu:hide", e)
               };
-            var A, F = $(document.body);
-            F.on("dragenter", function(e) {
+            var A, V = $(document.body);
+            V.on("dragenter", function(e) {
               var t = e.originalEvent;
-              A = t.target, t.dataTransfer.dropEffect = "none", F.addClass("drop-enter"), t.stopPropagation(), t.preventDefault()
-            }), F.on("dragleave", function(e) {
+              A = t.target, t.dataTransfer.dropEffect = "none", V.addClass("drop-enter"), t.stopPropagation(), t.preventDefault()
+            }), V.on("dragleave", function(e) {
               var t = e.originalEvent;
-              t.dataTransfer.dropEffect = "none", A === t.target && F.removeClass("drop-enter"), t.stopPropagation(), t.preventDefault()
-            }), F.on("dragover", function(e) {
+              t.dataTransfer.dropEffect = "none", A === t.target && V.removeClass("drop-enter"), t.stopPropagation(), t.preventDefault()
+            }), V.on("dragover", function(e) {
               var t = e.originalEvent;
               t.dataTransfer.dropEffect = "none", t.stopPropagation(), t.preventDefault()
-            }), F.on("drop", function(e) {
+            }), V.on("drop", function(e) {
               var t = e.originalEvent;
               t.dataTransfer.dropEffect = "none", t.stopPropagation(), t.preventDefault()
             }), t.showContextMenu = function(e) {
@@ -478,7 +478,7 @@ webpackJsonp([1], [function(e, exports, t) {
                 h.log("请求权限了...")
               })
             }, y.callback(N);
-            var V
+            var F
           }
         ])
     }()
@@ -825,7 +825,7 @@ webpackJsonp([1], [function(e, exports, t) {
                 , blurClose: !0
                 , singletonId: "mmpop_profile"
                 , controller: ["$scope", function(e) {
-                  e.contact = o, e.MMDefaultRemark = _("8d521cc"), e.addUserContent = _("5a97440") + y.formatHTMLToSend(s.getUserInfo()
+                  o.VerifyFlag && (e.isOfficialUser = !0), e.contact = o, e.MMDefaultRemark = _("8d521cc"), e.addUserContent = _("5a97440") + y.formatHTMLToSend(s.getUserInfo()
                     .NickName), e.isShowSendBox = i || !1, e.chat = function(t) {
                     n.go("chat", {
                       userName: t
@@ -1003,8 +1003,8 @@ webpackJsonp([1], [function(e, exports, t) {
           , "emojiFactory", "reportService"
           , function(e, a, n, i, o, c, r, s, l, d, f, u, m, g, p) {
             function h() {
-              var e = "undefined" != typeof V.textContent ? V.textContent : V.innerText
-                , t = V.getElementsByTagName("img")
+              var e = "undefined" != typeof F.textContent ? F.textContent : F.innerText
+                , t = F.getElementsByTagName("img")
                 .length > 0;
               e.length > 0 || t ? m.change("sender:hasText", !0) : m.change("sender:hasText", !1)
             }
@@ -1019,18 +1019,18 @@ webpackJsonp([1], [function(e, exports, t) {
 
             function y() {
               var e, t;
-              document.createRange ? (e = document.createRange(), e.selectNodeContents(V), e.collapse(!1), t = window.getSelection(), t.removeAllRanges(), t.addRange(e)) : document.selection && (e = document.body.createTextRange(), e.moveToElementText(
-                V), e.collapse(!1), e.select())
+              document.createRange ? (e = document.createRange(), e.selectNodeContents(F), e.collapse(!1), t = window.getSelection(), t.removeAllRanges(), t.addRange(e)) : document.selection && (e = document.body.createTextRange(), e.moveToElementText(
+                F), e.collapse(!1), e.select())
             }
 
             function b(e) {
               var t, a, n = "";
               if (window.getSelection) t = window.getSelection(), t.rangeCount > 0 && (a = t.getRangeAt(0)
-                .cloneRange(), a.collapse(!0), a.setStart(V, 0), n = a.toString()
+                .cloneRange(), a.collapse(!0), a.setStart(F, 0), n = a.toString()
                 .slice(-e));
               else if ((t = document.selection) && "Control" != t.type) {
                 var i;
-                a = t.createRange(), i = a.duplicate(), i.moveToElementText(V), i.setEndPoint("EndToStart", a), n = i.text.slice(-e)
+                a = t.createRange(), i = a.duplicate(), i.moveToElementText(F), i.setEndPoint("EndToStart", a), n = i.text.slice(-e)
               }
               return n
             }
@@ -1048,8 +1048,8 @@ webpackJsonp([1], [function(e, exports, t) {
                 }
                 var s = i.lastChild;
                 n.insertNode(i), n.setStartAfter(s), a.removeAllRanges(), a.addRange(n);
-                var l = s.offsetTop - 42 + s.offsetHeight - V.offsetHeight;
-                V.scrollTop < l && (V.scrollTop = l);
+                var l = s.offsetTop - 42 + s.offsetHeight - F.offsetHeight;
+                F.scrollTop < l && (F.scrollTop = l)
               } else n = t || !P ? document.selection.createRange() : P, e = e.replace(/</gi, "&lt;")
                 .replace(/>/gi, "&gt;"), n.pasteHTML(e), n.select()
             }
@@ -1057,7 +1057,7 @@ webpackJsonp([1], [function(e, exports, t) {
             function w() {
               window.getSelection && (window.getSelection()
                 .getRangeAt(0)
-                .insertNode(U), A = U.offsetLeft, F = U.offsetTop - V.scrollTop, x.appendChild(U))
+                .insertNode(U), A = U.offsetLeft, V = U.offsetTop - F.scrollTop, x.appendChild(U))
             }
 
             function S(t) {
@@ -1088,7 +1088,7 @@ webpackJsonp([1], [function(e, exports, t) {
             }
 
             function T(e) {
-              V.innerHTML = a.editAreaCtn = e || "", V.focus(), h(), m.change("sender:active", !0), e && (y(), M())
+              F.innerHTML = a.editAreaCtn = e || "", F.focus(), h(), m.change("sender:active", !0), e && (y(), M())
             }
 
             function N(e) {
@@ -1262,12 +1262,12 @@ webpackJsonp([1], [function(e, exports, t) {
             }
             var I, P, U = document.getElementById("caretPosHelper")
               , A = 0
-              , F = 0
-              , V = document.getElementById("editArea")
-              , x = V.parentNode
+              , V = 0
+              , F = document.getElementById("editArea")
+              , x = F.parentNode
               , D = f.getShareObject("editingContents")
               , R = !1;
-            $(V)
+            $(F)
               .on("input", function() {
                 M()
               })
@@ -1280,11 +1280,11 @@ webpackJsonp([1], [function(e, exports, t) {
               .indexOf("MAC OS") > -1, a.editAreaCtn = "";
             var j;
             a.$on("$destroy", function() {
-              j && (D[j] = V.innerHTML)
+              j && (D[j] = F.innerHTML)
             }), a.$watch(function() {
               return l.getCurrentUserName()
             }, function(e, t) {
-              t && e != t && (D[t] = V.innerHTML), j = e, T(D[e])
+              t && e != t && (D[t] = F.innerHTML), j = e, T(D[e])
             }), a.showEmojiPanel = function(e) {
               u.toggleOpen({
                 top: -272
@@ -1328,7 +1328,7 @@ webpackJsonp([1], [function(e, exports, t) {
                     templateUrl: "editAreaContactPanel.html"
                     , controller: "editAreaContactListController"
                     , left: A
-                    , top: F
+                    , top: V
                     , scope: {
                       chatRoomUserName: t
                       , memberList: angular.copy(e)
@@ -1355,7 +1355,7 @@ webpackJsonp([1], [function(e, exports, t) {
                     while (i = i.nextSibling);
                     i || (n += n)
                   }
-                  a.insertToEditArea(n, !0), V.scrollTop = V.scrollHeight
+                  a.insertToEditArea(n, !0), F.scrollTop = F.scrollHeight
                 } else a.sendTextMessage();
                 e.preventDefault()
               }
@@ -1374,9 +1374,9 @@ webpackJsonp([1], [function(e, exports, t) {
                 l.appendMessage(e), l.sendMessage(e), D[l.getCurrentUserName()] = "", a.editAreaCtn = ""
               }
             }, a.$on("root:quoteMsg", function(e, t) {
-              T(t + (V.innerHTML.replace("<br>", "") ? V.innerHTML : "<br>")), V.scrollTop = 9999
+              T(t + (F.innerHTML.replace("<br>", "") ? F.innerHTML : "<br>")), F.scrollTop = 9999
             }), a.insertToEditArea = function(e, t) {
-              C(e, t), a.editAreaCtn = V.innerHTML
+              C(e, t), a.editAreaCtn = F.innerHTML
             }, a.sendTuzkiEmoji = function(e, t) {
               var a = l.createMessage({
                 MsgType: c.MSGTYPE_EMOTICON
@@ -2259,9 +2259,9 @@ webpackJsonp([1], [function(e, exports, t) {
                   , EmojiFlag: e.EmojiFlag
                   , EMoticonMd5: e.EMoticonMd5 || e.md5
                 };
-                e.MediaId && (t.MediaId = e.MediaId), e.MMSourceMsgId && "undefined" != typeof e.MMStatus && e.MMStatus != confFactory.MSG_SEND_STATUS_SUCC && (e.MMPreviewSrc = confFactory.API_webwxgetmsgimg + "?&MsgID=" + e.MMSourceMsgId +
-                    "&skey=" + encodeURIComponent(accountFactory.getSkey()) + "&type=big")
-                  , this._postMessage(confFactory.API_webwxsendemoticon + "?fun=sys", t, e)
+                e.MediaId && (t.MediaId = e.MediaId)
+                  , e.MMSourceMsgId && "undefined" != typeof e.MMStatus && e.MMStatus != confFactory.MSG_SEND_STATUS_SUCC && (e.MMPreviewSrc = confFactory.API_webwxgetmsgimg + "?&MsgID=" + e.MMSourceMsgId + "&skey=" + encodeURIComponent(
+                    accountFactory.getSkey()) + "&type=big"), this._postMessage(confFactory.API_webwxsendemoticon + "?fun=sys", t, e)
               }
               , initChatList: function(e) {
                 var t = this
@@ -6629,7 +6629,7 @@ webpackJsonp([1], [function(e, exports, t) {
                 }) : m.css(y), angular.extend(E, y), p[0].src = t.src, n.isLoaded = !0, n.containerStyle = null, n.$digest()
               }, t.onerror = function() {
                 t.onerror = null, alert(_("845ec73"))
-              }, t.src = n.imageList[n.current].url;
+              }, t.src = n.imageList[n.current].url
             }
             var m = i.find("#img_dom")
               , g = i.find("#img_opr_container")
@@ -7888,4 +7888,4 @@ webpackJsonp([1], [function(e, exports, t) {
         }])
     }()
   }
-]); /* vhtml-webpack-plugin version: 0.1.15 */
+]); /* vhtml-webpack-plugin version: 0.1.16 */

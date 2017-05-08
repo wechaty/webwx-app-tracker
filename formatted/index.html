@@ -1243,7 +1243,7 @@
           <!--BEGIN 添加好友-->
           <a class="opt"
               href="javascript:;"
-              ng-if="!contact.isBrandContact() && !contact.isContact() && !contact.MMFromVerifyMsg && !isShowSendBox"
+              ng-if="!contact.isBrandContact() && !contact.isContact() && !contact.MMFromVerifyMsg && !isShowSendBox && !isOfficialUser"
               ng-click="$parent.isShowSendBox=true">
             <i class="web_wechat_tab_add"></i>
           </a>
@@ -1274,7 +1274,8 @@
         </div>
         <div class="meta_area"
             ng-if="!isShowSendBox">
-          <div class="meta_item">
+          <div class="meta_item"
+              ng-if="!isOfficialUser">
             <label class="label"
                 for="">备注：</label>
             <p class="value J_Text"
@@ -1948,7 +1949,8 @@
                 ng-click="showProfile($event,message.RecommendInfo.UserName)">
               <div class="card">
                 <div class="card_hd">
-                  <p>名片</p>
+                  <p ng-if="message.RecommendInfo.VerifyFlag">公众号名片</p>
+                  <p ng-if="!message.RecommendInfo.VerifyFlag">个人名片</p>
                 </div>
                 <div class="card_bd">
                   <div class="card_avatar">
@@ -2582,8 +2584,8 @@
     });
 
   </script>
-  <script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_8863a98.js"></script>
-  <script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_40649b7.js"></script>
+  <script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_d8affab.js"></script>
+  <script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_8a1ea56.js"></script>
 </body>
 
 </html>
