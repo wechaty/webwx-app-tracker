@@ -1132,9 +1132,10 @@ webpackJsonp([1], [function(e, exports, t) {
                     })
                     .on("beforeFileQueued", function(e) {
                       if (e._checked) return !0;
-                      if (0 == e.size) return H.skipFile(e), alert(_("61e885c")), !1;
-                      if (e._data = e._data || {}, /untitled\d+.png/i.test(e.name) || j) G(e, Z), e.ToUserName = l.getSendFileUsername();
-                      else if (e.ToUserName || (e.ToUserName = l.getSendFileUsername()), G(e, X), "gif" !== e.ext.toLowerCase() && !N(e.ext)) {
+                      if (f.reportSendState("sendFile"), 0 == e.size) return H.skipFile(e), alert(_("61e885c")), !1;
+                      if (e._data = e._data || {}, !l.getSendFileUsername()) return H.skipFile(e), alert(_("599d8df")), !1;
+                      if (/untitled\d+.png/i.test(e.name) || j) G(e, Z), e.ToUserName = l.getSendFileUsername();
+                      else if (e.ToUserName = l.getSendFileUsername(), G(e, X), "gif" !== e.ext.toLowerCase() && !N(e.ext)) {
                         var t = E(e.ext);
                         if (t == r.MSGTYPE_VIDEO && e.size >= 1024 * K * 1024) return H.skipFile(e), void alert(_("9a7dbbc"));
                         e.ToUserName != l.getCurrentUserName() && (f.reportSendState("sendFileWrong"), p.report(p.ReportType.sendError, {
@@ -2131,8 +2132,8 @@ webpackJsonp([1], [function(e, exports, t) {
                     , i = $(a)
                     , o = n.attr("data-username")
                     , r = i.attr("data-username");
-                  return o && r || utilFactory.reportSendState("sendcheckAttrError"), e || utilFactory.reportSendState("toUserNameNotFound"), o == r && r == e || (r != e && utilFactory.reportSendState("toUserNameConflictNav"), o != e &&
-                    utilFactory.reportSendState("toUserNameConflictChat"), utilFactory.reportSendState("uiCheckFail"), reportService.report(reportService.ReportType.sendError, {
+                  return o && r || utilFactory.reportSendState("sendcheckAttrError"), e || utilFactory.reportSendState("toUserNameNotFound"), !(!e || o != r || r != e) || (r != e && utilFactory.reportSendState("toUserNameConflictNav"), o !=
+                    e && utilFactory.reportSendState("toUserNameConflictChat"), utilFactory.reportSendState("uiCheckFail"), reportService.report(reportService.ReportType.sendError, {
                       type: "uiCheckFail"
                       , browser: utilFactory.browser.msie ? "ie" : "other"
                       , values: {
@@ -4185,6 +4186,10 @@ webpackJsonp([1], [function(e, exports, t) {
                   , toUserNameConflictChat: {
                     ie: 83
                     , notIe: 83
+                  }
+                  , sendFile: {
+                    ie: 86
+                    , notIe: 86
                   }
                 }
                 , o = i[e];
@@ -7896,4 +7901,4 @@ webpackJsonp([1], [function(e, exports, t) {
         }])
     }()
   }
-]); /* vhtml-webpack-plugin version: 0.1.16 */
+]); /* vhtml-webpack-plugin version: 0.1.17 */
