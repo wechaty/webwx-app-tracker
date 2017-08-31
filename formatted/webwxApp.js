@@ -1129,6 +1129,7 @@ webpackJsonp([1], [function(e, exports, t) {
                       , threads: 1
                       , chunked: !0
                       , chunkSize: 524288
+                      , withCredentials: !0
                     })
                     .on("beforeFileQueued", function(e) {
                       if (e._checked) return !0;
