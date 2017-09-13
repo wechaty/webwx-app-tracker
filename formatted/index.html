@@ -77,6 +77,7 @@
       <div class="qrcode"
           ng-class="{hide: isScan || isAssociationLogin || isBrokenNetwork}">
         <img class="img"
+            mm-error="qrcodeException()"
             ng-class="{'qrcode_expired': isNeedRefresh}"
             mm-src="{{qrcodeUrl}}"
             mm-src-load="qrcodeLoad"
@@ -2471,9 +2472,6 @@
 
   </script>
   <!--script-->
-  <script type="text/javascript"
-      src="https://tajs.qq.com/stats?sId=43209744"
-      charset="UTF-8"></script>
   <script>
     ! function() {
       var n, t = {};
@@ -2586,8 +2584,8 @@
     });
 
   </script>
-  <script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_a35ec48.js"></script>
-  <script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_3378d7e.js"></script>
+  <script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_f84a72d.js"></script>
+  <script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_e01fd8a.js"></script>
 </body>
 
 </html>
