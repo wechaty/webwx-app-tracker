@@ -170,7 +170,7 @@ webpackJsonp([1], [function(e, exports, t) {
             }
 
             function T() {
-              var e = A;
+              var e = F;
               e && setTimeout(function() {
                 var t = (e[0].clientHeight - e.find(".ngdialog-content")
                   .height()) / 2;
@@ -198,8 +198,9 @@ webpackJsonp([1], [function(e, exports, t) {
                       }
                     }]
                   }), v.report(v.INIT_EXCEPTION_COUNT, 1)));
-                  f.setUserInfo(n.User), f.setSkey(n.SKey), f.setSyncKey(n.SyncKey), d.addContact(n.User), d.addContacts(n.ContactList), u.initChatList(n.ChatSet), u.notifyMobile(f.getUserName(), m.StatusNotifyCode_INITED), C.init(n.MPSubscribeMsgList)
-                    , e.$broadcast("root:pageInit:success"), h.setCheckUrl(f), h.log("getUserInfo", f.getUserInfo()), t.$broadcast("updateUser"), M.report(M.ReportType.timing, {
+                  f.setLoginTime((new Date)
+                      .getTime()), f.setUserInfo(n.User), f.setSkey(n.SKey), f.setSyncKey(n.SyncKey), d.addContact(n.User), d.addContacts(n.ContactList), u.initChatList(n.ChatSet), u.notifyMobile(f.getUserName(), m.StatusNotifyCode_INITED)
+                    , C.init(n.MPSubscribeMsgList), e.$broadcast("root:pageInit:success"), h.setCheckUrl(f), h.log("getUserInfo", f.getUserInfo()), t.$broadcast("updateUser"), M.report(M.ReportType.timing, {
                       timing: {
                         initEnd: Date.now()
                       }
@@ -227,11 +228,25 @@ webpackJsonp([1], [function(e, exports, t) {
                     var t = 1;
                     e(0)
                   }, 0), t.account = d.getContact(f.getUserName()), E()
+                }), h.browser.chrome && (window.onbeforeunload = function(e) {
+                  return e = e || window.event, e && (e.returnValue = "关闭浏览器聊天内容将会丢失。"), setTimeout(function() {
+                    var e = (new Date)
+                      .getTime() - f.getLoginTime();
+                    M.report(M.ReportType.sessionData, {
+                      uin: f.getUin()
+                      , browser: navigator.userAgent
+                      , rmsg: f.getRMsgCount()
+                      , rconv: f.getRConvCount()
+                      , smsg: f.getSMsgCount()
+                      , sconv: f.getSConvCount()
+                      , lifetime: e
+                    }, !0)
+                  }, 0), "关闭浏览器聊天内容将会丢失。"
                 })
             }
 
             function E() {
-              t.debug && (x && a.cancel(x), b.start(4e4), x = a(function() {
+              t.debug && (D && a.cancel(D), b.start(4e4), D = a(function() {
                 s.syncCheck()
                   .then(function(e) {
                     return b.start(5e3), e
@@ -250,7 +265,11 @@ webpackJsonp([1], [function(e, exports, t) {
                 }), angular.forEach(e.ModContactList, function(e, t) {
                   d.addContact(e)
                 }), angular.forEach(e.AddMsgList, function(e, t) {
-                  u.messageProcess(e)
+                  if (u.messageProcess(e), e.FromUserName != f.getUserName()) {
+                    f.setRMsgCount(f.getRMsgCount() + 1);
+                    var t = P.indexOf(e.FromUserName);
+                    t == -1 && (f.setRConvCount(f.getRConvCount() + 1), P.push(e.FromUserName))
+                  }
                 })
               } catch (e) {
                 e.other = {
@@ -273,15 +292,15 @@ webpackJsonp([1], [function(e, exports, t) {
             }
             1 == Math.floor(100 * Math.random()) && v.report(v.PV, 1);
             window._appTiming = {};
-            i.go("chat"), e.CONF = m, t.isUnLogin = !window.MMCgi.isLogin, t.debug = !0, t.isShowReader = /qq\.com/gi.test(location.href), window.MMCgi.isLogin && (N(), h.browser.chrome && !MMDEV && (window.onbeforeunload = function(e) {
-              return e = e || window.event, e && (e.returnValue = "关闭浏览器聊天内容将会丢失。"), "关闭浏览器聊天内容将会丢失。"
-            })), t.$on("newLoginPage", function(e, t) {
+            i.go("chat"), e.CONF = m, t.isUnLogin = !window.MMCgi.isLogin, t.debug = !0, t.isShowReader = /qq\.com/gi.test(location.href);
+            var P = [];
+            window.MMCgi.isLogin && N(), t.$on("newLoginPage", function(e, t) {
               f.setSkey(t.SKey), f.setSid(t.Sid), f.setUin(t.Uin), f.setPassticket(t.Passticket), N(), k(t.Uin)
             });
-            var P, U;
+            var U, A;
             t.search = function(e) {
-              P && a.cancel(P), P = a(function() {
-                return t.keyword ? (U && U.close(), void(U = c.open({
+              U && a.cancel(U), U = a(function() {
+                return t.keyword ? (A && A.close(), void(A = c.open({
                   templateUrl: "searchList.html"
                   , controller: ["$rootScope", "$scope", "$state", function(e, t, a) {
                     t.$watch(function() {
@@ -304,44 +323,44 @@ webpackJsonp([1], [function(e, exports, t) {
                   , className: "recommendation"
                   , autoFoucs: !1
                   , container: angular.element(document.querySelector("#search_bar"))
-                }))) : void(U && U.close())
+                }))) : void(A && A.close())
               }, 200)
             }, t.searchKeydown = function(t) {
               switch (t.keyCode) {
                 case m.KEYCODE_ARROW_UP:
-                  U && U.isOpen() && e.$broadcast("root:searchList:keyArrowUp"), t.preventDefault(), t.stopPropagation();
+                  A && A.isOpen() && e.$broadcast("root:searchList:keyArrowUp"), t.preventDefault(), t.stopPropagation();
                   break;
                 case m.KEYCODE_ARROW_DOWN:
-                  U && U.isOpen() && e.$broadcast("root:searchList:keyArrowDown"), t.preventDefault(), t.stopPropagation();
+                  A && A.isOpen() && e.$broadcast("root:searchList:keyArrowDown"), t.preventDefault(), t.stopPropagation();
                   break;
                 case m.KEYCODE_ENTER:
-                  U && U.isOpen() && e.$broadcast("root:searchList:keyEnter"), t.preventDefault(), t.stopPropagation()
+                  A && A.isOpen() && e.$broadcast("root:searchList:keyEnter"), t.preventDefault(), t.stopPropagation()
               }
             }, t.$on("root:searchList:cleanKeyWord", function(e) {
               t.keyword = ""
             });
-            var A;
+            var F;
             t.$on("ngDialog.opened", function(e, t) {
-                w.change("dialog:open", !0), A = t, T()
+                w.change("dialog:open", !0), F = t, T()
               }), t.$on("ngDialog.closed", function(e, t) {
-                w.change("dialog:open", !1), A = null
+                w.change("dialog:open", !1), F = null
               }), $(window)
               .on("resize", function(e) {
                 T()
               }), t.appClick = function(e) {
                 t.$broadcast("app:contextMenu:hide", e)
               };
-            var F, V = $(document.body);
-            V.on("dragenter", function(e) {
+            var V, x = $(document.body);
+            x.on("dragenter", function(e) {
               var t = e.originalEvent;
-              F = t.target, t.dataTransfer.dropEffect = "none", V.addClass("drop-enter"), t.stopPropagation(), t.preventDefault()
-            }), V.on("dragleave", function(e) {
+              V = t.target, t.dataTransfer.dropEffect = "none", x.addClass("drop-enter"), t.stopPropagation(), t.preventDefault()
+            }), x.on("dragleave", function(e) {
               var t = e.originalEvent;
-              t.dataTransfer.dropEffect = "none", F === t.target && V.removeClass("drop-enter"), t.stopPropagation(), t.preventDefault()
-            }), V.on("dragover", function(e) {
+              t.dataTransfer.dropEffect = "none", V === t.target && x.removeClass("drop-enter"), t.stopPropagation(), t.preventDefault()
+            }), x.on("dragover", function(e) {
               var t = e.originalEvent;
               t.dataTransfer.dropEffect = "none", t.stopPropagation(), t.preventDefault()
-            }), V.on("drop", function(e) {
+            }), x.on("drop", function(e) {
               var t = e.originalEvent;
               t.dataTransfer.dropEffect = "none", t.stopPropagation(), t.preventDefault()
             }), t.showContextMenu = function(e) {
@@ -384,7 +403,7 @@ webpackJsonp([1], [function(e, exports, t) {
                 h.log("请求权限了...")
               })
             }, b.callback(E);
-            var x
+            var D
           }
         ])
     }()
@@ -590,6 +609,7 @@ webpackJsonp([1], [function(e, exports, t) {
                         case f.APPMSGTYPE_ATTACH:
                           o.MMAppMsgDownloadUrl = o.MMAppMsgDownloadUrl.replace("#MediaId#", a.MediaId)
                             .replace("mediaid=undefined", "mediaid=" + a.MediaId)
+                            .replace("encryfilename=undefined", "encryfilename=" + (a.EncryFileName || encodeURIComponent(message.FileName)))
                       }
                       return void(e.$$phase || e.$digest())
                     }
@@ -1099,8 +1119,7 @@ webpackJsonp([1], [function(e, exports, t) {
                               , webwx_data_ticket: f.getCookie("webwx_data_ticket")
                               , pass_ticket: decodeURIComponent(c.getPassticket())
                             };
-                            e._uploadParams = s, e._uploadmediarequestBase = i, t ? (K.trigger("fileQueued", e)
-                              , K.trigger("uploadSuccess", e, a), K.skipFile(e)) : (e._checked = !0, K.addFiles(e))
+                            e._uploadParams = s, e._uploadmediarequestBase = i, t ? (K.trigger("fileQueued", e), K.trigger("uploadSuccess", e, a), K.skipFile(e)) : (e._checked = !0, K.addFiles(e))
                           }
                           var s = Date.now() - o
                             , l = s / e.size * 1024 * 1024;
@@ -1366,7 +1385,7 @@ webpackJsonp([1], [function(e, exports, t) {
                 , onSuccess: function(e) {
                   if (0 == e.BaseResponse.Ret) {
                     var t = this.MMSendMsg;
-                    t.MediaId = e.MediaId, t.Signature = this.Signature, l.sendMessage(t), t.MMFileStatus = r.MM_SEND_FILE_STATUS_SUCCESS, a.$$phase || a.$digest()
+                    t.MediaId = e.MediaId, t.Signature = this.Signature, t.EncryFileName = e.EncryFileName, l.sendMessage(t), t.MMFileStatus = r.MM_SEND_FILE_STATUS_SUCCESS, a.$$phase || a.$digest()
                   } else this.onError("Ret: " + e.BaseResponse.Ret)
                 }
                 , onError: function(e) {
@@ -1809,7 +1828,8 @@ webpackJsonp([1], [function(e, exports, t) {
     ! function() {
       "use strict";
       angular.module("Controllers")
-        .controller("systemMenuController", ["$rootScope", "$scope", "$timeout", "ngDialog", "loginFactory", "confFactory", "accountFactory", "utilFactory", "monitorService", "oplogFactory", function(e, t, a, n, i, o, r, c, s, l) {
+        .controller("systemMenuController", ["$rootScope", "$scope", "$timeout", "ngDialog", "loginFactory", "confFactory", "accountFactory", "utilFactory", "monitorService", "oplogFactory", "reportService", function(e, t, a, n, i, o, r, c, s, l
+          , d) {
           t.createChatroom = function() {
             n.open({
               templateUrl: "createChatroom.html"
@@ -1822,7 +1842,21 @@ webpackJsonp([1], [function(e, exports, t) {
               }
             }), t.closeThisMmPop()
           }, t.loginout = function() {
-            i.loginout(), t.closeThisMmPop()
+            setTimeout(function() {
+              var e = (new Date)
+                .getTime() - r.getLoginTime();
+              d.report(d.ReportType.sessionData, {
+                uin: r.getUin()
+                , browser: navigator.userAgent
+                , rmsg: r.getRMsgCount()
+                , rconv: r.getRConvCount()
+                , smsg: r.getSMsgCount()
+                , sconv: r.getSConvCount()
+                , lifetime: e
+              }, !0)
+            }, 0), setTimeout(function() {
+              i.loginout()
+            }, 300), t.closeThisMmPop()
           }, t.isNotifyOpen = r.isNotifyOpen(), t.closeNotify = function() {
             r.closeNotify(), t.closeThisMmPop()
           }, t.openNotify = function() {
@@ -2016,6 +2050,8 @@ webpackJsonp([1], [function(e, exports, t) {
             , _addedMsgIdsMap = {}
             , _msgMap = {}
             , _sendFileUserName, _currentUnreadMap = {}
+            , _rChatList = []
+            , _SChatList = []
             , service = {
               setCurrentUserName: function(e) {
                 _currentUserName = e;
@@ -2103,6 +2139,9 @@ webpackJsonp([1], [function(e, exports, t) {
                   case confFactory.MSGTYPE_EMOTICON:
                     this.postEmoticonMessage(e)
                 }
+                accountFactory.setSMsgCount(accountFactory.getSMsgCount() + 1);
+                var t = _SChatList.indexOf(e.ToUserName);
+                t === -1 && (accountFactory.setSConvCount(accountFactory.getSConvCount() + 1), _SChatList.push(e.ToUserName))
               }
               , _postMessage: function(url, data, msg) {
                 data.FromUserName = msg.FromUserName, data.ToUserName = msg.ToUserName, data.LocalID = msg.LocalID, data.ClientMsgId = msg.ClientMsgId, data = angular.extend(accountFactory.getBaseRequest(), {
@@ -2214,23 +2253,24 @@ webpackJsonp([1], [function(e, exports, t) {
               , getChatList: function() {
                 var e = this
                   , t = [];
-                return _chatListInfos.length = 0, angular.forEach(_chatList, function(a, n) {
-                  var i, o = contactFactory.getContact(a)
-                    , r = {};
-                  if (o && !o.isBrandContact() && !o.isShieldUser()) {
-                    if (a == _currentUserName) {
-                      var c = e.getUnreadMsgsCount(a);
-                      (!o.unreadCount || o.unreadCount < c) && (o.unreadCount = e.getUnreadMsgsCount(a)), o._notActive || e.markMsgsRead(a) && e.notifyMobile(a, confFactory.StatusNotifyCode_READED)
+                return _chatListInfos.length = 0
+                  , angular.forEach(_chatList, function(a, n) {
+                    var i, o = contactFactory.getContact(a)
+                      , r = {};
+                    if (o && !o.isBrandContact() && !o.isShieldUser()) {
+                      if (a == _currentUserName) {
+                        var c = e.getUnreadMsgsCount(a);
+                        (!o.unreadCount || o.unreadCount < c) && (o.unreadCount = e.getUnreadMsgsCount(a)), o._notActive || e.markMsgsRead(a) && e.notifyMobile(a, confFactory.StatusNotifyCode_READED)
+                      }
+                      i = e._getLastMessage(o.UserName), angular.extend(r, o, {
+                        MMDigest: i.MMDigest || ""
+                        , NoticeCount: e.getUnreadMsgsCount(a)
+                        , MMStatus: i.MMStatus
+                        , MMTime: i.MMTime || ""
+                        , MMDigestTime: i.MMDigestTime || ""
+                      }), t.push(r)
                     }
-                    i = e._getLastMessage(o.UserName), angular.extend(r, o, {
-                      MMDigest: i.MMDigest || ""
-                      , NoticeCount: e.getUnreadMsgsCount(a)
-                      , MMStatus: i.MMStatus
-                      , MMTime: i.MMTime || ""
-                      , MMDigestTime: i.MMDigestTime || ""
-                    }), t.push(r)
-                  }
-                }), [].push.apply(_chatListInfos, handleChatList(t)), _chatListInfos
+                  }), [].push.apply(_chatListInfos, handleChatList(t)), _chatListInfos
               }
               , _getLastMessage: function(e) {
                 var t = this
@@ -2501,8 +2541,8 @@ webpackJsonp([1], [function(e, exports, t) {
                   .replace(/<br\/>/g, "");
                 t = utilFactory.encodeEmoji(t), t = utilFactory.xml2json(t), e.MMDigest += _("6daeae3"), e.sendByLocal ? e.MMFileStatus = confFactory.MM_SEND_FILE_STATUS_SENDING : e.MMFileStatus = confFactory.MM_SEND_FILE_STATUS_SUCCESS, e
                   .MMAppMsgFileExt = t.appmsg.appattach.fileext.toLowerCase(), e.MMAppMsgFileSize = utilFactory.getSize(+t.appmsg.appattach.totallen), e.MMAppMsgDownloadUrl = confFactory.API_webwxdownloadmedia + "?sender=" + e.FromUserName +
-                  "&mediaid=" + e.MediaId + "&filename=" + encodeURIComponent(e.FileName) + "&fromuser=" + accountFactory.getUin() + "&pass_ticket=" + encodeURIComponent(accountFactory.getPassticket()) + "&webwx_data_ticket=" +
-                  encodeURIComponent(utilFactory.getCookie("webwx_data_ticket"))
+                  "&mediaid=" + e.MediaId + "&encryfilename=" + e.EncryFileName + "&fromuser=" + accountFactory.getUin() + "&pass_ticket=" + encodeURIComponent(accountFactory.getPassticket()) + "&webwx_data_ticket=" + encodeURIComponent(
+                    utilFactory.getCookie("webwx_data_ticket"))
               }
               , _appTransfersMsgProcess: function(e) {
                 this._appAsTextMsgProcess(e, _("0cdad09"))
@@ -2819,7 +2859,12 @@ webpackJsonp([1], [function(e, exports, t) {
             }
             , d = "" === a.getCookie("MM_WX_NOTIFY_STATE") ? t.MM_NOTIFY_OPEN : a.getCookie("MM_WX_NOTIFY_STATE")
             , f = "" === a.getCookie("MM_WX_SOUND_STATE") ? t.MM_SOUND_OPEN : a.getCookie("MM_WX_SOUND_STATE")
-            , u = {
+            , u = 0
+            , m = 0
+            , g = 0
+            , p = 0
+            , h = 0
+            , M = {
               openNotify: function() {
                 d = t.MM_NOTIFY_OPEN, a.setCookie("MM_WX_NOTIFY_STATE", t.MM_NOTIFY_OPEN)
               }
@@ -2866,6 +2911,36 @@ webpackJsonp([1], [function(e, exports, t) {
               }
               , setSyncCheckKey: function(e) {
                 e && e.Count > 0 ? s = e : a.log("JS Function: setSyncCheckKey. Error. no synccheckkey")
+              }
+              , setLoginTime: function(e) {
+                u = e
+              }
+              , getLoginTime: function() {
+                return u
+              }
+              , setRMsgCount: function(e) {
+                m = e
+              }
+              , getRMsgCount: function() {
+                return m
+              }
+              , setRConvCount: function(e) {
+                g = e
+              }
+              , getRConvCount: function() {
+                return g
+              }
+              , setSMsgCount: function(e) {
+                p = e
+              }
+              , getSMsgCount: function() {
+                return p
+              }
+              , setSConvCount: function(e) {
+                h = e
+              }
+              , getSConvCount: function() {
+                return h
               }
               , setSyncKey: function(e) {
                 e && e.Count > 0 ? c = e : a.log("JS Function: setSyncKey. Error. no synckey")
@@ -2923,7 +2998,7 @@ webpackJsonp([1], [function(e, exports, t) {
                 l.type = a, l.ver = t
               }
             };
-          return d == t.MM_NOTIFY_OPEN ? u.openNotify() : u.closeNotify(), f == t.MM_SOUND_OPEN ? u.openSound() : u.closeSound(), u
+          return d == t.MM_NOTIFY_OPEN ? M.openNotify() : M.closeNotify(), f == t.MM_SOUND_OPEN ? M.openSound() : M.closeSound(), M
         }])
     }()
   }
@@ -3351,8 +3426,7 @@ webpackJsonp([1], [function(e, exports, t) {
               , addContacts: function(e, t) {
                 var a = this;
                 angular.forEach(e, function(e, n) {
-                  t && (e.MMFromBatchGet = !0)
-                    , a.addContact(e)
+                  t && (e.MMFromBatchGet = !0), a.addContact(e)
                 })
               }
               , deleteContact: function(e) {
@@ -5694,6 +5768,7 @@ webpackJsonp([1], [function(e, exports, t) {
               , WinAdPV: "[win-ad-pv]"
               , click2CloseAd: "[click-to-close-ad]"
               , clickAndCloseAd: "[click-and-close-ad]"
+              , sessionData: "[session-data]"
             }
             , E = {};
           E[N.jsError] = r, l(), u();
@@ -7982,4 +8057,4 @@ webpackJsonp([1], [function(e, exports, t) {
         }])
     }()
   }
-]); /* vhtml-webpack-plugin version: 0.1.18 */
+]); /* vhtml-webpack-plugin version: 0.1.24 */
