@@ -2479,7 +2479,12 @@
         var i = arguments.length;
         if (i > 1) t[n] = e;
         else if (1 == i) {
-          if ("object" != typeof n) return t[n];
+          if ("object" != typeof n) return String(t[n] || n)
+            .replace(/&#40;/g, "(")
+            .replace(/&#41;/g, ")")
+            .replace(/&#44;/g, ",")
+            .replace(/&#39;/g, "'")
+            .replace(/&quot;/g, '"');
           for (var o in n) n.hasOwnProperty(o) && (t[o] = n[o])
         }
       }, "_" in window || (window._ = n)
@@ -2584,8 +2589,8 @@
     });
 
   </script>
-  <script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_fe62088.js"></script>
-  <script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_ca360ff.js"></script>
+  <script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_7e30cbd.js"></script>
+  <script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_bd0d576.js"></script>
 </body>
 
 </html>

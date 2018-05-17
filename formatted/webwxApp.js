@@ -57,9 +57,7 @@ webpackJsonp([1], [function(e, exports, t) {
           }])
           .config(["$sceProvider", "$httpProvider", "$logProvider", "$stateProvider", "$urlRouterProvider", "ngClipProvider", function(e, t, a, n, i, o) {
             e.enabled(!1), a.debugEnabled(!0), o.setPath(window.MMSource.copySwfPath), t.interceptors.push("httpInterceptor");
-            var r = document.domain.indexOf("qq.com") < 0;
-            r || (document.domain = "qq.com");
-            var c;
+            var r;
             n.state("chat", {
                 url: ""
                 , params: {
@@ -120,10 +118,10 @@ webpackJsonp([1], [function(e, exports, t) {
                   , contentView: {
                     templateUrl: "contentRead.html"
                     , controller: ["$scope", "$stateParams", "subscribeMsgService", "mmpop", function(e, t, a, n) {
-                      if (t.readItem) c = e.readItem = t.readItem;
+                      if (t.readItem) r = e.readItem = t.readItem;
                       else {
                         var i = a.getSubscribeMsgs()[0];
-                        e.readItem = c || i && i.MPArticleList[0]
+                        e.readItem = r || i && i.MPArticleList[0]
                       }
                       e.optionMenu = function() {
                         n.toggleOpen({
@@ -2253,24 +2251,23 @@ webpackJsonp([1], [function(e, exports, t) {
               , getChatList: function() {
                 var e = this
                   , t = [];
-                return _chatListInfos.length = 0
-                  , angular.forEach(_chatList, function(a, n) {
-                    var i, o = contactFactory.getContact(a)
-                      , r = {};
-                    if (o && !o.isBrandContact() && !o.isShieldUser()) {
-                      if (a == _currentUserName) {
-                        var c = e.getUnreadMsgsCount(a);
-                        (!o.unreadCount || o.unreadCount < c) && (o.unreadCount = e.getUnreadMsgsCount(a)), o._notActive || e.markMsgsRead(a) && e.notifyMobile(a, confFactory.StatusNotifyCode_READED)
-                      }
-                      i = e._getLastMessage(o.UserName), angular.extend(r, o, {
-                        MMDigest: i.MMDigest || ""
-                        , NoticeCount: e.getUnreadMsgsCount(a)
-                        , MMStatus: i.MMStatus
-                        , MMTime: i.MMTime || ""
-                        , MMDigestTime: i.MMDigestTime || ""
-                      }), t.push(r)
+                return _chatListInfos.length = 0, angular.forEach(_chatList, function(a, n) {
+                  var i, o = contactFactory.getContact(a)
+                    , r = {};
+                  if (o && !o.isBrandContact() && !o.isShieldUser()) {
+                    if (a == _currentUserName) {
+                      var c = e.getUnreadMsgsCount(a);
+                      (!o.unreadCount || o.unreadCount < c) && (o.unreadCount = e.getUnreadMsgsCount(a)), o._notActive || e.markMsgsRead(a) && e.notifyMobile(a, confFactory.StatusNotifyCode_READED)
                     }
-                  }), [].push.apply(_chatListInfos, handleChatList(t)), _chatListInfos
+                    i = e._getLastMessage(o.UserName), angular.extend(r, o, {
+                      MMDigest: i.MMDigest || ""
+                      , NoticeCount: e.getUnreadMsgsCount(a)
+                      , MMStatus: i.MMStatus
+                      , MMTime: i.MMTime || ""
+                      , MMDigestTime: i.MMDigestTime || ""
+                    }), t.push(r)
+                  }
+                }), [].push.apply(_chatListInfos, handleChatList(t)), _chatListInfos
               }
               , _getLastMessage: function(e) {
                 var t = this
@@ -8057,4 +8054,4 @@ webpackJsonp([1], [function(e, exports, t) {
         }])
     }()
   }
-]); /* vhtml-webpack-plugin version: 0.1.24 */
+]); /* vhtml-webpack-plugin version: 0.1.38 */
