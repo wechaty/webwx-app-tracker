@@ -251,7 +251,7 @@ webpackJsonp([1], [function(e, exports, t) {
                   }, function(e) {
                     return b.start(2e3), e
                   })
-                  .then(G, I)
+                  .then(G, k)
               }, m.TIMEOUT_SYNC_CHECK))
             }
 
@@ -278,11 +278,11 @@ webpackJsonp([1], [function(e, exports, t) {
               }
             }
 
-            function I(e) {
+            function k(e) {
               E()
             }
 
-            function k(e) {
+            function I(e) {
               var t = h.getCookie("last_wxuin") || ""
                 , a = parseInt(h.getCookie("login_frequency") || 1);
               t !== e ? a = 1 : a += 1, h.setCookie("login_frequency", a, 2), h.setCookie("last_wxuin", e, 2), h.getLocalStorage()
@@ -293,7 +293,7 @@ webpackJsonp([1], [function(e, exports, t) {
             i.go("chat"), e.CONF = m, t.isUnLogin = !window.MMCgi.isLogin, t.debug = !0, t.isShowReader = /qq\.com/gi.test(location.href);
             var P = [];
             window.MMCgi.isLogin && N(), t.$on("newLoginPage", function(e, t) {
-              f.setSkey(t.SKey), f.setSid(t.Sid), f.setUin(t.Uin), f.setPassticket(t.Passticket), N(), k(t.Uin)
+              f.setSkey(t.SKey), f.setSid(t.Sid), f.setUin(t.Uin), f.setPassticket(t.Passticket), N(), I(t.Uin)
             });
             var U, A;
             t.search = function(e) {
@@ -509,7 +509,7 @@ webpackJsonp([1], [function(e, exports, t) {
             e.isAssociationLogin = parseInt(a.getCookie("login_frequency") || 0) >= 2, e.isWaitingAsConfirm = !1, e.isNeedRefresh = !1, e.isRotateLoading = !1, e.isBrokenNetwork = !1;
             var s;
             e.isAssociationLogin && (e.userAvatar = a.getLocalStorage()
-              .getItem("userAvatar")), e.associationLogin = function() {
+              .getItem("userAvatar")), e.showPrivacyTips = /wechat\.com/gi.test(location.host), e.associationLogin = function() {
               var n = a.getCookie("last_wxuin");
               e.isWaitingAsConfirm = !0, t.associationLogin(n)
                 .then(function(t) {
@@ -853,14 +853,14 @@ webpackJsonp([1], [function(e, exports, t) {
             e.$on("mmRepeat:change", function() {
               G && (T.scrollTop = 99999)
             });
-            var I, k = !0;
+            var k, I = !0;
             e.$watchCollection("chatContent", function(t) {
               if (t.length > 0 && t[t.length - 1].FromUserName === s.getUserName()) G = !0;
               else {
-                if (e.isChangeUserFlag ? (e.isChangeUserFlag = !1, S()) : e.bottomUnreadIndex && e.currentContact ? e.bottomUnreadCount = c.getUnreadMsgsCount(e.currentContact.UserName) : S(), I && clearTimeout(I), I = setTimeout(function() {
-                    k = !0
-                  }, 100), !k) return;
-                G = T.scrollTop + T.clientHeight + 260 >= T.scrollHeight, k = !1
+                if (e.isChangeUserFlag ? (e.isChangeUserFlag = !1, S()) : e.bottomUnreadIndex && e.currentContact ? e.bottomUnreadCount = c.getUnreadMsgsCount(e.currentContact.UserName) : S(), k && clearTimeout(k), k = setTimeout(function() {
+                    I = !0
+                  }, 100), !I) return;
+                G = T.scrollTop + T.clientHeight + 260 >= T.scrollHeight, I = !1
               }
             }), e.heightCalc = function(t, a) {
               var n = "<div message-directive ></div>"
@@ -1028,7 +1028,7 @@ webpackJsonp([1], [function(e, exports, t) {
               return E(e) ? r.MSGTYPE_IMAGE : t[e.toLowerCase()] ? r.MSGTYPE_VIDEO : r.MSGTYPE_APP
             }
 
-            function I(e, t) {
+            function k(e, t) {
               angular.extend(e, {
                 onQueued: X
                 , onProgress: X
@@ -1037,7 +1037,7 @@ webpackJsonp([1], [function(e, exports, t) {
               }, t)
             }
 
-            function k() {
+            function I() {
               t.e(3, function(require) {
                 var e = t(284);
                 window.WebUploader = e;
@@ -1061,8 +1061,8 @@ webpackJsonp([1], [function(e, exports, t) {
                       if (e._checked) return !0;
                       if (h.report(h.UPLOAD_COUNT, 1), 0 == e.size) return K.skipFile(e), alert(_("61e885c")), !1;
                       if (e._data = e._data || {}, !l.getSendFileUsername()) return K.skipFile(e), alert(_("599d8df")), !1;
-                      if (/untitled\d+.png/i.test(e.name) || j) I(e, ee), e.ToUserName = l.getSendFileUsername();
-                      else if (e.ToUserName = l.getSendFileUsername(), I(e, Z), "gif" !== e.ext.toLowerCase() && !E(e.ext)) {
+                      if (/untitled\d+.png/i.test(e.name) || j) k(e, ee), e.ToUserName = l.getSendFileUsername();
+                      else if (e.ToUserName = l.getSendFileUsername(), k(e, Z), "gif" !== e.ext.toLowerCase() && !E(e.ext)) {
                         var t = G(e.ext);
                         if (t == r.MSGTYPE_VIDEO && e.size >= 1024 * W * 1024) return K.skipFile(e), void alert(_("9a7dbbc"));
                         e.ToUserName != l.getCurrentUserName() && (f.reportSendState("sendFileWrong"), p.report(p.ReportType.sendError, {
@@ -1420,8 +1420,8 @@ webpackJsonp([1], [function(e, exports, t) {
                   }), alert(_("c5795a7") + e)
                 }
               };
-            window.WebUploader ? k() : e.$on("root:pageInit:success", function() {
-              k()
+            window.WebUploader ? I() : e.$on("root:pageInit:success", function() {
+              I()
             })
           }
         ])
@@ -3314,14 +3314,14 @@ webpackJsonp([1], [function(e, exports, t) {
                     for (var n = 0, i = t.MemberList.length; n < i && n < 10; ++n) {
                       a.length > 0 && (a += ", ");
                       var o = t.MemberList[n]
-                        , r = I.getContact(o.UserName);
+                        , r = k.getContact(o.UserName);
                       a += r && r.RemarkName || r && r.NickName || o.NickName
                     } else a || (a = t.UserName);
                   else a = t.RemarkName || e && e != t.UserName && t.getMemberDisplayName(e) || t.NickName;
                 return a
               }
               , getMemberDisplayName: function(e) {
-                I.getChatroomIdByUserName(e);
+                k.getChatroomIdByUserName(e);
                 return e && y[e] ? y[e][this.UserName] : ""
               }
               , chatroomCanSearch: function(e) {
@@ -3329,7 +3329,7 @@ webpackJsonp([1], [function(e, exports, t) {
                   if (this.canSearch(e)) return !0;
                   for (var t = 0, a = this.MemberList.length; t < a; t++) {
                     var n = this.MemberList[t].UserName
-                      , i = I.getContact(n);
+                      , i = k.getContact(n);
                     if (i && i.canSearch(e)) return !0
                   }
                 }
@@ -3357,7 +3357,7 @@ webpackJsonp([1], [function(e, exports, t) {
                 e && angular.extend(this, e)
               }
             }
-            , I = {
+            , k = {
               contactChangeFlag: ""
               , setCurrentContact: function(e) {
                 u = e
@@ -3756,7 +3756,7 @@ webpackJsonp([1], [function(e, exports, t) {
                   .error(function(e) {})
               }
             };
-          return I
+          return k
         }])
     }()
   }
@@ -5602,7 +5602,7 @@ webpackJsonp([1], [function(e, exports, t) {
                 type: N.timing
                 , data: i()
               })
-            }, !0), I = !0, f()) : e.fullTiming ? p({
+            }, !0), k = !0, f()) : e.fullTiming ? p({
               Type: 1
               , Text: JSON.stringify({
                 type: N.timing
@@ -5673,7 +5673,7 @@ webpackJsonp([1], [function(e, exports, t) {
                 w.unload = g(t), C.push({
                   type: N.runtime
                   , data: w
-                }), !I && C.push({
+                }), !k && C.push({
                   type: N.timing
                   , data: {
                     fullTiming: i()
@@ -5770,15 +5770,15 @@ webpackJsonp([1], [function(e, exports, t) {
             , E = {};
           E[N.jsError] = r, l(), u();
           var G = {}
-            , I = !1;
+            , k = !1;
           window._errorHandler = function(e) {
             d(N.jsError, e)
           };
-          var k = {
+          var I = {
             report: d
             , ReportType: N
           };
-          return k
+          return I
         }])
     }()
   }
@@ -6666,7 +6666,8 @@ webpackJsonp([1], [function(e, exports, t) {
                 case t.KEYCODE_ESC:
                   n.actions.close()
               }
-              n.$digest(), e.preventDefault(), e.stopPropagation()
+              n.$digest()
+                , e.preventDefault(), e.stopPropagation()
             }
 
             function c(e) {
@@ -6732,7 +6733,7 @@ webpackJsonp([1], [function(e, exports, t) {
                 .on("mouseup", function() {
                   m.off("mousemove", d), g.css("display", "block")
                 })
-                .on(I, function(e) {
+                .on(k, function(e) {
                   var t, a = e.originalEvent;
                   "mousewheel" != a.type && "DOMMouseScroll" != a.type || (t = a.wheelDelta ? a.wheelDelta / 120 : -(a.detail || 0) / 3), void 0 !== t && (s(G ? {
                     delta: t
@@ -6809,7 +6810,7 @@ webpackJsonp([1], [function(e, exports, t) {
               , N = .8 * M
               , E = {}
               , G = void 0 !== document.mozHidden
-              , I = G ? "DOMMouseScroll" : "mousewheel";
+              , k = G ? "DOMMouseScroll" : "mousewheel";
             m.on("click", function(e) {
                 e.stopPropagation()
               }), g.on("click", function(e) {

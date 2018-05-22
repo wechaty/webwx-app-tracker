@@ -44,7 +44,7 @@
 
     <![endif]-->
   <link rel="stylesheet"
-      href="//res.wx.qq.com/a/wx_fed/webwx/res/static/css/12edccc6099f46713d664410cd78082e.css" />
+      href="//res.wx.qq.com/a/wx_fed/webwx/res/static/css/429b82161293144b9f8246e478d8db39.css" />
 </head>
 
 <body draggable="false"
@@ -87,7 +87,14 @@
             src="//res.wx.qq.com/a/wx_fed/webwx/res/static/img/2z6meE1.gif">
         <div ng-show="!isNeedRefresh">
           <p class="sub_title">使用手机微信扫码登录</p>
-          <p class="sub_desc">网页版微信需要配合手机使用</p>
+          <p class="sub_desc"
+              ng-if="showPrivacyTips">
+            <span>提示：网页版微信需要使用浏览器Cookie来帮助你登录，以便运行网页版应用程序。</span>
+            <br><a href="https://www.wechat.com/zh_CN/cookies_policy.html"
+                target="_blank">详细信息</a>
+          </p>
+          <p class="sub_desc"
+              ng-if="!showPrivacyTips">网页版微信需要配合手机使用</p>
         </div>
         <div ng-show="isNeedRefresh">
           <div class="refresh_qrcode_mask">
@@ -104,11 +111,17 @@
             mm-src="{{userAvatar}}"
             alt=""
             src="//res.wx.qq.com/a/wx_fed/webwx/res/static/img/2KriyDK.png" />
-        <h4 class="sub_title">扫描成功</h4>
-        <p class="tips">请在手机上点击确认以登录</p>
+        <!-- <h4 class="sub_title">扫描成功</h4> -->
+        <!-- <p class="tips">请在手机上点击确认以登录</p> -->
         <a href="javascript:;"
             ng-click="isScan = false;"
             class="action">切换帐号</a>
+        <p class="sub_desc"
+            ng-if="showPrivacyTips">
+          <span>提示：网页版微信需要使用浏览器Cookie来帮助你登录，以便运行网页版应用程序。</span>
+          <br><a href="https://www.wechat.com/zh_CN/cookies_policy.html"
+              target="_blank">详细信息</a>
+        </p>
       </div>
       <div class="association"
           ng-class="{show: isAssociationLogin && !isBrokenNetwork}">
@@ -125,6 +138,12 @@
         <a href="javascript:;"
             ng-click="qrcodeLogin()"
             class="button button_default">切换帐号</a>
+        <p class="sub_desc"
+            ng-if="showPrivacyTips">
+          <span>提示：网页版微信需要使用浏览器Cookie来帮助你登录，以便运行网页版应用程序。</span>
+          <br><a href="https://www.wechat.com/zh_CN/cookies_policy.html"
+              target="_blank">详细信息</a>
+        </p>
       </div>
       <div class="broken_network"
           ng-class="{show: isBrokenNetwork}">
@@ -2461,12 +2480,6 @@
       window.MMCgi = {
         isLogin: !!""
       };
-      //            window.MMSource = {
-      //                /*videoSwfPath:'/zh_CN/htmledition/v2/third_party/video-js-4.11.2/video-js.swf',*/
-      //                copySwfPath:'./zh_CN/htmledition/v2/third_party/zeroclipboard-2.0.2/ZeroClipboard.swf',
-      //                jplayerSwfPath:'/zh_CN/htmledition/v2/third_party/jPlayer-2.9.2/jquery.jplayer.swf'
-      //
-      //            };
       window.MMDEV = location.host.indexOf("dev") > -1;
     })();
 
@@ -2589,8 +2602,8 @@
     });
 
   </script>
-  <script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_7e30cbd.js"></script>
-  <script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_bd0d576.js"></script>
+  <script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_1db4e9f.js"></script>
+  <script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_e9fe509.js"></script>
 </body>
 
 </html>
