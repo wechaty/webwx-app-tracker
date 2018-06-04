@@ -401,7 +401,18 @@ webpackJsonp([1], [function(e, exports, t) {
                 h.log("请求权限了...")
               })
             }, b.callback(E);
-            var D
+            var D;
+            t.isIPad = h.isIPad, t.isMacOS = h.isMacOS, t.isWindows = h.isWindows, t.showDownloadEntry = t.isMacOS || t.isWindows, t.closeDownloadEntry = function() {
+              t.showDownloadEntry = !1, M.report(M.ReportType.click2CloseAd, {
+                  count: 1
+                }), (new Image)
+                .src = "https://support.weixin.qq.com/cgi-bin/mmsupport-bin/reportforweb?rid=69373&rkey=17&rvalue=1"
+            }, t.clickAndClose = function() {
+              M.report(M.ReportType.clickAndCloseAd, {
+                  count: 1
+                }), (new Image)
+                .src = "https://support.weixin.qq.com/cgi-bin/mmsupport-bin/reportforweb?rid=69373&rkey=16&rvalue=1"
+            }
           }
         ])
     }()
@@ -1234,10 +1245,10 @@ webpackJsonp([1], [function(e, exports, t) {
                 , container: angular.element(document.getElementById("tool_bar"))
               }), e.preventDefault()
             };
-            var Y;
+            var B;
             a.sendClick = function(e) {
               var t = l.setSendFileUsername(l.getCurrentUserName());
-              if (!t) return (!Y || e.timeStamp - Y > 30) && (Y = e.timeStamp, alert(_("599d8df"))), e.preventDefault(), e.stopPropagation(), !1
+              if (!t) return (!B || e.timeStamp - B > 30) && (B = e.timeStamp, alert(_("599d8df"))), e.preventDefault(), e.stopPropagation(), !1
             }, a.screenShot = function() {
               var e;
               d.isSupport() ? d.capture({
@@ -1252,13 +1263,13 @@ webpackJsonp([1], [function(e, exports, t) {
                 }
               }) : "Win64" == navigator.platform && f.browser.msie ? alert(_("82cf63d")) : confirm(_("112a5c0")) && d.install(), h.report(h.CLICK_SNAPSHOT_COUNT, 1)
             };
-            var B, H;
+            var Y, H;
             a.editAreaKeyup = function(e) {
               if (MMDEV && e.keyCode == r.KEYCODE_NUM2 && "@" == C(1)) {
                 var t = l.getCurrentUserName();
                 if (!f.isRoomContact(t)) return;
                 S(), H = function() {
-                  B = null, H = null;
+                  Y = null, H = null;
                   var e = s.getChatRoomMembersContact(t, "withoutMe");
                   v(), u.open({
                     templateUrl: "editAreaContactPanel.html"
@@ -1273,12 +1284,12 @@ webpackJsonp([1], [function(e, exports, t) {
                     , autoFoucs: !1
                     , container: angular.element(D)
                   })
-                }, !B && H && H(), clearTimeout(B), B = setTimeout(function() {
-                  H && H(), B = null
+                }, !Y && H && H(), clearTimeout(Y), Y = setTimeout(function() {
+                  H && H(), Y = null
                 }, 300)
               }
             }, a.editAreaKeydown = function(e) {
-              if (M(), B) return void e.preventDefault();
+              if (M(), Y) return void e.preventDefault();
               var t = e.keyCode;
               if (t == r.KEYCODE_ENTER) {
                 if (e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) {
@@ -2234,7 +2245,8 @@ webpackJsonp([1], [function(e, exports, t) {
                   var a = ""
                     , n = 0;
                   if (a = e.UserName ? e.UserName : e.FromUserName == accountFactory.getUserInfo()
-                    .UserName ? e.ToUserName : e.FromUserName, n = _chatList.indexOf(a), n == -1) _chatList.unshift(a), utilFactory.isRoomContact(a) && contactFactory.addBatchgetChatroomContact(a);
+                    .UserName ? e.ToUserName : e.FromUserName
+                    , n = _chatList.indexOf(a), n == -1) _chatList.unshift(a), utilFactory.isRoomContact(a) && contactFactory.addBatchgetChatroomContact(a);
                   else {
                     var i = _chatList.splice(n, 1);
                     _chatList.unshift(i[0])
@@ -6666,8 +6678,7 @@ webpackJsonp([1], [function(e, exports, t) {
                 case t.KEYCODE_ESC:
                   n.actions.close()
               }
-              n.$digest()
-                , e.preventDefault(), e.stopPropagation()
+              n.$digest(), e.preventDefault(), e.stopPropagation()
             }
 
             function c(e) {
