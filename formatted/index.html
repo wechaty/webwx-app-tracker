@@ -318,15 +318,6 @@
                 ng-if="currentContact.isRoomContact()"
                 class="scrollbar-dynamic members_inner"
                 ng-init="isShowDelIcon=false">
-              <div class="member opt">
-                <i class="web_wechat_add_friends"
-                    ng-click="addCharRoomMember()"></i>
-              </div>
-              <div class="member opt"
-                  ng-if="currentContact.isRoomOwner()">
-                <a class="web_wechat_delete_friends"
-                    ng-click="$parent.isShowDelIcon=!($parent.isShowDelIcon)"></a>
-              </div>
               <div class="member"
                   ng-repeat="item in currentContact.MemberList"
                   title="{{getUserContact(item.UserName,currentContact.UserName).getDisplayName(currentContact.UserName)|emojiHideFilter}}">
@@ -2601,7 +2592,7 @@
           });
 
         </script>
-        <script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_01049f2.js"></script>
+        <script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_d519c0e.js"></script>
         <script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_6f09fdb.js"></script>
 </body>
 
