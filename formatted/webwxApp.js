@@ -1245,10 +1245,10 @@ webpackJsonp([1], [function(e, exports, t) {
                 , container: angular.element(document.getElementById("tool_bar"))
               }), e.preventDefault()
             };
-            var B;
+            var Y;
             a.sendClick = function(e) {
               var t = l.setSendFileUsername(l.getCurrentUserName());
-              if (!t) return (!B || e.timeStamp - B > 30) && (B = e.timeStamp, alert(_("599d8df"))), e.preventDefault(), e.stopPropagation(), !1
+              if (!t) return (!Y || e.timeStamp - Y > 30) && (Y = e.timeStamp, alert(_("599d8df"))), e.preventDefault(), e.stopPropagation(), !1
             }, a.screenShot = function() {
               var e;
               d.isSupport() ? d.capture({
@@ -1263,13 +1263,13 @@ webpackJsonp([1], [function(e, exports, t) {
                 }
               }) : "Win64" == navigator.platform && f.browser.msie ? alert(_("82cf63d")) : confirm(_("112a5c0")) && d.install(), h.report(h.CLICK_SNAPSHOT_COUNT, 1)
             };
-            var Y, H;
+            var B, H;
             a.editAreaKeyup = function(e) {
               if (MMDEV && e.keyCode == r.KEYCODE_NUM2 && "@" == C(1)) {
                 var t = l.getCurrentUserName();
                 if (!f.isRoomContact(t)) return;
                 S(), H = function() {
-                  Y = null, H = null;
+                  B = null, H = null;
                   var e = s.getChatRoomMembersContact(t, "withoutMe");
                   v(), u.open({
                     templateUrl: "editAreaContactPanel.html"
@@ -1284,12 +1284,12 @@ webpackJsonp([1], [function(e, exports, t) {
                     , autoFoucs: !1
                     , container: angular.element(D)
                   })
-                }, !Y && H && H(), clearTimeout(Y), Y = setTimeout(function() {
-                  H && H(), Y = null
+                }, !B && H && H(), clearTimeout(B), B = setTimeout(function() {
+                  H && H(), B = null
                 }, 300)
               }
             }, a.editAreaKeydown = function(e) {
-              if (M(), Y) return void e.preventDefault();
+              if (M(), B) return void e.preventDefault();
               var t = e.keyCode;
               if (t == r.KEYCODE_ENTER) {
                 if (e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) {

@@ -1176,12 +1176,6 @@
                       ng-click="chat(contact.UserName)">
                     <i class="web_wechat_tab_launch-chat"></i>
                   </a>
-                  <a ng-if="!contact.isBrandContact() && !contact.isContact() && !contact.MMFromVerifyMsg && !isShowSendBox"
-                      ng-click="$parent.isShowSendBox=true"
-                      href="javascript:;"
-                      class="lunch">
-                    <i class="web_wechat_tab_add"></i>
-                  </a>
                   <a ng-if="!contact.isContact() && contact.MMFromVerifyMsg"
                       ng-click="verifyUser($event)"
                       href="javascript:;"
@@ -1191,16 +1185,6 @@
                 <p class="signature"
                     ng-bind-html="contact.Signature"
                     ng-if="contact.Signature && !isShowSendBox"></p>
-                <div ng-if="isShowSendBox">
-                  <input type="text"
-                      class="add_user_cont"
-                      autofocus
-                      ng-model="addUserContent" />
-                  <a ng-if="!contact.isContact() && !contact.MMFromVerifyMsg"
-                      ng-click="addUser($event,addUserContent)"
-                      href="javascript:;"
-                      class="lunch send">发送</a>
-                </div>
               </div>
             </div>
             <div class="profile_mini_bd">
@@ -1257,22 +1241,6 @@
                   <i class="web_wechat_tab_launch-chat"></i>
                 </a>
                 <!--END 发起聊天-->
-                <!--BEGIN 添加好友-->
-                <a class="opt"
-                    href="javascript:;"
-                    ng-if="!contact.isBrandContact() && !contact.isContact() && !contact.MMFromVerifyMsg && !isShowSendBox && !isOfficialUser"
-                    ng-click="$parent.isShowSendBox=true">
-                  <i class="web_wechat_tab_add"></i>
-                </a>
-                <!--END 添加好友-->
-                <!--BEGIN 取消添加好友的叉-->
-                <a class="opt"
-                    href="javascript:;"
-                    ng-if="isShowSendBox"
-                    ng-click="$parent.isShowSendBox=false">
-                  <i class="web_wechat_tab_close"></i>
-                </a>
-                <!--END 取消添加好友的叉-->
                 <!--BEGIN 通过验证-->
                 <a class="opt"
                     href="javascript:;"
@@ -1281,18 +1249,13 @@
                   <i class="web_wechat_tab_add"></i>
                 </a>
                 <!--END 通过验证-->
-                <h4 ng-if="!isShowSendBox"
-                    class="nickname"
+                <h4 class="nickname"
                     ng-bind-html="contact.NickName"></h4>
-                <i ng-if="!isShowSendBox"
-                    ng-class="{'web_wechat_women': contact.Sex == 2, 'web_wechat_men': contact.Sex == 1}"></i>
-                <h4 ng-if="isShowSendBox"
-                    class="nickname">添加好友</h4>
+                <i ng-class="{'web_wechat_women': contact.Sex == 2, 'web_wechat_men': contact.Sex == 1}"></i>
               </div>
-              <div class="meta_area"
-                  ng-if="!isShowSendBox">
+              <div class="meta_area">
                 <div class="meta_item"
-                    ng-if="!isOfficialUser">
+                    ng-if="!isOfficialUser && contact.isContact() && !contact.isBrandContact()">
                   <label class="label"
                       for="">备注：</label>
                   <p class="value J_Text"
@@ -1308,17 +1271,6 @@
                       for="">地区：</label>
                   <p class="value">{{contact.Province}} {{contact.City}}</p>
                 </div>
-              </div>
-              <div class="form_area"
-                  ng-if="isShowSendBox">
-                <input type="text"
-                    class="verify_text"
-                    placeholder="输入验证信息"
-                    ng-model="addUserContent"
-                    maxlength="16" />
-                <a class="button"
-                    href="javascript:;"
-                    ng-click="addUser($event,addUserContent)">发送</a>
               </div>
             </div>
           </div>
@@ -2592,8 +2544,8 @@
           });
 
         </script>
-        <script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_d519c0e.js"></script>
-        <script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_6f09fdb.js"></script>
+        <script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_7ee9f11.js"></script>
+        <script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_f5ac071.js"></script>
 </body>
 
 </html>
