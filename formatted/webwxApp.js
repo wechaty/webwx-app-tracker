@@ -17,7 +17,7 @@ webpackJsonp([1], [function(e, exports, t) {
     e.exports = t.p + "/static/img/2KriyDK.png"
   }
   , function(e, exports, t) {
-    e.exports = t.p + "/static/img/25x4Rho.gif"
+    e.exports = t.p + "/static/img/xasUyAI.gif"
   }
   , function(e, exports, t) {
     window.MMSource = {
@@ -899,7 +899,7 @@ webpackJsonp([1], [function(e, exports, t) {
                         , l = {};
                       if (n.ImgHeight) n.MsgType == f.MSGTYPE_EMOTICON ? (l.height = n.ImgHeight * c.width() / n.ImgWidth + "px", l.widht = c.width() + "px") : (l.height = n.ImgHeight, l.width = n.ImgWidth), n.MMImgStyle = l, t.$digest()
                         , i(a.height()), t.$destroy(), a.remove();
-                      else if (s > 40 || 1 == c[0].complete && 0 !== c[0].naturalWidth && s > 0) i(a.height()), t.$destroy(), a.remove();
+                      else if (s > 40 || 1 == c[0].complete && (c[0].naturalWidth, !(0 === c[0].naturalWidth)) && s > 0) i(a.height()), t.$destroy(), a.remove();
                       else {
                         if (n.MMPreviewSrc) return c[0].onload = o, c[0].onerror = r, void(c[0].src = n.MMPreviewSrc);
                         if ("undefined" != typeof n.MMStatus && n.MMStatus != f.MSG_SEND_STATUS_SUCC) var d = e.$watch(function() {
@@ -1076,10 +1076,11 @@ webpackJsonp([1], [function(e, exports, t) {
                       else if (e.ToUserName = l.getSendFileUsername(), k(e, Z), "gif" !== e.ext.toLowerCase() && !E(e.ext)) {
                         var t = G(e.ext);
                         if (t == r.MSGTYPE_VIDEO && e.size >= 1024 * W * 1024) return K.skipFile(e), void alert(_("9a7dbbc"));
-                        e.ToUserName != l.getCurrentUserName() && (f.reportSendState("sendFileWrong"), p.report(p.ReportType.sendError, {
-                          type: "sendFileWrong"
-                          , browser: f.browser.msie ? "ie" : "other"
-                        })), e.MMSendMsg = l.createMessage({
+                        e.ToUserName != l.getCurrentUserName() && (f.reportSendState("sendFileWrong")
+                          , p.report(p.ReportType.sendError, {
+                            type: "sendFileWrong"
+                            , browser: f.browser.msie ? "ie" : "other"
+                          })), e.MMSendMsg = l.createMessage({
                           ToUserName: e.ToUserName
                           , MsgType: t
                           , FileName: e.name
