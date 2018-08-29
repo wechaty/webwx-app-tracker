@@ -1,12 +1,6 @@
 webpackJsonp([1], [function(e, exports, t) {
-    e.exports = t(262) + t(277);
-  }, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , function(e, exports, t) {
-    e.exports = t.p + "/static/img/3wOU-7F.ico"
-  }, function(e, exports, t) {
-    e.exports = t.p + "/static/img/qMUjOdv.png"
-  }, function(e, exports, t) {
-    e.exports = t.p + "/static/img/2kAS7mD.png"
-  }, function(e, exports) {}, , , , , , , , , , , function(e, exports, t) {
+    e.exports = t(259) + t(274);
+  }, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , function(e, exports) {}, , , , , , , , , , , function(e, exports, t) {
     e.exports = t.p + "/static/img/a7Nznaj.gif"
   }, , , , , , , , , , , function(e, exports) {}, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , 
   , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , 
@@ -21,9 +15,9 @@ webpackJsonp([1], [function(e, exports, t) {
   }
   , function(e, exports, t) {
     window.MMSource = {
-      copySwfPath: t(263)
-      , jplayerSwfPath: t(264)
-    }, t(265), t(269), t(270), t(271), t(272), t(273), t(274), t(275), t(276)
+      copySwfPath: t(260)
+      , jplayerSwfPath: t(261)
+    }, t(262), t(266), t(267), t(268), t(269), t(270), t(271), t(272), t(273)
   }
   , function(e, exports, t) {
     e.exports = t.p + "/static/res/1OM7Ut2.swf"
@@ -32,9 +26,9 @@ webpackJsonp([1], [function(e, exports, t) {
     e.exports = t.p + "/static/res/GIqH2cS.swf"
   }, , , , , , , , , , , , 
   , function(e, exports, t) {
-    angular.module("Controllers", []), t(278), t(279), t(280), t(282), t(283), t(285), t(286), t(287), t(288), t(289), t(290), t(291), angular.module("Services", []), t(292), t(293), t(294), t(295), t(296), t(297), t(298), t(299), t(300), t(301)
-      , t(302), t(303), t(304), t(305), t(306), t(307), t(308), t(310), t(311), t(312), t(313), angular.module("Directives", []), t(314), t(315), t(316), t(317), t(318), t(319), t(320), t(321), t(322), t(323), t(324), t(325), t(326), t(327), t(
-        328), t(329), t(330), t(331), t(332), t(333), t(334), t(335), t(336), t(337), t(338), t(339), angular.module("Filters", []), t(341), t(342)
+    angular.module("Controllers", []), t(275), t(276), t(277), t(279), t(280), t(282), t(283), t(284), t(285), t(286), t(287), t(288), angular.module("Services", []), t(289), t(290), t(291), t(292), t(293), t(294), t(295), t(296), t(297), t(298)
+      , t(299), t(300), t(301), t(302), t(303), t(304), t(305), t(307), t(308), t(309), t(310), angular.module("Directives", []), t(311), t(312), t(313), t(314), t(315), t(316), t(317), t(318), t(319), t(320), t(321), t(322), t(323), t(324), t(
+        325), t(326), t(327), t(328), t(329), t(330), t(331), t(332), t(333), t(334), t(335), t(336), angular.module("Filters", []), t(338), t(339)
       , function() {
         "use strict";
         angular.module("webwxApp", ["ui.router", "ngAnimate", "Services", "Controllers", "Directives", "Filters", "ngDialog", "jQueryScrollbar", "ngClipboard", "exceptionOverride"])
@@ -839,7 +833,7 @@ webpackJsonp([1], [function(e, exports, t) {
             };
             e.playVoice = function(e) {
               t.e(2, function(require) {
-                var a = (t(281), jQuery("#voiceMsgPlayer"));
+                var a = (t(278), jQuery("#voiceMsgPlayer"));
                 if (window.MMplayingMsg) {
                   if (e.MsgId == window.MMplayingMsg.MsgId && e.MMPlaying) return void a.jPlayer("stop");
                   E()
@@ -1050,7 +1044,7 @@ webpackJsonp([1], [function(e, exports, t) {
 
             function I() {
               t.e(3, function(require) {
-                var e = t(284);
+                var e = t(281);
                 window.WebUploader = e;
                 try {
                   K = e.create({
@@ -1076,11 +1070,10 @@ webpackJsonp([1], [function(e, exports, t) {
                       else if (e.ToUserName = l.getSendFileUsername(), k(e, Z), "gif" !== e.ext.toLowerCase() && !E(e.ext)) {
                         var t = G(e.ext);
                         if (t == r.MSGTYPE_VIDEO && e.size >= 1024 * W * 1024) return K.skipFile(e), void alert(_("9a7dbbc"));
-                        e.ToUserName != l.getCurrentUserName() && (f.reportSendState("sendFileWrong")
-                          , p.report(p.ReportType.sendError, {
-                            type: "sendFileWrong"
-                            , browser: f.browser.msie ? "ie" : "other"
-                          })), e.MMSendMsg = l.createMessage({
+                        e.ToUserName != l.getCurrentUserName() && (f.reportSendState("sendFileWrong"), p.report(p.ReportType.sendError, {
+                          type: "sendFileWrong"
+                          , browser: f.browser.msie ? "ie" : "other"
+                        })), e.MMSendMsg = l.createMessage({
                           ToUserName: e.ToUserName
                           , MsgType: t
                           , FileName: e.name
@@ -2246,8 +2239,7 @@ webpackJsonp([1], [function(e, exports, t) {
                   var a = ""
                     , n = 0;
                   if (a = e.UserName ? e.UserName : e.FromUserName == accountFactory.getUserInfo()
-                    .UserName ? e.ToUserName : e.FromUserName
-                    , n = _chatList.indexOf(a), n == -1) _chatList.unshift(a), utilFactory.isRoomContact(a) && contactFactory.addBatchgetChatroomContact(a);
+                    .UserName ? e.ToUserName : e.FromUserName, n = _chatList.indexOf(a), n == -1) _chatList.unshift(a), utilFactory.isRoomContact(a) && contactFactory.addBatchgetChatroomContact(a);
                   else {
                     var i = _chatList.splice(n, 1);
                     _chatList.unshift(i[0])
@@ -4033,7 +4025,7 @@ webpackJsonp([1], [function(e, exports, t) {
             }
             , initMsgNoticePlayer: function(e) {
               t.e(2, function(require) {
-                var a = (t(281), jQuery("#msgNoticePlayer"));
+                var a = (t(278), jQuery("#msgNoticePlayer"));
                 a.jPlayer({
                   ready: function() {}
                   , swfPath: window.MMSource.jplayerSwfPath
@@ -5803,7 +5795,7 @@ webpackJsonp([1], [function(e, exports, t) {
           function o(e, t, a) {
             a || (a = 0), r(c.ID, e, t, a)
           }
-          var r = t(309)
+          var r = t(306)
             , c = {
               report: o
               , ID: 69373
@@ -6586,7 +6578,7 @@ webpackJsonp([1], [function(e, exports, t) {
             , link: function(i, o, r) {
               function c() {
                 t.e(2, function(require) {
-                  t(281);
+                  t(278);
                   jQuery(o)
                     .jPlayer({
                       ready: function() {
@@ -6946,7 +6938,7 @@ webpackJsonp([1], [function(e, exports, t) {
   , function(e, exports, t) {
     var a, n, i;
     ! function(o, r) {
-      "undefined" != typeof e && e.exports ? e.exports = r(t(269)) : (n = [t(269)], a = r, i = "function" == typeof a ? a.apply(exports, n) : a, !(void 0 !== i && (e.exports = i)))
+      "undefined" != typeof e && e.exports ? e.exports = r(t(266)) : (n = [t(266)], a = r, i = "function" == typeof a ? a.apply(exports, n) : a, !(void 0 !== i && (e.exports = i)))
     }(this, function(e, t) {
       "use strict";
       var a = e.module("ngDialog", [])
@@ -7955,7 +7947,7 @@ webpackJsonp([1], [function(e, exports, t) {
         .run(["$rootScope", "ngClip", function(n, i) {
           function o() {
             t.e(4, function(require) {
-              var e = t(340);
+              var e = t(337);
               e.config(a.extend(r, i.config || {}))
             })
           }
@@ -7979,7 +7971,7 @@ webpackJsonp([1], [function(e, exports, t) {
             , restrict: "A"
             , link: function(e, n, i) {
               t.e(4, function(require) {
-                var o = t(340);
+                var o = t(337);
                 if (o.isFlashUnusable()) return void n.bind("click", function(t) {
                   e.$apply(e.clipClickFallback({
                     $event: t
