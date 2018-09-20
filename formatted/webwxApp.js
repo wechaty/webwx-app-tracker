@@ -2585,7 +2585,7 @@ webpackJsonp([1], [function(e, exports, t) {
                   , o = ""
                   , r = _("ded861c")
                   , c = n.getChatMessage(e.MMPeerUserName);
-                if (i = utilFactory.encodeEmoji(i), o = utilFactory.xml2json(i)
+                if (i = utilFactory.encodeEmoji(i), o = utilFactory.xml2json(i.replace(/<br\/>/g, ""))
                   .revokemsg, 0 == o.msgid) {
                   for (var s = c.length - 1; s >= 0; --s)
                     if (c[s].FromUserName == accountFactory.getUserName()) {
