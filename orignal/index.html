@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>微信网页版</title>
-    <meta name="keywords" content="微信网页版&#44;weixin web&#44;wechat&#44;微信 pc&#44;微信电脑版&#44;wechat web&#44;微信 web&#44;微信电脑" >
+        <title>微信网页版</title>
+        <meta name="keywords" content="微信网页版&#44;weixin web&#44;wechat&#44;微信 pc&#44;微信电脑版&#44;wechat web&#44;微信 web&#44;微信电脑" >
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://js.aq.qq.com/js/aq_common.js"></script>
@@ -21,7 +21,7 @@
     <script type="text/javascript" src="//res.wx.qq.com/a/wx_fed/webwx/res/json3.min.js"></script>
 
     <![endif]-->
-<link rel="stylesheet" href="//res.wx.qq.com/a/wx_fed/webwx/res/static/css/b57ceb1fe70efc47d4f0cab10d89d36f.css"/></head>
+<link rel="stylesheet" href="//res.wx.qq.com/a/wx_fed/webwx/res/static/css/c8dda94a1c135ba17e5706ebc4aab1bf.css"/></head>
 <body draggable="false" mm-action-track track-type='resize' ng-controller="appController" ng-class="{loaded:isLoaded,unlogin:isUnLogin}" ng-click="appClick($event)">
     <canvas style="position:absolute;top:0;left:0;bottom:0;right:0;z-index:-1;width:100%;height:100%;" id="heroCanvas"></canvas>
 
@@ -81,7 +81,7 @@
             <div class="broken_network" ng-class="{show: isBrokenNetwork}">
                 <div class="icon-broken-logo"></div>
                 <h4 class="sub_title">网络连接已断开</h4>
-                <p class="sub_desc">请检查你的网络设置</p>
+                <p class="sub_desc">请检查你的网络设置 <span ng-click="reloadQrcode()" class="reconnect" ng-class="{show: isClientVersion}">点击重连</span></p>
             </div>
         </div>
         <!--END login_box-->
@@ -198,6 +198,12 @@
     <script type="text/ng-template" id="chatRoomMember.html">
 <div class=" members" >
     <div jquery-scrollbar ng-if="currentContact.isRoomContact()" class="scrollbar-dynamic members_inner" ng-init="isShowDelIcon=false">
+        <div class="member opt">
+            <i class="web_wechat_add_friends" ng-click="addCharRoomMember()"></i>
+        </div>
+        <div class="member opt" ng-if="currentContact.isRoomOwner()">
+            <a class="web_wechat_delete_friends" ng-click="$parent.isShowDelIcon=!($parent.isShowDelIcon)"></a>
+        </div>
         <div class="member" ng-repeat="item in currentContact.MemberList" title="{{getUserContact(item.UserName,currentContact.UserName).getDisplayName(currentContact.UserName)|emojiHideFilter}}">
             <img class="avatar" src="//res.wx.qq.com/a/wx_fed/webwx/res/static/img/2KriyDK.png" mm-src="{{getUserContact(item.UserName,currentContact.UserName).HeadImgUrl}}" alt="" ng-click="showProfile($event,item.UserName)" title=""/>
             <p class="nickname" ng-bind-html="getUserContact(item.UserName,currentContact.UserName).getDisplayName(currentContact.UserName)"></p>
@@ -205,6 +211,9 @@
         </div>
     </div>
     <div ng-if="!currentContact.isRoomContact()" class="members_inner">
+        <div class="member opt">
+            <i class="web_wechat_add_friends" ng-click="createChatroom()"></i>
+        </div>
         <div class="member" href="javascript:;">
             <img class="avatar" src="//res.wx.qq.com/a/wx_fed/webwx/res/static/img/2z6meE1.gif" mm-src="{{getUserContact(currentContact.UserName).HeadImgUrl}}" alt="" ng-click="showProfile($event,currentContact.UserName)" title=""/>
             <p class="nickname" ng-bind-html="getUserContact(currentContact.UserName).getDisplayName()"></p>
@@ -996,6 +1005,10 @@
 <script type="text/ng-template" id="systemMenu.html">
 <ul class="dropdown_menu">
     <li>
+        <a tabindex="-1" href="javascript:;" ng-click="createChatroom()" title="发起聊天">
+            <i class="menuicon_chat"></i>发起聊天        </a>
+    </li>
+    <li>
         <a tabindex="-1" href="javascript:;" ng-if="!isNotifyOpen" ng-click="openNotify()" title="打开桌面通知">
             <i class="menuicon_push_off"></i>打开桌面通知        </a>
         <a tabindex="-1" href="javascript:;" ng-if="isNotifyOpen" ng-click="closeNotify()" title="关闭桌面通知">
@@ -1211,5 +1224,5 @@
 
     </script>
     <!--script-->
-<script>!function(){var n,t={};n=function(n,e){var i=arguments.length;if(i>1)t[n]=e;else if(1==i){if("object"!=typeof n)return String(t[n] || n).replace(/&#40;/g, "(").replace(/&#41;/g, ")").replace(/&#44;/g, ",").replace(/&#39;/g, "'").replace(/&quot;/g, '"');for(var o in n)n.hasOwnProperty(o)&&(t[o]=n[o])}},"_"in window||(window._=n)}();_({"02d9819":"提示","0d2fc2c":"程序初始化失败，点击确认刷新页面","599d8df":"发送文件出错，请刷新后再试","8d521cc":"点击修改备注","5a97440":"我是","8d521cc":"点击修改备注","8d521cc":"点击修改备注","02d9819":"提示","f45a3d8":"添加好友失败","61e885c":"不允许发送空文件","599d8df":"发送文件出错，请刷新后再试","9a7dbbc":"发送视频文件不允许超过 20MB","599d8df":"发送文件出错，请刷新后再试","599d8df":"发送文件出错，请刷新后再试","76a7e04":"图片上传失败，请检查你的网络","82cf63d":"抱歉，截屏工具暂不支持64位操作系统下的IE浏览器。","112a5c0":"请检查你是否禁用了截屏插件。如果你还没安装截屏插件，点击确定安装。","c5795a7":"图片上传失败，请检查你的网络，","02d9819":"提示","f45a3d8":"添加好友失败","02d9819":"提示","0d42740":"创建群聊失败","02d9819":"提示","0d42740":"创建群聊失败","84e4fac":"取消置顶","3d43ff1":"置顶","1f9be6d":"修改群名","685739c":"关闭聊天","91382d9":"清屏","7068541":"查看详细资料","b5f1591":"发送消息","0bd10a8":"添加到通讯录","2305051":"撤回","2305051":"撤回","3b61c96":"引用","d9eb6f5":"「","83b6d34":"」","79d3abe":"复制","f26ef91":"下载","21e106f":"转发","2f4aadd":"删除","b3b6735":"最近聊天","938b111":"该消息网页版微信暂时不支持","a5627e8":"[图片]","b28dac0":"[语音]","4078104":"[视频]","1f94b1b":"[小视频]","80f56fb":"[发送了一个表情，请在手机上查看]","2242ac7":"[收到了一个表情，请在手机上查看]","e230fc1":"[动画表情]","fdaa3a3":"[收到一条视频/语音聊天消息，请在手机上查看]","0e23719":"[音乐]","4078104":"[视频]","4f20785":"[应用消息]","c4e04ee":"请在手机点击打开","e5b228c":"[链接]","6daeae3":"[文件]","0cdad09":"[收到一条微信转账消息，请在手机上查看]","c534fc3":"[收到一条优惠券消息，请在手机上查看]","8e94ca5":"我发起了位置共享，请在手机上查看","a41d576":"对方","a1f1299":"发起了位置共享，请在手机上查看","95afe20":"[收到一条扫商品消息，请在手机上查看]","355765a":"[收到一条商品消息，请在手机上查看]","9d7f4bb":"[收到一条表情分享消息，请在手机上查看]","e24e75c":"[微信红包]","ded861c":"撤回了一条消息","df1fd91":"你","ebeaf99":"想要将你加为朋友","ebeaf99":"想要将你加为朋友","9a2223f":"你推荐了","dd14577":"向你推荐了","809bb9d":"[表情]","df1fd91":"你","ded861c":"撤回了一条消息","df1fd91":"你","ded861c":"撤回了一条消息","6c2fc35":"微信团队","eb7ec65":"文件传输助手","0469c27":"腾讯新闻","a82c4c4":"朋友推荐消息","f13fb20":"星标好友","59d29a3":"好友","4b0ab7b":"群组","215feec":"公众号","2f521c5":"微信网页版","cfbf6f4":"微信","845ec73":"图片加载失败，请关闭后重试。","809bb9d":"[表情]","562d747":"周日","1603b06":"周一","b5a6a07":"周二","e60725e":"周三","170fc8e":"周四","eb79cea":"周五","2457513":"周六"});</script><script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_0b8a6dd.js"></script><script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_ad43596.js"></script></body>
+<script>!function(){var n,t={};n=function(n,e){var i=arguments.length;if(i>1)t[n]=e;else if(1==i){if("object"!=typeof n)return String(t[n] || n).replace(/&#40;/g, "(").replace(/&#41;/g, ")").replace(/&#44;/g, ",").replace(/&#39;/g, "'").replace(/&quot;/g, '"');for(var o in n)n.hasOwnProperty(o)&&(t[o]=n[o])}},"_"in window||(window._=n)}();_({"02d9819":"提示","0d2fc2c":"程序初始化失败，点击确认刷新页面","599d8df":"发送文件出错，请刷新后再试","8d521cc":"点击修改备注","5a97440":"我是","8d521cc":"点击修改备注","8d521cc":"点击修改备注","02d9819":"提示","f45a3d8":"添加好友失败","61e885c":"不允许发送空文件","599d8df":"发送文件出错，请刷新后再试","9a7dbbc":"发送视频文件不允许超过 20MB","599d8df":"发送文件出错，请刷新后再试","599d8df":"发送文件出错，请刷新后再试","76a7e04":"图片上传失败，请检查你的网络","82cf63d":"抱歉，截屏工具暂不支持64位操作系统下的IE浏览器。","112a5c0":"请检查你是否禁用了截屏插件。如果你还没安装截屏插件，点击确定安装。","c5795a7":"图片上传失败，请检查你的网络，","02d9819":"提示","f45a3d8":"添加好友失败","02d9819":"提示","0d42740":"创建群聊失败","02d9819":"提示","0d42740":"创建群聊失败","84e4fac":"取消置顶","3d43ff1":"置顶","1f9be6d":"修改群名","685739c":"关闭聊天","91382d9":"清屏","7068541":"查看详细资料","b5f1591":"发送消息","0bd10a8":"添加到通讯录","2305051":"撤回","2305051":"撤回","3b61c96":"引用","d9eb6f5":"「","83b6d34":"」","79d3abe":"复制","f26ef91":"下载","21e106f":"转发","2f4aadd":"删除","b3b6735":"最近聊天","938b111":"该消息网页版微信暂时不支持","a5627e8":"[图片]","b28dac0":"[语音]","4078104":"[视频]","1f94b1b":"[小视频]","80f56fb":"[发送了一个表情，请在手机上查看]","2242ac7":"[收到了一个表情，请在手机上查看]","e230fc1":"[动画表情]","fdaa3a3":"[收到一条视频/语音聊天消息，请在手机上查看]","0e23719":"[音乐]","4078104":"[视频]","4f20785":"[应用消息]","c4e04ee":"请在手机点击打开","e5b228c":"[链接]","6daeae3":"[文件]","0cdad09":"[收到一条微信转账消息，请在手机上查看]","c534fc3":"[收到一条优惠券消息，请在手机上查看]","8e94ca5":"我发起了位置共享，请在手机上查看","a41d576":"对方","a1f1299":"发起了位置共享，请在手机上查看","95afe20":"[收到一条扫商品消息，请在手机上查看]","355765a":"[收到一条商品消息，请在手机上查看]","9d7f4bb":"[收到一条表情分享消息，请在手机上查看]","e24e75c":"[微信红包]","ded861c":"撤回了一条消息","df1fd91":"你","ebeaf99":"想要将你加为朋友","ebeaf99":"想要将你加为朋友","9a2223f":"你推荐了","dd14577":"向你推荐了","809bb9d":"[表情]","df1fd91":"你","ded861c":"撤回了一条消息","df1fd91":"你","ded861c":"撤回了一条消息","6c2fc35":"微信团队","eb7ec65":"文件传输助手","0469c27":"腾讯新闻","a82c4c4":"朋友推荐消息","f13fb20":"星标好友","59d29a3":"好友","4b0ab7b":"群组","215feec":"公众号","cfbf6f4":"微信","2f521c5":"微信网页版","cfbf6f4":"微信","845ec73":"图片加载失败，请关闭后重试。","809bb9d":"[表情]","562d747":"周日","1603b06":"周一","b5a6a07":"周二","e60725e":"周三","170fc8e":"周四","eb79cea":"周五","2457513":"周六"});</script><script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_e27c82e.js"></script><script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_7574b77.js"></script></body>
 </html>

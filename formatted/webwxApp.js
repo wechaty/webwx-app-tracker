@@ -284,15 +284,15 @@ webpackJsonp([1], [function(e, exports, t) {
             }
             1 == Math.floor(100 * Math.random()) && v.report(v.PV, 1);
             window._appTiming = {};
-            i.go("chat"), e.CONF = m, t.isUnLogin = !window.MMCgi.isLogin, t.debug = !0, t.isShowReader = /qq\.com/gi.test(location.href);
+            i.go("chat"), e.CONF = m, t.isUnLogin = !window.MMCgi.isLogin, t.debug = !0, t.isShowReader = /qq\.com/gi.test(location.href) && !m.isClientVersion;
             var P = [];
             window.MMCgi.isLogin && N(), t.$on("newLoginPage", function(e, t) {
               f.setSkey(t.SKey), f.setSid(t.Sid), f.setUin(t.Uin), f.setPassticket(t.Passticket), N(), I(t.Uin)
             });
-            var U, A;
+            var A, U;
             t.search = function(e) {
-              U && a.cancel(U), U = a(function() {
-                return t.keyword ? (A && A.close(), void(A = c.open({
+              A && a.cancel(A), A = a(function() {
+                return t.keyword ? (U && U.close(), void(U = c.open({
                   templateUrl: "searchList.html"
                   , controller: ["$rootScope", "$scope", "$state", function(e, t, a) {
                     t.$watch(function() {
@@ -315,18 +315,18 @@ webpackJsonp([1], [function(e, exports, t) {
                   , className: "recommendation"
                   , autoFoucs: !1
                   , container: angular.element(document.querySelector("#search_bar"))
-                }))) : void(A && A.close())
+                }))) : void(U && U.close())
               }, 200)
             }, t.searchKeydown = function(t) {
               switch (t.keyCode) {
                 case m.KEYCODE_ARROW_UP:
-                  A && A.isOpen() && e.$broadcast("root:searchList:keyArrowUp"), t.preventDefault(), t.stopPropagation();
+                  U && U.isOpen() && e.$broadcast("root:searchList:keyArrowUp"), t.preventDefault(), t.stopPropagation();
                   break;
                 case m.KEYCODE_ARROW_DOWN:
-                  A && A.isOpen() && e.$broadcast("root:searchList:keyArrowDown"), t.preventDefault(), t.stopPropagation();
+                  U && U.isOpen() && e.$broadcast("root:searchList:keyArrowDown"), t.preventDefault(), t.stopPropagation();
                   break;
                 case m.KEYCODE_ENTER:
-                  A && A.isOpen() && e.$broadcast("root:searchList:keyEnter"), t.preventDefault(), t.stopPropagation()
+                  U && U.isOpen() && e.$broadcast("root:searchList:keyEnter"), t.preventDefault(), t.stopPropagation()
               }
             }, t.$on("root:searchList:cleanKeyWord", function(e) {
               t.keyword = ""
@@ -338,7 +338,7 @@ webpackJsonp([1], [function(e, exports, t) {
                 w.change("dialog:open", !1), F = null
               }), $(window)
               .on("resize", function(e) {
-                T()
+                T(), t.$broadcast("app:contextMenu:hide", e), t.$digest()
               }), t.appClick = function(e) {
                 t.$broadcast("app:contextMenu:hide", e)
               };
@@ -415,11 +415,11 @@ webpackJsonp([1], [function(e, exports, t) {
     ! function() {
       "use strict";
       angular.module("Controllers")
-        .controller("loginController", ["$scope", "loginFactory", "utilFactory", "reportService", "monitorService", function(e, t, a, n, i) {
-          function o(c) {
-            switch (c.code) {
+        .controller("loginController", ["$scope", "loginFactory", "utilFactory", "reportService", "monitorService", "confFactory", function(e, t, a, n, i, o) {
+          function r(o) {
+            switch (o.code) {
               case 200:
-                t.newLoginPage(c.redirect_uri)
+                t.newLoginPage(o.redirect_uri)
                   .then(function(t) {
                     var o = t.match(/<ret>(.*)<\/ret>/)
                       , r = t.match(/<script>(.*)<\/script>/)
@@ -448,13 +448,13 @@ webpackJsonp([1], [function(e, exports, t) {
                       scan: Date.now()
                     }
                   }), t.checkLogin(e.uuid)
-                  .then(o, function(t) {
+                  .then(r, function(t) {
                     !t && window.checkLoginPromise && (e.isBrokenNetwork = !0)
                   });
                 break;
               case 408:
                 t.checkLogin(e.uuid)
-                  .then(o, function(t) {
+                  .then(r, function(t) {
                     !t && window.checkLoginPromise && (e.isBrokenNetwork = !0)
                   });
                 break;
@@ -465,44 +465,44 @@ webpackJsonp([1], [function(e, exports, t) {
                 s < 5 ? (s++, a.setCookie("refreshTimes", s, .5), document.location.reload()) : e.isNeedRefresh = !0;
                 break;
               case 202:
-                e.isScan = !1, e.isAssociationLogin = !1, a.setCookie("login_frequency", 0, 2), window.checkLoginPromise && (window.checkLoginPromise.abort(), window.checkLoginPromise = null), r()
+                e.isScan = !1, e.isAssociationLogin = !1, a.setCookie("login_frequency", 0, 2), window.checkLoginPromise && (window.checkLoginPromise.abort(), window.checkLoginPromise = null), c()
             }
-            e.code = c.code, e.userAvatar = c.userAvatar, a.log("get code", c.code)
+            e.code = o.code, e.userAvatar = o.userAvatar, a.log("get code", o.code)
           }
 
-          function r() {
+          function c() {
             t.getUUID()
               .then(function(i) {
                 a.log("login", i), e.uuid = i, e.qrcodeUrl = "https://login.weixin.qq.com/qrcode/" + i, e.code = 0, e.isScan = !1, e.isIPad = a.isIPad, e.isMacOS = a.isMacOS, e.isWindows = a.isWindows, e.lang = a.queryParser()
                   .lang || "zh_CN";
-                var r = !1;
+                var o = !1;
                 n.report(n.ReportType.timing, {
                     timing: {
                       qrcodeStart: Date.now()
                     }
                   }), setTimeout(function() {
-                    r || n.report(n.ReportType.picError, {
+                    o || n.report(n.ReportType.picError, {
                       text: "qrcode can not load"
                       , src: e.qrcodeUrl
                     })
                   }, 3e3), e.qrcodeLoad = function() {
-                    r = !0, n.report(n.ReportType.timing, {
+                    o = !0, n.report(n.ReportType.timing, {
                       timing: {
                         qrcodeEnd: Date.now()
                       }
                     })
                   }, t.checkLogin(i, 1)
-                  .then(o, function(t) {
-                    !t && window.checkLoginPromise && (e.isBrokenNetwork = !0)
+                  .then(r, function(t) {
+                    !t && window.checkLoginPromise ? e.isBrokenNetwork = !0 : e.isBrokenNetwork = !1
                   })
               }, function(t) {
-                t || (e.isBrokenNetwork = !0)
+                t ? e.isBrokenNetwork = !1 : e.isBrokenNetwork = !0
               })
           }
 
-          function c() {
+          function s() {
             t.checkLogin(e.uuid, 1)
-              .then(o, function(t) {
+              .then(r, function(t) {
                 !t && window.checkLoginPromise && (e.isBrokenNetwork = !0)
               })
           }
@@ -511,28 +511,30 @@ webpackJsonp([1], [function(e, exports, t) {
               $("script")
                 .remove(), location.href = e.target.href, e.preventDefault()
             }), !window.MMCgi.isLogin) {
-            e.isAssociationLogin = parseInt(a.getCookie("login_frequency") || 0) >= 2, e.isWaitingAsConfirm = !1, e.isNeedRefresh = !1, e.isRotateLoading = !1, e.isBrokenNetwork = !1;
-            var s;
+            e.isAssociationLogin = parseInt(a.getCookie("login_frequency") || 0) >= 2, e.isWaitingAsConfirm = !1, e.isNeedRefresh = !1, e.isRotateLoading = !1, e.isBrokenNetwork = !1, e.isClientVersion = o.isClientVersion;
+            var l;
             e.isAssociationLogin && (e.userAvatar = a.getLocalStorage()
               .getItem("userAvatar")), e.showPrivacyTips = /wechat\.com/gi.test(location.host), e.associationLogin = function() {
               var n = a.getCookie("last_wxuin");
               e.isWaitingAsConfirm = !0, t.associationLogin(n)
                 .then(function(t) {
-                  e.uuid = t.uuid, c()
+                  e.uuid = t.uuid, s()
                 }, function(t) {
-                  t ? (e.isAssociationLogin = !1, a.setCookie("login_frequency", 0, 2), r(), i.report(i.ASSOCIATION_AUTH_FAIL_COUNT, 1)) : e.isBrokenNetwork = !0
-                }), s && clearTimeout(s), i.report(i.ASSOCIATION_AUTH_COUNT, 1)
+                  t ? (e.isAssociationLogin = !1, a.setCookie("login_frequency", 0, 2), c(), i.report(i.ASSOCIATION_AUTH_FAIL_COUNT, 1)) : e.isBrokenNetwork = !0
+                }), l && clearTimeout(l), i.report(i.ASSOCIATION_AUTH_COUNT, 1)
             }, e.qrcodeLogin = function() {
-              e.isAssociationLogin && (e.isAssociationLogin = !1, a.setCookie("login_frequency", 0, 2), window.checkLoginPromise && (window.checkLoginPromise.abort(), window.checkLoginPromise = null), r())
+              e.isAssociationLogin && (e.isAssociationLogin = !1, a.setCookie("login_frequency", 0, 2), window.checkLoginPromise && (window.checkLoginPromise.abort(), window.checkLoginPromise = null), c())
             }, e.refreshQrcode = function() {
               e.isRotateLoading = !0, setTimeout(function() {
-                r(), e.isRotateLoading = !1, e.isNeedRefresh = !1
+                c(), e.isRotateLoading = !1, e.isNeedRefresh = !1
               }, 1200)
+            }, e.reloadQrcode = function() {
+              c(), e.isBrokenNetwork = !1
             }, e.qrcodeException = function() {
               i.report(i.QRCODE_EXCEPTION_COUNT, 1)
-            }, window.MMCgi.isLogin || e.isAssociationLogin ? s = setTimeout(function() {
+            }, window.MMCgi.isLogin || e.isAssociationLogin ? l = setTimeout(function() {
               e.qrcodeLogin()
-            }, 3e5) : r()
+            }, 3e5) : c()
           }
         }])
     }()
@@ -941,11 +943,11 @@ webpackJsonp([1], [function(e, exports, t) {
             }
 
             function v() {
-              window.getSelection ? (P = window.getSelection(), U = P.getRangeAt(0)) : U = document.selection.createRange()
+              window.getSelection ? (P = window.getSelection(), A = P.getRangeAt(0)) : A = document.selection.createRange()
             }
 
             function y() {
-              U ? window.getSelection ? (P.removeAllRanges(), P.addRange(U)) : U.select() : b()
+              A ? window.getSelection ? (P.removeAllRanges(), P.addRange(A)) : A.select() : b()
             }
 
             function b() {
@@ -969,7 +971,7 @@ webpackJsonp([1], [function(e, exports, t) {
             function w(e, t) {
               var a, n;
               if (t || y(), window.getSelection) {
-                !t && U ? (a = P, n = U) : (a = window.getSelection(), n = a.getRangeAt(0)), n.deleteContents();
+                !t && A ? (a = P, n = A) : (a = window.getSelection(), n = a.getRangeAt(0)), n.deleteContents();
                 var i;
                 if (n.createContextualFragment) i = n.createContextualFragment(e);
                 else {
@@ -981,14 +983,14 @@ webpackJsonp([1], [function(e, exports, t) {
                 n.insertNode(i), n.setStartAfter(s), a.removeAllRanges(), a.addRange(n);
                 var l = s.offsetTop - 42 + s.offsetHeight - x.offsetHeight;
                 x.scrollTop < l && (x.scrollTop = l)
-              } else n = t || !U ? document.selection.createRange() : U, e = e.replace(/</gi, "&lt;")
+              } else n = t || !A ? document.selection.createRange() : A, e = e.replace(/</gi, "&lt;")
                 .replace(/>/gi, "&gt;"), n.pasteHTML(e), n.select()
             }
 
             function S() {
               window.getSelection && (window.getSelection()
                 .getRangeAt(0)
-                .insertNode(A), F = A.offsetLeft, V = A.offsetTop - x.scrollTop, D.appendChild(A))
+                .insertNode(U), F = U.offsetLeft, V = U.offsetTop - x.scrollTop, D.appendChild(U))
             }
 
             function T(t) {
@@ -1070,10 +1072,11 @@ webpackJsonp([1], [function(e, exports, t) {
                       else if (e.ToUserName = l.getSendFileUsername(), k(e, Z), "gif" !== e.ext.toLowerCase() && !E(e.ext)) {
                         var t = G(e.ext);
                         if (t == r.MSGTYPE_VIDEO && e.size >= 1024 * W * 1024) return K.skipFile(e), void alert(_("9a7dbbc"));
-                        e.ToUserName != l.getCurrentUserName() && (f.reportSendState("sendFileWrong"), p.report(p.ReportType.sendError, {
-                          type: "sendFileWrong"
-                          , browser: f.browser.msie ? "ie" : "other"
-                        })), e.MMSendMsg = l.createMessage({
+                        e.ToUserName != l.getCurrentUserName() && (f.reportSendState("sendFileWrong")
+                          , p.report(p.ReportType.sendError, {
+                            type: "sendFileWrong"
+                            , browser: f.browser.msie ? "ie" : "other"
+                          })), e.MMSendMsg = l.createMessage({
                           ToUserName: e.ToUserName
                           , MsgType: t
                           , FileName: e.name
@@ -1193,7 +1196,7 @@ webpackJsonp([1], [function(e, exports, t) {
                 }
               })
             }
-            var P, U, A = document.getElementById("caretPosHelper")
+            var P, A, U = document.getElementById("caretPosHelper")
               , F = 0
               , V = 0
               , x = document.getElementById("editArea")
@@ -1591,17 +1594,9 @@ webpackJsonp([1], [function(e, exports, t) {
                 }
                 var s = angular.element(document.getElementById("contextMenu"))
                   , l = angular.element(window)
-                  , d = s.width()
-                  , f = s.height()
-                  , u = l.width()
-                  , M = l.height();
-                u - e.pageX < d && (t.contextStyle = {
-                  top: e.pageY
-                  , left: e.pageX - d
-                }), M - e.pageY < f && (t.contextStyle = {
-                  top: e.pageY - f
-                  , left: e.pageX - d
-                });
+                  , d = (s.width(), s.height(), l.width())
+                  , f = l.height();
+                d - e.pageX < 400 && (t.contextStyle.right = d - e.pageX, t.contextStyle.left = "auto"), f - e.pageY < 400 && (t.contextStyle.bottom = f - e.pageY, t.contextStyle.top = "auto");
                 break
               }
             }
@@ -2239,7 +2234,8 @@ webpackJsonp([1], [function(e, exports, t) {
                   var a = ""
                     , n = 0;
                   if (a = e.UserName ? e.UserName : e.FromUserName == accountFactory.getUserInfo()
-                    .UserName ? e.ToUserName : e.FromUserName, n = _chatList.indexOf(a), n == -1) _chatList.unshift(a), utilFactory.isRoomContact(a) && contactFactory.addBatchgetChatroomContact(a);
+                    .UserName ? e.ToUserName : e.FromUserName
+                    , n = _chatList.indexOf(a), n == -1) _chatList.unshift(a), utilFactory.isRoomContact(a) && contactFactory.addBatchgetChatroomContact(a);
                   else {
                     var i = _chatList.splice(n, 1);
                     _chatList.unshift(i[0])
@@ -2384,7 +2380,7 @@ webpackJsonp([1], [function(e, exports, t) {
                       t._systemMsgProcess(e);
                       break;
                     default:
-                      e.MMDigest = _("938b111")
+                      e.MMDigest = confFactory.isClientVersion ? "暂不支持该消息" : _("938b111")
                   }
                   e.MMActualContent = utilFactory.hrefEncode(e.MMActualContent);
                   var n = contactFactory.getContact(e.MMPeerUserName);
@@ -2574,7 +2570,7 @@ webpackJsonp([1], [function(e, exports, t) {
                 e.MMDigest += _("e24e75c")
               }
               , _appUnknowMsgProcess: function(e) {
-                this._appAsTextMsgProcess(e, "[收到一条网页版微信暂不支持的消息类型，请在手机上查看]")
+                confFactory.isClientVersion ? this._appAsTextMsgProcess(e, "[收到一条暂不支持的消息类型，请在手机上查看]") : this._appAsTextMsgProcess(e, "[收到一条网页版微信暂不支持的消息类型，请在手机上查看]")
               }
               , _appAsTextMsgProcess: function(e, t) {
                 e.MMActualContent = t, e._noSupportMsg = !0, this._textMsgProcess(e)
@@ -3019,11 +3015,14 @@ webpackJsonp([1], [function(e, exports, t) {
           var o = navigator.language || navigator.browserLanguage;
           o || (o = "zh-cn"), o = o.split("-"), o = o[0].toLowerCase() + "_" + (o[1] || "")
             .toUpperCase();
-          var r = {
+          var r = !1;
+          location.href.indexOf("target=t") >= 0 && (r = !0);
+          var c = {
             LANG: o
             , EMOTICON_REG: 'img\\sclass="(qq)?emoji (qq)?emoji([\\da-f]*?)"\\s(text="[^<>(\\s]*")?\\s?src="[^<>(\\s]*"\\s*'
             , RES_PATH: "/zh_CN/htmledition/v2/"
-            , API_jsLogin: "https://" + a + "/jslogin?appid=wx782c26e4c19acffb&redirect_uri=" + encodeURIComponent(location.protocol + "//" + location.host + "/cgi-bin/mmwebwx-bin/webwxnewloginpage") + "&fun=new&lang=" + o
+            , API_jsLogin: "https://" + a + "/jslogin?appid=wx782c26e4c19acffb&redirect_uri=" + encodeURIComponent(location.protocol + "//" + location.host + "/cgi-bin/mmwebwx-bin/webwxnewloginpage" + (r ? "?mod=desktop" : "")) +
+              "&fun=new&lang=" + o
             , API_login: "https://" + a + "/cgi-bin/mmwebwx-bin/login"
             , API_synccheck: "https://" + i + "/cgi-bin/mmwebwx-bin/synccheck"
             , API_webwxdownloadmedia: "https://" + n + "/cgi-bin/mmwebwx-bin/webwxgetmedia"
@@ -3201,12 +3200,12 @@ webpackJsonp([1], [function(e, exports, t) {
             , MM_SEND_FILE_STATUS_CANCEL: 4
             , MM_EMOTICON_WEB: "_web"
           };
-          return angular.extend(r, {
-            RES_IMG_DEFAULT: r.RES_PATH + "images/img.gif"
-            , RES_IMG_PLACEHOLDER: r.RES_PATH + "images/spacer.gif"
-            , RES_SOUND_RECEIVE_MSG: r.RES_PATH + "sound/msg.mp3"
-            , RES_SOUND_SEND_MSG: r.RES_PATH + "sound/text.mp3"
-          }), /mmdebug=local/.test(document.location.search) && angular.extend(r, {
+          return angular.extend(c, {
+            RES_IMG_DEFAULT: c.RES_PATH + "images/img.gif"
+            , RES_IMG_PLACEHOLDER: c.RES_PATH + "images/spacer.gif"
+            , RES_SOUND_RECEIVE_MSG: c.RES_PATH + "sound/msg.mp3"
+            , RES_SOUND_SEND_MSG: c.RES_PATH + "sound/text.mp3"
+          }), /mmdebug=local/.test(document.location.search) && angular.extend(c, {
             TIMEOUT_SYNC_CHECK: 3e3
             , API_jsLogin: "/zh_CN/htmledition/v2/api/jsLogin.js"
             , API_login: "/zh_CN/htmledition/v2/api/login.js"
@@ -3220,7 +3219,9 @@ webpackJsonp([1], [function(e, exports, t) {
             , API_webwxgetmsgimg: "/zh_CN/htmledition/v2/images/webwxgeticon.jpg"
             , API_webwxgetmedia: "/zh_CN/htmledition/v2/images/webwxgeticon.jpg"
             , API_webwxgetvideo: "/zh_CN/htmledition/v2/images/webwxgetvideo.mp4"
-          }), r
+          }), angular.extend(c, {
+            isClientVersion: r
+          }), c
         }])
     }()
   }
@@ -3323,7 +3324,7 @@ webpackJsonp([1], [function(e, exports, t) {
                       a += r && r.RemarkName || r && r.NickName || o.NickName
                     } else a || (a = t.UserName);
                   else a = t.RemarkName || e && e != t.UserName && t.getMemberDisplayName(e) || t.NickName;
-                return a
+                return a;
               }
               , getMemberDisplayName: function(e) {
                 k.getChatroomIdByUserName(e);
@@ -3776,6 +3777,7 @@ webpackJsonp([1], [function(e, exports, t) {
               return window.QRLogin = {}, $.ajax({
                   url: i.API_jsLogin
                   , dataType: "script"
+                  , timeout: 1e4
                 })
                 .done(function() {
                   200 == window.QRLogin.code ? e.resolve(window.QRLogin.uuid) : e.reject(window.QRLogin.code)
@@ -6040,25 +6042,25 @@ webpackJsonp([1], [function(e, exports, t) {
     ! function(e) {
       "use strict";
       angular.module("Services")
-        .factory("titleRemind", ["$window", function(e) {
-          function t(e, t) {
+        .factory("titleRemind", ["$window", "confFactory", function(e, t) {
+          function a(e, t) {
             function a() {
-              n[i] ? e() : t()
+              i[n] ? e() : t()
             }
-            var i, o;
-            "undefined" != typeof n.hidden ? (i = "hidden", o = "visibilitychange") : "undefined" != typeof n.mozHidden ? (i = "mozHidden", o = "mozvisibilitychange") : "undefined" != typeof n.msHidden ? (i = "msHidden", o =
-              "msvisibilitychange") : "undefined" != typeof n.webkitHidden && (i = "webkitHidden", o = "webkitvisibilitychange"), "undefined" == typeof n.addEventListener || "undefined" == typeof i ? ($(window)
+            var n, o;
+            "undefined" != typeof i.hidden ? (n = "hidden", o = "visibilitychange") : "undefined" != typeof i.mozHidden ? (n = "mozHidden", o = "mozvisibilitychange") : "undefined" != typeof i.msHidden ? (n = "msHidden", o =
+              "msvisibilitychange") : "undefined" != typeof i.webkitHidden && (n = "webkitHidden", o = "webkitvisibilitychange"), "undefined" == typeof i.addEventListener || "undefined" == typeof n ? ($(window)
               .focus(function() {
                 t()
               }), $(window)
               .blur(function() {
                 e()
-              })) : n.addEventListener(o, a, !1)
+              })) : i.addEventListener(o, a, !1)
           }
-          var a = !0
-            , n = e.document
-            , i = {
-              defaultTitle: _("2f521c5")
+          var n = !0
+            , i = e.document
+            , o = {
+              defaultTitle: t.isClientVersion ? _("cfbf6f4") : _("2f521c5")
               , unreadMsgNum: 0
               , start: function() {
                 var e = this;
@@ -6067,29 +6069,29 @@ webpackJsonp([1], [function(e, exports, t) {
                 }, 2e3)
               }
               , _toggle: function() {
-                n.title == this.defaultTitle && this.unreadMsgNum > 0 ? n.title = _("cfbf6f4") + "(" + this.unreadMsgNum + ")" : n.title = this.defaultTitle
+                i.title == this.defaultTitle && this.unreadMsgNum > 0 ? i.title = _("cfbf6f4") + "(" + this.unreadMsgNum + ")" : i.title = this.defaultTitle
               }
               , stop: function() {
                 var e = this;
                 this.timer && clearTimeout(this.timer), setTimeout(function() {
-                  n.title = e.defaultTitle
+                  i.title = e.defaultTitle
                 }, 100)
               }
               , increaseUnreadMsgNum: function() {
-                a || this.unreadMsgNum++
+                n || this.unreadMsgNum++
               }
             };
-          t(function() {
-            a = !1, i.start()
+          a(function() {
+            n = !1, o.start()
           }, function() {
-            a = !0, i.stop()
+            n = !0, o.stop()
           });
-          var o = {
+          var r = {
             increaseUnreadMsgNum: function() {
-              i.increaseUnreadMsgNum()
+              o.increaseUnreadMsgNum()
             }
           };
-          return o
+          return r
         }])
     }()
   }

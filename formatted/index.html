@@ -37,7 +37,7 @@
 
     <![endif]-->
   <link rel="stylesheet"
-      href="//res.wx.qq.com/a/wx_fed/webwx/res/static/css/b57ceb1fe70efc47d4f0cab10d89d36f.css" />
+      href="//res.wx.qq.com/a/wx_fed/webwx/res/static/css/c8dda94a1c135ba17e5706ebc4aab1bf.css" />
 </head>
 
 <body draggable="false"
@@ -142,7 +142,9 @@
           ng-class="{show: isBrokenNetwork}">
         <div class="icon-broken-logo"></div>
         <h4 class="sub_title">网络连接已断开</h4>
-        <p class="sub_desc">请检查你的网络设置</p>
+        <p class="sub_desc">请检查你的网络设置 <span ng-click="reloadQrcode()"
+              class="reconnect"
+              ng-class="{show: isClientVersion}">点击重连</span></p>
       </div>
     </div>
     <!--END login_box-->
@@ -311,6 +313,15 @@
                 ng-if="currentContact.isRoomContact()"
                 class="scrollbar-dynamic members_inner"
                 ng-init="isShowDelIcon=false">
+              <div class="member opt">
+                <i class="web_wechat_add_friends"
+                    ng-click="addCharRoomMember()"></i>
+              </div>
+              <div class="member opt"
+                  ng-if="currentContact.isRoomOwner()">
+                <a class="web_wechat_delete_friends"
+                    ng-click="$parent.isShowDelIcon=!($parent.isShowDelIcon)"></a>
+              </div>
               <div class="member"
                   ng-repeat="item in currentContact.MemberList"
                   title="{{getUserContact(item.UserName,currentContact.UserName).getDisplayName(currentContact.UserName)|emojiHideFilter}}">
@@ -329,6 +340,10 @@
             </div>
             <div ng-if="!currentContact.isRoomContact()"
                 class="members_inner">
+              <div class="member opt">
+                <i class="web_wechat_add_friends"
+                    ng-click="createChatroom()"></i>
+              </div>
               <div class="member"
                   href="javascript:;">
                 <img class="avatar"
@@ -2111,6 +2126,13 @@
             <li>
               <a tabindex="-1"
                   href="javascript:;"
+                  ng-click="createChatroom()"
+                  title="发起聊天">
+                <i class="menuicon_chat"></i>发起聊天 </a>
+            </li>
+            <li>
+              <a tabindex="-1"
+                  href="javascript:;"
                   ng-if="!isNotifyOpen"
                   ng-click="openNotify()"
                   title="打开桌面通知">
@@ -2526,6 +2548,7 @@
             , "59d29a3": "好友"
             , "4b0ab7b": "群组"
             , "215feec": "公众号"
+            , "cfbf6f4": "微信"
             , "2f521c5": "微信网页版"
             , "cfbf6f4": "微信"
             , "845ec73": "图片加载失败，请关闭后重试。"
@@ -2540,8 +2563,8 @@
           });
 
         </script>
-        <script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_0b8a6dd.js"></script>
-        <script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_ad43596.js"></script>
+        <script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_e27c82e.js"></script>
+        <script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_7574b77.js"></script>
 </body>
 
 </html>
