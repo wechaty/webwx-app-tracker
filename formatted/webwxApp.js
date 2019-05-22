@@ -3016,7 +3016,7 @@ webpackJsonp([1], [function(e, exports, t) {
           o || (o = "zh-cn"), o = o.split("-"), o = o[0].toLowerCase() + "_" + (o[1] || "")
             .toUpperCase();
           var r = !1;
-          location.href.indexOf("target=t") >= 0 && (r = !0);
+          (location.href.indexOf("target=t") >= 0 || "t" === window.__target) && (r = !0);
           var c = {
             LANG: o
             , EMOTICON_REG: 'img\\sclass="(qq)?emoji (qq)?emoji([\\da-f]*?)"\\s(text="[^<>(\\s]*")?\\s?src="[^<>(\\s]*"\\s*'
@@ -3324,7 +3324,7 @@ webpackJsonp([1], [function(e, exports, t) {
                       a += r && r.RemarkName || r && r.NickName || o.NickName
                     } else a || (a = t.UserName);
                   else a = t.RemarkName || e && e != t.UserName && t.getMemberDisplayName(e) || t.NickName;
-                return a;
+                return a
               }
               , getMemberDisplayName: function(e) {
                 k.getChatroomIdByUserName(e);
