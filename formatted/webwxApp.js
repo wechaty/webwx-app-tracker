@@ -3812,7 +3812,7 @@ webpackJsonp([1], [function(e, exports, t) {
             , associationLogin: function(e) {
               var a = t.defer()
                 , n = i.API_webwxpushloginurl + "?uin=" + encodeURIComponent(e);
-              return $.ajax({
+              return i.isClientVersion && (n += "&mod=desktop"), $.ajax({
                   url: n
                   , dataType: "json"
                 })
