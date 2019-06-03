@@ -1722,7 +1722,7 @@ webpackJsonp([1], [function(e, exports, t) {
                     var t = [_("d9eb6f5"), p, _("83b6d34"), "<br>—————————<br>"].join("");
                     e.$broadcast("root:quoteMsg", t)
                   }
-                }), t.contextMenuList.push({
+                }), o.isClientVersion || t.contextMenuList.push({
                   isCopy: !0
                   , content: _("79d3abe")
                   , callback: function() {
@@ -2202,12 +2202,16 @@ webpackJsonp([1], [function(e, exports, t) {
               }
               , postAppMessage: function(e) {
                 var t;
-                t = {
+                if (t = {
                     Signature: e.Signature
                     , Type: e.AppMsgType
-                  }, e.AppMsgType == confFactory.APPMSGTYPE_ATTACH ? t.Content = "<appmsg appid='wxeb7ec651dd0aefa9' sdkver=''><title>" + e.FileName + "</title><des></des><action></action><type>" + confFactory.APPMSGTYPE_ATTACH +
-                  "</type><content></content><url></url><lowurl></lowurl><appattach><totallen>" + e.FileSize + "</totallen><attachid>" + e.MediaId + "</attachid><fileext>" + (e.MMFileExt || e.MMAppMsgFileExt) +
-                  "</fileext></appattach><extinfo></extinfo></appmsg>" : t.Content = e.OriContent || e.Content, this._postMessage(confFactory.API_webwxsendappmsg + "?fun=async&f=json", t, e)
+                  }, e.AppMsgType == confFactory.APPMSGTYPE_ATTACH) {
+                  var a = confFactory.isClientVersion ? "" : "wxeb7ec651dd0aefa9";
+                  t.Content = "<appmsg appid='" + a + "' sdkver=''><title>" + e.FileName + "</title><des></des><action></action><type>" + confFactory.APPMSGTYPE_ATTACH +
+                    "</type><content></content><url></url><lowurl></lowurl><appattach><totallen>" + e.FileSize + "</totallen><attachid>" + e.MediaId + "</attachid><fileext>" + (e.MMFileExt || e.MMAppMsgFileExt) +
+                    "</fileext></appattach><extinfo></extinfo></appmsg>"
+                } else t.Content = e.OriContent || e.Content;
+                this._postMessage(confFactory.API_webwxsendappmsg + "?fun=async&f=json" + (confFactory.isClientVersion ? "&mod=desktop" : ""), t, e)
               }
               , postEmoticonMessage: function(e) {
                 var t = {
@@ -2230,17 +2234,17 @@ webpackJsonp([1], [function(e, exports, t) {
               }
               , addChatList: function(e) {
                 var t = this;
-                e && (angular.isArray(e) || (e = [e]), angular.forEach(e, function(e, t) {
-                  var a = ""
-                    , n = 0;
-                  if (a = e.UserName ? e.UserName : e.FromUserName == accountFactory.getUserInfo()
-                    .UserName ? e.ToUserName : e.FromUserName
-                    , n = _chatList.indexOf(a), n == -1) _chatList.unshift(a), utilFactory.isRoomContact(a) && contactFactory.addBatchgetChatroomContact(a);
-                  else {
-                    var i = _chatList.splice(n, 1);
-                    _chatList.unshift(i[0])
-                  }
-                }), t.getChatList(), $rootScope.$broadcast("chat:add:success"))
+                e && (angular.isArray(e) || (e = [e])
+                  , angular.forEach(e, function(e, t) {
+                    var a = ""
+                      , n = 0;
+                    if (a = e.UserName ? e.UserName : e.FromUserName == accountFactory.getUserInfo()
+                      .UserName ? e.ToUserName : e.FromUserName, n = _chatList.indexOf(a), n == -1) _chatList.unshift(a), utilFactory.isRoomContact(a) && contactFactory.addBatchgetChatroomContact(a);
+                    else {
+                      var i = _chatList.splice(n, 1);
+                      _chatList.unshift(i[0])
+                    }
+                  }), t.getChatList(), $rootScope.$broadcast("chat:add:success"))
               }
               , deleteChatList: function(e) {
                 var t = this;
@@ -6606,7 +6610,7 @@ webpackJsonp([1], [function(e, exports, t) {
                           .jPlayer("play")
                       }
                       , playing: function() {
-                        i.loaded = !0, i.$digest()
+                        i.loaded = !0, i.$digest();
                       }
                       , seeked: function() {}
                       , seeking: function() {}
