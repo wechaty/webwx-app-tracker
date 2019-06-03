@@ -2036,7 +2036,7 @@
                                 ng-click="cancelUploadFile(message)"
                                 href="javascript:">取消</a>
                             <a target="_blank"
-                                download
+                                download="{{message.FileName}}"
                                 ng-if="message.MMFileStatus == CONF.MM_SEND_FILE_STATUS_SUCCESS  && (message.MMStatus == CONF.MSG_SEND_STATUS_SUCC || message.MMStatus === undefined)  "
                                 href="{{message.MMAppMsgDownloadUrl}}">下载</a>
                             <span ng-if="message.MMFileStatus == CONF.MM_SEND_FILE_STATUS_CANCEL">已取消</span>
@@ -2563,7 +2563,7 @@
           });
 
         </script>
-        <script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_06ce10a.js"></script>
+        <script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_12dda57.js"></script>
         <script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_3d303c1.js"></script>
 </body>
 
