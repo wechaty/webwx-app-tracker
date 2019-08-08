@@ -1068,7 +1068,7 @@ webpackJsonp([1], [function(e, exports, t) {
                       if (e._checked) return !0;
                       if (h.report(h.UPLOAD_COUNT, 1), 0 == e.size) return K.skipFile(e), alert(_("61e885c")), !1;
                       if (e._data = e._data || {}, !l.getSendFileUsername()) return K.skipFile(e), alert(_("599d8df")), !1;
-                      if (/untitled\d+.png/i.test(e.name) || j) k(e, ee), e.ToUserName = l.getSendFileUsername();
+                      if (/untitled\d+.png/i.test(e.name) || q) k(e, ee), e.ToUserName = l.getSendFileUsername();
                       else if (e.ToUserName = l.getSendFileUsername(), k(e, Z), "gif" !== e.ext.toLowerCase() && !E(e.ext)) {
                         var t = G(e.ext);
                         if (t == r.MSGTYPE_VIDEO && e.size >= 1024 * W * 1024) return K.skipFile(e), void alert(_("9a7dbbc"));
@@ -1203,8 +1203,8 @@ webpackJsonp([1], [function(e, exports, t) {
               , D = x.parentNode
               , O = f.getShareObject("editingContents")
               , R = !1
-              , j = !1
-              , q = null;
+              , q = !1
+              , j = null;
             $(x)
               .on("input", function() {
                 v()
@@ -1214,8 +1214,8 @@ webpackJsonp([1], [function(e, exports, t) {
               })
               .on("paste", function(e) {
                 var t = l.setSendFileUsername(l.getCurrentUserName());
-                if (q && clearTimeout(q), j = !0, q = setTimeout(function() {
-                    j = !1
+                if (j && clearTimeout(j), q = !0, j = setTimeout(function() {
+                    q = !1
                   }, 100), !t) return alert(_("599d8df")), e.preventDefault(), e.stopPropagation(), !1
               }), $("#J_CatchDrop")
               .on("drop", function(e) {
