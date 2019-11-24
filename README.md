@@ -3,7 +3,7 @@ webwxApp SPA Html &amp; AngularJS Script Tracker for Web Wechat
 
 # Introduction
 
-The purpose of creating this repository is to track the code change from https://wx.qq.com , which can make the [PuppetWeb of Wechaty](https://github.com/wechaty/wechaty/blob/master/src/puppet-web/) life easier in the future.
+The purpose of creating this repository is to track the code change from https://wx.qq.com , which can make the [PuppetWeb of Wechaty](https://github.com/wechaty/wechaty-puppet-puppeteer) life easier in the future.
 
 What it is doing is:
 
