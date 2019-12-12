@@ -1,84 +1,604 @@
-webpackJsonp([1], [function(e, exports, t) {
-    e.exports = t(259) + t(274);
-  }, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , function(e, exports) {}, , , , , , , , , , , function(e, exports, t) {
-    e.exports = t.p + "/static/img/a7Nznaj.gif"
-  }, , , , , , , , , , , function(e, exports) {}, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , 
-  , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , 
-  , function(e, exports, t) {
-    e.exports = t.p + "/static/img/2z6meE1.gif"
-  }
-  , function(e, exports, t) {
-    e.exports = t.p + "/static/img/2KriyDK.png"
-  }
-  , function(e, exports, t) {
-    e.exports = t.p + "/static/img/xasUyAI.gif"
-  }
-  , function(e, exports, t) {
+webpackJsonp([1], [
+  /* 0 */
+  /***/
+  (function(module, exports, __webpack_require__) {
+
+    module.exports = __webpack_require__(259) + __webpack_require__(274);
+
+    /***/
+  })
+  , /* 1 */
+  , /* 2 */
+  , /* 3 */
+  , /* 4 */
+  , /* 5 */
+  , /* 6 */
+  , /* 7 */
+  , /* 8 */
+  , /* 9 */
+  , /* 10 */
+  , /* 11 */
+  , /* 12 */
+  , /* 13 */
+  , /* 14 */
+  , /* 15 */
+  , /* 16 */
+  , /* 17 */
+  , /* 18 */
+  , /* 19 */
+  , /* 20 */
+  , /* 21 */
+  , /* 22 */
+  , /* 23 */
+  , /* 24 */
+  , /* 25 */
+  , /* 26 */
+  , /* 27 */
+  , /* 28 */
+  , /* 29 */
+  , /* 30 */
+  , /* 31 */
+  , /* 32 */
+  , /* 33 */
+  , /* 34 */
+  , /* 35 */
+  , /* 36 */
+  , /* 37 */
+  , /* 38 */
+  , /* 39 */
+  , /* 40 */
+  , /* 41 */
+  , /* 42 */
+  , /* 43 */
+  , /* 44 */
+  , /* 45 */
+  , /* 46 */
+  , /* 47 */
+  , /* 48 */
+  , /* 49 */
+  , /* 50 */
+  , /* 51 */
+  , /* 52 */
+  , /* 53 */
+  , /* 54 */
+  , /* 55 */
+  , /* 56 */
+  , /* 57 */
+  , /* 58 */
+  , /* 59 */
+  , /* 60 */
+  , /* 61 */
+  , /* 62 */
+  , /* 63 */
+  , /* 64 */
+  , /* 65 */
+  , /* 66 */
+  , /* 67 */
+  , /* 68 */
+  /***/
+  (function(module, exports) {
+
+    // removed by extract-text-webpack-plugin
+
+    /***/
+  })
+  , /* 69 */
+  , /* 70 */
+  , /* 71 */
+  , /* 72 */
+  , /* 73 */
+  , /* 74 */
+  , /* 75 */
+  , /* 76 */
+  , /* 77 */
+  , /* 78 */
+  , /* 79 */
+  /***/
+  (function(module, exports, __webpack_require__) {
+
+    module.exports = __webpack_require__.p + "/static/img/a7Nznaj.gif";
+
+    /***/
+  })
+  , /* 80 */
+  , /* 81 */
+  , /* 82 */
+  , /* 83 */
+  , /* 84 */
+  , /* 85 */
+  , /* 86 */
+  , /* 87 */
+  , /* 88 */
+  , /* 89 */
+  , /* 90 */
+  /***/
+  (function(module, exports) {
+
+    // removed by extract-text-webpack-plugin
+
+    /***/
+  })
+  , /* 91 */
+  , /* 92 */
+  , /* 93 */
+  , /* 94 */
+  , /* 95 */
+  , /* 96 */
+  , /* 97 */
+  , /* 98 */
+  , /* 99 */
+  , /* 100 */
+  , /* 101 */
+  , /* 102 */
+  , /* 103 */
+  , /* 104 */
+  , /* 105 */
+  , /* 106 */
+  , /* 107 */
+  , /* 108 */
+  , /* 109 */
+  , /* 110 */
+  , /* 111 */
+  , /* 112 */
+  , /* 113 */
+  , /* 114 */
+  , /* 115 */
+  , /* 116 */
+  , /* 117 */
+  , /* 118 */
+  , /* 119 */
+  , /* 120 */
+  , /* 121 */
+  , /* 122 */
+  , /* 123 */
+  , /* 124 */
+  , /* 125 */
+  , /* 126 */
+  , /* 127 */
+  , /* 128 */
+  , /* 129 */
+  , /* 130 */
+  , /* 131 */
+  , /* 132 */
+  , /* 133 */
+  , /* 134 */
+  , /* 135 */
+  , /* 136 */
+  , /* 137 */
+  , /* 138 */
+  , /* 139 */
+  , /* 140 */
+  , /* 141 */
+  , /* 142 */
+  , /* 143 */
+  , /* 144 */
+  , /* 145 */
+  , /* 146 */
+  , /* 147 */
+  , /* 148 */
+  , /* 149 */
+  , /* 150 */
+  , /* 151 */
+  , /* 152 */
+  , /* 153 */
+  , /* 154 */
+  , /* 155 */
+  , /* 156 */
+  , /* 157 */
+  , /* 158 */
+  , /* 159 */
+  , /* 160 */
+  , /* 161 */
+  , /* 162 */
+  , /* 163 */
+  , /* 164 */
+  , /* 165 */
+  , /* 166 */
+  , /* 167 */
+  , /* 168 */
+  , /* 169 */
+  , /* 170 */
+  , /* 171 */
+  , /* 172 */
+  , /* 173 */
+  , /* 174 */
+  , /* 175 */
+  , /* 176 */
+  , /* 177 */
+  , /* 178 */
+  , /* 179 */
+  , /* 180 */
+  , /* 181 */
+  , /* 182 */
+  , /* 183 */
+  , /* 184 */
+  , /* 185 */
+  , /* 186 */
+  , /* 187 */
+  , /* 188 */
+  , /* 189 */
+  , /* 190 */
+  , /* 191 */
+  , /* 192 */
+  , /* 193 */
+  , /* 194 */
+  , /* 195 */
+  , /* 196 */
+  , /* 197 */
+  , /* 198 */
+  , /* 199 */
+  , /* 200 */
+  , /* 201 */
+  , /* 202 */
+  , /* 203 */
+  , /* 204 */
+  , /* 205 */
+  , /* 206 */
+  , /* 207 */
+  , /* 208 */
+  , /* 209 */
+  , /* 210 */
+  , /* 211 */
+  , /* 212 */
+  , /* 213 */
+  , /* 214 */
+  , /* 215 */
+  , /* 216 */
+  , /* 217 */
+  , /* 218 */
+  , /* 219 */
+  , /* 220 */
+  , /* 221 */
+  , /* 222 */
+  , /* 223 */
+  , /* 224 */
+  , /* 225 */
+  , /* 226 */
+  , /* 227 */
+  , /* 228 */
+  , /* 229 */
+  , /* 230 */
+  , /* 231 */
+  , /* 232 */
+  , /* 233 */
+  , /* 234 */
+  , /* 235 */
+  , /* 236 */
+  , /* 237 */
+  , /* 238 */
+  , /* 239 */
+  , /* 240 */
+  , /* 241 */
+  , /* 242 */
+  , /* 243 */
+  , /* 244 */
+  , /* 245 */
+  , /* 246 */
+  , /* 247 */
+  , /* 248 */
+  , /* 249 */
+  , /* 250 */
+  , /* 251 */
+  , /* 252 */
+  , /* 253 */
+  , /* 254 */
+  , /* 255 */
+  , /* 256 */
+  /***/
+  (function(module, exports, __webpack_require__) {
+
+    module.exports = __webpack_require__.p + "/static/img/2z6meE1.gif";
+
+    /***/
+  })
+  , /* 257 */
+  /***/
+  (function(module, exports, __webpack_require__) {
+
+    module.exports = __webpack_require__.p + "/static/img/2KriyDK.png";
+
+    /***/
+  })
+  , /* 258 */
+  /***/
+  (function(module, exports, __webpack_require__) {
+
+    module.exports = __webpack_require__.p + "/static/img/xasUyAI.gif";
+
+    /***/
+  })
+  , /* 259 */
+  /***/
+  (function(module, exports, __webpack_require__) {
+
     window.MMSource = {
-      copySwfPath: t(260)
-      , jplayerSwfPath: t(261)
-    }, t(262), t(266), t(267), t(268), t(269), t(270), t(271), t(272), t(273)
-  }
-  , function(e, exports, t) {
-    e.exports = t.p + "/static/res/1OM7Ut2.swf"
-  }
-  , function(e, exports, t) {
-    e.exports = t.p + "/static/res/GIqH2cS.swf"
-  }, , , , , , , , , , , , 
-  , function(e, exports, t) {
-    angular.module("Controllers", []), t(275), t(276), t(277), t(279), t(280), t(282), t(283), t(284), t(285), t(286), t(287), t(288), angular.module("Services", []), t(289), t(290), t(291), t(292), t(293), t(294), t(295), t(296), t(297), t(298)
-      , t(299), t(300), t(301), t(302), t(303), t(304), t(305), t(307), t(308), t(309), t(310), angular.module("Directives", []), t(311), t(312), t(313), t(314), t(315), t(316), t(317), t(318), t(319), t(320), t(321), t(322), t(323), t(324), t(
-        325), t(326), t(327), t(328), t(329), t(330), t(331), t(332), t(333), t(334), t(335), t(336), angular.module("Filters", []), t(338), t(339)
-      , function() {
-        "use strict";
-        angular.module("webwxApp", ["ui.router", "ngAnimate", "Services", "Controllers", "Directives", "Filters", "ngDialog", "jQueryScrollbar", "ngClipboard", "exceptionOverride"])
-          .run(["$rootScope", "$state", "$stateParams", function(e, t, a) {
-            e.$state = t, e.$stateParams = a
-          }])
-          .factory("httpInterceptor", ["accountFactory", function(e) {
-            return {
-              request: function(t) {
-                if (!t.cache && t.url.indexOf(".html") < 0 && (t.params || (t.params = {}), t.params.pass_ticket = e.getPassticket()), t.url.indexOf(".html") < 0) {
-                  var a = location.href.match(/(\?|&)lang=([^&#]+)/);
-                  if (a) {
-                    var n = a[2];
-                    t.params || (t.params = {}), t.params.lang = n
-                  }
+      /*videoSwfPath:'/zh_CN/htmledition/v2/third_party/video-js-4.11.2/video-js.swf',*/
+      copySwfPath: __webpack_require__(260)
+      , jplayerSwfPath: __webpack_require__(261)
+
+    };
+
+    __webpack_require__(262);
+    __webpack_require__(266);
+    __webpack_require__(267);
+    __webpack_require__(268);
+    __webpack_require__(269);
+    __webpack_require__(270);
+    __webpack_require__(271);
+    __webpack_require__(272);
+    __webpack_require__(273);
+
+    /***/
+  })
+  , /* 260 */
+  /***/
+  (function(module, exports, __webpack_require__) {
+
+    module.exports = __webpack_require__.p + "/static/res/1OM7Ut2.swf";
+
+    /***/
+  })
+  , /* 261 */
+  /***/
+  (function(module, exports, __webpack_require__) {
+
+    module.exports = __webpack_require__.p + "/static/res/GIqH2cS.swf";
+
+    /***/
+  })
+  , /* 262 */
+  , /* 263 */
+  , /* 264 */
+  , /* 265 */
+  , /* 266 */
+  , /* 267 */
+  , /* 268 */
+  , /* 269 */
+  , /* 270 */
+  , /* 271 */
+  , /* 272 */
+  , /* 273 */
+  , /* 274 */
+  /***/
+  (function(module, exports, __webpack_require__) {
+
+    /**
+     * 临时IE console hack
+     */
+
+
+    // 这段 chack 代码可以废弃，线上环境过通过 uglifyjs 的drop_console 选项把 log输出干掉
+    // (function() {
+    //     var method;
+    //     var noop = function () {};
+    //     var methods = [
+    //         'assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error',
+    //         'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log',
+    //         'markTimeline', 'profile', 'profileEnd', 'table', 'time', 'timeEnd',
+    //         'timeStamp', 'trace', 'warn'
+    //     ];
+    //     var length = methods.length;
+    //     // 屏蔽log
+    //     if(/mmdebug/.test(location.search) == false && location.href.indexOf('dev.web.weixin')<0){
+    //         window.console = {};
+    //     }
+    //     var console = (window.console = window.console || {});
+    //
+    //     while (length--) {
+    //         method = methods[length];
+    //
+    //         // Only stub undefined methods.
+    //         if (!console[method]) {
+    //             console[method] = noop;
+    //         }
+    //     }
+    // }());
+    /**
+     * fis的line语法:require(path)
+     * 作用：文件合并
+     */
+
+    // import Controllers Module
+    angular.module('Controllers', []);
+    __webpack_require__(275);
+    __webpack_require__(276);
+    __webpack_require__(277);
+    __webpack_require__(279);
+    __webpack_require__(280);
+    __webpack_require__(282);
+    __webpack_require__(283);
+    __webpack_require__(284);
+    __webpack_require__(285);
+    __webpack_require__(286);
+    __webpack_require__(287);
+    __webpack_require__(288);
+
+    // import Services Module
+    angular.module('Services', []);
+    __webpack_require__(289);
+    __webpack_require__(290);
+    __webpack_require__(291);
+    __webpack_require__(292);
+    __webpack_require__(293);
+    __webpack_require__(294);
+    __webpack_require__(295);
+    __webpack_require__(296);
+    __webpack_require__(297);
+    __webpack_require__(298);
+    __webpack_require__(299);
+    __webpack_require__(300);
+    __webpack_require__(301);
+    __webpack_require__(302);
+    __webpack_require__(303);
+    __webpack_require__(304);
+    __webpack_require__(305);
+    __webpack_require__(307);
+    __webpack_require__(308);
+    __webpack_require__(309);
+    __webpack_require__(310);
+
+    // import Directives Module
+    angular.module('Directives', []);
+    __webpack_require__(311);
+    __webpack_require__(312);
+    __webpack_require__(313);
+    __webpack_require__(314);
+    __webpack_require__(315);
+    __webpack_require__(316);
+    __webpack_require__(317);
+    __webpack_require__(318);
+    __webpack_require__(319);
+    __webpack_require__(320);
+    /*require("./directives/videojsDirective.js");*/
+    __webpack_require__(321);
+    __webpack_require__(322);
+    __webpack_require__(323);
+    __webpack_require__(324);
+    __webpack_require__(325);
+    __webpack_require__(326);
+    __webpack_require__(327);
+    __webpack_require__(328);
+    __webpack_require__(329);
+    __webpack_require__(330);
+    __webpack_require__(331);
+    __webpack_require__(332);
+    __webpack_require__(333);
+    __webpack_require__(334);
+    __webpack_require__(335);
+    __webpack_require__(336);
+
+    // import Filters
+    angular.module('Filters', []);
+    __webpack_require__(338);
+    __webpack_require__(339);
+
+    /**
+     * 程序入口，导入依赖模块
+     * 业务主逻辑：appController
+     */
+    (function() {
+      'use strict';
+
+      angular.module('webwxApp', [
+          'ui.router'
+          , 'ngAnimate'
+          , 'Services'
+          , 'Controllers'
+          , 'Directives'
+          , 'Filters'
+          , 'ngDialog'
+          , 'jQueryScrollbar'
+          , 'ngClipboard'
+          , 'exceptionOverride'
+          // 'perfect_scrollbar',
+          //'ui.utils',
+          //'ui.bootstrap'
+        ])
+        .run(['$rootScope', '$state', '$stateParams'
+          , function($rootScope, $state, $stateParams) {
+            $rootScope.$state = $state;
+            $rootScope.$stateParams = $stateParams;
+          }
+        ])
+        .factory('httpInterceptor', ['accountFactory', function(accountFactory) {
+          return {
+            'request': function(config) {
+              if (!config.cache && config.url.indexOf('.html') < 0) {
+                if (!config.params) {
+                  config.params = {};
                 }
-                return t
+
+                config.params['pass_ticket'] = accountFactory.getPassticket();
               }
+
+              if (config.url.indexOf('.html') < 0) {
+                var matchs = location.href.match(/(\?|&)lang=([^&#]+)/);
+
+                if (matchs) {
+                  var lang = matchs[2];
+                  if (!config.params) {
+                    config.params = {};
+                  }
+                  config.params['lang'] = lang;
+                }
+
+              }
+
+
+              return config;
             }
-          }])
-          .config(["$sceProvider", "$httpProvider", "$logProvider", "$stateProvider", "$urlRouterProvider", "ngClipProvider", function(e, t, a, n, i, o) {
-            e.enabled(!1), a.debugEnabled(!0), o.setPath(window.MMSource.copySwfPath), t.interceptors.push("httpInterceptor");
-            var r;
-            n.state("chat", {
+          }
+        }])
+        .config(['$sceProvider', '$httpProvider', '$logProvider', '$stateProvider', '$urlRouterProvider', 'ngClipProvider'
+          , function($sceProvider, $httpProvider, $logProvider, $stateProvider, $urlRouterProvider, ngClipProvider) {
+            // Completely disable SCE to support IE7.
+            $sceProvider.enabled(false);
+            $logProvider.debugEnabled(true);
+
+            ngClipProvider.setPath(window.MMSource.copySwfPath);
+            $httpProvider.interceptors.push('httpInterceptor');
+
+            // var isCrossDomain = document.domain.indexOf('qq.com') < 0;
+            //
+            // if(!isCrossDomain){
+            //     // set domain
+            //     document.domain = 'qq.com';
+            // }
+            //
+
+
+            var readItemCache;
+
+            //$urlRouterProvider.when('', '/chat');
+            //$urlRouterProvider.otherwise('');
+            // config ui-router state
+            $stateProvider.state("chat", {
                 url: ""
                 , params: {
                   userName: ""
                 }
                 , views: {
-                  navView: {
-                    controller: ["$stateParams", "chatFactory", "contactFactory", "stateManageService", "$rootScope", function(e, t, a, n, i) {
-                      function o() {
-                        var n = a.getContact(e.userName, "", !0);
-                        i.$broadcast("root:statechange"), t.setCurrentUserName(e.userName), t.addChatList([n || {
-                          FromUserName: e.userName
-                        }]), e.userName = ""
+                  "navView": {
+                    // templateUrl: "navChat.html",
+                    controller: [
+                      '$stateParams'
+                      , 'chatFactory'
+                      , 'contactFactory'
+                      , 'stateManageService'
+                      , '$rootScope'
+                      , function($stateParams, chatFactory, contactFactory, stateManageService, $rootScope) {
+                        stateManageService.change('navChat:active', true);
+                        if ($stateParams.userName) {
+                          var user = contactFactory.getContact($stateParams.userName, '', true);
+                          if (!user) {
+                            contactFactory.addBatchgetContact({
+                                UserName: $stateParams.userName
+                                , ChatRoomId: ""
+                              }, true)
+                              .then(function(data) {
+                                changeCurrentUser();
+                                console.log('addBatchgetContact now ok', data);
+                              }, function(data) {
+                                console.error('addBatchgetContact now err', data);
+                              });
+                          } else {
+                            changeCurrentUser();
+                          }
+                        }
+
+                        function changeCurrentUser() {
+                          var user = contactFactory.getContact($stateParams.userName, '', true);
+                          $rootScope.$broadcast('root:statechange');
+                          chatFactory.setCurrentUserName($stateParams.userName);
+                          chatFactory.addChatList([user || {
+                            'FromUserName': $stateParams.userName
+                          }]);
+                          $stateParams.userName = '';
+                        }
                       }
-                      if (n.change("navChat:active", !0), e.userName) {
-                        var r = a.getContact(e.userName, "", !0);
-                        r ? o() : a.addBatchgetContact({
-                            UserName: e.userName
-                            , ChatRoomId: ""
-                          }, !0)
-                          .then(function(e) {
-                            o()
-                          }, function(e) {})
-                      }
-                    }]
+                    ]
                   }
-                  , contentView: {
+                  , "contentView": {
                     templateUrl: "contentChat.html"
                     , controller: "contentChatController"
                   }
@@ -87,12 +607,13 @@ webpackJsonp([1], [function(e, exports, t) {
               .state("contact", {
                 url: ""
                 , views: {
-                  navView: {
-                    controller: ["stateManageService", function(e) {
-                      e.change("navContact:active", !0)
+                  "navView": {
+                    //templateUrl: "navContact.html",
+                    controller: ['stateManageService', function(stateManageService) {
+                      stateManageService.change('navContact:active', true);
                     }]
                   }
-                  , contentView: {
+                  , "contentView": {
                     templateUrl: "contentContact.html"
                     , controller: "contentContactController"
                   }
@@ -104,2986 +625,6584 @@ webpackJsonp([1], [function(e, exports, t) {
                   readItem: ""
                 }
                 , views: {
-                  navView: {
-                    controller: ["stateManageService", function(e) {
-                      e.change("navRead:active", !0)
+                  "navView": {
+                    //templateUrl: "navContact.html",
+                    controller: ['stateManageService', function(stateManageService) {
+                      stateManageService.change('navRead:active', true);
                     }]
                   }
-                  , contentView: {
+                  , "contentView": {
                     templateUrl: "contentRead.html"
-                    , controller: ["$scope", "$stateParams", "subscribeMsgService", "mmpop", function(e, t, a, n) {
-                      if (t.readItem) r = e.readItem = t.readItem;
-                      else {
-                        var i = a.getSubscribeMsgs()[0];
-                        e.readItem = r || i && i.MPArticleList[0]
+                    , controller: ['$scope', '$stateParams', 'subscribeMsgService', 'mmpop', function($scope, $stateParams, subscribeMsgService, mmpop) {
+                      if ($stateParams.readItem) {
+                        readItemCache = $scope.readItem = $stateParams.readItem;
+                      } else {
+                        var firstSubscribe = subscribeMsgService.getSubscribeMsgs()[0];
+                        $scope.readItem = readItemCache || (firstSubscribe && firstSubscribe.MPArticleList[0]);
                       }
-                      e.optionMenu = function() {
-                        n.toggleOpen({
+
+                      /**
+                       * 左键菜单
+                       */
+                      $scope.optionMenu = function() {
+                        mmpop.toggleOpen({
                           templateUrl: "readMenu.html"
-                          , container: angular.element(document.querySelector(".read_list_header"))
-                          , controller: "readMenuController"
-                          , singletonId: "mmpop_reader_menu"
+                          , //top:40,
+                          //left: 520,
+                          container: angular.element(document.querySelector('.read_list_header'))
+                          , controller: 'readMenuController'
+                          , singletonId: 'mmpop_reader_menu'
                           , className: "reader_menu"
-                        })
-                      }
+                        });
+                      };
+                      /*  if(!isCrossDomain){
+                            // 往iframe注入script
+                            $("#reader").load(function () {
+                                var body = $(this).contents().find("body");
+                                var dom = body.find('#js_view_source');
+                                if (dom.length > 0){
+                                    body.css({position: 'relative'});
+                                    var view_source = $('<a href="javascript:;" onclick="var url = window.msg_source_url || window.location.href; var win = window.top.open(url, \'_blank\'); win.focus();" style="position: absolute; bottom: 20px; left: 15px; width: 4em; height: 25px; background: #FFFFFF;">阅读原文</a>');
+                                    body.append(view_source);
+                                }
+                            });
+                        }*/
+
                     }]
                   }
                 }
-              })
-          }]), angular.bootstrap(document, ["webwxApp"])
-      }()
-  }
-  , function(e, exports) {
-    ! function() {
-      "use strict";
-      location.href.indexOf("dev.web") < 0 ? angular.module("exceptionOverride", [])
-        .factory("$exceptionHandler", [function() {
-          return function(e, t) {
-            throw window._errorHandler && window._errorHandler(e), e
+              });
           }
-        }]) : angular.module("exceptionOverride", []), angular.module("Controllers")
-        .controller("appController", ["$rootScope", "$scope", "$timeout", "$log", "$state", "$window", "ngDialog", "mmpop", "appFactory", "loginFactory", "contactFactory", "accountFactory", "chatFactory", "confFactory", "contextMenuFactory"
-          , "notificationFactory", "utilFactory", "reportService", "monitorService", "actionTrack", "surviveCheckService", "subscribeMsgService", "stateManageService"
-          , function(e, t, a, n, i, o, r, c, s, l, d, f, u, m, g, p, h, M, v, y, b, C, w) {
-            function S() {
-              return d.pickContacts(["friend", "chatroom"], {
+        ]);
+      angular.bootstrap(document, ['webwxApp']);
+    })();
+
+    /***/
+  })
+  , /* 275 */
+  /***/
+  (function(module, exports) {
+
+    (function() {
+      'use strict';
+
+      if (location.href.indexOf('dev.web') < 0) {
+        angular.module('exceptionOverride', [])
+          .factory('$exceptionHandler', [function() {
+            return function(exception, cause) {
+              //exception.message += ' (caused by "' + cause + '")';
+              window._errorHandler && window._errorHandler(exception);
+              console.log(exception);
+              throw exception;
+            };
+          }]);
+      } else {
+        angular.module('exceptionOverride', []);
+      }
+
+      /* Controllers */
+      angular.module('Controllers')
+        .controller('appController', [
+          '$rootScope'
+          , '$scope'
+          , '$timeout'
+          , '$log'
+          , '$state'
+          , '$window'
+          , 'ngDialog'
+          , 'mmpop'
+          , 'appFactory'
+          , 'loginFactory'
+          , 'contactFactory'
+          , 'accountFactory'
+          , 'chatFactory'
+          , 'confFactory'
+          , 'contextMenuFactory'
+          , 'notificationFactory'
+          , 'utilFactory'
+          , 'reportService'
+          , 'monitorService'
+          , 'actionTrack'
+          , 'surviveCheckService'
+          , 'subscribeMsgService'
+          , 'stateManageService'
+          , function($rootScope, $scope, $timeout, $log, $state, $window
+            , ngDialog, mmpop, appFactory, loginFactory
+            , contactFactory, accountFactory, chatFactory
+            , confFactory, contextMenuFactory, notificationFactory, utilFactory, reportService, monitorService, actionTrack, surviveCheckService, subscribeMsgService, stateManageService) {
+
+            if (Math.floor(Math.random() * 100) == 1) {
+              monitorService.report(monitorService.PV, 1);
+            }
+            // window.addEventListener('error', function() {
+            //     monitorService.report(monitorService.EXCEPTION_COUNT, 1, 30000);
+            // }, false);
+
+            var appTiming = window._appTiming = {};
+            $state.go('chat');
+            $rootScope.CONF = confFactory;
+
+            // export isUnLogin and CONF to scope
+            $scope.isUnLogin = !window.MMCgi.isLogin;
+            $scope.debug = true;
+            $scope.isShowReader = /qq\.com/gi.test(location.href) && !confFactory.isClientVersion;
+
+            var _rChatList = [];
+
+            //缩放检测
+            //$scope.isZoom = detectZoom.zoom() != 1;
+            //console.log('是否缩放', $scope.isZoom);
+
+            // if user is already login， then call pageInit directly
+            if (window.MMCgi.isLogin) {
+              pageInit();
+            }
+
+            // accountFactory.setPassticket(utilFactory.getCookie('webwx_data_ticket'));
+
+
+            // listen event `newLoginPage`
+            $scope.$on('newLoginPage', function(e, data) {
+              console.log('newLoginPage', data);
+              accountFactory.setSkey(data.SKey);
+              accountFactory.setSid(data.Sid);
+              accountFactory.setUin(data.Uin);
+              accountFactory.setPassticket(data.Passticket);
+              pageInit();
+              updateAssociation(data.Uin);
+            });
+
+            var searchTimer, searchList;
+
+            function _pickContact() {
+              return contactFactory.pickContacts(['friend', 'chatroom' /*,brand*/ ], {
                   chatroom: {
-                    keyword: t.keyword
-                    , isNewArray: !0
+                    keyword: $scope.keyword
+                    , isNewArray: true
                   }
                   , friend: {
-                    keyword: t.keyword
-                    , isNewArray: !0
-                    , isWithoutBrand: !0
-                    , showFriendHeader: !0
+                    keyword: $scope.keyword
+                    , isNewArray: true
+                    , isWithoutBrand: true
+                    , showFriendHeader: true
                   }
-                }, !0)
-                .result
+                  /*,
+                  	                 brand:{
+                  	                 keyword:$scope.keyword,
+                  	                 isNewArray:true
+                  	                 }*/
+                }, true)
+                .result;
             }
+            $scope.search = function(e) {
+              if (searchTimer) {
+                $timeout.cancel(searchTimer);
+              }
+              searchTimer = $timeout(function() {
+                if (!$scope.keyword) {
+                  searchList && searchList.close();
+                  return;
+                }
+                searchList && searchList.close();
+                searchList = mmpop.open({
+                  templateUrl: "searchList.html"
+                  , //templateUrl:"searchList.html",
+                  controller: ['$rootScope', '$scope', '$state', function($rootScope, scope, $state) {
+                    scope.$watch(function() {
+                      return contactFactory.contactChangeFlag;
+                    }, function(newValue) {
+                      scope.allContacts.length = 0;
+                      scope.allContacts.push.apply(scope.allContacts, _pickContact());
 
-            function T() {
-              var e = F;
-              e && setTimeout(function() {
-                var t = (e[0].clientHeight - e.find(".ngdialog-content")
-                  .height()) / 2;
-                e.css("paddingTop", t)
-              }, 20)
-            }
+                      /*{
+                       text:_("59d29a3"),
+                       type:'header'
+                       }*/
+                      /*contactFactory.remoteSearch($scope.keyword).then(function(result){
+	                                if(result.length > 0){
+	                                    scope.allContacts.push({
+	                                        text:_("59d29a3"),
+	                                        type:'header'
+	                                    })
+	                                    scope.allContacts.push.apply(scope.allContacts,result);
+	                                }
+	
+	                            })*/
 
-            function N() {
-              t.isLoaded = !0, t.isUnLogin = !1, M.report(M.ReportType.timing, {
-                  timing: {
-                    initStart: Date.now()
-                  }
-                }), s.init()
-                .then(function(n) {
-                  if (h.log("initData", n), n.BaseResponse && "0" != n.BaseResponse.Ret) return void(l.timeoutDetect(n.BaseResponse.Ret) || (r.openConfirm({
-                    className: "default "
-                    , templateUrl: "comfirmTips.html"
-                    , controller: ["$scope", function(e) {
-                      e.title = _("02d9819"), e.content = _("0d2fc2c"), M.report(M.ReportType.initError, {
-                        text: "程序初始化失败，点击确认刷新页面"
-                        , code: n.BaseResponse.Ret
-                        , cookie: document.cookie
-                      }), e.callback = function() {
-                        document.location.reload(!0)
-                      }
-                    }]
-                  }), v.report(v.INIT_EXCEPTION_COUNT, 1)));
-                  f.setLoginTime((new Date)
-                      .getTime()), f.setUserInfo(n.User), f.setSkey(n.SKey), f.setSyncKey(n.SyncKey), d.addContact(n.User), d.addContacts(n.ContactList), u.initChatList(n.ChatSet), u.notifyMobile(f.getUserName(), m.StatusNotifyCode_INITED)
-                    , C.init(n.MPSubscribeMsgList), e.$broadcast("root:pageInit:success"), h.setCheckUrl(f), h.log("getUserInfo", f.getUserInfo()), t.$broadcast("updateUser"), M.report(M.ReportType.timing, {
-                      timing: {
-                        initEnd: Date.now()
-                      }
                     });
-                  var i = n.ClickReportInterval || 3e5;
-                  setTimeout(function e() {
-                    y.report(), setTimeout(e, i)
-                  }, i), a(function() {
-                    function e(a) {
-                      d.initContact(a)
-                        .then(function(a) {
-                          d.addContacts(a.MemberList), M.report(M.ReportType.timing, {
-                            timing: {
-                              initContactEnd: Date.now()
-                            }
-                            , needSend: !0
-                          }), t <= 16 && a.Seq && 0 != a.Seq && (t++, e(a.Seq))
-                        })
+                    scope.clickUserCallback = function(contact) {
+                      if (!contact.UserName) return;
+
+                      $state.go('chat', {
+                        userName: contact.UserName
+                      });
+                      scope.closeThisMmPop();
+                      $rootScope.$broadcast('root:searchList:cleanKeyWord');
+                    };
+                  }]
+                  , scope: {
+                    keyword: $scope.keyword
+                    , allContacts: _pickContact(), // searchListDirect需要用到
+                    heightCalc: function(item) {
+                      if (item.type === 'header') {
+                        return 31;
+                      } else {
+                        return 60;
+                      }
                     }
-                    M.report(M.ReportType.timing, {
+                  }
+                  , className: "recommendation"
+                  , autoFoucs: false
+                  , container: angular.element(document.querySelector('#search_bar'))
+                });
+              }, 200);
+            };
+            $scope.searchKeydown = function(e) {
+              switch (e.keyCode) {
+                case confFactory.KEYCODE_ARROW_UP:
+                  searchList && searchList.isOpen() && $rootScope.$broadcast("root:searchList:keyArrowUp");
+                  e.preventDefault();
+                  e.stopPropagation();
+                  break;
+                case confFactory.KEYCODE_ARROW_DOWN:
+                  searchList && searchList.isOpen() && $rootScope.$broadcast("root:searchList:keyArrowDown");
+                  e.preventDefault();
+                  e.stopPropagation();
+                  break;
+                case confFactory.KEYCODE_ENTER:
+                  searchList && searchList.isOpen() && $rootScope.$broadcast("root:searchList:keyEnter");
+                  e.preventDefault();
+                  e.stopPropagation();
+                  break;
+              }
+            };
+            $scope.$on('root:searchList:cleanKeyWord', function(e) {
+              $scope.keyword = '';
+            });
+
+            // dialog垂直居中处理
+            var dialog;
+
+            function resetDialogPosition() {
+              var el = dialog;
+              if (!el) return;
+              setTimeout(function() {
+                var pt = (el[0].clientHeight - el.find('.ngdialog-content')
+                  .height()) / 2;
+                el.css('paddingTop', pt);
+              }, 20);
+            }
+            $scope.$on('ngDialog.opened', function(e, el) {
+              stateManageService.change('dialog:open', true);
+              dialog = el;
+              resetDialogPosition();
+              //console.log(e,el.find('.ngdialog-content').height());
+            });
+            $scope.$on('ngDialog.closed', function(e, el) {
+              stateManageService.change('dialog:open', false);
+              dialog = null;
+            });
+            $(window)
+              .on('resize', function(e) {
+                resetDialogPosition();
+                $scope.$broadcast('app:contextMenu:hide', e);
+                $scope.$digest();
+              });
+            // end
+
+
+            // `body` element click event, hide context menu
+            $scope.appClick = function(e) {
+              //console.log(e);
+              $scope.$broadcast("app:contextMenu:hide", e);
+            };
+
+            var $body = $(document.body);
+            var lastenter;
+            $body.on('dragenter', function(e) {
+              var event = e.originalEvent;
+              lastenter = event.target;
+              event.dataTransfer.dropEffect = 'none';
+              $body.addClass('drop-enter');
+              event.stopPropagation();
+              event.preventDefault();
+            })
+            $body.on('dragleave', function(e) {
+              var event = e.originalEvent;
+              event.dataTransfer.dropEffect = 'none';
+              if (lastenter === event.target) {
+                $body.removeClass('drop-enter');
+              }
+              event.stopPropagation();
+              event.preventDefault();
+            })
+            $body.on('dragover', function(e) {
+              var event = e.originalEvent;
+              event.dataTransfer.dropEffect = 'none';
+              event.stopPropagation();
+              event.preventDefault();
+            })
+            $body.on('drop', function(e) {
+              var event = e.originalEvent;
+              event.dataTransfer.dropEffect = 'none';
+              event.stopPropagation();
+              event.preventDefault();
+            })
+
+
+            // show context menu
+            $scope.showContextMenu = function(e) {
+              //contextMenuFactory.setContextMenuEvent(e);
+              $scope.$broadcast("app:contextMenu:show", e);
+            };
+
+            // show system menu
+            $scope.toggleSystemMenu = function(e) {
+              mmpop.toggleOpen({
+                templateUrl: "systemMenu.html"
+                , //templateUrl:"systemMenu.html",
+                top: 60
+                , left: 85
+                , container: angular.element(document.querySelector('.panel'))
+                , controller: 'systemMenuController'
+                , singletonId: 'mmpop_system_menu'
+                , className: "system_menu"
+              });
+            };
+
+            /**
+             * show contact profile
+             */
+            $scope.showProfile = function(e) {
+              if (!$scope.account) {
+                return;
+              }
+              var contact = $scope.account;
+              var top = e.pageY + 25;
+              var left = e.pageX + 6;
+
+              mmpop.open({
+                templateUrl: 'profile_mini.html'
+                , //templateUrl:'profile_mini.html',
+                className: 'profile_mini_wrap scale-fade'
+                , top: top
+                , left: left
+                , blurClose: true
+                , singletonId: 'mmpop_profile'
+                , controller: ["$scope", function(scope) {
+                  scope.contact = contact;
+                  scope.addUserContent = '';
+                  scope.isShowSendBox = false;
+                  scope.chat = function(userName) {
+                    $state.go('chat', {
+                      userName: userName
+                    });
+                    scope.closeThisMmPop();
+                  };
+                }]
+              });
+            };
+
+            $scope.dblclickChat = function() {
+              $scope.$broadcast("app:chat:dblclick");
+            };
+
+            $scope.requestPermission = function() {
+              notificationFactory.requestPermission(function() {
+                utilFactory.log('请求权限了...')
+              });
+            };
+
+            // page init method
+            function pageInit() {
+              // set isLoaded and isUnLogin variable
+              $scope.isLoaded = true;
+              $scope.isUnLogin = false;
+              reportService.report(reportService.ReportType.timing, {
+                timing: {
+                  initStart: Date.now()
+                }
+              });
+
+
+              // get data from server for the first time
+              appFactory.init()
+                .then(function(data) {
+                  utilFactory.log('initData', data);
+                  if (data.BaseResponse && data.BaseResponse.Ret != "0") {
+                    console.log("BaseResponse.Ret", data.BaseResponse.Ret);
+                    if (!loginFactory.timeoutDetect(data.BaseResponse.Ret)) {
+                      ngDialog.openConfirm({
+                        className: 'default '
+                        , templateUrl: 'comfirmTips.html'
+                        , controller: ['$scope', function(scope) {
+                          scope.title = _("02d9819");
+                          scope.content = _("0d2fc2c");
+                          reportService.report(reportService.ReportType.initError, {
+                            text: '程序初始化失败，点击确认刷新页面'
+                            , code: data.BaseResponse.Ret
+                            , cookie: document.cookie
+                          });
+                          scope.callback = function() {
+                            //utilFactory.clearCookie();
+                            document.location.reload(true);
+                          };
+                        }]
+                      });
+                      // 上报初始化失败
+                      monitorService.report(monitorService.INIT_EXCEPTION_COUNT, 1);
+                    }
+                    return;
+                  } else {
+                    /*   // 非白名单用户跳回旧版
+                       if(data.GrayScale != 1){
+                           window.onbeforeunload = null;
+                           document.location.href = location.protocol + '//' + location.host + '?lang=' + confFactory.LANG;
+                       }*/
+                  }
+
+                  // 记录登录时间
+                  accountFactory.setLoginTime(new Date()
+                    .getTime());
+
+                  // set user information
+                  accountFactory.setUserInfo(data.User);
+
+                  // set sKey
+                  accountFactory.setSkey(data.SKey);
+
+                  // set syncKey
+                  accountFactory.setSyncKey(data.SyncKey);
+
+                  // add myself
+                  contactFactory.addContact(data.User);
+
+                  // add top 10 Contacts
+                  contactFactory.addContacts(data.ContactList);
+
+                  // add chat list
+                  //chatFactory.addChatList(data.ContactList);
+                  chatFactory.initChatList(data.ChatSet);
+
+                  //sync mobile chatList
+                  chatFactory.notifyMobile(accountFactory.getUserName(), confFactory.StatusNotifyCode_INITED);
+
+                  subscribeMsgService.init(data.MPSubscribeMsgList);
+
+                  $rootScope.$broadcast("root:pageInit:success");
+                  utilFactory.setCheckUrl(accountFactory);
+                  utilFactory.log('getUserInfo', accountFactory.getUserInfo());
+
+                  $scope.$broadcast("updateUser");
+
+                  reportService.report(reportService.ReportType.timing, {
+                    timing: {
+                      initEnd: Date.now()
+                    }
+                  });
+
+
+
+                  var trackTimeOut = data.ClickReportInterval || 1000 * 60 * 5;
+                  setTimeout(function reportTrack() {
+                    actionTrack.report();
+                    setTimeout(reportTrack, trackTimeOut);
+                  }, trackTimeOut);
+
+
+                  // init all Contacts
+                  $timeout(function() {
+                    reportService.report(reportService.ReportType.timing, {
                       timing: {
                         initContactStart: Date.now()
                       }
                     });
-                    var t = 1;
-                    e(0)
-                  }, 0), t.account = d.getContact(f.getUserName()), E()
-                }), h.browser.chrome && (window.onbeforeunload = function(e) {
-                  return e = e || window.event, e && (e.returnValue = "关闭浏览器聊天内容将会丢失。"), setTimeout(function() {
-                    var e = (new Date)
-                      .getTime() - f.getLoginTime();
-                    M.report(M.ReportType.sessionData, {
-                      uin: f.getUin()
-                      , browser: navigator.userAgent
-                      , rmsg: f.getRMsgCount()
-                      , rconv: f.getRConvCount()
-                      , smsg: f.getSMsgCount()
-                      , sconv: f.getSConvCount()
-                      , lifetime: e
-                    }, !0)
-                  }, 0), "关闭浏览器聊天内容将会丢失。"
-                })
-            }
 
-            function E() {
-              t.debug && (D && a.cancel(D), b.start(4e4), D = a(function() {
-                s.syncCheck()
-                  .then(function(e) {
-                    return b.start(5e3), e
-                  }, function(e) {
-                    return b.start(2e3), e
-                  })
-                  .then(G, k)
-              }, m.TIMEOUT_SYNC_CHECK))
-            }
+                    var count = 1;
 
-            function G(e) {
-              h.log("syncCheckHasChange", e);
-              try {
-                f.setSyncKey(e.SyncKey), f.setSyncCheckKey(e.SyncCheckKey), f.updateUserInfo(e.Profile, function() {}), angular.forEach(e.DelContactList, function(e, t) {
-                  u.deleteChatList(e.UserName), u.deleteChatMessage(e.UserName), d.deleteContact(e), u.getCurrentUserName() == e.UserName && u.setCurrentUserName("")
-                }), angular.forEach(e.ModContactList, function(e, t) {
-                  d.addContact(e)
-                }), angular.forEach(e.AddMsgList, function(e, t) {
-                  if (u.messageProcess(e), e.FromUserName != f.getUserName()) {
-                    f.setRMsgCount(f.getRMsgCount() + 1);
-                    var t = P.indexOf(e.FromUserName);
-                    t == -1 && (f.setRConvCount(f.getRConvCount() + 1), P.push(e.FromUserName))
+                    function next(seq) {
+                      contactFactory.initContact(seq)
+                        .then(function(data) {
+                          //console.log('initContact',data.MemberList.length);
+                          contactFactory.addContacts(data.MemberList);
+
+                          reportService.report(reportService.ReportType.timing, {
+                            timing: {
+                              initContactEnd: Date.now()
+                            }
+                            , needSend: true
+                          });
+
+                          if (count <= 16 && data.Seq && data.Seq != 0) {
+                            count++;
+                            next(data.Seq);
+                          }
+                        });
+                    }
+
+                    next(0);
+                  }, 0);
+
+                  $scope.account = contactFactory.getContact(accountFactory.getUserName());
+                  //drawChatBackgroundImage($scope.account.HeadImgUrl);
+
+                  checkMessage();
+                });
+
+
+              if (utilFactory.browser.chrome /*&& !MMDEV*/ ) {
+                window.onbeforeunload = function(e) {
+                  e = e || window.event;
+                  if (e) {
+                    e.returnValue = '关闭浏览器聊天内容将会丢失。';
                   }
-                })
+
+                  setTimeout(function() {
+                    // report session data
+                    console.time('report');
+                    var stayTime = new Date()
+                      .getTime() - accountFactory.getLoginTime();
+                    reportService.report(reportService.ReportType.sessionData, {
+                      uin: accountFactory.getUin()
+                      , browser: navigator.userAgent
+                      , rmsg: accountFactory.getRMsgCount()
+                      , rconv: accountFactory.getRConvCount()
+                      , smsg: accountFactory.getSMsgCount()
+                      , sconv: accountFactory.getSConvCount()
+                      , lifetime: stayTime
+                    }, true);
+                  }, 0);
+
+                  return '关闭浏览器聊天内容将会丢失。';
+                }
+              }
+            }
+            surviveCheckService.callback(checkMessage);
+            // start to polling data from server....
+            var syncCheckTimer;
+            var syncNeverStopTimer;
+
+            function checkMessage() {
+              if (!$scope.debug) {
+                return;
+              }
+              syncCheckTimer && $timeout.cancel(syncCheckTimer);
+              // syncNeverStopTimer && $timeout.cancel(syncNeverStopTimer);
+              surviveCheckService.start(40000);
+              syncCheckTimer = $timeout(function() {
+                /*  syncNeverStopTimer = setTimeout(function(){
+                      checkMessage ();
+                  },5000);*/
+                appFactory.syncCheck()
+                  .then(function(result) {
+                      surviveCheckService.start(5000);
+                      return result
+                    }
+                    , function(e) {
+                      surviveCheckService.start(2000);
+                      return e;
+                    })
+                  .then(syncCheckHasChange
+                    , syncCheckNoChange);
+              }, confFactory.TIMEOUT_SYNC_CHECK);
+            }
+
+            //polling some data from server and then handle data, and start next polling...
+
+            /**
+             * data contains :
+             * - 添加消息数`AddMsgCount`、消息内容`AddMsgList`
+             * - 修改联系人的列表的总数`ModContactCount`、修改联系人的列表`ModContactList`
+             * - 删除联系人的列表总数`DelContactCount`、删除联系人的列表`DelContactList`
+             * - 群成员信息变动总数`ModChatRoomMemberCount`、群成员信息变动`ModChatRoomMemberList`
+             * @param data
+             */
+            function syncCheckHasChange(data) {
+              utilFactory.log('syncCheckHasChange', data);
+              try {
+                accountFactory.setSyncKey(data.SyncKey);
+                accountFactory.setSyncCheckKey(data.SyncCheckKey);
+                //modify account info
+                accountFactory.updateUserInfo(data.Profile, function() {
+                  //redraw account headImg
+                  //drawChatBackgroundImage(accountFactory.getUserInfo().HeadImgUrl);
+                });
+                //delete contacts
+                angular.forEach(data.DelContactList, function(contact, index) {
+                  chatFactory.deleteChatList(contact.UserName);
+                  chatFactory.deleteChatMessage(contact.UserName);
+                  contactFactory.deleteContact(contact);
+                  if (chatFactory.getCurrentUserName() == contact.UserName) {
+                    chatFactory.setCurrentUserName('');
+                  }
+                  console.log('DelContactList', data.DelContactList);
+                });
+                //modify contacts
+                angular.forEach(data.ModContactList, function(contact, index) {
+                  contactFactory.addContact(contact);
+                  console.log('ModContactList', data.ModContactList);
+                });
+                //add message
+                angular.forEach(data.AddMsgList, function(message, index) {
+                  chatFactory.messageProcess(message);
+
+                  // 如果发送者是自己，就不统计
+
+                  if (message.FromUserName == accountFactory.getUserName()) {
+                    return;
+                  }
+
+                  // 记录收消息数
+                  accountFactory.setRMsgCount(accountFactory.getRMsgCount() + 1);
+
+                  // 记录收会话数量
+                  var index = _rChatList.indexOf(message.FromUserName);
+                  if (index == -1) {
+                    accountFactory.setRConvCount(accountFactory.getRConvCount() + 1);
+                    _rChatList.push(message.FromUserName);
+                  }
+                });
+
               } catch (e) {
                 e.other = {
-                  reason: "throw err when syncChackHasChange"
-                }, window._errorHandler && window._errorHandler(e)
+                  reason: 'throw err when syncChackHasChange'
+                };
+                window._errorHandler && window._errorHandler(e);
               } finally {
-                E()
+                checkMessage();
               }
+
+
             }
 
-            function k(e) {
-              E()
+            // polling no data from server and then start next polling...
+            function syncCheckNoChange(data) {
+              //console.log('syncCheckNoChange',data);
+              checkMessage();
             }
 
-            function I(e) {
-              var t = h.getCookie("last_wxuin") || ""
-                , a = parseInt(h.getCookie("login_frequency") || 1);
-              t !== e ? a = 1 : a += 1, h.setCookie("login_frequency", a, 2), h.setCookie("last_wxuin", e, 2), h.getLocalStorage()
-                .setItem("userAvatar", window.userAvatar)
-            }
-            1 == Math.floor(100 * Math.random()) && v.report(v.PV, 1);
-            window._appTiming = {};
-            i.go("chat"), e.CONF = m, t.isUnLogin = !window.MMCgi.isLogin, t.debug = !0, t.isShowReader = /qq\.com/gi.test(location.href) && !m.isClientVersion;
-            var P = [];
-            window.MMCgi.isLogin && N(), t.$on("newLoginPage", function(e, t) {
-              f.setSkey(t.SKey), f.setSid(t.Sid), f.setUin(t.Uin), f.setPassticket(t.Passticket), N(), I(t.Uin)
-            });
-            var A, U;
-            t.search = function(e) {
-              A && a.cancel(A), A = a(function() {
-                return t.keyword ? (U && U.close(), void(U = c.open({
-                  templateUrl: "searchList.html"
-                  , controller: ["$rootScope", "$scope", "$state", function(e, t, a) {
-                    t.$watch(function() {
-                      return d.contactChangeFlag
-                    }, function(e) {
-                      t.allContacts.length = 0, t.allContacts.push.apply(t.allContacts, S())
-                    }), t.clickUserCallback = function(n) {
-                      n.UserName && (a.go("chat", {
-                        userName: n.UserName
-                      }), t.closeThisMmPop(), e.$broadcast("root:searchList:cleanKeyWord"))
-                    }
-                  }]
-                  , scope: {
-                    keyword: t.keyword
-                    , allContacts: S()
-                    , heightCalc: function(e) {
-                      return "header" === e.type ? 31 : 60
-                    }
+            function drawChatBackgroundImage(headImgUrl) {
+              // Change this value to adjust the amount of blur
+              var BLUR_RADIUS = 100;
+
+              var canvas = document.getElementById("heroCanvas");
+              if (!canvas || !canvas.getContext) return;
+
+              var canvasContext = canvas.getContext('2d');
+              var image = new Image();
+              image.src = headImgUrl;
+
+              image.onload = function() {
+                var w = canvas.width;
+                var h = canvas.height;
+                canvasContext.drawImage(image, 0, 0, w, h);
+
+                // 灰度
+                var pixels = canvasContext.getImageData(0, 0, w, h);
+                for (var y = 0; y < pixels.height; y++) {
+                  for (var x = 0; x < pixels.width; x++) {
+                    var i = y * 4 * pixels.width + x * 4;
+                    var avg = (pixels.data[i] + pixels.data[i + 1] + pixels.data[i + 2]) / 3;
+                    pixels.data[i] = avg;
+                    pixels.data[i + 1] = avg;
+                    pixels.data[i + 2] = avg;
                   }
-                  , className: "recommendation"
-                  , autoFoucs: !1
-                  , container: angular.element(document.querySelector("#search_bar"))
-                }))) : void(U && U.close())
-              }, 200)
-            }, t.searchKeydown = function(t) {
-              switch (t.keyCode) {
-                case m.KEYCODE_ARROW_UP:
-                  U && U.isOpen() && e.$broadcast("root:searchList:keyArrowUp"), t.preventDefault(), t.stopPropagation();
-                  break;
-                case m.KEYCODE_ARROW_DOWN:
-                  U && U.isOpen() && e.$broadcast("root:searchList:keyArrowDown"), t.preventDefault(), t.stopPropagation();
-                  break;
-                case m.KEYCODE_ENTER:
-                  U && U.isOpen() && e.$broadcast("root:searchList:keyEnter"), t.preventDefault(), t.stopPropagation()
-              }
-            }, t.$on("root:searchList:cleanKeyWord", function(e) {
-              t.keyword = ""
-            });
-            var F;
-            t.$on("ngDialog.opened", function(e, t) {
-                w.change("dialog:open", !0), F = t, T()
-              }), t.$on("ngDialog.closed", function(e, t) {
-                w.change("dialog:open", !1), F = null
-              }), $(window)
-              .on("resize", function(e) {
-                T(), t.$broadcast("app:contextMenu:hide", e), t.$digest()
-              }), t.appClick = function(e) {
-                t.$broadcast("app:contextMenu:hide", e)
+                }
+                canvasContext.putImageData(pixels, 0, 0, 0, 0, pixels.width, pixels.height);
+
+                // 毛玻璃
+                stackBlurCanvasRGBA('heroCanvas', 0, 0, w, h, BLUR_RADIUS);
+
+                canvasContext.fillStyle = 'rgba(0, 0, 0, .35)';
+                canvasContext.fillRect(0, 0, w, h);
               };
-            var V, x = $(document.body);
-            x.on("dragenter", function(e) {
-              var t = e.originalEvent;
-              V = t.target, t.dataTransfer.dropEffect = "none", x.addClass("drop-enter"), t.stopPropagation(), t.preventDefault()
-            }), x.on("dragleave", function(e) {
-              var t = e.originalEvent;
-              t.dataTransfer.dropEffect = "none", V === t.target && x.removeClass("drop-enter"), t.stopPropagation(), t.preventDefault()
-            }), x.on("dragover", function(e) {
-              var t = e.originalEvent;
-              t.dataTransfer.dropEffect = "none", t.stopPropagation(), t.preventDefault()
-            }), x.on("drop", function(e) {
-              var t = e.originalEvent;
-              t.dataTransfer.dropEffect = "none", t.stopPropagation(), t.preventDefault()
-            }), t.showContextMenu = function(e) {
-              t.$broadcast("app:contextMenu:show", e)
-            }, t.toggleSystemMenu = function(e) {
-              c.toggleOpen({
-                templateUrl: "systemMenu.html"
-                , top: 60
-                , left: 85
-                , container: angular.element(document.querySelector(".panel"))
-                , controller: "systemMenuController"
-                , singletonId: "mmpop_system_menu"
-                , className: "system_menu"
-              })
-            }, t.showProfile = function(e) {
-              if (t.account) {
-                var a = t.account
-                  , n = e.pageY + 25
-                  , o = e.pageX + 6;
-                c.open({
-                  templateUrl: "profile_mini.html"
-                  , className: "profile_mini_wrap scale-fade"
-                  , top: n
-                  , left: o
-                  , blurClose: !0
-                  , singletonId: "mmpop_profile"
-                  , controller: ["$scope", function(e) {
-                    e.contact = a, e.addUserContent = "", e.isShowSendBox = !1, e.chat = function(t) {
-                      i.go("chat", {
-                        userName: t
-                      }), e.closeThisMmPop()
-                    }
-                  }]
-                })
-              }
-            }, t.dblclickChat = function() {
-              t.$broadcast("app:chat:dblclick")
-            }, t.requestPermission = function() {
-              p.requestPermission(function() {
-                h.log("请求权限了...")
-              })
-            }, b.callback(E);
-            var D;
-            t.isIPad = h.isIPad, t.isMacOS = h.isMacOS, t.isWindows = h.isWindows, t.showDownloadEntry = t.isMacOS || t.isWindows, t.closeDownloadEntry = function() {
-              t.showDownloadEntry = !1, M.report(M.ReportType.click2CloseAd, {
-                  count: 1
-                }), (new Image)
-                .src = "https://support.weixin.qq.com/cgi-bin/mmsupport-bin/reportforweb?rid=69373&rkey=17&rvalue=1"
-            }, t.clickAndClose = function() {
-              M.report(M.ReportType.clickAndCloseAd, {
-                  count: 1
-                }), (new Image)
-                .src = "https://support.weixin.qq.com/cgi-bin/mmsupport-bin/reportforweb?rid=69373&rkey=16&rvalue=1"
             }
+
+            // 记录上次登录的uin，连续登录两次后，第三次启用关联登录
+            function updateAssociation(uin) {
+              var lastUin = utilFactory.getCookie('last_wxuin') || '';
+              var frequency = parseInt(utilFactory.getCookie('login_frequency') || 1);
+              // 如果本次登录的用户和上次登录的不同，就重置关联登录条件的次数
+              if (lastUin !== uin) {
+                frequency = 1;
+              } else {
+                frequency += 1;
+              }
+              console.log('updateAssociation: ', lastUin, frequency);
+              utilFactory.setCookie('login_frequency', frequency, 2);
+              utilFactory.setCookie('last_wxuin', uin, 2);
+              utilFactory.getLocalStorage()
+                .setItem('userAvatar', window.userAvatar);
+            }
+
+            $scope.isIPad = utilFactory.isIPad;
+            $scope.isMacOS = utilFactory.isMacOS;
+            $scope.isWindows = utilFactory.isWindows;
+
+            $scope.showDownloadEntry = $scope.isMacOS || $scope.isWindows;
+
+            $scope.closeDownloadEntry = function() {
+              $scope.showDownloadEntry = false;
+              reportService.report(reportService.ReportType.click2CloseAd, {
+                count: 1
+              });
+              new Image()
+                .src = "https://support.weixin.qq.com/cgi-bin/mmsupport-bin/reportforweb?rid=69373&rkey=17&rvalue=1";
+            };
+            $scope.clickAndClose = function() {
+              reportService.report(reportService.ReportType.clickAndCloseAd, {
+                count: 1
+              });
+              new Image()
+                .src = "https://support.weixin.qq.com/cgi-bin/mmsupport-bin/reportforweb?rid=69373&rkey=16&rvalue=1";
+            };
+
           }
-        ])
-    }()
-  }
-  , function(e, exports) {
-    ! function() {
-      "use strict";
-      angular.module("Controllers")
-        .controller("loginController", ["$scope", "loginFactory", "utilFactory", "reportService", "monitorService", "confFactory", function(e, t, a, n, i, o) {
-          function r(o) {
-            switch (o.code) {
+        ]);
+    })();
+
+
+    /***/
+  })
+  , /* 276 */
+  /***/
+  (function(module, exports) {
+
+    (function() {
+      'use strict';
+
+      /* Controllers */
+
+      angular.module('Controllers')
+        .controller('loginController', ['$scope', 'loginFactory', 'utilFactory', 'reportService', 'monitorService', 'confFactory', function($scope, loginFactory, utilFactory, reportService, monitorService, confFactory) {
+          $('.lang .lang-item')
+            .click(function(e) {
+              $('script')
+                .remove();
+              location.href = e.target.href;
+              e.preventDefault();
+            })
+
+          if (window.MMCgi.isLogin) {
+            return;
+          }
+
+          $scope.isAssociationLogin = parseInt(utilFactory.getCookie('login_frequency') || 0) >= 2;
+          $scope.isWaitingAsConfirm = false;
+          $scope.isNeedRefresh = false;
+          $scope.isRotateLoading = false;
+          $scope.isBrokenNetwork = false; // 是否断网
+          $scope.isClientVersion = confFactory.isClientVersion;
+          var timeout;
+
+          if ($scope.isAssociationLogin) {
+            $scope.userAvatar = utilFactory.getLocalStorage()
+              .getItem('userAvatar');
+          }
+
+          $scope.showPrivacyTips = /wechat\.com/gi.test(location.host);
+
+          /**
+           * 关联登录
+           */
+          $scope.associationLogin = function() {
+            var uin = utilFactory.getCookie('last_wxuin');
+            $scope.isWaitingAsConfirm = true;
+            loginFactory.associationLogin(uin)
+              .then(function(res) {
+                console.log('associationLogin reponse: ', res);
+                $scope.uuid = res.uuid;
+                doAssociationLogin();
+              }, function(data) {
+                if (!data) {
+                  $scope.isBrokenNetwork = true;
+                } else {
+                  // 请求失败，转向二维码登录
+                  $scope.isAssociationLogin = false;
+                  utilFactory.setCookie('login_frequency', 0, 2);
+                  doQrcodeLogin();
+                  // 上报关联登录失败次数
+                  monitorService.report(monitorService.ASSOCIATION_AUTH_FAIL_COUNT, 1);
+                }
+              });
+            timeout && clearTimeout(timeout);
+            // 上报关联登录次数
+            monitorService.report(monitorService.ASSOCIATION_AUTH_COUNT, 1);
+          };
+
+          /**
+           * 二维码登录
+           */
+          $scope.qrcodeLogin = function() {
+            // 防止连续点
+            if (!$scope.isAssociationLogin) {
+              return;
+            }
+            $scope.isAssociationLogin = false;
+            utilFactory.setCookie('login_frequency', 0, 2);
+
+            // 终止轮询
+            if (window.checkLoginPromise) {
+              window.checkLoginPromise.abort();
+              window.checkLoginPromise = null;
+            }
+
+            doQrcodeLogin();
+          };
+
+          /**
+           * refreshQrcode
+           */
+          $scope.refreshQrcode = function() {
+            $scope.isRotateLoading = true;
+            setTimeout(function() {
+              doQrcodeLogin();
+              $scope.isRotateLoading = false;
+              $scope.isNeedRefresh = false;
+            }, 1200);
+          };
+
+          $scope.reloadQrcode = function() {
+            doQrcodeLogin();
+            $scope.isBrokenNetwork = false;
+          };
+
+
+
+          $scope.qrcodeException = function() {
+            monitorService.report(monitorService.QRCODE_EXCEPTION_COUNT, 1);
+          };
+
+          /**
+           * polling
+           * @param data
+           */
+          function checkLoginHandler(data) {
+            /**
+             * code：
+             *      200: 成功
+             *      201：扫描成功，但未点确认
+             *      408：未扫描
+             *      400：未知
+             *      500： login poll srv exception
+             *
+             */
+            switch (data.code) {
               case 200:
-                t.newLoginPage(o.redirect_uri)
-                  .then(function(t) {
-                    var o = t.match(/<ret>(.*)<\/ret>/)
-                      , r = t.match(/<script>(.*)<\/script>/)
-                      , c = t.match(/<skey>(.*)<\/skey>/)
-                      , s = t.match(/<wxsid>(.*)<\/wxsid>/)
-                      , l = t.match(/<wxuin>(.*)<\/wxuin>/)
-                      , d = t.match(/<pass_ticket>(.*)<\/pass_ticket>/)
-                      , f = t.match(/<message>(.*)<\/message>/)
-                      , u = t.match(/<redirecturl>(.*)<\/redirecturl>/);
-                    return u ? void(window.location.href = u[1]) : o && "0" != o[1] ? (alert(f && f[1] || "登陆失败"), i.report(i.AUTH_FAIL_COUNT, 1), void location.reload()) : (e.$emit("newLoginPage", {
-                      Ret: o && o[1]
-                      , SKey: c && c[1]
-                      , Sid: s && s[1]
-                      , Uin: l && l[1]
-                      , Passticket: d && d[1]
-                      , Code: r
-                    }), void(a.getCookie("webwx_data_ticket") || n.report(n.ReportType.cookieError, {
-                      text: "webwx_data_ticket 票据丢失"
-                      , cookie: document.cookie
-                    })))
+                loginFactory.newLoginPage(data.redirect_uri)
+                  .then(function(msg) {
+                    var ret = msg.match(/<ret>(.*)<\/ret>/)
+                      , code = msg.match(/<script>(.*)<\/script>/)
+                      , skey = msg.match(/<skey>(.*)<\/skey>/)
+                      , wxsid = msg.match(/<wxsid>(.*)<\/wxsid>/)
+                      , wxuin = msg.match(/<wxuin>(.*)<\/wxuin>/)
+                      , passticket = msg.match(/<pass_ticket>(.*)<\/pass_ticket>/)
+                      , message = msg.match(/<message>(.*)<\/message>/)
+                      , redirecturl = msg.match(/<redirecturl>(.*)<\/redirecturl>/);
+
+
+
+
+                    if (redirecturl) {
+                      window.location.href = redirecturl[1];
+                      return;
+                    }
+
+                    if (ret && (ret[1] != '0')) {
+                      alert((message && message[1]) || '登陆失败');
+                      monitorService.report(monitorService.AUTH_FAIL_COUNT, 1);
+                      location.reload();
+                      return;
+                    }
+
+
+                    $scope.$emit('newLoginPage', {
+                      Ret: ret && ret[1]
+                      , SKey: skey && skey[1]
+                      , Sid: wxsid && wxsid[1]
+                      , Uin: wxuin && wxuin[1]
+                      , Passticket: passticket && passticket[1]
+                      , Code: code
+                    });
+                    if (!utilFactory.getCookie('webwx_data_ticket')) {
+                      reportService.report(reportService.ReportType.cookieError, {
+                        text: 'webwx_data_ticket 票据丢失'
+                        , cookie: document.cookie
+                      });
+                    }
+
+
                   });
                 break;
               case 201:
-                e.isScan = !0, n.report(n.ReportType.timing, {
-                    timing: {
-                      scan: Date.now()
+                $scope.isScan = true;
+                reportService.report(reportService.ReportType.timing, {
+                  timing: {
+                    scan: Date.now()
+                  }
+                });
+                loginFactory.checkLogin($scope.uuid)
+                  .then(checkLoginHandler, function(data) {
+                    if (!data && window.checkLoginPromise) {
+                      $scope.isBrokenNetwork = true;
                     }
-                  }), t.checkLogin(e.uuid)
-                  .then(r, function(t) {
-                    !t && window.checkLoginPromise && (e.isBrokenNetwork = !0)
                   });
                 break;
               case 408:
-                t.checkLogin(e.uuid)
-                  .then(r, function(t) {
-                    !t && window.checkLoginPromise && (e.isBrokenNetwork = !0)
+                loginFactory.checkLogin($scope.uuid)
+                  .then(checkLoginHandler, function(data) {
+                    if (!data && window.checkLoginPromise) {
+                      $scope.isBrokenNetwork = true;
+                    }
                   });
                 break;
               case 400:
               case 500:
               case 0:
-                var s = a.getCookie("refreshTimes") || 0;
-                s < 5 ? (s++, a.setCookie("refreshTimes", s, .5), document.location.reload()) : e.isNeedRefresh = !0;
+                // 这里要累计次数
+                var refreshTimes = utilFactory.getCookie('refreshTimes') || 0;
+                if (refreshTimes < 5) {
+                  refreshTimes++;
+                  utilFactory.setCookie('refreshTimes', refreshTimes, 0.5);
+                  document.location.reload();
+                } else {
+                  $scope.isNeedRefresh = true;
+                }
                 break;
-              case 202:
-                e.isScan = !1, e.isAssociationLogin = !1, a.setCookie("login_frequency", 0, 2), window.checkLoginPromise && (window.checkLoginPromise.abort(), window.checkLoginPromise = null), c()
+              case 202: // 点击取消
+                // 1. 关联登录，等待确认，取消
+                // 2. 扫码之后，等待确认，取消
+                $scope.isScan = false;
+                $scope.isAssociationLogin = false;
+                utilFactory.setCookie('login_frequency', 0, 2);
+
+                // 终止轮询
+                if (window.checkLoginPromise) {
+                  window.checkLoginPromise.abort();
+                  window.checkLoginPromise = null;
+                }
+
+                doQrcodeLogin();
+                break;
+              default:
+                //todo
             }
-            e.code = o.code, e.userAvatar = o.userAvatar, a.log("get code", o.code)
+            $scope.code = data.code;
+            $scope.userAvatar = data.userAvatar;
+            utilFactory.log('get code', data.code);
           }
 
-          function c() {
-            t.getUUID()
-              .then(function(i) {
-                a.log("login", i), e.uuid = i, e.qrcodeUrl = "https://login.weixin.qq.com/qrcode/" + i, e.code = 0, e.isScan = !1, e.isIPad = a.isIPad, e.isMacOS = a.isMacOS, e.isWindows = a.isWindows, e.lang = a.queryParser()
-                  .lang || "zh_CN";
-                var o = !1;
-                n.report(n.ReportType.timing, {
+          /**
+           * 启动二维码登录
+           */
+          function doQrcodeLogin() {
+            loginFactory.getUUID()
+              .then(function(uuid) {
+                utilFactory.log('login', uuid);
+                $scope.uuid = uuid;
+                $scope.qrcodeUrl = 'https://login.weixin.qq.com/qrcode/' + uuid;
+                $scope.code = 0;
+                $scope.isScan = false;
+                $scope.isIPad = utilFactory.isIPad;
+                $scope.isMacOS = utilFactory.isMacOS;
+                $scope.isWindows = utilFactory.isWindows;
+                $scope.lang = utilFactory.queryParser()
+                  .lang || 'zh_CN';
+
+                var qrcodeLoaded = false;
+                reportService.report(reportService.ReportType.timing, {
+                  timing: {
+                    qrcodeStart: Date.now()
+                  }
+                });
+                setTimeout(function() {
+                  if (!qrcodeLoaded) {
+                    reportService.report(reportService.ReportType.picError, {
+                      text: 'qrcode can not load'
+                      , src: $scope.qrcodeUrl
+                    });
+                  }
+                }, 3000);
+                $scope.qrcodeLoad = function() {
+                  qrcodeLoaded = true;
+                  reportService.report(reportService.ReportType.timing, {
                     timing: {
-                      qrcodeStart: Date.now()
+                      qrcodeEnd: Date.now()
                     }
-                  }), setTimeout(function() {
-                    o || n.report(n.ReportType.picError, {
-                      text: "qrcode can not load"
-                      , src: e.qrcodeUrl
-                    })
-                  }, 3e3), e.qrcodeLoad = function() {
-                    o = !0, n.report(n.ReportType.timing, {
-                      timing: {
-                        qrcodeEnd: Date.now()
-                      }
-                    })
-                  }, t.checkLogin(i, 1)
-                  .then(r, function(t) {
-                    !t && window.checkLoginPromise ? e.isBrokenNetwork = !0 : e.isBrokenNetwork = !1
+                  });
+                };
+                loginFactory.checkLogin(uuid, 1)
+                  .then(checkLoginHandler, function(data) {
+                    if (!data && window.checkLoginPromise) {
+                      $scope.isBrokenNetwork = true;
+                    } else {
+                      $scope.isBrokenNetwork = false;
+                    }
+                  });
+              }, function(code) {
+                console.log('get uuid error');
+                if (!code) {
+                  $scope.isBrokenNetwork = true;
+                } else {
+                  $scope.isBrokenNetwork = false;
+                }
+              });
+          }
+
+          /**
+           * 启动关联登录
+           */
+          function doAssociationLogin() {
+            loginFactory.checkLogin($scope.uuid, 1)
+              .then(checkLoginHandler, function(data) {
+                if (!data && window.checkLoginPromise) {
+                  $scope.isBrokenNetwork = true;
+                }
+              });
+          }
+
+          // 如果没有登录，并且是二维码登录
+          if (!window.MMCgi.isLogin && !$scope.isAssociationLogin) {
+            doQrcodeLogin();
+          } else {
+            timeout = setTimeout(function() {
+              $scope.qrcodeLogin();
+            }, 5 * 60 * 1000);
+          }
+        }]);
+    })();
+
+
+    /***/
+  })
+  , /* 277 */
+  /***/
+  (function(module, exports, __webpack_require__) {
+
+    (function() {
+      'use strict';
+
+      /* Controllers */
+
+      angular.module('Controllers')
+        .controller('contentChatController', [
+          '$scope'
+          , '$timeout'
+          , '$state'
+          , '$log'
+          , '$document'
+          , '$compile'
+          , 'chatFactory'
+          , 'accountFactory'
+          , 'contactFactory'
+          , 'appFactory'
+          , 'confFactory'
+          , 'utilFactory'
+          , 'chatroomFactory'
+          , 'mmpop'
+          , 'ngDialog'
+          , 'preview'
+          , 'reportService'
+          , 'mmHttp'
+          , 'emojiFactory'
+          , function($scope, $timeout, $state, $log, $document, $compile
+            , chatFactory, accountFactory, contactFactory
+            , appFactory, confFactory, utilFactory, chatroomFactory
+            , mmpop, ngDialog, imagePreview, reportService, mmHttp, emojiFactory) {
+            var chatBd = $document.find('#chatArea .scrollbar-dynamic')[0];
+            $scope.delState = false;
+            $scope.chatContent = [];
+            $scope.isShowChatRoomMembers = false;
+
+            $document.find('#chatArea')
+              .on('drop', function(e) {
+                var result = chatFactory.setSendFileUsername(chatFactory.getCurrentUserName());
+                if (!result) {
+                  alert(_("599d8df"))
+                  e.preventDefault();
+                  e.stopPropagation();
+                  e.stopImmediatePropagation()
+                  return false
+                }
+              })
+
+            $scope.$on('message:add:success', function(e, msg) {
+
+              //
+              if (msg.MMPeerUserName !== chatFactory.getCurrentUserName()) {
+                if (!msg._h) {
+                  $scope.heightCalc(msg, function(height) {
+                    msg._h = height;
                   })
-              }, function(t) {
-                t ? e.isBrokenNetwork = !1 : e.isBrokenNetwork = !0
-              })
-          }
-
-          function s() {
-            t.checkLogin(e.uuid, 1)
-              .then(r, function(t) {
-                !t && window.checkLoginPromise && (e.isBrokenNetwork = !0)
-              })
-          }
-          if ($(".lang .lang-item")
-            .click(function(e) {
-              $("script")
-                .remove(), location.href = e.target.href, e.preventDefault()
-            }), !window.MMCgi.isLogin) {
-            e.isAssociationLogin = parseInt(a.getCookie("login_frequency") || 0) >= 2, e.isWaitingAsConfirm = !1, e.isNeedRefresh = !1, e.isRotateLoading = !1, e.isBrokenNetwork = !1, e.isClientVersion = o.isClientVersion;
-            var l;
-            e.isAssociationLogin && (e.userAvatar = a.getLocalStorage()
-              .getItem("userAvatar")), e.showPrivacyTips = /wechat\.com/gi.test(location.host), e.associationLogin = function() {
-              var n = a.getCookie("last_wxuin");
-              e.isWaitingAsConfirm = !0, t.associationLogin(n)
-                .then(function(t) {
-                  e.uuid = t.uuid, s()
-                }, function(t) {
-                  t ? (e.isAssociationLogin = !1, a.setCookie("login_frequency", 0, 2), c(), i.report(i.ASSOCIATION_AUTH_FAIL_COUNT, 1)) : e.isBrokenNetwork = !0
-                }), l && clearTimeout(l), i.report(i.ASSOCIATION_AUTH_COUNT, 1)
-            }, e.qrcodeLogin = function() {
-              e.isAssociationLogin && (e.isAssociationLogin = !1, a.setCookie("login_frequency", 0, 2), window.checkLoginPromise && (window.checkLoginPromise.abort(), window.checkLoginPromise = null), c())
-            }, e.refreshQrcode = function() {
-              e.isRotateLoading = !0, setTimeout(function() {
-                c(), e.isRotateLoading = !1, e.isNeedRefresh = !1
-              }, 1200)
-            }, e.reloadQrcode = function() {
-              c(), e.isBrokenNetwork = !1
-            }, e.qrcodeException = function() {
-              i.report(i.QRCODE_EXCEPTION_COUNT, 1)
-            }, window.MMCgi.isLogin || e.isAssociationLogin ? l = setTimeout(function() {
-              e.qrcodeLogin()
-            }, 3e5) : c()
-          }
-        }])
-    }()
-  }
-  , function(e, exports, t) {
-    ! function() {
-      "use strict";
-      angular.module("Controllers")
-        .controller("contentChatController", ["$scope", "$timeout", "$state", "$log", "$document", "$compile", "chatFactory", "accountFactory", "contactFactory", "appFactory", "confFactory", "utilFactory", "chatroomFactory", "mmpop", "ngDialog"
-          , "preview", "reportService", "mmHttp", "emojiFactory"
-          , function(e, a, n, i, o, r, c, s, l, d, f, u, m, g, p, h, M, v, y) {
-            function b(t) {
-              var n = e.currentContact = l.getContact(t);
-              if (n && (e.unreadMessageCount = n.unreadCount, n.unreadCount = 0), e.isChangeUserFlag = !0, e.currentUser = t, e.chatContent = c.getChatMessage(t, !0), e.unreadMessage = e.chatContent[e.chatContent.length - e.unreadMessageCount]
-                , e.imagesMessagesList = [], e.messagesAnimate = !1, a(function() {
-                  e.messagesAnimate = !0
-                }, 200), n) {
-                var i =
-                  "newsapp,fmessage,filehelper,weibo,qqmail,fmessage,tmessage,qmessage,qqsync,floatbottle,lbsapp,shakeapp,medianote,qqfriend,readerapp,blogapp,facebookapp,masssendapp,meishiapp,feedsapp,voip,blogappweixin,weixin,brandsessionholder,weixinreminder,wxid_novlwrv3lqwv11,gh_22b87fa7cb3c,officialaccounts,notification_messages,wxid_novlwrv3lqwv11,gh_22b87fa7cb3c,wxitil,userexperience_alarm,notification_messages";
-                n.MMCanCreateChatroom = i.indexOf(n.UserName) < 0
-              }
-            }
-
-            function C(t) {
-              for (var a = e.imagesMessagesList, n = 0; n < a.length; n++)
-                if (a[n].msg.MsgId == t.MsgId) {
-                  a.splice(n, 1);
-                  break
-                }
-            }
-
-            function w(e, t) {
-              var a, n;
-              for (n = 0; n <= e.length; n++) {
-                if (a = e[n], !a) {
-                  e.push(t);
-                  break
-                }
-                if (t.msg._index < a.msg._index) {
-                  e.splice(n, 1, t, a);
-                  break
                 }
               }
-              return n
-            }
+            });
 
-            function S() {
-              e.currentContact && c.markMsgsRead(e.currentContact.UserName), e.bottomUnreadCount = 0, c.getChatList()
-            }
-            var T = o.find("#chatArea .scrollbar-dynamic")[0];
-            e.delState = !1, e.chatContent = [], e.isShowChatRoomMembers = !1, o.find("#chatArea")
-              .on("drop", function(e) {
-                var t = c.setSendFileUsername(c.getCurrentUserName());
-                if (!t) return alert(_("599d8df")), e.preventDefault(), e.stopPropagation(), e.stopImmediatePropagation(), !1
-              }), e.$on("message:add:success", function(t, a) {
-                a.MMPeerUserName !== c.getCurrentUserName() && (a._h || e.heightCalc(a, function(e) {
-                  a._h = e
-                }))
-              }), e.$watch(function() {
-                return c.getCurrentUserName()
-              }, function(t) {
-                b(t), e.newMsg = null, e.isScrollToUnread = !1, setTimeout(function() {
-                  T.scrollTop = 999999, e.autoScrollFlag = !0, setTimeout(function() {
-                    e.autoScrollFlag = !1
+            $scope.$watch(function() {
+              //console.log(chatFactory.getCurrentUserName());
+              return chatFactory.getCurrentUserName();
+            }, function(newValue) {
+              //if (newValue){
+
+              updateChatContent(newValue);
+              $scope.newMsg = null;
+              $scope.isScrollToUnread = false;
+              setTimeout(function() {
+                  chatBd.scrollTop = 999999;
+                  $scope.autoScrollFlag = true;
+                  setTimeout(function() {
+                    $scope.autoScrollFlag = false;
                   }, 200)
                 }, 10)
-              }), e.$on("root:cleanMsg", function(t, a) {
-                c.cleanChatMessage(a), c.getChatList(), a == c.getCurrentUserName() && (e.imagesMessagesList = [])
-              }), e.$on("root:profile", function(t, a) {
-                e.showProfile(a.event, a.userName, a.isAdd)
-              }), e.$on("root:msgSend:success", function(t, a) {
-                if (a.MsgType == f.MSGTYPE_IMAGE && e.imageInit(a), a.ToUserName == e.currentUser)
-                  for (var n = 0, i = e.chatContent.length; n < i; ++n) {
-                    var o = e.chatContent[n];
-                    if (o.MsgId == a.MsgId) {
-                      switch (a.AppMsgType) {
-                        case f.APPMSGTYPE_ATTACH:
-                          o.MMAppMsgDownloadUrl = o.MMAppMsgDownloadUrl.replace("#MediaId#", a.MediaId)
-                            .replace("mediaid=undefined", "mediaid=" + a.MediaId)
-                            .replace("encryfilename=undefined", "encryfilename=" + (a.EncryFileName || encodeURIComponent(message.FileName)))
-                      }
-                      return void(e.$$phase || e.$digest())
+                //}
+            });
+
+            $scope.$on('root:cleanMsg', function(e, userName) {
+              //console.log(e,userName);
+              chatFactory.cleanChatMessage(userName);
+              chatFactory.getChatList();
+
+              if (userName == chatFactory.getCurrentUserName()) {
+                $scope.imagesMessagesList = [];
+              }
+            });
+
+            $scope.$on("root:profile", function(e, obj) {
+              $scope.showProfile(obj.event, obj.userName, obj.isAdd);
+            });
+
+            $scope.$on('root:msgSend:success', function(e, msg) {
+              if (msg.MsgType == confFactory.MSGTYPE_IMAGE) $scope.imageInit(msg);
+
+              if (msg.ToUserName != $scope.currentUser) return;
+              for (var i = 0, len = $scope.chatContent.length; i < len; ++i) {
+                var contentMsg = $scope.chatContent[i];
+                if (contentMsg.MsgId == msg.MsgId) {
+                  switch (msg.AppMsgType) {
+                    case confFactory.APPMSGTYPE_ATTACH:
+                      contentMsg.MMAppMsgDownloadUrl = contentMsg.MMAppMsgDownloadUrl.replace("#MediaId#", msg.MediaId)
+                        .replace("mediaid=undefined", "mediaid=" + msg.MediaId)
+                        .replace('encryfilename=undefined', 'encryfilename=' + (msg.EncryFileName || encodeURIComponent(message.FileName)));
+                      break;
+                  }
+                  if (!$scope.$$phase) $scope.$digest();
+                  return;
+                }
+              }
+            });
+
+            $scope.$on('root:mmpop:closed', function(e, id) {
+              if (id == 'mmpop_chatroom_members') {
+                $scope.isShowChatRoomMembers = false;
+                $scope.$digest();
+              }
+            });
+
+            function updateChatContent(userName) {
+              var currentContact = $scope.currentContact = contactFactory.getContact(userName);
+              if (currentContact) {
+                $scope.unreadMessageCount = currentContact.unreadCount;
+                currentContact.unreadCount = 0;
+              }
+
+              //console.log('updateChatContent',$scope.currentContact);
+
+
+              /*
+               * 用于识别 chatcontent 变更是不是切换会话引起的
+               * */
+              $scope.isChangeUserFlag = true;
+              $scope.currentUser = userName;
+              //$scope.currentUserNickName = $scope.currentContact.NickName;
+              $scope.chatContent = chatFactory.getChatMessage(userName, true);
+
+              $scope.unreadMessage = $scope.chatContent[$scope.chatContent.length - $scope.unreadMessageCount];
+              // 在message.html里进行imagesMessagesList.push(message.MsgId)操作
+              $scope.imagesMessagesList = [];
+              $scope.messagesAnimate = false;
+              $timeout(function() {
+                $scope.messagesAnimate = true;
+              }, 200);
+
+              if (currentContact) {
+                // 硬编码不能创建群聊的联系人，后续后端会配合改进
+                var hardCodeStr =
+                  "newsapp,fmessage,filehelper,weibo,qqmail,fmessage,tmessage,qmessage,qqsync,floatbottle,lbsapp,shakeapp,medianote,qqfriend,readerapp,blogapp,facebookapp,masssendapp,meishiapp,feedsapp,voip,blogappweixin,weixin,brandsessionholder,weixinreminder,wxid_novlwrv3lqwv11,gh_22b87fa7cb3c,officialaccounts,notification_messages,wxid_novlwrv3lqwv11,gh_22b87fa7cb3c,wxitil,userexperience_alarm,notification_messages";
+                currentContact.MMCanCreateChatroom = hardCodeStr.indexOf(currentContact.UserName) < 0;
+              }
+
+            }
+
+            $scope.getMsgImg = function(msgId, type, msg) {
+              if (msg && (typeof msg.MMStatus != 'undefined') && msg.MMStatus != confFactory.MSG_SEND_STATUS_SUCC) {
+                return undefined;
+              }
+
+              return confFactory.API_webwxgetmsgimg + '?' + '&MsgID=' + msgId + '&skey=' + encodeURIComponent(accountFactory.getSkey()) + (type ? ('&type=' + type) : '');
+            }
+            $scope.getMsgVideo = function(msgId) {
+              return confFactory.API_webwxgetvideo + '?msgid=' + msgId + '&skey=' + encodeURIComponent(accountFactory.getSkey());
+            }
+
+            $scope.messageHandle = function(message) {
+              if (message.MMRecall) {
+                // todo: 其实不需要每次都执行，初次撤回处理的时候已经把大图取消掉了，之后更新消息的时候已经没必要处理（来新消息之类的所有消息都会重新渲染）
+                removeImagePreview(message);
+              }
+            }
+
+            function removeImagePreview(message) {
+              var imageList = $scope.imagesMessagesList;
+              for (var i = 0; i < imageList.length; i++) {
+                if (imageList[i].msg.MsgId == message.MsgId) {
+                  imageList.splice(i, 1);
+                  break;
+                }
+              }
+
+            }
+
+            $scope.getUserContact = function(actualSender, FromUserName) {
+              if (!actualSender && !FromUserName) return;
+              if (FromUserName && actualSender != FromUserName) {
+                return contactFactory.getContact(actualSender, FromUserName);
+              } else {
+                return contactFactory.getContact(actualSender);
+              }
+            }
+            $scope.appMsgClick = function(e, str) {
+              if (str) {
+                alert(str);
+                e.preventDefault();
+              }
+            };
+            $scope.showVideo = function(msgId) {
+              var dialog = ngDialog.open({
+                className: 'default microvideo_preview_dialog'
+                , template: '<div jplayer-directive\
+	                                id="jplayer-dialog-{{MsgId}}"\
+	                                class="jp-jplayer microvideo"\
+	                                src="{{getMsgVideo(MsgId)}}"\
+	                                timeout="10"\
+	                                ng-class="{loaded:loaded}"\
+	                                poster="{{getMsgImg(MsgId,\'slave\')}}" autoplay loop></div>'
+                , plain: true
+                , controller: ['$scope', function(scope) {
+                  scope.MsgId = msgId;
+                  scope.getMsgVideo = $scope.getMsgVideo;
+                  scope.getMsgImg = $scope.getMsgImg;
+                  scope.width = 800;
+                  scope.height = 600;
+                }]
+              });
+            };
+            $scope.showMicroVideo = function(msgId) {
+              var dialog = ngDialog.open({
+                className: 'default microvideo_preview_dialog'
+                , template: '<div jplayer-directive\
+	                                id="jplayer-dialog-{{MsgId}}"\
+	                                class="jp-jplayer microvideo"\
+	                                src="{{getMsgVideo(MsgId)}}"\
+	                                timeout="10"\
+	                                ng-class="{loaded:loaded}"\
+	                                poster="{{getMsgImg(MsgId,\'slave\')}}" autoplay loop></div>'
+                , plain: true
+                , controller: ['$scope', function(scope) {
+                  scope.MsgId = msgId;
+                  scope.getMsgVideo = $scope.getMsgVideo;
+                  scope.getMsgImg = $scope.getMsgImg;
+                  scope.width = 800;
+                  scope.height = 600;
+                }]
+              });
+
+            };
+
+            $scope.scrollToTopUnread = function() {
+              /*
+               * 滚到未读消息
+               * */
+              if ($scope.unreadMessage) {
+                $scope.newMsg = $scope.unreadMessage;
+                $scope.isScrollToUnread = true;
+                $scope.unreadMessageCount = 0;
+                chatBd.scrollTop = $scope.unreadMessage._offsetTop;
+              }
+
+            };
+
+            $scope.scrollToBottomUnread = function() {
+              if ($scope.bottomUnreadIndex && $scope.bottomUnreadCount) {
+                var bottomUnreadMsg = $scope.chatContent[$scope.bottomUnreadIndex];
+                if (bottomUnreadMsg) {
+                  $scope.newMsg = bottomUnreadMsg;
+                  bottomUnreadMsg._h = 0;
+                  $scope.isScrollToUnread = true;
+                  $scope.bottomUnreadIndex = 0;
+                  clearBottomUnread();
+                  chatBd.scrollTop = bottomUnreadMsg._offsetTop;
+                  var cancel = $scope.$on('mmRepeat:reCalc', function() {
+                    chatBd.scrollTop = bottomUnreadMsg._offsetTop;
+                    cancel();
+                  });
+
+                }
+
+
+              }
+
+
+            };
+
+
+
+            var topUnreadTimer = null;
+
+            $scope.$on('onScroll', function(e, scrollData) {
+              var scrollDataY = scrollData.y;
+              if ($scope.currentContact) {
+                if (scrollDataY.maxScroll - scrollDataY.scroll > 260) {
+                  if (!$scope.currentContact._notActive) {
+                    $scope.bottomUnreadIndex = $scope.chatContent.length;
+                    $scope.currentContact._notActive = true;
+                    $scope.$digest();
+                  }
+                } else {
+                  clearBottomUnread();
+                  $scope.currentContact._notActive = false;
+                  $scope.$digest();
+                }
+              }
+
+
+
+
+              if ($scope.bottomUnreadIndex) {
+                var firstUnreadMsg = $scope.chatContent[$scope.bottomUnreadIndex];
+                if (firstUnreadMsg) {
+                  if (firstUnreadMsg._offsetTop < scrollDataY.scroll + scrollDataY.visible) {
+                    clearBottomUnread();
+                    if (scrollDataY.maxScroll - scrollDataY.scroll > 260) {
+                      $scope.bottomUnreadIndex = $scope.chatContent.length;
                     }
                   }
-              }), e.$on("root:mmpop:closed", function(t, a) {
-                "mmpop_chatroom_members" == a && (e.isShowChatRoomMembers = !1, e.$digest())
-              }), e.getMsgImg = function(e, t, a) {
-                if (!a || "undefined" == typeof a.MMStatus || a.MMStatus == f.MSG_SEND_STATUS_SUCC) return f.API_webwxgetmsgimg + "?&MsgID=" + e + "&skey=" + encodeURIComponent(s.getSkey()) + (t ? "&type=" + t : "")
-              }, e.getMsgVideo = function(e) {
-                return f.API_webwxgetvideo + "?msgid=" + e + "&skey=" + encodeURIComponent(s.getSkey())
-              }, e.messageHandle = function(e) {
-                e.MMRecall && C(e)
-              }, e.getUserContact = function(e, t) {
-                if (e || t) return t && e != t ? l.getContact(e, t) : l.getContact(e)
-              }, e.appMsgClick = function(e, t) {
-                t && (alert(t), e.preventDefault())
-              }, e.showVideo = function(t) {
-                p.open({
-                  className: "default microvideo_preview_dialog"
-                  , template: '<div jplayer-directive\t                                id="jplayer-dialog-{{MsgId}}"\t                                class="jp-jplayer microvideo"\t                                src="{{getMsgVideo(MsgId)}}"\t                                timeout="10"\t                                ng-class="{loaded:loaded}"\t                                poster="{{getMsgImg(MsgId,\'slave\')}}" autoplay loop></div>'
-                  , plain: !0
-                  , controller: ["$scope", function(a) {
-                    a.MsgId = t, a.getMsgVideo = e.getMsgVideo, a.getMsgImg = e.getMsgImg, a.width = 800, a.height = 600
-                  }]
-                })
-              }, e.showMicroVideo = function(t) {
-                p.open({
-                  className: "default microvideo_preview_dialog"
-                  , template: '<div jplayer-directive\t                                id="jplayer-dialog-{{MsgId}}"\t                                class="jp-jplayer microvideo"\t                                src="{{getMsgVideo(MsgId)}}"\t                                timeout="10"\t                                ng-class="{loaded:loaded}"\t                                poster="{{getMsgImg(MsgId,\'slave\')}}" autoplay loop></div>'
-                  , plain: !0
-                  , controller: ["$scope", function(a) {
-                    a.MsgId = t, a.getMsgVideo = e.getMsgVideo, a.getMsgImg = e.getMsgImg, a.width = 800, a.height = 600
-                  }]
-                })
-              }, e.scrollToTopUnread = function() {
-                e.unreadMessage && (e.newMsg = e.unreadMessage, e.isScrollToUnread = !0, e.unreadMessageCount = 0, T.scrollTop = e.unreadMessage._offsetTop)
-              }, e.scrollToBottomUnread = function() {
-                if (e.bottomUnreadIndex && e.bottomUnreadCount) {
-                  var t = e.chatContent[e.bottomUnreadIndex];
-                  if (t) {
-                    e.newMsg = t, t._h = 0, e.isScrollToUnread = !0, e.bottomUnreadIndex = 0, S(), T.scrollTop = t._offsetTop;
-                    var a = e.$on("mmRepeat:reCalc", function() {
-                      T.scrollTop = t._offsetTop, a()
-                    })
+                } else {
+                  clearBottomUnread();
+                }
+              }
+
+
+              clearTimeout(topUnreadTimer);
+              topUnreadTimer = setTimeout(function() {
+                if (!$scope.autoScrollFlag) {
+                  if ($scope.unreadMessage && $scope.unreadMessage._offsetTop >= scrollDataY.scroll) {
+                    $scope.unreadMessageCount = 0;
+                    /*      $scope.unreadMessage =  null;*/
+                    $scope.$digest();
                   }
                 }
-              };
-            var N = null;
-            e.$on("onScroll", function(t, a) {
-              var n = a.y;
-              if (e.currentContact && (n.maxScroll - n.scroll > 260 ? e.currentContact._notActive || (e.bottomUnreadIndex = e.chatContent.length, e.currentContact._notActive = !0, e.$digest()) : (S(), e.currentContact._notActive = !1, e.$digest()))
-                , e.bottomUnreadIndex) {
-                var i = e.chatContent[e.bottomUnreadIndex];
-                i ? i._offsetTop < n.scroll + n.visible && (S(), n.maxScroll - n.scroll > 260 && (e.bottomUnreadIndex = e.chatContent.length)) : S()
-              }
-              clearTimeout(N), N = setTimeout(function() {
-                e.autoScrollFlag || e.unreadMessage && e.unreadMessage._offsetTop >= n.scroll && (e.unreadMessageCount = 0, e.$digest())
-              }, 100)
-            }), e.previewImg = function(t) {
-              for (var a, n, i = 0; i < e.imagesMessagesList.length; i++)
-                if (a = e.imagesMessagesList[i], a.msg == t) {
-                  n = i;
-                  break
+              }, 100);
+
+            });
+
+            $scope.previewImg = function(msg) {
+              var image, index;
+              for (var i = 0; i < $scope.imagesMessagesList.length; i++) {
+                image = $scope.imagesMessagesList[i];
+                if (image.msg == msg) {
+                  index = i;
+                  break;
                 }
-              var o = t.MMStatus;
-              void 0 !== o && o != f.MSG_SEND_STATUS_SUCC || h.open({
-                imageList: e.imagesMessagesList
-                , current: n
-              })
-            }, e.resendMsg = function(e) {
-              c.sendMessage(e)
-            }, e.imageInit = function(t, a) {
-              for (var n, i, o, r = e.imagesMessagesList, c = !1, i = e.getMsgImg(t.MsgId), s = 0; s < r.length; s++)
-                if (n = r[s], n.msg === t) {
-                  c = !0, n.url = i, o = s;
-                  break
-                }
-              if (!c) {
-                var l;
-                l = "undefined" == typeof t.MMStatus || t.MMStatus == f.MSG_SEND_STATUS_SUCC ? {
-                  url: i
-                  , msg: t
-                  , preview: a
-                } : {
-                  msg: t
-                  , preview: a
-                }, o = w(r, l)
               }
-              return o
-            }, e.showChatRoomMembers = function(t) {
-              g.toggleOpen({
-                templateUrl: "chatRoomMember.html"
-                , scope: e
-                , container: angular.element(document.getElementById("chatRoomMembersWrap"))
-                , className: "members_wrp slide-down"
-                , singletonId: "mmpop_chatroom_members"
-                , stopPropagation: !1
-                , controller: ["$scope", function(t) {
-                  a(function(a) {
-                    t.currentContact = e.currentContact, t.accountUserName = s.getUserName()
-                  }, 100), t.addCharRoomMember = function() {
-                    var e = {};
-                    angular.forEach(t.currentContact.MemberList, function(t) {
-                      e[t.UserName] = t
-                    }), m.setCurrentContact(t.currentContact), m.setFilterContacts(e), p.open({
+
+
+              var status = msg.MMStatus;
+              if (status !== undefined && status != confFactory.MSG_SEND_STATUS_SUCC) return;
+              imagePreview.open({
+                imageList: $scope.imagesMessagesList
+                , current: index
+              });
+            };
+            $scope.resendMsg = function(message) {
+              chatFactory.sendMessage(message);
+            };
+
+            $scope.imageInit = function(msg, previewUrl) {
+              // 由于 ng-repeat 的原因，此 init 会被多次调用，且在 root:msgSend:success 事件发生时也会调用，用于处理本人发送的图片延迟生效的问题
+              var imageList = $scope.imagesMessagesList
+                , imageItem, exist = false
+                , msgImgUrl, index;
+              // 如果 imageList 中已经有了该 msg，就把产生的新图片地址给他
+
+
+              var msgImgUrl = $scope.getMsgImg(msg.MsgId);
+              for (var i = 0; i < imageList.length; i++) {
+                imageItem = imageList[i];
+                if (imageItem.msg === msg) {
+                  exist = true;
+                  imageItem.url = msgImgUrl;
+                  index = i;
+                  break;
+                }
+              }
+
+
+
+              if (!exist) {
+                var imagePreviewItem;
+                if (typeof msg.MMStatus === 'undefined' || msg.MMStatus == confFactory.MSG_SEND_STATUS_SUCC) {
+
+                  imagePreviewItem = {
+                    url: msgImgUrl
+                    , msg: msg
+                    , preview: previewUrl
+                  };
+
+                } else {
+                  //占位
+                  imagePreviewItem = {
+                    msg: msg
+                    , preview: previewUrl
+                  };
+                }
+
+                index = insertImagePreview(imageList, imagePreviewItem);
+
+              }
+
+              /*  if(typeof  index === 'undefined'){
+                    index = imageList.length - 1;
+                }*/
+
+
+              return index;
+            };
+
+            function insertImagePreview(list, item) {
+              var current, i;
+              for (i = 0; i <= list.length; i++) {
+                current = list[i];
+                if (current) {
+                  if (item.msg._index < current.msg._index) {
+                    list.splice(i, 1, item, current);
+                    break;
+                  }
+                } else {
+                  list.push(item);
+                  break;
+                }
+              }
+              return i;
+            }
+
+            /**
+             * show chat room members dialog
+             */
+            $scope.showChatRoomMembers = function(e) {
+              mmpop.toggleOpen({
+                templateUrl: 'chatRoomMember.html'
+                , //templateUrl: 'chatRoomMember.html',
+                scope: $scope
+                , container: angular.element(document.getElementById('chatRoomMembersWrap'))
+                , className: 'members_wrp slide-down'
+                , singletonId: 'mmpop_chatroom_members'
+                , stopPropagation: false
+                , controller: ['$scope', function(scope) {
+                  $timeout(function(argument) {
+                    scope.currentContact = $scope.currentContact;
+                    scope.accountUserName = accountFactory.getUserName();
+                  }, 100);
+                  /**
+                   * 添加群成员
+                   */
+                  scope.addCharRoomMember = function() {
+                    var filterContacts = {};
+                    angular.forEach(scope.currentContact.MemberList, function(contact) {
+                      filterContacts[contact.UserName] = contact;
+                    });
+                    chatroomFactory.setCurrentContact(scope.currentContact);
+                    chatroomFactory.setFilterContacts(filterContacts);
+                    ngDialog.open({
                       templateUrl: "createChatroom.html"
                       , controller: "createChatroomController"
                       , className: "default add_chatroom"
                       , data: {
-                        isAdd: !0
+                        isAdd: true
                       }
-                    }), t.closeThisMmPop()
-                  }, t.createChatroom = function() {
-                    p.open({
+                    });
+                    scope.closeThisMmPop();
+                  };
+                  /**
+                   * 创建群聊
+                   */
+                  scope.createChatroom = function() {
+
+                    ngDialog.open({
                       templateUrl: "createChatroom.html"
                       , controller: "createChatroomController"
                       , className: "default create_chatroom_dlg"
                       , data: {
-                        isCreate: !0
-                        , initSelectedContacts: [t.currentContact]
+                        isCreate: true
+                        , initSelectedContacts: [scope.currentContact]
                       }
-                    }), t.closeThisMmPop()
-                  }
+                    });
+                    scope.closeThisMmPop();
+                  };
                 }]
-              }), e.isShowChatRoomMembers = !0, t.preventDefault()
-            }, e.showProfile = function(t, a, i) {
-              var o;
-              o = a ? l.getContact(a, e.currentContact.UserName) : e.currentContact;
-              var r = angular.element(window)
-                , c = 230
-                , d = 360
-                , u = r.width()
-                , m = r.height()
-                , h = t.pageY
-                , M = t.pageX;
-              u - t.pageX < c && (M = t.pageX - c), m - t.pageY < d && (h = t.pageY - d), g.open({
-                templateUrl: "profile_mini.html"
-                , className: "profile_mini_wrap scale-fade"
-                , top: h
-                , left: M
-                , blurClose: !0
-                , singletonId: "mmpop_profile"
-                , controller: ["$scope", function(e) {
-                  o.VerifyFlag && (e.isOfficialUser = !0), e.contact = o, e.MMDefaultRemark = _("8d521cc"), e.addUserContent = _("5a97440") + y.formatHTMLToSend(s.getUserInfo()
-                    .NickName), e.isShowSendBox = i || !1, e.chat = function(t) {
-                    n.go("chat", {
-                      userName: t
-                    }), e.closeThisMmPop()
-                  }, e.verifyUser = function(t) {
-                    l.verifyUser({
-                        UserName: o.UserName
-                        , Opcode: f.VERIFYUSER_OPCODE_VERIFYOK
-                        , Scene: f.ADDSCENE_PF_WEB
-                        , Ticket: o.Ticket
+              });
+              $scope.isShowChatRoomMembers = true;
+              console.log($scope.isShowChatRoomMembers);
+              e.preventDefault();
+            };
+
+            /**
+             * show contact profile
+             */
+            $scope.showProfile = function(e, userName, isAdd) {
+              var contact;
+              if (userName) {
+                contact = contactFactory.getContact(userName, $scope.currentContact.UserName);
+              } else {
+                contact = $scope.currentContact;
+              }
+              var winEl = angular.element(window)
+                , w = 230
+                , h = 360
+                , winw = winEl.width()
+                , winh = winEl.height()
+                , top = e.pageY
+                , left = e.pageX;
+
+              if (winw - e.pageX < w) {
+                left = e.pageX - w;
+              }
+              if (winh - e.pageY < h) {
+                top = e.pageY - h;
+              }
+              mmpop.open({
+                templateUrl: 'profile_mini.html'
+                , className: 'profile_mini_wrap scale-fade'
+                , top: top
+                , left: left
+                , blurClose: true
+                , singletonId: 'mmpop_profile'
+                , controller: ["$scope", function(scope) {
+                  if (contact.VerifyFlag) {
+                    scope.isOfficialUser = true;
+                  }
+
+                  scope.contact = contact;
+                  scope.MMDefaultRemark = _("8d521cc");
+                  scope.addUserContent = _("5a97440") + emojiFactory.formatHTMLToSend(accountFactory.getUserInfo()
+                    .NickName);
+                  scope.isShowSendBox = isAdd || false;
+
+                  /**
+                   * 发起会话
+                   * @param userName
+                   */
+                  scope.chat = function(userName) {
+                    $state.go('chat', {
+                      userName: userName
+                    });
+                    scope.closeThisMmPop();
+                  };
+
+                  /**
+                   * 通过好友认证
+                   */
+                  scope.verifyUser = function(e) {
+                    contactFactory.verifyUser({
+                        UserName: contact.UserName
+                        , Opcode: confFactory.VERIFYUSER_OPCODE_VERIFYOK
+                        , Scene: confFactory.ADDSCENE_PF_WEB
+                        , Ticket: contact.Ticket
                       })
-                      .then(function(t) {
-                        e.closeThisMmPop()
-                      }, function(t) {
-                        e.closeThisMmPop(), alert("verify user error.")
-                      })
-                  }, e.editRemarkName = function() {
-                    e.MMDefaultRemark == _("8d521cc") && (e.MMDefaultRemark = "")
-                  }, e.text = y.transformSpanToImg(e.contact.RemarkName || ""), e.save = function(t) {
-                    var a = $(".profile_mini_wrap .J_Text")
-                      , n = a.text()
-                      , i = n.length;
-                    return t && [8, 37, 39, 46, 13].indexOf(t.keyCode) === -1 && i > 13 ? void t.preventDefault() : void(t && 13 != t.keyCode || (n.length > 17 && (n = n.substring(0, 18)), e.editing = !1, e.contact.RemarkName = n
-                      , v({
-                        method: "POST"
-                        , url: f.API_webwxoplog
-                        , data: angular.extend({
-                          UserName: e.contact.UserName
-                          , CmdId: f.oplogCmdId.MODREMARKNAME
-                          , RemarkName: y.formatHTMLToSend(n)
-                        }, s.getBaseRequest())
-                        , MMRetry: {
-                          count: 3
-                          , timeout: 1e4
-                          , serial: !0
-                        }
-                      })
-                      .success(function(t) {
-                        e.MMDefaultRemark = _("8d521cc")
-                      })
-                      .error(function(e) {}), $('<div contenteditable="true"></div>')
-                      .appendTo("body")
-                      .focus()
-                      .remove()))
-                  }, e.addUser = function(t, a) {
-                    l.verifyUser({
-                        UserName: o.UserName
-                        , Opcode: f.VERIFYUSER_OPCODE_SENDREQUEST
-                        , Scene: f.ADDSCENE_PF_WEB
-                        , Ticket: o.Ticket
-                        , VerifyContent: a || ""
-                      })
-                      .then(function(t) {
-                        e.closeThisMmPop()
-                      }, function(t) {
-                        e.closeThisMmPop(), p.openConfirm({
-                          className: "default "
-                          , templateUrl: "comfirmTips.html"
-                          , controller: ["$scope", function(e) {
-                            e.title = _("02d9819"), e.content = t.BaseResponse.ErrMsg || _("f45a3d8"), e.callback = function() {
-                              e.closeThisDialog()
-                            }
-                          }]
+                      .then(function(data) {
+                        scope.closeThisMmPop();
+                      }, function(data) {
+                        scope.closeThisMmPop();
+                        alert('verify user error.');
+                      });
+                    /*e.preventDefault();
+                     e.stopPropagation();*/
+                  };
+
+                  /**
+                   * 修改备注名
+                   */
+                  scope.editRemarkName = function() {
+                    if (scope.MMDefaultRemark == _("8d521cc")) {
+                      scope.MMDefaultRemark = '';
+                    }
+                  };
+                  scope.text = emojiFactory.transformSpanToImg(scope.contact.RemarkName || "");
+                  scope.save = function(e) {
+                    var textNode = $('.profile_mini_wrap .J_Text');
+                    var text = textNode.text();
+                    var len = text.length;
+                    if (e && [8, 37, 39, 46, 13].indexOf(e.keyCode) === -1 && len > 13) {
+                      e.preventDefault();
+                      return;
+                    }
+
+                    if (!e || e.keyCode == 13) {
+                      if (text.length > 17) {
+                        text = text.substring(0, 18);
+                      }
+                      scope.editing = false;
+                      scope.contact.RemarkName = text;
+                      mmHttp({
+                          method: "POST"
+                          , url: confFactory.API_webwxoplog
+                          , data: angular.extend({
+                            UserName: scope.contact.UserName
+                            , CmdId: confFactory.oplogCmdId.MODREMARKNAME
+                            , RemarkName: emojiFactory.formatHTMLToSend(text)
+                          }, accountFactory.getBaseRequest())
+                          , MMRetry: {
+                            count: 3
+                            , timeout: 10000
+                            , serial: true
+                          }
                         })
+                        .success(function(data) {
+                          // todo: 弱提示
+                          scope.MMDefaultRemark = _("8d521cc");
+                        })
+                        .error(function(data) {
+
+                        });
+                      // 失去焦点
+                      $('<div contenteditable="true"></div>')
+                        .appendTo('body')
+                        .focus()
+                        .remove();
+                    }
+
+                  };
+
+                  /**
+                   * 请求添加到通讯录
+                   */
+                  scope.addUser = function(e, content) {
+                    contactFactory.verifyUser({
+                        UserName: contact.UserName
+                        , Opcode: confFactory.VERIFYUSER_OPCODE_SENDREQUEST
+                        , Scene: confFactory.ADDSCENE_PF_WEB
+                        , Ticket: contact.Ticket
+                        , VerifyContent: content || ''
                       })
-                  }
+                      .then(function(data) {
+                        scope.closeThisMmPop();
+                      }, function(data) {
+                        scope.closeThisMmPop();
+                        //alert('add user error.');
+                        ngDialog.openConfirm({
+                          className: 'default '
+                          , templateUrl: 'comfirmTips.html'
+                          , controller: ['$scope', function(scope) {
+                            scope.title = _("02d9819");
+                            scope.content = data.BaseResponse.ErrMsg || _("f45a3d8");
+                            scope.callback = function() {
+                              scope.closeThisDialog();
+                            };
+                          }]
+                        });
+                      });
+                    /*e.preventDefault();
+                     e.stopPropagation();*/
+                  };
                 }]
-              })
-            }, e.removeMemberFromChatroom = function(e, t) {
-              m.delMember(e, t), g.close("mmpop_chatroom_members")
+              });
             };
-            var E = function() {
-              window.MMplayingMsg && (window.MMplayingMsg.MMPlaying = !1, window.MMplayingMsg = null, e.$$phase || e.$digest())
+
+            $scope.removeMemberFromChatroom = function(userName, delMember) {
+              chatroomFactory.delMember(userName, delMember);
+              mmpop.close('mmpop_chatroom_members');
             };
-            e.playVoice = function(e) {
-              t.e(2, function(require) {
-                var a = (t(278), jQuery("#voiceMsgPlayer"));
+
+            var _endedFunc = function() {
+              if (!window.MMplayingMsg) return;
+
+              window.MMplayingMsg.MMPlaying = false;
+              window.MMplayingMsg = null;
+              if (!$scope.$$phase) $scope.$digest();
+            };
+            $scope.playVoice = function(message) {
+              __webpack_require__.e /* nsure */ (2, function(require) {
+                var jplayer = __webpack_require__(278);
+                var voicePlayer = jQuery('#voiceMsgPlayer');
                 if (window.MMplayingMsg) {
-                  if (e.MsgId == window.MMplayingMsg.MsgId && e.MMPlaying) return void a.jPlayer("stop");
-                  E()
+                  if (message.MsgId == window.MMplayingMsg.MsgId && message.MMPlaying) { // 如果是点击一条正在播放的消息，则停止
+                    voicePlayer.jPlayer("stop");
+                    return;
+                  }
+                  _endedFunc();
                 }
-                var n = f.API_webwxgetvoice + "?msgid=" + e.MsgId + "&skey=" + s.getSkey();
-                e.MMVoiceUnRead && (e.MMVoiceUnRead = !1), e.MMPlaying = !0, a.jPlayer({
+
+                var url = confFactory.API_webwxgetvoice + '?msgid=' + message.MsgId + '&skey=' + accountFactory.getSkey();
+
+                if (message.MMVoiceUnRead) message.MMVoiceUnRead = false;
+
+                message.MMPlaying = true; // 语音播放标志位(显示动画)
+                voicePlayer.jPlayer({
                   ready: function() {}
-                  , timeupdate: function(e) {}
-                  , play: function(e) {}
-                  , pause: E
-                  , ended: E
+                  , timeupdate: function(event) {}
+                  , play: function(event) {}
+                  , pause: _endedFunc
+                  , ended: _endedFunc
                   , swfPath: window.MMSource.jplayerSwfPath
-                  , solution: "html, flash"
+                  , solution: 'html, flash'
                   , supplied: "mp3"
                   , wmode: "window"
-                }), a.jPlayer("stop"), window.MMplayingMsg = e, a.jPlayer("setMedia", {
-                  mp3: n
-                }), a.jPlayer("play")
-              })
+                });
+
+                voicePlayer.jPlayer("stop");
+                window.MMplayingMsg = message;
+                voicePlayer.jPlayer("setMedia", {
+                  mp3: url
+                });
+                voicePlayer.jPlayer("play");
+              });
             };
-            var G = !1;
-            e.$on("mmRepeat:change", function() {
-              G && (T.scrollTop = 99999)
+
+            var shouldScroll = false;
+
+            $scope.$on('mmRepeat:change', function() {
+              if (shouldScroll) {
+                chatBd.scrollTop = 99999; //chatBd.scrollHeight;
+              }
             });
-            var k, I = !0;
-            e.$watchCollection("chatContent", function(t) {
-              if (t.length > 0 && t[t.length - 1].FromUserName === s.getUserName()) G = !0;
-              else {
-                if (e.isChangeUserFlag ? (e.isChangeUserFlag = !1, S()) : e.bottomUnreadIndex && e.currentContact ? e.bottomUnreadCount = c.getUnreadMsgsCount(e.currentContact.UserName) : S(), k && clearTimeout(k), k = setTimeout(function() {
-                    I = !0
-                  }, 100), !I) return;
-                G = T.scrollTop + T.clientHeight + 260 >= T.scrollHeight, I = !1
-              }
-            }), e.heightCalc = function(t, a) {
-              var n = "<div message-directive ></div>"
-                , i = e.$new();
-              i.imageInit = function() {}, i.message = t;
-              var o = r(n)(i);
-              $("#prerender")
-                .append(o)
-                , function(t, a, n, i) {
-                  setTimeout(function() {
-                    function o() {
-                      l.height = c.height(), l.width = c.width(), n.MMImgStyle = l, i(a.height()), t.$destroy(), a.remove()
-                    }
 
-                    function r(e) {
-                      M.report(M.ReportType.imageLoadError, {
-                        text: "chat content image preload fail"
-                        , src: this.src
-                      }), l.height = 110, l.width = 110, n.MMImgStyle = l, t.$digest(), i(a.height()), t.$destroy(), a.remove()
-                    }
-                    if (n.MsgType == f.MSGTYPE_EMOTICON || n.MsgType == f.MSGTYPE_IMAGE || n.MsgType == f.MSGTYPE_VIDEO) {
-                      t.$digest();
-                      var c = a.find(".content .msg-img")
-                        , s = c.height()
-                        , l = {};
-                      if (n.ImgHeight) n.MsgType == f.MSGTYPE_EMOTICON ? (l.height = n.ImgHeight * c.width() / n.ImgWidth + "px", l.widht = c.width() + "px") : (l.height = n.ImgHeight, l.width = n.ImgWidth), n.MMImgStyle = l, t.$digest()
-                        , i(a.height()), t.$destroy(), a.remove();
-                      else if (s > 40 || 1 == c[0].complete && (c[0].naturalWidth, !(0 === c[0].naturalWidth)) && s > 0) i(a.height()), t.$destroy(), a.remove();
-                      else {
-                        if (n.MMPreviewSrc) return c[0].onload = o, c[0].onerror = r, void(c[0].src = n.MMPreviewSrc);
-                        if ("undefined" != typeof n.MMStatus && n.MMStatus != f.MSG_SEND_STATUS_SUCC) var d = e.$watch(function() {
-                          return n.MMStatus
-                        }, function(t) {
-                          t == f.MSG_SEND_STATUS_SUCC && (c[0].onload = o, c[0].onerror = r, c[0].src = e.getMsgImg(n.MsgId, "slave"), d())
-                        });
-                        else c[0].onload = o, c[0].onerror = r
-                      }
-                    } else t.$digest(), i(a.height()), t.$destroy(), a.remove()
-                  }, 0)
-                }(i, o, t, a)
-            }, e.cancelUploadFile = function(e) {
-              e.MMCancelUploadFileFunc(e)
-            }
-          }
-        ])
-    }()
-  }, 
-  , function(e, exports) {
-    ! function() {
-      "use strict";
-      angular.module("Controllers")
-        .controller("contentContactController", ["$scope", "contactFactory", function(e, t) {
-          e.$watch(function() {
-            return t.getCurrentContact()
-          }, function(a) {
-            a && (e.currentContact = t.getCurrentContact())
-          })
-        }])
-    }()
-  }
-  , function(e, exports, t) {
-    ! function() {
-      "use strict";
-      angular.module("Controllers")
-        .controller("chatSenderController", ["$rootScope", "$scope", "$http", "$timeout", "ngDialog", "confFactory", "accountFactory", "contactFactory", "chatFactory", "screenShotFactory", "utilFactory", "mmpop", "stateManageService"
-          , "emojiFactory", "reportService", "monitorService"
-          , function(e, a, n, i, o, r, c, s, l, d, f, u, m, g, p, h) {
-            function M() {
-              var e = "undefined" != typeof x.textContent ? x.textContent : x.innerText
-                , t = x.getElementsByTagName("img")
-                .length > 0;
-              e.length > 0 || t ? m.change("sender:hasText", !0) : m.change("sender:hasText", !1)
-            }
 
-            function v() {
-              window.getSelection ? (P = window.getSelection(), A = P.getRangeAt(0)) : A = document.selection.createRange()
-            }
+            var scrollTimer, shouldCalc = true;
+            $scope.$watchCollection('chatContent', function(list) {
+              if (list.length > 0 && list[list.length - 1].FromUserName === accountFactory.getUserName()) {
+                shouldScroll = true;
+              } else {
 
-            function y() {
-              A ? window.getSelection ? (P.removeAllRanges(), P.addRange(A)) : A.select() : b()
-            }
-
-            function b() {
-              var e, t;
-              document.createRange ? (e = document.createRange(), e.selectNodeContents(x), e.collapse(!1), t = window.getSelection(), t.removeAllRanges(), t.addRange(e)) : document.selection && (e = document.body.createTextRange(), e.moveToElementText(
-                x), e.collapse(!1), e.select())
-            }
-
-            function C(e) {
-              var t, a, n = "";
-              if (window.getSelection) t = window.getSelection(), t.rangeCount > 0 && (a = t.getRangeAt(0)
-                .cloneRange(), a.collapse(!0), a.setStart(x, 0), n = a.toString()
-                .slice(-e));
-              else if ((t = document.selection) && "Control" != t.type) {
-                var i;
-                a = t.createRange(), i = a.duplicate(), i.moveToElementText(x), i.setEndPoint("EndToStart", a), n = i.text.slice(-e)
-              }
-              return n
-            }
-
-            function w(e, t) {
-              var a, n;
-              if (t || y(), window.getSelection) {
-                !t && A ? (a = P, n = A) : (a = window.getSelection(), n = a.getRangeAt(0)), n.deleteContents();
-                var i;
-                if (n.createContextualFragment) i = n.createContextualFragment(e);
-                else {
-                  var o = document.createElement("div");
-                  o.innerHTML = e, i = document.createDocumentFragment();
-                  for (var r, c; r = o.firstChild;) c = i.appendChild(r)
+                if ($scope.isChangeUserFlag) {
+                  $scope.isChangeUserFlag = false;
+                  clearBottomUnread();
+                } else {
+                  if ($scope.bottomUnreadIndex && $scope.currentContact) {
+                    $scope.bottomUnreadCount = chatFactory.getUnreadMsgsCount($scope.currentContact.UserName);
+                  } else {
+                    clearBottomUnread();
+                  }
                 }
-                var s = i.lastChild;
-                n.insertNode(i), n.setStartAfter(s), a.removeAllRanges(), a.addRange(n);
-                var l = s.offsetTop - 42 + s.offsetHeight - x.offsetHeight;
-                x.scrollTop < l && (x.scrollTop = l)
-              } else n = t || !A ? document.selection.createRange() : A, e = e.replace(/</gi, "&lt;")
-                .replace(/>/gi, "&gt;"), n.pasteHTML(e), n.select()
+
+
+
+
+                /*
+                 * 内容一旦改变，在 mmrepeat 改变高度之前，确定现在是否处于应该滚动的情况（shouldScroll）,并且连环发送的时候，不会改变 shouldScroll 的结果。
+                 * 此时我们做出了一个假设 ， 就是 “用户在间隔低于100ms的输入的时候，不可能去主动滚动聊天区域”
+                 *
+                 * 注意：由于聊天区域的高度改变等都是异步的，时序难以确定，所以一般的 “滚到底部” 的手法难以生效，慎重改动此区域代码
+                 * */
+                scrollTimer && clearTimeout(scrollTimer);
+                scrollTimer = setTimeout(function() {
+                  shouldCalc = true;
+                }, 100);
+
+                if (!shouldCalc) {
+                  return;
+                }
+
+                shouldScroll = chatBd.scrollTop + chatBd.clientHeight + 260 >= chatBd.scrollHeight;
+                shouldCalc = false;
+              }
+
+
+            })
+
+            $scope.heightCalc = function(item, cb) {
+
+              var angularDomEl = '<div message-directive ></div>';
+              var newScope = $scope.$new();
+              newScope.imageInit = function() {};
+              newScope.message = item;
+              var domEl = $compile(angularDomEl)(newScope);
+
+
+              $('#prerender')
+                .append(domEl);
+              (function(newScope, domEl, item, cb) {
+                setTimeout(function() {
+                  if (item.MsgType == confFactory.MSGTYPE_EMOTICON || item.MsgType == confFactory.MSGTYPE_IMAGE || item.MsgType == confFactory.MSGTYPE_VIDEO) {
+
+                    newScope.$digest();
+
+                    var img = domEl.find('.content .msg-img');
+                    var imgHeight = img.height();
+                    var imgStyle = {};
+
+                    /*
+	
+	                                 MMImgStyle 会作为 ng-style 设置在图片上，保证返回的给 mm-repeat 的 _h 一定会等于图片真正的高度
+	                                 1. 如果服务器有给出高度，并且是图片类型，那么使用服务器给出的高度，准确性服务器保证
+	                                 2. 如果服务器有给出高度，并且是自定义表情类型，那么根据自定义表情的 img 元素的宽度去按比例算出高度，
+	                                 3. 如果服务器没给出，那么进行预渲染，在 onload 的时候获取高度
+	                                 4. 如果一开始就有高度，那么不需要处理，因为不论来自缓存还是上传插件的预览图，都不需要加载图片的过程，甚至预览图都不用
+	
+	                                 在某些浏览器下，图片加载完成前也是有高度的，所以分两种情况:
+	                                 1. imgHeight > 40 的情况，这种情况认为图片横竖加载完成了
+	                                 2. imgHeight > 0 , 并且通过额外条件判断图片是否加载完成
+	
+	
+	                                 PS：如果图片加载完成，却仍然用 onload 的方式去感知图片加载的话，有可能会遇到 onload 不触发，从而影响 mmrepeat 渲染
+	                                 */
+
+                    console.log('preload!!!!!!!!!!!!!!!!!!!'
+                      , item, imgHeight > 40 || (img[0].complete == true && !(typeof img[0].naturalWidth && img[0].naturalWidth === 0) && imgHeight > 0), item.ImgHeight)
+
+                    if (item.ImgHeight) {
+                      // 如果服务器给了高度，则预设高度，不用进行 onload 过程
+                      if (item.MsgType == confFactory.MSGTYPE_EMOTICON) {
+                        // 自定义表情是 固定宽度的等比缩放
+                        imgStyle.height = (item.ImgHeight * img.width()) / item.ImgWidth + 'px';
+                        imgStyle.widht = img.width() + 'px';
+
+                      } else {
+                        imgStyle.height = item.ImgHeight;
+                        imgStyle.width = item.ImgWidth;
+                      }
+                      item.MMImgStyle = imgStyle;
+                      newScope.$digest();
+                      cb(domEl.height());
+                      newScope.$destroy();
+                      domEl.remove();
+
+                    } else {
+                      if (imgHeight > 40 || (img[0].complete == true && !(typeof img[0].naturalWidth && img[0].naturalWidth === 0) && imgHeight > 0)) {
+                        cb(domEl.height());
+                        newScope.$destroy();
+                        domEl.remove();
+
+                      } else {
+
+
+                        if (item.MMPreviewSrc) {
+                          img[0].onload = onload;
+                          img[0].onerror = onerror;
+                          img[0].src = item.MMPreviewSrc;
+
+                          return;
+                        }
+
+
+                        if (typeof item.MMStatus !== 'undefined' && item.MMStatus != confFactory.MSG_SEND_STATUS_SUCC) {
+
+                          var unregister = $scope.$watch(function() {
+                            return item.MMStatus;
+                          }, function(status) {
+
+                            if (status == confFactory.MSG_SEND_STATUS_SUCC) {
+
+
+                              img[0].onload = onload;
+                              img[0].onerror = onerror;
+
+                              img[0].src = $scope.getMsgImg(item.MsgId, 'slave');
+                              console.log('preload!!!!!!!!!!!!!!!!!! ', img[0].src)
+                              unregister();
+                            }
+                          })
+                        } else {
+                          img[0].onload = onload;
+                          img[0].onerror = onerror;
+                        }
+
+
+
+
+                      }
+
+
+
+                    }
+
+
+
+                  } else {
+
+
+                    newScope.$digest();
+                    console.log(domEl.height())
+                      /*todo: 是否需要对异常情况做计算 */
+                    cb(domEl.height());
+                    newScope.$destroy();
+                    domEl.remove();
+
+                  }
+
+                  function onload() {
+                    console.log('height', domEl.height())
+
+                    imgStyle.height = img.height();
+                    imgStyle.width = img.width();
+                    item.MMImgStyle = imgStyle;
+
+                    cb(domEl.height());
+                    newScope.$destroy();
+                    domEl.remove();
+                  };
+
+                  function onerror(e) {
+
+                    console.error(e)
+                      // todo: 图片加载错误处理
+
+
+                    reportService.report(reportService.ReportType.imageLoadError, {
+                      text: 'chat content image preload fail'
+                      , src: this.src
+                    })
+
+                    imgStyle.height = 110;
+                    imgStyle.width = 110;
+                    item.MMImgStyle = imgStyle;
+                    newScope.$digest();
+                    cb(domEl.height());
+                    newScope.$destroy();
+                    domEl.remove();
+                  }
+                }, 0)
+              })(newScope, domEl, item, cb)
+
+            };
+
+            $scope.cancelUploadFile = function(msg) {
+              msg.MMCancelUploadFileFunc(msg);
+            };
+
+
+            /*setCurrentUnread*/
+
+            function clearBottomUnread() {
+              $scope.currentContact && chatFactory.markMsgsRead($scope.currentContact.UserName);
+              /*   chatFactory.setCurrentUnread(chatFactory.getCurrentUserName(),0);*/
+              $scope.bottomUnreadCount = 0;
+              chatFactory.getChatList();
             }
 
-            function S() {
-              window.getSelection && (window.getSelection()
-                .getRangeAt(0)
-                .insertNode(U), F = U.offsetLeft, V = U.offsetTop - x.scrollTop, D.appendChild(U))
+
+          }
+        ]);
+
+    })();
+
+    /***/
+  })
+  , /* 278 */
+  , /* 279 */
+  /***/
+  (function(module, exports) {
+
+    (function() {
+      'use strict';
+
+      /* Controllers */
+
+      angular.module('Controllers')
+        .controller('contentContactController', ['$scope', 'contactFactory', function($scope, contactFactory) {
+
+          $scope.$watch(function() {
+            return contactFactory.getCurrentContact();
+          }, function(newValue) {
+            if (newValue) {
+              $scope.currentContact = contactFactory.getCurrentContact();
+            }
+          });
+
+        }]);
+    })();
+
+    /***/
+  })
+  , /* 280 */
+  /***/
+  (function(module, exports, __webpack_require__) {
+
+    (function() {
+      'use strict';
+
+      /* Controllers */
+
+      angular.module('Controllers')
+        .controller('chatSenderController', [
+          '$rootScope'
+          , '$scope'
+          , '$http'
+          , '$timeout'
+          , 'ngDialog'
+          , 'confFactory'
+          , 'accountFactory'
+          , 'contactFactory'
+          , 'chatFactory'
+          , 'screenShotFactory'
+          , 'utilFactory'
+          , 'mmpop'
+          , 'stateManageService'
+          , 'emojiFactory'
+          , 'reportService'
+          , 'monitorService'
+          , function($rootScope, $scope, $http, $timeout, ngDialog, confFactory, accountFactory, contactFactory, chatFactory, screenShotFactory, utilFactory, mmpop
+            , stateManageService, emojiFactory, reportService, monitorService) {
+
+            var caretPosHelper = document.getElementById("caretPosHelper")
+              , caretPosLeft = 0
+              , caretPosTop = 0;
+            var editArea = document.getElementById("editArea")
+              , editAreaWrp = editArea.parentNode;
+            var editAreaSel, editAreaRange;
+            var editingContents = utilFactory.getShareObject('editingContents'); // 编辑中的草稿
+            var previewIsOpen = false;
+            var pasteIng = false;
+            var pasteIngTimer = null;
+
+
+            function changeHasTextState() {
+              var text = (typeof editArea.textContent != 'undefined') ? editArea.textContent : editArea.innerText;
+              var hasImg = editArea.getElementsByTagName('img')
+                .length > 0;
+              if (text.length > 0 || hasImg) {
+                stateManageService.change('sender:hasText', true);
+              } else {
+                stateManageService.change('sender:hasText', false);
+              }
             }
 
-            function T(t) {
-              var a = o.open({
-                template: "imageUploadPreview.html"
-                , controller: ["$scope", function(e) {
-                  R = !0;
-                  var a = "";
-                  e.src = "", e.send = function() {
-                    a && (t.MediaId = a, l.appendMessage(t), l.sendMessage(t), o.close())
-                  }, e.cancel = function() {
-                    o.close(), t = null
-                  }, e.$on("root:uploadImg:success", function(n, i) {
-                    e.src = i.src, t.MMPreviewSrc = i.src, a = i.mediaId, e.$digest()
-                  })
+
+            function _saveRange() {
+
+              if (window.getSelection) {
+                editAreaSel = window.getSelection();
+                editAreaRange = editAreaSel.getRangeAt(0);
+              } else {
+                editAreaRange = document.selection.createRange();
+              }
+            }
+
+            function _restoreRange() {
+              /*if(!editAreaRange){
+                  _saveRange();
+                  return;
+              }*/
+
+              //editArea.focus();
+              if (editAreaRange) {
+                if (window.getSelection) {
+
+                  editAreaSel.removeAllRanges();
+                  editAreaSel.addRange(editAreaRange);
+                } else {
+                  editAreaRange.select();
+                }
+              } else {
+                _moveCaretToEnd();
+              }
+
+            }
+            $(editArea)
+              .on('input', function() {
+                _saveRange();
+              })
+              .on('click', function() {
+                _saveRange();
+              })
+              .on('paste', function(e) {
+                var result = chatFactory.setSendFileUsername(chatFactory.getCurrentUserName());
+
+
+                if (pasteIngTimer) {
+                  clearTimeout(pasteIngTimer)
+                }
+                pasteIng = true;
+                pasteIngTimer = setTimeout(function() {
+                  pasteIng = false;
+                }, 100)
+
+
+                if (!result) {
+                  alert(_("599d8df"))
+                  e.preventDefault();
+                  e.stopPropagation();
+                  return false
+                }
+              })
+
+
+            $('#J_CatchDrop')
+              .on('drop', function(e) {
+                e.stopPropagation();
+                e.preventDefault();
+              })
+
+
+
+            /**
+             * 把光标移到所有元素的最后
+             */
+            function _moveCaretToEnd() {
+              var range, selection;
+              if (document.createRange) { // Chrome, IE 9+
+                range = document.createRange(); // 创建不可见的选区
+                range.selectNodeContents(editArea); // 选中整个元素
+                range.collapse(false); // 选至尾部，false为尾部，true为头部
+                selection = window.getSelection();
+                selection.removeAllRanges();
+                selection.addRange(range);
+              } else if (document.selection) { // IE 8 and lower
+                range = document.body.createTextRange();
+                range.moveToElementText(editArea);
+                range.collapse(false);
+                range.select();
+              }
+            }
+            /**
+             * 获取最后输入的字符
+             * @param len 长度，不传则为到头的全部
+             */
+            function _getLastCharFromEditArea(len) {
+              var precedingChar = ""
+                , sel, range;
+              if (window.getSelection) {
+                sel = window.getSelection();
+                if (sel.rangeCount > 0) {
+                  range = sel.getRangeAt(0)
+                    .cloneRange();
+                  range.collapse(true);
+                  range.setStart(editArea, 0);
+                  precedingChar = range.toString()
+                    .slice(-len);
+                }
+              } else if ((sel = document.selection) && sel.type != "Control") {
+                var precedingRange;
+                range = sel.createRange();
+                precedingRange = range.duplicate();
+                precedingRange.moveToElementText(editArea);
+                precedingRange.setEndPoint("EndToStart", range);
+                precedingChar = precedingRange.text.slice(-len);
+              }
+              return precedingChar;
+            }
+            /**
+             * 往编辑区插入内容
+             * @param isEditing 编辑区是否在编辑中
+             */
+            function _insertToEditArea(ctn, isEditing) {
+              var sel, range;
+              if (!isEditing) _restoreRange();
+
+              if (window.getSelection) { // IE9 and non-IE
+                if (!isEditing && editAreaRange) {
+                  sel = editAreaSel;
+                  range = editAreaRange;
+                } else {
+                  sel = window.getSelection();
+                  range = sel.getRangeAt(0);
+                }
+                range.deleteContents();
+
+                var frag;
+                if (range.createContextualFragment) {
+                  frag = range.createContextualFragment(ctn);
+                } else {
+                  var el = document.createElement("div");
+                  el.innerHTML = ctn;
+                  frag = document.createDocumentFragment();
+                  var node, lastNode;
+                  while ((node = el.firstChild)) {
+                    lastNode = frag.appendChild(node); // 之所以能终止循环，是因为el的child一旦添加到dom后，作为fragment里的的child就没了。那么el.firstChild就会返回null
+                  }
+                }
+                var lastInsertedNode = frag.lastChild; // 为啥在这里保存，原因和上面的注释一致
+                range.insertNode(frag);
+
+
+                // 把光标挪到插入的元素后面
+                range.setStartAfter(lastInsertedNode);
+
+                sel.removeAllRanges();
+                sel.addRange(range);
+
+
+
+                var shouldOffsetTop = lastInsertedNode.offsetTop - 42 /*第一行就已经有的，现在补偿回来*/ + lastInsertedNode.offsetHeight - editArea.offsetHeight
+                if (editArea.scrollTop < shouldOffsetTop) {
+                  editArea.scrollTop = shouldOffsetTop
+                }
+              } else { // IE < 9
+                range = (isEditing || !editAreaRange) ? document.selection.createRange() : editAreaRange;
+                ctn = ctn.replace(/</gi, '&lt;')
+                  .replace(/>/gi, '&gt;');
+                range.pasteHTML(ctn);
+                range.select();
+              }
+            }
+            /**
+             * 插入caretPosHelper以获得当前光标的坐标
+             */
+            function _calcCaretPos() {
+              if (window.getSelection) {
+                window.getSelection()
+                  .getRangeAt(0)
+                  .insertNode(caretPosHelper); // 插入一个元素以记录当前光标在屏幕的位置
+                caretPosLeft = caretPosHelper.offsetLeft;
+                caretPosTop = caretPosHelper.offsetTop - editArea.scrollTop;
+                editAreaWrp.appendChild(caretPosHelper); // 立刻插到body下，免得被擦掉
+              }
+            }
+
+
+            /**
+             * 弹窗展示图片，并确认是否发送
+             * @param msg 需要传入消息，用于sender发送
+             * @return func 用于update src和mediaId
+             */
+            function _imgMsgPreview(msg) {
+
+              var _dialog = ngDialog.open({
+                template: 'imageUploadPreview.html'
+                , controller: ['$scope', function(scope) {
+                  previewIsOpen = true;
+                  var mediaId = "";
+                  scope.src = "";
+                  scope.send = function() {
+
+                    if (!mediaId) return;
+
+                    msg.MediaId = mediaId;
+                    chatFactory.appendMessage(msg);
+                    chatFactory.sendMessage(msg);
+                    ngDialog.close();
+                    // monitorService.report(monitorService.SEND_MSG_COUNT, 1, 60000);
+                  };
+                  scope.cancel = function() {
+
+                    ngDialog.close();
+                    msg = null;
+                  };
+                  scope.$on("root:uploadImg:success", function(e, data) {
+                    scope.src = data.src;
+                    msg.MMPreviewSrc = data.src;
+                    mediaId = data.mediaId;
+                    scope.$digest();
+                  });
+
                 }]
                 , className: "default image_preview"
               });
+
               return {
-                update: function(t, a) {
-                  e.$broadcast("root:uploadImg:success", {
-                    src: t
-                    , mediaId: a
-                  })
+                update: function(src, mediaId) {
+                  $rootScope.$broadcast("root:uploadImg:success", {
+                    src: src
+                    , mediaId: mediaId
+                  });
                 }
-                , close: a.close
+                , close: _dialog.close
+              };
+            }
+
+
+
+            $scope.isDisabled = !$scope.userName;
+            $scope.isMacOS = navigator.userAgent.toUpperCase()
+              .indexOf("MAC OS") > -1;
+            $scope.editAreaCtn = "";
+
+            var prevUser;
+            $scope.$on('$destroy', function() {
+              if (prevUser) {
+                editingContents[prevUser] = editArea.innerHTML;
+              }
+            });
+            $scope.$watch(function() {
+              return chatFactory.getCurrentUserName();
+            }, function(newValue, oldValue) {
+              if (oldValue && newValue != oldValue) editingContents[oldValue] = editArea.innerHTML;
+
+              prevUser = newValue;
+              setContentAndMoveCare(editingContents[newValue]);
+            });
+
+            function setContentAndMoveCare(text) {
+              editArea.innerHTML = $scope.editAreaCtn = text || "";
+              editArea.focus();
+              changeHasTextState();
+              stateManageService.change('sender:active', true);
+              if (text) {
+                _moveCaretToEnd();
+                _saveRange()
               }
             }
 
-            function N(e) {
-              x.innerHTML = a.editAreaCtn = e || "", x.focus(), M(), m.change("sender:active", !0), e && (b(), v())
-            }
-
-            function E(e) {
-              return Q[e.toLowerCase()]
-            }
-
-            function G(e) {
-              var t = {
-                mp4: 1
-              };
-              return E(e) ? r.MSGTYPE_IMAGE : t[e.toLowerCase()] ? r.MSGTYPE_VIDEO : r.MSGTYPE_APP
-            }
-
-            function k(e, t) {
-              angular.extend(e, {
-                onQueued: X
-                , onProgress: X
-                , onSuccess: X
-                , onError: X
-              }, t)
-            }
-
-            function I() {
-              t.e(3, function(require) {
-                var e = t(281);
-                window.WebUploader = e;
-                try {
-                  K = e.create({
-                      auto: !0
-                      , dnd: "#chatArea"
-                      , paste: f.browser.webkit ? "#chatArea" : void 0
-                      , swf: r.RES_PATH + "third_party/webuploader-0.1.5/Uploader.swf"
-                      , server: r.API_webwxuploadmedia + "?f=json"
-                      , fileVal: "filename"
-                      , pick: ".js_fileupload"
-                      , compress: !1
-                      , duplicate: !0
-                      , threads: 1
-                      , chunked: !0
-                      , chunkSize: 524288
-                      , withCredentials: !0
-                    })
-                    .on("beforeFileQueued", function(e) {
-                      if (e._checked) return !0;
-                      if (h.report(h.UPLOAD_COUNT, 1), 0 == e.size) return K.skipFile(e), alert(_("61e885c")), !1;
-                      if (e._data = e._data || {}, !l.getSendFileUsername()) return K.skipFile(e), alert(_("599d8df")), !1;
-                      if (/untitled\d+.png/i.test(e.name) || q) k(e, ee), e.ToUserName = l.getSendFileUsername();
-                      else if (e.ToUserName = l.getSendFileUsername(), k(e, Z), "gif" !== e.ext.toLowerCase() && !E(e.ext)) {
-                        var t = G(e.ext);
-                        if (t == r.MSGTYPE_VIDEO && e.size >= 1024 * W * 1024) return K.skipFile(e), void alert(_("9a7dbbc"));
-                        e.ToUserName != l.getCurrentUserName() && (f.reportSendState("sendFileWrong")
-                          , p.report(p.ReportType.sendError, {
-                            type: "sendFileWrong"
-                            , browser: f.browser.msie ? "ie" : "other"
-                          })), e.MMSendMsg = l.createMessage({
-                          ToUserName: e.ToUserName
-                          , MsgType: t
-                          , FileName: e.name
-                          , FileSize: e.size
-                          , MMFileId: e.id
-                          , MMFileExt: e.ext
-                          , MMUploadProgress: 0
-                          , MMFileStatus: r.MM_SEND_FILE_STATUS_SENDING
-                          , MMCancelUploadFileFunc: J
-                        }), l.appendMessage(e.MMSendMsg), a.$$phase || a.$digest()
-                      }
-                      var i = !1;
-                      e.size > 1024 * z * 1024 && (i = !0);
-                      var o = Date.now();
-                      return K.md5File(e)
-                        .then(function(t) {
-                          function a(e, t, a) {
-                            var n, i = angular.extend(c.getBaseRequest(), {
-                                ClientMediaId: f.now()
-                                , TotalLen: e.size
-                                , StartPos: 0
-                                , DataLen: e.size
-                                , MediaType: r.UPLOAD_MEDIA_TYPE_ATTACHMENT
-                                , FromUserName: d.FromUserName
-                                , ToUserName: d.ToUserName
-                                , FileMd5: d.FileMd5
-                                , AESKey: d.AESKey
-                                , Signature: d.Signature
-                              })
-                              , o = G(e.ext);
-                            switch (o) {
-                              case r.MSGTYPE_IMAGE:
-                                n = "pic";
-                                break;
-                              case r.MSGTYPE_VIDEO:
-                                n = "video";
-                                break;
-                              default:
-                                n = "doc"
-                            }
-                            var s = {
-                              mediatype: n
-                              , uploadmediarequest: JSON.stringify(angular.extend({
-                                UploadType: 1
-                              }, i))
-                              , webwx_data_ticket: f.getCookie("webwx_data_ticket")
-                              , pass_ticket: decodeURIComponent(c.getPassticket())
-                            };
-                            e._uploadParams = s, e._uploadmediarequestBase = i, t ? (K.trigger("fileQueued", e), K.trigger("uploadSuccess", e, a), K.skipFile(e)) : (e._checked = !0, K.addFiles(e))
-                          }
-                          var s = Date.now() - o
-                            , l = s / e.size * 1024 * 1024;
-                          e.size > 1048576 ? (f.reportSendState("MD5TimeBigFilePerMb", Math.floor(l)), f.reportSendState("MD5TimeBigFilePerMbCount")) : (f.reportSendState("MD5TimeSmallFile", s), f.reportSendState(
-                            "MD5TimeSmallFileCount"));
-                          var d, u = {
-                            FromUserName: c.getUserName()
-                            , ToUserName: e.ToUserName
-                            , FileSize: e.size
-                            , FileMd5: t
-                            , FileName: e.name
-                            , FileType: 7
-                          };
-                          if (i) {
-                            var m = angular.extend(u, c.getBaseRequest());
-                            d = angular.extend({}, u), n({
-                                method: "POST"
-                                , url: r.API_checkupload
-                                , data: m
-                              })
-                              .success(function(t) {
-                                0 == t.BaseResponse.Ret ? (d = angular.extend(d, {
-                                  AESKey: t.AESKey
-                                  , Signature: t.Signature
-                                }), e.Signature = t.Signature, a(e, t.MediaId, t)) : (e.MMSendMsg && (e.MMSendMsg.MMFileStatus = r.MM_SEND_FILE_STATUS_FAIL, e.MMSendMsg.MMStatus = r.MSG_SEND_STATUS_FAIL), alert(t.BaseResponse.ErrMsg))
-                              })
-                              .error(function(t) {
-                                e.MMSendMsg && (e.MMSendMsg.MMFileStatus = r.MM_SEND_FILE_STATUS_FAIL, e.MMSendMsg.MMStatus = r.MSG_SEND_STATUS_FAIL), alert("上传失败")
-                              })
-                          } else d = angular.extend({}, u), a(e)
-                        }), !1
-                    })
-                    .on("fileQueued", function(e) {
-                      e.onQueued.call(e)
-                    })
-                    .on("uploadBeforeSend", function(e, t, a) {
-                      var n = e.file;
-                      n._data || {};
-                      angular.extend(t, n._uploadParams, {
-                        uploadmediarequest: JSON.stringify(angular.extend({
-                          UploadType: 2
-                        }, n._uploadmediarequestBase))
-                      })
-                    })
-                    .on("uploadProgress", function(e, t) {
-                      e.onProgress.call(e, t)
-                    })
-                    .on("uploadFinished", function() {
-                      K.reset()
-                    })
-                    .on("uploadSuccess", function(e, t) {
-                      e.onSuccess.call(e, t)
-                    })
-                    .on("uploadError", function(e, t) {
-                      e.onError.call(e, t), h.report(h.UPLOAD_FAIL_COUNT, 1)
-                    })
-                    .on("error", function(e) {
-                      p.report(p.ReportType.uploaderError, {
-                        text: "WebUploader 出错"
-                        , type: e
-                      }), h.report(h.UPLOAD_FAIL_COUNT, 1)
-                    })
-                } catch (e) {
-                  a.noflash = !0, p.report(p.ReportType.uploaderError, {
-                    text: "WebUploader 出错"
-                    , type: "no_flash"
-                  })
-                }
-              })
-            }
-            var P, A, U = document.getElementById("caretPosHelper")
-              , F = 0
-              , V = 0
-              , x = document.getElementById("editArea")
-              , D = x.parentNode
-              , O = f.getShareObject("editingContents")
-              , R = !1
-              , q = !1
-              , j = null;
-            $(x)
-              .on("input", function() {
-                v()
-              })
-              .on("click", function() {
-                v()
-              })
-              .on("paste", function(e) {
-                var t = l.setSendFileUsername(l.getCurrentUserName());
-                if (j && clearTimeout(j), q = !0, j = setTimeout(function() {
-                    q = !1
-                  }, 100), !t) return alert(_("599d8df")), e.preventDefault(), e.stopPropagation(), !1
-              }), $("#J_CatchDrop")
-              .on("drop", function(e) {
-                e.stopPropagation(), e.preventDefault()
-              }), a.isDisabled = !a.userName, a.isMacOS = navigator.userAgent.toUpperCase()
-              .indexOf("MAC OS") > -1, a.editAreaCtn = "";
-            var L;
-            a.$on("$destroy", function() {
-              L && (O[L] = x.innerHTML)
-            }), a.$watch(function() {
-              return l.getCurrentUserName()
-            }, function(e, t) {
-              t && e != t && (O[t] = x.innerHTML), L = e, N(O[e])
-            }), a.showEmojiPanel = function(e) {
-              u.toggleOpen({
+            $scope.showEmojiPanel = function(e) {
+              //  _saveRange(); // 保存editArea的选区
+              /*setTimeout(function(){
+                  editArea.focus();
+              },0)*/
+              mmpop.toggleOpen({
                 top: -272
                 , left: 15
                 , templateUrl: "expression.html"
                 , className: "slide-top"
                 , controller: "emojiController"
-                , singletonId: "mmpop_emoji_panel"
-                , scope: a
-                , autoFoucs: !1
-                , container: angular.element(document.getElementById("tool_bar"))
-              }), e.preventDefault()
+                , singletonId: 'mmpop_emoji_panel'
+                , scope: $scope
+                , autoFoucs: false
+                , container: angular.element(document.getElementById('tool_bar'))
+              });
+              e.preventDefault();
             };
-            var Y;
-            a.sendClick = function(e) {
-              var t = l.setSendFileUsername(l.getCurrentUserName());
-              if (!t) return (!Y || e.timeStamp - Y > 30) && (Y = e.timeStamp, alert(_("599d8df"))), e.preventDefault(), e.stopPropagation(), !1
-            }, a.screenShot = function() {
-              var e;
-              d.isSupport() ? d.capture({
-                ok: function() {
-                  var t = l.createMessage({
-                    MsgType: r.MSGTYPE_IMAGE
-                    , Type: r.MSGTYPE_IMAGE
-                  });
-                  e = T(t), d.upload(JSON.stringify(t), function(t) {
-                    !t.BaseResponse || t.BaseResponse && 0 != t.BaseResponse.Ret ? (alert(_("76a7e04")), e.close()) : e.update(r.API_webwxpreview + "?fun=preview&mediaid=" + t.MediaId, t.MediaId)
-                  })
+            var prevTimeStamp;
+            $scope.sendClick = function(e) {
+              var result = chatFactory.setSendFileUsername(chatFactory.getCurrentUserName());
+
+              if (!result) {
+
+                if (!prevTimeStamp || (e.timeStamp - prevTimeStamp > 30)) {
+                  prevTimeStamp = e.timeStamp;
+                  alert(_("599d8df"))
                 }
-              }) : "Win64" == navigator.platform && f.browser.msie ? alert(_("82cf63d")) : confirm(_("112a5c0")) && d.install(), h.report(h.CLICK_SNAPSHOT_COUNT, 1)
+
+                e.preventDefault();
+                e.stopPropagation();
+                return false
+              }
+            }
+            $scope.screenShot = function() {
+              var uploadPreview;
+              if (screenShotFactory.isSupport()) {
+                screenShotFactory.capture({
+                  ok: function() {
+                    var msg = chatFactory.createMessage({
+                      MsgType: confFactory.MSGTYPE_IMAGE
+                      , Type: confFactory.MSGTYPE_IMAGE
+                    });
+                    uploadPreview = _imgMsgPreview(msg);
+                    screenShotFactory.upload(JSON.stringify(msg), function(ret) {
+                      if (!ret.BaseResponse || ret.BaseResponse && ret.BaseResponse.Ret != 0) {
+                        alert(_("76a7e04"));
+                        uploadPreview.close();
+                      } else {
+                        console.log("capture upload success");
+                        uploadPreview.update(confFactory.API_webwxpreview + "?fun=preview&mediaid=" + ret.MediaId, ret.MediaId);
+                      }
+                    });
+                  }
+                });
+
+              } else {
+                if (navigator.platform == "Win64" && utilFactory.browser.msie) alert(_("82cf63d"));
+                else if (confirm(_("112a5c0"))) screenShotFactory.install();
+              }
+              monitorService.report(monitorService.CLICK_SNAPSHOT_COUNT, 1);
             };
-            var B, H;
-            a.editAreaKeyup = function(e) {
-              if (MMDEV && e.keyCode == r.KEYCODE_NUM2 && "@" == C(1)) {
-                var t = l.getCurrentUserName();
-                if (!f.isRoomContact(t)) return;
-                S(), H = function() {
-                  B = null, H = null;
-                  var e = s.getChatRoomMembersContact(t, "withoutMe");
-                  v(), u.open({
+            /*$scope.editAreaPaste = function(e){ // 就算这里给file增加自定义属性，在uploader那里还是会被洗掉，故注释。。。
+                var item = (e.clipboardData || e.originalEvent.clipboardData).items[0], blob;
+                if (item.kind == 'file' && item.type.match(/^image\//i) && (blob = item.getAsFile())) {
+                    var file = new WebUploader.Lib.File(WebUploader.guid(), blob); // 这里没有直接调用API的File，而是看了源码之后调用Lib里面的File，目的是为了和源码里的粘贴方法一致
+                    fileExtend(file, {
+                        onSuccess: emptyFunc
+                    });
+                    uploader.addFile(file);
+                }
+            };*/
+            var atTimeout, nextHandler;
+            $scope.editAreaKeyup = function(e) {
+              if (!MMDEV) return;
+
+
+
+
+              if (e.keyCode == confFactory.KEYCODE_NUM2 && _getLastCharFromEditArea(1) == "@") {
+                var currentUserName = chatFactory.getCurrentUserName();
+                if (!utilFactory.isRoomContact(currentUserName)) return;
+
+                _calcCaretPos();
+                nextHandler = function() {
+                  atTimeout = null;
+                  nextHandler = null;
+                  var memberList = contactFactory.getChatRoomMembersContact(currentUserName, "withoutMe");
+                  //if(!memberList.length || !memberList[0].HeadImgUrl) return; // 没有群成员列表 或 群成员具体数据还没回来，先不展示
+
+                  _saveRange();
+                  mmpop.open({
                     templateUrl: "editAreaContactPanel.html"
                     , controller: "editAreaContactListController"
-                    , left: F
-                    , top: V
+                    , left: caretPosLeft
+                    , top: caretPosTop
                     , scope: {
-                      chatRoomUserName: t
-                      , memberList: angular.copy(e)
-                      , insertContactToEditArea: a.insertToEditArea
+                      chatRoomUserName: currentUserName
+                      , memberList: angular.copy(memberList)
+                      , insertContactToEditArea: $scope.insertToEditArea
                     }
-                    , autoFoucs: !1
-                    , container: angular.element(D)
-                  })
-                }, !B && H && H(), clearTimeout(B), B = setTimeout(function() {
-                  H && H(), B = null
-                }, 300)
-              }
-            }, a.editAreaKeydown = function(e) {
-              if (M(), B) return void e.preventDefault();
-              var t = e.keyCode;
-              if (t == r.KEYCODE_ENTER) {
-                if (e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) {
-                  var n = "<br>";
-                  if (!f.browser.msie && window.getSelection) {
-                    var i = window.getSelection()
-                      .focusNode.nextSibling;
-                    do
-                      if (!i || i.nodeValue || "BR" == i.tagName) break;
-                    while (i = i.nextSibling);
-                    i || (n += n)
-                  }
-                  a.insertToEditArea(n, !0), x.scrollTop = x.scrollHeight
-                } else a.sendTextMessage();
-                e.preventDefault()
-              }
-              83 == t && e.altKey && (a.sendTextMessage(), e.preventDefault()), (t >= 65 && t <= 111 || t >= 186 && t <= 222) && u.close()
-            }, a.editAreaBlur = function(e) {
-              H = null, m.change("sender:active", !1)
-            }, a.editAreaClick = function(e) {
-              S()
-            }, a.sendTextMessage = function() {
-              if (u.close(), !a.editAreaCtn.replace(/<br\/?>/g, "")
-                .match(/^\s*$/)) {
-                var e = l.createMessage({
-                  MsgType: r.MSGTYPE_TEXT
-                  , Content: a.editAreaCtn
-                });
-                l.appendMessage(e), l.sendMessage(e), O[l.getCurrentUserName()] = "", a.editAreaCtn = ""
-              }
-            }, a.$on("root:quoteMsg", function(e, t) {
-              N(t + (x.innerHTML.replace("<br>", "") ? x.innerHTML : "<br>")), x.scrollTop = 9999
-            }), a.insertToEditArea = function(e, t) {
-              w(e, t), a.editAreaCtn = x.innerHTML
-            }, a.sendTuzkiEmoji = function(e, t) {
-              var a = l.createMessage({
-                MsgType: r.MSGTYPE_EMOTICON
-                , Content: e
-                , EmojiFlag: r.EMOJI_FLAG_GIF
-                , EMoticonMd5: e
-              });
-              a.MMPreviewSrc = r.RES_PATH + "images/icon/Tuzki/" + t, l.appendMessage(a), l.sendMessage(a)
-            }, a.sendGif = function(e) {};
-            var K, W = 20
-              , z = 25
-              , Q = {
-                bmp: 1
-                , png: 1
-                , jpeg: 1
-                , jpg: 1
-                , gif: 0
-              }
-              , J = function(e) {
-                K.cancelFile(e.MMFileId), e.MMFileStatus = r.MM_SEND_FILE_STATUS_CANCEL, e.MMStatus = r.MSG_SEND_STATUS_READY
-              }
-              , X = function() {}
-              , Z = {
-                onQueued: function() {
-                  if ((E(this.ext) || "gif" == this.ext.toLowerCase()) && this.ToUserName != l.getCurrentUserName() && (f.reportSendState("sendImageWrong"), p.report(p.ReportType.sendError, {
-                      type: "sendImageWrong"
-                      , browser: f.browser.msie ? "ie" : "other"
-                    })), "gif" == this.ext.toLowerCase()) return this.MMSendMsg = l.createMessage({
-                    ToUserName: this.ToUserName
-                    , MsgType: r.MSGTYPE_EMOTICON
-                    , EmojiFlag: r.EMOJI_FLAG_GIF
-                  }), void
-                  function(e) {
-                    K.makeThumb(e, function(t, a) {
-                      a && (e.MMSendMsg.MMThumbSrc = a), l.appendMessage(e.MMSendMsg)
-                    }, 1, 1)
-                  }(this);
-                  if (E(this.ext)) {
-                    var t = G(this.ext);
-                    this.MMSendMsg = l.createMessage({
-                        ToUserName: this.ToUserName
-                        , MsgType: t
-                        , FileName: this.name
-                        , FileSize: this.size
-                        , MMFileId: this.id
-                        , MMFileExt: this.ext
-                        , MMUploadProgress: 0
-                        , MMFileStatus: r.MM_SEND_FILE_STATUS_QUEUED
-                        , MMCancelUploadFileFunc: J
-                      })
-                      , function(t) {
-                        t.MMSendMsg.MMThumbSrc = "", K.makeThumb(t, function(a, n) {
-                          !a && n || p.report(p.ReportType.uploaderError, {
-                            text: "创建缩略图失败"
-                            , fileName: t.MMSendMsg.MMFileExt
-                            , fileSize: t.MMSendMsg.FileSize
-                          }), n && (t.MMSendMsg.MMThumbSrc = n), l.appendMessage(t.MMSendMsg), e.$digest()
-                        })
-                      }(this)
-                  }
-                }
-                , onProgress: function(e) {
-                  var t = this;
-                  a.$apply(function() {
-                    t.MMSendMsg && (t.MMSendMsg.MMFileStatus = r.MM_SEND_FILE_STATUS_SENDING, t.MMSendMsg.MMUploadProgress = parseInt(100 * e))
-                  })
-                }
-                , onSuccess: function(e) {
-                  if (0 == e.BaseResponse.Ret) {
-                    var t = this.MMSendMsg;
-                    t.MediaId = e.MediaId, t.Signature = this.Signature, t.EncryFileName = e.EncryFileName, l.sendMessage(t), t.MMFileStatus = r.MM_SEND_FILE_STATUS_SUCCESS, a.$$phase || a.$digest()
-                  } else this.onError("Ret: " + e.BaseResponse.Ret)
-                }
-                , onError: function(e) {
-                  var t = this;
-                  p.report(p.ReportType.uploaderError, {
-                    text: "chooseFile 上传失败"
-                    , reason: e
-                    , fileName: this.ext
-                    , fileSize: this.size
-                  }), a.$apply(function() {
-                    t.MMSendMsg.MMFileStatus = r.MM_SEND_FILE_STATUS_FAIL, t.MMSendMsg.MMStatus = r.MSG_SEND_STATUS_FAIL
-                  })
-                }
-              }
-              , ee = {
-                onQueued: function() {
-                  var e = l.createMessage({
-                    ToUserName: this.ToUserName
-                    , MsgType: r.MSGTYPE_IMAGE
-                    , Type: r.MSGTYPE_IMAGE
+                    , autoFoucs: false
+                    , container: angular.element(editAreaWrp)
                   });
-                  this._uploadPreviewUpdate = T(e)
-                    .update
+
+                };
+
+                // 如果距上次操作超过 300ms 则马上执行，如果没操过，则延迟
+                if (!atTimeout && nextHandler) {
+                  nextHandler();
                 }
-                , onSuccess: function(e) {
-                  0 == e.BaseResponse.Ret ? this._uploadPreviewUpdate(r.API_webwxpreview + "?fun=preview&mediaid=" + e.MediaId, e.MediaId) : this.onError("Ret: " + e.BaseResponse.Ret)
+
+                clearTimeout(atTimeout);
+                atTimeout = setTimeout(function() { // 设置延时是因为防止被人狂@
+                  nextHandler && nextHandler();
+                  atTimeout = null;
+                }, 300);
+              }
+            };
+            $scope.editAreaKeydown = function(e) {
+              changeHasTextState();
+              if (atTimeout) {
+                e.preventDefault();
+                return;
+              }
+
+              var keyCode = e.keyCode;
+              if (keyCode == confFactory.KEYCODE_ENTER) {
+                if (e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) {
+                  var ctn = "<br>";
+                  if (!utilFactory.browser.msie && window.getSelection) {
+                    var nextSibling = window.getSelection()
+                      .focusNode.nextSibling;
+                    do { // 如果找到 非空节点 || 值为非空节点 || <br> 就跳出
+                      if (!nextSibling || nextSibling.nodeValue || nextSibling.tagName == "BR") break;
+                    } while (nextSibling = nextSibling.nextSibling);
+                    if (!nextSibling) {
+                      ctn += ctn; // 后面没有node的时候需要两个<br>
+                    }
+                  }
+                  $scope.insertToEditArea(ctn, true);
+                  editArea.scrollTop = editArea.scrollHeight;
+                } else {
+                  $scope.sendTextMessage();
                 }
-                , onError: function(e) {
-                  p.report(p.ReportType.uploaderError, {
-                    text: "pasteImg 上传失败"
-                    , reason: e
+                e.preventDefault();
+              }
+              // alt + s
+              if (keyCode == 83 && e.altKey) {
+                $scope.sendTextMessage();
+                e.preventDefault();
+              }
+
+              // 可视字符
+              if (keyCode >= 65 && keyCode <= 111 || keyCode >= 186 && keyCode <= 222) {
+                mmpop.close();
+              }
+
+
+            };
+            $scope.editAreaBlur = function(e) {
+              nextHandler = null;
+              stateManageService.change('sender:active', false);
+            };
+            $scope.editAreaClick = function(e) {
+              _calcCaretPos();
+            };
+            $scope.sendTextMessage = function() {
+              mmpop.close();
+              if ($scope.editAreaCtn.replace(/<br\/?>/g, "")
+                .match(/^\s*$/)) { // <br> || <br/>
+                return;
+              }
+
+
+
+              var msg = chatFactory.createMessage({
+                MsgType: confFactory.MSGTYPE_TEXT
+                , Content: $scope.editAreaCtn
+              });
+              chatFactory.appendMessage(msg);
+              chatFactory.sendMessage(msg);
+
+              editingContents[chatFactory.getCurrentUserName()] = '';
+              $scope.editAreaCtn = '';
+            };
+
+            $scope.$on("root:quoteMsg", function(e, text) {
+
+              setContentAndMoveCare(text + (editArea.innerHTML.replace('<br>', '') ? editArea.innerHTML : '<br>'));
+              editArea.scrollTop = 9999;
+            });
+
+
+            /**
+             * 插入内容到编辑区
+             * @param ctn 内容，可以是html
+             * @param isEditing 焦点是否在编辑区中。如果不是，则需要读取range
+             */
+            $scope.insertToEditArea = function(ctn, isEditing) {
+              _insertToEditArea(ctn, isEditing);
+              $scope.editAreaCtn = editArea.innerHTML;
+            };
+            /**
+             * 发送兔斯基表情
+             * @param md5 兔斯基的MD5，可以在emojiService里面找到
+             */
+            $scope.sendTuzkiEmoji = function(md5, name) {
+
+              var msg = chatFactory.createMessage({
+                MsgType: confFactory.MSGTYPE_EMOTICON
+                , Content: md5
+                , EmojiFlag: confFactory.EMOJI_FLAG_GIF
+                , EMoticonMd5: md5
+              });
+
+              msg.MMPreviewSrc = confFactory.RES_PATH + "images/icon/Tuzki/" + name;
+              chatFactory.appendMessage(msg);
+              chatFactory.sendMessage(msg);
+            };
+
+            $scope.sendGif = function(MediaId) {
+
+            }
+
+
+            //文件上传，使用FEX的uploader，API见：http://fex-team.github.io/webuploader/doc/index.html#Lib.File
+            var MAX_IMG_UPLOAD_SIZE = 20 //10;//10M
+            var MAX_FILE_UPLOAD_SIZE = 50; //20M
+            var NEED_CHECK_SIZE = 25; //20M
+
+
+            var accessImageExts = {
+              "bmp": 1
+              , "png": 1
+              , "jpeg": 1
+              , "jpg": 1
+              , "gif": 0
+            }; // 图片规则
+            function isImg(ext) {
+              return accessImageExts[ext.toLowerCase()];
+            }
+
+            function getMsgType(ext) {
+              var accessVideoExts = {
+                'mp4': 1
+              };
+              if (isImg(ext)) {
+                return confFactory.MSGTYPE_IMAGE;
+              } else if (accessVideoExts[ext.toLowerCase()]) {
+                return confFactory.MSGTYPE_VIDEO;
+              } else {
+                return confFactory.MSGTYPE_APP;
+              }
+            }
+
+            var _cancelUploadFile = function(msg) {
+              uploader.cancelFile(msg.MMFileId);
+
+              msg.MMFileStatus = confFactory.MM_SEND_FILE_STATUS_CANCEL;
+              msg.MMStatus = confFactory.MSG_SEND_STATUS_READY;
+            };
+            var emptyFunc = function() {}
+              , chooseFileCbs = { // 选择文件 背景下的回调
+                onQueued: function() {
+                  if (isImg(this.ext) || this.ext.toLowerCase() == 'gif') {
+                    if (this.ToUserName != chatFactory.getCurrentUserName()) {
+                      utilFactory.reportSendState('sendImageWrong')
+                      reportService.report(reportService.ReportType.sendError, {
+                        type: 'sendImageWrong'
+                        , browser: utilFactory.browser.msie ? 'ie' : 'other'
+                      })
+                    }
+                  }
+
+
+                  if (this.ext.toLowerCase() == 'gif') {
+                    this.MMSendMsg = chatFactory.createMessage({
+                      ToUserName: this.ToUserName
+                      , MsgType: confFactory.MSGTYPE_EMOTICON
+                      , EmojiFlag: confFactory.EMOJI_FLAG_GIF
+                        /*,
+                        	                            MediaId:MediaId*/
+                    });
+
+
+                    /*  msg.MMPreviewSrc =confFactory.API_webwxgetmsgimg + '?'+'&MsgID='+ msgId +'&skey=' + encodeURIComponent(accountFactory.getSkey())*/
+
+
+                    (function(f) {
+
+                      uploader.makeThumb(f, function(error, blob) { // 创建缩略图，如果有的话返回blob
+
+                        if (blob) f.MMSendMsg.MMThumbSrc = blob;
+                        chatFactory.appendMessage(f.MMSendMsg);
+                        console.log(blob)
+                      }, 1, 1);
+                    })(this);
+                    return;
+                  }
+
+
+                  if (isImg(this.ext)) {
+                    var msgtype = getMsgType(this.ext);
+
+                    this.MMSendMsg = chatFactory.createMessage({ // 创建消息
+                      ToUserName: this.ToUserName
+                      , MsgType: msgtype
+                      , FileName: this.name, // 文件名字
+                      FileSize: this.size, // 文件大小
+                      MMFileId: this.id, // 文件在uploader的id
+                      MMFileExt: this.ext, // 文件后缀名
+                      MMUploadProgress: 0, // 上传进度
+                      MMFileStatus: confFactory.MM_SEND_FILE_STATUS_QUEUED, // 文件状态，现在是插入队列，待发送
+
+                      MMCancelUploadFileFunc: _cancelUploadFile
+                    });
+                    (function(f) {
+                      f.MMSendMsg.MMThumbSrc = "";
+                      uploader.makeThumb(f, function(error, blob) { // 创建缩略图，如果有的话返回blob
+
+                        if (error || !blob) {
+                          reportService.report(reportService.ReportType.uploaderError, {
+                            text: '创建缩略图失败'
+                            , fileName: f.MMSendMsg.MMFileExt
+                            , fileSize: f.MMSendMsg.FileSize
+                          })
+                        }
+
+                        if (blob) f.MMSendMsg.MMThumbSrc = blob;
+
+                        // todo 如果预览出错，则插入默认占位图
+                        chatFactory.appendMessage(f.MMSendMsg);
+
+                        $rootScope.$digest();
+                      });
+                    })(this);
+                  }
+                }
+                , onProgress: function(percentage) {
+
+
+
+                  var me = this;
+
+                  $scope.$apply(function() {
+                    if (me.MMSendMsg) {
+                      me.MMSendMsg.MMFileStatus = confFactory.MM_SEND_FILE_STATUS_SENDING;
+                      me.MMSendMsg.MMUploadProgress = parseInt(percentage * 100);
+                    }
+                  });
+                }
+                , onSuccess: function(res) {
+                  if (res.BaseResponse.Ret == 0) {
+                    var msg = this.MMSendMsg;
+                    msg.MediaId = res.MediaId;
+                    msg.Signature = this.Signature;
+                    msg.EncryFileName = res.EncryFileName;
+                    chatFactory.sendMessage(msg);
+
+                    msg.MMFileStatus = confFactory.MM_SEND_FILE_STATUS_SUCCESS;
+                    if (!$scope.$$phase) $scope.$digest();
+
+
+                  } else {
+                    this.onError("Ret: " + res.BaseResponse.Ret);
+                  }
+                }
+                , onError: function(reason) {
+                  var me = this;
+                  /*                    console.error(me.name + " uploadError: ", reason);*/
+
+                  reportService.report(reportService.ReportType.uploaderError, {
+                    text: 'chooseFile 上传失败'
+                    , reason: reason
                     , fileName: this.ext
                     , fileSize: this.size
-                  }), alert(_("c5795a7") + e)
+                  });
+
+                  $scope.$apply(function() {
+                    me.MMSendMsg.MMFileStatus = confFactory.MM_SEND_FILE_STATUS_FAIL;
+                    me.MMSendMsg.MMStatus = confFactory.MSG_SEND_STATUS_FAIL;
+                  });
+                }
+              }
+              , pasteImgCbs = {
+                onQueued: function() {
+                  var msg = chatFactory.createMessage({
+                    ToUserName: this.ToUserName
+                    , MsgType: confFactory.MSGTYPE_IMAGE
+                    , Type: confFactory.MSGTYPE_IMAGE
+                  });
+
+                  /* if(isImg(this.ext)) {
+                       (function (f) {
+                           msg.MMThumbSrc = "";
+                           uploader.makeThumb(f, function (error, blob) {// 创建缩略图，如果有的话返回blob
+                               if (blob) msg.MMThumbSrc = blob;
+                           });
+                       })(this);
+                   }*/
+
+
+                  this._uploadPreviewUpdate = _imgMsgPreview(msg)
+                    .update;
+                }
+                , onSuccess: function(res) {
+                  if (res.BaseResponse.Ret == 0) {
+                    this._uploadPreviewUpdate(confFactory.API_webwxpreview + "?fun=preview&mediaid=" + res.MediaId, res.MediaId);
+                  } else {
+                    this.onError("Ret: " + res.BaseResponse.Ret);
+                  }
+                }
+                , onError: function(reason) {
+                  //console.error(this.name + " uploadError: ", reason);
+                  reportService.report(reportService.ReportType.uploaderError, {
+                    text: 'pasteImg 上传失败'
+                    , reason: reason
+                    , fileName: this.ext
+                    , fileSize: this.size
+                  });
+                  alert(_("c5795a7") + reason);
                 }
               };
-            window.WebUploader ? I() : e.$on("root:pageInit:success", function() {
-              I()
-            })
+            /**
+             * 为文件对象增加回调方法，以供uploader调用，默认的回调是在 选择文件 背景下的回调
+             */
+            function fileExtend(file, cbs) {
+              angular.extend(file, {
+                onQueued: emptyFunc
+                , onProgress: emptyFunc
+                , onSuccess: emptyFunc
+                , onError: emptyFunc
+              }, cbs);
+            }
+
+            var uploader;
+
+            function initWebUploader() {
+              __webpack_require__.e /* nsure */ (3, function(require) {
+                var WebUploader = __webpack_require__(281);
+                window.WebUploader = WebUploader;
+                // 系统没有安装flash、浏览器不支持H5上传时，傻逼webuploader会抛出异常，要自己捕获
+                try {
+                  uploader = WebUploader.create({
+                      auto: true
+                      , dnd: "#chatArea"
+                      , paste: utilFactory.browser.webkit ? "#chatArea" : undefined
+                      , swf: confFactory.RES_PATH + "third_party/webuploader-0.1.5/Uploader.swf"
+                      , server: confFactory.API_webwxuploadmedia + "?f=json"
+                      , //threads: 1, // 设置进程为1是为了确保顺序
+                      fileVal: "filename"
+                      , pick: ".js_fileupload"
+                      , compress: false
+                      , duplicate: true
+                      , threads: 1
+                      , chunked: true
+                      , chunkSize: 524288
+                      , withCredentials: true
+                    })
+                    .on("beforeFileQueued", function(file) { // 添加到队列前触发
+                      var self = this;
+                      if (file._checked) return true;
+
+                      monitorService.report(monitorService.UPLOAD_COUNT, 1);
+                      // utilFactory.reportSendState('sendFile');
+
+                      if (file.size == 0) {
+                        uploader.skipFile(file);
+                        alert(_("61e885c"))
+                        return false;
+                      }
+
+
+                      file._data = file._data || {
+
+                        }
+                        /*    if(isImg(file.ext)){
+                                if(file.size > MAX_IMG_UPLOAD_SIZE * 1024 * 1024){
+                                    alert(_("8c88ff6") + MAX_IMG_UPLOAD_SIZE + "M");
+                                    return false;
+                                }
+                            }else{
+                                if(file.size > MAX_FILE_UPLOAD_SIZE * 1024 * 1024){
+                                    alert(_("0c9c48a") + MAX_FILE_UPLOAD_SIZE + "M");
+                                    return false;
+                                }
+                            }
+                            */
+
+                      if (!chatFactory.getSendFileUsername()) {
+                        uploader.skipFile(file);
+                        alert(_("599d8df"))
+                        return false;
+                      }
+
+                      if (/untitled\d+.png/i.test(file.name) || pasteIng) {
+                        fileExtend(file, pasteImgCbs);
+                        file.ToUserName = chatFactory.getSendFileUsername()
+
+                      } // TODO 暂时只能以这么龊的方式区分是file是来自 剪切板 还是 文件选择器
+                      else {
+                        // if(!file.ToUserName){
+                        file.ToUserName = chatFactory.getSendFileUsername();
+                        // }
+                        fileExtend(file, chooseFileCbs); // 文件必须有对应状态的回调方法，这里是当来到这里没有时，当作来自 文件选择器 处理
+                        if (file.ext.toLowerCase() !== 'gif' && !isImg(file.ext)) {
+                          var msgtype = getMsgType(file.ext);
+
+                          if (msgtype == confFactory.MSGTYPE_VIDEO && file.size >= MAX_IMG_UPLOAD_SIZE * 1024 * 1024) {
+                            uploader.skipFile(file);
+                            alert(_("9a7dbbc"))
+                            return;
+                          }
+
+
+                          if (file.ToUserName != chatFactory.getCurrentUserName()) {
+                            utilFactory.reportSendState('sendFileWrong')
+                            reportService.report(reportService.ReportType.sendError, {
+                              type: 'sendFileWrong'
+                              , browser: utilFactory.browser.msie ? 'ie' : 'other'
+                            });
+                          }
+                          file.MMSendMsg = chatFactory.createMessage({ // 创建消息
+                            ToUserName: file.ToUserName
+                            , MsgType: msgtype
+                            , FileName: file.name, // 文件名字
+                            FileSize: file.size, // 文件大小
+                            MMFileId: file.id, // 文件在uploader的id
+                            MMFileExt: file.ext, // 文件后缀名
+                            MMUploadProgress: 0, // 上传进度
+                            MMFileStatus: confFactory.MM_SEND_FILE_STATUS_SENDING, // 文件状态，现在是插入队列，待发送
+                            /*   Signature:file.Signature,*/
+                            MMCancelUploadFileFunc: _cancelUploadFile
+                          });
+                          chatFactory.appendMessage(file.MMSendMsg);
+                          if (!$scope.$$phase) $scope.$digest();
+                        }
+                      }
+
+
+                      var needCheck = false;
+                      if (file.size > NEED_CHECK_SIZE * 1024 * 1024) {
+                        needCheck = true;
+                      }
+
+
+
+
+
+                      var startTime = Date.now();
+                      uploader.md5File(file)
+                        .then(function(val) {
+                          console.log('md5 result:', val);
+                          var time = Date.now() - startTime;
+                          var timeConsuming = (time / file.size) * 1024 * 1024;
+                          if (file.size > 1024 * 1024) {
+                            utilFactory.reportSendState('MD5TimeBigFilePerMb', Math.floor(timeConsuming));
+                            utilFactory.reportSendState('MD5TimeBigFilePerMbCount');
+                          } else {
+                            utilFactory.reportSendState('MD5TimeSmallFile', time);
+                            utilFactory.reportSendState('MD5TimeSmallFileCount');
+                          }
+
+                          var fileInfo;
+                          var fileMsgInfo = {
+                            FromUserName: accountFactory.getUserName()
+                            , ToUserName: file.ToUserName
+                            , FileSize: file.size
+                            , FileMd5: val
+                            , FileName: file.name
+                            , FileType: 7 // 大文件
+                          };
+                          if (needCheck) {
+
+                            var postData = angular.extend(fileMsgInfo, accountFactory.getBaseRequest());
+
+                            fileInfo = angular.extend({}, fileMsgInfo);
+
+                            $http({
+                                method: 'POST'
+                                , url: confFactory.API_checkupload
+                                , data: postData
+                              })
+                              .success(function(res) {
+                                if (res.BaseResponse.Ret == 0) {
+                                  fileInfo = angular.extend(fileInfo, {
+                                    AESKey: res.AESKey
+                                    , Signature: res.Signature
+                                  });
+                                  file.Signature = res.Signature;
+
+                                  upload(file, res.MediaId, res)
+                                } else {
+                                  if (file.MMSendMsg) {
+                                    file.MMSendMsg.MMFileStatus = confFactory.MM_SEND_FILE_STATUS_FAIL;
+                                    file.MMSendMsg.MMStatus = confFactory.MSG_SEND_STATUS_FAIL;
+                                  }
+                                  alert(res.BaseResponse.ErrMsg)
+                                }
+
+                              })
+                              .error(function(err) {
+                                if (file.MMSendMsg) {
+                                  file.MMSendMsg.MMFileStatus = confFactory.MM_SEND_FILE_STATUS_FAIL;
+                                  file.MMSendMsg.MMStatus = confFactory.MSG_SEND_STATUS_FAIL;
+                                }
+                                alert('上传失败')
+                              });
+                          } else {
+
+                            fileInfo = angular.extend({}, fileMsgInfo);
+                            upload(file)
+                          }
+
+                          function upload(file, mediaId, res) {
+                            // 准备 upload 参数
+                            var uploadmediarequestBase = angular.extend(accountFactory.getBaseRequest(), {
+                              ClientMediaId: utilFactory.now()
+                              , TotalLen: file.size
+                              , StartPos: 0
+                              , DataLen: file.size
+                              , MediaType: confFactory.UPLOAD_MEDIA_TYPE_ATTACHMENT,
+
+                              FromUserName: fileInfo.FromUserName
+                              , ToUserName: fileInfo.ToUserName
+                              , FileMd5: fileInfo.FileMd5
+                              , AESKey: fileInfo.AESKey
+                              , Signature: fileInfo.Signature
+                            });
+
+
+                            var msgType = getMsgType(file.ext)
+                              , mediaType;
+                            switch (msgType) {
+                              case confFactory.MSGTYPE_IMAGE:
+                                mediaType = 'pic';
+                                break;
+                              case confFactory.MSGTYPE_VIDEO:
+                                mediaType = 'video';
+                                break;
+                              default:
+                                mediaType = 'doc';
+                            }
+
+
+                            var uploadParams = {
+                              mediatype: mediaType
+                              , uploadmediarequest: JSON.stringify(angular.extend({
+                                UploadType: 1
+                              }, uploadmediarequestBase))
+                              , webwx_data_ticket: utilFactory.getCookie('webwx_data_ticket')
+                              , pass_ticket: decodeURIComponent(accountFactory.getPassticket())
+                            }
+
+
+                            file._uploadParams = uploadParams;
+                            file._uploadmediarequestBase = uploadmediarequestBase;
+
+                            if (mediaId) {
+                              uploader.trigger('fileQueued', file)
+                              uploader.trigger('uploadSuccess', file, res)
+                              uploader.skipFile(file);
+
+                            } else {
+                              file._checked = true;
+                              uploader.addFiles(file);
+                            }
+
+
+                          }
+                        });
+
+
+
+
+                      return false;
+
+                    })
+                    .on("fileQueued", function(file) { // 当有文件添加到队列时触发
+                      file.onQueued.call(file);
+                    })
+                    /*  .on("filesQueued", function(files){ // 当有文件添加到队列时触发
+                          for (var i = 0, len = files.length; i < len; ++i) {
+                              var file = files[i];
+                              file.onQueued.call(file);
+                          }
+                      })*/
+                    .on("uploadBeforeSend", function(obj, data, headers) { // 在文件发送前触发
+                      var file = obj.file;
+                      var fileInfo = file._data || {};
+                      angular.extend(data
+                        , file._uploadParams, {
+                          uploadmediarequest: JSON.stringify(angular.extend({
+                            UploadType: 2
+                          }, file._uploadmediarequestBase))
+                        });
+                    })
+                    .on("uploadProgress", function(file, percentage) {
+                      file.onProgress.call(file, percentage);
+                    })
+                    .on("uploadFinished", function() {
+                      uploader.reset(); // 上传完之后重置队列（失败的文件也会被去掉）
+                    })
+                    .on("uploadSuccess", function(file, response) {
+                      file.onSuccess.call(file, response);
+                    })
+                    .on("uploadError", function(file, reason) {
+                      file.onError.call(file, reason);
+                      monitorService.report(monitorService.UPLOAD_FAIL_COUNT, 1);
+                    })
+                    .on("error", function(type) {
+                      reportService.report(reportService.ReportType.uploaderError, {
+                        text: 'WebUploader 出错'
+                        , type: type
+                      });
+                      monitorService.report(monitorService.UPLOAD_FAIL_COUNT, 1);
+                    });
+                } catch (err) {
+                  $scope.noflash = true;
+                  reportService.report(reportService.ReportType.uploaderError, {
+                    text: 'WebUploader 出错'
+                    , type: 'no_flash'
+                  })
+                }
+              });
+            }
+            if (window.WebUploader) {
+              initWebUploader();
+            } else {
+              $rootScope.$on('root:pageInit:success', function() {
+                initWebUploader();
+              });
+            }
+
           }
-        ])
-    }()
-  }, 
-  , function(e, exports) {
-    ! function() {
-      "use strict";
-      angular.module("Controllers")
-        .controller("emojiController", ["$rootScope", "$scope", "$timeout", "emojiFactory", "confFactory", "utilFactory", function(e, t, a, n, i, o) {
-          a(function() {
-            t.QQFaceList = n.QQFaceList, t.EmojiList = n.EmojiList, t.TuzkiList = n.TuzkiList
-          }, 100), t.index = 1, t.RES_PATH = i.RES_PATH, t.selectEmoticon = function(e) {
-            var a = e.target;
-            if ("A" == a.tagName) {
-              var i = a.innerText || a.textContent
-                , r = a.getAttribute("type");
-              switch (r) {
+        ]);
+    })();
+
+
+    /***/
+  })
+  , /* 281 */
+  , /* 282 */
+  /***/
+  (function(module, exports) {
+
+    (function() {
+      'use strict';
+
+      /* Controllers */
+
+      angular.module('Controllers')
+        .controller('emojiController', ['$rootScope', '$scope', '$timeout', 'emojiFactory', 'confFactory', 'utilFactory'
+          , function($rootScope, $scope, $timeout, emojiFactory, confFactory, utilFactory) {
+
+            $timeout(function() {
+              $scope.QQFaceList = emojiFactory.QQFaceList;
+              $scope.EmojiList = emojiFactory.EmojiList;
+              $scope.TuzkiList = emojiFactory.TuzkiList;
+            }, 100);
+
+            $scope.index = 1;
+            $scope.RES_PATH = confFactory.RES_PATH;
+
+            $scope.selectEmoticon = function(e) {
+              var target = e.target;
+              if (target.tagName != "A") return;
+
+              var content = target.innerText || target.textContent
+                , type = target.getAttribute("type");
+              switch (type) {
                 case "qq":
-                  i = "[" + i + "]", o.browser.msie && o.browser.version < 9 || (i = n.getEmoticonByText(i)), t.insertToEditArea(i);
+                  content = "[" + content + "]";
+                  if (!(utilFactory.browser.msie && utilFactory.browser.version < 9)) content = emojiFactory.getEmoticonByText(content);
+                  $scope.insertToEditArea(content);
                   break;
                 case "emoji":
-                  i = "<" + i + ">", o.browser.msie && o.browser.version < 9 || (i = n.getEmoticonByText(i)), t.insertToEditArea(i);
+                  content = "<" + content + ">";
+                  if (!(utilFactory.browser.msie && utilFactory.browser.version < 9)) content = emojiFactory.getEmoticonByText(content);
+                  $scope.insertToEditArea(content);
                   break;
                 case "Tuzki":
-                  t.sendTuzkiEmoji(n.getMd5ByTuzki(i), i)
+                  $scope.sendTuzkiEmoji(emojiFactory.getMd5ByTuzki(content), content);
+                  /* $timeout(function(){
+	
+	                        $rootScope.$digest();
+	                    },0)*/
+
+
+                  //
+                  break;
+
               }
-              e.preventDefault()
-            }
+              e.preventDefault();
+            };
           }
-        }])
-    }()
-  }
-  , function(e, exports) {
-    ! function() {
-      "use strict";
-      angular.module("Controllers")
-        .controller("createChatroomController", ["$rootScope", "$scope", "$timeout", "$state", "$log", "$document", "chatFactory", "contactFactory", "appFactory", "chatroomFactory", "confFactory", "mmpop", "ngDialog", "utilFactory"
-          , "stateManageService", "accountFactory", "monitorService"
-          , function(e, t, a, n, i, o, r, c, s, l, d, f, u, m, g, p, h) {
-            a(function() {
-              t.ngDialogData.isCreate && (M = []), t.allContacts = c.pickContacts(["star", "friend"], {
+        ]);
+    })();
+
+    /***/
+  })
+  , /* 283 */
+  /***/
+  (function(module, exports) {
+
+    (function() {
+      'use strict';
+
+      /* Controllers */
+
+      angular.module('Controllers')
+        .controller('createChatroomController', [
+          '$rootScope'
+          , '$scope'
+          , '$timeout'
+          , '$state'
+          , '$log'
+          , '$document'
+          , 'chatFactory'
+          , 'contactFactory'
+          , 'appFactory'
+          , 'chatroomFactory'
+          , 'confFactory'
+          , 'mmpop'
+          , 'ngDialog'
+          , 'utilFactory'
+          , 'stateManageService'
+          , 'accountFactory'
+          , 'monitorService'
+          , function($rootScope, $scope, $timeout, $state, $log, $document, chatFactory, contactFactory, appFactory, chatroomFactory, confFactory, mmpop, ngDialog, utilFactory, stateManageService, accountFactory, monitorService) {
+
+
+
+            // 延时是为了先显示mmpop
+            $timeout(function() {
+
+              if ($scope.ngDialogData.isCreate) {
+                filterContacts = [];
+              }
+              $scope.allContacts = contactFactory.pickContacts(['star', 'friend'], {
                   star: {
-                    filterContacts: M
+                    filterContacts: filterContacts
                   }
                   , friend: {
-                    filterContacts: M
-                    , isWithoutStar: !0
-                    , isWithoutBrand: !0
+                    filterContacts: filterContacts
+                    , isWithoutStar: true
+                    , isWithoutBrand: true
                   }
-                }, !0)
-                .result, t.chatroomContacts = c.pickContacts(["chatroom"], {
+                }, true)
+                .result;
+
+              $scope.chatroomContacts = contactFactory.pickContacts(['chatroom'], {
                   chatroom: {
-                    noHeader: !0
+                    noHeader: true
                   }
-                }, !0)
-                .result
-            }, 100), t.selectedUsers = t.ngDialogData.initSelectedContacts || [];
-            var M = t.ngDialogData.isCreate ? {} : l.getFilterContacts();
-            t.pickConfig = {
-              types: ["star", "friend"]
+                }, true)
+                .result;
+            }, 100);
+
+            $scope.selectedUsers = $scope.ngDialogData.initSelectedContacts || [];
+
+            /**
+             * 检索群聊联系人
+             * @return {[type]} [description]
+             */
+            var searchTimer
+              , searchList
+              , searFilterContacts
+              , filterContacts = $scope.ngDialogData.isCreate ? {} : chatroomFactory.getFilterContacts();
+
+            function _pickContact() {
+              return contactFactory.pickContacts(['friend'], {
+                  friend: {
+                    isNewArray: true
+                    , isWithoutBrand: true
+                    , keyword: $scope.keyword
+                    , filterContacts: searFilterContacts
+                    , noHeader: true
+                  }
+                }, true)
+                .result;
+            }
+
+            $scope.pickConfig = {
+              types: ['star', 'friend']
               , opt: {
-                star: {}
+                star: {
+
+                }
                 , friend: {
-                  isWithoutStar: !0
-                  , isWithoutBrand: !0
+                  isWithoutStar: true
+                  , isWithoutBrand: true
                 }
                 , all: {
-                  filterContacts: M
+                  filterContacts: filterContacts
+                }
+
+              }
+            }
+
+
+            /**
+             * 确认添加联系人到群聊
+             */
+            $scope.add = function() {
+              var currentContact = chatroomFactory.getCurrentContact()
+                , addMemberUserNames = [];
+              angular.forEach($scope.selectedUsers, function(contact) {
+                addMemberUserNames.push(contact.UserName);
+              });
+              chatroomFactory.addMember(currentContact.UserName, addMemberUserNames.join(','), function(data) {
+                if (data.BaseResponse && data.BaseResponse.Ret != 0 && data.BaseResponse.Ret != -2013) {
+                  ngDialog.openConfirm({
+                    className: 'default '
+                    , templateUrl: 'comfirmTips.html'
+                    , controller: ['$scope', function(scope) {
+                      scope.title = _("02d9819");
+                      scope.content = data.BaseResponse.ErrMsg || _("f45a3d8");
+                      scope.callback = function() {
+                        scope.closeThisDialog();
+                      };
+                    }]
+                  });
+                  monitorService.report(monitorService.INVITE_TO_CHAT_ROOM_FAIL_COUNT, 1);
+                }
+                //$scope.closeThisDialog();
+              });
+              $scope.closeThisDialog();
+              monitorService.report(monitorService.INVITE_TO_CHAT_ROOM_COUNT, 1);
+            };
+            /**
+             * 新建群聊
+             */
+            $scope.create = function() {
+              var memberList = [];
+
+              angular.forEach($scope.selectedUsers, function(item, index) {
+                if (item.UserName == accountFactory.getUserName()) {
+                  $scope.selectedUsers.splice(index, 1);
+                  return;
+                }
+              });
+
+              if ($scope.selectedUsers.length === 1) {
+                $state.go('chat', {
+                  userName: $scope.selectedUsers[0].UserName
+                });
+                $scope.closeThisDialog();
+                return;
+              }
+
+              angular.forEach($scope.selectedUsers, function(contact) {
+                //if(contact.UserName != accountFactory.getUserName()){
+                memberList.push({
+                  UserName: contact.UserName
+                });
+                //}
+              });
+              chatroomFactory.create(memberList)
+                .then(function(data) {
+                  if (data.BaseResponse && data.BaseResponse.Ret == 0 || data.BaseResponse.Ret == -2013) {
+                    //chatFactory.addChatList([data.ChatRoomName]);
+                    $state.go('chat', {
+                      userName: data.ChatRoomName
+                    });
+                    console.log('careate chat room success. chatroom userName:', data.ChatRoomName);
+                  } else {
+                    ngDialog.openConfirm({
+                      className: 'default '
+                      , templateUrl: 'comfirmTips.html'
+                      , controller: ['$scope', function(scope) {
+                        scope.title = _("02d9819");
+                        scope.content = data.BaseResponse.ErrMsg || _("0d42740");
+                        scope.callback = function() {
+                          scope.closeThisDialog();
+                        };
+                      }]
+                    });
+                    monitorService.report(monitorService.CREATE_CHAT_ROOM_FAIL_COUNT, 1);
+                  }
+                }, function(data) {
+                  ngDialog.openConfirm({
+                    className: 'default '
+                    , templateUrl: 'comfirmTips.html'
+                    , controller: ['$scope', function(scope) {
+                      scope.title = _("02d9819");
+                      scope.content = data.BaseResponse.ErrMsg || _("0d42740");
+                      scope.callback = function() {
+                        scope.closeThisDialog();
+                      };
+                    }]
+                  });
+                  monitorService.report(monitorService.CREATE_CHAT_ROOM_FAIL_COUNT, 1);
+                });
+              $scope.closeThisDialog();
+              monitorService.report(monitorService.CREATE_CHAT_ROOM_COUNT, 1);
+            }
+
+            /**
+             * 选择一个群聊
+             */
+            $scope.selectChatroom = function(contact) {
+              $state.go('chat', {
+                userName: contact.UserName
+              });
+              $scope.closeThisDialog();
+            }
+
+
+
+            $scope.chatRoomHeightCalc = function() {
+              return 64;
+            }
+
+
+
+          }
+        ]);
+
+    })();
+
+    /***/
+  })
+  , /* 284 */
+  /***/
+  (function(module, exports) {
+
+    (function() {
+      'use strict';
+
+      /* Controllers */
+
+      angular.module('Controllers')
+        .controller('contextMenuController', [
+          "$rootScope"
+          , "$scope"
+          , "$state"
+          , "contextMenuFactory"
+          , "accountFactory"
+          , "confFactory"
+          , 'contactFactory'
+          , 'ngDialog'
+          , 'chatroomFactory'
+          , 'emojiFactory'
+          , 'utilFactory'
+          , 'chatFactory'
+          , function($rootScope, $scope, $state, contextMenuFactory, accountFactory, confFactory, contactFactory, ngDialog, chatroomFactory, emojiFactory, utilFactory, chatFactory) {
+            /*if(ZeroClipboard.isFlashUnusable()){
+             alert(_("7d5c8ce"));
+             }*/
+            $scope.$on('app:contextMenu:show', function(e, contextMenuEvent) {
+              //console.log(contextMenuEvent,'showContextMenu');
+              showContextMenuHandler(contextMenuEvent);
+            });
+
+            $scope.$on('app:contextMenu:hide', function(e, contextMenuEvent) {
+              $scope.isShowContextMenu = false;
+            });
+
+            /*$scope.$watch(function () {
+             return contextMenuFactory.getContextMenuEventTimeStamp();
+             }, function (newValue,oldValue) {
+             if (newValue != oldValue){
+             var e = contextMenuFactory.getContextMenuEvent();
+             showContextMenuHandler(e);
+             }
+             });*/
+
+            function showContextMenuHandler(e) {
+              var iePaths = [e.target];
+
+              function pushParentNode(el) {
+                if (el.parentNode != el.document) {
+                  iePaths.push(el.parentNode);
+                  return pushParentNode(el.parentNode);
+                } else {
+                  return iePaths;
                 }
               }
-            }, t.add = function() {
-              var e = l.getCurrentContact()
-                , a = [];
-              angular.forEach(t.selectedUsers, function(e) {
-                a.push(e.UserName)
-              }), l.addMember(e.UserName, a.join(","), function(e) {
-                e.BaseResponse && 0 != e.BaseResponse.Ret && e.BaseResponse.Ret != -2013 && (u.openConfirm({
-                  className: "default "
-                  , templateUrl: "comfirmTips.html"
-                  , controller: ["$scope", function(t) {
-                    t.title = _("02d9819"), t.content = e.BaseResponse.ErrMsg || _("f45a3d8"), t.callback = function() {
-                      t.closeThisDialog()
+
+              var paths = e.path || e.originalEvent.path || pushParentNode(e.target);
+              for (var i = 0, len = paths.length; i < len; i++) {
+                var cm = angular.element(paths[i])
+                  .attr('data-cm');
+                if (cm) {
+                  cm = JSON.parse(cm);
+                  $scope.isShowContextMenu = true;
+                  $scope.contextStyle = {
+                    "top": e.pageY
+                    , "left": e.pageX
+                  };
+                  //$scope.contextMenuTop = e.pageY;
+                  //$scope.contextMenuLeft = e.pageX;
+                  switch (cm.type) {
+                    case 'chat':
+                      showChatContextMenu(cm.username);
+                      e.preventDefault();
+                      break;
+                    case 'clean':
+                      showCleanContextMenu(cm.username);
+                      e.preventDefault();
+                      break;
+                    case 'avatar':
+                      showAvatarContextMenu(e, cm.username, cm.isFriend);
+                      e.preventDefault();
+                      break;
+                    case 'message':
+                      showMessageContextMenu(cm.actualSender, cm.msgType, cm.subType, cm.msgId, e);
+                      break;
+                  }
+                  var cmEl = angular.element(document.getElementById('contextMenu'))
+                    , winEl = angular.element(window)
+                    , cmw = cmEl.width()
+                    , cmh = cmEl.height()
+                    , winw = winEl.width()
+                    , winh = winEl.height();
+
+                  if (winw - e.pageX < 400) {
+                    $scope.contextStyle['right'] = winw - e.pageX;
+                    $scope.contextStyle['left'] = 'auto';
+
+                    // $scope.contextStyle = {
+                    //     "top": e.pageY,
+                    //     "right": winw - e.pageX
+                    // };
+                    //$scope.contextMenuLeft = e.pageX - cmw;
+                  }
+                  if (winh - e.pageY < 400) {
+
+                    $scope.contextStyle['bottom'] = winh - e.pageY
+                    $scope.contextStyle['top'] = 'auto';
+                    //$scope.contextMenuTop = e.pageY - cmh;
+                  }
+                  break;
+                }
+              }
+            }
+
+            function showChatContextMenu(userName) {
+              $scope.contextMenuList = [];
+              var contact = contactFactory.getContact(userName);
+              // 普通联系人还有群聊好友才能置顶
+              if (contact.isRoomContact() || contact.isContact()) {
+                if (contact.isTop()) {
+                  $scope.contextMenuList.push({
+                    content: _("84e4fac")
+                    , callback: function() {
+                      contactFactory.setTopContact(userName, false);
                     }
-                  }]
-                }), h.report(h.INVITE_TO_CHAT_ROOM_FAIL_COUNT, 1))
-              }), t.closeThisDialog(), h.report(h.INVITE_TO_CHAT_ROOM_COUNT, 1)
-            }, t.create = function() {
-              var e = [];
-              return angular.forEach(t.selectedUsers, function(e, a) {
-                if (e.UserName == p.getUserName()) return void t.selectedUsers.splice(a, 1)
-              }), 1 === t.selectedUsers.length ? (n.go("chat", {
-                userName: t.selectedUsers[0].UserName
-              }), void t.closeThisDialog()) : (angular.forEach(t.selectedUsers, function(t) {
-                  e.push({
-                    UserName: t.UserName
                   })
-                }), l.create(e)
-                .then(function(e) {
-                  e.BaseResponse && 0 == e.BaseResponse.Ret || e.BaseResponse.Ret == -2013 ? n.go("chat", {
-                    userName: e.ChatRoomName
-                  }) : (u.openConfirm({
-                    className: "default "
-                    , templateUrl: "comfirmTips.html"
-                    , controller: ["$scope", function(t) {
-                      t.title = _("02d9819"), t.content = e.BaseResponse.ErrMsg || _("0d42740"), t.callback = function() {
-                        t.closeThisDialog()
-                      }
-                    }]
-                  }), h.report(h.CREATE_CHAT_ROOM_FAIL_COUNT, 1))
-                }, function(e) {
-                  u.openConfirm({
-                    className: "default "
-                    , templateUrl: "comfirmTips.html"
-                    , controller: ["$scope", function(t) {
-                      t.title = _("02d9819"), t.content = e.BaseResponse.ErrMsg || _("0d42740"), t.callback = function() {
-                        t.closeThisDialog()
-                      }
-                    }]
-                  }), h.report(h.CREATE_CHAT_ROOM_FAIL_COUNT, 1)
-                }), t.closeThisDialog(), void h.report(h.CREATE_CHAT_ROOM_COUNT, 1))
-            }, t.selectChatroom = function(e) {
-              n.go("chat", {
-                userName: e.UserName
-              }), t.closeThisDialog()
-            }, t.chatRoomHeightCalc = function() {
-              return 64
-            }
-          }
-        ])
-    }()
-  }
-  , function(e, exports) {
-    ! function() {
-      "use strict";
-      angular.module("Controllers")
-        .controller("contextMenuController", ["$rootScope", "$scope", "$state", "contextMenuFactory", "accountFactory", "confFactory", "contactFactory", "ngDialog", "chatroomFactory", "emojiFactory", "utilFactory", "chatFactory", function(e, t
-          , a, n, i, o, r, c, s, l, d, f) {
-          function u(e) {
-            function a(e) {
-              return e.parentNode != e.document ? (n.push(e.parentNode), a(e.parentNode)) : n
-            }
-            for (var n = [e.target], i = e.path || e.originalEvent.path || a(e.target), o = 0, r = i.length; o < r; o++) {
-              var c = angular.element(i[o])
-                .attr("data-cm");
-              if (c) {
-                switch (c = JSON.parse(c), t.isShowContextMenu = !0, t.contextStyle = {
-                  top: e.pageY
-                  , left: e.pageX
-                }, c.type) {
-                  case "chat":
-                    m(c.username), e.preventDefault();
-                    break;
-                  case "clean":
-                    g(c.username), e.preventDefault();
-                    break;
-                  case "avatar":
-                    p(e, c.username, c.isFriend), e.preventDefault();
-                    break;
-                  case "message":
-                    h(c.actualSender, c.msgType, c.subType, c.msgId, e)
-                }
-                var s = angular.element(document.getElementById("contextMenu"))
-                  , l = angular.element(window)
-                  , d = (s.width(), s.height(), l.width())
-                  , f = l.height();
-                d - e.pageX < 400 && (t.contextStyle.right = d - e.pageX, t.contextStyle.left = "auto"), f - e.pageY < 400 && (t.contextStyle.bottom = f - e.pageY, t.contextStyle.top = "auto");
-                break
-              }
-            }
-          }
-
-          function m(a) {
-            t.contextMenuList = [];
-            var n = r.getContact(a);
-            (n.isRoomContact() || n.isContact()) && (n.isTop() ? t.contextMenuList.push({
-              content: _("84e4fac")
-              , callback: function() {
-                r.setTopContact(a, !1)
-              }
-            }) : t.contextMenuList.push({
-              content: _("3d43ff1")
-              , callback: function() {
-                r.setTopContact(a, !0)
-              }
-            })), n.isRoomContact() && t.contextMenuList.push({
-              content: _("1f9be6d")
-              , callback: function() {
-                c.open({
-                  className: "default chatroom_topic"
-                  , template: "editorDialog.html"
-                  , controller: ["$scope", function(e, t) {
-                    e.keypress = function(e) {
-                      var t = $(".chatroom_topic .chatroom_name")
-                        .text()
-                        .length;
-                      [8, 37, 39, 46].indexOf(e.keyCode) === -1 && t > 17 && e.preventDefault()
-                    }, e.text = l.transformSpanToImg(n.getDisplayName()), e.send = function() {
-                      var e = $(".chatroom_topic .chatroom_name")
-                        .text();
-                      e.length > 17 && (e = e.substring(0, 18)), e.length > 0 && e != n.getDisplayName() && s.modTopic(n.UserName, l.formatHTMLToSend(e)), c.close()
-                    }, e.cancel = function() {
-                      c.close()
+                } else {
+                  $scope.contextMenuList.push({
+                    content: _("3d43ff1")
+                    , callback: function() {
+                      contactFactory.setTopContact(userName, true);
                     }
-                  }]
-                })
-              }
-            }), t.contextMenuList.push({
-              content: _("685739c")
-              , callback: function() {
-                e.$broadcast("root:deleteChat", a)
-              }
-            })
-          }
-
-          function g(a) {
-            t.contextMenuList = [{
-              content: _("91382d9")
-              , callback: function() {
-                e.$broadcast("root:cleanMsg", a)
-              }
-            }]
-          }
-
-          function p(n, i, o) {
-            var r = [{
-              content: _("7068541")
-              , callback: function() {
-                e.$broadcast("root:profile", {
-                  userName: i
-                  , event: n
-                })
-              }
-            }];
-            "true" == o ? r.push({
-              content: _("b5f1591")
-              , callback: function() {
-                a.go("chat", {
-                  userName: i
-                })
-              }
-            }) : r.push({
-              content: _("0bd10a8")
-              , callback: function() {
-                e.$broadcast("root:profile", {
-                  userName: i
-                  , isAdd: !0
-                  , event: n
-                })
-              }
-            }), t.contextMenuList = r
-          }
-
-          function h(a, n, s, l, u) {
-            function m(e) {
-              var t = e && e.target;
-              if (!t) return !1;
-              if (t = angular.element(t), t.hasClass("js_message_bubble") || (t = t.parents(".js_message_bubble")), t = t.find(".js_message_plain"), t.length) {
-                var a = t.html()
-                  .replace(new RegExp("<(?!br|" + o.EMOTICON_REG + ").*?>", "g"), "")
-                  , n = d.htmlDecode(a);
-                return n
-              }
-              return ""
-            }
-            var g = f.getMsg(l);
-            if (!g) return void(t.isShowContextMenu = !1);
-            var p = g.MMDigest
-              , h = r.getContact(a)
-              , M = r.getContact(g.FromUserName);
-            if (!h || !M) return void(t.isShowContextMenu = !1);
-            switch (t.contextMenuList = [], (!g._noSupportMsg || g.AppMsgType != o.APPMSGTYPE_TRANSFERS && g.AppMsgType != o.APPMSGTYPE_REALTIME_SHARE_LOCATION && g.AppMsgType != o.APPMSGTYPE_CARD_TICKET) && ("filehelper" != g.MMPeerUserName &&
-              i.getUserName() == g.FromUserName && Date.now() / 1e3 - g.CreateTime < 120 ? t.contextMenuList.push({
-                content: _("2305051")
-                , callback: function() {
-                  f.revokemsg(g)
+                  })
                 }
-              }) : "filehelper" != g.MMPeerUserName && i.getUserName() == g.FromUserName && t.contextMenuList.push({
-                isDisabled: !0
-                , content: _("2305051")
-                , callback: function() {}
-              })), +n) {
-              case o.MSGTYPE_TEXT:
-                var v;
-                if (v = M.isRoomContact() ? h.getMemberDisplayName(g.FromUserName) || h.NickName : h.NickName, 48 == s) break;
-                if (s && parseInt(s)) return void(t.isShowContextMenu = !1);
-                p = v ? v + ":" + g.MMActualContent : g.MMActualContent, p = p.replace(":", ": "), t.contextMenuList.push({
-                  content: _("3b61c96")
+
+              }
+
+              //editorDialog.html
+              if (contact.isRoomContact()) {
+                $scope.contextMenuList.push({
+                  content: _("1f9be6d")
                   , callback: function() {
-                    var t = [_("d9eb6f5"), p, _("83b6d34"), "<br>—————————<br>"].join("");
-                    e.$broadcast("root:quoteMsg", t)
-                  }
-                }), o.isClientVersion || t.contextMenuList.push({
-                  isCopy: !0
-                  , content: _("79d3abe")
-                  , callback: function() {
-                    t.isShowContextMenu = !1
-                  }
-                  , copyCallBack: function() {
-                    var e = $.Range.current()
-                      .toString();
-                    return e ? e : m(u)
-                  }
-                }), u.preventDefault();
-                break;
-              case o.MSGTYPE_IMAGE:
-                t.contextMenuList.push({
-                  isDownload: !0
-                  , downloadUrl: o.API_webwxgetmsgimg + "?MsgID=" + l + "&skey=" + i.getSkey()
-                  , content: _("f26ef91")
-                  , callback: function() {}
-                }), u.preventDefault()
-            }(g.MMIsAppMsg || g.MsgType != o.MSGTYPE_IMAGE && g.MsgType != o.MSGTYPE_TEXT && g.MsgType != o.MSGTYPE_VIDEO && g.MsgType != o.MSGTYPE_MICROVIDEO && g.MsgType != o.MSGTYPE_LOCATION && g.MsgType != o.MSGTYPE_EMOTICON) && (g.MsgType !=
-              o.MSGTYPE_APP && !g.MMIsAppMsg || g.AppMsgType != o.APPMSGTYPE_ATTACH) || g._noSupportMsg || t.contextMenuList.push({
-              content: _("21e106f")
-              , callback: function() {
-                c.open({
-                  templateUrl: "transpond.dialog.html"
-                  , controller: "transpondDialogController"
-                  , className: "default transpond-dialog"
-                  , data: {
-                    msg: g
+                    var _dialog = ngDialog.open({
+
+                      className: "default chatroom_topic"
+                      , template: 'editorDialog.html'
+                      , controller: ['$scope', function(scope, element) {
+                        scope.keypress = function(e) {
+                          var len = $('.chatroom_topic .chatroom_name')
+                            .text()
+                            .length;
+                          if ([8, 37, 39, 46].indexOf(e.keyCode) === -1 && len > 17) {
+                            e.preventDefault();
+                          }
+                        };
+                        scope.text = emojiFactory.transformSpanToImg(contact.getDisplayName());
+                        scope.send = function() {
+                          var text = $('.chatroom_topic .chatroom_name')
+                            .text();
+                          if (text.length > 17) {
+                            text = text.substring(0, 18);
+                          }
+                          if (text.length > 0 && text != contact.getDisplayName()) {
+                            chatroomFactory.modTopic(contact.UserName, emojiFactory.formatHTMLToSend(text));
+                          }
+
+                          ngDialog.close();
+                        };
+                        scope.cancel = function() {
+                          ngDialog.close();
+                        };
+                      }]
+                    });
+
+
                   }
                 })
               }
-            }), t.contextMenuList.push({
-              content: _("2f4aadd")
-              , callback: function() {
-                f.localDelete(g)
+
+
+              $scope.contextMenuList.push({
+                content: _("685739c")
+                , callback: function() {
+                  $rootScope.$broadcast("root:deleteChat", userName);
+                }
+              })
+            }
+
+            /* function showNavContactContextMenu(userName) {
+                 $scope.contextMenuList = [
+                     {
+                         content: _("3d43ff1"),
+                         callback: function (userName) {
+                             contactFactory.setTopContact();
+                         }
+                     },
+                     {
+                         content: _("685739c"),
+                         callback: function () {
+                             $rootScope.$broadcast("root:deleteChat", userName);
+                         }
+                     }
+                 ];
+             }*/
+
+            function showCleanContextMenu(userName) {
+              $scope.contextMenuList = [{
+                content: _("91382d9")
+                , callback: function() {
+                  $rootScope.$broadcast("root:cleanMsg", userName);
+                }
+              }];
+            }
+
+            function showAvatarContextMenu(event, userName, isFriend) {
+              var list = [{
+                content: _("7068541")
+                , callback: function() {
+                  $rootScope.$broadcast("root:profile", {
+                    userName: userName
+                    , event: event
+                  });
+                }
+              }];
+
+              if (isFriend == "true") {
+                list.push({
+                  content: _("b5f1591")
+                  , callback: function() {
+                    $state.go('chat', {
+                      userName: userName
+                    });
+                  }
+                });
+              } else {
+                list.push({
+                  content: _("0bd10a8")
+                  , callback: function() {
+                    $rootScope.$broadcast("root:profile", {
+                      userName: userName
+                      , isAdd: true
+                      , event: event
+                    });
+                  }
+                });
               }
-            }), t.contextMenuList.length > 0 ? u.preventDefault() : t.isShowContextMenu = !1
+              $scope.contextMenuList = list;
+            }
+
+            function showMessageContextMenu(actualSenderUserName, msgType, subType, msgId, event) {
+              var msg = chatFactory.getMsg(msgId);
+
+              if (!msg) {
+                $scope.isShowContextMenu = false;
+                return;
+              }
+
+              var mmDigest = msg.MMDigest;
+
+
+              var actualSender = contactFactory.getContact(actualSenderUserName);
+              var fromUser = contactFactory.getContact(msg.FromUserName)
+
+
+              if (!actualSender || !fromUser) {
+                $scope.isShowContextMenu = false;
+                return;
+              }
+              $scope.contextMenuList = [];
+
+              if (!(msg._noSupportMsg && (msg.AppMsgType == confFactory.APPMSGTYPE_TRANSFERS ||
+                  msg.AppMsgType == confFactory.APPMSGTYPE_REALTIME_SHARE_LOCATION ||
+                  msg.AppMsgType == confFactory.APPMSGTYPE_CARD_TICKET
+                ))) {
+                if (msg.MMPeerUserName != 'filehelper' && accountFactory.getUserName() == msg.FromUserName && ((Date.now() / 1000) - msg.CreateTime) < 2 * 60) {
+                  $scope.contextMenuList.push({
+                    content: _("2305051")
+                    , callback: function() {
+                      chatFactory.revokemsg(msg)
+                    }
+                  });
+                } else if (msg.MMPeerUserName != 'filehelper' && accountFactory.getUserName() == msg.FromUserName) {
+                  $scope.contextMenuList.push({
+                    isDisabled: true
+                    , content: _("2305051")
+                    , callback: function() {
+
+                    }
+                  });
+                }
+              }
+
+
+
+
+
+
+
+              switch (+msgType) {
+                case confFactory.MSGTYPE_TEXT:
+
+                  var displayName;
+                  if (fromUser.isRoomContact()) {
+                    displayName = actualSender.getMemberDisplayName(msg.FromUserName) || actualSender.NickName;
+                  } else {
+                    displayName = actualSender.NickName;
+                  }
+
+                  if (subType == 48) {
+                    /*
+                     * 后面用文本类型的 “引用” 复制等功能，而 localtion 又是 type=text subtype=48 的奇葩情况，所以这里做例外
+                     * */
+                    break;
+                  }
+
+                  if (subType && parseInt(subType)) {
+                    $scope.isShowContextMenu = false;
+                    return;
+                  }
+
+
+
+                  mmDigest = displayName ? displayName + ':' + msg.MMActualContent : msg.MMActualContent;
+
+
+                  mmDigest = mmDigest.replace(':', ': ');
+
+                  $scope.contextMenuList.push({
+                    content: _("3b61c96")
+                    , callback: function() {
+                      var quoteText = [
+                        _("d9eb6f5")
+                        , mmDigest
+                        , _("83b6d34")
+                        , '<br>—————————<br>'
+                      ].join('')
+                      $rootScope.$broadcast("root:quoteMsg", quoteText);
+                    }
+                  });
+
+                  if (!confFactory.isClientVersion) {
+                    $scope.contextMenuList.push({
+                      isCopy: true
+                      , content: _("79d3abe")
+                      , callback: function() {
+                        console.log("复制成功");
+                        $scope.isShowContextMenu = false;
+                      }
+                      , copyCallBack: function() {
+                        var textToCopy = $.Range.current()
+                          .toString();
+                        if (textToCopy) {
+                          return textToCopy;
+                        } else {
+                          return getMessageText(event);
+                        }
+                      }
+                    });
+                  }
+
+
+
+
+                  event.preventDefault();
+                  break;
+                case confFactory.MSGTYPE_IMAGE:
+
+                  $scope.contextMenuList.push({
+                    isDownload: true
+                    , downloadUrl: confFactory.API_webwxgetmsgimg + '?MsgID=' + msgId + '&skey=' + accountFactory.getSkey()
+                    , content: _("f26ef91")
+                    , callback: function() {
+                      console.log("下载成功");
+                    }
+                  });
+                  event.preventDefault();
+                  break;
+                default:
+                  ;
+
+                  // $scope.isShowContextMenu = false;
+              }
+
+              /* if(accountFactory.getUserName()==username){
+               $scope.contextMenuList.push({
+               content:_("2305051"),
+               callback:function () {
+               console.log("撤回成功");
+               }
+               });
+               event.preventDefault();
+               $scope.isShowContextMenu = true;
+               }
+               */
+              /*$scope.contextMenuList = [{
+               content:_("21e106f"),
+               callback:function () {
+               $rootScope.$broadcast("root:forwardingMsg",userName);
+               }
+               },{
+               content:_("2305051"),
+               callback:function () {
+               $rootScope.$broadcast("root:withdrawMsg",userName);
+               }
+               }];*/
+
+              /*
+               * 可转发的类型
+               * */
+              if (((!msg.MMIsAppMsg && (msg.MsgType == confFactory.MSGTYPE_IMAGE ||
+                    msg.MsgType == confFactory.MSGTYPE_TEXT ||
+                    msg.MsgType == confFactory.MSGTYPE_VIDEO ||
+                    msg.MsgType == confFactory.MSGTYPE_MICROVIDEO ||
+                    msg.MsgType == confFactory.MSGTYPE_LOCATION ||
+                    msg.MsgType == confFactory.MSGTYPE_EMOTICON
+                  )) ||
+                  ((msg.MsgType == confFactory.MSGTYPE_APP || msg.MMIsAppMsg) && msg.AppMsgType == confFactory.APPMSGTYPE_ATTACH)) && !msg._noSupportMsg
+                /*  || (msg.MsgType == confFactory.MSGTYPE_APP && msg.AppMsgType == confFactory.APPMSGTYPE_URL)*/
+              ) {
+                $scope.contextMenuList.push({
+                  content: _("21e106f")
+                  , callback: function() {
+                    ngDialog.open({
+                      templateUrl: "transpond.dialog.html"
+                      , controller: "transpondDialogController"
+                      , className: "default transpond-dialog"
+                      , data: {
+                        msg: msg
+                      }
+                    });
+                  }
+                });
+
+
+              }
+
+
+              $scope.contextMenuList.push({
+                content: _("2f4aadd")
+                , callback: function() {
+                  chatFactory.localDelete(msg)
+                }
+              })
+
+
+              if ($scope.contextMenuList.length > 0) {
+                event.preventDefault();
+              } else {
+                $scope.isShowContextMenu = false;
+              }
+
+              function getMessageText(event) {
+                var tgt = event && event.target;
+                if (!tgt) return false;
+
+                tgt = angular.element(tgt);
+                if (!tgt.hasClass("js_message_bubble")) {
+                  tgt = tgt.parents(".js_message_bubble");
+                }
+                tgt = tgt.find(".js_message_plain"); // 暂只支持复制文本类消息
+
+                if (tgt.length) {
+                  // 后端输出的内容都是编码过得
+
+                  var originText = tgt.html()
+                    .replace(new RegExp("<(?!br|" + confFactory.EMOTICON_REG + ").*?>", "g"), ""); // 洗掉各种属性和标签，除了<br>和表情的<img>
+                  var decode = utilFactory.htmlDecode(originText);
+                  return decode; // 洗掉各种属性和标签，除了<br>和表情的<img>
+                } else {
+                  return '';
+                }
+
+              }
+            }
           }
-          t.$on("app:contextMenu:show", function(e, t) {
-            u(t)
-          }), t.$on("app:contextMenu:hide", function(e, a) {
-            t.isShowContextMenu = !1
-          })
-        }])
-    }()
-  }
-  , function(e, exports) {
-    ! function() {
-      "use strict";
-      angular.module("Controllers")
-        .controller("editAreaContactListController", ["$scope", "confFactory", "utilFactory", "$timeout", function(e, t, a, n) {
-          function i(t, n) {
-            n = a.clearHtmlStr(n) + " ", s.innerHTML = n;
-            var i = s.offsetWidth;
-            s.innerHTML = " ", e.insertContactToEditArea("<input type='text' un='" + t + "' value='" + n + "' style='width:" + i + "px' readonly='readonly' />"), e.closeThisMmPop()
+        ]);
+
+    })();
+
+
+    /***/
+  })
+  , /* 285 */
+  /***/
+  (function(module, exports) {
+
+    (function() {
+      'use strict';
+
+      /* Controllers */
+
+      angular.module('Controllers')
+        .controller('editAreaContactListController', ['$scope', 'confFactory', 'utilFactory', '$timeout', function($scope, confFactory, utilFactory, $timeout) {
+          var editArea = document.getElementById("editArea")
+            , contactPanel = document.getElementById("editAreaContactPanel")
+            , caretPosHelper = document.getElementById("caretPosHelper")
+            , memberListMaxIndex = $scope.memberList.length - 1;
+
+          var ITEM_HEIGTH = 42;
+          var SPACE = 10;
+
+          function _chooseContact(username, displayname) {
+            //用input的方式插入
+            displayname = utilFactory.clearHtmlStr(displayname) + " ";
+            caretPosHelper.innerHTML = displayname;
+            var width = caretPosHelper.offsetWidth;
+            caretPosHelper.innerHTML = " ";
+            $scope.insertContactToEditArea("<input type='text' un='" + username + "' value='" + displayname + "' style='width:" + width + "px' readonly='readonly' />");
+
+            //$scope.insertContactToEditArea(displayname + " ");
+            $scope.closeThisMmPop();
           }
 
-          function o(e) {
-            var t = d + f
-              , a = e * t
-              , n = c.scrollTop;
-            if (n > a) return void(c.scrollTop = a);
-            var i = a + t + f - c.offsetHeight;
-            n < i && (c.scrollTop = i)
+          function showContact(selectIndex) {
+            var itemHeigth = ITEM_HEIGTH + SPACE;
+            var offsetTop = selectIndex * itemHeigth;
+            var scrollTop = contactPanel.scrollTop;
+
+            if (scrollTop > offsetTop) {
+              contactPanel.scrollTop = offsetTop;
+              return;
+            }
+
+            var BottomLimit = offsetTop + itemHeigth + SPACE - contactPanel.offsetHeight;
+            if (scrollTop < BottomLimit) {
+              contactPanel.scrollTop = BottomLimit;
+            }
           }
-          var r = document.getElementById("editArea")
-            , c = document.getElementById("editAreaContactPanel")
-            , s = document.getElementById("caretPosHelper")
-            , l = e.memberList.length - 1
-            , d = 42
-            , f = 10;
-          e.selectIndex = 0, setTimeout(function() {
-            c.focus()
-          }, 5), e.click = function(e) {
-            i(e.currentTarget.getAttribute("username"), e.currentTarget.getAttribute("displayname"))
-          }, e.keydown = function(a) {
-            switch (a.keyCode) {
-              case t.KEYCODE_ARROW_UP:
-                e.selectIndex = --e.selectIndex < 0 ? 0 : e.selectIndex, o(e.selectIndex), a.stopPropagation();
+
+
+          $scope.selectIndex = 0;
+          setTimeout(function() {
+            contactPanel.focus();
+          }, 5);
+
+
+          $scope.click = function(e) {
+            _chooseContact(e.currentTarget.getAttribute("username"), e.currentTarget.getAttribute("displayname"));
+          };
+          $scope.keydown = function(e) {
+            switch (e.keyCode) {
+              case confFactory.KEYCODE_ARROW_UP:
+                $scope.selectIndex = --$scope.selectIndex < 0 ? 0 : $scope.selectIndex;
+                showContact($scope.selectIndex);
+                e.stopPropagation();
                 break;
-              case t.KEYCODE_ARROW_DOWN:
-                e.selectIndex = ++e.selectIndex > l ? l : e.selectIndex, o(e.selectIndex), a.stopPropagation();
+              case confFactory.KEYCODE_ARROW_DOWN:
+                $scope.selectIndex = ++$scope.selectIndex > memberListMaxIndex ? memberListMaxIndex : $scope.selectIndex;
+                showContact($scope.selectIndex);
+                e.stopPropagation();
                 break;
-              case t.KEYCODE_ENTER:
-                var n = e.memberList[e.selectIndex];
-                if (!n.getDisplayName) break;
-                i(n.UserName, n.getDisplayName(e.chatRoomUserName));
+              case confFactory.KEYCODE_ENTER:
+                var contact = $scope.memberList[$scope.selectIndex];
+                if (!contact.getDisplayName) break; // contact对象还没完全建好
+
+                _chooseContact(contact.UserName, contact.getDisplayName($scope.chatRoomUserName));
                 break;
               default:
-                e.closeThisMmPop(), setTimeout(function() {
-                  r.blur(), r.focus()
-                }, 0)
+                $scope.closeThisMmPop();
+                setTimeout(function() { // the cursor disappears, we need to refocus
+                  editArea.blur();
+                  editArea.focus();
+                }, 0);
             }
-            a.preventDefault()
-          }
-        }])
-    }()
-  }
-  , function(e, exports) {
-    ! function() {
-      "use strict";
-      angular.module("Controllers")
-        .controller("systemMenuController", ["$rootScope", "$scope", "$timeout", "ngDialog", "loginFactory", "confFactory", "accountFactory", "utilFactory", "monitorService", "oplogFactory", "reportService", function(e, t, a, n, i, o, r, c, s, l
-          , d) {
-          t.createChatroom = function() {
-            n.open({
-              templateUrl: "createChatroom.html"
-              , controller: "createChatroomController"
-              , className: "default create_chatroom_dlg"
-              , closeByDocument: !1
-              , data: {
-                isCreate: !0
-                , fromSystemMenu: !0
-              }
-            }), t.closeThisMmPop()
-          }, t.loginout = function() {
-            setTimeout(function() {
-              var e = (new Date)
-                .getTime() - r.getLoginTime();
-              d.report(d.ReportType.sessionData, {
-                uin: r.getUin()
-                , browser: navigator.userAgent
-                , rmsg: r.getRMsgCount()
-                , rconv: r.getRConvCount()
-                , smsg: r.getSMsgCount()
-                , sconv: r.getSConvCount()
-                , lifetime: e
-              }, !0)
-            }, 0), setTimeout(function() {
-              i.loginout()
-            }, 300), t.closeThisMmPop()
-          }, t.isNotifyOpen = r.isNotifyOpen(), t.closeNotify = function() {
-            r.closeNotify(), t.closeThisMmPop()
-          }, t.openNotify = function() {
-            r.openNotify(), t.closeThisMmPop()
-          }, t.isSoundOpen = r.isSoundOpen(), t.closeSound = function() {
-            r.closeSound(), t.closeThisMmPop()
-          }, t.openSound = function() {
-            r.openSound(), t.closeThisMmPop()
-          }, t.feedback = function() {
-            n.open({
-              templateUrl: "feedback.html"
-              , controller: ["$scope", function(e) {
-                e.content = "", e.send = function() {
-                  var t = "【新版web微信】【" + navigator.userAgent.toLowerCase() + "】" + e.content;
-                  t = c.htmlEncode(t), l.feedback(t), e.closeThisDialog(), s.report(s.FEEDBACK_COUNT, 1)
+
+            e.preventDefault();
+          };
+        }]);
+    })();
+
+    /***/
+  })
+  , /* 286 */
+  /***/
+  (function(module, exports) {
+
+    (function() {
+      'use strict';
+
+      /* Controllers */
+      angular.module('Controllers')
+        .controller('systemMenuController', [
+          '$rootScope'
+          , '$scope'
+          , '$timeout'
+          , 'ngDialog'
+          , 'loginFactory'
+          , 'confFactory'
+          , 'accountFactory'
+          , 'utilFactory'
+          , 'monitorService'
+          , 'oplogFactory'
+          , 'reportService'
+          , function($rootScope, $scope, $timeout, ngDialog, loginFactory, confFactory, accountFactory, utilFactory, monitorService, oplogFactory, reportService) {
+
+            $scope.createChatroom = function() {
+
+              ngDialog.open({
+                templateUrl: "createChatroom.html"
+                , controller: "createChatroomController"
+                , className: "default create_chatroom_dlg"
+                , closeByDocument: false
+                , data: {
+                  isCreate: true
+                  , fromSystemMenu: true
                 }
-              }]
-              , className: "default"
-            }), t.closeThisMmPop()
-          }, t.sendFeedback = function() {}
-        }])
-    }()
-  }
-  , function(e, exports) {
-    ! function() {
-      "use strict";
-      angular.module("Controllers")
-        .controller("readMenuController", ["$rootScope", "$scope", "subscribeMsgService", function(e, t, a) {
-          t.copyCallback = function() {}, t.copyLink = function() {
-            return t.closeThisMmPop(), a.current && a.current.Url
-          }, t.forwarding = function() {
-            t.closeThisMmPop()
-          }, t.openTab = function() {
-            var e = a.current.Url
-              , n = window.open(e, "_blank");
-            n.focus(), t.closeThisMmPop()
+              });
+              $scope.closeThisMmPop();
+            };
+            $scope.loginout = function() {
+
+              setTimeout(function() {
+                // report session data
+                console.time('report');
+                var stayTime = new Date()
+                  .getTime() - accountFactory.getLoginTime();
+                reportService.report(reportService.ReportType.sessionData, {
+                  uin: accountFactory.getUin()
+                  , browser: navigator.userAgent
+                  , rmsg: accountFactory.getRMsgCount()
+                  , rconv: accountFactory.getRConvCount()
+                  , smsg: accountFactory.getSMsgCount()
+                  , sconv: accountFactory.getSConvCount()
+                  , lifetime: stayTime
+                }, true);
+              }, 0);
+
+              setTimeout(function() {
+                loginFactory.loginout();
+              }, 300);
+
+              $scope.closeThisMmPop();
+            };
+            // 桌面通知
+            $scope.isNotifyOpen = accountFactory.isNotifyOpen();
+            $scope.closeNotify = function() {
+              accountFactory.closeNotify();
+              $scope.closeThisMmPop();
+            };
+            $scope.openNotify = function() {
+              accountFactory.openNotify();
+              $scope.closeThisMmPop();
+            };
+
+            // 音效
+            $scope.isSoundOpen = accountFactory.isSoundOpen();
+            $scope.closeSound = function() {
+              accountFactory.closeSound();
+              $scope.closeThisMmPop();
+            };
+            $scope.openSound = function() {
+              accountFactory.openSound();
+              $scope.closeThisMmPop();
+            };
+
+            // 意见反馈
+            $scope.feedback = function() {
+              ngDialog.open({
+                templateUrl: "feedback.html"
+                , controller: ['$scope', function($scope) {
+                  $scope.content = "";
+                  $scope.send = function() {
+                    var content = '【新版web微信】【' + navigator.userAgent.toLowerCase() + '】' + $scope.content;
+                    content = utilFactory.htmlEncode(content);
+                    oplogFactory.feedback(content);
+                    $scope.closeThisDialog();
+                    monitorService.report(monitorService.FEEDBACK_COUNT, 1);
+                  };
+                }]
+                , className: "default"
+              });
+              $scope.closeThisMmPop();
+            };
+            $scope.sendFeedback = function() {
+              console.log();
+            };
           }
-        }])
-    }()
-  }
-  , function(e, exports) {
-    ! function() {
-      "use strict";
-      angular.module("Controllers")
-        .controller("transpondDialogController", ["$rootScope", "$scope", "$timeout", "$state", "$log", "$document", "chatFactory", "contactFactory", "appFactory", "chatroomFactory", "confFactory", "mmpop", "ngDialog", "utilFactory"
-          , "stateManageService", "accountFactory"
-          , function(e, t, a, n, i, o, r, c, s, l, d, f, u, m, g, p) {
-            function h(e, t) {
-              if (e.MsgType != d.MSGTYPE_SYS) {
-                var a = angular.copy(e);
-                a.ToUserName = t, a.FromUserName = p.getUserName(), a.isTranspond = !0, a.MsgIdBeforeTranspond = e.MsgIdBeforeTranspond || e.MsgId, a._h = void 0, a._offsetTop = void 0, a.MMSourceMsgId = e.MsgId, a.Scene = 2, a = r.createMessage(
-                  a), a.sendByLocal = !1, a.Content = m.htmlDecode(a.Content.replace(/^@\w+:<br\/>/, "")), a.MMActualSender = p.getUserName(), a.MMSendContent && (a.MMSendContent = a.MMSendContent.replace(/^@\w+:\s/, "")), a.MMDigest && (a.MMDigest =
-                  a.MMDigest.replace(/^@\w+:/, "")), a.MMActualContent && (a.MMActualContent = m.clearHtmlStr(a.MMActualContent.replace(/^@\w+:<br\/>/, ""))), r.appendMessage(a), r.sendMessage(a)
-              }
+        ]);
+    })();
+
+    /***/
+  })
+  , /* 287 */
+  /***/
+  (function(module, exports) {
+
+    /**
+     * Created by jfengjiang on 2015/5/14.
+     */
+
+    (function() {
+      'use strict';
+
+      /* Controllers */
+      angular.module('Controllers')
+        .controller('readMenuController', [
+          '$rootScope'
+          , '$scope'
+          , 'subscribeMsgService'
+          , function($rootScope, $scope, subscribeMsgService) {
+
+            /**
+             * callback
+             */
+            $scope.copyCallback = function() {
+              console.log("复制成功");
+            };
+
+            /**
+             * 复制链接
+             */
+            $scope.copyLink = function() {
+              console.log(subscribeMsgService.current);
+              $scope.closeThisMmPop();
+
+              return subscribeMsgService.current && subscribeMsgService.current.Url;
+            };
+
+            /**
+             * 转发
+             */
+            $scope.forwarding = function() {
+              $scope.closeThisMmPop();
+            };
+
+            /**
+             * 新开窗口
+             */
+            $scope.openTab = function() {
+              var url = subscribeMsgService.current.Url;
+              var win = window.open(url, '_blank');
+              win.focus();
+              $scope.closeThisMmPop();
             }
-            var M = t.ngDialogData.msg;
-            t.pickConfig = {
-              types: ["chatroom", "star", "friend"]
+          }
+        ]);
+    })();
+
+
+    /***/
+  })
+  , /* 288 */
+  /***/
+  (function(module, exports) {
+
+    (function() {
+      'use strict';
+
+      /* Controllers */
+
+      angular.module('Controllers')
+        .controller('transpondDialogController', [
+          '$rootScope'
+          , '$scope'
+          , '$timeout'
+          , '$state'
+          , '$log'
+          , '$document'
+          , 'chatFactory'
+          , 'contactFactory'
+          , 'appFactory'
+          , 'chatroomFactory'
+          , 'confFactory'
+          , 'mmpop'
+          , 'ngDialog'
+          , 'utilFactory'
+          , 'stateManageService'
+          , 'accountFactory'
+          , function($rootScope, $scope, $timeout, $state, $log, $document, chatFactory, contactFactory
+            , appFactory, chatroomFactory, confFactory, mmpop, ngDialog, utilFactory, stateManageService, accountFactory) {
+
+            /* var selectorContainer ;
+	
+	                $scope.$watch(function(){
+	                    return $scope.selectedUsers.length;
+	                },function(len){
+	                    if(len > 15){
+	                        if(!selectorContainer) selectorContainer = $('#createChatRoomContainer .selector')[0];
+	                        setTimeout(function(){
+	                            selectorContainer.scrollTop= 10000;
+	                        },20);
+	
+	                    }
+	                })
+	*/
+            var msg = $scope.ngDialogData.msg;
+            $scope.pickConfig = {
+              types: ['chatroom', 'star', 'friend']
               , opt: {
-                star: {}
+                star: {
+
+                }
                 , chatroom: {
-                  isSaved: !0
+                  isSaved: true
                 }
                 , friend: {
-                  isWithoutStar: !0
-                  , isWithoutBrand: !0
+                  isWithoutStar: true
+                  , isWithoutBrand: true
                 }
               }
             };
-            var v = angular.copy(r.getChatList());
-            v.unshift({
+
+            var chatList = angular.copy(chatFactory.getChatList());
+            chatList.unshift({
               text: _("b3b6735")
-              , type: "header"
-            }), t.initList = v, t.ensure = function() {
-              var e = t.selectedUsers;
-              t.comfirming = !1;
-              for (var a = 0; a < e.length; a++) h(M, e[a].UserName);
-              t.closeThisDialog()
-            }, t.cancel = function() {
-              t.comfirming = !1
-            }, t.send = function() {
-              var e = t.selectedUsers.length;
-              if (e > 0) {
-                if (1 == e) return void t.ensure();
-                if (e > 200) return void alert("选择的人数必须少于200");
-                t.comfirming = !0
+              , type: 'header'
+            });
+            $scope.initList = chatList;
+
+
+
+
+            $scope.ensure = function() {
+
+              var selectedUsers = $scope.selectedUsers;
+
+
+              $scope.comfirming = false;
+              for (var i = 0; i < selectedUsers.length; i++) {
+                sendMsg(msg, selectedUsers[i].UserName);
+              }
+              $scope.closeThisDialog()
+            }
+            $scope.cancel = function() {
+              $scope.comfirming = false;
+            }
+            $scope.send = function() {
+
+              var length = $scope.selectedUsers.length;
+
+
+              if (length > 0) {
+                if (length == 1) {
+                  $scope.ensure();
+                  return;
+                }
+
+                if (length > 200) {
+                  alert('选择的人数必须少于200');
+                  return;
+                }
+
+                // 少于 1 个则不处理
+                $scope.comfirming = true;
               }
             }
-          }
-        ])
-    }()
-  }
-  , function(e, exports) {
-    ! function() {
-      "use strict";
-      angular.module("Services")
-        .factory("appFactory", ["$http", "$q", "confFactory", "accountFactory", "loginFactory", "utilFactory", "reportService", "mmHttp", function(e, t, a, n, i, o, r, c) {
-          var s = {
-            globalData: {
-              chatList: []
+
+
+            function sendMsg(msg, to) {
+
+              if (msg.MsgType == confFactory.MSGTYPE_SYS) {
+                return;
+              }
+
+              var transpondMsg = angular.copy(msg);
+              transpondMsg.ToUserName = to;
+              transpondMsg.FromUserName = accountFactory.getUserName();
+              transpondMsg.isTranspond = true;
+              /*
+               * 因为获取 local image 需要 msgid， 但是转发前本地是没有正确的 msgid 的，只能用转发前那个消息的
+               * */
+              transpondMsg.MsgIdBeforeTranspond = msg.MsgIdBeforeTranspond || msg.MsgId;
+
+              transpondMsg._h = undefined;
+              transpondMsg._offsetTop = undefined;
+              transpondMsg.MMSourceMsgId = msg.MsgId;
+
+
+
+
+
+              /*    transpondMsg.Content= msg.OriContent || utilFactory.htmlDecode(transpondMsg.MMActualContent);*/
+              transpondMsg.Scene = 2;
+              transpondMsg = chatFactory.createMessage(transpondMsg);
+
+              /*
+               * 文件发送根据这个决定是否 reset 发送状态
+               * */
+              transpondMsg.sendByLocal = false;
+              /*
+               * 地理位置消息有  OriContent
+               * 因为 Content 是阉割过后的
+               * */
+              transpondMsg.Content = utilFactory.htmlDecode(transpondMsg.Content.replace(/^@\w+:<br\/>/, ''));
+              transpondMsg.MMActualSender = accountFactory.getUserName();
+              if (transpondMsg.MMSendContent) {
+                transpondMsg.MMSendContent = transpondMsg.MMSendContent.replace(/^@\w+:\s/, '');
+              }
+
+              if (transpondMsg.MMDigest) {
+                transpondMsg.MMDigest = transpondMsg.MMDigest.replace(/^@\w+:/, '');
+              }
+
+              if (transpondMsg.MMActualContent) {
+                transpondMsg.MMActualContent = utilFactory.clearHtmlStr(transpondMsg.MMActualContent.replace(/^@\w+:<br\/>/, ''));
+              }
+
+
+              chatFactory.appendMessage(transpondMsg);
+              chatFactory.sendMessage(transpondMsg);
             }
-            , init: function() {
-              var e = t.defer();
-              return c({
-                  method: "POST"
-                  , url: a.API_webwxinit
-                  , MMRetry: {
-                    count: 1
-                    , timeout: 1
-                  }
-                  , data: {
-                    BaseRequest: {
-                      Uin: n.getUin()
-                      , Sid: n.getSid()
-                      , Skey: n.getSkey()
-                      , DeviceID: n.getDeviceID()
+
+
+
+          }
+        ]);
+
+    })();
+
+    /***/
+  })
+  , /* 289 */
+  /***/
+  (function(module, exports) {
+
+    (function() {
+      'use strict';
+
+      /* Services */
+
+      angular.module('Services')
+        .factory('appFactory', ['$http'
+          , '$q'
+          , 'confFactory'
+          , 'accountFactory'
+          , 'loginFactory'
+          , 'utilFactory'
+          , 'reportService'
+          , 'mmHttp'
+          , function($http, $q, confFactory, accountFactory, loginFactory, utilFactory, reportService, mmHttp) {
+
+            var service = {
+              globalData: {
+                chatList: []
+              }
+              , /**
+               * 初始化webwxApp
+               */
+              init: function() {
+                var deferred = $q.defer();
+
+
+                mmHttp({
+                    method: "POST"
+                    , url: confFactory.API_webwxinit
+                    , MMRetry: {
+                      count: 1
+                      , timeout: 1
                     }
-                  }
-                })
-                .success(function(t) {
-                  e.resolve(t)
-                })
-                .error(function(t) {
-                  e.reject("error:" + t)
-                }), e.promise
-            }
-            , sync: function() {
-              var e = t.defer();
-              return c({
-                  method: "POST"
-                  , MMRetry: {
-                    serial: !0
-                  }
-                  , url: a.API_webwxsync + "?" + ["sid=" + n.getSid(), "skey=" + n.getSkey()].join("&")
-                  , data: angular.extend(n.getBaseRequest(), {
-                    SyncKey: n.getSyncKey()
-                    , rr: ~new Date
+                    , data: {
+                      BaseRequest: {
+                        Uin: accountFactory.getUin()
+                        , Sid: accountFactory.getSid()
+                        , Skey: accountFactory.getSkey()
+                        , DeviceID: accountFactory.getDeviceID()
+                      }
+                    }
                   })
-                })
-                .success(function(t) {
-                  e.resolve(t), o.getCookie("webwx_data_ticket") || r.report(r.ReportType.cookieError, {
-                    text: "webwx_data_ticket 票据丢失"
-                    , cookie: document.cookie
+                  .success(function(data) {
+                    deferred.resolve(data);
                   })
-                })
-                .error(function(t) {
-                  e.reject("error:" + t), o.log("sync error")
-                }), e.promise
-            }
-            , syncCheck: function() {
-              var e = t.defer()
-                , c = this
-                , s = a.API_synccheck + "?" + ["r=" + o.now(), "skey=" + encodeURIComponent(n.getSkey()), "sid=" + encodeURIComponent(n.getSid()), "uin=" + n.getUin(), "deviceid=" + n.getDeviceID(), "synckey=" + encodeURIComponent(n.getFormateSyncCheckKey())]
-                .join("&");
-              return window.synccheck && (window.synccheck.selector = 0), $.ajax({
-                  url: s
-                  , dataType: "script"
-                  , timeout: 35e3
-                })
-                .done(function() {
-                  window.synccheck && "0" == window.synccheck.retcode ? "0" != window.synccheck.selector ? c.sync()
-                    .then(function(t) {
-                      e.resolve(t)
-                    }, function(e) {}) : e.reject(window.synccheck && window.synccheck.selector) : !window.synccheck || "1101" != window.synccheck.retcode && "1102" != window.synccheck.retcode ? window.synccheck && "1100" == window.synccheck
-                    .retcode ? i.loginout(0) : (e.reject("syncCheck net error"), r.report(r.ReportType.netError, {
-                      text: "syncCheck net error"
-                      , url: s
-                    })) : i.loginout(1)
-                }), e.promise
-            }
-            , report: function(e) {}
-          };
-          return s
-        }])
-    }()
-  }
-  , function(module, exports) {
-    ! function(_aoUndefined) {
-      "use strict";
-      angular.module("Services")
-        .factory("chatFactory", ["$rootScope", "$timeout", "$http", "$q", "contactFactory", "accountFactory", "emojiFactory", "confFactory", "notificationFactory", "utilFactory", "reportService", "mmHttp", "titleRemind", function($rootScope
-          , $timeout, $http, $q, contactFactory, accountFactory, emojiFactory, confFactory, notificationFactory, utilFactory, reportService, mmHttp, titleRemind) {
-          function handleChatList(e) {
-            for (var t, a = [], n = [], i = 0; i < e.length; i++) t = e[i], t.isTop() ? a.push(t) : n.push(t);
-            return [].unshift.apply(n, a), n
+                  .error(function(data) {
+                    deferred.reject('error:' + data);
+                  });
+                return deferred.promise;
+              },
+
+              /**
+               * sync获取消息更新具体内容
+               * @return {promise}
+               */
+              sync: function() {
+                var deferred = $q.defer()
+                  , that = this;
+                // todo:bug
+                mmHttp({
+                    method: "POST"
+                    , MMRetry: {
+                      serial: true
+                    }
+                    , url: confFactory.API_webwxsync + '?' + ['sid=' + accountFactory.getSid(), 'skey=' + accountFactory.getSkey()].join('&')
+                    , data: angular.extend(accountFactory.getBaseRequest(), {
+                      SyncKey: accountFactory.getSyncKey()
+                      , rr: ~new Date()
+                    })
+                  })
+                  .success(function(data) {
+                    deferred.resolve(data);
+
+                    if (!utilFactory.getCookie('webwx_data_ticket')) {
+                      reportService.report(reportService.ReportType.cookieError, {
+                        text: 'webwx_data_ticket 票据丢失'
+                        , cookie: document.cookie
+                      });
+                    }
+
+                  })
+                  .error(function(data) {
+                    deferred.reject('error:' + data);
+                    utilFactory.log("sync error");
+                  });
+                return deferred.promise;
+              },
+
+              /**
+               * syncCheck轮询是否有消息更新
+               * @return {promise}
+               */
+              syncCheck: function() {
+                var deferred = $q.defer()
+                  , me = this;
+                var url = confFactory.API_synccheck + '?' + [
+                  'r=' + utilFactory.now()
+                  , 'skey=' + encodeURIComponent(accountFactory.getSkey())
+                  , 'sid=' + encodeURIComponent(accountFactory.getSid())
+                  , 'uin=' + accountFactory.getUin()
+                  , 'deviceid=' + accountFactory.getDeviceID()
+                  , 'synckey=' + encodeURIComponent(accountFactory.getFormateSyncCheckKey())
+                ].join('&');
+
+                window.synccheck && (window.synccheck.selector = 0);
+                // ie8
+                $.ajax({
+                    url: url
+                    , dataType: "script"
+                    , timeout: 35000
+                  })
+                  .done(function() {
+                    if (window.synccheck && window.synccheck.retcode == "0") {
+                      if (window.synccheck.selector != "0") {
+                        me.sync()
+                          .then(function(data) {
+                            deferred.resolve(data);
+                          }, function(data) {
+                            console.log('syncCheck sync nothing', data);
+
+                          });
+                      } else {
+                        deferred.reject(window.synccheck && window.synccheck.selector);
+                      }
+                    } else if (window.synccheck && (window.synccheck.retcode == "1101" || window.synccheck.retcode == "1102")) {
+                      loginFactory.loginout(1);
+                      //document.location.reload();
+                    } else if (window.synccheck && window.synccheck.retcode == "1100") {
+                      loginFactory.loginout(0);
+                      //document.location.reload();
+                    } else {
+                      deferred.reject('syncCheck net error');
+                      reportService.report(reportService.ReportType.netError, {
+                        text: 'syncCheck net error'
+                        , url: url
+                      })
+                    }
+                  });
+                /*$http.jsonp(url,{
+	                timeout:35000
+	            }).success(function (data) {
+	                console.log('syncCheck success?!',data);
+	                //not standard jsonp, call error handler.
+	            }).error(function (data) {
+	                if (window.synccheck && window.synccheck.retcode == "0") {
+	                    if (window.synccheck.selector != "0") {
+	                        me.sync().then(function (data) {
+	                            deferred.resolve(data);
+	                        },function (data) {
+	                            console.log('syncCheck sync nothing',data);
+	                            deferred.reject('sycn net error');
+	                        });
+	                    }else{
+	                        deferred.reject(window.synccheck && window.synccheck.selector);
+	                    }
+	                }else if(window.synccheck && (window.synccheck.retcode == "1101" || window.synccheck.retcode == "1102")){
+	                    loginFactory.loginout(1);
+	                    //document.location.reload();
+	                }else if(window.synccheck && window.synccheck.retcode == "1100"){
+	                    loginFactory.loginout(0);
+	                    //document.location.reload();
+	                }else{
+	                    deferred.reject('syncCheck net error');
+	                    reportService.report(reportService.ReportType.netError,{
+	                        text:'syncCheck net error',
+	                        url:url
+	                    })
+	                }
+	
+	            });*/
+                return deferred.promise;
+              },
+
+              /**
+               * 统计
+               */
+              report: function(argument) {
+                // body...
+              }
+            };
+            return service;
           }
-          var _chatList = []
-            , _chatListInfos = []
-            , _chatMessages = window._chatContent = {}
-            , _currentUserName = ""
-            , _addedMsgIdsMap = {}
-            , _msgMap = {}
-            , _sendFileUserName, _currentUnreadMap = {}
-            , _rChatList = []
-            , _SChatList = []
-            , service = {
-              setCurrentUserName: function(e) {
-                _currentUserName = e;
-                var t = contactFactory.getContact(e);
-                t._notActive = !1
+        ]);
+    })();
+
+    /***/
+  })
+  , /* 290 */
+  /***/
+  (function(module, exports) {
+
+    (function(_aoUndefined) {
+      'use strict';
+
+      /* Services */
+
+      angular.module('Services')
+        .factory('chatFactory', [
+          '$rootScope'
+          , '$timeout'
+          , '$http'
+          , '$q'
+          , 'contactFactory'
+          , 'accountFactory'
+          , 'emojiFactory'
+          , 'confFactory'
+          , 'notificationFactory'
+          , 'utilFactory'
+          , 'reportService'
+          , 'mmHttp'
+          , 'titleRemind'
+          , function($rootScope, $timeout, $http, $q, contactFactory, accountFactory, emojiFactory, confFactory, notificationFactory, utilFactory, reportService, mmHttp, titleRemind) {
+
+            var _chatList = []
+              , _chatListInfos = []
+              , _chatMessages = window._chatContent = {}
+              , _currentUserName = ''
+              , _addedMsgIdsMap = {}
+              , _msgMap = {};
+
+            var _sendFileUserName;
+
+            var _currentUnreadMap = {};
+
+            var _rChatList = [];
+            var _SChatList = [];
+
+            var service = {
+              setCurrentUserName: function(userName) {
+                _currentUserName = userName;
+                var currentContact = contactFactory.getContact(userName);
+                currentContact._notActive = false;
               }
-              , getCurrentUserName: function() {
-                return _currentUserName
+              , /**
+               * 获取当前聊天对象`UserName`
+               * @returns {string}
+               */
+              getCurrentUserName: function() {
+                return _currentUserName;
               }
-              , setSendFileUsername: function(e) {
-                return !!this._sendCheck(e) && (_sendFileUserName = e, !0)
+              , setSendFileUsername: function(userName) {
+                if (this._sendCheck(userName)) {
+                  _sendFileUserName = userName;
+                  return true;
+                } else {
+                  return false;
+                }
+
+
+
+
               }
               , resetSendFileUsername: function() {
-                _sendFileUserName = ""
+                _sendFileUserName = '';
               }
               , getSendFileUsername: function() {
-                return _sendFileUserName || _currentUserName
-              }
-              , _sendCheck: function(e) {
-                var t = $("#chatArea .title_wrap .title_name")[0]
-                  , a = $("#J_NavChatScrollBody")[0];
-                if (t && a) {
-                  var n = $(t)
-                    , i = $(a)
-                    , o = n.attr("data-username")
-                    , r = i.attr("data-username");
-                  return o && r || utilFactory.reportSendState("sendcheckAttrError"), e || utilFactory.reportSendState("toUserNameNotFound"), !(!e || o != r || r != e) || (r != e && utilFactory.reportSendState("toUserNameConflictNav"), o !=
-                    e && utilFactory.reportSendState("toUserNameConflictChat"), utilFactory.reportSendState("uiCheckFail"), reportService.report(reportService.ReportType.sendError, {
-                      type: "uiCheckFail"
-                      , browser: utilFactory.browser.msie ? "ie" : "other"
+                return _sendFileUserName || _currentUserName;
+              },
+
+              _sendCheck: function(userName) {
+                var chatCurrentName = $('#chatArea .title_wrap .title_name')[0];
+                var navcurrentName = $('#J_NavChatScrollBody')[0];
+
+                if (chatCurrentName && navcurrentName) {
+                  var $chatCurrentName = $(chatCurrentName);
+                  var $navcurrentName = $(navcurrentName);
+
+                  var chatuser = $chatCurrentName.attr('data-username')
+                  var navuser = $navcurrentName.attr('data-username')
+
+                  if (!chatuser || !navuser) {
+                    utilFactory.reportSendState('sendcheckAttrError');
+                  }
+
+                  if (!userName) {
+                    utilFactory.reportSendState('toUserNameNotFound');
+
+                  }
+
+
+                  if (userName && chatuser == navuser && navuser == userName) {
+                    return true;
+                  } else {
+                    /*
+                     * todo: 记录错误
+                     * */
+
+                    if (navuser != userName) {
+                      utilFactory.reportSendState('toUserNameConflictNav');
+                    }
+
+                    if (chatuser != userName) {
+                      utilFactory.reportSendState('toUserNameConflictChat');
+                    }
+
+
+
+
+                    utilFactory.reportSendState('uiCheckFail');
+                    reportService.report(reportService.ReportType.sendError, {
+                      type: 'uiCheckFail'
+                      , browser: utilFactory.browser.msie ? 'ie' : 'other'
                       , values: {
-                        chatuser: o
-                        , navuser: r
-                        , userName: e
+                        chatuser: chatuser
+                        , navuser: navuser
+                        , userName: userName
                       }
-                    }), !1)
+                    });
+
+                    return false;
+                  }
+                } else {
+
+                  if (!chatCurrentName) {
+                    utilFactory.reportSendState('chatCurrentNameNotFound');
+                  }
+
+                  if (!navcurrentName) {
+                    utilFactory.reportSendState('navcurrentNameNotFound');
+                  }
+
+                  utilFactory.reportSendState('sendcheckElementError');
+                  return false;
                 }
-                return t || utilFactory.reportSendState("chatCurrentNameNotFound"), a || utilFactory.reportSendState("navcurrentNameNotFound"), utilFactory.reportSendState("sendcheckElementError"), !1
               }
-              , createMessage: function(e) {
-                switch (e.FromUserName || (e.FromUserName = accountFactory.getUserName()), e.ToUserName || (e.ToUserName = this.getCurrentUserName()), e.ClientMsgId = e.LocalID = e.MsgId = (utilFactory.now() + Math.random()
+              , /**
+               * 创建消息
+               * @param msg 消息体
+               */
+              createMessage: function(msg) {
+                if (!msg.FromUserName) msg.FromUserName = accountFactory.getUserName();
+                if (!msg.ToUserName) msg.ToUserName = this.getCurrentUserName();
+                msg.ClientMsgId = msg.LocalID = msg.MsgId = (utilFactory.now() + Math.random()
                     .toFixed(3))
-                  .replace(".", ""), e.CreateTime = Math.round(utilFactory.now() / 1e3), e.MMStatus = confFactory.MSG_SEND_STATUS_READY, e.sendByLocal = !0, e.MsgType) {
+                  .replace(".", "");
+                msg.CreateTime = Math.round(utilFactory.now() / 1000);
+                msg.MMStatus = confFactory.MSG_SEND_STATUS_READY;
+                msg.sendByLocal = true;
+
+
+                switch (msg.MsgType) {
                   case confFactory.MSGTYPE_TEXT:
-                    var t = [];
-                    e.Content = e.Content.replace(/<input.*?un="(.*?)".*?value="(.*?)".*?>/g, function(e, a, n) {
-                        return t.push(a), n
-                      }), e.MMAtContacts = t.join(","), e.MMSendContent = utilFactory.htmlDecode(utilFactory.clearHtmlStr(e.Content.replace(/<(?:img|IMG).*?text="(.*?)".*?>/g, function(e, t) {
-                          return t.replace(confFactory.MM_EMOTICON_WEB, "")
+                    var _atContacts = [];
+                    msg.Content = msg.Content.replace(/<input.*?un="(.*?)".*?value="(.*?)".*?>/g, function(m, p1, p2) {
+                      _atContacts.push(p1);
+                      return p2;
+                    });
+                    msg.MMAtContacts = _atContacts.join(",");
+                    msg.MMSendContent = utilFactory.htmlDecode(utilFactory.clearHtmlStr(
+                        msg.Content
+                        .replace(/<(?:img|IMG).*?text="(.*?)".*?>/g, function(content, text) { //去img里的text属性替换本身（把img标签(表情)转换成可发送的数据）
+                          return text.replace(confFactory.MM_EMOTICON_WEB, "");
                         })
-                        .replace(/<(?:br|BR)\/?>/g, "\n")))
-                      .replace(/<(.*?)>/g, function(e) {
-                        return emojiFactory.EmojiCodeMap[emojiFactory.QQFaceMap[e]] || e
-                      }), e.Content = e.Content.replace(/<(?!(img|IMG|br|BR))[^>]*>/g, "")
-                      .replace(/\n/g, "<br>");
+                        .replace(/<(?:br|BR)\/?>/g, "\n")
+                      ))
+                      .replace(/<(.*?)>/g, function(str) {
+                        return emojiFactory.EmojiCodeMap[emojiFactory.QQFaceMap[str]] || str;
+                      });
+
+                    msg.Content = msg.Content.replace(/<(?!(img|IMG|br|BR))[^>]*>/g, "")
+                      .replace(/\n/g, "<br>"); //把text去掉，展示的时候才不会再匹中emojiFilter
                     break;
                   case confFactory.MSGTYPE_APP:
-                    if (e.AppMsgType == confFactory.APPMSGTYPE_URL) break;
-                    e.AppMsgType = confFactory.APPMSGTYPE_ATTACH, e.Content = "<msg><appmsg appid='wxeb7ec651dd0aefa9' sdkver=''><title>" + e.FileName + "</title><des></des><action></action><type>" + confFactory.APPMSGTYPE_ATTACH +
-                      "</type><content></content><url></url><lowurl></lowurl><appattach><totallen>" + e.FileSize + "</totallen><attachid>#MediaId#</attachid><fileext>" + (e.MMFileExt || e.MMAppMsgFileExt) +
-                      "</fileext></appattach><extinfo></extinfo></appmsg></msg>"
+                    if (msg.AppMsgType == confFactory.APPMSGTYPE_URL) {
+                      /*
+                       * 转发图文消息特殊处理
+                       * */
+                      break
+                    }
+
+                    msg.AppMsgType = confFactory.APPMSGTYPE_ATTACH;
+                    msg.Content =
+                      "<msg><appmsg appid='wxeb7ec651dd0aefa9' sdkver=''>" +
+                      "<title>" + msg.FileName + "</title>" +
+                      "<des></des>" +
+                      "<action></action>" +
+                      "<type>" + confFactory.APPMSGTYPE_ATTACH + "</type>" +
+                      "<content></content>" +
+                      "<url></url>" +
+                      "<lowurl></lowurl>" +
+                      "<appattach>" +
+                      "<totallen>" + msg.FileSize + "</totallen>" +
+                      "<attachid>#MediaId#</attachid>" + //MediaId在上传成功后调用sendAppMessage时更新
+                      "<fileext>" + (msg.MMFileExt || msg.MMAppMsgFileExt) + "</fileext>" +
+                      "</appattach>" +
+                      "<extinfo></extinfo>" +
+                      "</appmsg></msg>";
+                    // msg.MediaId = "#MediaId#";
+                    break;
                 }
-                return e
+
+                return msg;
               }
-              , appendMessage: function(e) {
-                e.MMStatus = confFactory.MSG_SEND_STATUS_SENDING, this.messageProcess(e)
+              , /**
+               * 添加消息到消息库（并且展示消息）
+               * @param msg
+               */
+              appendMessage: function(msg) {
+                msg.MMStatus = confFactory.MSG_SEND_STATUS_SENDING;
+                this.messageProcess(msg);
               }
-              , sendMessage: function(e) {
-                switch (e.MMStatus = confFactory.MSG_SEND_STATUS_SENDING, e.MsgType) {
+              , /**
+               * 发送消息（触发sendmsgAPI）
+               * @param msg
+               */
+              sendMessage: function(msg) {
+                msg.MMStatus = confFactory.MSG_SEND_STATUS_SENDING;
+                switch (msg.MsgType) {
                   case confFactory.MSGTYPE_TEXT:
-                    this.postTextMessage(e);
+                    this.postTextMessage(msg);
                     break;
                   case confFactory.MSGTYPE_IMAGE:
-                    this.postImgMessage(e);
+                    this.postImgMessage(msg);
                     break;
                   case confFactory.MSGTYPE_MICROVIDEO:
-                    this.postMicroVideoMessage(e);
+                    this.postMicroVideoMessage(msg);
                     break;
+
+                    /* 小视屏 */
                   case confFactory.MSGTYPE_VIDEO:
-                    this.postVideoMessage(e);
+                    this.postVideoMessage(msg);
                     break;
+
                   case confFactory.MSGTYPE_APP:
-                    this.postAppMessage(e);
+                    this.postAppMessage(msg);
                     break;
                   case confFactory.MSGTYPE_EMOTICON:
-                    this.postEmoticonMessage(e)
+                    this.postEmoticonMessage(msg);
                 }
+
+                // 记录发消息次数
                 accountFactory.setSMsgCount(accountFactory.getSMsgCount() + 1);
-                var t = _SChatList.indexOf(e.ToUserName);
-                t === -1 && (accountFactory.setSConvCount(accountFactory.getSConvCount() + 1), _SChatList.push(e.ToUserName))
-              }
-              , _postMessage: function(url, data, msg) {
-                data.FromUserName = msg.FromUserName, data.ToUserName = msg.ToUserName, data.LocalID = msg.LocalID, data.ClientMsgId = msg.ClientMsgId, data = angular.extend(accountFactory.getBaseRequest(), {
-                    Msg: data
-                  }), data.Scene = msg.Scene || 0, utilFactory.browser.msie && parseInt(utilFactory.browser.version) < 9 && url == confFactory.API_webwxsendmsg && (data = eval("'" + JSON.stringify(data) + "'")), mmHttp({
+
+                // 记录发消息会话数
+                var index = _SChatList.indexOf(msg.ToUserName);
+                if (index === -1) {
+                  accountFactory.setSConvCount(accountFactory.getSConvCount() + 1);
+                  _SChatList.push(msg.ToUserName);
+                }
+              },
+
+              /**
+               * 发消息到服务器
+               * @param data 需要带上的数据
+               * @param msg 消息本身，用于发送成功后改变它的状态等
+               * @private
+               */
+              _postMessage: function(url, data, msg) {
+                data.FromUserName = msg.FromUserName;
+                data.ToUserName = msg.ToUserName;
+                data.LocalID = msg.LocalID;
+                data.ClientMsgId = msg.ClientMsgId;
+                data = angular.extend(accountFactory.getBaseRequest(), {
+                  Msg: data
+                });
+
+                data.Scene = msg.Scene || 0;
+
+                // 调用angularjs的$http发请求会经过JSON.stringify来处理data，而IE8下中文会变成unicode，所以这里先做字符串转换
+                if (utilFactory.browser.msie && parseInt(utilFactory.browser.version) < 9 && url == confFactory.API_webwxsendmsg) data = eval("'" + JSON.stringify(data) + "'");
+
+                mmHttp({
                     method: "POST"
                     , url: url
                     , data: data
                     , MMRetry: {
-                      serial: !0
+                      serial: true
                     }
                   })
-                  .success(function(e) {
-                    0 == e.BaseResponse.Ret ? (msg.MsgId = e.MsgID, _msgMap[msg.MsgId] = msg, _addedMsgIdsMap[msg.MsgId] = !0, msg.MMStatus = confFactory.MSG_SEND_STATUS_SUCC, $rootScope.$broadcast("root:msgSend:success", msg)) : (
+                  .success(function(data) {
+                    if (data.BaseResponse.Ret == 0) {
+                      msg.MsgId = data.MsgID;
+                      _msgMap[msg.MsgId] = msg;
+                      _addedMsgIdsMap[msg.MsgId] = true;
+                      msg.MMStatus = confFactory.MSG_SEND_STATUS_SUCC;
+
+                      $rootScope.$broadcast('root:msgSend:success', msg);
+                    } else {
                       reportService.report(reportService.ReportType.netError, {
-                        text: "postMessage error"
-                        , url: url
-                        , res: e
-                      }), msg.MMStatus = confFactory.MSG_SEND_STATUS_FAIL)
+                          text: 'postMessage error'
+                          , url: url
+                          , res: data
+                        })
+                        //console.log('chatSender error, ret:' + data.BaseResponse.Ret);
+                      msg.MMStatus = confFactory.MSG_SEND_STATUS_FAIL;
+                    }
                   })
-                  .error(function(e) {
+                  .error(function(data) {
                     reportService.report(reportService.ReportType.netError, {
-                      text: "postMessage error"
+                      text: 'postMessage error'
                       , url: url
-                      , res: e
-                    }), msg.MMStatus = confFactory.MSG_SEND_STATUS_FAIL
-                  })
+                      , res: data
+                    })
+
+                    msg.MMStatus = confFactory.MSG_SEND_STATUS_FAIL;
+                  });
               }
-              , postTextMessage: function(e) {
-                var t = {
+              , // 发送纯文本消息
+              postTextMessage: function(msg) {
+                var data = {
                   Type: confFactory.MSGTYPE_TEXT
-                  , Content: e.MMSendContent
+                  , Content: msg.MMSendContent
                 };
-                e.MMAtContacts && e.MMAtContacts.length && (t.MsgSource = "<msgsource><atusername>" + e.MMAtContacts + "</atusername><atchatroomname>" + e.ToUserName + "</atchatroomname></msgsource>"), e.SubMsgType == confFactory.MSGTYPE_LOCATION &&
-                  (t.Type = confFactory.MSGTYPE_LOCATION, t.Content = e.OriContent), this._postMessage(confFactory.API_webwxsendmsg, t, e)
+                if (msg.MMAtContacts && msg.MMAtContacts.length) {
+                  data.MsgSource =
+                    "<msgsource>" +
+                    "<atusername>" + msg.MMAtContacts + "</atusername>" +
+                    "<atchatroomname>" + msg.ToUserName + "</atchatroomname>" +
+                    "</msgsource>";
+                }
+
+
+                /*
+                 * 发送 localtion 消息的特殊处理，主要用于转发
+                 * */
+                if (msg.SubMsgType == confFactory.MSGTYPE_LOCATION) {
+                  data.Type = confFactory.MSGTYPE_LOCATION;
+                  data.Content = msg.OriContent;
+                }
+
+                this._postMessage(confFactory.API_webwxsendmsg, data, msg);
               }
-              , postImgMessage: function(e) {
-                var t = {
-                  Type: confFactory.MSGTYPE_IMAGE
-                  , MediaId: e.MediaId
-                  , Content: e.Content
+              , // 发送图片消息
+              postImgMessage: function(msg) {
+                var data = {
+                  Type: confFactory.MSGTYPE_IMAGE, //兼容后台而带上Type
+                  MediaId: msg.MediaId
+                  , Content: msg.Content
                 };
-                this._postMessage(confFactory.API_webwxsendmsgimg + "?fun=async&f=json", t, e)
+                this._postMessage(confFactory.API_webwxsendmsgimg + "?fun=async&f=json", data, msg);
               }
-              , postVideoMessage: function(e) {
-                var t = {
-                  Type: confFactory.MSGTYPE_VIDEO
-                  , MediaId: e.MediaId
-                  , Content: e.Content
+              , // 发送视频消息
+              postVideoMessage: function(msg) {
+                var data = {
+                  Type: confFactory.MSGTYPE_VIDEO, //兼容后台而带上Type
+                  MediaId: msg.MediaId
+                  , Content: msg.Content
                 };
-                this._postMessage(confFactory.API_webwxsendmsgvedio + "?fun=async&f=json", t, e)
-              }
-              , postMicroVideoMessage: function(e) {
-                var t = {
-                  Type: confFactory.MSGTYPE_MICROVIDEO
-                  , MediaId: e.MediaId
-                  , Content: e.Content
+                this._postMessage(confFactory.API_webwxsendmsgvedio + "?fun=async&f=json", data, msg);
+              },
+
+              // 发送小视频消息
+              postMicroVideoMessage: function(msg) {
+                var data = {
+                  Type: confFactory.MSGTYPE_MICROVIDEO, //兼容后台而带上Type
+                  MediaId: msg.MediaId
+                  , Content: msg.Content
                 };
-                this._postMessage(confFactory.API_webwxsendmsgvedio + "?fun=async&f=json", t, e)
-              }
-              , postAppMessage: function(e) {
-                var t;
-                if (t = {
-                    Signature: e.Signature
-                    , Type: e.AppMsgType
-                  }, e.AppMsgType == confFactory.APPMSGTYPE_ATTACH) {
-                  var a = confFactory.isClientVersion ? "" : "wxeb7ec651dd0aefa9";
-                  t.Content = "<appmsg appid='" + a + "' sdkver=''><title>" + e.FileName + "</title><des></des><action></action><type>" + confFactory.APPMSGTYPE_ATTACH +
-                    "</type><content></content><url></url><lowurl></lowurl><appattach><totallen>" + e.FileSize + "</totallen><attachid>" + e.MediaId + "</attachid><fileext>" + (e.MMFileExt || e.MMAppMsgFileExt) +
-                    "</fileext></appattach><extinfo></extinfo></appmsg>"
-                } else t.Content = e.OriContent || e.Content;
-                this._postMessage(confFactory.API_webwxsendappmsg + "?fun=async&f=json" + (confFactory.isClientVersion ? "&mod=desktop" : ""), t, e)
-              }
-              , postEmoticonMessage: function(e) {
-                var t = {
-                  Type: confFactory.MSGTYPE_EMOTICON
-                  , EmojiFlag: e.EmojiFlag
-                  , EMoticonMd5: e.EMoticonMd5 || e.md5
+                this._postMessage(confFactory.API_webwxsendmsgvedio + "?fun=async&f=json", data, msg);
+              },
+
+
+
+              // 发送APP消息，目前只支持发文件
+              postAppMessage: function(msg) {
+                var data;
+                data = {
+                  Signature: msg.Signature
+                  , /*
+                   *  当可以发其他 app 消息，比如图文链接的时候就有问题
+                   * */
+                  Type: msg.AppMsgType, //兼容后台而带上Type
+
                 };
-                e.MediaId && (t.MediaId = e.MediaId), e.MMSourceMsgId && "undefined" != typeof e.MMStatus && e.MMStatus != confFactory.MSG_SEND_STATUS_SUCC && (e.MMPreviewSrc = confFactory.API_webwxgetmsgimg + "?&MsgID=" + e.MMSourceMsgId +
-                  "&skey=" + encodeURIComponent(accountFactory.getSkey()) + "&type=big"), this._postMessage(confFactory.API_webwxsendemoticon + "?fun=sys", t, e)
+                if (msg.AppMsgType == confFactory.APPMSGTYPE_ATTACH) {
+                  var appid = confFactory.isClientVersion ? '' : 'wxeb7ec651dd0aefa9';
+                  data.Content = "<appmsg appid='" + appid + "' sdkver=''>" +
+                    "<title>" + msg.FileName + "</title>" +
+                    "<des></des>" +
+                    "<action></action>" +
+                    "<type>" + confFactory.APPMSGTYPE_ATTACH + "</type>" +
+                    "<content></content>" +
+                    "<url></url>" +
+                    "<lowurl></lowurl>" +
+                    "<appattach>" +
+                    "<totallen>" + msg.FileSize + "</totallen>" +
+                    "<attachid>" + msg.MediaId + "</attachid>" +
+                    "<fileext>" + (msg.MMFileExt || msg.MMAppMsgFileExt) + "</fileext>" +
+                    "</appattach>" +
+                    "<extinfo>" +
+                    "</extinfo>" +
+                    "</appmsg>";
+                } else {
+                  data.Content = msg.OriContent || msg.Content;
+                }
+
+
+                this._postMessage(confFactory.API_webwxsendappmsg + "?fun=async&f=json" + (confFactory.isClientVersion ? '&mod=desktop' : ''), data, msg);
               }
-              , initChatList: function(e) {
-                var t = this
-                  , a = e.split(",");
-                angular.forEach(a, function(e, t) {
-                  if (e && !utilFactory.isShieldUser(e) && !utilFactory.isSpUser(e)) {
-                    var a = _chatList.indexOf(e);
-                    a == -1 && (_chatList.push(e), utilFactory.isRoomContact(e) && contactFactory.addBatchgetChatroomContact(e))
-                  }
-                }), t.getChatList()
-              }
-              , addChatList: function(e) {
-                var t = this;
-                e && (angular.isArray(e) || (e = [e])
-                  , angular.forEach(e, function(e, t) {
-                    var a = ""
-                      , n = 0;
-                    if (a = e.UserName ? e.UserName : e.FromUserName == accountFactory.getUserInfo()
-                      .UserName ? e.ToUserName : e.FromUserName, n = _chatList.indexOf(a), n == -1) _chatList.unshift(a), utilFactory.isRoomContact(a) && contactFactory.addBatchgetChatroomContact(a);
-                    else {
-                      var i = _chatList.splice(n, 1);
-                      _chatList.unshift(i[0])
+              , // 发送表情消息
+              postEmoticonMessage: function(msg) {
+                var data = {
+                  Type: confFactory.MSGTYPE_EMOTICON, // 兼容后台而带上Type
+                  EmojiFlag: msg.EmojiFlag
+                  , EMoticonMd5: msg.EMoticonMd5 || msg.md5
+                };
+                if (msg.MediaId) data.MediaId = msg.MediaId;
+
+                if (msg.MMSourceMsgId && (typeof msg.MMStatus != 'undefined') && msg.MMStatus != confFactory.MSG_SEND_STATUS_SUCC) {
+                  msg.MMPreviewSrc = confFactory.API_webwxgetmsgimg + '?' + '&MsgID=' + msg.MMSourceMsgId + '&skey=' + encodeURIComponent(accountFactory.getSkey()) + '&type=big';
+                }
+                this._postMessage(confFactory.API_webwxsendemoticon + "?fun=sys", data, msg);
+              },
+
+              initChatList: function(userNames) {
+                var me = this
+                  , userNamesList = userNames.split(",");
+                angular.forEach(userNamesList, function(userName, key) {
+                  if (!userName || utilFactory.isShieldUser(userName) || utilFactory.isSpUser(userName)) return;
+                  var index = _chatList.indexOf(userName);
+                  if (index == -1) {
+                    _chatList.push(userName);
+                    if (utilFactory.isRoomContact(userName)) {
+                      contactFactory.addBatchgetChatroomContact(userName);
+                      //contactFactory.batchGetChatroomMembersContact(userName);
                     }
-                  }), t.getChatList(), $rootScope.$broadcast("chat:add:success"))
+                  }
+                });
+                //updat chatlistInfos
+                me.getChatList();
               }
-              , deleteChatList: function(e) {
-                var t = this;
-                e && (angular.isArray(e) || (e = [e]), angular.forEach(e, function(e, t) {
-                  var a = _chatList.indexOf(e);
-                  a > -1 && _chatList.splice(a, 1)
-                }), t.getChatList())
-              }
-              , getChatList: function() {
-                var e = this
-                  , t = [];
-                return _chatListInfos.length = 0, angular.forEach(_chatList, function(a, n) {
-                  var i, o = contactFactory.getContact(a)
-                    , r = {};
-                  if (o && !o.isBrandContact() && !o.isShieldUser()) {
-                    if (a == _currentUserName) {
-                      var c = e.getUnreadMsgsCount(a);
-                      (!o.unreadCount || o.unreadCount < c) && (o.unreadCount = e.getUnreadMsgsCount(a)), o._notActive || e.markMsgsRead(a) && e.notifyMobile(a, confFactory.StatusNotifyCode_READED)
+              , /**
+               * 添加聊天列表用户
+               */
+              addChatList: function(list) {
+                var me = this;
+
+                if (!list) return;
+                if (!angular.isArray(list)) list = [list];
+
+                angular.forEach(list, function(item, key) {
+                  var tmpUserName = ''
+                    , tmpUserNameIndex = 0;
+
+                  if (item.UserName) {
+                    tmpUserName = item.UserName;
+                  } else if (item.FromUserName == accountFactory.getUserInfo()
+                    .UserName) {
+                    tmpUserName = item.ToUserName;
+                  } else {
+                    tmpUserName = item.FromUserName;
+                  }
+                  tmpUserNameIndex = _chatList.indexOf(tmpUserName);
+                  if (tmpUserNameIndex == -1) {
+                    _chatList.unshift(tmpUserName);
+
+                    if (utilFactory.isRoomContact(tmpUserName)) {
+                      contactFactory.addBatchgetChatroomContact(tmpUserName);
+                      //contactFactory.batchGetChatroomMembersContact(tmpUserName);
                     }
-                    i = e._getLastMessage(o.UserName), angular.extend(r, o, {
-                      MMDigest: i.MMDigest || ""
-                      , NoticeCount: e.getUnreadMsgsCount(a)
-                      , MMStatus: i.MMStatus
-                      , MMTime: i.MMTime || ""
-                      , MMDigestTime: i.MMDigestTime || ""
-                    }), t.push(r)
+                  } else {
+                    var currentItem = _chatList.splice(tmpUserNameIndex, 1);
+                    _chatList.unshift(currentItem[0]);
                   }
-                }), [].push.apply(_chatListInfos, handleChatList(t)), _chatListInfos
+                });
+                //updat chatlistInfos
+                me.getChatList();
+                $rootScope.$broadcast('chat:add:success');
               }
-              , _getLastMessage: function(e) {
-                var t = this
-                  , a = t.getChatMessage(e);
-                return a.length ? a[a.length - 1] : {}
-              }
-              , addChatMessage: function(e) {
-                if (e) {
-                  var t = this
-                    , a = (e.FromUserName, e.ToUserName, _chatMessages[e.MMPeerUserName] || (_chatMessages[e.MMPeerUserName] = []));
-                  _addedMsgIdsMap[e.MsgId] || (_addedMsgIdsMap[e.MsgId] = !0, _msgMap[e.MsgId] = e, a.push(e), $rootScope.$broadcast("message:add:success", e), t.getChatList())
-                }
-              }
-              , getMsg: function(e) {
-                return _msgMap[e]
-              }
-              , deleteChatMessage: function(e) {
-                _chatMessages[e] = []
-              }
-              , updateChatMessage: function(e) {}
-              , showMessage: function(e, t, a) {
-                if (e) t.DisplayName = e;
-                else {
-                  var n = contactFactory.getContact(t.MMActualSender);
-                  n && n.DisplayName ? t.DisplayName = n.DisplayName : t.DisplayName = t.MMActualSender
-                }
-              }
-              , updateMessage: function(e, t, a) {
-                angular.extend(e[t], a)
-              }
-              , getChatMessage: function(e, t) {
-                var a = this;
-                return t && (_currentUserName = e, a.markMsgsRead(e)), _chatMessages[e] || (_chatMessages[e] = []), _chatMessages[e]
-              }
-              , cleanChatMessage: function(e) {
-                _chatMessages[e] && _chatMessages[e].splice(0, _chatMessages[e].length)
-              }
-              , getChatMessageBySlice: function(e, t, a) {
-                var n = this;
-                return _currentUserName = e, n.clearChatNoticeCount(), _chatMessages[e] ? _chatMessages[e].slice(t, a) : []
-              }
-              , setCurrentUnread: function(e, t) {
-                _currentUnreadMap[e] = t
-              }
-              , getUnreadMsgsCount: function(e) {
-                var t, a = 0;
-                if (_currentUnreadMap[e]) return _currentUnreadMap[e];
-                if (t = _chatMessages[e])
-                  for (var n = t.length - 1; n >= 0; n--) t[n].MMUnread && ++a;
-                return a
-              }
-              , markMsgsRead: function(e) {
-                for (var t = this.getChatMessage(e), a = !1, n = 0, i = t.length; n < i; n++) t[n].MMUnread && (a = !0), t[n].MMUnread = !1;
-                return this.setCurrentUnread(e, 0), a
-              }
-              , messageProcess: function(e) {
-                var t = this
-                  , a = contactFactory.getContact(e.FromUserName, "", !0);
-                if (!a || a.isMuted() || a.isSelf() || a.isShieldUser() || a.isBrandContact() || titleRemind.increaseUnreadMsgNum(), e.MMPeerUserName = t._getMessagePeerUserName(e), e.MsgType == confFactory.MSGTYPE_STATUSNOTIFY) return void t
-                  ._statusNotifyProcessor(e);
-                if (e.MsgType != confFactory.MSGTYPE_SYSNOTICE && !(utilFactory.isShieldUser(e.FromUserName) || utilFactory.isShieldUser(e.ToUserName) || e.MsgType == confFactory.MSGTYPE_VERIFYMSG && e.RecommendInfo && e.RecommendInfo.UserName ==
-                    accountFactory.getUserInfo()
-                    .UserName)) {
-                  switch (t._commonMsgProcess(e), e.MsgType) {
-                    case confFactory.MSGTYPE_APP:
-                      try {
-                        e.MMIsAppMsg = !0, t._appMsgProcess(e)
-                      } catch (e) {}
-                      break;
-                    case confFactory.MSGTYPE_EMOTICON:
-                      t._emojiMsgProcess(e);
-                      break;
-                    case confFactory.MSGTYPE_IMAGE:
-                      t._imageMsgProcess(e);
-                      break;
-                    case confFactory.MSGTYPE_VOICE:
-                      t._voiceMsgProcess(e);
-                      break;
-                    case confFactory.MSGTYPE_VIDEO:
-                      t._videoMsgProcess(e);
-                      break;
-                    case confFactory.MSGTYPE_MICROVIDEO:
-                      t._mircovideoMsgProcess(e);
-                      break;
-                    case confFactory.MSGTYPE_TEXT:
-                      "newsapp" == e.FromUserName ? t._newsMsgProcess(e) : e.AppMsgType == confFactory.APPMSGTYPE_RED_ENVELOPES ? (e.MsgType = confFactory.MSGTYPE_APP, t._appMsgProcess(e)) : e.SubMsgType == confFactory.MSGTYPE_LOCATION ? t
-                        ._locationMsgProcess(e) : t._textMsgProcess(e);
-                      break;
-                    case confFactory.MSGTYPE_RECALLED:
-                      return void t._recalledMsgProcess(e);
-                    case confFactory.MSGTYPE_LOCATION:
-                      t._locationMsgProcess(e);
-                      break;
-                    case confFactory.MSGTYPE_VOIPMSG:
-                    case confFactory.MSGTYPE_VOIPNOTIFY:
-                    case confFactory.MSGTYPE_VOIPINVITE:
-                      t._voipMsgProcess(e);
-                      break;
-                    case confFactory.MSGTYPE_POSSIBLEFRIEND_MSG:
-                      t._recommendMsgProcess(e);
-                      break;
-                    case confFactory.MSGTYPE_VERIFYMSG:
-                      t._verifyMsgProcess(e);
-                      break;
-                    case confFactory.MSGTYPE_SHARECARD:
-                      t._shareCardProcess(e);
-                      break;
-                    case confFactory.MSGTYPE_SYS:
-                      t._systemMsgProcess(e);
-                      break;
-                    default:
-                      e.MMDigest = confFactory.isClientVersion ? "暂不支持该消息" : _("938b111")
+              , /**
+               * 删除聊天列表用户
+               */
+              deleteChatList: function(list) {
+                var me = this;
+
+                if (!list) return;
+                if (!angular.isArray(list)) list = [list];
+
+                angular.forEach(list, function(userName, key) {
+                  var index = _chatList.indexOf(userName);
+                  if (index > -1) {
+                    _chatList.splice(index, 1);
                   }
-                  e.MMActualContent = utilFactory.hrefEncode(e.MMActualContent);
-                  var n = contactFactory.getContact(e.MMPeerUserName);
-                  e.MMIsSend || n && (n.isMuted() || n.isBrandContact()) || e.MsgType == confFactory.MSGTYPE_SYS || (accountFactory.isNotifyOpen() && t._notify(e), accountFactory.isSoundOpen() && utilFactory.initMsgNoticePlayer(confFactory
-                    .RES_SOUND_RECEIVE_MSG)), t.addChatMessage(e), t.addChatList([e])
+                });
+                //updat chatlistInfos
+                me.getChatList();
+              }
+              , /**
+               * 获取聊天列表用户
+               */
+              getChatList: function() {
+                var me = this
+                  , tmp = [];
+                _chatListInfos.length = 0;
+                angular.forEach(_chatList, function(userName, key) {
+                  var contactItem = contactFactory.getContact(userName)
+                    , lastMessage
+                    , chatListItem = {};
+                  // 公众号和特殊屏蔽号都不会出现在列表里面
+                  if (contactItem && !contactItem.isBrandContact() && !contactItem.isShieldUser()) {
+                    if (userName == _currentUserName) {
+                      //console.log('getChatList markMsgsRead');
+
+                      var currentUnreadCount = me.getUnreadMsgsCount(userName);
+
+                      if (!contactItem.unreadCount || contactItem.unreadCount < currentUnreadCount) {
+                        contactItem.unreadCount = me.getUnreadMsgsCount(userName);
+                      }
+
+
+                      if (!contactItem._notActive) {
+                        if (me.markMsgsRead(userName)) {
+                          me.notifyMobile(userName, confFactory.StatusNotifyCode_READED);
+                        }
+                      }
+                    }
+                    lastMessage = me._getLastMessage(contactItem.UserName);
+                    angular.extend(chatListItem, contactItem, {
+                      MMDigest: lastMessage.MMDigest || ''
+                      , NoticeCount: me.getUnreadMsgsCount(userName)
+                      , MMStatus: lastMessage.MMStatus
+                      , MMTime: lastMessage.MMTime || ''
+                      , MMDigestTime: lastMessage.MMDigestTime || ''
+                    });
+                    tmp.push(chatListItem);
+                  }
+                });
+                //console.log('chatlist',_chatListInfos)
+                [].push.apply(_chatListInfos, handleChatList(tmp));
+                return _chatListInfos;
+              }
+              , /**
+               * 获取用户最后的消息
+               */
+              _getLastMessage: function(userName) {
+                var me = this
+                  , messages = me.getChatMessage(userName);
+
+                if (messages.length) {
+                  return messages[messages.length - 1];
+                } else {
+                  return {};
                 }
               }
-              , _statusNotifyProcessor: function(e) {
-                var t = this;
-                switch (e.StatusNotifyCode) {
-                  case confFactory.StatusNotifyCode_SYNC_CONV:
-                    t.initChatList(e.StatusNotifyUserName);
-                    break;
-                  case confFactory.StatusNotifyCode_ENTER_SESSION:
-                    t.markMsgsRead(e.MMPeerUserName), t.addChatList([e]);
-                    break;
-                  case confFactory.StatusNotifyCode_QUIT_SESSION:
+              , /**
+               * 添加聊天用户内容
+               */
+              addChatMessage: function(message) {
+                if (!message) {
+                  return;
+                }
+
+                var me = this
+                  , fromUserName = message.FromUserName
+                  , toUserName = message.ToUserName
+                  , userMessages = _chatMessages[message.MMPeerUserName] || (_chatMessages[message.MMPeerUserName] = []);
+
+                //过滤已处理信息
+                if (_addedMsgIdsMap[message.MsgId]) return;
+                _addedMsgIdsMap[message.MsgId] = true;
+                _msgMap[message.MsgId] = message;
+
+                //console.log("msgid=" + message.MsgId);
+                userMessages.push(message);
+                $rootScope.$broadcast('message:add:success', message);
+
+
+                //updat chatlistInfos
+                me.getChatList();
+              }
+              , getMsg: function(msgId) {
+                return _msgMap[msgId];
+              }
+              , deleteChatMessage: function(userName) {
+                _chatMessages[userName] = [];
+              }
+              , updateChatMessage: function(message) {
+                // body...
+              }
+              , showMessage: function(_displayName, _oMessage, _anInsertPos) {
+                if (_displayName) {
+                  _oMessage.DisplayName = _displayName;
+                } else {
+                  var _oActualSender = contactFactory.getContact(_oMessage.MMActualSender);
+                  if (_oActualSender && _oActualSender.DisplayName) {
+                    _oMessage.DisplayName = _oActualSender.DisplayName;
+                  } else {
+                    _oMessage.DisplayName = _oMessage.MMActualSender;
+                  }
+                }
+                //_aoWebMM.triggerEvent(_anInsertPos===_aoUndefined ? "messageAdded" : "messagePrepend", _oMessage);
+              }
+              , updateMessage: function(userMessages, index, message) {
+                angular.extend(userMessages[index], message);
+              }
+              , /**
+               * 根据`username`，获取聊天用户内容
+               * @param userName
+               * @param clearNoticeCount
+               * @returns {Array} 聊天内容集合
+               */
+              getChatMessage: function(userName, clearNoticeCount) {
+                var me = this;
+                if (clearNoticeCount) {
+                  _currentUserName = userName;
+                  me.markMsgsRead(userName);
+                }
+                if (!_chatMessages[userName]) {
+                  //不直接返回空数组：return [];
+                  //保存引用，angular才能自动更新
+                  _chatMessages[userName] = [];
+                }
+                return _chatMessages[userName];
+              }
+              , cleanChatMessage: function(userName) {
+                if (_chatMessages[userName]) {
+                  _chatMessages[userName].splice(0, _chatMessages[userName].length);
                 }
               }
-              , _commonMsgProcess: function(e) {
-                var t, a, n = this
-                  , i = ""
-                  , o = ""
-                  , r = "";
-                e.Content = e.Content || "", e.MMDigest = "", e.MMIsSend = e.FromUserName == accountFactory.getUserName() || "" == e.FromUserName, a = n.getChatMessage(e.MMPeerUserName), utilFactory.isRoomContact(e.MMPeerUserName) ? (e.MMIsChatRoom = !
-                    0, i = e.Content.replace(/^(@[a-zA-Z0-9]+|[a-zA-Z0-9_-]+):<br\/>/, function(e, t) {
-                      return o = t, ""
-                    }), o && o != accountFactory.getUserName() && (t = contactFactory.getContact(o, e.MMPeerUserName), t && (r = t.getDisplayName(e.MMPeerUserName), r && (e.MMDigest = r + ":")))) : (e.MMIsChatRoom = !1, i = e.Content), e.MMIsSend ||
-                  e.MMUnread != _aoUndefined || e.MsgType == confFactory.MSGTYPE_SYS || (e.MMUnread = !0), e.LocalID || (e.ClientMsgId = e.LocalID = e.MsgId), i = emojiFactory.emoticonFormat(i), e.MMActualContent = i, e.MMActualSender = o ||
-                  e.FromUserName, n._calcMsgDisplayTime(a[a.length - 1], e)
-              }
-              , _textMsgProcess: function(e) {
-                e.MsgType = confFactory.MSGTYPE_TEXT, e.MMDigest += e.MMActualContent.replace(/<br ?[^><]*\/?>/g, "")
-              }
-              , _imageMsgProcess: function(e) {
-                e.MsgType = confFactory.MSGTYPE_IMAGE, e.MMDigest += _("a5627e8")
-              }
-              , _voiceMsgProcess: function(e) {
-                e.MsgType = confFactory.MSGTYPE_VOICE, e.MMDigest += _("b28dac0"), e.MMVoiceUnRead = !e.MMIsSend && e.MMUnread
-              }
-              , _videoMsgProcess: function(e) {
-                e.MsgType = confFactory.MSGTYPE_VIDEO, e.MMDigest += _("4078104")
-              }
-              , _mircovideoMsgProcess: function(e) {
-                e.MsgType = confFactory.MSGTYPE_MICROVIDEO, e.MMDigest += _("1f94b1b")
-              }
-              , _newsMsgProcess: function(e) {
-                var t = utilFactory.htmlDecode(e.MMActualContent)
-                  .replace(/<br\/>/g, "");
-                t = utilFactory.encodeEmoji(t), t = utilFactory.xml2json(t), e.MMCategory = t && t.category
-              }
-              , _emojiMsgProcess: function(e) {
-                var t = this;
-                if (e.HasProductId) e.MMIsSend ? e.MMActualContent = "" + _("80f56fb") : e.MMActualContent = _("2242ac7") + "", e._noSupportMsg = !0, t._textMsgProcess(e);
-                else {
-                  e.MsgType = confFactory.MSGTYPE_EMOTICON;
-                  var a = utilFactory.xml2json(utilFactory.htmlDecode(e.MMActualContent));
-                  a && a.emoji && a.emoji.md5 && (e.md5 = a.emoji.md5), e.MMDigest += _("e230fc1")
+              , /**
+               * 获取聊天用户内容
+               */
+              getChatMessageBySlice: function(userName, index, count) {
+                var me = this;
+                //if(clearNoticeCount){
+                _currentUserName = userName;
+                me.clearChatNoticeCount();
+                //}
+                if (_chatMessages[userName]) {
+                  return _chatMessages[userName].slice(index, count);
+                } else {
+                  return [];
                 }
+              },
+
+
+              setCurrentUnread: function(username, count) {
+                _currentUnreadMap[username] = count;
+              },
+
+
+
+              /**
+               * 获取用户未读消息数
+               * @param userName
+               */
+              getUnreadMsgsCount: function(userName) {
+                var unreadCout = 0
+                  , messages;
+
+                // if(unreadCout > 99) return "99+";
+                if (_currentUnreadMap[userName]) {
+                  return _currentUnreadMap[userName];
+                } else {
+                  if (messages = _chatMessages[userName]) {
+                    for (var i = messages.length - 1; i >= 0; i--) {
+                      if (messages[i].MMUnread) {
+                        ++unreadCout;
+                      }
+                    }
+                  }
+
+
+                  return unreadCout;
+                }
+
+
               }
-              , _voipMsgProcess: function(e) {
-                this._appAsTextMsgProcess(e, _("fdaa3a3"))
+              , /**
+               * 标记用户消息为已读
+               * @param userName
+               */
+              markMsgsRead: function(userName) {
+                var messages = this.getChatMessage(userName)
+                  , hasUnreaded = false;
+                for (var i = 0, len = messages.length; i < len; i++) {
+                  if (messages[i].MMUnread) {
+                    hasUnreaded = true;
+                  }
+                  messages[i].MMUnread = false;
+                }
+
+                this.setCurrentUnread(userName, 0);
+                return hasUnreaded;
               }
-              , _locationMsgProcess: function(e) {
-                var t = e.Content.split(":<br/>");
-                t[2] ? (e.MMLocationDesc = t[1], e.MMLocationUrl = t[2]) : (e.MMLocationDesc = t[0], e.MMLocationUrl = t[1]), e.MMLocationUrl = e.Url || e.MMLocationUrl, e.MMDigest += e.MMLocationDesc
-              }
-              , _appMsgProcess: function(e) {
-                var t = this;
-                switch (e.AppMsgType) {
-                  case confFactory.APPMSGTYPE_TEXT:
-                    t._appTextMsgProcess(e);
+              , /**
+               * 消息处理入口
+               * @param message 消息体
+               */
+              messageProcess: function(message) {
+                var me = this;
+                var fromUser = contactFactory.getContact(message.FromUserName, '', true);
+                // 屏蔽，自己，不应该显示，品牌商家，这四种不提示
+                if (fromUser && !fromUser.isMuted() && !fromUser.isSelf() && !fromUser.isShieldUser() && !fromUser.isBrandContact()) {
+                  titleRemind.increaseUnreadMsgNum();
+                }
+                message.MMPeerUserName = me._getMessagePeerUserName(message);
+
+                if (message.MsgType == confFactory.MSGTYPE_STATUSNOTIFY) {
+                  me._statusNotifyProcessor(message);
+                  return;
+                } else if (message.MsgType == confFactory.MSGTYPE_SYSNOTICE) {
+                  console.log('MSGTYPE_SYSNOTICE', message.Content);
+                  return;
+                }
+
+                if (utilFactory.isShieldUser(message.FromUserName) || utilFactory.isShieldUser(message.ToUserName) ||
+                  (message.MsgType == confFactory.MSGTYPE_VERIFYMSG && message.RecommendInfo &&
+                    message.RecommendInfo.UserName == accountFactory.getUserInfo()
+                    .UserName)
+                ) {
+                  return;
+                }
+
+                me._commonMsgProcess(message);
+                switch (message.MsgType) {
+                  case confFactory.MSGTYPE_APP: //APP消息
+                    try {
+                      message.MMIsAppMsg = true;
+                      me._appMsgProcess(message);
+                    } catch (e) {
+                      console.log('catch _appMsgProcess error', e, message)
+                    }
                     break;
-                  case confFactory.APPMSGTYPE_IMG:
-                    t._imageMsgProcess(e);
+                  case confFactory.MSGTYPE_EMOTICON: //表情消息
+                    me._emojiMsgProcess(message);
                     break;
-                  case confFactory.APPMSGTYPE_AUDIO:
-                    t._appAudioMsgProcess(e);
+                  case confFactory.MSGTYPE_IMAGE: //图片消息
+                    me._imageMsgProcess(message);
                     break;
-                  case confFactory.APPMSGTYPE_VIDEO:
-                    t._appVideoMsgProcess(e);
+                  case confFactory.MSGTYPE_VOICE: //语音消息
+                    me._voiceMsgProcess(message);
                     break;
-                  case confFactory.APPMSGTYPE_EMOJI:
-                    t._emojiMsgProcess(e);
+                  case confFactory.MSGTYPE_VIDEO: //视频消息
+                    me._videoMsgProcess(message);
                     break;
-                  case confFactory.APPMSGTYPE_URL:
-                    t._appUrlMsgProcess(e);
+                  case confFactory.MSGTYPE_MICROVIDEO: //小视频消息
+                    me._mircovideoMsgProcess(message);
                     break;
-                  case confFactory.APPMSGTYPE_ATTACH:
-                    t._appAttachMsgProcess(e);
+                  case confFactory.MSGTYPE_TEXT: //文本消息
+                    if (message.FromUserName == "newsapp") {
+                      me._newsMsgProcess(message);
+                    } else if (message.AppMsgType == confFactory.APPMSGTYPE_RED_ENVELOPES) {
+                      // 将红包消息的MsgType改为MSGTYPE_APP
+                      message.MsgType = confFactory.MSGTYPE_APP;
+                      me._appMsgProcess(message);
+                    } else if (message.SubMsgType == confFactory.MSGTYPE_LOCATION) {
+                      me._locationMsgProcess(message);
+                    } else {
+                      me._textMsgProcess(message);
+                    }
                     break;
-                  case confFactory.APPMSGTYPE_TRANSFERS:
-                    t._appTransfersMsgProcess(e);
+                  case confFactory.MSGTYPE_RECALLED: //消息撤回
+                    me._recalledMsgProcess(message);
+                    //直接返回
+                    return;
                     break;
-                  case confFactory.APPMSGTYPE_RED_ENVELOPES:
-                    t._appRedEnvelopesMsgProcess(e);
+                  case confFactory.MSGTYPE_LOCATION: //地理位置消息
+                    me._locationMsgProcess(message);
                     break;
-                  case confFactory.APPMSGTYPE_CARD_TICKET:
-                    t._appCardTicketMsgProcess(e);
+                  case confFactory.MSGTYPE_VOIPMSG: //VOIP消息
+                  case confFactory.MSGTYPE_VOIPNOTIFY:
+                  case confFactory.MSGTYPE_VOIPINVITE:
+                    me._voipMsgProcess(message);
                     break;
-                  case confFactory.APPMSGTYPE_OPEN:
-                    t._appOpenMsgProcess(e);
+                  case confFactory.MSGTYPE_POSSIBLEFRIEND_MSG: //好友推荐消息
+                    me._recommendMsgProcess(message);
                     break;
-                  case confFactory.APPMSGTYPE_REALTIME_SHARE_LOCATION:
-                    t._appRealtimeShareLocationMsgProcess(e);
+                  case confFactory.MSGTYPE_VERIFYMSG: //认证消息
+                    me._verifyMsgProcess(message);
                     break;
-                  case confFactory.APPMSGTYPE_SCAN_GOOD:
-                    t._appScanGoodMsgProcess(e);
+                  case confFactory.MSGTYPE_SHARECARD: //名片消息
+                    me._shareCardProcess(message);
                     break;
-                  case confFactory.APPMSGTYPE_GOOD:
-                    t._appGoodMsgProcess(e);
-                    break;
-                  case confFactory.APPMSGTYPE_EMOTION:
-                    t._appEmotionMsgProcess(e);
+                  case confFactory.MSGTYPE_SYS: //系统消息
+                    me._systemMsgProcess(message);
                     break;
                   default:
-                    t._appUnknowMsgProcess(e)
+                    message.MMDigest = confFactory.isClientVersion ? '暂不支持该消息' : _("938b111");
+                }
+                message.MMActualContent = utilFactory.hrefEncode(message.MMActualContent);
+                //message.MMIsSend && me.markMsgsRead(message.MMPeerUserName);
+
+                // notify && sound
+                var contact = contactFactory.getContact(message.MMPeerUserName);
+                if (!message.MMIsSend &&
+                  (!contact || (!contact.isMuted() && !contact.isBrandContact())) &&
+                  (message.MsgType != confFactory.MSGTYPE_SYS)) {
+                  if (accountFactory.isNotifyOpen()) me._notify(message);
+                  if (accountFactory.isSoundOpen()) utilFactory.initMsgNoticePlayer(confFactory.RES_SOUND_RECEIVE_MSG);
+                }
+
+                me.addChatMessage(message);
+                me.addChatList([message]);
+              }
+              , /**
+               * 状态通知消息处理
+               * @param message 消息体
+               * @private
+               */
+              _statusNotifyProcessor: function(message) {
+                var me = this;
+                switch (message.StatusNotifyCode) {
+                  case confFactory.StatusNotifyCode_SYNC_CONV: //同步会话列表
+                    me.initChatList(message.StatusNotifyUserName);
+                    break;
+                  case confFactory.StatusNotifyCode_ENTER_SESSION: //进入会话
+                    me.markMsgsRead(message.MMPeerUserName);
+                    me.addChatList([message]);
+                    break;
+                  case confFactory.StatusNotifyCode_QUIT_SESSION: //退出会话
+                    // do nothing
+                    break;
                 }
               }
-              , _appTextMsgProcess: function(e) {
-                var t = utilFactory.htmlDecode(e.MMActualContent)
-                  .replace(/<br\/>/g, "");
-                t = utilFactory.encodeEmoji(t), t = utilFactory.xml2json(t), this._appAsTextMsgProcess(e, utilFactory.decodeEmoji(utilFactory.htmlEncode(t.appmsg.title)))
-              }
-              , _appAudioMsgProcess: function(e) {
-                var t = this
-                  , a = _("0e23719") + e.FileName;
-                t._appUrlMsgProcess(e, a)
-              }
-              , _appVideoMsgProcess: function(e) {
-                var t = this
-                  , a = _("4078104") + e.FileName;
-                t._appUrlMsgProcess(e, a)
-              }
-              , _appOpenMsgProcess: function(e) {
-                var t = this
-                  , a = _("4f20785");
-                t._appUrlMsgProcess(e, a), e.MMAlert = _("c4e04ee")
-              }
-              , _appUrlMsgProcess: function(e, t) {
-                e.MsgType = confFactory.MSGTYPE_APP, e.AppMsgType = confFactory.APPMSGTYPE_URL, t = t || _("e5b228c") + e.FileName;
-                var a = utilFactory.htmlDecode(e.MMActualContent)
-                  .replace(/<br\/>/g, "");
-                a = utilFactory.encodeEmoji(a), a = utilFactory.xml2json(a), e.MMAppMsgDesc = utilFactory.decodeEmoji(a.appmsg.des), e.MMDigest += t, a.appmsg.mmreader && this._appReaderMsgProcess(e, a.appmsg.mmreader)
-              }
-              , _appReaderMsgProcess: function(e, t) {
-                e.MsgType = confFactory.MSGTYPE_APP, e.AppMsgType = confFactory.APPMSGTYPE_READER_TYPE, 1 == t.category.count ? e.MMCategory = [t.category.item] : e.MMCategory = t.category.item, angular.forEach(e.MMCategory, function(e) {
-                  var t = new Date(1e3 * e.pub_time);
-                  e.pub_time = utilFactory.formatNum(t.getMonth() + 1, 2) + "-" + utilFactory.formatNum(t.getDate(), 2);
-                  var a = e.cover.split("|");
-                  3 == a.length && (e.cover = a[0], e.width = a[1], e.height = a[2])
-                }), e.MMDigest += e.MMCategory.length && e.MMCategory[0].title
-              }
-              , _appAttachMsgProcess: function(e) {
-                var t = utilFactory.htmlDecode(e.MMActualContent)
-                  .replace(/<br\/>/g, "");
-                t = utilFactory.encodeEmoji(t), t = utilFactory.xml2json(t), e.MMDigest += _("6daeae3"), e.sendByLocal ? e.MMFileStatus = confFactory.MM_SEND_FILE_STATUS_SENDING : e.MMFileStatus = confFactory.MM_SEND_FILE_STATUS_SUCCESS, e
-                  .MMAppMsgFileExt = t.appmsg.appattach.fileext.toLowerCase(), e.MMAppMsgFileSize = utilFactory.getSize(+t.appmsg.appattach.totallen), e.MMAppMsgDownloadUrl = confFactory.API_webwxdownloadmedia + "?sender=" + e.FromUserName +
-                  "&mediaid=" + e.MediaId + "&encryfilename=" + e.EncryFileName + "&fromuser=" + accountFactory.getUin() + "&pass_ticket=" + encodeURIComponent(accountFactory.getPassticket()) + "&webwx_data_ticket=" + encodeURIComponent(
-                    utilFactory.getCookie("webwx_data_ticket"))
-              }
-              , _appTransfersMsgProcess: function(e) {
-                this._appAsTextMsgProcess(e, _("0cdad09"))
-              }
-              , _appCardTicketMsgProcess: function(e) {
-                this._appAsTextMsgProcess(e, _("c534fc3"))
-              }
-              , _appRealtimeShareLocationMsgProcess: function(e) {
-                var t = "";
-                if (e.FromUserName == accountFactory.getUserName()) t = "[" + _("8e94ca5") + "]";
-                else {
-                  var a, n = contactFactory.getContact(e.MMActualSender);
-                  n && (a = n.getDisplayName(utilFactory.isRoomContact(e.FromUserName) ? e.FromUserName : null)), t = "[" + (a ? a : _("a41d576")) + _("a1f1299") + "]"
-                }
-                this._appAsTextMsgProcess(e, t)
-              }
-              , _appScanGoodMsgProcess: function(e) {
-                this._appAsTextMsgProcess(e, _("95afe20"))
-              }
-              , _appGoodMsgProcess: function(e) {
-                this._appAsTextMsgProcess(e, _("355765a"))
-              }
-              , _appEmotionMsgProcess: function(e) {
-                this._appAsTextMsgProcess(e, _("9d7f4bb"))
-              }
-              , _appRedEnvelopesMsgProcess: function(e) {
-                e.MMDigest += _("e24e75c")
-              }
-              , _appUnknowMsgProcess: function(e) {
-                confFactory.isClientVersion ? this._appAsTextMsgProcess(e, "[收到一条暂不支持的消息类型，请在手机上查看]") : this._appAsTextMsgProcess(e, "[收到一条网页版微信暂不支持的消息类型，请在手机上查看]")
-              }
-              , _appAsTextMsgProcess: function(e, t) {
-                e.MMActualContent = t, e._noSupportMsg = !0, this._textMsgProcess(e)
-              }
-              , _recalledMsgProcess: function(e) {
-                var t, a, n = this
-                  , i = utilFactory.htmlDecode(e.MMActualContent)
-                  , o = ""
-                  , r = _("ded861c")
-                  , c = n.getChatMessage(e.MMPeerUserName);
-                if (i = utilFactory.encodeEmoji(i), o = utilFactory.xml2json(i.replace(/<br\/>/g, ""))
-                  .revokemsg, 0 == o.msgid) {
-                  for (var s = c.length - 1; s >= 0; --s)
-                    if (c[s].FromUserName == accountFactory.getUserName()) {
-                      t = s;
-                      break
-                    }
-                } else t = n._findMessageByMsgId(c, o.msgid);
-                if (t > -1) {
-                  var l = c[t];
-                  if (l.MMIsSend) a = _("df1fd91");
-                  else {
-                    var d = contactFactory.getContact(e.MMActualSender, e.MMPeerUserName);
-                    a = d ? d.getDisplayName(e.MMPeerUserName) : ""
-                  }
-                  angular.extend(l, {
-                    MMRecall: !0
-                    , MsgType: confFactory.MSGTYPE_SYS
-                    , MMActualContent: a + r
-                    , MMDigest: a + r
-                    , _h: 0
-                  }), n.getChatList()
-                }
-              }
-              , _recommendMsgProcess: function(e) {
-                e.Contact = e.RecommendInfo, e.MsgType == confFactory.MSGTYPE_VERIFYMSG ? e.Content = e.Contact.NickName || e.Contact.UserName + _("ebeaf99") : e.Content = e.Contact.NickName || e.Contact.UserName +
-                  "text_posible_friend_msg_digest"
-              }
-              , _verifyMsgProcess: function(e) {
-                e.MMDigest = e.RecommendInfo.NickName + _("ebeaf99");
-                for (var t in e.RecommendInfo) e.RecommendInfo[t] || delete e.RecommendInfo[t];
-                e.RecommendInfo.HeadImgUrl = utilFactory.getContactHeadImgUrl({
-                  UserName: e.RecommendInfo.UserName
-                  , Skey: accountFactory.getSkey()
-                  , MsgId: e.MsgId
-                }), e.RecommendInfo.MMFromVerifyMsg = !0, contactFactory.addStrangerContact(e.RecommendInfo)
-              }
-              , _shareCardProcess: function(e) {
-                e.MMActualSender == accountFactory.getUserName() ? e.MMDigest += _("9a2223f") + e.RecommendInfo.NickName : e.MMDigest += _("dd14577") + e.RecommendInfo.NickName;
-                for (var t in e.RecommendInfo) e.RecommendInfo[t] || delete e.RecommendInfo[t];
-                var a = utilFactory.htmlDecode(e.MMActualContent)
-                  .replace(/<br\/>/g, "");
-                a = utilFactory.encodeEmoji(a), a = utilFactory.xml2json(a), e.MMUserName = a.alias || a.username, e.RecommendInfo.NickName = utilFactory.decodeEmoji(e.RecommendInfo.NickName), e.RecommendInfo.HeadImgUrl = utilFactory.getContactHeadImgUrl({
-                  UserName: e.RecommendInfo.UserName
-                  , Skey: accountFactory.getSkey()
-                  , MsgId: e.MsgId
-                }), contactFactory.getContact(e.RecommendInfo.UserName, "", !0) || contactFactory.addStrangerContact(e.RecommendInfo)
-              }
-              , _systemMsgProcess: function(e) {
-                var t = e.MMActualContent.match(/&lt;a href=(?:'|").*?(?:'|").*?&gt;.*?&lt;\/a&gt;/g);
-                if (t)
-                  for (var a, n, i = 0, o = t.length; i < o; ++i) a = /&lt;a href=(?:'|")(.*?)(?:'|").*?&gt;.*?&lt;\/a&gt;/.exec(t[i]), a && a[1] && (n = a[1], e.MMActualContent = e.MMActualContent.replace(
-                    /&lt;a href=(?:'|")weixin:\/\/.*?&lt;\/a&gt;/, ""));
-                e.MMDigest += e.MMActualContent
-              }
-              , _notify: function(e) {
-                function t() {
-                  for (var t = contactFactory.getContact(e.MMPeerUserName), a = t ? t.getDisplayName(e.MMPeerUserName) : "", n = t ? t.HeadImgUrl : "", i = e.MMDigest.replace(/(<img.*?\/>)|<span class="emoji.*?<\/span>/g, _("809bb9d")), o =
-                      utilFactory.clearHtmlStr(i), r = "", c = 80, s = 0, l = 0; l < o.length; l++) {
-                    if (s += o.charCodeAt(l) <= 128 ? 1 : 2, s >= c) {
-                      r = o.slice(0, l + 1), l < o.length - 1 && (r += "…");
-                      break
-                    }
-                    r = o
-                  }
-                  var d = notificationFactory.createNotification(utilFactory.clearHtmlStr(a), {
-                    body: r
-                    , icon: n
+              , /**
+               * 通用消息处理
+               * @param message 消息体
+               * @private
+               */
+              _commonMsgProcess: function(message) {
+                var me = this
+                  , index, userContact
+                  , actualContent = ''
+                  , actualSender = ''
+                  , userMessages
+                  , displayName = '';
+
+                message.Content = message.Content || '';
+                message.MMDigest = '';
+                message.MMIsSend = (message.FromUserName == accountFactory.getUserName() || message.FromUserName == "");
+                //message.MMPeerUserName = me._getMessagePeerUserName(message);
+                userMessages = me.getChatMessage(message.MMPeerUserName);
+                if (utilFactory.isRoomContact(message.MMPeerUserName)) {
+                  message.MMIsChatRoom = true;
+                  actualContent = message.Content.replace(/^(@[a-zA-Z0-9]+|[a-zA-Z0-9_-]+):<br\/>/, function(str, userName) {
+                    actualSender = userName;
+                    return '';
                   });
-                  d && (d.onclick = function() {
-                    try {
-                      window.focus(), $rootScope.$broadcast("root:notification:click", e.FromUserName)
-                    } catch (e) {
-                      reportService.report(reportService.ReportType.logicError, {
-                        text: "notification click"
-                      })
+                  if (actualSender && actualSender != accountFactory.getUserName()) {
+                    userContact = contactFactory.getContact(actualSender, message.MMPeerUserName);
+                    if (userContact) {
+                      displayName = userContact.getDisplayName(message.MMPeerUserName);
+                      displayName && (message.MMDigest = displayName + ':');
                     }
-                  })
+                  }
+                  /*if(index < 0 || message.MMIsSend){ // 自己发送的消息也有可能带:<br/>，如发送地理位置的消息
+                      actualContent = message.Content;
+                  }else{
+                      actualSender = message.Content.substr(0,index);
+                      actualContent = message.Content.substr(index + 6);
+                      userContact = contactFactory.getContact(actualSender,message.MMPeerUserName);
+                      if(userContact){
+                          displayName = userContact.getDisplayName(message.MMPeerUserName);
+                          displayName && (message.MMDigest = displayName + ':');
+                      }
+                  }*/
+                } else {
+                  message.MMIsChatRoom = false;
+                  actualContent = message.Content;
                 }
-                window.isFocus || (notificationFactory.permissionLevel() === notificationFactory.PERMISSION_DEFAULT ? notificationFactory.requestPermission(t) : t())
+                if (!message.MMIsSend &&
+                  message.MMUnread == _aoUndefined &&
+                  message.MsgType != confFactory.MSGTYPE_SYS) {
+                  message.MMUnread = true;
+                }
+                if (!message.LocalID) {
+                  message.ClientMsgId = message.LocalID = message.MsgId;
+                }
+                actualContent = emojiFactory.emoticonFormat(actualContent);
+                message.MMActualContent = actualContent;
+                message.MMActualSender = actualSender || message.FromUserName;
+                me._calcMsgDisplayTime(userMessages[userMessages.length - 1], message);
               }
-              , localDelete: function(e) {
-                var t, a = this
-                  , n = a.getChatMessage(e.MMPeerUserName);
-                t = a._findMessageByMsgId(n, e.MsgId), n.splice(t, 1), a.getChatList()
+              , /**
+               * 文本消息处理
+               * @param message 消息体
+               * @private
+               */
+              _textMsgProcess: function(message) {
+                message.MsgType = confFactory.MSGTYPE_TEXT;
+                message.MMDigest += message.MMActualContent.replace(/<br ?[^><]*\/?>/g, '');;
               }
-              , revokemsg: function(e) {
-                var t = this;
+              , /**
+               * 图片消息处理
+               * @param message 消息体
+               * @private
+               */
+              _imageMsgProcess: function(message) {
+                message.MsgType = confFactory.MSGTYPE_IMAGE;
+                message.MMDigest += _("a5627e8");
+              }
+              , /**
+               * 语音消息处理
+               * @param message 消息体
+               * @private
+               */
+              _voiceMsgProcess: function(message) {
+                message.MsgType = confFactory.MSGTYPE_VOICE;
+                message.MMDigest += _("b28dac0");
+                message.MMVoiceUnRead = !message.MMIsSend && message.MMUnread; // 如果语音有别人发出并且未读
+              }
+              , /**
+               * 视频消息处理
+               * @param message 消息体
+               * @private
+               */
+              _videoMsgProcess: function(message) {
+                message.MsgType = confFactory.MSGTYPE_VIDEO;
+                message.MMDigest += _("4078104");
+              }
+              , /**
+               * 小视频消息处理
+               * @param message 消息体
+               * @private
+               */
+              _mircovideoMsgProcess: function(message) {
+                message.MsgType = confFactory.MSGTYPE_MICROVIDEO;
+                message.MMDigest += _("1f94b1b");
+              }
+              , /**
+               * news消息处理
+               * @param message 消息体
+               * @private
+               */
+              _newsMsgProcess: function(message) {
+                var content = utilFactory.htmlDecode(message.MMActualContent)
+                  .replace(/<br\/>/g, '');
+                content = utilFactory.encodeEmoji(content);
+                content = utilFactory.xml2json(content);
+                message.MMCategory = content && content.category;
+              }
+              , /**
+               * emoji消息处理
+               * @param message 消息体
+               * @private
+               */
+              _emojiMsgProcess: function(message) {
+                var me = this;
+                //商业表情转为文本提示
+                if (message.HasProductId) {
+                  if (message.MMIsSend) {
+                    message.MMActualContent = '' + _("80f56fb");
+                  } else {
+                    message.MMActualContent = _("2242ac7") + '';
+                  }
+
+                  message._noSupportMsg = true;
+                  me._textMsgProcess(message);
+                } else {
+                  message.MsgType = confFactory.MSGTYPE_EMOTICON;
+                  var xmlMsg = utilFactory.xml2json(utilFactory.htmlDecode(message.MMActualContent))
+                  if (xmlMsg && xmlMsg.emoji && xmlMsg.emoji.md5) {
+                    message.md5 = xmlMsg.emoji.md5;
+                  }
+                  message.MMDigest += _("e230fc1");
+                }
+
+                //  var content = utilFactory.xml2json(message.content);
+              }
+              , /**
+               * voip消息处理
+               * @param message 消息体
+               * @private
+               */
+              _voipMsgProcess: function(message) {
+                this._appAsTextMsgProcess(message, _("fdaa3a3"));
+              }
+              , /**
+               * 地理位置消息处理
+               * @param message 消息体
+               * @private
+               */
+              _locationMsgProcess: function(message) {
+                var d = message.Content.split(':<br/>');
+                if (d[2]) {
+                  message.MMLocationDesc = d[1];
+                  // 现在有单独的字段`Url`标识跳转的链接，不用苦逼从content取了
+                  message.MMLocationUrl = d[2];
+                } else {
+                  message.MMLocationDesc = d[0];
+                  message.MMLocationUrl = d[1];
+                }
+                message.MMLocationUrl = message.Url || message.MMLocationUrl;
+                message.MMDigest += message.MMLocationDesc;
+                //this._appAsTextMsgProcess(message, _("2cc0cfc"));
+              }
+              , /**
+               * app消息处理
+               * @param message 消息体
+               * @private
+               */
+              _appMsgProcess: function(message) {
+                var me = this;
+                switch (message.AppMsgType) {
+                  case confFactory.APPMSGTYPE_TEXT:
+                    me._appTextMsgProcess(message);
+                    break;
+                  case confFactory.APPMSGTYPE_IMG:
+                    me._imageMsgProcess(message);
+                    break;
+                  case confFactory.APPMSGTYPE_AUDIO:
+                    me._appAudioMsgProcess(message);
+                    break;
+                  case confFactory.APPMSGTYPE_VIDEO:
+                    me._appVideoMsgProcess(message);
+                    break;
+                  case confFactory.APPMSGTYPE_EMOJI:
+                    me._emojiMsgProcess(message);
+                    break;
+                  case confFactory.APPMSGTYPE_URL:
+                    me._appUrlMsgProcess(message);
+                    break;
+                  case confFactory.APPMSGTYPE_ATTACH:
+                    me._appAttachMsgProcess(message);
+                    break;
+                  case confFactory.APPMSGTYPE_TRANSFERS:
+                    me._appTransfersMsgProcess(message);
+                    break;
+                  case confFactory.APPMSGTYPE_RED_ENVELOPES:
+                    me._appRedEnvelopesMsgProcess(message);
+                    break;
+                  case confFactory.APPMSGTYPE_CARD_TICKET:
+                    me._appCardTicketMsgProcess(message);
+                    break;
+                  case confFactory.APPMSGTYPE_OPEN:
+                    me._appOpenMsgProcess(message);
+                    break;
+                  case confFactory.APPMSGTYPE_REALTIME_SHARE_LOCATION:
+                    me._appRealtimeShareLocationMsgProcess(message);
+                    break;
+                  case confFactory.APPMSGTYPE_SCAN_GOOD:
+                    me._appScanGoodMsgProcess(message);
+                    break;
+                  case confFactory.APPMSGTYPE_GOOD:
+                    me._appGoodMsgProcess(message);
+                    break;
+                  case confFactory.APPMSGTYPE_EMOTION:
+                    me._appEmotionMsgProcess(message);
+                    break;
+                  default:
+                    me._appUnknowMsgProcess(message);
+                }
+              }
+              , /**
+               * app文本消息
+               * @param  {[type]} message
+               */
+              _appTextMsgProcess: function(message) {
+                var me = this
+                  , content = utilFactory.htmlDecode(message.MMActualContent)
+                  .replace(/<br\/>/g, '');
+
+                content = utilFactory.encodeEmoji(content);
+                content = utilFactory.xml2json(content);
+                this._appAsTextMsgProcess(message, utilFactory.decodeEmoji(utilFactory.htmlEncode(content.appmsg.title)));
+              }
+              , /**
+               * app语音消息
+               * @param  {[type]} message
+               */
+              _appAudioMsgProcess: function(message) {
+                var me = this
+                  , digest = _("0e23719") + message.FileName;
+
+                me._appUrlMsgProcess(message, digest);
+              }
+              , /**
+               * app视频消息
+               * @param  {[type]} message
+               */
+              _appVideoMsgProcess: function(message) {
+                var me = this
+                  , digest = _("4078104") + message.FileName;
+
+                me._appUrlMsgProcess(message, digest);
+              }
+              , /**
+               * app应用消息
+               * @param  {[type]} message
+               */
+              _appOpenMsgProcess: function(message) {
+                var me = this
+                  , digest = _("4f20785");
+
+                me._appUrlMsgProcess(message, digest);
+                message.MMAlert = _("c4e04ee");
+              }
+              , /**
+               * app链接消息
+               * @param  {[type]} message
+               * @param  {[type]} digest
+               */
+              _appUrlMsgProcess: function(message, digest) {
+                message.MsgType = confFactory.MSGTYPE_APP;
+                message.AppMsgType = confFactory.APPMSGTYPE_URL;
+                digest = digest || _("e5b228c") + message.FileName;
+
+                var content = utilFactory.htmlDecode(message.MMActualContent)
+                  .replace(/<br\/>/g, '');
+                content = utilFactory.encodeEmoji(content);
+                content = utilFactory.xml2json(content);
+                //message.MMAppMsgTitle = content.appmsg.title;
+                message.MMAppMsgDesc = utilFactory.decodeEmoji(content.appmsg.des);
+                //message.MMAppMsgUrl = content.appmsg.url;
+                message.MMDigest += digest;
+                if (content.appmsg.mmreader) {
+                  this._appReaderMsgProcess(message, content.appmsg.mmreader);
+                }
+              }
+              , _appReaderMsgProcess: function(message, readerObj) {
+                message.MsgType = confFactory.MSGTYPE_APP;
+                message.AppMsgType = confFactory.APPMSGTYPE_READER_TYPE;
+                if (readerObj.category.count == 1) {
+                  message.MMCategory = [readerObj.category.item];
+                } else {
+                  message.MMCategory = readerObj.category.item;
+                }
+                angular.forEach(message.MMCategory, function(item) {
+                  var pub_time = new Date(item.pub_time * 1000);
+                  item.pub_time = utilFactory.formatNum(pub_time.getMonth() + 1, 2) + "-" + utilFactory.formatNum(pub_time.getDate(), 2);
+                  var segs = item.cover.split("|");
+                  if (segs.length == 3) {
+                    item.cover = segs[0];
+                    item.width = segs[1];
+                    item.height = segs[2];
+                  }
+                });
+                message.MMDigest += message.MMCategory.length && message.MMCategory[0].title;
+              }
+              , /**
+               * app附件消息
+               * @param  {[type]} message
+               */
+              _appAttachMsgProcess: function(message) {
+                var content = utilFactory.htmlDecode(message.MMActualContent)
+                  .replace(/<br\/>/g, '');
+                content = utilFactory.encodeEmoji(content);
+                content = utilFactory.xml2json(content);
+
+                //console.log(content);
+                message.MMDigest += _("6daeae3");
+                if (message.sendByLocal) {
+                  message.MMFileStatus = confFactory.MM_SEND_FILE_STATUS_SENDING;
+                } else {
+                  message.MMFileStatus = confFactory.MM_SEND_FILE_STATUS_SUCCESS;
+                }
+
+                message.MMAppMsgFileExt = content.appmsg.appattach.fileext.toLowerCase();
+                message.MMAppMsgFileSize = utilFactory.getSize(+content.appmsg.appattach.totallen);
+                message.MMAppMsgDownloadUrl = confFactory.API_webwxdownloadmedia +
+                  '?sender=' + message.FromUserName +
+                  '&mediaid=' + message.MediaId +
+                  '&encryfilename=' + message.EncryFileName +
+                  '&fromuser=' + accountFactory.getUin() +
+                  '&pass_ticket=' + encodeURIComponent(accountFactory.getPassticket()) +
+                  "&webwx_data_ticket=" + encodeURIComponent(utilFactory.getCookie('webwx_data_ticket'));
+              }
+              , /**
+               * app转账消息
+               * @param  {[type]} message
+               */
+              _appTransfersMsgProcess: function(message) {
+                this._appAsTextMsgProcess(message, _("0cdad09"));
+              }
+              , /**
+               * app卡券消息
+               * @param  {[type]} message
+               */
+              _appCardTicketMsgProcess: function(message) {
+                this._appAsTextMsgProcess(message, _("c534fc3"));
+              }
+              , /**
+               * app共享实时位置消息处理
+               * @param message 消息体
+               * @private
+               */
+              _appRealtimeShareLocationMsgProcess: function(message) {
+                var content = "";
+                if (message.FromUserName == accountFactory.getUserName()) {
+                  content = "[" + _("8e94ca5") + "]";
+                } else {
+                  var displayName;
+                  var contact = contactFactory.getContact(message.MMActualSender);
+                  if (contact) {
+                    displayName = contact.getDisplayName(utilFactory.isRoomContact(message.FromUserName) ? message.FromUserName : null);
+                  }
+                  content = "[" + (displayName ? displayName : _("a41d576")) + _("a1f1299") + "]";
+                }
+                this._appAsTextMsgProcess(message, content);
+              }
+              , /**
+               * app扫商品消息处理
+               * @param message 消息体
+               * @private
+               */
+              _appScanGoodMsgProcess: function(message) {
+                this._appAsTextMsgProcess(message, _("95afe20"));
+              }
+              , /**
+               * app商品消息处理
+               * @param message 消息体
+               * @private
+               */
+              _appGoodMsgProcess: function(message) {
+                this._appAsTextMsgProcess(message, _("355765a"));
+              }
+              , /**
+               * app表情分享消息处理
+               * @param message 消息体
+               * @private
+               */
+              _appEmotionMsgProcess: function(message) {
+                this._appAsTextMsgProcess(message, _("9d7f4bb"));
+              }
+              , _appRedEnvelopesMsgProcess: function(message) {
+                message.MMDigest += _("e24e75c");
+                //this._appAsTextMsgProcess(message, _("c5e6ab0"));
+              }
+              , /**
+               * app未知消息，用于调试
+               * @param  {[type]} message
+               */
+              _appUnknowMsgProcess: function(message) {
+                if (confFactory.isClientVersion) {
+                  this._appAsTextMsgProcess(message, '[收到一条暂不支持的消息类型，请在手机上查看]');
+                } else {
+                  this._appAsTextMsgProcess(message, '[收到一条网页版微信暂不支持的消息类型，请在手机上查看]');
+                }
+
+              }
+              , /**
+               * 将网页不支持的APP消息 以 文本方式 展现
+               * @param message 消息体
+               * @private
+               */
+              _appAsTextMsgProcess: function(message, text) {
+                message.MMActualContent = text;
+                message._noSupportMsg = true;
+                this._textMsgProcess(message);
+              }
+              , /**
+               * 消息撤回处理
+               * @param message 消息体
+               * @private
+               */
+              _recalledMsgProcess: function(message) {
+                var me = this
+                  , str = utilFactory.htmlDecode(message.MMActualContent)
+                  , recallMsg = ''
+                  , msgIndex
+                  , actualSender
+                  , content = _("ded861c")
+                  , userMessages = me.getChatMessage(message.MMPeerUserName);
+
+                str = utilFactory.encodeEmoji(str);
+                recallMsg = utilFactory.xml2json(str.replace(/<br\/>/g, ''))
+                  .revokemsg;
+                if (recallMsg.msgid == 0) {
+                  for (var j = userMessages.length - 1; j >= 0; --j) { //find the last msg sending by myself
+                    if (userMessages[j].FromUserName == accountFactory.getUserName()) {
+                      msgIndex = j;
+                      break;
+                    }
+                  }
+                } else {
+                  msgIndex = me._findMessageByMsgId(userMessages, recallMsg.msgid);
+                }
+                if (msgIndex > -1) {
+                  //modify recall message info
+                  var oldMsg = userMessages[msgIndex];
+                  if (!oldMsg.MMIsSend) {
+                    var contact = contactFactory.getContact(message.MMActualSender, message.MMPeerUserName);
+                    actualSender = contact ? contact.getDisplayName(message.MMPeerUserName) : '';
+                  } else {
+                    actualSender = _("df1fd91");
+                  }
+                  angular.extend(oldMsg, {
+                    MMRecall: true
+                    , MsgType: confFactory.MSGTYPE_SYS
+                    , MMActualContent: actualSender + content
+                    , MMDigest: actualSender + content
+                    , _h: 0
+                  });
+                  //update chatList
+                  me.getChatList();
+                } else {
+                  //add new system message
+                  //应该不用显示了
+                  /*me.messageProcess({
+                      MsgType: confFactory.MSGTYPE_SYS,
+                      Content: _("7d048b1")
+                  });*/
+                }
+              }
+              , /**
+               * 推荐消息处理
+               * @param message 消息体
+               * @private
+               */
+              _recommendMsgProcess: function(message) {
+                message.Contact = message.RecommendInfo;
+                if (message.MsgType == confFactory.MSGTYPE_VERIFYMSG) {
+                  message.Content = message.Contact.NickName || message.Contact.UserName + _("ebeaf99");
+                } else {
+                  message.Content = message.Contact.NickName || message.Contact.UserName + "text_posible_friend_msg_digest";
+                }
+              }
+              , /**
+               * 认证消息处理
+               * @param message 消息体
+               * @private
+               */
+              _verifyMsgProcess: function(message) {
+                message.MMDigest = message.RecommendInfo.NickName + _("ebeaf99");
+                for (var attr in message.RecommendInfo) {
+                  if (!message.RecommendInfo[attr]) {
+                    delete message.RecommendInfo[attr];
+                  }
+                }
+                message.RecommendInfo.HeadImgUrl = utilFactory.getContactHeadImgUrl({
+                  UserName: message.RecommendInfo.UserName
+                  , Skey: accountFactory.getSkey()
+                  , MsgId: message.MsgId
+                });
+                message.RecommendInfo.MMFromVerifyMsg = true;
+                // 如果推荐联系人不在我的联系人列表&陌生人列表，添加到陌生人列表
+                //if(!contactFactory.getContact(message.RecommendInfo.UserName)){
+                contactFactory.addStrangerContact(message.RecommendInfo);
+                //}
+              }
+              , /**
+               * 名片消息处理
+               * @param message 消息体
+               * @private
+               */
+              _shareCardProcess: function(message) {
+                if (message.MMActualSender == accountFactory.getUserName()) {
+                  message.MMDigest += _("9a2223f") + message.RecommendInfo.NickName;
+                } else {
+                  message.MMDigest += _("dd14577") + message.RecommendInfo.NickName;
+                }
+                for (var attr in message.RecommendInfo) {
+                  if (!message.RecommendInfo[attr]) {
+                    delete message.RecommendInfo[attr];
+                  }
+                }
+                var content = utilFactory.htmlDecode(message.MMActualContent)
+                  .replace(/<br\/>/g, '');
+                content = utilFactory.encodeEmoji(content);
+                content = utilFactory.xml2json(content);
+                message.MMUserName = content.alias || content.username;
+                //message.MMUserName = message.RecommendInfo.Alias || message.RecommendInfo.Username;
+                message.RecommendInfo.NickName = utilFactory.decodeEmoji(message.RecommendInfo.NickName);
+                message.RecommendInfo.HeadImgUrl = utilFactory.getContactHeadImgUrl({
+                  UserName: message.RecommendInfo.UserName
+                  , Skey: accountFactory.getSkey()
+                  , MsgId: message.MsgId
+                });
+
+                // 如果推荐名片联系人不在我的联系人列表&陌生人列表，添加到陌生人列表
+                if (!contactFactory.getContact(message.RecommendInfo.UserName, '', true)) {
+                  contactFactory.addStrangerContact(message.RecommendInfo);
+                }
+              }
+              , /**
+               * 系统消息处理
+               * @param msg 消息体
+               * @private
+               */
+              _systemMsgProcess: function(message) {
+                var _aLinkArray = message.MMActualContent.match(/&lt;a href=(?:'|").*?(?:'|").*?&gt;.*?&lt;\/a&gt;/g); //<a href=".*?".*?>.*?</a>
+                if (_aLinkArray) {
+                  var _aLink, _sLink;
+                  for (var i = 0, len = _aLinkArray.length; i < len; ++i) {
+                    _aLink = /&lt;a href=(?:'|")(.*?)(?:'|").*?&gt;.*?&lt;\/a&gt;/.exec(_aLinkArray[i]);
+                    if (!_aLink || !_aLink[1]) continue;
+                    _sLink = _aLink[1];
+                    /* if (/^(weixin:\/\/findfriend\/verifycontact)$/.test(_sLink) || $.isUrl(_sLink) && /\.qq\.com/.test(_sLink)) {
+                         message.MMActualContent = message.MMActualContent.replace(_aLink[0], utilFactory.htmlDecode(_aLink[0]));
+                     }
+                     message.MMActualContent = message.MMActualContent.replace(/<a href=(?:'|")weixin:\/\/findfriend\/verifycontact(?:'|")>/, '<a ng-click="showProfile($event,message.MMActualSender)" href="javascript:;">');//替换为内置的弹窗
+                     */
+                    message.MMActualContent = message.MMActualContent.replace(/&lt;a href=(?:'|")weixin:\/\/.*?&lt;\/a&gt;/, ''); //去掉微信协议的链接
+                  }
+                }
+                //message.MMActualContent = utilFactory.removeHtmlStrTag(message.MMActualContent);
+                message.MMDigest += message.MMActualContent;
+              }
+              , /**
+               * 桌面通知
+               * @param message
+               * @private
+               */
+              _notify: function(message) {
+                if (window.isFocus) return;
+
+                function notify() {
+                  var contact = contactFactory.getContact(message.MMPeerUserName)
+                    , displayName = contact ? contact.getDisplayName(message.MMPeerUserName) : ''
+                    , icon = contact ? contact.HeadImgUrl : '';
+
+                  // 过滤表情html为[表情]
+                  // <img src="/zh_CN/htmledition/v2/images/spacer.gif" class="emoji emoji1f609">
+                  // <img src="/zh_CN/htmledition/v2/images/icon/qqface/48.png">
+                  // <span class="emoji emoji1f639"></span>
+                  var content = message.MMDigest.replace(/(<img.*?\/>)|<span class="emoji.*?<\/span>/g, _("809bb9d"));
+                  var notifyBody = utilFactory.clearHtmlStr(content);
+                  var resultNotifyBody = '';
+                  var maxLength = 80
+                    , curLength = 0;
+                  for (var i = 0; i < notifyBody.length; i++) {
+                    if (notifyBody.charCodeAt(i) <= 128) {
+                      curLength += 1;
+                    } else {
+                      curLength += 2;
+                    }
+                    if (curLength >= maxLength) {
+                      resultNotifyBody = notifyBody.slice(0, i + 1);
+                      if (i < notifyBody.length - 1) {
+                        resultNotifyBody += '…';
+                      }
+                      break;
+                    } else {
+                      resultNotifyBody = notifyBody;
+                    }
+                  }
+
+
+
+
+                  var notification = notificationFactory.createNotification(utilFactory.clearHtmlStr(displayName), {
+                    body: resultNotifyBody
+                    , icon: icon
+                  });
+                  if (notification) {
+                    notification.onclick = function() {
+                      try {
+                        window.focus();
+                        $rootScope.$broadcast('root:notification:click', message.FromUserName);
+                      } catch (e) {
+                        reportService.report(reportService.ReportType.logicError, {
+                          text: 'notification click'
+                        })
+                      }
+                    };
+                  }
+
+
+                }
+
+                if (notificationFactory.permissionLevel() === notificationFactory.PERMISSION_DEFAULT) {
+                  notificationFactory.requestPermission(notify);
+                } else {
+                  notify();
+                }
+              },
+
+              localDelete: function(message) {
+                var me = this
+                  , msgIndex
+                  , userMessages = me.getChatMessage(message.MMPeerUserName);
+                msgIndex = me._findMessageByMsgId(userMessages, message.MsgId);
+                userMessages.splice(msgIndex, 1);
+                me.getChatList();
+              },
+
+
+
+              revokemsg: function(message) {
+                var self = this;
                 $http({
                     method: "POST"
                     , url: confFactory.API_webwxrevokemsg
                     , data: angular.extend(accountFactory.getBaseRequest(), {
-                      SvrMsgId: e.MsgId
-                      , ToUserName: e.ToUserName
-                      , ClientMsgId: e.ClientMsgId
+                      SvrMsgId: message.MsgId
+                      , ToUserName: message.ToUserName
+                      , ClientMsgId: message.ClientMsgId // 必须给一个ClientMsgId字段...
                     })
                   })
-                  .success(function(a) {
-                    0 == a.BaseResponse.Ret ? (angular.extend(e, {
-                      MMRecall: !0
-                      , MsgType: confFactory.MSGTYPE_SYS
-                      , MMActualContent: _("df1fd91") + _("ded861c")
-                      , MMDigest: _("df1fd91") + _("ded861c")
-                      , _h: 0
-                    }), t.getChatList()) : alert(a.BaseResponse.ErrMsg || "撤回失败")
+                  .success(function(data) {
+
+                    if (data.BaseResponse.Ret == 0) {
+                      angular.extend(message, {
+                        MMRecall: true
+                        , MsgType: confFactory.MSGTYPE_SYS
+                        , MMActualContent: _("df1fd91") + _("ded861c")
+                        , MMDigest: _("df1fd91") + _("ded861c")
+                        , _h: 0
+                      });
+                      //update chatList
+                      self.getChatList();
+                    } else {
+                      alert(data.BaseResponse.ErrMsg || '撤回失败')
+                    }
+                    // do nothing
                   })
-                  .error(function(e) {
-                    alert("撤回失败")
-                  })
-              }
-              , notifyMobile: function(e, t) {
+                  .error(function(data) {
+                    // do nothing
+                    alert('撤回失败')
+                  });
+              },
+
+
+              /**
+               * 通知客户端修改消息状态
+               * @param  {[type]} userName
+               * @param  {[type]} code
+               */
+              notifyMobile: function(userName, code) {
                 $http({
                     method: "POST"
                     , url: confFactory.API_webwxstatusnotify
                     , data: angular.extend(accountFactory.getBaseRequest(), {
-                      Code: t
+                      Code: code
                       , FromUserName: accountFactory.getUserName()
-                      , ToUserName: e
-                      , ClientMsgId: utilFactory.now()
+                      , ToUserName: userName
+                      , ClientMsgId: utilFactory.now() // 必须给一个ClientMsgId字段...
                     })
                   })
-                  .success(function(e) {})
-                  .error(function(e) {})
+                  .success(function(data) {
+                    // do nothing
+                  })
+                  .error(function(data) {
+                    // do nothing
+                  });
               }
-              , _getMessagePeerUserName: function(e) {
-                var t = e.FromUserName == accountFactory.getUserName() || "" == e.FromUserName;
-                return t ? e.ToUserName : e.FromUserName
+              , _getMessagePeerUserName: function(message) {
+
+                var isSend = message.FromUserName == accountFactory.getUserName() || message.FromUserName == "";
+
+                return isSend ? message.ToUserName : message.FromUserName;
               }
-              , _findMessageByMsgId: function(e, t) {
-                for (var a = 0; a < e.length; ++a)
-                  if (e[a].MsgId == t) return a;
-                return -1
-              }
-              , _calcMsgDisplayTime: function(e, t) {
-                if (t && !(t.MsgType < 0))
-                  if (!e || e.MsgType < 0) {
-                    var a = new Date(1e3 * t.CreateTime);
-                    t.MMDigestTime = a.getHours() + ":" + utilFactory.formatNum(a.getMinutes(), 2), t.MMDisplayTime = t.CreateTime, t.MMTime = t.MMDigestTime
-                  } else {
-                    var a = new Date(1e3 * t.CreateTime);
-                    t.MMDigestTime = a.getHours() + ":" + utilFactory.formatNum(a.getMinutes(), 2), Math.abs(e.MMDisplayTime - t.CreateTime) >= 180 ? (t.MMDisplayTime = t.CreateTime, t.MMTime = t.MMDigestTime) : (t.MMDisplayTime = e.MMDisplayTime
-                      , t.MMTime = "")
+              , _findMessageByMsgId: function(messages, msgId) {
+                for (var i = 0; i < messages.length; ++i) {
+                  if (messages[i].MsgId == msgId) {
+                    return i;
                   }
-              }
-              , _findByVerifyMsgUserName: function(e, t) {
-                for (var a = 0; a < e.length; ++a) {
-                  var n = e[a];
-                  if (n.MsgType == confFactory.MSGTYPE_VERIFYMSG && n.RecommendInfo.UserName == t) return a
                 }
-                return -1
+                return -1;
+              }
+              , _calcMsgDisplayTime: function(lastMessage, currentMessage) {
+                if (!currentMessage || currentMessage.MsgType < 0) {
+                  return;
+
+                } else if (!lastMessage || lastMessage.MsgType < 0) {
+                  var createTime = new Date(currentMessage.CreateTime * 1000);
+                  currentMessage.MMDigestTime = createTime.getHours() + ":" + utilFactory.formatNum(createTime.getMinutes(), 2);
+                  currentMessage.MMDisplayTime = currentMessage.CreateTime;
+                  currentMessage.MMTime = currentMessage.MMDigestTime;
+                } else {
+                  var createTime = new Date(currentMessage.CreateTime * 1000);
+                  currentMessage.MMDigestTime = createTime.getHours() + ":" + utilFactory.formatNum(createTime.getMinutes(), 2);
+
+                  if (Math.abs(lastMessage.MMDisplayTime - currentMessage.CreateTime) >= 180) {
+                    currentMessage.MMDisplayTime = currentMessage.CreateTime;
+                    currentMessage.MMTime = currentMessage.MMDigestTime;
+                  } else {
+                    currentMessage.MMDisplayTime = lastMessage.MMDisplayTime;
+                    currentMessage.MMTime = "";
+                  }
+                }
+              }
+              , _findByVerifyMsgUserName: function(messages, userName) {
+                for (var i = 0; i < messages.length; ++i) {
+                  var message = messages[i];
+                  if (message.MsgType == confFactory.MSGTYPE_VERIFYMSG &&
+                    message.RecommendInfo.UserName == userName) {
+                    return i;
+                  }
+                }
+                return -1;
               }
             };
-          return service
-        }])
-    }()
-  }
-  , function(e, exports) {
-    ! function(e) {
-      "use strict";
-      angular.module("Services")
-        .factory("chatroomFactory", ["$rootScope", "$timeout", "$http", "$q", "contactFactory", "accountFactory", "emojiFactory", "confFactory", "utilFactory", "reportService", "mmHttp", function(e, t, a, n, i, o, r, c, s, l, d) {
-          var f, u = {}
-            , m = {
-              setCurrentContact: function(e) {
-                f = e
+
+            function handleChatList(chatList) {
+              var topList = [];
+              var item;
+              var normalList = [];
+              for (var i = 0; i < chatList.length; i++) {
+                item = chatList[i];
+                if (item.isTop()) {
+                  topList.push(item);
+                } else {
+                  normalList.push(item);
+                }
+              }
+              [].unshift.apply(normalList, topList);
+              return normalList;
+            }
+
+            return service;
+          }
+        ]);
+    })();
+
+
+    /***/
+  })
+  , /* 291 */
+  /***/
+  (function(module, exports) {
+
+    (function(_aoUndefined) {
+      'use strict';
+
+      /* Services */
+
+      angular.module('Services')
+        .factory('chatroomFactory', [
+          '$rootScope'
+          , '$timeout'
+          , '$http'
+          , '$q'
+          , 'contactFactory'
+          , 'accountFactory'
+          , 'emojiFactory'
+          , 'confFactory'
+          , 'utilFactory'
+          , 'reportService'
+          , 'mmHttp'
+          , function($rootScope, $timeout, $http, $q, contactFactory, accountFactory, emojiFactory, confFactory, utilFactory, reportService, mmHttp) {
+
+            var _filterContacts = {}
+              , _currentContact;
+
+            var service = {
+              setCurrentContact: function(contact) {
+                _currentContact = contact;
               }
               , getCurrentContact: function() {
-                return f
+                return _currentContact;
               }
-              , setFilterContacts: function(e) {
-                u = e || {}
+              , setFilterContacts: function(contacts) {
+                _filterContacts = contacts || {};
               }
               , getFilterContacts: function() {
-                return u
+                return _filterContacts;
               }
-              , create: function(e) {
-                var t = n.defer()
-                  , i = angular.extend({
-                    MemberCount: e.length
-                    , MemberList: e
-                    , Topic: ""
-                  }, o.getBaseRequest());
-                return a({
-                    method: "POST"
-                    , url: c.API_webwxcreatechatroom + "?r=" + s.now()
-                    , data: i
+              , /**
+               * 创建群聊
+               * @param  {[type]} memberList
+               */
+              create: function(memberList) {
+                var deferred = $q.defer();
+                var postData = angular.extend({
+                  MemberCount: memberList.length
+                  , MemberList: memberList
+                  , Topic: ''
+                }, accountFactory.getBaseRequest());
+
+                $http({
+                    method: 'POST'
+                    , url: confFactory.API_webwxcreatechatroom + '?r=' + utilFactory.now()
+                    , data: postData
+                      /*,
+                      	                MMRetry:{
+                      	                    serial:true
+                      	                }*/
                   })
-                  .success(function(e) {
-                    e && e.BaseResponse && 0 == e.BaseResponse.Ret ? t.resolve(e) : (l.report(l.ReportType.netError, {
-                      text: "create classroom net error"
-                      , url: c.API_webwxcreatechatroom
-                      , params: i
-                      , res: e
-                    }), t.reject(e))
-                  })
-                  .error(function(e) {
-                    t.reject(e), l.report(l.ReportType.netError, {
-                      text: "create classroom net error"
-                      , url: c.API_webwxcreatechatroom
-                      , params: i
-                    })
-                  }), t.promise
-              }
-              , addMember: function(e, t, a) {
-                var n = i.getContact(e);
-                n.MemberList.length + t.split(",")
-                  .length >= 40 ? this._update("invitemember", e, {
-                    inviteMembers: t
-                  }, a) : this._update("addmember", e, {
-                    addMembers: t
-                  }, a)
-              }
-              , delMember: function(e, t) {
-                this._update("delmember", e, {
-                  delMember: t
-                });
-                i.getContact(e)
-              }
-              , quit: function(e) {
-                this._update("quitchatroom", e)
-              }
-              , modTopic: function(e, t) {
-                this._update("modtopic", e, {
-                  topic: t
-                })
-              }
-              , _update: function(e, t, n, r) {
-                n = n || {};
-                var s = angular.extend({
-                    AddMemberList: n.addMembers
-                    , DelMemberList: n.delMember
-                    , InviteMemberList: n.inviteMembers
-                    , NewTopic: n.topic
-                    , ChatRoomName: t
-                  }, o.getBaseRequest())
-                  , d = c.API_webwxupdatechatroom + "?fun=" + e;
-                a({
-                    method: "POST"
-                    , url: d
-                    , data: s
-                  })
-                  .success(function(a) {
-                    var o = i.getContact(t);
-                    if ("delmember" == e) {
-                      for (var c = o.MemberList.length - 1; c >= 0; c--) o.MemberList[c].UserName == n.delMember && o.MemberList.splice(c, 1);
-                      o.MemberCount = o.MemberList.length
+                  .success(function(data) {
+                    if (data && data.BaseResponse && data.BaseResponse.Ret == 0) {
+                      deferred.resolve(data);
+                    } else {
+                      reportService.report(reportService.ReportType.netError, {
+                        text: 'create classroom net error'
+                        , url: confFactory.API_webwxcreatechatroom
+                        , params: postData
+                        , res: data
+                      })
+                      deferred.reject(data);
                     }
-                    r && r(a)
                   })
-                  .error(function(e) {
-                    l.report(l.ReportType.netError, {
-                      text: "update classroom net error"
-                      , url: d
-                      , params: s
+                  .error(function(data) {
+                    deferred.reject(data);
+
+
+                    reportService.report(reportService.ReportType.netError, {
+                      text: 'create classroom net error'
+                      , url: confFactory.API_webwxcreatechatroom
+                      , params: postData
                     })
+                  });
+                return deferred.promise;
+              }
+              , /**
+               * 添加群成员
+               * @param {[type]}   userName   [description]
+               * @param {[type]}   addMembers [description]
+               * @param {Function} callback   [description]
+               */
+              addMember: function(userName, addMembers, callback) {
+                var contact = contactFactory.getContact(userName);
+                if (contact.MemberList.length + addMembers.split(',')
+                  .length >= 40) {
+                  console.log('invite', contact.MemberList.length + addMembers.split(',')
+                    .length);
+                  this._update("invitemember", userName, {
+                    inviteMembers: addMembers
+                  }, callback);
+                } else {
+                  this._update("addmember", userName, {
+                    addMembers: addMembers
+                  }, callback);
+                }
+
+
+
+              }
+              , delMember: function(userName, delMember) {
+                this._update("delmember", userName, {
+                  delMember: delMember
+                });
+                var contact = contactFactory.getContact(userName);
+              }
+              , quit: function(userName) {
+                this._update("quitchatroom", userName);
+              }
+              , modTopic: function(userName, topic) {
+                this._update("modtopic", userName, {
+                  topic: topic
+                });
+              }
+              , _update: function(fun, userName, data, /*  addMembers, delMember, topic,*/ callback) {
+                //var deferred = $q.defer();
+                data = data || {};
+                var postData = angular.extend({
+                  AddMemberList: data.addMembers
+                  , DelMemberList: data.delMember
+                  , InviteMemberList: data.inviteMembers
+                  , NewTopic: data.topic
+                  , ChatRoomName: userName
+                }, accountFactory.getBaseRequest());
+                var url = confFactory.API_webwxupdatechatroom + '?fun=' + fun;
+                $http({
+                    method: 'POST'
+                    , url: url
+                    , data: postData
+                      /*,
+                      	                MMRetry:{
+                      	                    serial:true
+                      	                }*/
                   })
+                  .success(function(res) {
+                    //deferred.resolve(data);
+                    var contact = contactFactory.getContact(userName);
+                    if (fun == "delmember") {
+                      for (var i = contact.MemberList.length - 1; i >= 0; i--) {
+                        if (contact.MemberList[i].UserName == data.delMember) {
+                          contact.MemberList.splice(i, 1);
+                        }
+                      }
+                      contact.MemberCount = contact.MemberList.length;
+                      //contactFactory.addContact(contact);
+                    } else if (fun == "modtopic") {
+                      /*$('.chatListColumn[username="'+userName+'"]').find('.nickName').find('.name').text(topic);
+                      contact.DisplayName = topic;
+                      $("#messagePanelTitle").html(_aoWebMM.util.getChatTitle(contact));
+                      contactFactory.addContact(contact);*/
+                    }
+                    callback && callback(res);
+
+                  })
+                  .error(function(data) {
+                    //deferred.reject('error:'+data);
+                    reportService.report(reportService.ReportType.netError, {
+                      text: 'update classroom net error'
+                      , url: url
+                      , params: postData
+                    })
+                  });
+                //return deferred.promise;
               }
             };
-          return m
-        }])
-    }()
-  }
-  , function(e, exports) {
-    ! function() {
-      "use strict";
-      angular.module("Services")
-        .factory("accountFactory", ["$q", "confFactory", "utilFactory", function(e, t, a) {
-          var n, i, o, r = {}
-            , c = null
-            , s = null
-            , l = {
-              type: ""
-              , ver: ""
-            }
-            , d = "" === a.getCookie("MM_WX_NOTIFY_STATE") ? t.MM_NOTIFY_OPEN : a.getCookie("MM_WX_NOTIFY_STATE")
-            , f = "" === a.getCookie("MM_WX_SOUND_STATE") ? t.MM_SOUND_OPEN : a.getCookie("MM_WX_SOUND_STATE")
-            , u = 0
-            , m = 0
-            , g = 0
-            , p = 0
-            , h = 0
-            , M = {
+
+            return service;
+          }
+        ]);
+    })();
+
+    /***/
+  })
+  , /* 292 */
+  /***/
+  (function(module, exports) {
+
+    (function() {
+      'use strict';
+
+      /* Services */
+      angular.module('Services')
+        .factory('accountFactory', ['$q', 'confFactory', 'utilFactory'
+          , function($q, confFactory, utilFactory) {
+
+            var _userInfo = {}
+              , _chatList = []
+              , _synckey = null
+              , _synccheckkey = null
+              , _sid
+              , _skey
+              , _passticket
+              , _clientVerInfo = {
+                type: ""
+                , ver: ""
+              };
+            var _notityState = utilFactory.getCookie('MM_WX_NOTIFY_STATE') === "" ?
+              confFactory.MM_NOTIFY_OPEN : utilFactory.getCookie('MM_WX_NOTIFY_STATE'), // 默认为打开桌面通知
+              _soundState = utilFactory.getCookie('MM_WX_SOUND_STATE') === "" ?
+              confFactory.MM_SOUND_OPEN : utilFactory.getCookie('MM_WX_SOUND_STATE'); // 默认为打开音效
+
+            var _loginTime = 0;
+            var _rmsgcount = 0; // 收消息数
+            var _rconvcount = 0; // 收消息会话数
+            var _smsgcount = 0; // 发消息数
+            var _sconvcount = 0; // 发消息会话数
+
+            var service = {
               openNotify: function() {
-                d = t.MM_NOTIFY_OPEN, a.setCookie("MM_WX_NOTIFY_STATE", t.MM_NOTIFY_OPEN)
+                _notityState = confFactory.MM_NOTIFY_OPEN;
+                utilFactory.setCookie('MM_WX_NOTIFY_STATE', confFactory.MM_NOTIFY_OPEN);
               }
               , closeNotify: function() {
-                d = t.MM_NOTIFY_CLOSE, a.setCookie("MM_WX_NOTIFY_STATE", t.MM_NOTIFY_CLOSE)
+                _notityState = confFactory.MM_NOTIFY_CLOSE;
+                utilFactory.setCookie('MM_WX_NOTIFY_STATE', confFactory.MM_NOTIFY_CLOSE);
               }
               , isNotifyOpen: function() {
-                return !!d
+                return !!_notityState;
               }
               , openSound: function() {
-                f = t.MM_SOUND_OPEN, a.setCookie("MM_WX_SOUND_STATE", t.MM_SOUND_OPEN)
+                _soundState = confFactory.MM_SOUND_OPEN;
+                utilFactory.setCookie('MM_WX_SOUND_STATE', confFactory.MM_SOUND_OPEN);
               }
               , closeSound: function() {
-                f = t.MM_SOUND_CLOSE, a.setCookie("MM_WX_SOUND_STATE", t.MM_SOUND_CLOSE)
+                _soundState = confFactory.MM_SOUND_CLOSE;
+                utilFactory.setCookie('MM_WX_SOUND_STATE', confFactory.MM_SOUND_CLOSE);
               }
               , isSoundOpen: function() {
-                return !!f
+                return !!_soundState;
               }
-              , setUserInfo: function(e) {
-                angular.extend(r, e)
+              , setUserInfo: function(user) {
+                angular.extend(_userInfo, user);
               }
-              , updateUserInfo: function(e, a) {
-                var n = this;
-                if (e && e.BitFlag == t.PROFILE_BITFLAG_CHANGE) {
-                  var i = {};
-                  e.HeadImgUpdateFlag && (i.HeadImgUrl = e.HeadImgUrl), e.NickName.Buff && (i.NickName = e.NickName.Buff), n.setUserInfo(i), a && a()
+              , updateUserInfo: function(profile, changeCallback) {
+                var me = this;
+                if (!profile) return;
+
+                if (profile.BitFlag == confFactory.PROFILE_BITFLAG_CHANGE) {
+                  var user = {};
+                  if (profile.HeadImgUpdateFlag) user.HeadImgUrl = profile.HeadImgUrl;
+                  if (profile.NickName.Buff) user.NickName = profile.NickName.Buff;
+                  me.setUserInfo(user);
+                  changeCallback && changeCallback();
                 }
               }
               , getUserInfo: function() {
-                return r
+                return _userInfo;
               }
               , getUserName: function() {
                 return this.getUserInfo() && this.getUserInfo()
-                  .UserName
+                  .UserName;
               }
               , getSyncKey: function() {
-                return c || {
+                return _synckey || {
                   List: []
-                }
+                };
               }
               , getFormateSyncCheckKey: function() {
-                for (var e = s || this.getSyncKey(), t = e.List, a = [], n = 0, i = t.length; n < i; n++) a.push(t[n].Key + "_" + t[n].Val);
-                return a.join("|")
+
+                var synncheckkey = _synccheckkey || this.getSyncKey();
+                var synccheckkeyList = synncheckkey.List
+                  , synccheckkeyFormat = [];
+
+                for (var i = 0, len = synccheckkeyList.length; i < len; i++) {
+                  synccheckkeyFormat.push(synccheckkeyList[i].Key + "_" + synccheckkeyList[i].Val);
+                }
+                return synccheckkeyFormat.join('|');
               }
-              , setSyncCheckKey: function(e) {
-                e && e.Count > 0 ? s = e : a.log("JS Function: setSyncCheckKey. Error. no synccheckkey")
+              , setSyncCheckKey: function(synccheckkey) {
+                if (synccheckkey && synccheckkey.Count > 0) {
+                  _synccheckkey = synccheckkey;
+                } else {
+                  utilFactory.log("JS Function: setSyncCheckKey. Error. no synccheckkey");
+                }
               }
-              , setLoginTime: function(e) {
-                u = e
+              , setLoginTime: function(loginTime) {
+                _loginTime = loginTime;
               }
               , getLoginTime: function() {
-                return u
+                return _loginTime;
               }
-              , setRMsgCount: function(e) {
-                m = e
+              , setRMsgCount: function(rmsgcount) {
+                _rmsgcount = rmsgcount;
               }
               , getRMsgCount: function() {
-                return m
+                return _rmsgcount;
               }
-              , setRConvCount: function(e) {
-                g = e
+              , setRConvCount: function(rconvcount) {
+                _rconvcount = rconvcount;
               }
               , getRConvCount: function() {
-                return g
+                return _rconvcount;
               }
-              , setSMsgCount: function(e) {
-                p = e
+              , setSMsgCount: function(smsgcount) {
+                _smsgcount = smsgcount;
               }
               , getSMsgCount: function() {
-                return p
+                return _smsgcount;
               }
-              , setSConvCount: function(e) {
-                h = e
+              , setSConvCount: function(sconvcount) {
+                _sconvcount = sconvcount;
               }
               , getSConvCount: function() {
-                return h
+                return _sconvcount;
               }
-              , setSyncKey: function(e) {
-                e && e.Count > 0 ? c = e : a.log("JS Function: setSyncKey. Error. no synckey")
+              , setSyncKey: function(synckey) {
+                //console.log('setSyncKey', synckey);
+                if (synckey && synckey.Count > 0) {
+                  _synckey = synckey;
+                } else {
+                  /*                reportService.report(reportService.ReportType.uploaderError,{
+                                      text:'chooseFile 上传失败',
+                                      reason:reason,
+                                      fileName: this.ext,
+                                      fileSize: this.size
+                                  })*/
+
+                  utilFactory.log("JS Function: setSyncKey. Error. no synckey");
+                }
               }
-              , setPassticket: function(e) {
-                o = e
+              , setPassticket: function(passticket) {
+                _passticket = passticket;
               }
               , getPassticket: function() {
-                return o
+                return _passticket;
               }
               , getSid: function() {
-                return n || (n = a.getCookie("wxsid"))
+                return _sid || (_sid = utilFactory.getCookie("wxsid"));
               }
-              , setSid: function(e) {
-                e && (n = e)
+              , setSid: function(sid) {
+                if (sid) {
+                  _sid = sid;
+                }
               }
               , getSkey: function() {
-                return i || ""
+                return _skey || '';
               }
-              , setSkey: function(e) {
-                e && (i = e)
+              , setSkey: function(skey) {
+                if (skey) {
+                  _skey = skey;
+                }
               }
-              , setUin: function(e) {
+              , setUin: function(uin) {
                 this.getUserInfo()
-                  .Uin = e
+                  .Uin = uin
               }
               , getUin: function() {
                 return this.getUserInfo() && this.getUserInfo()
-                  .Uin || a.getCookie("wxuin")
+                  .Uin || utilFactory.getCookie("wxuin");
               }
               , getBaseRequest: function() {
                 return {
-                  BaseRequest: {
+                  "BaseRequest": {
                     Uin: this.getUin()
                     , Sid: this.getSid()
                     , Skey: this.getSkey()
                     , DeviceID: this.getDeviceID()
                   }
-                }
+                };
               }
               , getDeviceID: function() {
-                return "e" + ("" + Math.random()
+                return 'e' + ("" + Math.random()
                     .toFixed(15))
-                  .substring(2, 17)
+                  .substring(2, 17);
               }
               , isHigherVer: function() {
-                return l.ver >= 4.5
+                return _clientVerInfo.ver >= 4.5;
               }
-              , setClientVer: function(e) {
-                var t = parseInt(e, 10)
+              , setClientVer: function(_asVer) {
+                var _sVer = parseInt(_asVer, 10)
                   .toString(16)
-                  , a = t.substr(0, 1)
-                  , t = t.substr(1, 3)
+                  , _sType = _sVer.substr(0, 1)
+                  , _sVer = _sVer.substr(1, 3)
                   .replace("0", ".");
-                l.type = a, l.ver = t
+                _clientVerInfo.type = _sType;
+                _clientVerInfo.ver = _sVer;
               }
             };
-          return d == t.MM_NOTIFY_OPEN ? M.openNotify() : M.closeNotify(), f == t.MM_SOUND_OPEN ? M.openSound() : M.closeSound(), M
-        }])
-    }()
-  }
-  , function(e, exports) {
-    ! function() {
-      "use strict";
-      angular.module("Services")
-        .factory("confFactory", ["$q", function(e) {
-          var t = location.host
-            , a = "login.weixin.qq.com"
-            , n = "file.wx.qq.com"
-            , i = "webpush.weixin.qq.com";
-          t.indexOf("wx2.qq.com") > -1 ? (a = "login.wx2.qq.com", n = "file.wx2.qq.com", i = "webpush.wx2.qq.com") : t.indexOf("wx8.qq.com") > -1 ? (a = "login.wx8.qq.com", n = "file.wx8.qq.com", i = "webpush.wx8.qq.com") : t.indexOf(
-            "qq.com") > -1 ? (a = "login.wx.qq.com", n = "file.wx.qq.com", i = "webpush.wx.qq.com") : t.indexOf("web2.wechat.com") > -1 ? (a = "login.web2.wechat.com", n = "file.web2.wechat.com", i = "webpush.web2.wechat.com") : t.indexOf(
-            "wechat.com") > -1 && (a = "login.web.wechat.com", n = "file.web.wechat.com", i = "webpush.web.wechat.com");
-          var o = navigator.language || navigator.browserLanguage;
-          o || (o = "zh-cn"), o = o.split("-"), o = o[0].toLowerCase() + "_" + (o[1] || "")
+
+            // 设置的init
+            if (_notityState == confFactory.MM_NOTIFY_OPEN) service.openNotify();
+            else service.closeNotify();
+
+            if (_soundState == confFactory.MM_SOUND_OPEN) service.openSound();
+            else service.closeSound();
+
+            return service;
+          }
+        ]);
+
+    })();
+
+    /***/
+  })
+  , /* 293 */
+  /***/
+  (function(module, exports) {
+
+    (function() {
+      'use strict';
+
+      /* Services */
+
+      angular.module('Services')
+        .factory('confFactory', ['$q', function($q) {
+
+          var host = location.host
+            , loginHost = "login.weixin.qq.com"
+            , fileHost = "file.wx.qq.com"
+            , pushHost = "webpush.weixin.qq.com";
+
+          if (host.indexOf("wx2.qq.com") > -1) {
+            loginHost = "login.wx2.qq.com";
+            fileHost = "file.wx2.qq.com";
+            pushHost = "webpush.wx2.qq.com";
+          } else if (host.indexOf("wx8.qq.com") > -1) {
+            loginHost = "login.wx8.qq.com";
+            fileHost = "file.wx8.qq.com";
+            pushHost = "webpush.wx8.qq.com";
+          } else if (host.indexOf("qq.com") > -1) {
+            loginHost = "login.wx.qq.com";
+            fileHost = "file.wx.qq.com";
+            pushHost = "webpush.wx.qq.com";
+
+          } else if (host.indexOf("web2.wechat.com") > -1) {
+            loginHost = "login.web2.wechat.com";
+            fileHost = "file.web2.wechat.com";
+            pushHost = "webpush.web2.wechat.com";
+          } else if (host.indexOf("wechat.com") > -1) {
+            loginHost = "login.web.wechat.com";
+            fileHost = "file.web.wechat.com";
+            pushHost = "webpush.web.wechat.com";
+          }
+
+          var lang = (navigator.language || navigator.browserLanguage);
+          if (!lang) lang = "zh-cn";
+          lang = lang.split("-");
+          lang = lang[0].toLowerCase() + "_" + (lang[1] || "")
             .toUpperCase();
-          var r = !1;
-          (location.href.indexOf("target=t") >= 0 || "t" === window.__target) && (r = !0);
-          var c = {
-            LANG: o
-            , EMOTICON_REG: 'img\\sclass="(qq)?emoji (qq)?emoji([\\da-f]*?)"\\s(text="[^<>(\\s]*")?\\s?src="[^<>(\\s]*"\\s*'
-            , RES_PATH: "/zh_CN/htmledition/v2/"
-            , API_jsLogin: "https://" + a + "/jslogin?appid=wx782c26e4c19acffb&redirect_uri=" + encodeURIComponent(location.protocol + "//" + location.host + "/cgi-bin/mmwebwx-bin/webwxnewloginpage" + (r ? "?mod=desktop" : "")) +
-              "&fun=new&lang=" + o
-            , API_login: "https://" + a + "/cgi-bin/mmwebwx-bin/login"
-            , API_synccheck: "https://" + i + "/cgi-bin/mmwebwx-bin/synccheck"
-            , API_webwxdownloadmedia: "https://" + n + "/cgi-bin/mmwebwx-bin/webwxgetmedia"
-            , API_webwxuploadmedia: "https://" + n + "/cgi-bin/mmwebwx-bin/webwxuploadmedia"
-            , API_webwxpreview: "/cgi-bin/mmwebwx-bin/webwxpreview"
-            , API_webwxinit: "/cgi-bin/mmwebwx-bin/webwxinit?r=" + ~new Date
+
+
+          var isClientVersion = false;
+
+          if (location.href.indexOf('target=t') >= 0 || window.__target === 't') {
+            isClientVersion = true
+          }
+          var service = {
+            LANG: lang,
+
+            EMOTICON_REG: 'img\\sclass="(qq)?emoji (qq)?emoji([\\da-f]*?)"\\s(text="[^<>(\\s]*")?\\s?src="[^<>(\\s]*"\\s*', // img class="emoji emoji11" text="[..]" src=".."
+
+
+            RES_PATH: "/zh_CN/htmledition/v2/"
+            , // 需要用到RES_PATH的静态变量请参考 写在接近页面底部的 RES_IMG_DEFAULT
+            API_jsLogin: "https://" + loginHost + "/jslogin?appid=wx782c26e4c19acffb&redirect_uri=" +
+              encodeURIComponent(location.protocol + "//" + location.host + "/cgi-bin/mmwebwx-bin/webwxnewloginpage" +
+                (isClientVersion ? '?mod=desktop' : '')) + "&fun=new&lang=" + lang
+            , API_login: 'https://' + loginHost + '/cgi-bin/mmwebwx-bin/login'
+            , API_synccheck: 'https://' + pushHost + '/cgi-bin/mmwebwx-bin/synccheck'
+            , API_webwxdownloadmedia: 'https://' + fileHost + '/cgi-bin/mmwebwx-bin/webwxgetmedia'
+            , API_webwxuploadmedia: 'https://' + fileHost + '/cgi-bin/mmwebwx-bin/webwxuploadmedia'
+            , API_webwxpreview: '/cgi-bin/mmwebwx-bin/webwxpreview'
+            , API_webwxinit: "/cgi-bin/mmwebwx-bin/webwxinit?r=" + ~new Date()
             , API_webwxgetcontact: "/cgi-bin/mmwebwx-bin/webwxgetcontact"
             , API_webwxsync: "/cgi-bin/mmwebwx-bin/webwxsync"
-            , API_webwxbatchgetcontact: "/cgi-bin/mmwebwx-bin/webwxbatchgetcontact"
-            , API_webwxgeticon: "/cgi-bin/mmwebwx-bin/webwxgeticon"
-            , API_webwxsendmsg: "/cgi-bin/mmwebwx-bin/webwxsendmsg"
-            , API_webwxsendmsgimg: "/cgi-bin/mmwebwx-bin/webwxsendmsgimg"
-            , API_webwxsendmsgvedio: "/cgi-bin/mmwebwx-bin/webwxsendvideomsg"
-            , API_webwxsendemoticon: "/cgi-bin/mmwebwx-bin/webwxsendemoticon"
-            , API_webwxsendappmsg: "/cgi-bin/mmwebwx-bin/webwxsendappmsg"
-            , API_webwxgetheadimg: "/cgi-bin/mmwebwx-bin/webwxgetheadimg"
-            , API_webwxgetmsgimg: "/cgi-bin/mmwebwx-bin/webwxgetmsgimg"
-            , API_webwxgetmedia: "/cgi-bin/mmwebwx-bin/webwxgetmedia"
-            , API_webwxgetvideo: "/cgi-bin/mmwebwx-bin/webwxgetvideo"
-            , API_webwxlogout: "/cgi-bin/mmwebwx-bin/webwxlogout"
-            , API_webwxgetvoice: "/cgi-bin/mmwebwx-bin/webwxgetvoice"
-            , API_webwxupdatechatroom: "/cgi-bin/mmwebwx-bin/webwxupdatechatroom"
-            , API_webwxcreatechatroom: "/cgi-bin/mmwebwx-bin/webwxcreatechatroom"
-            , API_webwxstatusnotify: "/cgi-bin/mmwebwx-bin/webwxstatusnotify"
-            , API_webwxcheckurl: "/cgi-bin/mmwebwx-bin/webwxcheckurl"
-            , API_webwxverifyuser: "/cgi-bin/mmwebwx-bin/webwxverifyuser"
-            , API_webwxfeedback: "/cgi-bin/mmwebwx-bin/webwxsendfeedback"
-            , API_webwxreport: "/cgi-bin/mmwebwx-bin/webwxstatreport"
-            , API_webwxsearch: "/cgi-bin/mmwebwx-bin/webwxsearchcontact"
-            , API_webwxoplog: "/cgi-bin/mmwebwx-bin/webwxoplog"
-            , API_checkupload: "/cgi-bin/mmwebwx-bin/webwxcheckupload"
-            , API_webwxrevokemsg: "/cgi-bin/mmwebwx-bin/webwxrevokemsg"
-            , API_webwxpushloginurl: "/cgi-bin/mmwebwx-bin/webwxpushloginurl"
+            , API_webwxbatchgetcontact: '/cgi-bin/mmwebwx-bin/webwxbatchgetcontact'
+            , API_webwxgeticon: '/cgi-bin/mmwebwx-bin/webwxgeticon'
+            , API_webwxsendmsg: '/cgi-bin/mmwebwx-bin/webwxsendmsg'
+            , API_webwxsendmsgimg: '/cgi-bin/mmwebwx-bin/webwxsendmsgimg'
+            , API_webwxsendmsgvedio: '/cgi-bin/mmwebwx-bin/webwxsendvideomsg'
+            , API_webwxsendemoticon: '/cgi-bin/mmwebwx-bin/webwxsendemoticon'
+            , API_webwxsendappmsg: '/cgi-bin/mmwebwx-bin/webwxsendappmsg'
+            , API_webwxgetheadimg: '/cgi-bin/mmwebwx-bin/webwxgetheadimg'
+            , API_webwxgetmsgimg: '/cgi-bin/mmwebwx-bin/webwxgetmsgimg'
+            , API_webwxgetmedia: '/cgi-bin/mmwebwx-bin/webwxgetmedia'
+            , API_webwxgetvideo: '/cgi-bin/mmwebwx-bin/webwxgetvideo'
+            , API_webwxlogout: '/cgi-bin/mmwebwx-bin/webwxlogout'
+            , API_webwxgetvoice: '/cgi-bin/mmwebwx-bin/webwxgetvoice'
+            , API_webwxupdatechatroom: '/cgi-bin/mmwebwx-bin/webwxupdatechatroom'
+            , API_webwxcreatechatroom: '/cgi-bin/mmwebwx-bin/webwxcreatechatroom'
+            , API_webwxstatusnotify: '/cgi-bin/mmwebwx-bin/webwxstatusnotify'
+            , API_webwxcheckurl: '/cgi-bin/mmwebwx-bin/webwxcheckurl'
+            , API_webwxverifyuser: '/cgi-bin/mmwebwx-bin/webwxverifyuser'
+            , API_webwxfeedback: '/cgi-bin/mmwebwx-bin/webwxsendfeedback'
+            , API_webwxreport: '/cgi-bin/mmwebwx-bin/webwxstatreport'
+            , API_webwxsearch: '/cgi-bin/mmwebwx-bin/webwxsearchcontact'
+            , API_webwxoplog: '/cgi-bin/mmwebwx-bin/webwxoplog'
+            , API_checkupload: '/cgi-bin/mmwebwx-bin/webwxcheckupload'
+            , /*
+             * 消息撤回
+             * */
+            API_webwxrevokemsg: '/cgi-bin/mmwebwx-bin/webwxrevokemsg'
+            , API_webwxpushloginurl: '/cgi-bin/mmwebwx-bin/webwxpushloginurl'
             , oplogCmdId: {
               TOPCONTACT: 3
               , MODREMARKNAME: 2
             }
-            , SP_CONTACT_FILE_HELPER: "filehelper"
+            , //
+            SP_CONTACT_FILE_HELPER: "filehelper"
             , SP_CONTACT_NEWSAPP: "newsapp"
-            , SP_CONTACT_RECOMMEND_HELPER: "fmessage"
-            , CONTACTFLAG_CONTACT: 1
-            , CONTACTFLAG_CHATCONTACT: 2
-            , CONTACTFLAG_CHATROOMCONTACT: 4
-            , CONTACTFLAG_BLACKLISTCONTACT: 8
-            , CONTACTFLAG_DOMAINCONTACT: 16
-            , CONTACTFLAG_HIDECONTACT: 32
-            , CONTACTFLAG_FAVOURCONTACT: 64
-            , CONTACTFLAG_3RDAPPCONTACT: 128
-            , CONTACTFLAG_SNSBLACKLISTCONTACT: 256
-            , CONTACTFLAG_NOTIFYCLOSECONTACT: 512
-            , CONTACTFLAG_TOPCONTACT: 2048
-            , MM_USERATTRVERIFYFALG_BIZ: 1
-            , MM_USERATTRVERIFYFALG_FAMOUS: 2
-            , MM_USERATTRVERIFYFALG_BIZ_BIG: 4
-            , MM_USERATTRVERIFYFALG_BIZ_BRAND: 8
-            , MM_USERATTRVERIFYFALG_BIZ_VERIFIED: 16
-            , MM_DATA_TEXT: 1
+            , SP_CONTACT_RECOMMEND_HELPER: "fmessage",
+
+            // contact flag
+            CONTACTFLAG_CONTACT: 0x01
+            , CONTACTFLAG_CHATCONTACT: 0x02
+            , CONTACTFLAG_CHATROOMCONTACT: 0x04
+            , CONTACTFLAG_BLACKLISTCONTACT: 0x08
+            , CONTACTFLAG_DOMAINCONTACT: 0x10
+            , CONTACTFLAG_HIDECONTACT: 0x20
+            , CONTACTFLAG_FAVOURCONTACT: 0x40
+            , CONTACTFLAG_3RDAPPCONTACT: 0x80
+            , CONTACTFLAG_SNSBLACKLISTCONTACT: 0x100
+            , CONTACTFLAG_NOTIFYCLOSECONTACT: 0x200
+            , CONTACTFLAG_TOPCONTACT: 0x800
+            , // verify flag
+            MM_USERATTRVERIFYFALG_BIZ: 0x1, // 小商家
+            MM_USERATTRVERIFYFALG_FAMOUS: 0x2
+            , MM_USERATTRVERIFYFALG_BIZ_BIG: 0x4, // 大商家
+            MM_USERATTRVERIFYFALG_BIZ_BRAND: 0x8, // 品牌商家
+            MM_USERATTRVERIFYFALG_BIZ_VERIFIED: 0x10, // 认证
+
+            MM_DATA_TEXT: 1
             , MM_DATA_HTML: 2
             , MM_DATA_IMG: 3
             , MM_DATA_PRIVATEMSG_TEXT: 11
@@ -3101,38 +7220,44 @@ webpackJsonp([1], [function(e, exports, t) {
             , MM_DATA_VIDEO_IPHONE_EXPORT: 44
             , MM_DATA_EMOJI: 47
             , MM_DATA_LOCATION: 48
-            , MM_DATA_APPMSG: 49
-            , MM_DATA_VOIPMSG: 50
-            , MM_DATA_STATUSNOTIFY: 51
-            , MM_DATA_VOIPNOTIFY: 52
-            , MM_DATA_VOIPINVITE: 53
-            , MM_DATA_MICROVIDEO: 62
-            , MM_DATA_SYSNOTICE: 9999
-            , MM_DATA_SYS: 1e4
-            , MM_DATA_RECALLED: 10002
-            , MSGTYPE_TEXT: 1
+            , MM_DATA_APPMSG: 49, // AppMsg
+            MM_DATA_VOIPMSG: 50, // voip msg
+            MM_DATA_STATUSNOTIFY: 51, //
+            MM_DATA_VOIPNOTIFY: 52, // voip 结束消息
+            MM_DATA_VOIPINVITE: 53, // voip 邀请
+            MM_DATA_MICROVIDEO: 62, // 微视频
+            MM_DATA_SYSNOTICE: 9999
+            , MM_DATA_SYS: 10000
+            , MM_DATA_RECALLED: 10002,
+
+            //msg type
+            MSGTYPE_TEXT: 1
             , MSGTYPE_IMAGE: 3
             , MSGTYPE_VOICE: 34
             , MSGTYPE_VIDEO: 43
             , MSGTYPE_MICROVIDEO: 62
             , MSGTYPE_EMOTICON: 47
             , MSGTYPE_APP: 49
-            , MSGTYPE_VOIPMSG: 50
-            , MSGTYPE_VOIPNOTIFY: 52
-            , MSGTYPE_VOIPINVITE: 53
-            , MSGTYPE_LOCATION: 48
+            , MSGTYPE_VOIPMSG: 50, // voip msg
+            MSGTYPE_VOIPNOTIFY: 52, // voip 结束消息
+            MSGTYPE_VOIPINVITE: 53, // voip 邀请
+            MSGTYPE_LOCATION: 48
             , MSGTYPE_STATUSNOTIFY: 51
             , MSGTYPE_SYSNOTICE: 9999
             , MSGTYPE_POSSIBLEFRIEND_MSG: 40
             , MSGTYPE_VERIFYMSG: 37
             , MSGTYPE_SHARECARD: 42
-            , MSGTYPE_SYS: 1e4
-            , MSGTYPE_RECALLED: 10002
-            , MSG_SEND_STATUS_READY: 0
+            , MSGTYPE_SYS: 10000
+            , MSGTYPE_RECALLED: 10002,
+
+            //msg send status
+            MSG_SEND_STATUS_READY: 0
             , MSG_SEND_STATUS_SENDING: 1
             , MSG_SEND_STATUS_SUCC: 2
-            , MSG_SEND_STATUS_FAIL: 5
-            , APPMSGTYPE_TEXT: 1
+            , MSG_SEND_STATUS_FAIL: 5,
+
+            //app msgtype
+            APPMSGTYPE_TEXT: 1
             , APPMSGTYPE_IMG: 2
             , APPMSGTYPE_AUDIO: 3
             , APPMSGTYPE_VIDEO: 4
@@ -3146,39 +7271,54 @@ webpackJsonp([1], [function(e, exports, t) {
             , APPMSGTYPE_EMOTION: 15
             , APPMSGTYPE_CARD_TICKET: 16
             , APPMSGTYPE_REALTIME_SHARE_LOCATION: 17
-            , APPMSGTYPE_TRANSFERS: 2e3
+            , APPMSGTYPE_TRANSFERS: 2000
             , APPMSGTYPE_RED_ENVELOPES: 2001
-            , APPMSGTYPE_READER_TYPE: 100001
-            , UPLOAD_MEDIA_TYPE_IMAGE: 1
+            , APPMSGTYPE_READER_TYPE: 100001, //自定义的type
+
+            //upload media type
+            UPLOAD_MEDIA_TYPE_IMAGE: 1
             , UPLOAD_MEDIA_TYPE_VIDEO: 2
             , UPLOAD_MEDIA_TYPE_AUDIO: 3
-            , UPLOAD_MEDIA_TYPE_ATTACHMENT: 4
-            , PROFILE_BITFLAG_NOCHANGE: 0
-            , PROFILE_BITFLAG_CHANGE: 190
-            , CHATROOM_NOTIFY_OPEN: 1
-            , CHATROOM_NOTIFY_CLOSE: 0
-            , StatusNotifyCode_READED: 1
+            , UPLOAD_MEDIA_TYPE_ATTACHMENT: 4,
+
+            //Profile bitFlag
+            PROFILE_BITFLAG_NOCHANGE: 0
+            , PROFILE_BITFLAG_CHANGE: 190,
+
+            // chatroom mute
+            CHATROOM_NOTIFY_OPEN: 0x1
+            , CHATROOM_NOTIFY_CLOSE: 0x0,
+
+            // status notify
+            StatusNotifyCode_READED: 1
             , StatusNotifyCode_ENTER_SESSION: 2
             , StatusNotifyCode_INITED: 3
             , StatusNotifyCode_SYNC_CONV: 4
-            , StatusNotifyCode_QUIT_SESSION: 5
-            , VERIFYUSER_OPCODE_ADDCONTACT: 1
+            , StatusNotifyCode_QUIT_SESSION: 5,
+
+            // VerifyUserOpcode
+            VERIFYUSER_OPCODE_ADDCONTACT: 1
             , VERIFYUSER_OPCODE_SENDREQUEST: 2
             , VERIFYUSER_OPCODE_VERIFYOK: 3
             , VERIFYUSER_OPCODE_VERIFYREJECT: 4
             , VERIFYUSER_OPCODE_SENDERREPLY: 5
-            , VERIFYUSER_OPCODE_RECVERREPLY: 6
-            , ADDSCENE_PF_QQ: 4
-            , ADDSCENE_PF_EMAIL: 5
-            , ADDSCENE_PF_CONTACT: 6
-            , ADDSCENE_PF_WEIXIN: 7
-            , ADDSCENE_PF_GROUP: 8
-            , ADDSCENE_PF_UNKNOWN: 9
-            , ADDSCENE_PF_MOBILE: 10
-            , ADDSCENE_PF_WEB: 33
-            , TIMEOUT_SYNC_CHECK: 0
-            , EMOJI_FLAG_GIF: 2
-            , KEYCODE_BACKSPACE: 8
+            , VERIFYUSER_OPCODE_RECVERREPLY: 6,
+
+            // add contact scene
+            ADDSCENE_PF_QQ: 4, // 通过可能认识的QQ好友
+            ADDSCENE_PF_EMAIL: 5, // 通过可能认识的QQMail好友
+            ADDSCENE_PF_CONTACT: 6, // 通过把我加到通讯录的人
+            ADDSCENE_PF_WEIXIN: 7, // 通过可能认识的微信好友(二度关系)
+            ADDSCENE_PF_GROUP: 8, // 通过可能认识的群好友
+            ADDSCENE_PF_UNKNOWN: 9, // “可能认识的好友”（无法区分来源）
+            ADDSCENE_PF_MOBILE: 10, // 手机通讯录
+            ADDSCENE_PF_WEB: 33, // web
+
+            TIMEOUT_SYNC_CHECK: 0,
+
+            EMOJI_FLAG_GIF: 2,
+
+            KEYCODE_BACKSPACE: 8
             , KEYCODE_ENTER: 13
             , KEYCODE_SHIFT: 16
             , KEYCODE_ESC: 27
@@ -3192,1073 +7332,2132 @@ webpackJsonp([1], [function(e, exports, t) {
             , KEYCODE_NUM_ADD: 107
             , KEYCODE_NUM_MINUS: 109
             , KEYCODE_ADD: 187
-            , KEYCODE_MINUS: 189
-            , MM_NOTIFY_CLOSE: 0
-            , MM_NOTIFY_OPEN: 1
-            , MM_SOUND_CLOSE: 0
-            , MM_SOUND_OPEN: 1
-            , MM_SEND_FILE_STATUS_QUEUED: 0
+            , KEYCODE_MINUS: 189,
+
+            // 桌面通知的关闭与打开
+            MM_NOTIFY_CLOSE: 0
+            , MM_NOTIFY_OPEN: 1,
+
+            // 音效的关闭与打开
+            MM_SOUND_CLOSE: 0
+            , MM_SOUND_OPEN: 1,
+
+            MM_SEND_FILE_STATUS_QUEUED: 0
             , MM_SEND_FILE_STATUS_SENDING: 1
             , MM_SEND_FILE_STATUS_SUCCESS: 2
             , MM_SEND_FILE_STATUS_FAIL: 3
-            , MM_SEND_FILE_STATUS_CANCEL: 4
-            , MM_EMOTICON_WEB: "_web"
+            , MM_SEND_FILE_STATUS_CANCEL: 4,
+
+            //区分经web端处理过的表情的后缀
+            MM_EMOTICON_WEB: "_web"
           };
-          return angular.extend(c, {
-            RES_IMG_DEFAULT: c.RES_PATH + "images/img.gif"
-            , RES_IMG_PLACEHOLDER: c.RES_PATH + "images/spacer.gif"
-            , RES_SOUND_RECEIVE_MSG: c.RES_PATH + "sound/msg.mp3"
-            , RES_SOUND_SEND_MSG: c.RES_PATH + "sound/text.mp3"
-          }), /mmdebug=local/.test(document.location.search) && angular.extend(c, {
-            TIMEOUT_SYNC_CHECK: 3e3
-            , API_jsLogin: "/zh_CN/htmledition/v2/api/jsLogin.js"
-            , API_login: "/zh_CN/htmledition/v2/api/login.js"
-            , API_webwxinit: "/zh_CN/htmledition/v2/api/webwxinit.json"
-            , API_webwxgetcontact: "/zh_CN/htmledition/v2/api/webwxgetcontact.json"
-            , API_webwxsync: "/zh_CN/htmledition/v2/api/webwxsync.json"
-            , API_synccheck: "/zh_CN/htmledition/v2/api/synccheck.js"
-            , API_webwxbatchgetcontact: "/zh_CN/htmledition/v2/api/webwxbatchgetcontact.json"
-            , API_webwxgeticon: "/zh_CN/htmledition/v2/images/webwxgeticon.jpg"
-            , API_webwxgetheadimg: "/zh_CN/htmledition/v2/images/webwxgeticon.jpg"
-            , API_webwxgetmsgimg: "/zh_CN/htmledition/v2/images/webwxgeticon.jpg"
-            , API_webwxgetmedia: "/zh_CN/htmledition/v2/images/webwxgeticon.jpg"
-            , API_webwxgetvideo: "/zh_CN/htmledition/v2/images/webwxgetvideo.mp4"
-          }), angular.extend(c, {
-            isClientVersion: r
-          }), c
-        }])
-    }()
-  }
-  , function(e, exports) {
-    ! function() {
-      "use strict";
-      angular.module("Services")
-        .factory("contactFactory", ["$rootScope", "$http", "$q", "$timeout", "confFactory", "accountFactory", "emojiFactory", "utilFactory", "resourceService", "reportService", "mmHttp", function(e, t, a, n, i, o, r, c, s, l, d) {
-          function f(e) {
-            return e = angular.extend({
-              RemarkPYQuanPin: ""
-              , RemarkPYInitial: ""
-              , PYInitial: ""
-              , PYQuanPin: ""
-            }, e, G), e.HeadImgUrl || (e.HeadImgUrl = i.API_webwxgeticon + "?seq=0&username=" + e.UserName + "&skey=" + o.getSkey()), e
+          angular.extend(service, {
+            RES_IMG_DEFAULT: service.RES_PATH + 'images/img.gif'
+            , RES_IMG_PLACEHOLDER: service.RES_PATH + 'images/spacer.gif'
+            , RES_SOUND_RECEIVE_MSG: service.RES_PATH + 'sound/msg.mp3'
+            , RES_SOUND_SEND_MSG: service.RES_PATH + 'sound/text.mp3'
+          });
+
+          if (/mmdebug=local/.test(document.location.search)) {
+            angular.extend(service, {
+              TIMEOUT_SYNC_CHECK: 3000
+              , API_jsLogin: "/zh_CN/htmledition/v2/api/jsLogin.js"
+              , API_login: '/zh_CN/htmledition/v2/api/login.js'
+              , API_webwxinit: "/zh_CN/htmledition/v2/api/webwxinit.json"
+              , API_webwxgetcontact: "/zh_CN/htmledition/v2/api/webwxgetcontact.json"
+              , API_webwxsync: "/zh_CN/htmledition/v2/api/webwxsync.json"
+              , API_synccheck: '/zh_CN/htmledition/v2/api/synccheck.js'
+              , API_webwxbatchgetcontact: '/zh_CN/htmledition/v2/api/webwxbatchgetcontact.json'
+              , API_webwxgeticon: '/zh_CN/htmledition/v2/images/webwxgeticon.jpg'
+              , API_webwxgetheadimg: '/zh_CN/htmledition/v2/images/webwxgeticon.jpg'
+              , API_webwxgetmsgimg: '/zh_CN/htmledition/v2/images/webwxgeticon.jpg'
+              , API_webwxgetmedia: '/zh_CN/htmledition/v2/images/webwxgeticon.jpg'
+              , API_webwxgetvideo: '/zh_CN/htmledition/v2/images/webwxgetvideo.mp4'
+            });
           }
-          var u, m = window._contacts = {}
-            , g = window._strangerContacts = {}
-            , p = []
-            , h = []
-            , M = []
-            , v = []
-            , y = window._chatRoomMemberDisplayNames = {}
-            , b = []
-            , C = []
-            , w = []
-            , S = {}
-            , T = {}
-            , N = 0
-            , E = ["fmessage"]
-            , G = {
+
+
+
+          angular.extend(service, {
+            isClientVersion: isClientVersion
+          });
+
+
+
+          return service;
+        }]);
+    })();
+
+
+    /***/
+  })
+  , /* 294 */
+  /***/
+  (function(module, exports) {
+
+    (function() {
+      'use strict';
+
+      /**
+       * module name:
+       * dependency:
+       *
+       */
+      angular.module('Services')
+        .factory('contactFactory', [
+          '$rootScope'
+          , '$http'
+          , '$q'
+          , '$timeout'
+          , 'confFactory'
+          , 'accountFactory'
+          , 'emojiFactory'
+          , 'utilFactory'
+          , 'resourceService'
+          , 'reportService'
+          , 'mmHttp'
+          , function($rootScope, $http, $q, $timeout, confFactory, accountFactory, emojiFactory, utilFactory, resourceService, reportService, mmHttp) {
+
+            var _contacts = window._contacts = {}
+              , _strangerContacts = window._strangerContacts = {}
+              , _allFriendContacts = []
+              , _allStarContacts = []
+              , _allChatroomContacts = []
+              , _allBrandContacts = []
+              , _chatRoomMemberDisplayNames = window._chatRoomMemberDisplayNames = {}
+              , _currentContact
+              , _oReverseMap = {}
+              , _contactsToGetList = []
+              , _contactsGettingList = []
+              , _contactsWithErrorToGetList = []
+              , _contactsGetErrMap = {}
+              , _remoteSearchCache = {}
+              , //_batchGetErrTokenMap = {},
+              _batchGetContinuousErrCount = 0
+              , _isBatchGetting = false
+              , undefined
+              , _readOnlyContacts = [
+                'fmessage' //朋友推荐消息
+              ];
+
+            /**
+             * 联系人操作扩展
+             */
+            var _contactOperates = {
+              /**
+               * 是否为自己
+               */
               isSelf: function() {
-                return o.getUserName() == this.UserName
+                return accountFactory.getUserName() == this.UserName;
               }
-              , isContact: function() {
-                return !!(this.ContactFlag & i.CONTACTFLAG_CONTACT) || this.UserName == o.getUserName()
+              , /**
+               * 是否为正常联系人
+               */
+              isContact: function() {
+                return !!(this.ContactFlag & confFactory.CONTACTFLAG_CONTACT) || this.UserName == accountFactory.getUserName();
               }
-              , isBlackContact: function() {
-                return !!(this.ContactFlag & i.CONTACTFLAG_BLACKLISTCONTACT)
+              , /**
+               * 是否为黑名单联系人
+               */
+              isBlackContact: function() {
+                return !!(this.ContactFlag & confFactory.CONTACTFLAG_BLACKLISTCONTACT);
               }
-              , isConversationContact: function() {
-                return !!(this.ContactFlag & i.CONTACTFLAG_CHATCONTACT)
+              , /**
+               * 是否为聊天联系人
+               */
+              isConversationContact: function() {
+                return !!(this.ContactFlag & confFactory.CONTACTFLAG_CHATCONTACT);
               }
-              , isRoomContact: function() {
-                return c.isRoomContact(this.UserName)
+              , /**
+               * 是否为群聊
+               */
+              isRoomContact: function() {
+                return utilFactory.isRoomContact(this.UserName);
               }
-              , isRoomContactDel: function() {
-                return this.isRoomContact() && !(this.ContactFlag & i.CONTACTFLAG_CHATROOMCONTACT)
+              , /**
+               * 是否为已删除群聊
+               */
+              isRoomContactDel: function() {
+                return this.isRoomContact() && !(this.ContactFlag & confFactory.CONTACTFLAG_CHATROOMCONTACT);
               }
-              , isRoomOwner: function() {
-                return this.isRoomContact() && this.IsOwner
+              , /**
+               * 是否自己是群聊群主
+               */
+              isRoomOwner: function() {
+                return this.isRoomContact() && this.IsOwner;
               }
-              , isBrandContact: function() {
-                return this.VerifyFlag & i.MM_USERATTRVERIFYFALG_BIZ_BRAND
+              , /**
+               * 是否为公众号
+               */
+              isBrandContact: function() {
+                return this.VerifyFlag & confFactory.MM_USERATTRVERIFYFALG_BIZ_BRAND;
               }
-              , isSpContact: function() {
-                return c.isSpUser(this.UserName)
+              , /**
+               * 是否为为特殊联系人
+               */
+              isSpContact: function() {
+                return utilFactory.isSpUser(this.UserName);
               }
-              , isShieldUser: function() {
-                var e = c.isShieldUser(this.UserName) || this.isRoomContact() && !this.isInChatroom();
-                return e
+              , /**
+               * 是否为屏蔽联系人
+               */
+              isShieldUser: function() {
+                var flag = utilFactory.isShieldUser(this.UserName) || (this.isRoomContact() && !this.isInChatroom());
+                if (flag) {
+                  console.log('已屏蔽：', this.UserName, this.NickName);
+                }
+                return flag;
               }
-              , isFileHelper: function() {
-                return this.UserName == i.SP_CONTACT_FILE_HELPER
+              , /**
+               * 是否为文件传输助手（特殊联系人）
+               */
+              isFileHelper: function() {
+                return this.UserName == confFactory.SP_CONTACT_FILE_HELPER;
               }
-              , isRecommendHelper: function() {
-                return this.UserName == i.SP_CONTACT_RECOMMEND_HELPER
+              , /**
+               * 是否为文件传输助手（特殊联系人）
+               */
+              isRecommendHelper: function() {
+                return this.UserName == confFactory.SP_CONTACT_RECOMMEND_HELPER;
               }
-              , isNewsApp: function() {
-                return this.UserName == i.SP_CONTACT_NEWSAPP
+              , /**
+               * 是否为腾讯新闻（特殊联系人）
+               */
+              isNewsApp: function() {
+                return this.UserName == confFactory.SP_CONTACT_NEWSAPP;
               }
-              , isMuted: function() {
-                return this.isRoomContact() ? this.Statues === i.CHATROOM_NOTIFY_CLOSE : this.ContactFlag & i.CONTACTFLAG_NOTIFYCLOSECONTACT
+              , /**
+               * 是否打开消息免打扰
+               */
+              isMuted: function() {
+                return this.isRoomContact() ? this.Statues === confFactory.CHATROOM_NOTIFY_CLOSE :
+                  this.ContactFlag & confFactory.CONTACTFLAG_NOTIFYCLOSECONTACT;
               }
               , isTop: function() {
-                return this.ContactFlag & i.CONTACTFLAG_TOPCONTACT
+                return this.ContactFlag & confFactory.CONTACTFLAG_TOPCONTACT;
               }
-              , hasPhotoAlbum: function() {
-                return 1 & this.SnsFlag
+              , /**
+               * 是否有朋友圈相册
+               */
+              hasPhotoAlbum: function() {
+                return this.SnsFlag & 1;
               }
               , isInChatroom: function() {
-                var e = this;
-                return 0 == this.MemberList.length && 0 != this.ContactFlag || (e.MMInChatroom === !1 || e.MMInChatroom === !0 ? e.MMInChatroom : (angular.forEach(this.MemberList, function(t) {
-                  if (t.UserName == o.getUserInfo()
-                    .UserName) return void(e.MMInChatroom = !0)
-                }), e.MMInChatroom = e.MMInChatroom || !1, e.MMInChatroom))
-              }
-              , isReadOnlyContact: function() {
-                return E.indexOf(this.UserName) > -1
-              }
-              , getDisplayName: function(e) {
-                var t = this
-                  , a = "";
-                if (c.isRoomContact(t.UserName))
-                  if (a = t.RemarkName || t.NickName, !a && t.MemberList)
-                    for (var n = 0, i = t.MemberList.length; n < i && n < 10; ++n) {
-                      a.length > 0 && (a += ", ");
-                      var o = t.MemberList[n]
-                        , r = k.getContact(o.UserName);
-                      a += r && r.RemarkName || r && r.NickName || o.NickName
-                    } else a || (a = t.UserName);
-                  else a = t.RemarkName || e && e != t.UserName && t.getMemberDisplayName(e) || t.NickName;
-                return a
-              }
-              , getMemberDisplayName: function(e) {
-                k.getChatroomIdByUserName(e);
-                return e && y[e] ? y[e][this.UserName] : ""
-              }
-              , chatroomCanSearch: function(e) {
-                if (this.isRoomContact()) {
-                  if (this.canSearch(e)) return !0;
-                  for (var t = 0, a = this.MemberList.length; t < a; t++) {
-                    var n = this.MemberList[t].UserName
-                      , i = k.getContact(n);
-                    if (i && i.canSearch(e)) return !0
-                  }
-                }
-              }
-              , canSearch: function(e, t) {
-                if (!e) return !0;
-                e = e.toUpperCase();
-                var a = this.RemarkName || ""
-                  , n = this.RemarkPYQuanPin || ""
-                  , i = this.NickName || ""
-                  , o = this.PYQuanPin || ""
-                  , r = this.Alias || ""
-                  , c = this.KeyWord || ""
-                  , s = 0
-                  , l = 0;
-                return s = a.toUpperCase()
-                  .indexOf(e), l = n.toUpperCase()
-                  .indexOf(e), s >= 0 || l >= 0 || (s = i.toUpperCase()
-                    .indexOf(e), l = o.toUpperCase()
-                    .indexOf(e), s >= 0 || l >= 0 || (r.toUpperCase()
-                      .indexOf(e) >= 0 || c.toUpperCase()
-                      .indexOf(e) >= 0))
-              }
-              , update: function(e) {
-                e && angular.extend(this, e)
-              }
-            }
-            , k = {
-              contactChangeFlag: ""
-              , setCurrentContact: function(e) {
-                u = e
-              }
-              , getCurrentContact: function() {
-                return u
-              }
-              , isSelf: function(e) {
-                return o.getUserName() == e
-              }
-              , initContact: function(e) {
-                var n = a.defer();
-                return t({
-                    method: "GET"
-                    , url: i.API_webwxgetcontact
-                    , params: {
-                      skey: o.getSkey()
-                      , pass_ticket: o.getPassticket()
-                      , seq: e
-                      , r: c.now()
-                    }
-                  })
-                  .success(function(e) {
-                    n.resolve(e)
-                  })
-                  .error(function(e) {
-                    n.reject("error:" + e), l.report(l.ReportType.netError, {
-                      text: "init contact"
-                      , url: i.API_webwxgetcontact
-                      , params: {
-                        skey: o.getSkey()
-                        , pass_ticket: o.getPassticket()
-                      }
-                    })
-                  }), n.promise
-              }
-              , specialContactHandler: function(e) {
-                var t = {
-                  weixin: _("6c2fc35")
-                  , filehelper: _("eb7ec65")
-                  , newsapp: _("0469c27")
-                  , fmessage: _("a82c4c4")
-                };
-                return t[e.UserName] && (e.NickName = t[e.UserName]), "fmessage" == e.UserName && (e.ContactFlag = 0), e
-              }
-              , addContact: function(e) {
-                e && (e.isContact || (e = f(e), e.MMOrderSymbol = this.getContactOrderSymbol(e)), e.EncryChatRoomId && e.UserName && (e.MMFromBatchget = !0), e.RemarkName = e.RemarkName && r.transformSpanToImg(e.RemarkName), e.NickName = e
-                  .NickName && r.transformSpanToImg(e.NickName), e.isShieldUser() || !e.isContact() && !e.isRoomContact() ? this.addStrangerContact(e) : this.addFriendContact(e))
-              }
-              , addFriendContact: function(e) {
-                var t, a = this;
-                if (e) {
-                  if (e = a.specialContactHandler(e), t = m[e.UserName]) {
-                    for (var n in e) e[n] || delete e[n];
-                    angular.extend(t, e)
-                  } else m[e.UserName] = e;
-                  a.contactChangeFlag = +new Date, s.load({
-                    url: e.HeadImgUrl
-                    , type: "image"
-                  })
-                }
-              }
-              , addContacts: function(e, t) {
-                var a = this;
-                angular.forEach(e, function(e, n) {
-                  t && (e.MMFromBatchGet = !0), a.addContact(e)
-                })
-              }
-              , deleteContact: function(e) {
-                var t = this.getContact(e.UserName);
-                t && (delete m[e.UserName], angular.extend(t, e), g[e.UserName] = t)
-              }
-              , getContact: function(e, t, a) {
-                var n, i = this;
-                return n = m[e], n || (n = i.getStrangerContacts(e)), a ? n : ((!n || c.isRoomContact(e) && 0 == n.MemberList.length) && i.addBatchgetContact({
-                  UserName: e
-                  , EncryChatRoomId: t || ""
-                }), n)
-              }
-              , getStrangerContacts: function(e) {
-                return g[e]
-              }
-              , addStrangerContact: function(e) {
-                var t;
-                if (t = g[e.UserName]) {
-                  for (var a in e) e[a] || delete e[a];
-                  angular.extend(t, e)
-                } else g[e.UserName] = e;
-                s.load({
-                  url: e.HeadImgUrl
-                  , type: "image"
-                })
-              }
-              , addChatroomMemberDisplayName: function(e, t) {
-                e.DisplayName && t && (y[t] || (y[t] = {}), y[t][e.UserName] = e.DisplayName)
-              }
-              , getChatroomIdByUserName: function(e) {
-                var t = m[e] || {};
-                return t.EncryChatRoomId
-              }
-              , inContactsWithErrorToGetList: function(e) {
-                for (var t = 0, a = w.length; t < a; t++)
-                  if (w[t].UserName == e.UserName) return t;
-                return -1
-              }
-              , inContactsToGetList: function(e) {
-                for (var t = 0, a = b.length; t < a; t++)
-                  if (b[t].UserName == e.UserName) return t;
-                return -1
-              }
-              , inContactsGettingList: function(e) {
-                for (var t = 0, a = C.length; t < a; t++)
-                  if (C[t].UserName == e.UserName) return t;
-                return -1
-              }
-              , inContactsGetErrMap: function(e) {
-                return S[e.UserName]
-              }
-              , addBatchgetContact: function(e, t, i) {
-                function r(e) {
-                  f.resolve(e.ContactList), N = 0, angular.forEach(e.ContactList, function(e) {
-                      var t = u.inContactsToGetList({
-                        UserName: e.UserName
-                      });
-                      t > -1 && b.splice(t, 1), c.isRoomContact(e.UserName) && e.MemberList && e.MemberList.length ? angular.forEach(e.MemberList, function(t) {
-                        var a = u.getContact(t.UserName, "", !0);
-                        a && a.isContact() || (t.HeadImgUrl = c.getContactHeadImgUrl({
-                          EncryChatRoomId: e.EncryChatRoomId
-                          , UserName: t.UserName
-                          , Skey: o.getSkey()
-                        }), u.addContact(t)), u.addChatroomMemberDisplayName(t, e.UserName);
-                        var n = u.inContactsToGetList({
-                          UserName: t.UserName
-                        });
-                        n > -1 && b.splice(n, 1)
-                      }) : u.addChatroomMemberDisplayName(e, e.UserName)
-                    }), u.addContacts(e.ContactList, !0), C = [], !C.length && b.length > 0 && u.batchGetContact()
-                    .then(r, s)
+                var me = this;
+
+                if (this.MemberList.length == 0 && this.ContactFlag != 0) {
+                  return true;
                 }
 
-                function s(e) {
-                  var t = C;
-                  C = [], N++, f.reject(e), 1 == t.length ? S[t[0].UserName] = 1 : angular.forEach(t, function(e) {
-                      u.addBatchgetContact(e, !1, !0)
-                    }), C.length || !b.length && !w.length || u.batchGetContact()
-                    .then(r, s)
+                if (me.MMInChatroom === false || me.MMInChatroom === true) {
+                  return me.MMInChatroom;
                 }
-                var l, d, f = a.defer()
-                  , u = this;
-                if (e && e.UserName) {
-                  if (i) {
-                    if (u.inContactsWithErrorToGetList(e) > -1) return;
-                    w.push(e), l = u.inContactsToGetList(e), l > -1 && b.splice(l, 1)
+
+                angular.forEach(this.MemberList, function(item) {
+                  if (item.UserName == accountFactory.getUserInfo()
+                    .UserName) {
+                    me.MMInChatroom = true;
+                    return;
+                  }
+                });
+                me.MMInChatroom = me.MMInChatroom || false;
+                return me.MMInChatroom;
+
+              }
+              , isReadOnlyContact: function() {
+                return _readOnlyContacts.indexOf(this.UserName) > -1;
+              }
+              , /**
+               * 获取联系人`DisplayName`
+               * @param chatroomUserName 可选
+               */
+              getDisplayName: function(chatroomUserName) {
+                var me = this
+                  , displayName = "";
+
+                if (utilFactory.isRoomContact(me.UserName)) {
+                  displayName = me.RemarkName || me.NickName;
+                  if (!displayName && me.MemberList) {
+                    for (var i = 0, len = me.MemberList.length; i < len && i < 10; ++i) {
+                      if (displayName.length > 0) displayName += ", ";
+                      var roomMember = me.MemberList[i]
+                        , roomMemberFriend = service.getContact(roomMember.UserName);
+
+                      displayName += (roomMemberFriend && roomMemberFriend.RemarkName) /*|| roomMember.getDisplayName()*/ || (roomMemberFriend && roomMemberFriend.NickName) || roomMember.NickName;
+                    }
+                  } else if (!displayName) {
+                    displayName = me.UserName;
+                  }
+                } else {
+                  displayName = me.RemarkName || (chatroomUserName && chatroomUserName != me.UserName && me.getMemberDisplayName(chatroomUserName)) || me.NickName;
+                }
+                return displayName;
+              }
+              , getMemberDisplayName: function(chatroomUserName) {
+                var chatroomId = service.getChatroomIdByUserName(chatroomUserName);
+                if (chatroomUserName && _chatRoomMemberDisplayNames[chatroomUserName]) {
+                  return _chatRoomMemberDisplayNames[chatroomUserName][this.UserName];
+                } else {
+                  return '';
+                }
+              }
+              , chatroomCanSearch: function(keyword) {
+                if (this.isRoomContact()) {
+                  if (this.canSearch(keyword)) {
+                    return true;
                   } else {
-                    if (u.inContactsToGetList(e) > -1 || u.inContactsGettingList(e) > -1 || u.inContactsGetErrMap(e)) return;
-                    c.isRoomContact(e.UserName) || t ? b.unshift(e) : b.push(e)
-                  }
-                  return d && n.cancel(d), d = n(function() {
-                    C.length || !b.length && !w.length || u.batchGetContact()
-                      .then(r, s)
-                  }, 200), f.promise
-                }
-              }
-              , addBatchgetChatroomContact: function(e) {
-                if (c.isRoomContact(e)) {
-                  var t = this.getContact(e);
-                  t && t.MMFromBatchGet || this.addBatchgetContact({
-                    UserName: e
-                    , ChatRoomId: ""
-                  })
-                }
-              }
-              , addBatchgetChatroomMembersContact: function(e) {
-                var t = this
-                  , a = t.getContact(e);
-                a && a.isRoomContact() && !a.MMBatchgetMember && a.MemberList.length > 0 && (a.MMBatchgetMember = !0, angular.forEach(a.MemberList, function(e) {
-                  var n = t.getContact(e.UserName);
-                  !n || n.isContact() || n.MMFromBatchget || t.addBatchgetContact({
-                    UserName: n.UserName
-                    , EncryChatRoomId: a.UserName
-                  })
-                }))
-              }
-              , batchGetContact: function(e) {
-                var n = a.defer()
-                  , r = 1;
-                return w.length ? (r = w.length < 6 || N > 2 ? 1 : w.length < 40 ? 5 : 10, C = w.splice(0, r)) : C = b.splice(0, 50), t({
-                    method: "POST"
-                    , url: i.API_webwxbatchgetcontact + "?type=ex&r=" + c.now()
-                    , data: angular.extend(o.getBaseRequest(), {
-                      Count: C.length
-                      , List: C
-                    })
-                  })
-                  .success(function(t) {
-                    t && t.BaseResponse && 0 == t.BaseResponse.Ret ? n.resolve(t) : n.reject(e)
-                  })
-                  .error(function(t) {
-                    l.report(l.ReportType.netError, {
-                      text: "batchGetContact"
-                      , url: i.API_webwxbatchgetcontact
-                    }), n.reject(e)
-                  }), n.promise
-              }
-              , getChatRoomMembersContact: function(e, t) {
-                var a = this
-                  , n = m[e]
-                  , i = [];
-                return n ? (angular.forEach(n.MemberList, function(e) {
-                  var n = a.getContact(e.UserName);
-                  n || (n = e), t && n.UserName == o.getUserName() || i.push(n)
-                }), i) : []
-              }
-              , getAllContacts: function() {
-                return m
-              }
-              , getAllStarContact: function(e) {
-                e = e || {};
-                var t;
-                t = e.isNewArray ? [] : h, t.length = 0;
-                var a = e.filterContacts || {};
-                for (var n in m) {
-                  var i = m[n];
-                  i.isSelf() || 1 != i.StarFriend || a[n] || !i.canSearch(e.keyword) || t.push(i)
-                }
-                return t = t.sort(function(e, t) {
-                  return e.MMOrderSymbol > t.MMOrderSymbol ? 1 : -1
-                })
-              }
-              , getAllChatroomContact: function(e) {
-                e = e || {};
-                var t;
-                t = e.isNewArray ? [] : M, t.length = 0;
-                var a = e.filterContacts || {};
-                for (var n in m) {
-                  var i = m[n];
-                  if (i.isRoomContact() && (!e.keyword || i.chatroomCanSearch(e.keyword)) && !a[n]) {
-                    if (e.isSaved && !i.isContact()) continue;
-                    t.push(i)
-                  }
-                }
-                return t.sort(function(e, t) {
-                  return e.MMOrderSymbol > t.MMOrderSymbol ? 1 : -1
-                }), t
-              }
-              , getAllBrandContact: function(e) {
-                e = e || {};
-                var t;
-                t = e.isNewArray ? [] : v, t.length = 0;
-                for (var a in m) {
-                  var n = m[a];
-                  n.isBrandContact() && n.canSearch(e.keyword) && t.push(n)
-                }
-                return t.sort(function(e, t) {
-                  return e.MMOrderSymbol > t.MMOrderSymbol ? 1 : -1
-                }), t
-              }
-              , getAllFriendContact: function(e) {
-                e = e || {};
-                var t;
-                t = e.isNewArray ? [] : p, t.length = 0, e.filterContacts = e.filterContacts || {};
-                for (var a in m)
-                  if (!e.filterContacts[a]) {
-                    var n = m[a];
-                    n.isSelf() && !o.isHigherVer() || !n.isContact() || e.isWithoutStar && 1 == n.StarFriend || n.isRoomContact() || e.isWithoutBrand && n.isBrandContact() || n.isShieldUser() || n.canSearch(e.keyword) && t.push(n)
-                  }
-                return t.sort(function(e, t) {
-                  return e.MMOrderSymbol > t.MMOrderSymbol ? 1 : -1
-                }), t
-              }
-              , remoteSearch: function(e) {
-                function n(e) {
-                  for (var t, a, n = [], i = 0; i < e.length; i++) t = e[i].EncryUserName, a = m[t], a && a.isContact() && !a.isBrandContact() && n.push(a);
-                  return n
-                }
-                var r = a.defer();
-                return this.prevSearchCanceler && this.prevSearchCanceler.resolve(), this.prevSearchCanceler = a.defer(), T[e] ? r.resolve(n(T[e])) : t({
-                    method: "POST"
-                    , url: i.API_webwxsearch
-                    , timeout: this.prevSearchCanceler.promise
-                    , data: angular.extend(o.getBaseRequest(), {
-                      KeyWord: e
-                    })
-                  })
-                  .success(function(t) {
-                    if (t.BaseResponse && 0 == t.BaseResponse.Ret) {
-                      var a = t.List;
-                      a.length > 0 && (T[e] = a), r.resolve(n(a))
+                    for (var i = 0, len = this.MemberList.length; i < len; i++) {
+                      var _sUserName = this.MemberList[i].UserName
+                        , _oMember = service.getContact(_sUserName);
+                      if (_oMember && _oMember.canSearch(keyword)) {
+                        return true;
+                      }
                     }
-                  })
-                  .error(function(e) {}), r.promise
-              }
-              , pickContacts: function(e, t, a) {
-                for (var n, i, o, r = [], c = this, s = t.all || {}, l = 0; l < e.length; l++) switch (n = e[l], o = t[n] || {}, o = $.extend({}, o, s), n) {
-                  case "star":
-                    i = c.getAllStarContact(o), i.length > 0 && (o.noHeader || r.push({
-                      text: _("f13fb20")
-                      , type: "header"
-                    }), [].push.apply(r, i));
-                    break;
-                  case "friend":
-                    if (i = c.getAllFriendContact(o), i.length > 0) {
-                      o.showFriendHeader && r.push({
-                        text: _("59d29a3")
-                        , type: "header"
-                      });
-                      var d = "";
-                      o.showFriendHeader || o.noHeader || angular.forEach(i, function(e, t) {
-                        if (e.MMOrderSymbol) {
-                          var a = e.MMOrderSymbol.charAt(0);
-                          d != a && (d = a, i.splice(t, 0, {
-                            text: a
-                            , type: "header"
-                          }))
-                        }
-                      }), [].push.apply(r, i)
-                    }
-                    break;
-                  case "chatroom":
-                    i = c.getAllChatroomContact(o), i.length > 0 && (o.noHeader || r.push({
-                      text: _("4b0ab7b")
-                      , type: "header"
-                    }), [].push.apply(r, i));
-                    break;
-                  case "brand":
-                    i = c.getAllBrandContact(o), i.length > 0 && (t[n].noHeader || r.push({
-                      text: _("215feec")
-                      , type: "header"
-                    }), [].push.apply(r, i))
-                }
-                return a && (r = angular.copy(r)), {
-                  result: r
+                  }
+
                 }
               }
-              , getContactOrderSymbol: function(e) {
-                if (!e) return "";
-                var t = "";
-                return t = c.clearHtmlStr(e.RemarkPYQuanPin || e.PYQuanPin || e.NickName || "")
-                  .toLocaleUpperCase()
-                  .replace(/\W/gi, ""), t.charAt(0) < "A" && (t = "~"), t
-              }
-              , verifyUser: function(e) {
-                var n = a.defer()
-                  , r = {
-                    Opcode: e.Opcode || i.VERIFYUSER_OPCODE_VERIFYOK
-                    , VerifyUserListSize: 1
-                    , VerifyUserList: [{
-                      Value: e.UserName
-                      , VerifyUserTicket: e.Ticket || ""
-                    }]
-                    , VerifyContent: e.VerifyContent || ""
-                    , SceneListCount: 1
-                    , SceneList: [e.Scene]
-                    , skey: o.getSkey()
-                  };
-                return t({
-                    method: "POST"
-                    , url: i.API_webwxverifyuser + "?r=" + c.now()
-                    , data: angular.extend(o.getBaseRequest(), r)
-                  })
-                  .success(function(e) {
-                    e.BaseResponse && 0 == e.BaseResponse.Ret ? n.resolve(e) : (n.reject(e), l.report(l.ReportType.netError, {
-                      text: "添加验证好友，服务器返回错误"
-                      , url: i.API_webwxverifyuser
-                      , params: r
-                      , res: e
-                    }))
-                  })
-                  .error(function(e) {
-                    n.reject(e), l.report(l.ReportType.netError, {
-                      text: "添加验证好友，请求失败"
-                      , url: i.API_webwxverifyuser
-                      , params: r
-                      , res: e
-                    })
-                  }), n.promise
-              }
-              , setTopContact: function(t, a) {
-                var n = this.getContact(t);
-                a ? n.ContactFlag = n.ContactFlag | i.CONTACTFLAG_TOPCONTACT : n.ContactFlag = n.ContactFlag & ~i.CONTACTFLAG_TOPCONTACT, e.$broadcast("contact:settop", n), d({
-                    method: "POST"
-                    , url: i.API_webwxoplog
-                    , data: angular.extend({
-                      UserName: t
-                      , CmdId: i.oplogCmdId.TOPCONTACT
-                      , OP: a ? 1 : 0
-                      , RemarkName: n.RemarkName
-                    }, o.getBaseRequest())
-                    , MMRetry: {
-                      count: 3
-                      , timeout: 1e4
-                      , serial: !0
-                    }
-                  })
-                  .success(function(e) {})
-                  .error(function(e) {})
+              , /**
+               * 是否可以通过某关键字检索
+               * @param  {[type]} keyword
+               * @param  {[type]} _abContainChatroomMembers [description]
+               * @return {[type]}                           [description]
+               */
+              canSearch: function(keyword, _abContainChatroomMembers) {
+                if (!keyword) {
+
+                  return true;
+                }
+
+                keyword = keyword.toUpperCase();
+                var remarkName = this.RemarkName || '';
+                var remarkPYQuanPin = this.RemarkPYQuanPin || '';
+                var nickName = this.NickName || '';
+                var PYQuanPin = this.PYQuanPin || '';
+                var alias = this.Alias || '';
+                var userKeyWord = this.KeyWord || '';
+                var a = 0
+                  , b = 0;
+                a = remarkName.toUpperCase()
+                  .indexOf(keyword);
+                b = remarkPYQuanPin.toUpperCase()
+                  .indexOf(keyword);
+                if (a >= 0 || b >= 0) {
+
+                  return true;
+                }
+
+                a = nickName.toUpperCase()
+                  .indexOf(keyword);
+                b = PYQuanPin.toUpperCase()
+                  .indexOf(keyword);
+                if (a >= 0 || b >= 0) {
+
+                  return true;
+                }
+
+                if (alias.toUpperCase()
+                  .indexOf(keyword) >= 0) {
+
+                  return true;
+                }
+
+                if (userKeyWord.toUpperCase()
+                  .indexOf(keyword) >= 0) {
+                  return true;
+                }
+
+                return false;
+              },
+
+              update: function(_aoOptions) {
+                if (_aoOptions) {
+                  angular.extend(this, _aoOptions);
+                }
               }
             };
-          return k
-        }])
-    }()
-  }
-  , function(e, exports) {
-    ! function() {
-      "use strict";
-      angular.module("Services")
-        .factory("loginFactory", ["$http", "$q", "$timeout", "accountFactory", "confFactory", "utilFactory", "mmHttp", "reportService", function(e, t, a, n, i, o, r, c) {
-          var s = {
+
+            /**
+             * 扩展联系人对象
+             */
+            function _extendContact(contact) {
+              contact = angular.extend({
+                RemarkPYQuanPin: ""
+                , RemarkPYInitial: ""
+                , PYInitial: ""
+                , PYQuanPin: ""
+              }, contact, _contactOperates);
+              if (!contact.HeadImgUrl) {
+                contact.HeadImgUrl = confFactory.API_webwxgeticon + '?seq=0&username=' + contact.UserName + '&skey=' + accountFactory.getSkey();
+              }
+              return contact;
+            }
+
+            var service = {
+              contactChangeFlag: ''
+              , setCurrentContact: function(contact) {
+                _currentContact = contact;
+              }
+              , getCurrentContact: function() {
+                return _currentContact;
+              },
+
+              /**
+               * 判断`userName`是否当前登录用户
+               * @param userName - userName
+               * @returns {boolean} - true：传入的`userName`为当前登录用户；false: 传入的`userName`不是当前登录用户
+               */
+              isSelf: function(userName) {
+                return accountFactory.getUserName() == userName;
+              },
+
+              /**
+               * 从服务器获取全部联系人，返回`Promise`对象
+               * @returns {Promise}
+               */
+              initContact: function(seq) {
+                var deferred = $q.defer();
+                $http({
+                    method: 'GET'
+                    , url: confFactory.API_webwxgetcontact
+                    , params: {
+                      skey: accountFactory.getSkey()
+                      , pass_ticket: accountFactory.getPassticket()
+                      , seq: seq
+                      , r: utilFactory.now()
+                    }
+                  })
+                  .success(function(data) {
+                    deferred.resolve(data);
+                  })
+                  .error(function(data) {
+                    deferred.reject('error:' + data);
+
+                    reportService.report(reportService.ReportType.netError, {
+                      text: 'init contact'
+                      , url: confFactory.API_webwxgetcontact
+                      , params: {
+                        skey: accountFactory.getSkey()
+                        , pass_ticket: accountFactory.getPassticket()
+                      }
+                    })
+                  });
+                return deferred.promise;
+              }
+              , /**
+               * 联系人预处理
+               */
+              specialContactHandler: function(contact) {
+                var needModifyNickNameMap = {
+                  "weixin": _("6c2fc35")
+                  , "filehelper": _("eb7ec65")
+                  , "newsapp": _("0469c27")
+                  , "fmessage": _("a82c4c4")
+                };
+                // 部分微信内建联系人重新设置NickName
+                if (needModifyNickNameMap[contact.UserName]) {
+                  contact.NickName = needModifyNickNameMap[contact.UserName];
+                }
+                //
+                if (contact.UserName == "fmessage") {
+                  contact.ContactFlag = 0;
+                }
+                return contact;
+              }
+              , addContact: function(contact) {
+                if (!contact) return;
+                if (!contact.isContact) {
+                  contact = _extendContact(contact);
+                  contact.MMOrderSymbol = this.getContactOrderSymbol(contact);
+                }
+                if (contact.EncryChatRoomId && contact.UserName) {
+                  contact.MMFromBatchget = true;
+                }
+
+
+                contact.RemarkName = contact.RemarkName && emojiFactory.transformSpanToImg(contact.RemarkName);
+                contact.NickName = contact.NickName && emojiFactory.transformSpanToImg(contact.NickName);
+
+
+                if (!contact.isShieldUser() && (contact.isContact() || contact.isRoomContact())) {
+                  this.addFriendContact(contact);
+                } else {
+                  this.addStrangerContact(contact);
+                }
+              }
+              , /**
+               * 添加好友联系人
+               */
+              addFriendContact: function(contact) {
+                var me = this
+                  , oldContact;
+                if (!contact /* || utilFactory.isShieldUser(contact.UserName)*/ ) return;
+
+                contact = me.specialContactHandler(contact);
+                oldContact = _contacts[contact.UserName];
+                if (oldContact) {
+                  for (var attr in contact) {
+                    if (!contact[attr]) {
+                      delete contact[attr];
+                    }
+                  }
+                  angular.extend(oldContact, contact);
+                } else {
+                  //contact = _extendContact(contact);
+                  //if(contact.isShieldUser() || (!contact.isRoomContact() && !contact.NickName)) return;
+                  //contact.MMDisplayName = me.getContactDisplayName(contact);
+                  //contact.MMOrderSymbol = me.getContactOrderSymbol(contact);
+                  _contacts[contact.UserName] = contact;
+                  //if(contact.isRoomContact()) console.log('addContact chatroom:',contact.UserName,contact.MMDisplayName);
+                }
+                //
+                me.contactChangeFlag = +new Date;
+
+
+                resourceService.load({
+                  url: contact.HeadImgUrl
+                  , type: 'image'
+                });
+              }
+              , addContacts: function(contacts, isFromBatchGet) {
+                var me = this;
+
+                angular.forEach(contacts, function(contact, index) {
+                  if (isFromBatchGet) {
+                    contact.MMFromBatchGet = true;
+                  }
+                  me.addContact(contact);
+                  /*if (contact.ChatRoomId && contact.UserName) {
+                      me.addStrangerContact(contact);
+                      contact.MMFromBatchget = true;
+                  }else{
+                      me.addContact(contact);
+                  }*/
+
+                });
+
+              }
+              , /**
+               * 删除联系人，变为陌生人联系人
+               * @param  {[type]} userName
+               * @param  {[type]} contactFlag
+               */
+              deleteContact: function(deleteContact) {
+                var contact = this.getContact(deleteContact.UserName);
+                if (contact) {
+                  delete _contacts[deleteContact.UserName];
+                  angular.extend(contact, deleteContact);
+                  _strangerContacts[deleteContact.UserName] = contact;
+                }
+              }
+              , /**
+               * 根据`userName`获取联系人
+               * @param userName - 联系人名称
+               * @param chatroomId
+               * @returns {*}
+               */
+              getContact: function(userName, chatroomUserName, noBatchGet) {
+                var me = this
+                  , contact, chatroomId;
+
+                contact = _contacts[userName];
+                if (!contact) {
+                  contact = me.getStrangerContacts(userName)
+                }
+                if (noBatchGet) return contact;
+
+                if (!contact || (utilFactory.isRoomContact(userName) && contact.MemberList.length == 0) /* || (chatroomUserName && contact._getMemberDisplayName(chatroomUserName) === undefined)*/ ) {
+                  //  chatroomId = me.getChatroomIdByUserName(chatroomUserName);
+                  me.addBatchgetContact({
+                    UserName: userName
+                    , EncryChatRoomId: chatroomUserName || ""
+                  });
+                }
+                return contact;
+              }
+              , /**
+               * 获取陌生人联系人信息
+               * @param  userName
+               */
+              getStrangerContacts: function(userName) {
+                return _strangerContacts[userName];
+              }
+              , /**
+               * 添加陌生人联系人信息
+               * @param  userName
+               */
+              addStrangerContact: function(contact) {
+                var me = this
+                  , oldContact;
+
+                oldContact = _strangerContacts[contact.UserName];
+                if (oldContact) {
+                  for (var attr in contact) {
+                    if (!contact[attr]) {
+                      delete contact[attr];
+                    }
+                  }
+                  angular.extend(oldContact, contact);
+                } else {
+                  //contact = _extendContact(contact);
+                  //contact.MMDisplayName = me.getContactDisplayName(contact);
+                  //contact.MMOrderSymbol = me.getContactOrderSymbol(contact);
+                  _strangerContacts[contact.UserName] = contact;
+                }
+
+                resourceService.load({
+                  url: contact.HeadImgUrl
+                  , type: 'image'
+                });
+              }
+              , /**
+               * 添加群成员DisplayName，用于读取群成员昵称`DisplayName`
+               * @param contact
+               */
+              addChatroomMemberDisplayName: function(contact, chatroomUserName) {
+                if (!contact.DisplayName) return;
+
+                if (chatroomUserName) {
+                  if (!_chatRoomMemberDisplayNames[chatroomUserName]) {
+                    _chatRoomMemberDisplayNames[chatroomUserName] = {};
+                  }
+                  _chatRoomMemberDisplayNames[chatroomUserName][contact.UserName] = contact.DisplayName;
+                }
+              }
+              , getChatroomIdByUserName: function(chatroomUserName) {
+                var chatroomContact = _contacts[chatroomUserName] || {};
+                return chatroomContact.EncryChatRoomId;
+              }
+              , inContactsWithErrorToGetList: function(userObj) {
+                for (var i = 0, len = _contactsWithErrorToGetList.length; i < len; i++) {
+                  if (_contactsWithErrorToGetList[i].UserName == userObj.UserName) {
+                    return i;
+                  }
+                }
+                return -1;
+              }
+              , inContactsToGetList: function(userObj) {
+                for (var i = 0, len = _contactsToGetList.length; i < len; i++) {
+                  if (_contactsToGetList[i].UserName == userObj.UserName) {
+                    return i;
+                  }
+                }
+                return -1;
+              }
+              , inContactsGettingList: function(userObj) {
+                for (var i = 0, len = _contactsGettingList.length; i < len; i++) {
+                  if (_contactsGettingList[i].UserName == userObj.UserName) {
+                    return i;
+                  }
+                }
+                return -1;
+              }
+              , inContactsGetErrMap: function(userObj) {
+                return _contactsGetErrMap[userObj.UserName];
+              }
+              , /**
+               * 添加到批量获取联系人列表
+               */
+              addBatchgetContact: function(userObj, isBatchNow, isHadBathGetErrorOnce) {
+                var deferred = $q.defer()
+                  , me = this
+                  , tmpIndex, doBatchGetTimer;
+
+                if (!userObj || !userObj.UserName) return;
+
+                if (isHadBathGetErrorOnce) {
+                  if (me.inContactsWithErrorToGetList(userObj) > -1) {
+                    return;
+                  } else {
+                    _contactsWithErrorToGetList.push(userObj);
+                    tmpIndex = me.inContactsToGetList(userObj)
+                    if (tmpIndex > -1) {
+                      _contactsToGetList.splice(tmpIndex, 1);
+                    }
+                  }
+                } else {
+                  if (me.inContactsToGetList(userObj) > -1 || me.inContactsGettingList(userObj) > -1 || me.inContactsGetErrMap(userObj)) return;
+                  // 优先获取群聊联系人信息
+                  if (utilFactory.isRoomContact(userObj.UserName) || isBatchNow) {
+                    _contactsToGetList.unshift(userObj);
+                  } else {
+                    _contactsToGetList.push(userObj);
+                  }
+                }
+
+
+                doBatchGetTimer && $timeout.cancel(doBatchGetTimer);
+                // 等待200ms再batchget，减少batchget次数
+                doBatchGetTimer = $timeout(function() {
+                  if (!_contactsGettingList.length && (_contactsToGetList.length || _contactsWithErrorToGetList.length)) {
+                    me.batchGetContact()
+                      .then(addContactsHandler, batchGetContactErrorHandler);
+                  }
+                }, 200);
+
+                function addContactsHandler(data) {
+                  deferred.resolve(data.ContactList);
+                  _batchGetContinuousErrCount = 0;
+                  //console.log('batchGetContact',data);
+                  /*angular.forEach(_contactsGettingList,function (item,index) {
+                      if(_contactsGetErrMap[item.UserName]){
+                          _contactsGetErrMap[item.UserName] = _contactsGetErrMap[item.UserName] + 1;
+                      }else{
+                          _contactsGetErrMap[item.UserName] = 1;
+                      }
+                  });*/
+
+
+                  // add chatroom member contact
+                  // add chatroom member displayName
+                  console.time('addContactsHandler');
+                  angular.forEach(data.ContactList, function(contact) {
+                    var tmpIndex = me.inContactsToGetList({
+                      UserName: contact.UserName
+                    });
+                    if (tmpIndex > -1) {
+                      _contactsToGetList.splice(tmpIndex, 1);
+                    }
+                    if (utilFactory.isRoomContact(contact.UserName) && contact.MemberList && contact.MemberList.length) {
+                      angular.forEach(contact.MemberList, function(item) {
+                        var c = me.getContact(item.UserName, '', true);
+                        if (!c || !c.isContact()) {
+                          // batchget member contact no HeadImgUrl
+                          item.HeadImgUrl = utilFactory.getContactHeadImgUrl({
+                            EncryChatRoomId: contact.EncryChatRoomId
+                            , UserName: item.UserName
+                            , Skey: accountFactory.getSkey()
+                          });
+                          me.addContact(item);
+                        }
+                        me.addChatroomMemberDisplayName(item, contact.UserName);
+                        //remove current batchget member from _contactsToGetList
+                        var index = me.inContactsToGetList({
+                          UserName: item.UserName
+                        });
+                        if (index > -1) {
+                          _contactsToGetList.splice(index, 1);
+                        }
+                      });
+                    } else {
+                      me.addChatroomMemberDisplayName(contact, contact.UserName);
+                    }
+                  });
+
+
+                  console.timeEnd('addContactsHandler');
+                  me.addContacts(data.ContactList, true);
+
+                  //test
+                  /*angular.forEach(data.ContactList,function (contact) {
+                      if(utilFactory.isRoomContact(contact.UserName)){
+                          console.log('batchGetContact chatroom',contact.UserName,contact.NickName);
+                      }
+                  })*/
+                  //test end
+                  _contactsGettingList = [];
+                  if (!_contactsGettingList.length && _contactsToGetList.length > 0) {
+                    me.batchGetContact()
+                      .then(addContactsHandler, batchGetContactErrorHandler);
+                  }
+                }
+
+                function batchGetContactErrorHandler(errorToken) {
+                  var tmpGettingList = _contactsGettingList;
+                  _contactsGettingList = [];
+                  _batchGetContinuousErrCount++;
+                  deferred.reject(errorToken);
+                  if (tmpGettingList.length == 1) {
+                    console.log('batchGetContactError', tmpGettingList[0]);
+                    _contactsGetErrMap[tmpGettingList[0].UserName] = 1;
+                  } else {
+                    angular.forEach(tmpGettingList, function(item) {
+                      //console.log('batchGetContactErrorHandler push',item);
+                      me.addBatchgetContact(item, false, true);
+                    });
+                  }
+                  if (!_contactsGettingList.length && (_contactsToGetList.length || _contactsWithErrorToGetList.length)) {
+                    me.batchGetContact()
+                      .then(addContactsHandler, batchGetContactErrorHandler);
+                  }
+
+                  /*console.error('batchGetContactErrorHandler',errorToken);
+                  if(!_batchGetErrTokenMap[errorToken]){
+                      _batchGetErrTokenMap[errorToken] = 1;
+                  }
+                  if( _batchGetErrTokenMap[errorToken] > 2){
+                      console.error('batchGetContactErrorHandler max',errorToken);
+                      _contactsGettingList = [];
+                      if(!_contactsGettingList.length && _contactsToGetList.length >0){
+                          me.batchGetContact().then(addContactsHandler,batchGetContactErrorHandler);
+                      }
+                  }else{
+                      _batchGetErrTokenMap[errorToken] += 1;
+                      me.batchGetContact(errorToken).then(addContactsHandler,batchGetContactErrorHandler);
+                  }*/
+                }
+                return deferred.promise;
+              }
+              , addBatchgetChatroomContact: function(userName) {
+                if (!utilFactory.isRoomContact(userName)) return;
+
+                var contact = this.getContact(userName);
+                if (!contact || !contact.MMFromBatchGet) {
+                  this.addBatchgetContact({
+                    UserName: userName
+                    , ChatRoomId: ""
+                  });
+                }
+              }
+              , /**
+               * batchget群成员
+               * @param userName
+               */
+              addBatchgetChatroomMembersContact: function(userName) {
+                var me = this
+                  , chatroomContact = me.getContact(userName);
+
+                if (chatroomContact && chatroomContact.isRoomContact() && !chatroomContact.MMBatchgetMember && chatroomContact.MemberList.length > 0) {
+                  chatroomContact.MMBatchgetMember = true;
+                  angular.forEach(chatroomContact.MemberList, function(item) {
+                    var memberContact = me.getContact(item.UserName);
+                    if (memberContact && !memberContact.isContact() && !memberContact.MMFromBatchget) {
+                      me.addBatchgetContact({
+                        UserName: memberContact.UserName
+                        , EncryChatRoomId: chatroomContact.UserName
+                      });
+                    }
+                  });
+                }
+              }
+              , /**
+               * 批量获取联系人信息
+               */
+              batchGetContact: function(errorToken) {
+                var deferred = $q.defer()
+                  , contactsWithErrorToGetStep = 1
+                  , me = this;
+
+                if (_contactsWithErrorToGetList.length) {
+                  if (_contactsWithErrorToGetList.length < 6 || _batchGetContinuousErrCount > 2) {
+                    contactsWithErrorToGetStep = 1
+                  } else if (_contactsWithErrorToGetList.length < 40) {
+                    contactsWithErrorToGetStep = 5
+                  } else {
+                    contactsWithErrorToGetStep = 10
+                  }
+                  _contactsGettingList = _contactsWithErrorToGetList.splice(0, contactsWithErrorToGetStep);
+                  console.log('_contactsWithErrorToGetList lenght:', _contactsWithErrorToGetList.length);
+                } else {
+                  _contactsGettingList = _contactsToGetList.splice(0, 50);
+                }
+
+                $http({
+                    method: "POST"
+                    , url: confFactory.API_webwxbatchgetcontact + '?type=ex&r=' + utilFactory.now()
+                    , data: angular.extend(accountFactory.getBaseRequest(), {
+                      Count: _contactsGettingList.length
+                      , List: _contactsGettingList
+                    })
+                  })
+                  .success(function(data) {
+                    if (data && data.BaseResponse && data.BaseResponse.Ret == 0) {
+                      deferred.resolve(data);
+                    } else {
+                      console.log('batchGetContact data.BaseResponse.Ret =', data.BaseResponse.Ret);
+                      deferred.reject(errorToken);
+                    }
+                  })
+                  .error(function(data) {
+                    reportService.report(reportService.ReportType.netError, {
+                      text: 'batchGetContact'
+                      , url: confFactory.API_webwxbatchgetcontact
+                    })
+                    deferred.reject(errorToken);
+                  });
+                return deferred.promise;
+              }
+              , // 不再单独batchGet群用户，直接batchGet chatroom，这样回直接返回群聊用户displayName
+              /*batchGetChatroomMembersContact: function (userName) {
+                  var me = this,chatRoom;
+                  chatRoom = me.getContact(userName);
+                  if(chatRoom && chatRoom.MemberList){
+                      if(chatRoom.MemberList.length){
+                          angular.forEach(chatRoom.MemberList,function (item) {
+                              me.getContact(item.UserName,chatRoom.UserName);
+                          });
+                      }else{
+                          // MemberList.length = 0
+                          me.addBatchgetContact({
+                              UserName:userName,
+                              ChatRoomId:""
+                          });
+                      }
+                  }
+              },*/
+              /**
+               * 根据`群名称`获取群成员列表
+               * @param userName
+               * @param withoutMe 是否排除自己
+               * @returns {Array}
+               */
+              getChatRoomMembersContact: function(userName, withoutMe) {
+                var that = this
+                  , chatRoom = _contacts[userName]
+                  , chatRoomMembersContact = []
+                  , waitBatchGetContactList = [];
+
+                if (chatRoom) {
+                  angular.forEach(chatRoom.MemberList, function(item) {
+                    var tmpContact = that.getContact(item.UserName);
+                    if (!tmpContact) {
+                      tmpContact = item;
+                    }
+                    if (!(withoutMe && tmpContact.UserName == accountFactory.getUserName())) {
+                      chatRoomMembersContact.push(tmpContact);
+                    }
+                  });
+                  return chatRoomMembersContact;
+                } else {
+                  return [];
+                }
+              }
+              , /**
+               * 获取全部联系人
+               * @returns {{Array}}
+               */
+              getAllContacts: function() {
+                return _contacts;
+              },
+
+              /**
+               * 获取全部星标联系人
+               * @returns {Array}
+               */
+              getAllStarContact: function(options) {
+                options = options || {};
+
+                var contacts;
+                if (options.isNewArray) {
+                  contacts = [];
+                } else {
+                  contacts = _allStarContacts;
+                }
+                contacts.length = 0;
+
+                var filterContacts = options.filterContacts || {};
+
+                for (var name in _contacts) {
+                  var _contact = _contacts[name];
+                  if (!_contact.isSelf() && _contact.StarFriend == 1 && !filterContacts[name] && _contact.canSearch(options.keyword)) {
+                    contacts.push(_contact);
+                  }
+                }
+
+                contacts = contacts.sort(function(_oC1, _oC2) {
+                  return _oC1.MMOrderSymbol > _oC2.MMOrderSymbol ? 1 : -1;
+                });
+
+                return contacts;
+              }
+              , /**
+               * 获取全部群组
+               * options.isNewArray 是否产生新数组，避免多个地方使用同一个数组互相影响，但有不及时双向绑定问题
+               * options.isSaved 是否保存到通讯录里面的群组
+               * @returns {Array}
+               */
+              getAllChatroomContact: function(options) {
+                options = options || {};
+
+                var contacts;
+                if (options.isNewArray) {
+                  contacts = [];
+                } else {
+                  contacts = _allChatroomContacts;
+                }
+                contacts.length = 0;
+                var filterContacts = options.filterContacts || {};
+                for (var name in _contacts) {
+                  var contact = _contacts[name];
+                  if (contact.isRoomContact() && (!options.keyword || contact.chatroomCanSearch(options.keyword)) && !filterContacts[name]) {
+                    if (options.isSaved && !contact.isContact()) continue; // 筛选通讯录里的群组
+                    contacts.push(contact);
+                  }
+                }
+                contacts.sort(function(_oC1, _oC2) {
+                  return _oC1.MMOrderSymbol > _oC2.MMOrderSymbol ? 1 : -1;
+                });
+
+
+                return contacts;
+              }
+              , /**
+               * 获取所有公众号列表
+               * @param  {[type]} keyword [description]
+               * @return {[type]}         [description]
+               */
+              getAllBrandContact: function(options) {
+                options = options || {};
+
+                var contacts;
+                if (options.isNewArray) {
+                  contacts = [];
+                } else {
+                  contacts = _allBrandContacts;
+                }
+                contacts.length = 0;
+
+                for (var name in _contacts) {
+
+                  var contact = _contacts[name];
+                  if (!contact.isBrandContact()) {
+                    continue;
+                  }
+
+                  if (contact.canSearch(options.keyword)) {
+                    contacts.push(contact);
+                  }
+                }
+
+                contacts.sort(function(_oC1, _oC2) {
+                  return _oC1.MMOrderSymbol > _oC2.MMOrderSymbol ? 1 : -1;
+                });
+
+                return contacts;
+              }
+              , /**
+               * 获取好友联系人列表
+               * @param  {object} options
+               * @param  options.keyword
+               * @param  options.isNewArray       //是否产生新数组，避免多个地方使用同一个数组互相影响，但有不及时双向绑定问题
+               * @param  options.filterContacts   //过滤联系人列表
+               * @param  options.isWithoutStar      //是否排查标星好友
+               * @param  options.isWithoutBrand   //是否排除公众号
+               */
+              getAllFriendContact: function(options) {
+                options = options || {};
+
+                var contacts;
+                if (options.isNewArray) {
+                  contacts = [];
+                } else {
+                  contacts = _allFriendContacts;
+                }
+                contacts.length = 0;
+                options.filterContacts = options.filterContacts || {};
+                for (var name in _contacts) {
+                  if (options.filterContacts[name]) {
+                    continue;
+                  }
+
+                  var contact = _contacts[name];
+                  if ((contact.isSelf() && !accountFactory.isHigherVer()) || !contact.isContact() ||
+                    options.isWithoutStar && contact.StarFriend == 1 ||
+                    contact.isRoomContact() ||
+                    options.isWithoutBrand && contact.isBrandContact() ||
+                    contact.isShieldUser()) {
+                    //console.log('filter',contact.MMDisplayName);
+                    continue;
+                  }
+
+                  if (contact.canSearch(options.keyword)) {
+                    contacts.push(contact);
+                  }
+                }
+
+                contacts.sort(function(_oC1, _oC2) {
+                  return _oC1.MMOrderSymbol > _oC2.MMOrderSymbol ? 1 : -1;
+                });
+
+                /*contacts.sort(function(_oC1, _oC2){
+                    if(_oC1.MMOrderSymbol.charAt(0) != _oC2.MMOrderSymbol.charAt(0)){
+                        _oC1.MMC = _oC1.MMOrderSymbol.charAt(0);
+                    }
+                    return false;
+                });*/
+
+                return contacts;
+              },
+
+              /**
+               *
+               * @param keywork
+               * @return promise
+               */
+              remoteSearch: function(keyword) {
+                var deferred = $q.defer();
+                this.prevSearchCanceler && this.prevSearchCanceler.resolve();
+                this.prevSearchCanceler = $q.defer();
+                if (_remoteSearchCache[keyword]) {
+                  deferred.resolve(getContact(_remoteSearchCache[keyword]));
+                } else {
+                  $http({
+                      method: "POST"
+                      , url: confFactory.API_webwxsearch
+                      , timeout: this.prevSearchCanceler.promise
+                      , data: angular.extend(accountFactory.getBaseRequest(), {
+                        KeyWord: keyword
+                      })
+                    })
+                    .success(function(data) {
+                      if (data.BaseResponse && data.BaseResponse.Ret == 0) {
+                        var list = data.List;
+
+                        if (list.length > 0) {
+                          _remoteSearchCache[keyword] = list;
+                        }
+
+                        deferred.resolve(getContact(list));
+                      } else {
+                        //deferred.reject(data);
+                      }
+                    })
+                    .error(function(data) {
+                      //deferred.reject(data);
+                    });
+                }
+
+
+
+
+                return deferred.promise;
+
+                function getContact(list) {
+                  var username, user, result = [];
+                  for (var i = 0; i < list.length; i++) {
+                    username = list[i].EncryUserName;
+                    user = _contacts[username];
+
+                    if (user && user.isContact() && !user.isBrandContact()) result.push(user);
+                  }
+                  return result;
+                }
+              }
+              , pickContacts: function(pickList, opt, clone) {
+                var composeContacts = [];
+                var self = this
+                  , pickItem, tmp, optConf;
+                var allConfig = opt['all'] || {};
+                for (var i = 0; i < pickList.length; i++) {
+                  pickItem = pickList[i];
+                  optConf = opt[pickItem] || {};
+                  optConf = $.extend({}, optConf, allConfig);
+                  switch (pickItem) {
+                    case 'star':
+                      tmp = self.getAllStarContact(optConf);
+                      if (tmp.length > 0) {
+                        optConf.noHeader || composeContacts.push({
+                          text: _("f13fb20")
+                          , type: 'header'
+                        });
+                        [].push.apply(composeContacts, tmp);
+                      }
+
+                      ;
+                      break;
+                    case 'friend':
+                      tmp = self.getAllFriendContact(optConf);
+                      if (tmp.length > 0) {
+                        optConf.showFriendHeader && composeContacts.push({
+                          text: _("59d29a3")
+                          , type: 'header'
+                        });
+                        var currentOrderSymbol = '';
+
+                        optConf.showFriendHeader || optConf.noHeader || angular.forEach(tmp, function(item, index) {
+                          if (!item.MMOrderSymbol) return;
+                          var orderSymbol = item.MMOrderSymbol.charAt(0);
+                          if (currentOrderSymbol != orderSymbol) {
+                            currentOrderSymbol = orderSymbol;
+                            tmp.splice(index, 0, {
+                              text: orderSymbol
+                              , type: 'header'
+                            });
+                          }
+                        });
+                        [].push.apply(composeContacts, tmp);
+                      };
+                      break;
+                    case 'chatroom':
+                      tmp = self.getAllChatroomContact(optConf);
+                      if (tmp.length > 0) {
+                        optConf.noHeader || composeContacts.push({
+                          text: _("4b0ab7b")
+                          , type: 'header'
+                        });
+                        [].push.apply(composeContacts, tmp);
+                      };
+                      break;
+                    case 'brand':
+                      tmp = self.getAllBrandContact(optConf);
+                      if (tmp.length > 0) {
+                        opt[pickItem].noHeader || composeContacts.push({
+                          text: _("215feec")
+                          , type: 'header'
+                        });
+                        [].push.apply(composeContacts, tmp);
+                      };
+                      break;
+                  }
+                }
+
+                if (clone) {
+                  composeContacts = angular.copy(composeContacts);
+                }
+
+                return {
+                  result: composeContacts
+                }
+              },
+
+              /**
+               * 获取联系人排序符号
+               */
+              getContactOrderSymbol: function(contact) {
+                if (!contact) return '';
+                var orderSymbol = '';
+                orderSymbol = utilFactory.clearHtmlStr(contact.RemarkPYQuanPin || contact.PYQuanPin || contact.NickName || "")
+                  .toLocaleUpperCase()
+                  .replace(/\W/ig, "");
+
+                if (orderSymbol.charAt(0) < 'A') {
+                  orderSymbol = "~";
+                }
+                return orderSymbol;
+              }
+              , verifyUser: function(options) {
+                var deferred = $q.defer()
+                  , me = this;
+                var params = {
+                  Opcode: options.Opcode || confFactory.VERIFYUSER_OPCODE_VERIFYOK
+                  , VerifyUserListSize: 1
+                  , VerifyUserList: [{
+                    Value: options.UserName
+                    , VerifyUserTicket: options.Ticket || ''
+                  }]
+                  , VerifyContent: options.VerifyContent || ''
+                  , SceneListCount: 1
+                  , SceneList: [options.Scene]
+                  , skey: accountFactory.getSkey()
+                };
+                $http({
+                    method: "POST"
+                    , url: confFactory.API_webwxverifyuser + '?r=' + utilFactory.now()
+                    , data: angular.extend(accountFactory.getBaseRequest(), params)
+                  })
+                  .success(function(data) {
+                    if (data.BaseResponse && data.BaseResponse.Ret == 0) {
+                      deferred.resolve(data);
+                    } else {
+                      deferred.reject(data);
+
+                      reportService.report(reportService.ReportType.netError, {
+                        text: '添加验证好友，服务器返回错误'
+                        , url: confFactory.API_webwxverifyuser
+                        , params: params
+                        , res: data
+                      })
+                    }
+                  })
+                  .error(function(data) {
+                    deferred.reject(data);
+                    reportService.report(reportService.ReportType.netError, {
+                      text: '添加验证好友，请求失败'
+                      , url: confFactory.API_webwxverifyuser
+                      , params: params
+                      , res: data
+                    })
+                  });
+
+                return deferred.promise;
+              }
+              , setTopContact: function(username, top) {
+                var contact = this.getContact(username)
+
+                if (top) {
+                  contact.ContactFlag = contact.ContactFlag | confFactory.CONTACTFLAG_TOPCONTACT;
+                } else {
+                  contact.ContactFlag = contact.ContactFlag & ~confFactory.CONTACTFLAG_TOPCONTACT;
+                }
+                $rootScope.$broadcast('contact:settop', contact);
+
+                mmHttp({
+                    method: "POST"
+                    , url: confFactory.API_webwxoplog
+                    , data: angular.extend({
+                      UserName: username
+                      , CmdId: confFactory.oplogCmdId.TOPCONTACT
+                      , OP: top ? 1 : 0
+                      , RemarkName: contact.RemarkName
+                    }, accountFactory.getBaseRequest())
+                    , MMRetry: {
+                      count: 3
+                      , timeout: 10000
+                      , serial: true
+                    }
+                  })
+                  .success(function(data) {
+
+                  })
+                  .error(function(data) {
+
+                  });
+              }
+            };
+            return service;
+          }
+        ]);
+    })();
+
+
+    /***/
+  })
+  , /* 295 */
+  /***/
+  (function(module, exports) {
+
+    (function() {
+      'use strict';
+
+      /* Services */
+
+      angular.module('Services')
+        .factory('loginFactory', ['$http', '$q', '$timeout', 'accountFactory', 'confFactory', 'utilFactory', 'mmHttp', 'reportService', function($http, $q, $timeout, accountFactory, confFactory, utilFactory, mmHttp, reportService) {
+          var service = {
             getUUID: function() {
-              var e = t.defer();
-              return window.QRLogin = {}, $.ajax({
-                  url: i.API_jsLogin
+              var deferred = $q.defer();
+              window.QRLogin = {};
+              // ie8
+              $.ajax({
+                  url: confFactory.API_jsLogin
                   , dataType: "script"
-                  , timeout: 1e4
+                  , timeout: 10000
                 })
                 .done(function() {
-                  200 == window.QRLogin.code ? e.resolve(window.QRLogin.uuid) : e.reject(window.QRLogin.code)
+                  if (window.QRLogin.code == 200) {
+                    deferred.resolve(window.QRLogin.uuid);
+                  } else {
+                    deferred.reject(window.QRLogin.code);
+                  }
                 })
                 .fail(function() {
-                  e.reject()
-                }), e.promise
+                  deferred.reject();
+                  console.log('get uuid fail.....');
+                });
+              /*$http.jsonp(confFactory.API_jsLogin).success(function(data){
+                  //not standard jsonp, call error handler.
+              }).error(function(data){
+                  if(window.QRLogin.code==200){
+                      deferred.resolve(window.QRLogin.uuid);
+                  }else{
+                      deferred.reject(window.QRLogin.code);
+                  }
+              });*/
+              return deferred.promise;
             }
-            , getQrcode: function(e) {}
-            , checkLogin: function(e, a) {
-              var n = t.defer()
-                , a = a || 0;
-              return window.code = 0, window.checkLoginPromise = $.ajax({
-                  url: i.API_login + "?loginicon=true&uuid=" + e + "&tip=" + a + "&r=" + ~new Date
+            , getQrcode: function(argument) {
+              // body...
+            }
+            , checkLogin: function(uuid, tip) {
+              var deferred = $q.defer()
+                , tip = tip || 0;
+              window.code = 0;
+              // ie8
+              window.checkLoginPromise = $.ajax({
+                  url: confFactory.API_login + '?loginicon=true&uuid=' + uuid + '&tip=' + tip + '&r=' + ~new Date()
                   , dataType: "script"
-                  , timeout: 35e3
+                  , timeout: 35000
                 })
                 .done(function() {
-                  new RegExp("/" + location.host + "/");
-                  if (window.redirect_uri && window.redirect_uri.indexOf("/" + location.host + "/") < 0) return void(location.href = window.redirect_uri);
-                  var e = {
+                  var reg = new RegExp('\/' + location.host + '\/')
+
+                  if (window.redirect_uri && window.redirect_uri.indexOf('/' + location.host + '/') < 0) {
+                    location.href = window.redirect_uri;
+                    return;
+                  }
+                  var data = {
                     code: window.code
                     , redirect_uri: window.redirect_uri
                     , userAvatar: window.userAvatar
                   };
-                  n.resolve(e)
+                  deferred.resolve(data);
                 })
                 .fail(function() {
-                  n.reject()
-                }), n.promise
+                  deferred.reject();
+                  console.log('checkLogin fail.....');
+                });
+              /*$http.jsonp(confFactory.API_login+'?loginicon=true&uuid='+uuid+'&tip='+tip+'&r='+~new Date(),{timeout:35000}).success(function(data){
+	                //not standard jsonp, call error handler.
+	            }).error(function(data){
+	                var reg = new RegExp('\/'+location.host+'\/')
+	
+	                if(window.redirect_uri && window.redirect_uri.indexOf('/'+location.host+'/') < 0){
+	                    location.href = window.redirect_uri;
+	                    return;
+	                }
+	                var data = {
+	                    code:window.code,
+	                    redirect_uri:window.redirect_uri,
+	                    userAvatar:window.userAvatar
+	                };
+	                deferred.resolve(data);
+	            });*/
+              return deferred.promise;
             }
-            , associationLogin: function(e) {
-              var a = t.defer()
-                , n = i.API_webwxpushloginurl + "?uin=" + encodeURIComponent(e);
-              return i.isClientVersion && (n += "&mod=desktop"), $.ajax({
-                  url: n
-                  , dataType: "json"
+            , /**
+             * 关联登录
+             * @param uin
+             */
+            associationLogin: function(uin) {
+              var deferred = $q.defer();
+              var url = confFactory.API_webwxpushloginurl + '?uin=' + encodeURIComponent(uin);
+              console.log('associationLogin: ', url);
+
+              if (confFactory.isClientVersion) {
+                url = url + '&mod=desktop';
+              }
+
+
+              $.ajax({
+                  url: url
+                  , dataType: 'json'
                 })
-                .done(function(e) {
-                  0 == e.ret ? a.resolve(e) : a.reject(e)
-                })
-                .fail(function() {
-                  a.reject()
-                }), a.promise
-            }
-            , newLoginPage: function(e) {
-              var a = t.defer();
-              return r({
-                  method: "GET"
-                  , url: e + "&fun=new&version=v2"
-                  , MMRetry: {
-                    count: 3
-                    , timeout: 1e4
-                    , serial: !0
+                .done(function(res) {
+                  // {"ret":0,"msg":all ok,"uuid"：dfds34343}
+                  if (res.ret == 0) {
+                    deferred.resolve(res);
+                  } else {
+                    deferred.reject(res);
                   }
                 })
-                .success(function(e) {
-                  c.report(c.ReportType.timing, {
+                .fail(function() {
+                  deferred.reject();
+                });
+
+              return deferred.promise;
+            }
+            , newLoginPage: function(redirect_uri) {
+
+              let url = redirect_uri + "&fun=new&version=v2";
+
+              if (confFactory.isClientVersion) {
+                url = url + '&mod=desktop';
+              }
+
+
+              var deferred = $q.defer();
+              mmHttp({
+                  method: "GET"
+                  , url: url
+                  , MMRetry: {
+                    count: 3
+                    , timeout: 10000
+                    , serial: true
+                  }
+                })
+                .success(function(data) {
+                  reportService.report(reportService.ReportType.timing, {
                     timing: {
                       loginEnd: Date.now()
                     }
-                  }), a.resolve(e)
+                  });
+                  deferred.resolve(data);
                 })
-                .error(function(e) {
-                  a.reject("error:" + e)
-                }), a.promise
+                .error(function(data) {
+                  deferred.reject('error:' + data);
+                });
+              return deferred.promise;
             }
-            , loginout: function(e) {
+            , loginout: function(type) {
               window.onbeforeunload = null;
-              var t = i.API_webwxlogout + "?redirect=1&type=" + (e || 0) + "&skey=" + encodeURIComponent(n.getSkey());
-              o.form(t, {
-                sid: n.getSid()
-                , uin: n.getUin()
-              })
+              var url = confFactory.API_webwxlogout + "?redirect=1&type=" + (type || 0) + "&skey=" + encodeURIComponent(accountFactory.getSkey());
+              utilFactory.form(url, {
+                sid: accountFactory.getSid()
+                , uin: accountFactory.getUin()
+              });
             }
-            , timeoutDetect: function(e) {
-              return e = +e, 1100 == e ? (window.onbeforeunload = null, this.loginout(0), !0) : 1101 == e || 1102 == e ? (window.onbeforeunload = null, this.loginout(0), !0) : void(1205 == e && this.loginout(1))
+            , timeoutDetect: function(code) {
+              /*MMWEBWX_OK = 0 ,
+               MMWEBWX_ERR_SYS = -1 ,
+               MMWEBWX_ERR_LOGIC = -2 ,
+               MMWEBWX_ERR_SESSION_NOEXIST = 1100,
+               MMWEBWX_ERR_SESSION_INVALID = 1101,
+               MMWEBWX_ERR_PARSER_REQUEST = 1200,
+               MMWEBWX_ERR_FREQ = 1205 // 频率拦截
+               */
+              code = (+code);
+              if (code == 1100) {
+                window.onbeforeunload = null;
+                this.loginout(0);
+
+                return true;
+
+              } else if (code == 1101 || code == 1102) {
+                window.onbeforeunload = null;
+                this.loginout(0);
+
+                return true;
+              } else if (code == 1205) {
+                this.loginout(1);
+              }
             }
           };
-          return s
-        }])
-    }()
-  }
-  , function(e, exports, t) {
-    ! function() {
-      "use strict";
-      angular.module("Services")
-        .factory("utilFactory", ["$q", "$rootScope", "confFactory", function(e, a, n) {
-          function i(e, t, a, n) {
-            var i;
-            (i = d[e]) ? (i.intervalSum += a, n && n <= i.intervalSum && (setTimeout(t, 0), d[e].intervalSum = 0), clearTimeout(i.timer), i.timer = setTimeout(function() {
-              delete d[e], setTimeout(t, 0)
-            }, a)) : (setTimeout(t, 0), d[e] = {
-              intervalSum: 0
-              , timer: setTimeout(function() {
-                delete d[e]
-              }, a)
-            })
+          return service;
+        }]);
+    })();
+
+
+    /***/
+  })
+  , /* 296 */
+  /***/
+  (function(module, exports, __webpack_require__) {
+
+    (function() {
+      'use strict';
+
+      /* Services */
+
+      angular.module('Services')
+        .factory('utilFactory', ['$q', '$rootScope', 'confFactory', function($q, $rootScope, confFactory) {
+
+          window.isFocus = true; // 当前window是否聚焦
+          var shareObjects = {};
+          var _voicePlayer;
+          var _checkURLsuffix; // 获取checkurl时需要传参，但是参数需要用到accountFactory的数据，所以这里延迟赋值
+          var _urlReg = "(\\s|\\n|<br>|^)(http(s)?://.)?(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?(&|&amp;)//=]*)";
+
+          /**
+           * 特殊用户列表，not to insert in first
+           */
+          var _SpUsersList = [
+            "weibo"
+            , "qqmail"
+            , "fmessage"
+            , "tmessage"
+            , "qmessage"
+            , "qqsync"
+            , "floatbottle"
+            , "lbsapp"
+            , "shakeapp"
+            , "medianote"
+            , "qqfriend"
+            , "readerapp"
+            , //"newsapp",
+            "blogapp"
+            , "facebookapp"
+            , "masssendapp"
+            , "meishiapp"
+            , "feedsapp"
+            , "voip"
+            , "blogappweixin"
+            , "weixin"
+            , "brandsessionholder"
+            , "weixinreminder"
+            , "wxid_novlwrv3lqwv11"
+            , "gh_22b87fa7cb3c"
+            , "officialaccounts"
+            , "notification_messages"
+          ];
+          /**
+           * 屏蔽用户列表，not to show them
+           */
+          var _shieldUsersList = [
+            "newsapp", //临时屏蔽腾讯新闻
+            "wxid_novlwrv3lqwv11", //old voice reminder
+            "gh_22b87fa7cb3c", //new voice reminder
+            "notification_messages"
+          ];
+
+          var fitRunMap = {
+
+          };
+          /**
+           * 在合适的时间间隔去执行一个函数
+           * 注意：假设函数是频繁调用的，首次立即执行，第二次调用如果小于 interval ,那么会延后到 第二次时间+interval 的时候执行，如果继续这样频繁
+           * 地调用，那么会延后到 limit 所设定的极限值去执行，如果 limit 未设置，那么将会在最后一次事件触发后 +interval 时间去执行
+           * @param handler
+           * @param interval
+           * @param limit
+           */
+          var i = 0;
+
+          function fitRun(key, handler, interval, limit) {
+            var fitRunObj;
+            if (fitRunObj = fitRunMap[key]) {
+              fitRunObj.intervalSum += interval;
+              if (limit && limit <= fitRunObj.intervalSum) {
+                setTimeout(handler, 0);
+                fitRunMap[key].intervalSum = 0;
+              }
+
+              clearTimeout(fitRunObj.timer);
+              fitRunObj.timer = setTimeout(function() {
+                delete fitRunMap[key];
+                setTimeout(handler, 0);
+              }, interval)
+
+            } else {
+              setTimeout(handler, 0);
+
+              fitRunMap[key] = {
+                intervalSum: 0
+                , timer: setTimeout(function() {
+                  delete fitRunMap[key];
+                }, interval)
+              };
+
+            }
           }
-          window.isFocus = !0;
-          var o, r = {}
-            , c = "(\\s|\\n|<br>|^)(http(s)?://.)?(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?(&|&amp;)//=]*)"
-            , s = ["weibo", "qqmail", "fmessage", "tmessage", "qmessage", "qqsync", "floatbottle", "lbsapp", "shakeapp", "medianote", "qqfriend", "readerapp", "blogapp", "facebookapp", "masssendapp", "meishiapp", "feedsapp", "voip"
-              , "blogappweixin", "weixin", "brandsessionholder", "weixinreminder", "wxid_novlwrv3lqwv11", "gh_22b87fa7cb3c", "officialaccounts", "notification_messages"
-            ]
-            , l = ["newsapp", "wxid_novlwrv3lqwv11", "gh_22b87fa7cb3c", "notification_messages"]
-            , d = {};
+
           window.onfocus = function() {
-            window.isFocus = !0
-          }, window.onblur = function() {
-            window.isFocus = !1
+            window.isFocus = true;
           };
-          var f = {
-            isLog: !1
+          window.onblur = function() {
+            window.isFocus = false;
+          };
+
+          var service = {
+            isLog: false
             , log: function() {
-              this.isLog && void 0
+              this.isLog && console.log(arguments);
             }
             , now: function() {
-              return +new Date
+              return +new Date();
             }
-            , getCookie: function(e) {
-              for (var t = e + "=", a = document.cookie.split(";"), n = 0; n < a.length; n++) {
-                for (var i = a[n];
-                  " " == i.charAt(0);) i = i.substring(1);
-                if (i.indexOf(t) != -1) return i.substring(t.length, i.length)
+            , getCookie: function(cname) {
+              var name = cname + "=";
+              var ca = document.cookie.split(';');
+              for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') c = c.substring(1);
+                if (c.indexOf(name) != -1) return c.substring(name.length, c.length);
               }
-              return ""
+              return "";
             }
-            , setCookie: function(e, t, a) {
-              var n = new Date;
-              n.setTime(n.getTime() + 24 * a * 60 * 60 * 1e3);
-              var i = "expires=" + n.toUTCString();
-              document.cookie = e + "=" + t + "; " + i
+            , setCookie: function(cname, cvalue, exdays) {
+              var d = new Date();
+              d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+              var expires = "expires=" + d.toUTCString();
+              document.cookie = cname + "=" + cvalue + "; " + expires;
             }
             , clearCookie: function() {
-              for (var e = document.cookie.split(";"), t = 0; t < e.length; t++) {
-                var a = e[t]
-                  , n = a.indexOf("=")
-                  , i = n > -1 ? a.substr(0, n) : a;
-                document.cookie = i + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT"
+              var cookies = document.cookie.split(";");
+
+              for (var i = 0; i < cookies.length; i++) {
+                var cookie = cookies[i];
+                var eqPos = cookie.indexOf("=");
+                var name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+                document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
               }
             }
             , getLocalStorage: function() {
               return window.localStorage || {
-                getItem: function(e) {}
-                , setItem: function(e, t) {}
-                , removeItem: function(e) {}
-                , key: function(e) {
-                  return ""
+                getItem: function(k) {
+                  return undefined;
                 }
-              }
-            }
-            , htmlEncode: function(e) {
-              return angular.isString(e) ? e.replace(/&/g, "&amp;")
-                .replace(/"/g, "&quot;")
-                .replace(/'/g, "&#39;")
-                .replace(/</g, "&lt;")
-                .replace(/>/g, "&gt;") : ""
-            }
-            , htmlDecode: function(e) {
-              return e && 0 != e.length ? e.replace(/&lt;/g, "<")
-                .replace(/&gt;/g, ">")
-                .replace(/&#39;/g, "'")
-                .replace(/&quot;/g, '"')
-                .replace(/&amp;/g, "&") : ""
-            }
-            , hrefEncode: function(e) {
-              var t = this
-                , a = e.match(/&lt;a href=(?:'|").*?(?:'|").*?&gt;.*?&lt;\/a&gt;/g);
-              if (a) {
-                for (var n, i, o = 0, r = a.length; o < r; ++o) n = /&lt;a href=(?:'|")(.*?)(?:'|").*?&gt;.*?&lt;\/a&gt;/.exec(a[o]), n && n[1] && (i = n[1], t.isUrl(i) && (e = e.replace(n[0], this.htmlDecode(n[0]))
-                  .replace(n[1], f.genCheckURL(n[1]))));
-                return e
-              }
-              return e.replace(new RegExp(c, "ig"), function() {
-                return '<a target="_blank" href="' + f.genCheckURL(arguments[0].replace(/^(\s|\n)/, "")) + '">' + arguments[0] + "</a>"
-              })
-            }
-            , clearHtmlStr: function(e) {
-              return e ? e.replace(/<[^>]*>/g, "") : e
-            }
-            , clearLinkTag: function(e) {
-              return e
-            }
-            , setCheckUrl: function(e) {
-              o = "&skey=" + encodeURIComponent(e.getSkey()) + "&deviceid=" + encodeURIComponent(e.getDeviceID()) + "&pass_ticket=" + encodeURIComponent(e.getPassticket()) + "&opcode=2&scene=1&username=" + e.getUserName()
-            }
-            , genCheckURL: function(e) {
-              if (!o) throw "_checkURLsuffix is not ready!";
-              return n.API_webwxcheckurl + "?requrl=" + encodeURIComponent((0 == e.indexOf("http") ? "" : "http://") + f.clearHtmlStr(f.htmlDecode(e))) + o
-            }
-            , isUrl: function(e) {
-              return new RegExp(c, "i")
-                .test(e)
-            }
-            , formatNum: function(e, t) {
-              var a = (isNaN(e) ? 0 : e)
-                .toString()
-                , n = t - a.length;
-              return n > 0 ? [new Array(n + 1)
-                .join("0"), a
-              ].join("") : a
-            }
-            , getServerTime: function(e) {
-              return (new Date)
-                .getTime()
-            }
-            , globalEval: function(e) {
-              e && /\S/.test(e) && (window.execScript || function(e) {
-                window.eval.call(window, e)
-              })(e)
-            }
-            , evalVal: function(e) {
-              var t, a = "a" + this.now();
-              return this.globalEval(["(function(){try{window.", a, "=", e, ";}catch(_oError){}})();"].join("")), t = window[a], window[a] = null, t
-            }
-            , browser: function() {
-              var e, t = navigator.userAgent.toLowerCase();
-              if (null != t.match(/trident/)) e = {
-                browser: "msie"
-                , version: null != t.match(/msie ([\d.]+)/) ? t.match(/msie ([\d.]+)/)[1] : t.match(/rv:([\d.]+)/)[1]
+                , setItem: function(k, v) {
+                  return;
+                }
+                , removeItem: function(k) {
+                  return;
+                }
+                , key: function(k) {
+                  return '';
+                }
               };
-              else {
-                var a = /(msie) ([\w.]+)/.exec(t) || /(chrome)[ \/]([\w.]+)/.exec(t) || /(webkit)[ \/]([\w.]+)/.exec(t) || /(opera)(?:.*version|)[ \/]([\w.]+)/.exec(t) || t.indexOf("compatible") < 0 && /(mozilla)(?:.*? rv:([\w.]+)|)/.exec(
-                  t) || [];
-                e = {
-                  browser: a[1] || ""
-                  , version: a[2] || "0"
+            }
+            , htmlEncode: function(str) {
+              if (!angular.isString(str)) return '';
+              return str.replace(/&/g, '&amp;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#39;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;');
+            }
+            , htmlDecode: function(str) {
+              if (!str || str.length == 0) return "";
+              return str.replace(/&lt;/g, "<")
+                .replace(/&gt;/g, ">")
+                .replace(/&#39;/g, "\'")
+                .replace(/&quot;/g, "\"")
+                .replace(/&amp;/g, "&");
+            }
+            , hrefEncode: function(str) {
+              var me = this
+                , _aLinkArray = str.match(/&lt;a href=(?:'|").*?(?:'|").*?&gt;.*?&lt;\/a&gt;/g);
+
+              if (_aLinkArray) {
+                var _aLink, _sLink;
+                for (var i = 0, len = _aLinkArray.length; i < len; ++i) {
+                  _aLink = /&lt;a href=(?:'|")(.*?)(?:'|").*?&gt;.*?&lt;\/a&gt;/.exec(_aLinkArray[i]);
+                  if (!_aLink || !_aLink[1]) continue;
+                  _sLink = _aLink[1];
+                  if (me.isUrl(_sLink)) {
+                    str = str.replace(_aLink[0], this.htmlDecode(_aLink[0]))
+                      .replace(_aLink[1], service.genCheckURL(_aLink[1]));
+                  }
+                }
+                return str;
+              } else {
+                return str.replace(new RegExp(_urlReg, "ig"), function() {
+
+                  return '<a target="_blank" href="' + service.genCheckURL(arguments[0].replace(/^(\s|\n)/, '')) + '">' + arguments[0] + '</a>'
+                });
+              }
+            }
+            , clearHtmlStr: function(str) {
+              return str ? str.replace(/<[^>]*>/g, "") : str;
+            }
+            , clearLinkTag: function(str) {
+              return str;
+            }
+            , setCheckUrl: function(accountFactory) {
+              _checkURLsuffix =
+                "&skey=" + encodeURIComponent(accountFactory.getSkey()) +
+                "&deviceid=" + encodeURIComponent(accountFactory.getDeviceID()) +
+                "&pass_ticket=" + encodeURIComponent(accountFactory.getPassticket()) +
+                "&opcode=2&scene=1&username=" + accountFactory.getUserName();
+            }
+            , genCheckURL: function(url) {
+              if (!_checkURLsuffix) throw "_checkURLsuffix is not ready!";
+
+              return confFactory.API_webwxcheckurl +
+                "?requrl=" + encodeURIComponent((url.indexOf("http") == 0 ? "" : "http://") + service.clearHtmlStr(service.htmlDecode(url))) + _checkURLsuffix;
+            }
+            , isUrl: function(str) {
+              return new RegExp(_urlReg, "i")
+                .test(str);
+            }
+            , formatNum: function(_anNum, _anFormatLen) {
+              var _sNum = (isNaN(_anNum) ? 0 : _anNum)
+                .toString()
+                , _nPlusLen = _anFormatLen - _sNum.length;
+              return _nPlusLen > 0 ? [new Array(_nPlusLen + 1)
+                .join("0"), _sNum
+              ].join("") : _sNum;
+            }
+            , getServerTime: function(argument) {
+              return (new Date())
+                .getTime();
+            }
+            , globalEval: function(data) {
+              if (data && /\S/.test(data)) {
+                (window.execScript ||
+                  function(data) {
+                    window["eval"].call(window, data);
+                  })(data);
+              }
+            }
+            , evalVal: function(_asCode) {
+              var _sKey = "a" + this.now()
+                , _oValue;
+
+              this.globalEval(["(function(){try{window.", _sKey, "=", _asCode, ";}catch(_oError){}})();"].join(""));
+              _oValue = window[_sKey];
+              window[_sKey] = null;
+
+              return _oValue;
+            }
+            , browser: (function() {
+              var ua = navigator.userAgent.toLowerCase();
+              var matched;
+              if (ua.match(/trident/) != null) {
+                matched = {
+                  browser: "msie"
+                  , version: ua.match(/msie ([\d.]+)/) != null ? ua.match(/msie ([\d.]+)/)[1] : ua.match(/rv:([\d.]+)/)[1]
+                };
+              } else {
+                var match = /(msie) ([\w.]+)/.exec(ua) ||
+                  /(chrome)[ \/]([\w.]+)/.exec(ua) ||
+                  /(webkit)[ \/]([\w.]+)/.exec(ua) ||
+                  /(opera)(?:.*version|)[ \/]([\w.]+)/.exec(ua) ||
+                  ua.indexOf("compatible") < 0 && /(mozilla)(?:.*? rv:([\w.]+)|)/.exec(ua) || [];
+                matched = {
+                  browser: match[1] || ""
+                  , version: match[2] || "0"
+                };
+              }
+
+              var browser = {};
+
+              if (matched.browser) {
+                browser[matched.browser] = true;
+                browser.version = matched.version;
+              }
+              if (browser.chrome) {
+                browser.webkit = true;
+              } else if (browser.webkit) {
+                browser.safari = true;
+              }
+              return browser;
+            })()
+            , /**
+             * 是否为特殊联系人，
+             * @param  userName
+             */
+            isSpUser: function(userName) {
+              for (var i = 0
+                  , len = _SpUsersList.length; i < len; i++) {
+                if (_SpUsersList[i] === userName || /@qqim$/.test(userName)) {
+                  return true;
                 }
               }
-              var n = {};
-              return e.browser && (n[e.browser] = !0, n.version = e.version), n.chrome ? n.webkit = !0 : n.webkit && (n.safari = !0), n
-            }()
-            , isSpUser: function(e) {
-              for (var t = 0, a = s.length; t < a; t++)
-                if (s[t] === e || /@qqim$/.test(e)) return !0;
-              return !1
+
+              return false;
             }
-            , isShieldUser: function(e) {
-              if (/@lbsroom$/.test(e) || /@talkroom$/.test(e)) return !0;
-              for (var t = 0, a = l.length; t < a; ++t)
-                if (l[t] == e) return !0;
-              return !1
+            , /**
+             * 是否为屏蔽联系人，不显示
+             * @param  userName
+             */
+            isShieldUser: function(userName) {
+              if (/@lbsroom$/.test(userName) || /@talkroom$/.test(userName)) return true;
+
+              for (var i = 0, len = _shieldUsersList.length; i < len; ++i) {
+                if (_shieldUsersList[i] == userName) return true;
+              }
+              return false;
             }
-            , isRoomContact: function(e) {
-              return !!e && /^@@|@chatroom$/.test(e)
+            , /**
+             * 是否为群聊
+             * @param  userName
+             */
+            isRoomContact: function(userName) {
+              if (!userName) return false;
+              return /^@@|@chatroom$/.test(userName); // 以@@开头或者@chatroom结尾
             }
-            , initMsgNoticePlayer: function(e) {
-              t.e(2, function(require) {
-                var a = (t(278), jQuery("#msgNoticePlayer"));
-                a.jPlayer({
+            , /**
+             * 初始化音频播放器
+             * @param url
+             */
+            initMsgNoticePlayer: function(url) {
+
+              __webpack_require__.e /* nsure */ (2 /* duplicate */ , function(require) {
+                var jplayer = __webpack_require__(278);
+                var myPlayer = jQuery('#msgNoticePlayer');
+                myPlayer.jPlayer({
                   ready: function() {}
                   , swfPath: window.MMSource.jplayerSwfPath
-                  , solution: "html, flash"
+                  , solution: 'html, flash'
                   , supplied: "mp3"
                   , wmode: "window"
-                }), a.jPlayer("stop"), a.jPlayer("setMedia", {
-                  mp3: e
-                }), a.jPlayer("play")
-              })
+                });
+
+                myPlayer.jPlayer("stop");
+                myPlayer.jPlayer("setMedia", {
+                  mp3: url
+                });
+                myPlayer.jPlayer("play");
+              });
             }
-            , getContactHeadImgUrl: function(e) {
-              return (this.isRoomContact(e.UserName) ? n.API_webwxgetheadimg : n.API_webwxgeticon) + "?seq=0&username=" + e.UserName + "&skey=" + e.Skey + (e.MsgId ? "&msgid=" + e.MsgId : "") + (e.EncryChatRoomId ? "&chatroomid=" + e.EncryChatRoomId :
-                "")
+            , /**
+             * 根据UserName获取头像URL
+             * @param userName
+             * @param skey
+             */
+            getContactHeadImgUrl: function(options) {
+              return (this.isRoomContact(options.UserName) ? confFactory.API_webwxgetheadimg : confFactory.API_webwxgeticon) + '?seq=0&username=' + options.UserName + '&skey=' + options.Skey + (options.MsgId ? ('&msgid=' + options.MsgId) :
+                '') + (options.EncryChatRoomId ? ('&chatroomid=' + options.EncryChatRoomId) : '');
             }
-            , form: function(e, t) {
-              t = t || {};
-              var a, n = [];
-              n.push('<form method="POST" action="' + this.htmlEncode(e) + '">');
-              for (var i in t) n.push('<input type="hidden" name="' + i + '" value="' + t[i] + '">');
-              n.push("</form>"), a = angular.element(n.join(""))[0], document.body.appendChild(a), a.submit()
+            , form: function(url, data) {
+              data = data || {};
+              var formEl, form = [];
+
+              form.push('<form method="POST" action="' + this.htmlEncode(url) + '">');
+              for (var key in data) {
+                form.push('<input type="hidden" name="' + key + '" value="' + data[key] + '">');
+              }
+              form.push('</form>');
+              formEl = angular.element(form.join(''))[0];
+              document.body.appendChild(formEl);
+              formEl.submit();
             }
             , queryParser: function() {
-              for (var e = {}, t = location.search.substring(1), a = t.split("&"), n = 0, i = a.length; n < i; n++) {
-                var o = a[n].split("=")
-                  , r = decodeURIComponent(o[0]);
-                e[r] = decodeURIComponent(o[1] || "")
+              var obj = {};
+              var query = location.search.substring(1);
+              var vars = query.split('&');
+              for (var i = 0, len = vars.length; i < len; i++) {
+                var pair = vars[i].split('=');
+                var key = decodeURIComponent(pair[0]);
+                obj[key] = decodeURIComponent(pair[1] || '');
               }
-              return e
+              return obj;
             }
-            , getSize: function(e) {
-              if (e = +e) {
-                var t = 10
-                  , a = 10
-                  , n = 20
-                  , i = 1 << a
-                  , o = 1 << n;
-                if (e >> n > 0) {
-                  var r = Math.round(e * t / o) / t;
-                  return "" + r + "MB"
-                }
-                if (e >> a - 1 > 0) {
-                  var c = Math.round(e * t / i) / t;
-                  return "" + c + "KB"
-                }
-                return "" + e + "B"
+            , getSize: function(bytes) {
+              bytes = +bytes;
+              if (!bytes) return;
+              var cRound = 10;
+              var BIT_OF_KB = 10
+                , BIT_OF_MB = 20
+                , BYTE_OF_KB = 1 << BIT_OF_KB
+                , BYTE_OF_MB = 1 << BIT_OF_MB;
+
+              // > 1MB
+              if ((bytes >> BIT_OF_MB) > 0) {
+                var bytesInMB = (Math.round(bytes * cRound / BYTE_OF_MB)) / cRound;
+                return "" + bytesInMB + "MB";
               }
+
+              // > 0.5K
+              if ((bytes >> (BIT_OF_KB - 1)) > 0) {
+                var bytesInKB = (Math.round(bytes * cRound / BYTE_OF_KB)) / cRound;
+                return "" + bytesInKB + "KB";
+              }
+
+              return "" + bytes + "B";
             }
-            , xml2json: function(e) {
-              if (!e) return {};
+            , xml2json: function(str) {
+              if (!str) return {};
               try {
-                var t = e.indexOf("<");
-                return t && (e = e.substr(t)), $.xml2json(e)
-              } catch (e) {
-                return {}
+                var index = str.indexOf("<");
+                if (index) {
+                  str = str.substr(index);
+                }
+                return $.xml2json(str);
+              } catch (ex) {
+                console.error(ex);
+                return {};
               }
             }
-            , encodeEmoji: function(e) {
-              return e = e || "", e = e.replace(/<span class="(emoji emoji[a-zA-Z0-9]+)"><\/span>/g, "###__EMOJI__$1__###")
+            , encodeEmoji: function(str) {
+              str = str || '';
+              str = str.replace(/<span class="(emoji emoji[a-zA-Z0-9]+)"><\/span>/g, '###__EMOJI__$1__###');
+              return str;
             }
-            , decodeEmoji: function(e) {
-              return e = e || "", e = e.replace(/###__EMOJI__(emoji emoji[a-zA-Z0-9]+)__###/g, '<span class="$1"></span>')
+            , decodeEmoji: function(str) {
+              str = str || '';
+              //str = this.htmlEncode(str);
+              str = str.replace(/###__EMOJI__(emoji emoji[a-zA-Z0-9]+)__###/g, '<span class="$1"><\/span>');
+              return str;
             }
-            , removeHtmlStrTag: function(e) {
-              return e = e || "", e = this.encodeEmoji(e), e = this.htmlDecode(e), e = this.clearHtmlStr(e), e = this.decodeEmoji(e)
+            , removeHtmlStrTag: function(str) {
+              str = str || '';
+              str = this.encodeEmoji(str);
+              str = this.htmlDecode(str);
+              str = this.clearHtmlStr(str);
+              str = this.decodeEmoji(str);
+              return str;
             }
-            , safeDigest: function(e) {
-              e = e || a, e.$$phase || e.$digest()
+            , safeDigest: function(scope) {
+              scope = scope || $rootScope;
+              if (!scope.$$phase) {
+                scope.$digest();
+              }
             }
-            , wait: function(e, t, a) {
-              var a = a || 10;
-              setTimeout(function n() {
-                e() ? t() : setTimeout(n, a)
-              }, a)
-            }
-            , fitRun: i
-            , findIndex: function(e, t) {
-              for (var a = 0; a < e.length; a++)
-                if (e[a] == t) return a;
-              return -1
-            }
-            , genEmoticonHTML: function(e, t) {
-              return '<img class="' + e + '" text="' + t + (t.indexOf(n.MM_EMOTICON_WEB) > -1 ? "" : n.MM_EMOTICON_WEB) + '" src="' + n.RES_IMG_PLACEHOLDER + '" />'
-            }
-            , getShareObject: function(e) {
-              return r[e] = r[e] || {}, r[e]
-            }
-            , reportSendState: function(e, t) {
-              var a = 63637
-                , n = this.browser.msie
-                , i = {
-                  sendFileWrong: {
-                    ie: 63
-                    , notIe: 64
-                  }
-                  , sendImageWrong: {
-                    ie: 65
-                    , notIe: 66
-                  }
-                  , uiCheckFail: {
-                    ie: 84
-                    , notIe: 84
-                  }
-                  , MD5TimeBigFilePerMb: {
-                    ie: 69
-                    , notIe: 70
-                  }
-                  , MD5TimeSmallFile: {
-                    ie: 71
-                    , notIe: 72
-                  }
-                  , MD5TimeBigFilePerMbCount: {
-                    ie: 73
-                    , notIe: 74
-                  }
-                  , MD5TimeSmallFileCount: {
-                    ie: 75
-                    , notIe: 76
-                  }
-                  , sendcheckElementError: {
-                    ie: 77
-                    , notIe: 77
-                  }
-                  , sendcheckAttrError: {
-                    ie: 78
-                    , notIe: 78
-                  }
-                  , chatCurrentNameNotFound: {
-                    ie: 79
-                    , notIe: 79
-                  }
-                  , navcurrentNameNotFound: {
-                    ie: 80
-                    , notIe: 80
-                  }
-                  , toUserNameNotFound: {
-                    ie: 81
-                    , notIe: 81
-                  }
-                  , toUserNameConflictNav: {
-                    ie: 82
-                    , notIe: 82
-                  }
-                  , toUserNameConflictChat: {
-                    ie: 83
-                    , notIe: 83
-                  }
-                  , sendFile: {
-                    ie: 86
-                    , notIe: 86
-                  }
+            , wait: function(func, cb, time) {
+              var time = time || 10;
+              setTimeout(function task() {
+                if (func()) {
+                  cb()
+                } else {
+                  setTimeout(task, time);
                 }
-                , o = i[e];
-              o && this.reportIdkey(a, o[n ? "ie" : "notIe"], t)
-            }
-            , reportIdkey: function(e, t, a) {
-              var n = "https://support.weixin.qq.com/cgi-bin/mmsupport-bin/reportforweb?rid=" + e + "&rkey=" + t + "&rvalue=" + (a || 1);
-              (new Image)
-              .src = n
-            }
-            , isUserName: function() {}
+              }, time);
+            },
+
+            fitRun: fitRun
+            , findIndex: function(list, item) {
+              for (var i = 0; i < list.length; i++) {
+                if (list[i] == item) return i;
+              }
+              return -1;
+            },
+
+
+            // 生成表情的html，统一接口
+            genEmoticonHTML: function(className, text) {
+              return '<img class="' + className + '" ' +
+                'text="' + text + (text.indexOf(confFactory.MM_EMOTICON_WEB) > -1 ? "" : confFactory.MM_EMOTICON_WEB) + '" ' +
+                'src="' + confFactory.RES_IMG_PLACEHOLDER + '" />';
+            },
+
+
+            getShareObject: function(key) {
+              shareObjects[key] = shareObjects[key] || {};
+              return shareObjects[key];
+            },
+
+
+
+            reportSendState: function(type, value) {
+              var id = 63637;
+              var isIE = this.browser.msie;
+              var map = {
+                sendFileWrong: {
+                  ie: 63
+                  , notIe: 64
+                }
+                , sendImageWrong: {
+                  ie: 65
+                  , notIe: 66
+                }
+                , uiCheckFail: {
+                  ie: 84
+                  , notIe: 84
+                }
+                , MD5TimeBigFilePerMb: {
+                  ie: 69
+                  , notIe: 70
+                }
+                , MD5TimeSmallFile: {
+                  ie: 71
+                  , notIe: 72
+                }
+                , MD5TimeBigFilePerMbCount: {
+                  ie: 73
+                  , notIe: 74
+                }
+                , MD5TimeSmallFileCount: {
+                  ie: 75
+                  , notIe: 76
+                }
+                , sendcheckElementError: {
+                  ie: 77
+                  , notIe: 77
+                }
+                , sendcheckAttrError: {
+                  ie: 78
+                  , notIe: 78
+                }
+                , chatCurrentNameNotFound: {
+                  ie: 79
+                  , notIe: 79
+                }
+                , navcurrentNameNotFound: {
+                  ie: 80
+                  , notIe: 80
+                }
+                , toUserNameNotFound: {
+                  ie: 81
+                  , notIe: 81
+                }
+                , toUserNameConflictNav: {
+                  ie: 82
+                  , notIe: 82
+                }
+                , toUserNameConflictChat: {
+                  ie: 83
+                  , notIe: 83
+                }
+                , sendFile: {
+                  ie: 86
+                  , notIe: 86
+                }
+              }
+
+
+              var config = map[type];
+              if (config) {
+                this.reportIdkey(id, config[isIE ? 'ie' : 'notIe'], value)
+              }
+
+
+            },
+
+
+
+            reportIdkey: function(id, key, value) {
+              var url = 'https://support.weixin.qq.com/cgi-bin/mmsupport-bin/reportforweb?rid=' + id + '&rkey=' + key + '&rvalue=' + (value || 1);
+              (new Image())
+              .src = url;
+            },
+
+
+
+            isUserName: function() {}
             , isWindows: /windows/gi.test(navigator.userAgent)
             , isMacOS: /macintosh/gi.test(navigator.userAgent)
             , isIPad: /ipad/gi.test(navigator.userAgent)
           };
-          return f
-        }])
-    }()
-  }
-  , function(e, exports) {
-    ! function() {
-      "use strict";
-      angular.module("Services")
-        .factory("emojiFactory", ["$http", "$q", "confFactory", "utilFactory", function(e, t, a, n) {
-          var i = {
-            formatHTMLToSend: function(e) {
-              var t = this;
-              return n.htmlDecode(n.clearHtmlStr(e.replace(/<(?:img|IMG).*?text="(.*?)".*?>/g, function(e, t) {
-                    return t.replace(a.MM_EMOTICON_WEB, "")
+
+          return service;
+        }]);
+    })();
+
+    /***/
+  })
+  , /* 297 */
+  /***/
+  (function(module, exports) {
+
+    (function() {
+      'use strict';
+
+      /* Services */
+
+      angular.module('Services')
+        .factory('emojiFactory', ['$http', '$q', 'confFactory', 'utilFactory', function($http, $q, confFactory, utilFactory) {
+
+          var service = {
+            formatHTMLToSend: function(html) {
+              var self = this;
+              return utilFactory.htmlDecode(utilFactory.clearHtmlStr(
+                  html
+                  .replace(/<(?:img|IMG).*?text="(.*?)".*?>/g, function(content, text) { //去img里的text属性替换本身（把img标签(表情)转换成可发送的数据）
+                    return text.replace(confFactory.MM_EMOTICON_WEB, "");
                   })
-                  .replace(/<(?:br|BR)\/?>/g, "\n")))
-                .replace(/<(.*?)>/g, function(e) {
-                  return t.EmojiCodeMap[t.QQFaceMap[e]] || e
+                  .replace(/<(?:br|BR)\/?>/g, "\n")
+                ))
+                .replace(/<(.*?)>/g, function(str) {
+                  return self.EmojiCodeMap[self.QQFaceMap[str]] || str;
                 })
             }
-            , transformSpanToImg: function(e) {
-              var t = this;
-              return e && e.replace(/<span.*?class="emoji emoji(.*?)"><\/span>/g, function() {
-                var e = t.EmojiCodeMap[arguments[1]];
-                return n.genEmoticonHTML("emoji emoji" + arguments[1], e || "")
-              })
+            , transformSpanToImg: function(htmlWithSpan) {
+              var self = this;
+              return htmlWithSpan && htmlWithSpan.replace(/<span.*?class="emoji emoji(.*?)"><\/span>/g, function() {
+                var unicode = self.EmojiCodeMap[arguments[1]];
+                return utilFactory.genEmoticonHTML("emoji emoji" + arguments[1], unicode || '')
+              });
             }
-            , emoticonFormat: function(e) {
-              var t = this;
-              return 0 == e.length ? "" : (e = e.replace(new RegExp("(\\[.+?\\])(?!" + a.MM_EMOTICON_WEB + ")", "g"), function(e, a) {
-                  return t.getEmoticonByText(a) || e
+            , emoticonFormat: function(text) {
+              var me = this;
+              if (text.length == 0) return "";
+              text = text
+                .replace(new RegExp("(\\[.+?\\])" + "(?!" + confFactory.MM_EMOTICON_WEB + ")", "g"), function(content, text) { // [xxx] QQFace
+                  return me.getEmoticonByText(text) || content;
                 })
-                .replace(new RegExp("&lt;(.+?)&gt;(?!" + a.MM_EMOTICON_WEB + ")", "g"), function(e, a) {
-                  return t.getEmoticonByText("<" + a + ">") || e
-                }), e = t.transformSpanToImg(e))
+                .replace(new RegExp("&lt;(.+?)&gt;" + "(?!" + confFactory.MM_EMOTICON_WEB + ")", "g"), function(content, text) { // <xxx> EmojiFace
+                  return me.getEmoticonByText("<" + text + ">") || content;
+                });
+
+              text = me.transformSpanToImg(text)
+              return text;
             }
-            , getEmoticonById: function(e) {
-              var t = this.EmojiCodeMap[e];
-              return t ? n.genEmoticonHTML("emoji emoji" + e, t) : ""
+            , getEmoticonById: function(id) {
+              var unicode = this.EmojiCodeMap[id];
+              if (!unicode) {
+                return '';
+              }
+              return utilFactory.genEmoticonHTML("emoji emoji" + id, unicode);
             }
-            , getEmoticonByText: function(e) {
-              var t;
-              if (e.indexOf("<") > -1) {
-                if (t = this.QQFaceMap[e]) return n.genEmoticonHTML("emoji emoji" + t, this.EmojiCodeMap[t])
-              } else if (t = this.QQFaceMap[e.replace(/\[|\]/g, "")]) return n.genEmoticonHTML("qqemoji qqemoji" + t, e);
-              return null
+            , getEmoticonByText: function(text) {
+              var id;
+              if (text.indexOf("<") > -1) { //emoji格式：<xxx>
+                id = this.QQFaceMap[text];
+                if (id) return utilFactory.genEmoticonHTML("emoji emoji" + id, this.EmojiCodeMap[id]);
+              } else { //QQ表情格式：[xxx]
+                id = this.QQFaceMap[text.replace(/\[|\]/g, "")];
+                if (id) return utilFactory.genEmoticonHTML("qqemoji qqemoji" + id, text);
+              }
+
+              //console.error("No such emoji: "+ text);
+              return null;
             }
-            , getTuzkiByMd5: function(e) {
-              return this.md52Tuzki[e]
+            , getTuzkiByMd5: function(md5) {
+              return this.md52Tuzki[md5];
             }
-            , getMd5ByTuzki: function(e) {
-              return this.Tuzki2Md5[e]
+            , getMd5ByTuzki: function(name) {
+              return this.Tuzki2Md5[name];
             }
-            , QQFaceList: ["微笑", "撇嘴", "色", "发呆", "得意", "流泪", "害羞", "闭嘴", "睡", "大哭", "尴尬", "发怒", "调皮", "呲牙", "惊讶", "难过", "酷", "冷汗", "抓狂", "吐", "偷笑", "愉快", "白眼", "傲慢", "饥饿", "困", "惊恐", "流汗", "憨笑", "悠闲", "奋斗", "咒骂", "疑问", "嘘", "晕", "疯了", "衰"
-              , "骷髅", "敲打", "再见", "擦汗", "抠鼻", "鼓掌", "糗大了", "坏笑", "左哼哼", "右哼哼", "哈欠", "鄙视", "委屈", "快哭了", "阴险", "亲亲", "吓", "可怜", "菜刀", "西瓜", "啤酒", "篮球", "乒乓", "咖啡", "饭", "猪头", "玫瑰", "凋谢", "嘴唇", "爱心", "心碎", "蛋糕", "闪电", "炸弹", "刀", "足球", "瓢虫"
-              , "便便", "月亮", "太阳", "礼物", "拥抱", "强", "弱", "握手", "胜利", "抱拳", "勾引", "拳头", "差劲", "爱你", "NO", "OK", "爱情", "飞吻", "跳跳", "发抖", "怄火", "转圈", "磕头", "回头", "跳绳", "投降", "激动", "乱舞", "献吻", "左太极", "右太极"
+            , QQFaceList: ["微笑", "撇嘴", "色", "发呆", "得意", "流泪", "害羞", "闭嘴", "睡", "大哭", "尴尬", "发怒", "调皮", "呲牙", "惊讶", "难过", "酷", "冷汗", "抓狂", "吐", "偷笑", "愉快", "白眼", "傲慢", "饥饿", "困", "惊恐", "流汗", "憨笑", "悠闲", "奋斗", "咒骂", "疑问", "嘘", "晕", "疯了"
+              , "衰", "骷髅", "敲打", "再见", "擦汗", "抠鼻", "鼓掌", "糗大了", "坏笑", "左哼哼", "右哼哼", "哈欠", "鄙视", "委屈", "快哭了", "阴险", "亲亲", "吓", "可怜", "菜刀", "西瓜", "啤酒", "篮球", "乒乓", "咖啡", "饭", "猪头", "玫瑰", "凋谢", "嘴唇", "爱心", "心碎", "蛋糕", "闪电", "炸弹", "刀"
+              , "足球", "瓢虫", "便便", "月亮", "太阳", "礼物", "拥抱", "强", "弱", "握手", "胜利", "抱拳", "勾引", "拳头", "差劲", "爱你", "NO", "OK", "爱情", "飞吻", "跳跳", "发抖", "怄火", "转圈", "磕头", "回头", "跳绳", "投降", "激动", "乱舞", "献吻", "左太极", "右太极"
             ]
-            , EmojiList: ["笑脸", "生病", "破涕为笑", "吐舌", "脸红", "恐惧", "失望", "无语", "嘿哈", "捂脸", "奸笑", "机智", "皱眉", "耶", "鬼魂", "合十", "强壮", "庆祝", "礼物", "红包", "鸡", "开心", "大笑", "热情", "眨眼", "色", "接吻", "亲吻", "露齿笑", "满意", "戏弄", "得意", "汗", "低落", "呸", "焦虑"
-              , "担心", "震惊", "悔恨", "眼泪", "哭", "晕", "心烦", "生气", "睡觉", "恶魔", "外星人", "心", "心碎", "丘比特", "闪烁", "星星", "叹号", "问号", "睡着", "水滴", "音乐", "火", "便便", "弱", "拳头", "胜利", "上", "下", "右", "左", "第一", "吻", "热恋", "男孩", "女孩", "女士", "男士", "天使"
-              , "骷髅", "红唇", "太阳", "下雨", "多云", "雪人", "月亮", "闪电", "海浪", "猫", "小狗", "老鼠", "仓鼠", "兔子", "狗", "青蛙", "老虎", "考拉", "熊", "猪", "牛", "野猪", "猴子", "马", "蛇", "鸽子", "鸡", "企鹅", "毛虫", "章鱼", "鱼", "鲸鱼", "海豚", "玫瑰", "花", "棕榈树", "仙人掌", "礼盒"
-              , "南瓜灯", "圣诞老人", "圣诞树", "礼物", "铃", "气球", "CD", "相机", "录像机", "电脑", "电视", "电话", "解锁", "锁", "钥匙", "成交", "灯泡", "邮箱", "浴缸", "钱", "炸弹", "手枪", "药丸", "橄榄球", "篮球", "足球", "棒球", "高尔夫", "奖杯", "入侵者", "唱歌", "吉他", "比基尼", "皇冠", "雨伞", "手提包"
-              , "口红", "戒指", "钻石", "咖啡", "啤酒", "干杯", "鸡尾酒", "汉堡", "薯条", "意面", "寿司", "面条", "煎蛋", "冰激凌", "蛋糕", "苹果", "飞机", "火箭", "自行车", "高铁", "警告", "旗", "男人", "女人", "O", "X", "版权", "注册商标", "商标"
+            , EmojiList: ["笑脸", "生病", "破涕为笑", "吐舌", "脸红", "恐惧", "失望", "无语", '嘿哈', '捂脸', '奸笑', '机智', '皱眉', '耶', "鬼魂", '合十', "强壮", "庆祝", "礼物", '红包', '鸡', "开心", "大笑", "热情", "眨眼", "色", "接吻", "亲吻", "露齿笑", "满意", "戏弄", "得意", "汗", "低落", "呸"
+              , "焦虑", "担心", "震惊", "悔恨", "眼泪", "哭", "晕", "心烦", "生气", "睡觉", "恶魔", "外星人", "心", "心碎", "丘比特", "闪烁", "星星", "叹号", "问号", "睡着", "水滴", "音乐", "火", "便便", "弱", "拳头", "胜利", "上", "下", "右", "左", "第一", "吻", "热恋", "男孩", "女孩", "女士"
+              , "男士", "天使", "骷髅", "红唇", "太阳", "下雨", "多云", "雪人", "月亮", "闪电", "海浪", "猫", "小狗", "老鼠", "仓鼠", "兔子", "狗", "青蛙", "老虎", "考拉", "熊", "猪", "牛", "野猪", "猴子", "马", "蛇", "鸽子", "鸡", "企鹅", "毛虫", "章鱼", "鱼", "鲸鱼", "海豚", "玫瑰", "花", "棕榈树"
+              , "仙人掌", "礼盒", "南瓜灯", "圣诞老人", "圣诞树", "礼物", "铃", "气球", "CD", "相机", "录像机", "电脑", "电视", "电话", "解锁", "锁", "钥匙", "成交", "灯泡", "邮箱", "浴缸", "钱", "炸弹", "手枪", "药丸", "橄榄球", "篮球", "足球", "棒球", "高尔夫", "奖杯", "入侵者", "唱歌", "吉他", "比基尼"
+              , "皇冠", "雨伞", "手提包", "口红", "戒指", "钻石", "咖啡", "啤酒", "干杯", "鸡尾酒", "汉堡", "薯条", "意面", "寿司", "面条", "煎蛋", "冰激凌", "蛋糕", "苹果", "飞机", "火箭", "自行车", "高铁", "警告", "旗", "男人", "女人", "O", "X", "版权", "注册商标", "商标"
             ]
             , QQFaceMap: {
               "微笑": "0"
@@ -4353,8 +9552,8 @@ webpackJsonp([1], [function(e, exports, t) {
               , "拳头": "85"
               , "差劲": "86"
               , "爱你": "87"
-              , NO: "88"
-              , OK: "89"
+              , "NO": "88"
+              , "OK": "89"
               , "爱情": "90"
               , "飞吻": "91"
               , "跳跳": "92"
@@ -4378,150 +9577,150 @@ webpackJsonp([1], [function(e, exports, t) {
               , "耶": "110"
               , "鸡": "111"
               , "红包": "112"
-              , Smile: "0"
-              , Grimace: "1"
-              , Drool: "2"
-              , Scowl: "3"
-              , Chill: "4"
-              , CoolGuy: "4"
-              , Sob: "5"
-              , Shy: "6"
-              , Shutup: "7"
-              , Silent: "7"
-              , Sleep: "8"
-              , Cry: "9"
-              , Awkward: "10"
-              , Pout: "11"
-              , Angry: "11"
-              , Wink: "12"
-              , Tongue: "12"
-              , Grin: "13"
-              , Surprised: "14"
-              , Surprise: "14"
-              , Frown: "15"
-              , Cool: "16"
-              , Ruthless: "16"
-              , Tension: "17"
-              , Blush: "17"
-              , Scream: "18"
-              , Crazy: "18"
-              , Puke: "19"
-              , Chuckle: "20"
-              , Joyful: "21"
-              , Slight: "22"
-              , Smug: "23"
-              , Hungry: "24"
-              , Drowsy: "25"
-              , Panic: "26"
-              , Sweat: "27"
-              , Laugh: "28"
-              , Loafer: "29"
-              , Commando: "29"
-              , Strive: "30"
-              , Determined: "30"
-              , Scold: "31"
-              , Doubt: "32"
-              , Shocked: "32"
-              , Shhh: "33"
-              , Dizzy: "34"
-              , Tormented: "35"
-              , BadLuck: "36"
-              , Toasted: "36"
-              , Skull: "37"
-              , Hammer: "38"
-              , Wave: "39"
-              , Relief: "40"
-              , Speechless: "40"
-              , DigNose: "41"
-              , NosePick: "41"
-              , Clap: "42"
-              , Shame: "43"
-              , Trick: "44"
+              , "Smile": "0"
+              , "Grimace": "1"
+              , "Drool": "2"
+              , "Scowl": "3"
+              , "Chill": "4"
+              , "CoolGuy": "4"
+              , "Sob": "5"
+              , "Shy": "6"
+              , "Shutup": "7"
+              , "Silent": "7"
+              , "Sleep": "8"
+              , "Cry": "9"
+              , "Awkward": "10"
+              , "Pout": "11"
+              , "Angry": "11"
+              , "Wink": "12"
+              , "Tongue": "12"
+              , "Grin": "13"
+              , "Surprised": "14"
+              , "Surprise": "14"
+              , "Frown": "15"
+              , "Cool": "16"
+              , "Ruthless": "16"
+              , "Tension": "17"
+              , "Blush": "17"
+              , "Scream": "18"
+              , "Crazy": "18"
+              , "Puke": "19"
+              , "Chuckle": "20"
+              , "Joyful": "21"
+              , "Slight": "22"
+              , "Smug": "23"
+              , "Hungry": "24"
+              , "Drowsy": "25"
+              , "Panic": "26"
+              , "Sweat": "27"
+              , "Laugh": "28"
+              , "Loafer": "29"
+              , "Commando": "29"
+              , "Strive": "30"
+              , "Determined": "30"
+              , "Scold": "31"
+              , "Doubt": "32"
+              , "Shocked": "32"
+              , "Shhh": "33"
+              , "Dizzy": "34"
+              , "Tormented": "35"
+              , "BadLuck": "36"
+              , "Toasted": "36"
+              , "Skull": "37"
+              , "Hammer": "38"
+              , "Wave": "39"
+              , "Relief": "40"
+              , "Speechless": "40"
+              , "DigNose": "41"
+              , "NosePick": "41"
+              , "Clap": "42"
+              , "Shame": "43"
+              , "Trick": "44"
               , "Bah！L": "45"
               , "Bah！R": "46"
-              , Yawn: "47"
-              , Lookdown: "48"
+              , "Yawn": "47"
+              , "Lookdown": "48"
               , "Pooh-pooh": "48"
-              , Wronged: "49"
-              , Shrunken: "49"
-              , Puling: "50"
-              , TearingUp: "50"
-              , Sly: "51"
-              , Kiss: "52"
+              , "Wronged": "49"
+              , "Shrunken": "49"
+              , "Puling": "50"
+              , "TearingUp": "50"
+              , "Sly": "51"
+              , "Kiss": "52"
               , "Uh-oh": "53"
-              , Wrath: "53"
-              , Whimper: "54"
-              , Cleaver: "55"
-              , Melon: "56"
-              , Watermelon: "56"
-              , Beer: "57"
-              , Basketball: "58"
-              , PingPong: "59"
-              , Coffee: "60"
-              , Rice: "61"
-              , Pig: "62"
-              , Rose: "63"
-              , Wilt: "64"
-              , Lip: "65"
-              , Lips: "65"
-              , Heart: "66"
-              , BrokenHeart: "67"
-              , Cake: "68"
-              , Lightning: "69"
-              , Bomb: "70"
-              , Dagger: "71"
-              , Soccer: "72"
-              , Ladybug: "73"
-              , Poop: "74"
-              , Moon: "75"
-              , Sun: "76"
-              , Gift: "77"
-              , Hug: "78"
-              , Strong: "79"
-              , ThumbsUp: "79"
-              , Weak: "80"
-              , ThumbsDown: "80"
-              , Shake: "81"
-              , Victory: "82"
-              , Peace: "82"
-              , Admire: "83"
-              , Fight: "83"
-              , Beckon: "84"
-              , Fist: "85"
-              , Pinky: "86"
-              , Love: "2"
-              , RockOn: "87"
-              , No: "88"
+              , "Wrath": "53"
+              , "Whimper": "54"
+              , "Cleaver": "55"
+              , "Melon": "56"
+              , "Watermelon": "56"
+              , "Beer": "57"
+              , "Basketball": "58"
+              , "PingPong": "59"
+              , "Coffee": "60"
+              , "Rice": "61"
+              , "Pig": "62"
+              , "Rose": "63"
+              , "Wilt": "64"
+              , "Lip": "65"
+              , "Lips": "65"
+              , "Heart": "66"
+              , "BrokenHeart": "67"
+              , "Cake": "68"
+              , "Lightning": "69"
+              , "Bomb": "70"
+              , "Dagger": "71"
+              , "Soccer": "72"
+              , "Ladybug": "73"
+              , "Poop": "74"
+              , "Moon": "75"
+              , "Sun": "76"
+              , "Gift": "77"
+              , "Hug": "78"
+              , "Strong": "79"
+              , "ThumbsUp": "79"
+              , "Weak": "80"
+              , "ThumbsDown": "80"
+              , "Shake": "81"
+              , "Victory": "82"
+              , "Peace": "82"
+              , "Admire": "83"
+              , "Fight": "83"
+              , "Beckon": "84"
+              , "Fist": "85"
+              , "Pinky": "86"
+              , "Love": "2"
+              , "RockOn": "87"
+              , "No": "88"
               , "Nuh-uh": "88"
-              , InLove: "90"
-              , Blowkiss: "91"
-              , Waddle: "92"
-              , Tremble: "93"
+              , "InLove": "90"
+              , "Blowkiss": "91"
+              , "Waddle": "92"
+              , "Tremble": "93"
               , "Aaagh!": "94"
-              , Twirl: "95"
-              , Kotow: "96"
-              , Lookback: "97"
-              , Dramatic: "97"
-              , Jump: "98"
-              , JumpRope: "98"
+              , "Twirl": "95"
+              , "Kotow": "96"
+              , "Lookback": "97"
+              , "Dramatic": "97"
+              , "Jump": "98"
+              , "JumpRope": "98"
               , "Give-in": "99"
-              , Surrender: "99"
-              , Hooray: "100"
-              , HeyHey: "101"
-              , Meditate: "101"
-              , Smooch: "102"
+              , "Surrender": "99"
+              , "Hooray": "100"
+              , "HeyHey": "101"
+              , "Meditate": "101"
+              , "Smooch": "102"
               , "TaiJi L": "103"
               , "TaiChi L": "103"
               , "TaiJi R": "104"
               , "TaiChi R": "104"
-              , Hey: "105"
-              , Facepalm: "106"
-              , Smirk: "107"
-              , Smart: "108"
-              , Concerned: "109"
+              , "Hey": "105"
+              , "Facepalm": "106"
+              , "Smirk": "107"
+              , "Smart": "108"
+              , "Concerned": "109"
               , "Yeah!": "110"
-              , Chicken: "111"
-              , Packet: "112"
+              , "Chicken": "111"
+              , "Packet": "112"
               , "發呆": "3"
               , "流淚": "5"
               , "閉嘴": "7"
@@ -4574,14 +9773,16 @@ webpackJsonp([1], [function(e, exports, t) {
               , "磕頭": "96"
               , "回頭": "97"
               , "跳繩": "98"
-              , "激動": "100"
+              , //"投降": "99", // 简体有了
+              "激動": "100"
               , "亂舞": "101"
               , "獻吻": "102"
               , "左太極": "103"
               , "右太極": "104"
               , "吼嘿": "105"
               , "掩面": "106"
-              , "機智": "108"
+              , // "奸笑": "107", // 和简体一样
+              "機智": "108"
               , "皺眉": "109"
               , "歐耶": "110"
               , "雞": "111"
@@ -5023,175 +10224,175 @@ webpackJsonp([1], [function(e, exports, t) {
               , "<Trademark>": "2122"
             }
             , EmojiCodeMap: {
-              "1f64f": ""
-              , "1f604": ""
-              , "1f60a": ""
-              , "1f603": ""
-              , "263a": ""
-              , "1f609": ""
-              , "1f60d": ""
-              , "1f618": ""
-              , "1f61a": ""
-              , "1f633": ""
-              , "1f63c": ""
-              , "1f60c": ""
-              , "1f61c": ""
-              , "1f445": ""
-              , "1f612": ""
-              , "1f60f": ""
-              , "1f613": ""
-              , "1f640": ""
-              , "1f61e": ""
-              , "1f616": ""
-              , "1f625": ""
-              , "1f630": ""
-              , "1f628": ""
-              , "1f62b": ""
-              , "1f622": ""
-              , "1f62d": ""
-              , "1f602": ""
-              , "1f632": ""
-              , "1f631": ""
-              , "1f620": ""
-              , "1f63e": ""
-              , "1f62a": ""
-              , "1f637": ""
-              , "1f47f": ""
-              , "1f47d": ""
-              , 2764: ""
-              , "1f494": ""
-              , "1f498": ""
-              , 2728: ""
-              , "1f31f": ""
-              , 2755: ""
-              , 2754: ""
-              , "1f4a4": ""
-              , "1f4a6": ""
-              , "1f3b5": ""
-              , "1f525": ""
-              , "1f4a9": ""
-              , "1f44d": ""
-              , "1f44e": ""
-              , "1f44a": ""
-              , "270c": ""
-              , "1f446": ""
-              , "1f447": ""
-              , "1f449": ""
-              , "1f448": ""
-              , "261d": ""
-              , "1f4aa": ""
-              , "1f48f": ""
-              , "1f491": ""
-              , "1f466": ""
-              , "1f467": ""
-              , "1f469": ""
-              , "1f468": ""
-              , "1f47c": ""
-              , "1f480": ""
-              , "1f48b": ""
-              , 2600: ""
-              , 2614: ""
-              , 2601: ""
-              , "26c4": ""
-              , "1f319": ""
-              , "26a1": ""
-              , "1f30a": ""
-              , "1f431": ""
-              , "1f429": ""
-              , "1f42d": ""
-              , "1f439": ""
-              , "1f430": ""
-              , "1f43a": ""
-              , "1f438": ""
-              , "1f42f": ""
-              , "1f428": ""
-              , "1f43b": ""
-              , "1f437": ""
-              , "1f42e": ""
-              , "1f417": ""
-              , "1f435": ""
-              , "1f434": ""
-              , "1f40d": ""
-              , "1f426": ""
-              , "1f414": ""
-              , "1f427": ""
-              , "1f41b": ""
-              , "1f419": ""
-              , "1f420": ""
-              , "1f433": ""
-              , "1f42c": ""
-              , "1f339": ""
-              , "1f33a": ""
-              , "1f334": ""
-              , "1f335": ""
-              , "1f49d": ""
-              , "1f383": ""
-              , "1f47b": ""
-              , "1f385": ""
-              , "1f384": ""
-              , "1f381": ""
-              , "1f514": ""
-              , "1f389": ""
-              , "1f388": ""
-              , "1f4bf": ""
-              , "1f4f7": ""
-              , "1f3a5": ""
-              , "1f4bb": ""
-              , "1f4fa": ""
-              , "1f4de": ""
-              , "1f513": ""
-              , "1f512": ""
-              , "1f511": ""
-              , "1f528": ""
-              , "1f4a1": ""
-              , "1f4eb": ""
-              , "1f6c0": ""
-              , "1f4b2": ""
-              , "1f4a3": ""
-              , "1f52b": ""
-              , "1f48a": ""
-              , "1f3c8": ""
-              , "1f3c0": ""
-              , "26bd": ""
-              , "26be": ""
-              , "26f3": ""
-              , "1f3c6": ""
-              , "1f47e": ""
-              , "1f3a4": ""
-              , "1f3b8": ""
-              , "1f459": ""
-              , "1f451": ""
-              , "1f302": ""
-              , "1f45c": ""
-              , "1f484": ""
-              , "1f48d": ""
-              , "1f48e": ""
-              , 2615: ""
-              , "1f37a": ""
-              , "1f37b": ""
-              , "1f377": ""
-              , "1f354": ""
-              , "1f35f": ""
-              , "1f35d": ""
-              , "1f363": ""
-              , "1f35c": ""
-              , "1f373": ""
-              , "1f366": ""
-              , "1f382": ""
-              , "1f34f": ""
-              , 2708: ""
-              , "1f680": ""
-              , "1f6b2": ""
-              , "1f684": ""
-              , "26a0": ""
-              , "1f3c1": ""
-              , "1f6b9": ""
-              , "1f6ba": ""
-              , "2b55": ""
-              , "274e": ""
-              , a9: ""
-              , ae: ""
-              , 2122: ""
+              "1f64f": "\ue41d"
+              , "1f604": "\ue415"
+              , "1f60a": "\ue056"
+              , "1f603": "\ue057"
+              , "263a": "\ue414"
+              , "1f609": "\ue405"
+              , "1f60d": "\ue106"
+              , "1f618": "\ue418"
+              , "1f61a": "\ue417"
+              , "1f633": "\ue40d"
+              , "1f63c": "\ue404"
+              , "1f60c": "\ue40a"
+              , "1f61c": "\ue105"
+              , "1f445": "\ue409"
+              , "1f612": "\ue40e"
+              , "1f60f": "\ue402"
+              , "1f613": "\ue108"
+              , "1f640": "\ue403"
+              , "1f61e": "\ue058"
+              , "1f616": "\ue407"
+              , "1f625": "\ue401"
+              , "1f630": "\ue40f"
+              , "1f628": "\ue40b"
+              , "1f62b": "\ue406"
+              , "1f622": "\ue413"
+              , "1f62d": "\ue411"
+              , "1f602": "\ue412"
+              , "1f632": "\ue410"
+              , "1f631": "\ue107"
+              , "1f620": "\ue059"
+              , "1f63e": "\ue416"
+              , "1f62a": "\ue408"
+              , "1f637": "\ue40c"
+              , "1f47f": "\ue11a"
+              , "1f47d": "\ue10c"
+              , "2764": "\ue022"
+              , "1f494": "\ue023"
+              , "1f498": "\ue329"
+              , "2728": "\ue32e"
+              , "1f31f": "\ue335"
+              , "2755": "\ue337"
+              , "2754": "\ue336"
+              , "1f4a4": "\ue13c"
+              , "1f4a6": "\ue331"
+              , "1f3b5": "\ue03e"
+              , "1f525": "\ue11d"
+              , "1f4a9": "\ue05a"
+              , "1f44d": "\ue00e"
+              , "1f44e": "\ue421"
+              , "1f44a": "\ue00d"
+              , "270c": "\ue011"
+              , "1f446": "\ue22e"
+              , "1f447": "\ue22f"
+              , "1f449": "\ue231"
+              , "1f448": "\ue230"
+              , "261d": "\ue00f"
+              , "1f4aa": "\ue14c"
+              , "1f48f": "\ue111"
+              , "1f491": "\ue425"
+              , "1f466": "\ue001"
+              , "1f467": "\ue002"
+              , "1f469": "\ue005"
+              , "1f468": "\ue004"
+              , "1f47c": "\ue04e"
+              , "1f480": "\ue11c"
+              , "1f48b": "\ue003"
+              , "2600": "\ue04a"
+              , "2614": "\ue04b"
+              , "2601": "\ue049"
+              , "26c4": "\ue048"
+              , "1f319": "\ue04c"
+              , "26a1": "\ue13d"
+              , "1f30a": "\ue43e"
+              , "1f431": "\ue04f"
+              , "1f429": "\ue052"
+              , "1f42d": "\ue053"
+              , "1f439": "\ue524"
+              , "1f430": "\ue52c"
+              , "1f43a": "\ue52a"
+              , "1f438": "\ue531"
+              , "1f42f": "\ue050"
+              , "1f428": "\ue527"
+              , "1f43b": "\ue051"
+              , "1f437": "\ue10b"
+              , "1f42e": "\ue52b"
+              , "1f417": "\ue52f"
+              , "1f435": "\ue109"
+              , "1f434": "\ue01a"
+              , "1f40d": "\ue52d"
+              , "1f426": "\ue521"
+              , "1f414": "\ue52e"
+              , "1f427": "\ue055"
+              , "1f41b": "\ue525"
+              , "1f419": "\ue10a"
+              , "1f420": "\ue522"
+              , "1f433": "\ue054"
+              , "1f42c": "\ue520"
+              , "1f339": "\ue032"
+              , "1f33a": "\ue303"
+              , "1f334": "\ue307"
+              , "1f335": "\ue308"
+              , "1f49d": "\ue437"
+              , "1f383": "\ue445"
+              , "1f47b": "\ue11b"
+              , "1f385": "\ue448"
+              , "1f384": "\ue033"
+              , "1f381": "\ue112"
+              , "1f514": "\ue325"
+              , "1f389": "\ue312"
+              , "1f388": "\ue310"
+              , "1f4bf": "\ue126"
+              , "1f4f7": "\ue008"
+              , "1f3a5": "\ue03d"
+              , "1f4bb": "\ue00c"
+              , "1f4fa": "\ue12a"
+              , "1f4de": "\ue009"
+              , "1f513": "\ue145"
+              , "1f512": "\ue144"
+              , "1f511": "\ue03f"
+              , "1f528": "\ue116"
+              , "1f4a1": "\ue10f"
+              , "1f4eb": "\ue101"
+              , "1f6c0": "\ue13f"
+              , "1f4b2": "\ue12f"
+              , "1f4a3": "\ue311"
+              , "1f52b": "\ue113"
+              , "1f48a": "\ue30f"
+              , "1f3c8": "\ue42b"
+              , "1f3c0": "\ue42a"
+              , "26bd": "\ue018"
+              , "26be": "\ue016"
+              , "26f3": "\ue014"
+              , "1f3c6": "\ue131"
+              , "1f47e": "\ue12b"
+              , "1f3a4": "\ue03c"
+              , "1f3b8": "\ue041"
+              , "1f459": "\ue322"
+              , "1f451": "\ue10e"
+              , "1f302": "\ue43c"
+              , "1f45c": "\ue323"
+              , "1f484": "\ue31c"
+              , "1f48d": "\ue034"
+              , "1f48e": "\ue035"
+              , "2615": "\ue045"
+              , "1f37a": "\ue047"
+              , "1f37b": "\ue30c"
+              , "1f377": "\ue044"
+              , "1f354": "\ue120"
+              , "1f35f": "\ue33b"
+              , "1f35d": "\ue33f"
+              , "1f363": "\ue344"
+              , "1f35c": "\ue340"
+              , "1f373": "\ue147"
+              , "1f366": "\ue33a"
+              , "1f382": "\ue34b"
+              , "1f34f": "\ue345"
+              , "2708": "\ue01d"
+              , "1f680": "\ue10d"
+              , "1f6b2": "\ue136"
+              , "1f684": "\ue435"
+              , "26a0": "\ue252"
+              , "1f3c1": "\ue132"
+              , "1f6b9": "\ue138"
+              , "1f6ba": "\ue139"
+              , "2b55": "\ue332"
+              , "274e": "\ue333"
+              , "a9": "\ue24e"
+              , "ae": "\ue24f"
+              , "2122": "\ue537"
             }
             , EmojiCodeConv: {
               "[Silent]": "[Shutup]"
@@ -5225,8 +10426,9 @@ webpackJsonp([1], [function(e, exports, t) {
               , "[Meditate]": "[HeyHey]"
               , "[TaiChi L]": "[TaiJi L]"
               , "[TaiChi R]": "[TaiJi R]"
-            }
-            , Tuzki2Md5: {
+            },
+
+            Tuzki2Md5: {
               "icon_001.gif": "44682e637b75a3f5d6747d61dbd23a15"
               , "icon_002.gif": "846f30447c5c4c9beefeb5a61bec0ba3"
               , "icon_006.gif": "86cb157e9c44b2c9934e4e430790776d"
@@ -5254,1121 +10456,2189 @@ webpackJsonp([1], [function(e, exports, t) {
               , "846f30447c5c4c9beefeb5a61bec0ba3": "icon_002.gif"
               , "86cb157e9c44b2c9934e4e430790776d": "icon_006.gif"
               , "5883b606506766a8733afde516166dad": "icon_007.gif"
-              , ea675fef6e28b0244c4577c6d5a2e5c9: "icon_009.gif"
-              , b25b5a719caeaca7525dd9d0ef0be4bb: "icon_010.gif"
+              , "ea675fef6e28b0244c4577c6d5a2e5c9": "icon_009.gif"
+              , "b25b5a719caeaca7525dd9d0ef0be4bb": "icon_010.gif"
               , "8690f2ec5676b9d2d70f7cba012e772e": "icon_012.gif"
               , "5ce1249c690762727b97efa75b685e2b": "icon_013.gif"
-              , b51826394461eb67e2ecbdd8900a25d9: "icon_018.gif"
-              , a13aac17bb8c649dc7797dd5ad0bf97f: "icon_019.gif"
+              , "b51826394461eb67e2ecbdd8900a25d9": "icon_018.gif"
+              , "a13aac17bb8c649dc7797dd5ad0bf97f": "icon_019.gif"
               , "9cf03d450b27e8011bba02a652bc357a": "icon_020.gif"
               , "5462d752e528d1635816e38469ce4151": "icon_021.gif"
-              , ed18d9a312413ea32838bb4d7bb8317c: "icon_022.gif"
+              , "ed18d9a312413ea32838bb4d7bb8317c": "icon_022.gif"
               , "3cdca9051658348b5a11ba14dc6a3aca": "icon_024.gif"
               , "0e1dcfa77dbbdfe984edd644cfb5da79": "icon_027.gif"
               , "3a4dc10bc33c74726f46ba1eacd97391": "icon_028.gif"
               , "7590a6e186522063b994eaf8f45673bf": "icon_029.gif"
               , "1280edfca8cb1dcf78e44789358e35d6": "icon_030.gif"
               , "2c4597ce27b24af08652be6bea644c32": "icon_033.gif"
-              , c6345f716d706b8b9df53b0b6fff82cd: "icon_035.gif"
-              , ca17f472025f0943917b443faeaee999: "icon_040.gif"
+              , "c6345f716d706b8b9df53b0b6fff82cd": "icon_035.gif"
+              , "ca17f472025f0943917b443faeaee999": "icon_040.gif"
             }
           };
-          return i.TuzkiList = function() {
-            var e = []
-              , t = i.Tuzki2Md5;
-            for (var a in t) e.push(a);
-            return e
-          }(), i
-        }])
-    }()
-  }
-  , function(e, exports) {
-    ! function() {
-      "use strict";
-      angular.module("Services")
-        .factory("contextMenuFactory", ["$timeout", "confFactory", function(e, t) {
-          var a, n = ""
-            , i = {
-              getContextMenuEventTimeStamp: function(e) {
-                return n
-              }
-              , setContextMenuEvent: function(e) {
-                a = e, n = e.timeStamp
-              }
-              , getContextMenuEvent: function(e) {
-                return a
-              }
-            };
-          return i
-        }])
-    }()
-  }
-  , function(e, exports) {
-    ! function() {
-      "use strict";
-      angular.module("Services")
-        .factory("screenShotFactory", ["confFactory", "reportService", function(e, t) {
-          function a() {
-            return l || (l = QMActivex.create(c))
+          service.TuzkiList = (function() {
+            var names = []
+              , Tuzkis = service.Tuzki2Md5;
+            for (var name in Tuzkis) {
+              names.push(name);
+            }
+            return names;
+          })();
+          return service;
+        }]);
+    })();
+
+    /***/
+  })
+  , /* 298 */
+  /***/
+  (function(module, exports) {
+
+    (function() {
+      'use strict';
+
+      /* Services */
+
+      angular.module('Services')
+        .factory('contextMenuFactory', ['$timeout', 'confFactory', function($timeout, confFactory) {
+          var _timeStamp = ""
+            , _contextMenuEvent;
+
+          var service = {
+            getContextMenuEventTimeStamp: function(argument) {
+              return _timeStamp;
+            }
+            , setContextMenuEvent: function(e) {
+              _contextMenuEvent = e;
+              _timeStamp = e.timeStamp;
+            }
+            , getContextMenuEvent: function(argument) {
+              return _contextMenuEvent;
+            }
+          };
+          return service;
+        }]);
+
+    })();
+
+    /***/
+  })
+  , /* 299 */
+  /***/
+  (function(module, exports) {
+
+    (function() {
+      'use strict';
+
+      /* Services */
+
+      angular.module('Services')
+        .factory('screenShotFactory', ['confFactory', 'reportService', function(confFactory, reportService) {
+          var _CAPTURE_PLUGIN_ID = "screencapture"
+            , _UPLOADER_PLUGIN_ID = "uploader";
+          // 新版截图插件地址
+          var _capturePlugin = null
+            , uploader = null;
+
+          function _getCapturePlugin() {
+            return _capturePlugin || (_capturePlugin = QMActivex.create(_CAPTURE_PLUGIN_ID));
           }
 
-          function n() {
-            return d || (d = QMActivex.create(s))
+          function _getUploader() {
+            return uploader || (uploader = QMActivex.create(_UPLOADER_PLUGIN_ID));
           }
 
-          function i() {
-            return a() && a()
-              .IsClipBoardImage
+          function _isClipBoardImage() {
+            return _getCapturePlugin() && _getCapturePlugin()
+              .IsClipBoardImage;
           }
 
-          function o() {
-            return !(!a() || !i()) && a()
-              .SaveClipBoardBmpToFile(1)
+          function _saveImg() {
+            if (!_getCapturePlugin() || !_isClipBoardImage()) return false;
+
+            return _getCapturePlugin()
+              .SaveClipBoardBmpToFile(1);
           }
 
-          function r(a, i) {
-            var r = n();
-            r.StopUpload(), r.ClearHeaders(), r.ClearFormItems(), r && (r.URL = (MMDEV ? "http://wx.qq.com" : "http://" + location.hostname) + e.API_webwxpreview + "?fun=upload", r.AddHeader("Cookie", document.cookie), r.AddFormItem(
-              "msgimgrequest", 0, 0, a), r.AddFormItem("filename", 1, 4, o()), r.OnEvent = function(e, a) {
-              switch (a) {
-                case 2:
-                  break;
-                case 3:
-                  r && (i(JSON.parse(r.Response)), r = null);
-                  break;
-                case 1:
-                  t.report(t.ReportType.uploaderError, {
-                    text: "screensnap upload error"
-                    , url: r.URL
-                  }), i({}), r = null
-              }
-            }, r.StartUpload())
+          function _uploadClipBoardImg(data, callback) {
+            var _uploader = _getUploader();
+            _uploader.StopUpload();
+            _uploader.ClearHeaders();
+            _uploader.ClearFormItems();
+
+            if (_uploader) {
+              _uploader.URL = (MMDEV ? 'http://wx.qq.com' : "http://" + location.hostname) + confFactory.API_webwxpreview + "?fun=upload";
+              _uploader.AddHeader("Cookie", document.cookie);
+              _uploader.AddFormItem("msgimgrequest", 0, 0, data);
+              _uploader.AddFormItem("filename", 1, 4, _saveImg());
+
+              _uploader.OnEvent = function(obj, event) {
+                switch (event) {
+                  case 2:
+                    break;
+                  case 3:
+                    if (_uploader) {
+                      callback(JSON.parse(_uploader.Response));
+                      _uploader = null;
+                    }
+                    break;
+                  case 1: // error
+                    console.error("screensnap upload error");
+                    reportService.report(reportService.ReportType.uploaderError, {
+                      text: 'screensnap upload error'
+                      , url: _uploader.URL
+                    })
+                    callback({});
+                    _uploader = null;
+                    break;
+                }
+              };
+              _uploader.StartUpload();
+            }
           }
-          var c = "screencapture"
-            , s = "uploader"
-            , l = null
-            , d = null;
           return {
             isSupport: function() {
-              return window.QMActivex && QMActivex.isSupport(c) > 0
-            }
-            , install: function() {
-              window.open(QMActivex.installUrl.replace(/^https/, "http"))
-            }
-            , capture: function(e) {
-              var t = a();
-              t && (t.OnCaptureFinished = e.ok), t.OnCaptureCanceled = function() {}, t.DoCapture()
-            }
-            , isClipBoardImage: function() {
-              return i()
-            }
-            , upload: function(e, t) {
-              if (i()) return r(e, t), !0
-            }
-          }
-        }])
-    }()
-  }
-  , function(e, exports) {
-    ! function() {
-      "use strict";
-      angular.module("Services")
-        .factory("notificationFactory", ["utilFactory", function(e) {
-          function t(e, t) {
-            var a;
-            return window.Notification ? a = new window.Notification(e, {
-                icon: angular.isString(t.icon) ? t.icon : t.icon.x32
-                , body: t.body || m
-                , tag: t.tag || m
-              }) : window.webkitNotifications ? (a = window.webkitNotifications.createNotification(t.icon, e, t.body), a.show()) : navigator.mozNotification ? (a = navigator.mozNotification.createNotification(e, t.body, t.icon), a.show()) :
-              window.external && window.external.msIsSiteMode() && (window.external.msSiteModeClearIconOverlay(), window.external.msSiteModeSetIconOverlay(angular.isString(t.icon) ? t.icon : t.icon.x16, e), window.external.msSiteModeActivate()
-                , a = {
-                  ieVerification: p + 1
-                }), a
-          }
+              return window.QMActivex && QMActivex.isSupport(_CAPTURE_PLUGIN_ID) > 0;
+            },
 
-          function a(e) {
-            return {
-              close: function() {
-                e && (e.close ? e.close() : e.cancel ? e.cancel() : window.external && window.external.msIsSiteMode() && e.ieVerification === p && window.external.msSiteModeClearIconOverlay())
+            install: function() {
+              window.open(QMActivex.installUrl.replace(/^https/, "http"));
+            },
+
+            capture: function(_aoCallbacks) {
+              var _oScreenCaptureInsatnce = _getCapturePlugin();
+              if (_oScreenCaptureInsatnce) {
+                _oScreenCaptureInsatnce.OnCaptureFinished = _aoCallbacks.ok;
+              }
+              _oScreenCaptureInsatnce.OnCaptureCanceled = function() {};
+              _oScreenCaptureInsatnce.DoCapture();
+            },
+
+            isClipBoardImage: function() {
+              return _isClipBoardImage();
+            },
+
+            upload: function(data, callback) {
+              if (_isClipBoardImage()) {
+                _uploadClipBoardImg(data, callback);
+                return true;
               }
             }
-          }
+          };
+        }]);
+    })();
 
-          function n(e) {
-            if (g) {
-              var t = angular.isFunction(e) ? e : angular.noop;
-              window.webkitNotifications && window.webkitNotifications.checkPermission ? window.webkitNotifications.requestPermission(t) : window.Notification && window.Notification.requestPermission && window.Notification.requestPermission(
-                t)
-            }
-          }
+    /***/
+  })
+  , /* 300 */
+  /***/
+  (function(module, exports) {
 
-          function i() {
-            var e;
-            if (g) return window.Notification && window.Notification.permissionLevel ? e = window.Notification.permissionLevel() : window.webkitNotifications && window.webkitNotifications.checkPermission ? e = f[window.webkitNotifications.checkPermission()] :
-              window.Notification && window.Notification.permission ? e = window.Notification.permission : navigator.mozNotification ? e = l : window.external && void 0 !== window.external.msIsSiteMode() && (e = window.external.msIsSiteMode() ?
-                l : s), e
-          }
+    /**
+     * Created by jfengjiang on 2015/1/4.
+     */
 
-          function o(e) {
-            return e && angular.isObject(e) && angular.extend(M, e), M
-          }
+    (function() {
+      'use strict';
 
-          function r() {
-            return !M.pageVisibility || (document.hidden || document.msHidden || document.mozHidden || document.webkitHidden)
-          }
+      /**
+       * 桌面通知
+       * 说明：Chrome、Safari和安装了html5notifications插件的，都支持window.webkitNotification；
+       *      Chrome 23起不需要webkit私有前缀，但是如果使用无私有前缀的对象请求权限时，会阻塞浏览器，因此请求权限时还是使用私有前缀的方法，其他情况使用无前缀对象
+       *      firefox mobile使用navigator.mozNotification
+       *      IE9+使用window.external && window.external.msIsSiteMode()
+       *
+       */
 
-          function c(e, n) {
-            h.length >= M.total && h.shift()
-              .close();
-            var o, c;
-            return g && r() && angular.isString(e) && n && (angular.isString(n.icon) || angular.isObject(n.icon)) && i() === l && (o = t(e, n)), c = a(o), h.push(c), M.autoClose && o && !o.ieVerification && o.addEventListener && o.addEventListener(
-              "show"
-              , function() {
-                var e = c;
-                setTimeout(function() {
-                  e.close()
-                }, M.autoClose)
-              }), o
-          }
-          var s = "default"
-            , l = "granted"
-            , d = "denied"
-            , f = [l, s, d]
-            , u = {
-              pageVisibility: !1
-              , autoClose: 5e3
+      angular.module('Services')
+        .factory('notificationFactory', ['utilFactory', function(utilFactory) {
+
+
+          /*
+           Safari native methods required for Notifications do NOT run in strict mode.
+           */
+          //"use strict";
+          var PERMISSION_DEFAULT = "default"
+            , PERMISSION_GRANTED = "granted"
+            , PERMISSION_DENIED = "denied"
+            , PERMISSION = [PERMISSION_GRANTED, PERMISSION_DEFAULT, PERMISSION_DENIED]
+            , defaultSetting = {
+              pageVisibility: false
+              , autoClose: 5000
               , total: 3
             }
-            , m = ""
-            , g = function() {
-              var t = !1;
+            , emptyString = ""
+            , isSupported = (function() {
+              var isSupported = false;
+              /*
+               * Use try {} catch() {} because the check for IE may throws an exception
+               * if the code is run on browser that is not Safar/Chrome/IE or
+               * Firefox with html5notifications plugin.
+               *
+               * Also, we canNOT detect if msIsSiteMode method exists, as it is
+               * a method of host object. In IE check for existing method of host
+               * object returns undefined. So, we try to run it - if it runs
+               * successfully - then it is IE9+, if not - an exceptions is thrown.
+               */
               try {
-                t = !!(window.Notification || window.webkitNotifications || navigator.mozNotification || window.external && void 0 !== window.external.msIsSiteMode())
-              } catch (t) {
-                e.log("Services.notificationFactory.isSupport error: ", t)
+                isSupported = !!( /* Safari, Chrome */ window.Notification || /* Chrome & ff-html5notifications plugin */ window.webkitNotifications || /* Firefox Mobile */ navigator.mozNotification || /* IE9+ */ (window.external &&
+                  window.external.msIsSiteMode() !== undefined));
+              } catch (e) {
+                utilFactory.log('Services.notificationFactory.isSupport error: ', e);
               }
-              return t
-            }()
-            , p = Math.floor(10 * Math.random() + 1)
-            , h = []
-            , M = u
-            , v = {
-              PERMISSION_DEFAULT: s
-              , PERMISSION_GRANTED: l
-              , PERMISSION_DENIED: d
-              , isSupported: g
-              , config: o
-              , createNotification: c
-              , permissionLevel: i
-              , requestPermission: n
+              return isSupported;
+            }())
+            , ieVerification = Math.floor((Math.random() * 10) + 1)
+            , notifications = []
+            , settings = defaultSetting;
+
+          function getNotification(title, options) {
+            var notification;
+            if (window.Notification) { /* Safari 6, Chrome (23+) */
+              notification = new window.Notification(title, {
+                /* The notification's icon - For Chrome in Windows, Linux & Chrome OS */
+                icon: angular.isString(options.icon) ? options.icon : options.icon.x32
+                , /* The notification’s subtitle. */
+                body: options.body || emptyString
+                , /*
+                 The notification’s unique identifier.
+                 This prevents duplicate entries from appearing if the user has multiple instances of your website open at once.
+                 */
+                tag: options.tag || emptyString
+              });
+            } else if (window.webkitNotifications) { /* FF with html5Notifications plugin installed */
+              notification = window.webkitNotifications.createNotification(options.icon, title, options.body);
+              notification.show();
+            } else if (navigator.mozNotification) { /* Firefox Mobile */
+              notification = navigator.mozNotification.createNotification(title, options.body, options.icon);
+              notification.show();
+            } else if (window.external && window.external.msIsSiteMode()) { /* IE9+ */
+              //Clear any previous notifications
+              window.external.msSiteModeClearIconOverlay();
+              window.external.msSiteModeSetIconOverlay((angular.isString(options.icon) ? options.icon : options.icon.x16), title);
+              window.external.msSiteModeActivate();
+              notification = {
+                "ieVerification": ieVerification + 1
+              };
+            }
+            return notification;
+          }
+
+          function getWrapper(notification) {
+            return {
+              close: function() {
+                if (notification) {
+                  if (notification.close) {
+                    //http://code.google.com/p/ff-html5notifications/issues/detail?id=58
+                    notification.close();
+                  } else if (notification.cancel) {
+                    notification.cancel();
+                  } else if (window.external && window.external.msIsSiteMode()) {
+                    if (notification.ieVerification === ieVerification) {
+                      window.external.msSiteModeClearIconOverlay();
+                    }
+                  }
+                }
+              }
             };
-          return angular.isFunction(Object.seal) && Object.seal(v), v
-        }])
-    }()
-  }
-  , function(e, exports) {
-    ! function(e) {
-      "use strict";
-      angular.module("Services")
-        .factory("resourceService", ["$timeout", "$http", "$q", "$window", function(e, t, a, n) {
-          function i(t, a, n) {
-            if (t instanceof Array || (t = [t]), !(t.length > 0)) return void e(n, 0);
-            a = a || {};
-            for (var i, r = a.priority ? c : s, d = l.push({
-                callback: n || function() {}
-                , taskNum: t.length
-                , combo: a.combo
+          }
+
+          function requestPermission(callback) {
+            if (!isSupported) {
+              return;
+            }
+            var callbackFunction = angular.isFunction(callback) ? callback : angular.noop;
+            if (window.webkitNotifications && window.webkitNotifications.checkPermission) {
+              window.webkitNotifications.requestPermission(callbackFunction);
+            } else if (window.Notification && window.Notification.requestPermission) {
+              window.Notification.requestPermission(callbackFunction);
+            }
+          }
+
+          function permissionLevel() {
+            var permission;
+            if (!isSupported) {
+              return;
+            }
+            if (window.Notification && window.Notification.permissionLevel) {
+              //Safari 6
+              permission = window.Notification.permissionLevel();
+            } else if (window.webkitNotifications && window.webkitNotifications.checkPermission) {
+              //Chrome & Firefox with html5-notifications plugin installed
+              permission = PERMISSION[window.webkitNotifications.checkPermission()];
+            } else if (window.Notification && window.Notification.permission) {
+              // Firefox 23+
+              permission = window.Notification.permission;
+            } else if (navigator.mozNotification) {
+              //Firefox Mobile
+              permission = PERMISSION_GRANTED;
+            } else if (window.external && (window.external.msIsSiteMode() !== undefined)) { /* keep last */
+              //IE9+
+              permission = window.external.msIsSiteMode() ? PERMISSION_GRANTED : PERMISSION_DEFAULT;
+            }
+            return permission;
+          }
+          /**
+           *
+           */
+          function config(params) {
+            if (params && angular.isObject(params)) {
+              angular.extend(settings, params);
+            }
+            return settings;
+          }
+
+          function isDocumentHidden() {
+            return settings.pageVisibility ? (document.hidden || document.msHidden || document.mozHidden || document.webkitHidden) : true;
+          }
+
+          function createNotification(title, options) {
+            if (notifications.length >= settings.total) {
+              notifications.shift()
+                .close();
+            }
+
+            var notification
+              , notificationWrapper;
+            /*
+	                 Return undefined if notifications are not supported.
+	
+	                 Return undefined if no permissions for displaying notifications.
+	
+	                 Title and icons are required. Return undefined if not set.
+	                 */
+            if (isSupported && isDocumentHidden() && angular.isString(title) && (options && (angular.isString(options.icon) || angular.isObject(options.icon))) && (permissionLevel() === PERMISSION_GRANTED)) {
+              notification = getNotification(title, options);
+            }
+            notificationWrapper = getWrapper(notification);
+            notifications.push(notificationWrapper);
+            //Auto-close notification
+            if (settings.autoClose && notification && !notification.ieVerification && notification.addEventListener) {
+              notification.addEventListener("show", function() {
+                var notification = notificationWrapper;
+                setTimeout(function() {
+                  notification.close();
+                }, settings.autoClose);
+              });
+            }
+            return notification;
+          }
+
+          var service = {
+            PERMISSION_DEFAULT: PERMISSION_DEFAULT
+            , PERMISSION_GRANTED: PERMISSION_GRANTED
+            , PERMISSION_DENIED: PERMISSION_DENIED
+            , isSupported: isSupported
+            , config: config
+            , createNotification: createNotification
+            , permissionLevel: permissionLevel
+            , requestPermission: requestPermission
+          };
+
+          if (angular.isFunction(Object.seal)) {
+            Object.seal(service);
+          }
+
+
+          return service;
+        }]);
+    })();
+
+    /***/
+  })
+  , /* 301 */
+  /***/
+  (function(module, exports) {
+
+    (function(_aoUndefined) {
+      'use strict';
+
+      /* Services */
+
+      angular.module('Services')
+        .factory('resourceService', [
+          '$timeout'
+          , '$http'
+          , '$q'
+          , '$window'
+          , function($timeout, $http, $q, $window) {
+            var pageLoaded = false;
+
+            $($window)
+              .on('load', function() {
+                pageLoaded = true;
+                run();
+              })
+            var loadInterval = 4;
+            var parallelLimit = 6;
+            var runningTask = 0;
+            var priorityTaskList = [];
+            var taskList = [];
+            var j = 0;
+            var errorNum = 0;
+            var pendingNum = 0;
+            var pendingLimit = 5000;
+
+            var loadMap = {
+              image: function(task, cb) {
+                var image = new Image();
+                image.src = task.url;
+                j++;
+                //console.log('loadimg',j);
+                var startTime = Date.now();
+                image.onload = function() {
+                  if ((Date.now() - startTime) > pendingLimit) {
+                    pendingNum++;
+                  }
+                  cb(task);
+                }
+
+                image.onerror = function() {
+                  errorNum++;
+                }
+              }
+              , video: function(task, cb) {
+
+              }
+            };
+            var callBackList = [];
+
+            /**
+             *
+             * @param opt.priority 是否优先
+             * @param opt.combo 结果是否 combo
+             */
+            function load(list, opt, cb) {
+              if (!(list instanceof Array)) {
+                list = [list];
+              }
+
+              if (!(list.length > 0)) {
+                // 没有任务便返回
+                $timeout(cb, 0);
+                return;
+              }
+              opt = opt || {};
+
+
+              var theTaskList = opt.priority ? priorityTaskList : taskList;
+              var cbKey = callBackList.push({
+                callback: cb || function() {}
+                , taskNum: list.length
+                , combo: opt.combo
                 , result: {}
-              }) - 1, f = 0; f < t.length; f++) i = t[f], i._cbKey = d, i._resultKey = i.key || i.url, r.push(i);
-            o()
-          }
+              }) - 1;
+              var task;
 
-          function o() {}
-          var r = !1;
-          $(n)
-            .on("load", function() {
-              r = !0, o()
-            });
-          var c = []
-            , s = []
-            , l = []
-            , d = {
-              load: i
+
+              for (var i = 0; i < list.length; i++) {
+                task = list[i];
+                task._cbKey = cbKey;
+                // 如果没有设置key ，则默认是 url， 而如果只有一个任务，cb 便直接返回结果
+                task._resultKey = task.key || task.url;
+                theTaskList.push(task);
+              }
+              run();
+            }
+
+            var i = 0;
+
+            function resultCollect(task, result) {
+              var cbObj = callBackList[task._cbKey];
+              if (cbObj.combo) {
+                cbObj.result[task._resultKey] = result;
+                cbObj.taskNum--;
+                if (cbObj.taskNum == 0) {
+                  cbObj.callback(cbObj.result);
+                }
+              } else {
+                i++;
+                //console.log('load',i)
+                cbObj.callback(result);
+                cbObj.taskNum--;
+              }
+
+
+              if (cbObj.taskNum == 0) {
+                //console.log('load',i)
+                callBackList[task._cbKey] = undefined;
+              }
+
+              runningTask--;
+
+              run();
+            }
+
+
+            function run() {
+              /*if(!pageLoaded) return;
+	
+	                    var task ;
+	
+	                    while(runningTask < parallelLimit && (task = priorityTaskList.shift() || ( pageLoaded && taskList.shift()))){
+	                        runningTask ++;
+	                        setTimeout((function(task){
+	                            return function(){loadMap[task.type](task,resultCollect)};
+	                        })(task),loadInterval);
+	                    }*/
+            }
+
+
+            var service = {
+              load: load
             };
-          return d
-        }])
-    }()
-  }
-  , function(e, exports) {
-    ! function() {
-      "use strict";
-      angular.module("Services")
-        .factory("stateManageService", ["$http", "$q", function(e, t) {
-          function a(e) {
-            if ("object" == typeof e)
-              for (var t in e) i[t] !== e[t] && n(t, e[t]), i[t] = e[t]
-          }
 
-          function n(e, t) {
-            var a = o[e];
-            if (a)
-              for (var n = 0; n < a.length; n++) a[n](t)
+            return service;
           }
-          var i = {
-              "sender:hasText": !1
-              , "sender:active": !1
-              , "navChat:active": !1
-              , "navContact:active": !1
-              , "contactPicker:active": !1
-              , "dialog:open": !1
+        ]);
+    })();
+
+
+    /***/
+  })
+  , /* 302 */
+  /***/
+  (function(module, exports) {
+
+    /**
+     * Created by arminchen on 2015/2/6.
+     */
+    (function() {
+      'use strict';
+
+      /* Services */
+      angular.module('Services')
+        .factory('stateManageService', ['$http', '$q'
+          , function($http, $q) {
+
+            var stateMap = {
+              'sender:hasText': false
+              , 'sender:active': false
+              , 'navChat:active': false
+              , 'navContact:active': false
+              , 'contactPicker:active': false
+              , 'dialog:open': false
             }
-            , o = {}
-            , r = {
-              "navChat:active": {
-                "navContact:active": !1
-                , "navRead:active": !1
+
+            var listenMap = {}
+
+            var actionMap = {
+              'navChat:active': {
+                'navContact:active': false
+                , 'navRead:active': false
               }
-              , "navRead:active": {
-                "navChat:active": !1
-                , "navContact:active": !1
+              , 'navRead:active': {
+                'navChat:active': false
+                , 'navContact:active': false
               }
-              , "navContact:active": {
-                "navChat:active": !1
-                , "navRead:active": !1
+              , 'navContact:active': {
+                'navChat:active': false
+                , 'navRead:active': false
               }
             }
-            , c = {
+            var canDoMap = {
               navKeydown: function() {
-                return !i["sender:hasText"] && !i["contactPicker:active"]
+                return ((!stateMap['sender:hasText'] /*&& stateMap['sender:active']*/ ) /*||!stateMap['sender:active']*/ ) && !stateMap['contactPicker:active'];
               }
               , pasteFile: function() {
-                return !i["dialog:open"]
+                return !stateMap['dialog:open']
               }
             }
-            , s = {}
-            , l = {
-              change: function(e, t) {
-                var o, c = r[e]
-                  , s = t.toString();
-                c && (o = c.false || c.true ? c[s] : "true" == s ? c : void 0), i[e] !== t && n(e, t), i[e] = t, a(o)
+
+            var dataMap = {};
+
+            function handler(actionObj) {
+              if (typeof actionObj === 'object') {
+                for (var state in actionObj) {
+                  if (stateMap[state] !== actionObj[state]) {
+                    trigger(state, actionObj[state]);
+                  }
+                  stateMap[state] = actionObj[state];
+
+                }
               }
-              , canDo: function(e) {
-                return c[e]()
+            }
+
+            function trigger(state, value) {
+              var listeners = listenMap[state];
+              if (listeners) {
+                for (var i = 0; i < listeners.length; i++) {
+                  listeners[i](value);
+                }
               }
-              , on: function(e, t) {
-                o[e] || (o[e] = []);
-                var a = i[e];
-                "undefined" != typeof a && n(e, a), o[e].push(t)
+            }
+
+
+
+
+            var service = {
+              change: function(state, value) {
+                var stateActions = actionMap[state];
+                var actionStr = value.toString();
+                var actionObj;
+                if (stateActions) {
+                  if (stateActions['false'] || stateActions['true']) {
+                    actionObj = stateActions[actionStr];
+                  } else {
+                    actionObj = actionStr == 'true' ? stateActions : undefined;
+                  }
+                }
+                if (stateMap[state] !== value) {
+                  trigger(state, value);
+                }
+                stateMap[state] = value;
+                handler(actionObj);
               }
-              , off: function(e, t) {
-                var a, n = o[e];
-                if (n)
-                  for (var i = 0; i < n.length; i++)
-                    if (a = n[i], a == t) return void n.splice(i, 1)
+              , canDo: function(event) {
+                return canDoMap[event]();
+              },
+
+              on: function(state, cb) {
+                if (!listenMap[state]) {
+                  listenMap[state] = [];
+                }
+
+                var value = stateMap[state];
+                if (typeof value !== 'undefined') {
+                  trigger(state, value);
+                }
+
+                listenMap[state].push(cb);
               }
-              , data: function(e, t) {
-                return 2 === arguments.length && (s[e] = t), s[e]
+              , off: function(state, cb) {
+                var listens = listenMap[state];
+                var listen;
+                if (!listens) return;
+
+                for (var i = 0; i < listens.length; i++) {
+                  listen = listens[i];
+                  if (listen == cb) {
+                    listens.splice(i, 1);
+                    return;
+                  }
+                }
+              }
+              , data: function(key, value) {
+                if (arguments.length === 2) {
+                  dataMap[key] = value;
+                }
+
+                return dataMap[key]
+              }
+            }
+            return service;
+          }
+        ]);
+
+    })();
+
+    /***/
+  })
+  , /* 303 */
+  /***/
+  (function(module, exports) {
+
+    (function() {
+      'use strict';
+      angular.module('Services')
+        .factory('oplogFactory', ['$http', 'accountFactory', 'confFactory'
+          , function($http, accountFactory, confFactory) {
+            return {
+              feedback: function(ctn) {
+                $http({
+                  method: "POST"
+                  , url: confFactory.API_webwxfeedback
+                  , data: angular.extend(accountFactory.getBaseRequest(), {
+                    MachineType: "webwx"
+                    , Content: ctn
+                    , ReportType: 0 //default
+                  })
+                });
               }
             };
-          return l
-        }])
-    }()
-  }
-  , function(e, exports) {
-    ! function() {
-      "use strict";
-      angular.module("Services")
-        .factory("oplogFactory", ["$http", "accountFactory", "confFactory", function(e, t, a) {
-          return {
-            feedback: function(n) {
-              e({
-                method: "POST"
-                , url: a.API_webwxfeedback
-                , data: angular.extend(t.getBaseRequest(), {
-                  MachineType: "webwx"
-                  , Content: n
-                  , ReportType: 0
-                })
-              })
+          }
+        ]);
+    })();
+
+
+    /***/
+  })
+  , /* 304 */
+  /***/
+  (function(module, exports) {
+
+    (function() {
+      'use strict';
+
+      /* Services */
+
+      angular.module('Services')
+        .factory('reportService', ['$http', '$rootScope', 'confFactory', 'accountFactory', function($http, $rootScope, confFactory, accountFactory) {
+          var DELAY = 3000;
+          var reportList = [];
+          var storageList = [];
+          var runTimeReportMap = {};
+          var timer;
+          var REPORT_KEY = 'reportService';
+          var storage = getLocalStorage();
+          var ReportType = {
+            // 带有 -error 字样的错误类型总是第一时间被上报
+            jsError: '[js-error]'
+            , initError: '[init-error]'
+            , logicError: '[logic-error]'
+            , uploaderError: '[uploader-error]'
+            , netError: '[net-error]'
+            , imageLoadError: '[image-load-error]'
+            , picError: '[pic-error]'
+            , cookieError: '[cookie-error]',
+
+            sendError: '[send-error]',
+
+            timing: '[app-timing]'
+            , runtime: '[app-runtime]'
+            , contactReady: '[contact-ready-time]'
+            , initReady: '[init-ready-time]',
+
+            actionRecord: '[action-record]',
+
+            WinAdPV: '[win-ad-pv]', // Windows平台广告曝光量
+            click2CloseAd: '[click-to-close-ad]', // 骚扰，直接叉掉的量
+            clickAndCloseAd: '[click-and-close-ad]', // 好奇点一下的量
+
+            sessionData: '[session-data]'
+          };
+
+          var reportHanglerMap = {};
+
+          reportHanglerMap[ReportType.jsError] = handleJsError;
+          //reportHanglerMap[ReportType.timing] = handleTiming;
+
+          drainStorageReport();
+          reportAppRunTime();
+
+          var appTimingObj = {};
+          var isTimingSended = false;
+
+          function getTiming() {
+            var pageTiming, result = {};
+            result.appTiming = appTimingObj;
+            if (window.performance && (pageTiming = window.performance.timing)) {
+              result.pageTiming = pageTiming;
             }
-          }
-        }])
-    }()
-  }
-  , function(e, exports) {
-    ! function() {
-      "use strict";
-      angular.module("Services")
-        .factory("reportService", ["$http", "$rootScope", "confFactory", "accountFactory", function(e, t, a, n) {
-          function i() {
-            var e, t = {};
-            return t.appTiming = G, window.performance && (e = window.performance.timing) && (t.pageTiming = e), t
+            return result;
           }
 
-          function o(e) {
-            e.needSend ? (p({
-              Type: 1
-              , Text: JSON.stringify({
-                type: N.timing
-                , data: i()
-              })
-            }, !0), k = !0, f()) : e.fullTiming ? p({
-              Type: 1
-              , Text: JSON.stringify({
-                type: N.timing
-                , data: e.fullTiming
-              })
-            }, !0) : $.extend(G, e.timing)
-          }
+          function handleTiming(data) {
 
-          function r(e) {
-            return {
-              message: e.message
-              , stack: e.stack && e.stack.replace(/\n/g, "\\n")
-              , other: e.other
-            }
-          }
 
-          function c(e, t) {
-            return e
-          }
+            if (data.needSend) {
 
-          function s(e, t) {
-            var a = E[e]
-              , n = t;
-            "function" == typeof a ? n = a(t) : "string" == typeof a && (n = c(a, t));
-            var i = JSON.stringify({
-              type: e
-              , data: n
-            });
-            return i
-          }
-
-          function l() {
-            var e = JSON.parse(T.getItem(S));
-            if (e && e.length > 0) {
-              for (var t = 0; t < e.length; t++) d(e[t].type, e[t].data);
-              T.setItem(S, null)
-            }
-          }
-
-          function d(e, t, a) {
-            if (void 0 != typeof e) {
-              if (e == N.timing) return void o(t);
-              var n, i = a || !1;
-              e.indexOf("send-error") > 0 ? (i = !0, n = {
-                Type: 16
-                , Text: s(e, t)
-              }) : (e.indexOf("-error") > 0 ? (i = !0, n = {
-                Type: 2
-                , Text: s(e, t)
-              }) : n = {
+              _report({
                 Type: 1
-                , Text: s(e, t)
-              }, p(n, i))
+                , Text: JSON.stringify({
+                  type: ReportType.timing
+                  , data: getTiming()
+                })
+              }, true);
+              isTimingSended = true;
+              startRunTimeReport();
+            } else if (data.fullTiming) {
+              _report({
+                Type: 1
+                , Text: JSON.stringify({
+                  type: ReportType.timing
+                  , data: data.fullTiming
+                })
+              }, true)
+
+            } else {
+              $.extend(appTimingObj, data.timing);
+            }
+
+
+
+
+
+
+          }
+
+          function handleJsError(err) {
+            return {
+              message: err.message
+              , stack: err.stack && err.stack.replace(/\n/g, '\\n')
+              , other: err.other
+            };
+          }
+
+          function format(tpl, data) {
+            return tpl;
+          }
+
+          function handlerReportData(type, data) {
+            var hander = reportHanglerMap[type];
+            var result = data;
+            if (typeof hander == 'function') {
+              result = hander(data);
+            } else if (typeof hander == 'string') {
+              result = format(hander, data);
+            }
+
+            var resultText = JSON.stringify({
+              type: type
+              , data: result
+            });
+
+
+            return resultText;
+          }
+
+
+          function drainStorageReport() {
+            var storageList = JSON.parse(storage.getItem(REPORT_KEY));
+            if (storageList && storageList.length > 0) {
+              for (var i = 0; i < storageList.length; i++) {
+                report(storageList[i].type, storageList[i].data);
+              }
+              storage.setItem(REPORT_KEY, null);
+            }
+
+          }
+
+
+          function report(type, data, isImmediately) {
+            if (typeof type == undefined) {
+              console.error('【report】', 'report type 不存在：', type, data);
+              return;
+            }
+
+
+            if (type == ReportType.timing) {
+              handleTiming(data);
+              return;
+            }
+
+
+            var immediately = isImmediately || false;
+            var reportData;
+            if (type.indexOf('send-error') > 0) {
+              immediately = true;
+              reportData = {
+                Type: 16
+                , Text: handlerReportData(type, data)
+              };
+            } else {
+              if (type.indexOf('-error') > 0) {
+                immediately = true;
+                reportData = {
+                  Type: 2
+                  , Text: handlerReportData(type, data)
+                };
+              } else {
+                reportData = {
+                  Type: 1
+                  , Text: handlerReportData(type, data)
+                };
+              }
+
+              _report(reportData, immediately);
+            }
+
+          }
+
+
+          function startRunTimeReport() {
+            // todo:累积数据，页面unload的时候一次性发送统计数据
+            var timeList = [0, 15000, 600000];
+
+            for (var i = 0; i < timeList.length; i++) {
+              setTimeout((function(time) {
+                return function() {
+                  runTimeReportMap[time] = analyze($rootScope);
+                }
+              })(timeList[i]), timeList[i])
             }
           }
 
-          function f() {
-            for (var e = [0, 15e3, 6e5], a = 0; a < e.length; a++) setTimeout(function(e) {
-              return function() {
-                w[e] = g(t)
-              }
-            }(e[a]), e[a])
-          }
+          function reportAppRunTime() {
 
-          function u() {
             $(window)
               .unload(function() {
-                w.unload = g(t), C.push({
-                  type: N.runtime
-                  , data: w
-                }), !k && C.push({
-                  type: N.timing
+                runTimeReportMap['unload'] = analyze($rootScope);
+                storageList.push({
+                  type: ReportType.runtime
+                  , data: runTimeReportMap
+                })
+
+
+                !isTimingSended && storageList.push({
+                  type: ReportType.timing
                   , data: {
-                    fullTiming: i()
+                    fullTiming: getTiming()
                   }
-                }), localStorage.setItem(S, JSON.stringify(C))
-              })
+                })
+
+                localStorage.setItem(REPORT_KEY, JSON.stringify(storageList))
+              });
+
+
+            // todo: 运行时状态手机
+
+
           }
 
-          function m() {
-            var e, t = window.localStorage;
-            return e = t ? {
-              setItem: function() {
-                try {
-                  t.setItem.apply(t, arguments)
-                } catch (e) {}
+          function getLocalStorage() {
+            var result;
+            var nativeStorage = window.localStorage;
+
+            if (nativeStorage) {
+              result = {
+                setItem: function() {
+                  try {
+                    nativeStorage.setItem.apply(nativeStorage, arguments)
+                  } catch (e) {
+                    console.log('localStory 不能使用')
+                  }
+                }
+                , getItem: function() {
+                  try {
+                    return nativeStorage.getItem.apply(nativeStorage, arguments)
+                  } catch (e) {
+                    console.log('localStory 不能使用')
+                  }
+                }
               }
-              , getItem: function() {
-                try {
-                  return t.getItem.apply(t, arguments)
-                } catch (e) {}
+            } else {
+              result = {
+                setItem: function() {}
+                , getItem: function() {}
               }
-            } : {
-              setItem: function() {}
-              , getItem: function() {}
             }
+
+            return result;
           }
 
-          function g(e, t) {
-            t || (t = {
+          function analyze(scope, result) {
+            if (!result) result = {
               listenerCount: 0
               , watchersCount: 0
               , scopesCount: 0
-            });
-            for (var a = e.$$childHead; a;) g(a, t), a = a.$$nextSibling;
-            var n = e.$$listenerCount;
-            for (var i in n) t.listenerCount += n[i];
-            return t.watchersCount += e.$$watchers && e.$$watchers.length, t.scopesCount += 1, t
+            }
+            var currentChild = scope.$$childHead;
+
+            while (currentChild) {
+              analyze(currentChild, result);
+              currentChild = currentChild.$$nextSibling;
+            }
+
+            var listenerCount = scope.$$listenerCount;
+            for (var listenerKey in listenerCount) {
+              result.listenerCount += listenerCount[listenerKey];
+            }
+
+            result.watchersCount += scope.$$watchers && scope.$$watchers.length;
+            result.scopesCount += 1;
+
+            return result;
           }
 
-          function p(e, t) {
-            b.push(e), t ? h() : (v && clearTimeout(v), v = setTimeout(function() {
-              h()
-            }, y))
+          function _report(data, immediately) {
+            reportList.push(data);
+            if (immediately) {
+              send()
+            } else {
+              timer && clearTimeout(timer);
+              timer = setTimeout(function() {
+                send()
+              }, DELAY)
+            }
           }
 
-          function h() {
-            var e = b.splice(0);
-            M(e)
+          function send() {
+            var list = reportList.splice(0);
+            post(list);
           }
 
-          function M(t) {
-            e({
+          window._errorHandler = function(err) {
+            report(ReportType.jsError, err)
+          }
+
+          function post(list) {
+            $http({
                 method: "POST"
-                , url: a.API_webwxreport + "?fun=new"
+                , url: confFactory.API_webwxreport + '?fun=new'
                 , data: {
                   BaseRequest: {
-                    Uin: n.getUin()
-                    , Sid: n.getSid()
-                    , DeviceID: n.getDeviceID()
+                    Uin: accountFactory.getUin()
+                    , Sid: accountFactory.getSid()
+                    , DeviceID: accountFactory.getDeviceID()
                   }
-                  , Count: t.length
-                  , List: t
+                  , Count: list.length
+                  , List: list
                 }
               })
-              .success(function(e) {})
-              .error(function(e) {})
+              .success(function(data) {
+                // do nothing
+                console.log(data);
+                console.timeEnd('report');
+              })
+              .error(function(data) {
+                // do nothing
+                console.log(data);
+                console.timeEnd('report');
+              });
+
           }
-          var v, y = 3e3
-            , b = []
-            , C = []
-            , w = {}
-            , S = "reportService"
-            , T = m()
-            , N = {
-              jsError: "[js-error]"
-              , initError: "[init-error]"
-              , logicError: "[logic-error]"
-              , uploaderError: "[uploader-error]"
-              , netError: "[net-error]"
-              , imageLoadError: "[image-load-error]"
-              , picError: "[pic-error]"
-              , cookieError: "[cookie-error]"
-              , sendError: "[send-error]"
-              , timing: "[app-timing]"
-              , runtime: "[app-runtime]"
-              , contactReady: "[contact-ready-time]"
-              , initReady: "[init-ready-time]"
-              , actionRecord: "[action-record]"
-              , WinAdPV: "[win-ad-pv]"
-              , click2CloseAd: "[click-to-close-ad]"
-              , clickAndCloseAd: "[click-and-close-ad]"
-              , sessionData: "[session-data]"
+
+          var service = {
+            report: report
+            , ReportType: ReportType
+          };
+          return service;
+        }]);
+    })();
+
+    /***/
+  })
+  , /* 305 */
+  /***/
+  (function(module, exports, __webpack_require__) {
+
+    (function() {
+      'use strict';
+
+      /* Services */
+
+      angular.module('Services')
+        .factory('monitorService', ['$http', '$rootScope', 'confFactory', 'accountFactory', function($http, $rootScope, confFactory, accountFactory) {
+          var monitor = __webpack_require__(306);
+          console.debug('monitor', monitor);
+          var service = {
+            report: report
+            , ID: 69373
+            , PV: 0
+            , FEEDBACK_COUNT: 1
+            , EXCEPTION_COUNT: 2
+            , INIT_EXCEPTION_COUNT: 3
+            , QRCODE_EXCEPTION_COUNT: 4
+            , AUTH_FAIL_COUNT: 5
+            , ASSOCIATION_AUTH_COUNT: 6
+            , ASSOCIATION_AUTH_FAIL_COUNT: 7
+            , SEND_MSG_COUNT: 8
+            , UPLOAD_COUNT: 9
+            , UPLOAD_FAIL_COUNT: 10
+            , CREATE_CHAT_ROOM_COUNT: 11
+            , CREATE_CHAT_ROOM_FAIL_COUNT: 12
+            , INVITE_TO_CHAT_ROOM_COUNT: 13
+            , INVITE_TO_CHAT_ROOM_FAIL_COUNT: 14
+            , CLICK_SNAPSHOT_COUNT: 15
+          };
+
+          function report(key, value, timeout) {
+            if (!timeout) {
+              timeout = 0;
             }
-            , E = {};
-          E[N.jsError] = r, l(), u();
-          var G = {}
-            , k = !1;
-          window._errorHandler = function(e) {
-            d(N.jsError, e)
-          };
-          var I = {
-            report: d
-            , ReportType: N
-          };
-          return I
-        }])
-    }()
-  }
-  , function(e, exports, t) {
-    ! function() {
-      "use strict";
-      angular.module("Services")
-        .factory("monitorService", ["$http", "$rootScope", "confFactory", "accountFactory", function(e, a, n, i) {
-          function o(e, t, a) {
-            a || (a = 0), r(c.ID, e, t, a)
+            monitor(service.ID, key, value, timeout);
           }
-          var r = t(306)
-            , c = {
-              report: o
-              , ID: 69373
-              , PV: 0
-              , FEEDBACK_COUNT: 1
-              , EXCEPTION_COUNT: 2
-              , INIT_EXCEPTION_COUNT: 3
-              , QRCODE_EXCEPTION_COUNT: 4
-              , AUTH_FAIL_COUNT: 5
-              , ASSOCIATION_AUTH_COUNT: 6
-              , ASSOCIATION_AUTH_FAIL_COUNT: 7
-              , SEND_MSG_COUNT: 8
-              , UPLOAD_COUNT: 9
-              , UPLOAD_FAIL_COUNT: 10
-              , CREATE_CHAT_ROOM_COUNT: 11
-              , CREATE_CHAT_ROOM_FAIL_COUNT: 12
-              , INVITE_TO_CHAT_ROOM_COUNT: 13
-              , INVITE_TO_CHAT_ROOM_FAIL_COUNT: 14
-              , CLICK_SNAPSHOT_COUNT: 15
-            };
-          return c
-        }])
-    }()
-  }
-  , function(e, exports, t) {
-    ! function(t, a) {
-      e.exports = a()
-    }(this, function() {
+          return service;
+        }]);
+    })();
+
+    /***/
+  })
+  , /* 306 */
+  /***/
+  (function(module, exports, __webpack_require__) {
+
+    (function e(t, r) {
+      if (true) module.exports = r();
+      else if (typeof define === "function" && define.amd) define([], r);
+      else if (typeof exports === "object") exports["monitor"] = r();
+      else t["monitor"] = r()
+    })(this, function() {
       return function(e) {
-        function t(n) {
-          if (a[n]) return a[n].exports;
-          var i = a[n] = {
+        var t = {};
+
+        function r(n) {
+          if (t[n]) {
+            return t[n].exports
+          }
+          var u = t[n] = {
             i: n
-            , l: !1
+            , l: false
             , exports: {}
           };
-          return e[n].call(i.exports, i, i.exports, t), i.l = !0, i.exports
+          e[n].call(u.exports, u, u.exports, r);
+          u.l = true;
+          return u.exports
         }
-        var a = {};
-        return t.m = e, t.c = a, t.d = function(e, a, n) {
-          t.o(e, a) || Object.defineProperty(e, a, {
-            configurable: !1
-            , enumerable: !0
-            , get: n
-          })
-        }, t.n = function(e) {
-          var a = e && e.__esModule ? function() {
-            return e.default
-          } : function() {
+        r.m = e;
+        r.c = t;
+        r.d = function(e, t, n) {
+          if (!r.o(e, t)) {
+            Object.defineProperty(e, t, {
+              configurable: false
+              , enumerable: true
+              , get: n
+            })
+          }
+        };
+        r.n = function(e) {
+          var t = e && e.__esModule ? function t() {
+            return e["default"]
+          } : function t() {
             return e
           };
-          return t.d(a, "a", a), a
-        }, t.o = function(e, t) {
+          r.d(t, "a", t);
+          return t
+        };
+        r.o = function(e, t) {
           return Object.prototype.hasOwnProperty.call(e, t)
-        }, t.p = "", t(t.s = 0)
-      }([function(e, t, a) {
+        };
+        r.p = "";
+        return r(r.s = 0)
+      }([function(e, t, r) {
         "use strict";
+        Object.defineProperty(t, "__esModule", {
+          value: true
+        });
+        var n = r(1);
+        var u = o(n);
+        var i = r(2);
+        var f = o(i);
 
-        function n(e) {
+        function o(e) {
           return e && e.__esModule ? e : {
             default: e
           }
         }
+        var a = (0, u.default)();
+        var l = (0, u.default)();
 
-        function i(e, t, a) {
-          var n = arguments.length > 3 && void 0 !== arguments[3] ? arguments[3] : 0
-            , i = e + "-" + t
-            , o = l.get(i);
-          void 0 === o ? l.set(i, a) : l.set(i, o + a);
-          var r = d.get(i);
-          void 0 === r && (r = (0, s.default)(function() {
-            var a = l.get(i);
-            if (void 0 !== a) {
-              var n = "https://support.weixin.qq.com/cgi-bin/mmsupport-bin/reportforweb?rid=" + e + "&rkey=" + t + "&rvalue=" + a;
-              (new Image)
-              .src = n, l.clear(i), d.clear(i)
-            }
-          }, n, {
-            leading: !1
-          }), d.set(i, r)), r()
+        function d(e, t, r) {
+          var n = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : 0;
+          var u = e + "-" + t;
+          var i = a.get(u);
+          if (i === undefined) {
+            a.set(u, r)
+          } else {
+            a.set(u, i + r)
+          }
+          var o = l.get(u);
+          if (o === undefined) {
+            o = (0, f.default)(function() {
+              var r = a.get(u);
+              if (r !== undefined) {
+                var n = "https://support.weixin.qq.com/cgi-bin/mmsupport-bin/reportforweb?rid=" + e + "&rkey=" + t + "&rvalue=" + r;
+                (new Image)
+                .src = n;
+                a.clear(u);
+                l.clear(u)
+              }
+            }, n, {
+              leading: false
+            });
+            l.set(u, o)
+          }
+          o()
         }
-        Object.defineProperty(t, "__esModule", {
-          value: !0
-        });
-        var o = a(1)
-          , r = n(o)
-          , c = a(2)
-          , s = n(c)
-          , l = (0, r.default)()
-          , d = (0, r.default)();
-        t.default = i, e.exports = t.default
-      }, function(e, t, a) {
+        t.default = d;
+        e.exports = t["default"]
+      }, function(e, t, r) {
         "use strict";
         Object.defineProperty(t, "__esModule", {
-          value: !0
+          value: true
         });
-        var n = function() {
-          var e = {}
-            , t = function(t) {
-              return e[t]
+        var n = function e() {
+          var t = {};
+          var r = function e(r) {
+            return t[r]
+          };
+          var n = function e(r, n) {
+            t[r] = n
+          };
+          var u = function e(r) {
+            if (r === undefined) {
+              t = {}
+            } else {
+              t[r] = undefined
             }
-            , a = function(t, a) {
-              e[t] = a
-            }
-            , n = function(t) {
-              void 0 === t ? e = {} : e[t] = void 0
-            };
+          };
           return {
-            get: t
-            , set: a
-            , clear: n
+            get: r
+            , set: n
+            , clear: u
           }
         };
-        t.default = n, e.exports = t.default
-      }, function(e, t, a) {
+        t.default = n;
+        e.exports = t["default"]
+      }, function(e, t, r) {
         "use strict";
+        Object.defineProperty(t, "__esModule", {
+          value: true
+        });
 
         function n(e, t) {
-          var a = arguments.length > 2 && void 0 !== arguments[2] ? arguments[2] : {}
-            , n = void 0
-            , i = void 0
-            , o = void 0
-            , r = 0
-            , c = function() {
-              r = a.leading === !1 ? 0 : (new Date)
-                .getTime(), n = null, e.apply(i, o), n || (i = o = null)
-            }
-            , s = function() {
-              var s = (new Date)
-                .getTime();
-              r || a.leading !== !1 || (r = s);
-              var l = t - (s - r);
-              i = this, o = arguments, l <= 0 || l > t ? (n && (clearTimeout(n), n = null), r = s, e.apply(i, o), n || (i = o = null)) : n || a.trailing === !1 || (n = setTimeout(c, l))
-            };
-          return s
-        }
-        Object.defineProperty(t, "__esModule", {
-          value: !0
-        }), t.default = n, e.exports = t.default
-      }])
-    })
-  }
-  , function(e, exports) {
-    ! function() {
-      "use strict";
-      angular.module("Services")
-        .factory("mmHttp", ["$http", "$q", "$timeout", function(e, t, a) {
-          function n(n) {
-            function i(t, n) {
-              e[t].apply(e, n)
-                .success(r)
-                .error(c), a(function() {
-                  l.complete || s()
-                }, m)
-            }
-
-            function o(e, t, a) {
-              for (var n = 0; n < e.length; n++) e[n].apply(t, a)
-            }
-
-            function r() {
-              y++, l.complete || (l.complete = !0, v.resolve(), o(p, this, arguments))
-            }
-
-            function c(e) {
-              y++, s() || l.complete || y != u + 1 || o(h, this, arguments)
-            }
-
-            function s() {
-              return !(M >= u || l.complete) && (g && (v.resolve(), v = t.defer(), d.timeout = v.promise), M++, i(n.method, n.args), !0)
-            }
-            var l = n.data
-              , d = n.config
-              , f = d.MMRetry
-              , u = "undefined" == typeof f.count ? 3 : f.count
-              , m = f.timeout || 15e3
-              , g = f.serial
-              , p = []
-              , h = []
-              , M = 0
-              , v = t.defer()
-              , y = 0;
-            return d.timeout = v.promise, i(n.method, n.args), {
-              success: function(e) {
-                return p.push(e), this
+          var r = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+          var n = void 0;
+          var u = void 0;
+          var i = void 0;
+          var f = 0;
+          var o = function t() {
+            f = r.leading === false ? 0 : (new Date)
+              .getTime();
+            n = null;
+            e.apply(u, i);
+            if (!n) u = i = null
+          };
+          var a = function a() {
+            var l = (new Date)
+              .getTime();
+            if (!f && r.leading === false) f = l;
+            var d = t - (l - f);
+            u = this;
+            i = arguments;
+            if (d <= 0 || d > t) {
+              if (n) {
+                clearTimeout(n);
+                n = null
               }
-              , error: function(e) {
-                return h.push(e), this
+              f = l;
+              e.apply(u, i);
+              if (!n) u = i = null
+            } else if (!n && r.trailing !== false) {
+              n = setTimeout(o, d)
+            }
+          };
+          return a
+        }
+        t.default = n;
+        e.exports = t["default"]
+      }])
+    });
+
+    /***/
+  })
+  , /* 307 */
+  /***/
+  (function(module, exports) {
+
+    (function() {
+      'use strict';
+
+      /* Services */
+
+      angular.module('Services')
+        .factory('mmHttp', ['$http', '$q', '$timeout', function($http, $q, $timeout) {
+
+          var service = function(config) {
+            var method = config.method ? config.method.toLowerCase() : 'get';
+            var url = config.url;
+            var data = config.data;
+            var args = [url];
+
+            data && args.push(data);
+            args.push(config);
+            return service[method].apply(service, args);
+          };
+
+          var methodList = ['post', 'get', 'jsonp']
+            , method;
+          for (var i = 0; i < methodList.length; i++) {
+            method = methodList[i];
+            service[method] = (function(key) {
+              return function(url) {
+                var data, config;
+                var args = [url];
+                if (key == 'post') {
+                  data = arguments[1];
+                  config = arguments[2];
+                } else {
+                  config = arguments[1];
+                }
+
+                var mmRetry;
+
+                data && args.push(data);
+                if (config) {
+                  mmRetry = typeof config.MMRetry != 'undefined';
+                  args.push(config);
+                }
+
+                var result;
+
+                if (mmRetry) {
+                  result = handlerRequest({
+                    args: args
+                    , method: key
+                    , config: config
+                    , data: {
+                      complete: false
+                    }
+                  });
+                } else {
+                  result = $http[key].apply($http, args)
+                }
+
+                return result;
+              }
+            })(method)
+          }
+
+          // todo: 串行加载模式
+          function handlerRequest(requestData) {
+            var data = requestData.data;
+            var config = requestData.config;
+            var mmRetry = config.MMRetry;
+            var count = typeof mmRetry.count == 'undefined' ? 3 : mmRetry.count;
+            var timeout = mmRetry.timeout || 15000;
+            var serial = mmRetry.serial;
+            //回调列表，使得mmHttp支持类似 $http 的方式的链式添加 success 和 error 回调
+            var successList = [];
+            var errorList = [];
+
+            var retryCount = 0;
+            var canceler = $q.defer();
+            var completeCount = 0;
+            config['timeout'] = canceler.promise;
+            sendRequest(requestData.method, requestData.args);
+            return {
+              success: function(callback) {
+                successList.push(callback);
+                return this;
+              }
+              , error: function(callback) {
+                errorList.push(callback);
+                return this;
+              }
+            };
+
+            function sendRequest(method, args) {
+
+              $http[method].apply($http, args)
+                .success(requestSuccess)
+                .error(requestError);
+              $timeout(function() {
+                if (!data.complete) {
+                  retry();
+                }
+              }, timeout);
+            }
+
+            function runCallback(list, self, args) {
+              for (var i = 0; i < list.length; i++) {
+                list[i].apply(self, args);
+              }
+            }
+
+            function requestSuccess() {
+              completeCount++;
+              if (!data.complete) {
+                // canceler 不能保证必定不会执行多次成功回调，只能用做节省请求资源， complete 参数保证回调一定不会执行多次
+                data.complete = true;
+                canceler.resolve();
+                runCallback(successList, this, arguments);
+              }
+            }
+
+            function requestError(err) {
+              completeCount++;
+              if (!retry() && !data.complete && completeCount == count + 1) {
+                runCallback(errorList, this, arguments);
+              }
+            }
+
+            function retry() {
+              if (retryCount >= count || data.complete) {
+                return false;
+              } else {
+
+                if (serial) {
+                  canceler.resolve();
+                  canceler = $q.defer();
+                  config['timeout'] = canceler.promise;
+                }
+
+                retryCount++;
+                sendRequest(requestData.method, requestData.args);
+                return true;
               }
             }
           }
-          for (var i, o = function(e) {
-              var t = e.method ? e.method.toLowerCase() : "get"
-                , a = e.url
-                , n = e.data
-                , i = [a];
-              return n && i.push(n), i.push(e), o[t].apply(o, i)
-            }, r = ["post", "get", "jsonp"], c = 0; c < r.length; c++) i = r[c], o[i] = function(t) {
-            return function(a) {
-              var i, o, r = [a];
-              "post" == t ? (i = arguments[1], o = arguments[2]) : o = arguments[1];
-              var c;
-              i && r.push(i), o && (c = "undefined" != typeof o.MMRetry, r.push(o));
-              var s;
-              return s = c ? n({
-                args: r
-                , method: t
-                , config: o
-                , data: {
-                  complete: !1
-                }
-              }) : e[t].apply(e, r)
-            }
-          }(i);
-          return o
-        }])
-    }()
-  }
-  , function(e, exports) {
-    ! function() {
-      "use strict";
-      angular.module("Services")
-        .factory("surviveCheckService", ["$http", "$q", "$timeout", function(e, t, a) {
-          var n, i, o = {
-            start: function(e) {
-              n && clearInterval(n), n = setInterval(function() {
-                i && i()
-              }, e)
+
+
+          return service;
+        }]);
+
+    })()
+
+    /***/
+  })
+  , /* 308 */
+  /***/
+  (function(module, exports) {
+
+    (function() {
+      'use strict';
+
+      /* Services */
+
+      angular.module('Services')
+        .factory('surviveCheckService', ['$http', '$q', '$timeout', function($http, $q, $timeout) {
+          var timer;
+          var callback
+          var service = {
+            start: function(time) {
+              if (timer) clearInterval(timer);
+
+              timer = setInterval(function() {
+                callback && callback();
+              }, time)
             }
             , stop: function() {
-              n && clearInterval(n)
+              if (timer) clearInterval(timer);
             }
-            , callback: function(e) {
-              i = e
+            , callback: function(cb) {
+              callback = cb;
             }
-          };
-          return o
-        }])
-    }()
-  }
-  , function(e, exports) {
-    ! function(e) {
-      "use strict";
-      angular.module("Services")
-        .factory("titleRemind", ["$window", "confFactory", function(e, t) {
-          function a(e, t) {
-            function a() {
-              i[n] ? e() : t()
-            }
-            var n, o;
-            "undefined" != typeof i.hidden ? (n = "hidden", o = "visibilitychange") : "undefined" != typeof i.mozHidden ? (n = "mozHidden", o = "mozvisibilitychange") : "undefined" != typeof i.msHidden ? (n = "msHidden", o =
-              "msvisibilitychange") : "undefined" != typeof i.webkitHidden && (n = "webkitHidden", o = "webkitvisibilitychange"), "undefined" == typeof i.addEventListener || "undefined" == typeof n ? ($(window)
-              .focus(function() {
-                t()
-              }), $(window)
-              .blur(function() {
-                e()
-              })) : i.addEventListener(o, a, !1)
           }
-          var n = !0
-            , i = e.document
-            , o = {
-              defaultTitle: t.isClientVersion ? _("cfbf6f4") : _("2f521c5")
+
+          return service;
+        }]);
+
+    })()
+
+    /***/
+  })
+  , /* 309 */
+  /***/
+  (function(module, exports) {
+
+    (function(_aoUndefined) {
+      'use strict';
+
+      /* Services */
+
+      angular.module('Services')
+        .factory('titleRemind', [
+          '$window'
+          , 'confFactory'
+          , function($window, confFactory) {
+            var active = true;
+            var document = $window.document;
+            /*$(window).focus(function() { active = true; MsgRemind.stop();});
+             $(window).blur(function() { active = false;MsgRemind.start();});*/
+
+
+            var MsgRemind = {
+              defaultTitle: confFactory.isClientVersion ? _("cfbf6f4") : _("2f521c5")
               , unreadMsgNum: 0
               , start: function() {
-                var e = this;
-                this.unreadMsgNum = 0, this.timer && clearTimeout(this.timer), this.timer = setTimeout(function t() {
-                  e._toggle(), e.timer = setTimeout(t, 2e3)
-                }, 2e3)
+                var self = this;
+                this.unreadMsgNum = 0;
+                this.timer && clearTimeout(this.timer);
+                this.timer = setTimeout(function toggle() {
+                  self._toggle();
+                  self.timer = setTimeout(toggle, 2000);
+                }, 2000)
               }
               , _toggle: function() {
-                i.title == this.defaultTitle && this.unreadMsgNum > 0 ? i.title = _("cfbf6f4") + "(" + this.unreadMsgNum + ")" : i.title = this.defaultTitle
+
+                if (document.title == this.defaultTitle && this.unreadMsgNum > 0) {
+                  document.title = _("cfbf6f4") + '(' + this.unreadMsgNum + ')';
+                } else {
+                  document.title = this.defaultTitle;
+                }
+
               }
               , stop: function() {
-                var e = this;
-                this.timer && clearTimeout(this.timer), setTimeout(function() {
-                  i.title = e.defaultTitle
+                var self = this;
+                this.timer && clearTimeout(this.timer);
+                setTimeout(function() {
+                  document.title = self.defaultTitle;
                 }, 100)
+
               }
               , increaseUnreadMsgNum: function() {
-                n || this.unreadMsgNum++
+                if (active) return;
+                this.unreadMsgNum++;
               }
-            };
-          a(function() {
-            n = !1, o.start()
-          }, function() {
-            n = !0, o.stop()
-          });
-          var r = {
-            increaseUnreadMsgNum: function() {
-              o.increaseUnreadMsgNum()
+
             }
-          };
-          return r
-        }])
-    }()
-  }
-  , function(e, exports) {
-    ! function(e) {
-      "use strict";
-      angular.module("Services")
-        .factory("subscribeMsgService", ["$rootScope", "contactFactory", "accountFactory", "confFactory", "utilFactory", function(e, t, a, n, i) {
-          var o = []
-            , r = {
+
+            bindEvent(function() {
+              active = false;
+              MsgRemind.start();
+            }, function() {
+              active = true;
+              MsgRemind.stop();
+            });
+
+            function bindEvent(start, stop) {
+              var hidden, visibilityChange;
+              if (typeof document.hidden !== "undefined") {
+                hidden = "hidden";
+                visibilityChange = "visibilitychange";
+              } else if (typeof document.mozHidden !== "undefined") {
+                hidden = "mozHidden";
+                visibilityChange = "mozvisibilitychange";
+              } else if (typeof document.msHidden !== "undefined") {
+                hidden = "msHidden";
+                visibilityChange = "msvisibilitychange";
+              } else if (typeof document.webkitHidden !== "undefined") {
+                hidden = "webkitHidden";
+                visibilityChange = "webkitvisibilitychange";
+              }
+
+
+              function handleVisibilityChange() {
+                if (document[hidden]) {
+                  start();
+                } else {
+                  stop();
+                }
+              }
+
+              if (typeof document.addEventListener === "undefined" || typeof hidden === "undefined") {
+                $(window)
+                  .focus(function() {
+                    stop();
+                  });
+                $(window)
+                  .blur(function() {
+                    start();
+                  });
+
+              } else {
+                document.addEventListener(visibilityChange, handleVisibilityChange, false);
+              }
+            }
+
+
+            var service = {
+              increaseUnreadMsgNum: function() {
+                MsgRemind.increaseUnreadMsgNum();
+              }
+            }
+            return service;
+          }
+        ]);
+    })();
+
+
+    /***/
+  })
+  , /* 310 */
+  /***/
+  (function(module, exports) {
+
+    (function(_aoUndefined) {
+      'use strict';
+
+      /* Services */
+
+      angular.module('Services')
+        .factory('subscribeMsgService', [
+          '$rootScope'
+          , 'contactFactory'
+          , 'accountFactory'
+          , 'confFactory'
+          , 'utilFactory'
+          , function($rootScope, contactFactory, accountFactory, confFactory, utilFactory) {
+            var subscribeMsgs = [];
+
+
+
+            var service = {
               current: null
               , changeFlag: 0
-              , init: function(e) {
-                this.changeFlag = Date.now(), this.add(e)
+              , init: function(list) {
+                //if(list.length>0){
+                //    this.changeFlag = Date.now();
+                //}
+
+                this.changeFlag = Date.now();
+
+                this.add(list);
+
+
               }
               , getSubscribeMsgs: function() {
-                return o
+                return subscribeMsgs;
               }
-              , add: function(e) {
-                e.length > 0 && (this.changeFlag = Date.now());
-                for (var t = 0, n = e.length; t < n; t++) {
-                  var r = e[t];
-                  r.HeadImgUrl = r.HeadImgUrl = i.getContactHeadImgUrl({
-                    UserName: r.UserName
-                    , Skey: a.getSkey()
+              , add: function(list) {
+                if (list.length > 0) this.changeFlag = Date.now();
+
+                for (var i = 0, len = list.length; i < len; i++) {
+                  var item = list[i];
+                  //item.Cover = item.Cover.replace(/^http:\/\//, 'https://');
+                  /*   item.Url = item.Url.replace(/^http:\/\//, 'https://');*/
+
+
+
+                  item.HeadImgUrl = item.HeadImgUrl = utilFactory.getContactHeadImgUrl({
+                    UserName: item.UserName
+                    , Skey: accountFactory.getSkey()
                   });
-                  for (var c = r.MPArticleList, s = 0; s < c.length; s++) {
-                    var l = c[s];
-                    l.AppName = r.NickName, /dev\.web\.weixin/.test(location.href) || (l.Url = l.Url.replace(/^http:\/\//, "https://"))
+                  var articleList = item.MPArticleList;
+                  for (var j = 0; j < articleList.length; j++) {
+                    var article = articleList[j];
+                    article.AppName = item.NickName;
+
+                    if (!/dev\.web\.weixin/.test(location.href)) {
+                      article.Url = article.Url.replace(/^http:\/\//, 'https://');
+                    }
                   }
-                  o.push(r)
+
+                  subscribeMsgs.push(item)
                 }
+
+
               }
             };
-          return r
-        }])
-    }()
-  }
-  , function(e, exports) {
-    ! function() {
-      "use strict";
-      angular.module("Directives")
-        .directive("messageDirective", ["$timeout", "confFactory", function(e, t) {
-          return {
-            restrict: "A"
-            , templateUrl: "message.html"
-            , link: function(e, t, a) {}
+            return service;
+
           }
-        }])
-    }()
-  }
-  , function(e, exports) {
-    angular.module("Directives")
-      .directive("ngInput", ["$parse", function(e) {
-        return function(t, a, n) {
-          var i = e(n.ngInput);
-          a.bind("input propertychange", function(e) {
-            t.$$phase ? i(t, {
-              $event: e
-            }) : t.$apply(function() {
-              i(t, {
-                $event: e
-              })
-            })
-          })
-        }
-      }])
-  }
-  , function(e, exports) {
-    angular.module("Directives")
-      .directive("ngRightClick", ["$parse", function(e) {
-        return function(t, a, n) {
-          var i = e(n.ngRightClick);
-          a.bind("contextmenu", function(e) {
-            t.$apply(function() {
-              i(t, {
-                $event: e
-              })
-            })
-          })
-        }
-      }])
-  }
-  , function(e, exports) {
-    angular.module("Directives")
-      .directive("mmpopDirective", ["$timeout", "$document", "mmpop", "$animate", function(e, t, a, n) {
-        return {
-          restrict: "EA"
-          , scope: {}
-          , link: function(e, t, a) {}
-        }
-      }])
-      .provider("mmpop", function() {
-        var e = angular.element
-          , t = (angular.isDefined, (document.body || document.documentElement)
-            .style, this.defaults = {
-              className: ""
-              , plain: !1
-              , showClose: !0
-              , closeByEscape: !0
-              , cache: !0
-              , autoFoucs: !0
-              , stopPropagation: !0
-            });
-        this.setDefaults = function(e) {
-          angular.extend(t, e)
-        };
-        var a = 0
-          , n = 0
-          , i = {};
-        this.$get = ["$document", "$templateCache", "$compile", "$q", "$http", "$rootScope", "$timeout", "$window", "$controller", "$animate", function(o, r, c, s, l, d, f, u, m, g) {
-          var p = o.find("body")
-            , h = {
-              onDocumentKeydown: function(e) {
-                27 === e.keyCode && M.close("$escape")
-              }
-              , performClosePop: function(e, t) {
-                var a = e.attr("id")
-                  , r = e.scope();
-                r && !r.closing && (r.closing = !0, e.unbind("click"), 1 === n && p.unbind("keydown"), d.$broadcast("root:mmpop:closing", a), g.leave(e, function() {
-                  r && (d.$broadcast("root:mmpop:closed", a), o.unbind("click", r.closeThisMmPop), r.$destroy())
-                }), i[a] && (i[a].resolve({
-                  id: a
-                  , value: t
-                  , $pop: e
-                  , remainingPops: n
-                }), delete i[a]))
-              }
-              , closePop: function(e, t) {
-                h.performClosePop(e, t)
-              }
+        ]);
+    })();
+
+
+    /***/
+  })
+  , /* 311 */
+  /***/
+  (function(module, exports) {
+
+    (function() {
+      'use strict';
+
+      /* Directives */
+
+      angular.module('Directives')
+        .directive('messageDirective', ['$timeout', 'confFactory', function($timeout, confFactory) {
+          return {
+            restrict: 'A'
+            , templateUrl: 'message.html'
+            , link: function(scope, element, attrs) {
+              //console.log('msgTextDirective');
             }
-            , M = {
-              open: function(l) {
-                var u = this
-                  , v = angular.copy(t);
-                l = l || {}, angular.extend(v, l), a += 1, u.latestID = "ngpop" + a, v.singletonId && document.getElementById(v.singletonId) && M.close(v.singletonId);
-                var y = v.singletonId || "mmpop" + a;
-                d.$broadcast("root:mmpop:open", y);
-                var b;
-                i[u.latestID] = b = s.defer();
-                var C;
-                v.scope ? v.scope.$new ? C = v.scope.$new() : (C = d.$new(), angular.extend(C, v.scope)) : C = d.$new();
-                var w, S;
-                if (v.template ? template = v.template : v.templateUrl && (template = r.get(v.templateUrl)), u.$result = w = e('<div id="' + y + '" class="mmpop" tabindex="-1"></div>'), w.html(template), v.data && angular.isString(v.data)) {
-                  var T = v.data.replace(/^\s*/, "")[0];
-                  C.mmpopData = "{" === T || "[" === T ? angular.fromJson(v.data) : v.data
-                } else v.data && angular.isObject(v.data) && (C.mmpopData = v.data);
-                if (S = v.container ? v.container : p, c(w)(C), g.enter(w, S), v.autoFoucs && w.focus(), v.controller && (angular.isString(v.controller) || angular.isArray(v.controller) || angular.isFunction(v.controller))) {
-                  m(v.controller, {
-                    $scope: C
-                    , $element: w
-                  })
+          };
+        }]);
+
+    })();
+
+    /***/
+  })
+  , /* 312 */
+  /***/
+  (function(module, exports) {
+
+    angular.module('Directives')
+      .directive('ngInput', ['$parse', function($parse) {
+        return function(scope, element, attrs) {
+          var fn = $parse(attrs.ngInput);
+          element.bind('input propertychange', function(event) {
+            if (!scope.$$phase) {
+              scope.$apply(function() {
+                fn(scope, {
+                  $event: event
+                });
+              });
+            } else {
+              fn(scope, {
+                $event: event
+              });
+            }
+          });
+        };
+      }]);
+
+    /***/
+  })
+  , /* 313 */
+  /***/
+  (function(module, exports) {
+
+    angular.module('Directives')
+      .directive('ngRightClick', ['$parse', function($parse) {
+        return function(scope, element, attrs) {
+          var fn = $parse(attrs.ngRightClick);
+          element.bind('contextmenu', function(event) {
+            scope.$apply(function() {
+              //event.preventDefault();
+              fn(scope, {
+                $event: event
+              });
+            });
+          });
+        };
+      }]);
+
+    /***/
+  })
+  , /* 314 */
+  /***/
+  (function(module, exports) {
+
+    angular.module('Directives')
+      .directive('mmpopDirective', ['$timeout', '$document', 'mmpop', '$animate', function($timeout, $document, mmpop, $animate) {
+        return {
+          restrict: 'EA'
+          , scope: {}
+          , link: function(scope, element, attrs) {}
+        };
+      }])
+      .provider('mmpop', function() {
+        var $el = angular.element;
+        var isDef = angular.isDefined;
+        var style = (document.body || document.documentElement)
+          .style;
+        var defaults = this.defaults = {
+          className: ''
+          , plain: false
+          , showClose: true
+          , closeByEscape: true
+          , cache: true
+          , autoFoucs: true
+          , stopPropagation: true
+        };
+
+
+        this.setDefaults = function(newDefaults) {
+          angular.extend(defaults, newDefaults);
+        };
+
+        var globalID = 0
+          , popsCount = 0
+          , defers = {};
+
+        this.$get = ['$document', '$templateCache', '$compile', '$q', '$http', '$rootScope', '$timeout', '$window', '$controller', '$animate'
+          , function($document, $templateCache, $compile, $q, $http, $rootScope, $timeout, $window, $controller, $animate) {
+            var $body = $document.find('body');
+            var privateMethods = {
+              onDocumentKeydown: function(event) {
+                if (event.keyCode === 27) {
+                  publicMethods.close('$escape');
                 }
-                return v.className && w.addClass(v.className), v.top && w.css("top", v.top), v.left && w.css("left", v.left), C.closeThisMmPop = function(e) {
-                  setTimeout(function() {
-                    e && e.target && (e.target.id == y || w[0] && jQuery.contains(w[0], e.target)) || (h.closePop(w, e), C.$digest())
-                  }, 0)
-                }, w.bind("click", function(e) {
-                  v.stopPropagation && (e.preventDefault(), e.stopPropagation())
-                }), f(function() {
-                  o.bind("click", C.closeThisMmPop)
-                }, 0), v.closeByEscape && p.bind("keydown", h.onDocumentKeydown), n += 1, {
-                  close: C.closeThisMmPop
-                  , isOpen: function() {
-                    return e(document.getElementById(y))
-                      .length
+              },
+
+              performClosePop: function($pop, value) {
+                var id = $pop.attr('id')
+                  , mmpopScope = $pop.scope();
+
+                if (!mmpopScope || mmpopScope.closing) return;
+
+                mmpopScope.closing = true;
+                $pop.unbind('click');
+
+                if (popsCount === 1) {
+                  $body.unbind('keydown');
+                }
+
+                $rootScope.$broadcast('root:mmpop:closing', id);
+                $animate.leave($pop, function() {
+                  if (mmpopScope) {
+                    $rootScope.$broadcast('root:mmpop:closed', id);
+                    $document.unbind('click', mmpopScope.closeThisMmPop);
+                    mmpopScope.$destroy();
                   }
+                });
+
+                if (defers[id]) {
+                  defers[id].resolve({
+                    id: id
+                    , value: value
+                    , $pop: $pop
+                    , remainingPops: popsCount
+                  });
+                  delete defers[id];
                 }
-              }
-              , toggleOpen: function(e) {
-                if (e.singletonId) {
-                  var t = document.getElementById(e.singletonId);
-                  t || this.open(e)
-                }
-              }
-              , close: function(t, a) {
-                var n = e(document.getElementById(t));
-                return n.length ? h.closePop(n, a) : M.closeAll(a), M
-              }
-              , closeAll: function(t) {
-                var a = document.querySelectorAll(".mmpop");
-                angular.forEach(a, function(a) {
-                  h.closePop(e(a), t)
-                })
+              },
+
+              closePop: function($pop, value) {
+                privateMethods.performClosePop($pop, value);
               }
             };
-          return M
-        }]
-      })
-  }
-  , function(e, exports) {
-    angular.module("Directives")
-      .directive("contenteditableDirective", ["$timeout", "utilFactory", "confFactory", function(e, t, a) {
+
+            var publicMethods = {
+
+              /**
+               * [创建mmpop]
+               * @param  {object} options
+               * @param  {object.template}        模版字符串
+               * @param  {object.templateUrl}     模版路径或ID
+               * @param  {object.className}       css扩展类
+               * @param  {object.container}       容器
+               * @param  {object.top}    
+               * @param  {object.left}
+               * @param  {object.autoFoucs}       是否自动获取鼠标焦点，默认为true
+               * @param  {object.singletonId}     单例id
+               */
+              open: function(opts) {
+                var self = this;
+                var options = angular.copy(defaults);
+
+                opts = opts || {};
+                angular.extend(options, opts);
+
+                globalID += 1;
+
+                self.latestID = 'ngpop' + globalID;
+
+                if (options.singletonId) {
+                  //console.log('publicMethods.close',options.singletonId);
+                  if (document.getElementById(options.singletonId)) {
+                    publicMethods.close(options.singletonId);
+                  }
+                }
+
+                var mmpopId = options.singletonId || ('mmpop' + globalID);
+
+                $rootScope.$broadcast('root:mmpop:open', mmpopId);
+
+                var defer;
+                defers[self.latestID] = defer = $q.defer();
+
+                //var scope = angular.isObject(options.scope) ? options.scope.$new() : $rootScope.$new();
+                var scope;
+                if (options.scope) {
+                  if (options.scope.$new) {
+                    scope = options.scope.$new();
+                  } else {
+                    scope = $rootScope.$new();
+                    angular.extend(scope, options.scope);
+                  }
+                } else {
+                  scope = $rootScope.$new();
+                }
+
+                var $pop, $popParent;
+
+                //$q.when(loadTemplate(options.template || options.templateUrl)).then(function (template) {
+
+                //$templateCache.put(options.template || options.templateUrl, template);
+                if (options.template) {
+                  template = options.template;
+                } else if (options.templateUrl) {
+                  template = $templateCache.get(options.templateUrl);
+                }
+
+                self.$result = $pop = $el('<div id="' + mmpopId + '" class="mmpop" tabindex="-1"></div>');
+                $pop.html(template);
+
+                if (options.data && angular.isString(options.data)) {
+                  var firstLetter = options.data.replace(/^\s*/, '')[0];
+                  scope.mmpopData = (firstLetter === '{' || firstLetter === '[') ? angular.fromJson(options.data) : options.data;
+                } else if (options.data && angular.isObject(options.data)) {
+                  scope.mmpopData = options.data;
+                }
+
+                if (options.container /* && angular.isString(options.container)*/ ) {
+                  //$popParent = angular.element(document.querySelector(options.container));
+                  $popParent = options.container;
+                } else {
+                  $popParent = $body;
+                }
+
+                //$timeout(function () {
+                $compile($pop)(scope);
+
+                //$popParent.append($pop);
+                $animate.enter($pop, $popParent);
+                if (options.autoFoucs) {
+                  $pop.focus();
+                  //console.log('focus',$pop);
+                }
+                //});
+
+                if (options.controller && (angular.isString(options.controller) || angular.isArray(options.controller) || angular.isFunction(options.controller))) {
+                  var controllerInstance = $controller(options.controller, {
+                    $scope: scope
+                    , $element: $pop
+                  });
+                }
+
+                if (options.className) {
+                  $pop.addClass(options.className);
+                }
+
+                if (options.top) {
+                  $pop.css('top', options.top);
+                }
+
+                if (options.left) {
+                  $pop.css('left', options.left);
+                }
+
+                scope.closeThisMmPop = function(value) {
+                  setTimeout(function() {
+                    if (value && value.target && (value.target.id == mmpopId || ($pop[0] && jQuery.contains($pop[0], value.target)))) return;
+                    privateMethods.closePop($pop, value);
+                    scope.$digest();
+                  }, 0);
+                };
+
+                $pop.bind('click', function(e) {
+                  if (options.stopPropagation) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                  }
+                });
+
+                $timeout(function() {
+                  $document.bind('click', scope.closeThisMmPop);
+                }, 0);
+
+                if (options.closeByEscape) {
+                  $body.bind('keydown', privateMethods.onDocumentKeydown);
+                }
+
+                popsCount += 1;
+
+                //return publicMethods;
+                //});
+
+                return {
+                  close: scope.closeThisMmPop
+                  , isOpen: function() {
+                    return $el(document.getElementById(mmpopId))
+                      .length;
+                  }
+                };
+
+                function loadTemplateUrl(tmpl, config) {
+                  return $http.get(tmpl, (config || {}))
+                    .then(function(res) {
+                      return res.data || '';
+                    });
+                }
+
+                function loadTemplate(tmpl) {
+                  if (!tmpl) {
+                    return 'Empty template';
+                  }
+
+                  if (angular.isString(tmpl) && options.plain) {
+                    return tmpl;
+                  }
+
+                  if (typeof options.cache === 'boolean' && !options.cache) {
+                    return loadTemplateUrl(tmpl, {
+                      cache: false
+                    });
+                  }
+
+                  return $templateCache.get(tmpl) || loadTemplateUrl(tmpl, {
+                    cache: true
+                  });
+                }
+              },
+
+              toggleOpen: function(options) {
+                if (!options.singletonId) {
+                  console.error('toggleOpen function require singletonId.');
+                  return;
+                }
+                var el = document.getElementById(options.singletonId);
+                if (el) {
+                  //this.close(options.singletonId);
+                } else {
+                  this.open(options);
+                }
+              },
+
+              /*
+               * @param {String} id
+               * @return {Object} pop
+               */
+              close: function(id, value) {
+                var $pop = $el(document.getElementById(id));
+
+                if ($pop.length) {
+                  privateMethods.closePop($pop, value);
+                } else {
+                  publicMethods.closeAll(value);
+                }
+
+                return publicMethods;
+              },
+
+              closeAll: function(value) {
+                var $all = document.querySelectorAll('.mmpop');
+
+                angular.forEach($all, function(pop) {
+                  privateMethods.closePop($el(pop), value);
+                });
+              }
+            };
+
+            return publicMethods;
+          }
+        ];
+      });
+
+    /***/
+  })
+  , /* 315 */
+  /***/
+  (function(module, exports) {
+
+    angular.module('Directives')
+      .directive('contenteditableDirective', ['$timeout', 'utilFactory', 'confFactory', function($timeout, utilFactory, confFactory) {
         return {
-          restrict: "A"
-          , require: "?ngModel"
-          , link: function(e, n, i, o) {
-            function r(e) {
-              return e.replace(new RegExp("^(<(table|tbody|p|tr|h[1-6])[^<>]*>)+", "g"), "")
-                .replace(new RegExp("<td[^<>]*>(<(table|tbody|p|tr|h[1-6])[^<>]*>)*|(</(table|tbody|p|h[1-6])>)*</td>", "g"), "  ")
+          restrict: 'A'
+          , require: '?ngModel'
+          , link: function(scope, element, attrs, ngModel) {
+            // don't do anything unless this is actually bound to a model
+            if (!ngModel) {
+              return
+            }
+
+            var cleanHTMLTimeout;
+            element.bind('paste', function() {
+              var ele = this;
+              var before = ele.innerHTML;
+              if (cleanHTMLTimeout) clearTimeout(cleanHTMLTimeout);
+              cleanHTMLTimeout = setTimeout(function() {
+                // 计算粘贴后html不同的位置起点和终点（插入"abc"，则得出sPos为0，ePos为2）
+                var after = ele.innerHTML
+                  , sPos = -1
+                  , ePos = -1;
+                for (var i = 0, len = after.length; i < len; ++i) {
+                  if (sPos == -1 && before.substr(i, 1) != after.substr(i, 1)) sPos = i;
+                  if (ePos == -1 && before.substr(before.length - i - 1, 1) != after.substr(after.length - i - 1, 1)) ePos = i;
+
+                  if (sPos != -1 && ePos != -1 || len - 1 - ePos <= sPos) break;
+                }
+                if (sPos == -1 || ePos == -1) return;
+                ePos = len - 1 - ePos;
+
+                if (ePos <= sPos) { // 遇到像ab，粘贴ab后变成abab这种了，这是需要从sPos开始往后找，找到和before一样的为止
+                  i = sPos;
+                  var beforeSPosNext = before.substr(i + 1, 10); // 取后10个来对比，如果没有10个，则取最多
+                  while (++i < len) {
+                    if (beforeSPosNext == after.substr(i, beforeSPosNext.length)) {
+                      ePos = i;
+                      break;
+                    }
+                  }
+                  i == len && (ePos = len - 1);
+                }
+                // 如果有<和>，则需要计算在内
+                if (after.substr(sPos - 1, 1) == "<") --sPos;
+                if (after.substr(ePos + 1, 1) == ">") ++ePos;
+
+                // 分段获得文本，前半段 插入段 后半段
+                var pastedText = after.substring(sPos, ePos + 1)
+                  , formerText = after.substr(0, sPos)
+                  , latterText = after.substr(sPos + pastedText.length);
+
+                // 判断formerText和pastedText是否闭合了
+                var lastLT = formerText.lastIndexOf("<")
+                  , lastGT = formerText.lastIndexOf(">");
+                if (lastGT < lastLT) { // 标签断了xxxxx<
+                  pastedText = formerText.slice(lastLT) + pastedText;
+                  formerText = formerText.slice(0, lastLT);
+                }
+
+                lastLT = pastedText.lastIndexOf("<");
+                lastGT = pastedText.lastIndexOf(">");
+                if (lastGT < lastLT) { // 标签断了<xxxxxx
+                  var _insertGT = latterText.indexOf(">") + 1;
+                  pastedText += latterText.slice(0, _insertGT);
+                  latterText = latterText.slice(_insertGT);
+                }
+
+                var insertText = retainFormat(pastedText)
+                  .replace(/&nbsp;/g, " ") // 替换空格
+                  .replace(new RegExp("<(?!br|" + confFactory.EMOTICON_REG + ").*?>", "g"), "") // 洗掉各种属性和标签，除了<br>和表情的<img>
+                  .replace(new RegExp("&lt;(br|" + confFactory.EMOTICON_REG + "\/?)&gt;", "g"), "<$1>") // <br> 或 <img class="emoji emoji11" text="[..]" src=".." />
+                  .replace(/<img.*?class="(.*?)" text="(.*?)" .*?>/g, function() {
+                    return utilFactory.genEmoticonHTML(arguments[1], arguments[2])
+                  })
+                  .replace(/<img [^<>]*src="([^<>"]+)"[^<>]*>/g, function(str, srcStr) {
+                    return str.replace(location.origin || location.protocol + "//" + location.hostname + (location.port ? ':' + location.port : ''), ""); // 把当前的绝对地址替换成相对，避免被link化
+                  })
+
+                ele.innerHTML = formerText + insertText + "<span class='pasteCaretPosHelper'></span>" + latterText; // 插入pasteCaretPosHelper以帮助定位光标位置
+
+                var pasteCaretPosHelper = element.find(".pasteCaretPosHelper")[0]
+                  , range, selection;
+                if (pasteCaretPosHelper) {
+                  if (document.createRange) { // Chrome, IE 9+
+                    range = document.createRange();
+                    range.setStartAfter(pasteCaretPosHelper);
+                    range.collapse(false);
+                    selection = window.getSelection();
+                    selection.removeAllRanges();
+                    selection.addRange(range);
+                  } else if (document.selection) { // IE 8 and lower
+                    range = document.body.createTextRange();
+                    range.moveToElementText(pasteCaretPosHelper);
+                    range.collapse(false);
+                    range.select();
+                  }
+                  pasteCaretPosHelper.parentNode.removeChild(pasteCaretPosHelper);
+                }
+
+                ngModel.$setViewValue(formerText + insertText + latterText);
+                cleanHTMLTimeout = null;
+              }, 50);
+            });
+
+
+            function retainFormat(str) {
+
+              return str.replace(new RegExp("^(<(table|tbody|p|tr|h[1-6])[^<>]*>)+", "g"), '')
+                .replace(new RegExp("<td[^<>]*>(<(table|tbody|p|tr|h[1-6])[^<>]*>)*|(</(table|tbody|p|h[1-6])>)*</td>", "g"), '  ')
                 .replace(new RegExp("(</(table|tbody|p|tr|h[1-6])>+)<(table|tbody|p|tr|h[1-6])[^<>]*>+", "g"), "<br/>")
                 .replace(new RegExp("(<(table|tbody|p|tr|h[1-6])[^<>]*>)+|(</(table|tbody|p|tr|h[1-6])>)+", "g"), "<br/>")
             }
 
-            function c() {
-              e.$apply(function() {
-                var e;
-                e = n.html(), o.$setViewValue(e)
-              })
+            // view -> model
+            function _view2Model() {
+              scope.$apply(function() {
+                var html;
+                html = element.html();
+                ngModel.$setViewValue(html);
+
+                //if (html === '') {// the cursor disappears if the contents is empty, so we need to refocus
+                //    $timeout(function () {
+                //        element[0].blur();
+                //        element[0].focus();
+                //    })
+                //}
+              });
             }
-            if (o) {
-              var s;
-              n.bind("paste", function() {
-                var e = this
-                  , i = e.innerHTML;
-                s && clearTimeout(s), s = setTimeout(function() {
-                  for (var c = e.innerHTML, l = -1, d = -1, f = 0, u = c.length; f < u && (l == -1 && i.substr(f, 1) != c.substr(f, 1) && (l = f), d == -1 && i.substr(i.length - f - 1, 1) != c.substr(c.length - f - 1, 1) && (d = f)
-                      , !(l != -1 && d != -1 || u - 1 - d <= l)); ++f);
-                  if (l != -1 && d != -1) {
-                    if (d = u - 1 - d, d <= l) {
-                      f = l;
-                      for (var m = i.substr(f + 1, 10); ++f < u;)
-                        if (m == c.substr(f, m.length)) {
-                          d = f;
-                          break
-                        }
-                      f == u && (d = u - 1)
-                    }
-                    "<" == c.substr(l - 1, 1) && --l, ">" == c.substr(d + 1, 1) && ++d;
-                    var g = c.substring(l, d + 1)
-                      , p = c.substr(0, l)
-                      , h = c.substr(l + g.length)
-                      , M = p.lastIndexOf("<")
-                      , v = p.lastIndexOf(">");
-                    if (v < M && (g = p.slice(M) + g, p = p.slice(0, M)), M = g.lastIndexOf("<"), v = g.lastIndexOf(">"), v < M) {
-                      var y = h.indexOf(">") + 1;
-                      g += h.slice(0, y), h = h.slice(y)
-                    }
-                    var b = r(g)
-                      .replace(/&nbsp;/g, " ")
-                      .replace(new RegExp("<(?!br|" + a.EMOTICON_REG + ").*?>", "g"), "")
-                      .replace(new RegExp("&lt;(br|" + a.EMOTICON_REG + "/?)&gt;", "g"), "<$1>")
-                      .replace(/<img.*?class="(.*?)" text="(.*?)" .*?>/g, function() {
-                        return t.genEmoticonHTML(arguments[1], arguments[2])
-                      })
-                      .replace(/<img [^<>]*src="([^<>"]+)"[^<>]*>/g, function(e, t) {
-                        return e.replace(location.origin || location.protocol + "//" + location.hostname + (location.port ? ":" + location.port : ""), "")
-                      });
-                    e.innerHTML = p + b + "<span class='pasteCaretPosHelper'></span>" + h;
-                    var C, w, S = n.find(".pasteCaretPosHelper")[0];
-                    S && (document.createRange ? (C = document.createRange(), C.setStartAfter(S), C.collapse(!1), w = window.getSelection(), w.removeAllRanges(), w.addRange(C)) : document.selection && (C = document.body.createTextRange()
-                      , C.moveToElementText(S), C.collapse(!1), C.select()), S.parentNode.removeChild(S)), o.$setViewValue(p + b + h), s = null
-                  }
-                }, 50)
-              }), t.browser.msie ? n.bind("keyup paste", c) : n.bind("input", c);
-              var l = o.$render;
-              o.$render = function() {
-                l && l(), n.html() != o.$viewValue && n.html(o.$viewValue || "")
+            if (utilFactory.browser.msie) element.bind('keyup paste', _view2Model);
+            else element.bind('input', _view2Model);
+
+            // model -> view
+            var oldRender = ngModel.$render;
+            ngModel.$render = function() {
+              if (!!oldRender) {
+                oldRender();
               }
-            }
+              if (element.html() != ngModel.$viewValue) element.html(ngModel.$viewValue || '');
+            };
           }
         }
-      }])
-  }
-  , function(e, exports) {
-    ! function() {
-      "use strict";
-      angular.module("Directives")
-        .directive("miniUserProfileDirective", ["$timeout", "confFactory", function(e, t) {
+      }]);
+
+    /***/
+  })
+  , /* 316 */
+  /***/
+  (function(module, exports) {
+
+    (function() {
+      'use strict';
+
+      /* Services */
+
+      angular.module('Directives')
+        .directive('miniUserProfileDirective', ['$timeout', 'confFactory', function($timeout, confFactory) {
           return {
-            restrict: "A"
-            , templateUrl: "miniUserProfile.html"
+            restrict: 'A'
+            , templateUrl: 'miniUserProfile.html'
             , scope: {
               user: "="
               , showOrderc: "="
@@ -6376,30 +12646,41 @@ webpackJsonp([1], [function(e, exports, t) {
               , selectedUsers: "="
               , clickUserCallback: "="
             }
-            , link: function(e, t, a) {}
-          }
+            , link: function(scope, element, attrs) {
+              //console.log('msgTextDirective');
+            }
+          };
         }])
-        .directive("userProfileDirective", ["$timeout", "confFactory", function(e, t) {
+        .directive('userProfileDirective', ['$timeout', 'confFactory', function($timeout, confFactory) {
           return {
-            restrict: "A"
+            restrict: 'A'
             , scope: {
               user: "="
             }
-            , templateUrl: "userProfile.html"
-            , link: function(e, t, a) {}
-          }
-        }])
-    }()
-  }
-  , function(e, exports) {
-    ! function() {
-      "use strict";
-      angular.module("Directives")
-        .directive("contactListDirective", ["$timeout", "confFactory", function(e, t) {
+            , templateUrl: 'userProfile.html'
+            , link: function(scope, element, attrs) {}
+          };
+        }]);
+
+    })();
+
+    /***/
+  })
+  , /* 317 */
+  /***/
+  (function(module, exports) {
+
+    (function() {
+      'use strict';
+
+      /* Services */
+
+      angular.module('Directives')
+        .directive('contactListDirective', ['$timeout', 'confFactory', function($timeout, confFactory) {
           return {
-            restrict: "A"
-            , templateUrl: "contactList.html"
-            , replace: !0
+            restrict: 'A'
+            , templateUrl: 'contactList.html'
+            , replace: true
             , scope: {
               currentContact: "="
               , starContacts: "="
@@ -6410,18 +12691,23 @@ webpackJsonp([1], [function(e, exports, t) {
               , dblclickCallback: "="
               , heightCalc: "=?"
             }
-            , link: function(e, t, a) {
-              e.heightCalc = e.heightCalc || function(e) {
-                return "header" === e.type ? 24 : 50
+            , link: function(scope, element, attrs) {
+              console.log('allContact', scope.allContacts);
+              scope.heightCalc = scope.heightCalc || function(item) {
+                if (item.type === 'header') {
+                  return 24;
+                } else {
+                  return 50;
+                }
               }
             }
-          }
+          };
         }])
-        .directive("contactListChooserDirective", ["$timeout", "confFactory", function(e, t) {
+        .directive('contactListChooserDirective', ['$timeout', 'confFactory', function($timeout, confFactory) {
           return {
-            restrict: "A"
-            , templateUrl: "contactListChooser.html"
-            , replace: !0
+            restrict: 'A'
+            , templateUrl: 'contactListChooser.html'
+            , replace: true
             , scope: {
               starContacts: "="
               , chatroomContacts: "="
@@ -6431,32 +12717,60 @@ webpackJsonp([1], [function(e, exports, t) {
               , allContacts: "="
               , clickUserCallback: "="
             }
-            , link: function(e, t, a) {
-              e.heightCalc = function(e) {
-                return "header" === e.type ? 32 : 62
-              }, e.mmRepeatKeyboard.start(), e.$watch(function() {
-                return e.allContacts
-              }, function(t) {
-                !e.current && t.length > 0 && (e.current = e.allContacts[0], e.mmRepeatKeyboard.setSelectItem(e.current))
-              }), e.mmRepeatKeyboard.setJudgeFun(function(e) {
-                return e.UserName
-              }), e.$on("mmrepeat:select", function(t, a) {
-                e.current = a, e.$digest()
+            , link: function(scope, element, attrs) {
+              //console.log('msgTextDirective');
+              scope.heightCalc = function(item) {
+                if (item.type === 'header') {
+                  return 32;
+                } else {
+                  return 62;
+                }
+              }
+              scope.mmRepeatKeyboard.start();
+
+              scope.$watch(function() {
+                return scope.allContacts;
+              }, function(newValue) {
+                if (!scope.current && newValue.length > 0) {
+                  scope.current = scope.allContacts[0];
+                  scope.mmRepeatKeyboard.setSelectItem(scope.current);
+                }
+              });
+
+              scope.mmRepeatKeyboard.setJudgeFun(function(item) {
+                return item.UserName;
               })
+
+              scope.$on('mmrepeat:select', function(e, item) {
+                scope.current = item;
+                scope.$digest();
+              });
+
+
+
             }
-          }
-        }])
-    }()
-  }
-  , function(e, exports) {
-    ! function() {
-      "use strict";
-      angular.module("Directives")
-        .directive("contactItemDirective", ["$timeout", "confFactory", function(e, t) {
+          };
+        }]);
+
+    })();
+
+    /***/
+  })
+  , /* 318 */
+  /***/
+  (function(module, exports) {
+
+    (function() {
+      'use strict';
+
+      /* Services */
+
+      angular.module('Directives')
+        .directive('contactItemDirective', ['$timeout', 'confFactory', function($timeout, confFactory) {
           return {
-            restrict: "A"
-            , templateUrl: "contactItem.html"
-            , replace: !0
+            restrict: 'A'
+            , templateUrl: 'contactItem.html'
+            , replace: true
             , scope: {
               className: "@"
               , user: "="
@@ -6464,13 +12778,15 @@ webpackJsonp([1], [function(e, exports, t) {
               , orderSymbol: "="
               , clickUserCallback: "="
             }
-            , link: function(e, t, a) {}
-          }
+            , link: function(scope, element, attrs) {
+              //console.log('msgTextDirective');
+            }
+          };
         }])
-        .directive("contactItemChooserDirective", ["$timeout", "confFactory", function(e, t) {
+        .directive('contactItemChooserDirective', ['$timeout', 'confFactory', function($timeout, confFactory) {
           return {
-            restrict: "A"
-            , templateUrl: "contactItemChooser.html"
+            restrict: 'A'
+            , templateUrl: 'contactItemChooser.html'
             , scope: {
               user: "="
               , showOrderSymbol: "="
@@ -6478,1591 +12794,3306 @@ webpackJsonp([1], [function(e, exports, t) {
               , isCheck: "="
               , clickUserCallback: "="
             }
-            , link: function(e, t, a) {}
-          }
-        }])
-    }()
-  }
-  , function(e, exports) {
-    ! function() {
-      "use strict";
-      angular.module("Directives")
-        .directive("contextMenuDirective", ["$timeout", "$document", "confFactory", function(e, t, a) {
+            , link: function(scope, element, attrs) {
+              //console.log('msgTextDirective');
+            }
+          };
+        }]);
+
+    })();
+
+    /***/
+  })
+  , /* 319 */
+  /***/
+  (function(module, exports) {
+
+    (function() {
+      'use strict';
+
+      /* Services */
+
+      angular.module('Directives')
+        .directive('contextMenuDirective', ['$timeout', '$document', 'confFactory', function($timeout, $document, confFactory) {
           return {
-            restrict: "A"
-            , templateUrl: "contextMenu.html"
-            , replace: !0
+            restrict: 'A'
+            , templateUrl: 'contextMenu.html'
+            , replace: true
             , scope: {}
-            , controller: "contextMenuController"
-            , link: function(e, t, a) {}
-          }
-        }])
-    }()
-  }
-  , function(e, exports) {
-    ! function(e, t) {
-      "use strict";
-      e.module("Directives")
-        .directive("scrollGlue", ["$parse", "$timeout", function(e, a) {
-          function n(e) {
-            var t = e;
+            , controller: 'contextMenuController'
+            , link: function(scope, element, attrs) {
+              /*function removeElement () {
+                element.css("display","none");
+              }
+              $timeout(function () {
+                $document.bind('click', removeElement);
+                scope.$on('$destroy', function(){
+                  $document.unbind('click', removeElement);
+                });
+              },0);*/
+            }
+          };
+        }]);
+
+    })();
+
+    /***/
+  })
+  , /* 320 */
+  /***/
+  (function(module, exports) {
+
+    /**
+     * https://github.com/Luegg/angularjs-scroll-glue
+     */
+    (function(angular, undefined) {
+      'use strict';
+
+      angular.module('Directives')
+        .directive('scrollGlue', ['$parse', '$timeout', function($parse, $timeout) {
+          function unboundState(initValue) {
+            var activated = initValue;
             return {
               getValue: function() {
-                return t
+                return activated;
               }
-              , setValue: function(e) {
-                t = e
+              , setValue: function(value) {
+                activated = value;
               }
-            }
+            };
           }
 
-          function i(e, t) {
+          function oneWayBindingState(getter, scope) {
             return {
               getValue: function() {
-                return e(t)
+                return getter(scope);
               }
               , setValue: function() {}
             }
           }
 
-          function o(e, t, a) {
+          function twoWayBindingState(getter, setter, scope) {
             return {
               getValue: function() {
-                return e(a)
+                return getter(scope);
               }
-              , setValue: function(n) {
-                n !== e(a) && a.$apply(function() {
-                  t(a, n)
-                })
+              , setValue: function(value) {
+                if (value !== getter(scope)) {
+                  scope.$apply(function() {
+                    setter(scope, value);
+                  });
+                }
               }
+            };
+          }
+
+          function createActivationState(attr, scope) {
+            if (attr !== "") {
+              var getter = $parse(attr);
+              if (getter.assign !== undefined) {
+                return twoWayBindingState(getter, getter.assign, scope);
+              } else {
+                return oneWayBindingState(getter, scope);
+              }
+            } else {
+              return unboundState(true);
             }
           }
 
-          function r(a, r) {
-            if ("" !== a) {
-              var c = e(a);
-              return c.assign !== t ? o(c, c.assign, r) : i(c, r)
-            }
-            return n(!0)
-          }
           return {
             priority: 1
-            , restrict: "A"
-            , link: function(e, t, n) {
-              function i() {
-                l.scrollTop = l.scrollHeight
+            , restrict: 'A'
+            , link: function(scope, $el, attrs) {
+              var el = $el[0]
+                , activationState = createActivationState(attrs.scrollGlue, scope);
+
+              function scrollToBottom() {
+
+                el.scrollTop = el.scrollHeight;
               }
 
-              function o(e) {
-                d.getValue() && i()
+              function onScopeChanges(scope) {
+                console.log('scrollTobottom', activationState.getValue())
+                if (activationState.getValue()) {
+                  scrollToBottom();
+                }
               }
 
-              function c() {
-                return l.scrollTop + l.clientHeight + 1 >= l.scrollHeight
+              function shouldActivateAutoScroll() {
+                // + 1 catches off by one errors in chrome
+                console.log(el.scrollTop, el.clientHeight, el.scrollHeight)
+                return el.scrollTop + el.clientHeight + 1 >= el.scrollHeight;
               }
 
-              function s() {
-                a(function() {
-                  d.setValue(c())
-                }, 3)
+              function onScroll() {
+                $timeout(function() {
+                  activationState.setValue(shouldActivateAutoScroll());
+                }, 3);
               }
-              var l = t[0]
-                , d = r(n.scrollGlue, e);
-              e.$watch(o), t.bind("scroll", s)
+
+              scope.$watch(onScopeChanges);
+              $el.bind('scroll', onScroll);
             }
-          }
-        }])
-    }(angular)
-  }
-  , function(e, exports, t) {
-    ! function(e) {
-      "use strict";
-      angular.module("Directives")
-        .directive("jplayerDirective", ["$timeout", "utilFactory", function(a, n) {
+          };
+        }]);
+    }(angular));
+
+    /***/
+  })
+  , /* 321 */
+  /***/
+  (function(module, exports, __webpack_require__) {
+
+    (function(undefined) {
+      'use strict';
+
+      /* Services */
+
+      angular.module('Directives')
+        .directive('jplayerDirective', ['$timeout', 'utilFactory', function($timeout, utilFactory) {
           return {
-            restrict: "A"
-            , link: function(i, o, r) {
-              function c() {
-                t.e(2, function(require) {
-                  t(278);
-                  jQuery(o)
+            restrict: 'A'
+            , link: function(scope, element, attrs) {
+              scope.loaded = false;
+
+              var timer
+                , timeout = attrs.lenght || 6100
+                , useFlash = (utilFactory.browser.msie || utilFactory.browser.safari);
+
+              if (attrs.timeout) {
+                setTimeout(function() {
+                  init();
+                }, +attrs.timeout);
+              } else {
+                init();
+              }
+
+              function init() {
+                __webpack_require__.e /* nsure */ (2 /* duplicate */ , function(require) {
+                  var jplayer = __webpack_require__(278);
+                  jQuery(element)
                     .jPlayer({
                       ready: function() {
+                        //jQuery(element).append('<i class="web_wechat_paly"></i>');
                         jQuery(this)
                           .jPlayer("setMedia", {
-                            m4v: r.src + (u ? "&type=flv" : "")
-                            , poster: r.poster
-                          }), r.muted !== e && jQuery(this)
-                          .jPlayer("mute"), r.loop !== e && u && (jQuery(this)
-                            .jPlayer("play"), s())
+                            m4v: attrs.src + (useFlash ? '&type=flv' : '')
+                            , poster: attrs.poster
+                          });
+                        if (attrs.muted !== undefined) {
+                          jQuery(this)
+                            .jPlayer("mute");
+                        }
+                        if (attrs.loop !== undefined && useFlash) { //jplayer 在flash模式下loop不生效，使用timer实现loop
+                          jQuery(this)
+                            .jPlayer("play");
+                          flashLoop();
+                        }
                       }
                       , click: function() {
-                        n.browser.msie && jQuery(this)
-                          .click()
+                        // 点击flash不触发ng-click，需要手动触发
+                        if (utilFactory.browser.msie) {
+                          jQuery(this)
+                            .click();
+                        }
                       }
-                      , loadstart: function() {}
-                      , progress: function() {}
+                      , loadstart: function() {
+                        console.log('loadstart ');
+                      }
+                      , progress: function() {
+                        console.log('progress ');
+                      }
                       , play: function() {
-                        u && (i.loaded = !0, i.$digest())
+                        if (useFlash) {
+                          scope.loaded = true;
+                          scope.$digest();
+                        }
+                        console.log('play ');
                       }
                       , loadedmetadata: function() {
                         jQuery(this)
-                          .jPlayer("play")
+                          .jPlayer("play");
+                        console.log('loadedmetadata ');
                       }
                       , playing: function() {
-                        i.loaded = !0, i.$digest();
+                        scope.loaded = true;
+                        scope.$digest();
+                        console.log('playing ');
                       }
-                      , seeked: function() {}
-                      , seeking: function() {}
+                      , seeked: function() {
+                        console.log('seeked  ');
+                      }
+                      , seeking: function() {
+                        console.log('seeking ');
+                      }
                       , swfPath: window.MMSource.jplayerSwfPath
-                      , solution: u ? "flash" : "html,flash"
+                      , solution: useFlash ? "flash" : "html,flash"
                       , supplied: "webmv, ogv, m4v"
-                      , backgroundColor: "#000000"
-                      , loop: r.loop !== e
+                      , backgroundColor: '#000000'
+                      , loop: attrs.loop !== undefined
                       , size: {
-                        width: i.width || "200px"
-                        , height: i.height || "150px"
+                        width: scope.width || "200px"
+                        , height: scope.height || "150px"
                         , cssClass: "jp-video-360p"
                       }
-                    }), i.$on("$destroy", function() {
-                      l(), jQuery(o)
-                        .jPlayer("destroy")
-                    })
-                })
+                    });
+
+                  scope.$on('$destroy', function() {
+                    cleanTimer();
+                    jQuery(element)
+                      .jPlayer("destroy")
+                  });
+                });
               }
 
-              function s() {
-                l(), d = a(function() {
-                  jQuery(o)
-                    .jPlayer("stop"), jQuery(o)
-                    .jPlayer("play"), s()
-                }, f)
+              function flashLoop() {
+                cleanTimer();
+                timer = $timeout(function() {
+                  jQuery(element)
+                    .jPlayer("stop");
+                  jQuery(element)
+                    .jPlayer("play");
+                  flashLoop();
+                }, timeout);
               }
 
-              function l() {
-                d && a.cancel(d)
+              function cleanTimer() {
+                timer && $timeout.cancel(timer);
               }
-              i.loaded = !1;
-              var d, f = r.lenght || 6100
-                , u = n.browser.msie || n.browser.safari;
-              r.timeout ? setTimeout(function() {
-                c()
-              }, +r.timeout) : c()
+
             }
-          }
-        }])
-    }()
-  }
-  , function(e, exports) {
-    angular.module("Directives")
-      .directive("previewDirective", ["$document", "confFactory", "utilFactory", function(e, t, a) {
+          };
+        }]);
+
+    })();
+
+
+    /***/
+  })
+  , /* 322 */
+  /***/
+  (function(module, exports) {
+
+    angular.module('Directives')
+      .directive('previewDirective', ['$document', 'confFactory', 'utilFactory', function($document, confFactory, utilFactory) {
         return {
-          restrict: "EA"
-          , templateUrl: "preview.html"
+          restrict: 'EA'
+          , templateUrl: 'preview.html'
           , scope: {
-            imageList: "="
-            , current: "="
+            imageList: '='
+            , current: '='
           }
-          , link: function(n, i, o) {
-            function r(e) {
-              switch (e.keyCode) {
-                case t.KEYCODE_ARROW_UP:
-                case t.KEYCODE_ARROW_LEFT:
-                  n.actions.prev();
-                  break;
-                case t.KEYCODE_ARROW_DOWN:
-                case t.KEYCODE_ARROW_RIGHT:
-                  n.actions.next();
-                  break;
-                case t.KEYCODE_ESC:
-                  n.actions.close()
+          , link: function(scope, element, attrs) {
+            var imgWrp$ = element.find("#img_dom")
+              , imgOprWrp$ = element.find("#img_opr_container")
+              , imgPreview$ = imgWrp$.find("#img_preview")
+              , previewWidth = document.documentElement.clientWidth
+              , previewHeight = document.documentElement.clientHeight - parseInt(imgOprWrp$.css("bottom")) - parseInt(imgOprWrp$.height());
+            scope.isLoaded = false; // 大图是否加载完成
+            scope.rotateDeg = 0;
+            scope.isIE = !!(utilFactory.browser.msie && utilFactory.version < 10);
+            scope.actions = {
+              next: function() {
+                if (scope.current < scope.imageList.length - 1) {
+                  scope.current++;
+                  loadImg();
+                }
               }
-              n.$digest(), e.preventDefault(), e.stopPropagation()
+              , prev: function() {
+                if (scope.current > 0) {
+                  scope.current--;
+                  loadImg();
+                }
+              }
+              , rotate: function() {
+                scope.rotateDeg = (scope.rotateDeg + 90) % 360;
+                zoom({
+                  scale: imgInitData.scale
+                });
+                move({ // 屏幕居中
+                  top: (previewHeight - imgData.height) / 2
+                  , left: (previewWidth - imgData.width) / 2
+                });
+
+                // webkit 的 transform 有导致不 reflow 的bug，强行改变其子元素来强制reflow
+                scope.reflowFlag = !scope.reflowFlag;
+              }
+              , close: function() {
+                element.remove();
+                scope.$destroy()
+              }
+            };
+            scope.$on('$destroy', function() {
+              $document.unbind('keyup', keyup);
+              $document.unbind('keydown', keydown);
+            });
+
+
+            // 处理键盘事件
+            function keyup(e) {
+              switch (e.keyCode) {
+                case confFactory.KEYCODE_ARROW_UP:
+                case confFactory.KEYCODE_ARROW_LEFT:
+                  scope.actions.prev();
+                  break;
+                case confFactory.KEYCODE_ARROW_DOWN:
+                case confFactory.KEYCODE_ARROW_RIGHT:
+                  scope.actions.next();
+                  break;
+                case confFactory.KEYCODE_ESC:
+                  scope.actions.close();
+                  break;
+              }
+              scope.$digest();
+              e.preventDefault();
+              e.stopPropagation();
             }
 
-            function c(e) {
+            function keydown(e) {
               switch (e.keyCode) {
-                case t.KEYCODE_NUM_ADD:
-                case t.KEYCODE_ADD:
-                  s({
+                case confFactory.KEYCODE_NUM_ADD:
+                case confFactory.KEYCODE_ADD:
+                  zoom({
                     delta: 1
                   });
                   break;
-                case t.KEYCODE_NUM_MINUS:
-                case t.KEYCODE_MINUS:
-                  s({
+                case confFactory.KEYCODE_NUM_MINUS:
+                case confFactory.KEYCODE_MINUS:
+                  zoom({
                     delta: -1
-                  })
+                  });
+                  break;
               }
-              e.preventDefault(), e.stopPropagation()
-            }
 
-            function s(e) {
-              var t, a;
-              if (e.scale) t = e.scale, a = {
-                x: .5
-                , y: .5
-              };
-              else {
-                var n = e.delta;
-                a = e.posRatio || {
-                  x: .5
-                  , y: .5
-                }, t = y.scale, t = n > 0 ? t + S : t - S
+              e.preventDefault();
+              e.stopPropagation();
+            }
+            $document.keyup(keyup);
+
+
+            // 图片移动与缩放
+            var
+              SCALE_LIMIT = 5, // 缩放倍数的上限
+              SCALE_STEP = 0.1, // 每次缩放倍数
+
+              imgInitMaxWidth = previewWidth * 0.8, // 图片初始显示的最大宽度（区域的80%）
+              imgInitMaxHeight = previewHeight * 0.8, // 图片初始显示的最大高度（区域的80%）
+              imgOriginSize, // 图片原始大小
+              imgInitData = {}, // 图片一开始展现时的数据 {width, height, top, left, scale}
+              imgData, // 当前图片的状态 {width, height, top, left, scale}
+
+              isFirefox = document.mozHidden !== undefined
+              , mousewheleEvent = isFirefox ? "DOMMouseScroll" : "mousewheel", // FF的mousewheel事件兼容
+
+              mousedownPos, // 鼠标按下时的坐标 {x, y}
+              imgPosBeforeMove; // 图片移动前的坐标 {top, left}
+
+            /**
+             * 图片缩放，原理：保持缩放点在图中的比例不变，可以传两种参数
+             * 第一种：opt {delta[, posRatio]} delta 滚轮方向； posRatio 缩放点在原图的位置比例（不传，默认{x:0.5, y:0.5}，即中点）
+             * 第二种：opt {scale} scale缩放的比例，如果有，则按此比例进行缩放
+             */
+            function zoom(opt) {
+              var scale, posRatio;
+              if (opt.scale) {
+                scale = opt.scale;
+                posRatio = {
+                  x: 0.5
+                  , y: 0.5
+                };
+              } else {
+                var delta = opt.delta;
+                posRatio = opt.posRatio || {
+                  x: 0.5
+                  , y: 0.5
+                };
+                scale = imgData.scale;
+
+                scale = delta > 0 ? (scale + SCALE_STEP) : (scale - SCALE_STEP);
               }
-              t = t > w ? w : t < 1 / w ? 1 / w : t;
-              var i = {
-                width: Math.round(v.width * t)
-                , height: Math.round(v.height * t)
-                , scale: t
+              scale = scale > SCALE_LIMIT ? SCALE_LIMIT : scale < 1 / SCALE_LIMIT ? 1 / SCALE_LIMIT : scale;
+
+              var newData = {
+                width: Math.round(imgOriginSize.width * scale)
+                , height: Math.round(imgOriginSize.height * scale)
+                , scale: scale
               };
-              i.top = Math.round(y.top - a.y * (i.height - y.height)), i.left = Math.round(y.left - a.x * (i.width - y.width)), y = i, m.css(i)
+              newData.top = Math.round(imgData.top - posRatio.y * (newData.height - imgData.height));
+              newData.left = Math.round(imgData.left - posRatio.x * (newData.width - imgData.width));
+
+              imgData = newData;
+              imgWrp$.css(newData);
+            }
+            /**
+             * 移动图片
+             */
+            function move(pos) {
+              angular.extend(imgData, pos);
+              imgWrp$.css(pos);
+            }
+            /**
+             * 事件绑定
+             */
+            function _mousemove(e) {
+              move({
+                top: e.clientY - mousedownPos.y + imgPosBeforeMove.top
+                , left: e.clientX - mousedownPos.x + imgPosBeforeMove.left
+              });
+              e.preventDefault();
             }
 
-            function l(e) {
-              angular.extend(y, e), m.css(e)
-            }
-
-            function d(e) {
-              l({
-                top: e.clientY - b.y + C.top
-                , left: e.clientX - b.x + C.left
-              }), e.preventDefault()
-            }
-
-            function f() {
-              m.on("mousedown", function(e) {
-                  return G ? void n.actions.close() : (b = {
+            function bindEvent() {
+              imgWrp$.on("mousedown", function(e) {
+                  if (isFirefox) { // FF下拖动会导致新开窗口
+                    scope.actions.close();
+                    return;
+                  }
+                  mousedownPos = {
                     x: e.clientX
                     , y: e.clientY
-                  }, C = {
-                    top: y.top
-                    , left: y.left
-                  }, g.css("display", "none"), m.on("mousemove", d), void e.stopPropagation())
+                  };
+                  imgPosBeforeMove = {
+                    top: imgData.top
+                    , left: imgData.left
+                  };
+
+                  imgOprWrp$.css("display", "none");
+                  imgWrp$.on("mousemove", _mousemove);
+                  e.stopPropagation();
                 })
                 .on("mouseup", function() {
-                  m.off("mousemove", d), g.css("display", "block")
-                })
-                .on(k, function(e) {
-                  var t, a = e.originalEvent;
-                  "mousewheel" != a.type && "DOMMouseScroll" != a.type || (t = a.wheelDelta ? a.wheelDelta / 120 : -(a.detail || 0) / 3), void 0 !== t && (s(G ? {
-                    delta: t
-                  } : {
-                    delta: t
-                    , posRatio: {
-                      x: a.offsetX / y.width
-                      , y: a.offsetY / y.height
-                    }
-                  }), e.preventDefault(), e.stopPropagation())
-                }), e.keydown(c)
-            }
+                  imgWrp$.off("mousemove", _mousemove);
 
-            function u() {
-              var e = n.imageList[n.current].preview;
-              n.isLoaded = !1, n.rotateDeg = 0, e && (n.containerStyle = {
-                background: "url(" + e + ") no-repeat center center"
-                , "background-size": "auto"
-              });
-              var t = new Image;
-              t.onload = function() {
-                t.onload = null, v = {
-                  width: t.width
-                  , height: t.height
-                }, y = {
-                  width: v.width
-                  , height: v.height
-                  , top: (M - v.height) / 2
-                  , left: (h - v.width) / 2
+                  imgOprWrp$.css("display", "block");
+                })
+                .on(mousewheleEvent, function(evt) {
+                  var e = evt.originalEvent
+                    , delta;
+                  if (e.type == 'mousewheel' || e.type == 'DOMMouseScroll') {
+                    delta = (e.wheelDelta) ? e.wheelDelta / 120 : -(e.detail || 0) / 3;
+                  }
+                  if (delta === undefined) return;
+                  zoom(isFirefox ? {
+                    delta: delta
+                  } : { // FF因为不能拖动，所以只沿中点放大
+                    delta: delta
+                    , posRatio: {
+                      x: e.offsetX / imgData.width
+                      , y: e.offsetY / imgData.height
+                    }
+                  });
+
+                  evt.preventDefault();
+                  evt.stopPropagation();
+                });
+              $document.keydown(keydown);
+            }
+            /**
+             * 加载大图
+             */
+            function loadImg() {
+              var preview = scope.imageList[scope.current].preview;
+              scope.isLoaded = false;
+              scope.rotateDeg = 0;
+
+              if (preview) {
+                scope.containerStyle = {
+                  'background': 'url(' + preview + ') no-repeat center center'
+                  , 'background-size': 'auto'
+                };
+              }
+
+
+              // 大图的加载
+              var img = new Image();
+              img.onload = function() {
+                img.onload = null;
+
+                imgOriginSize = {
+                  width: img.width
+                  , height: img.height
+                };
+                imgData = {
+                  width: imgOriginSize.width
+                  , height: imgOriginSize.height
+                  , top: (previewHeight - imgOriginSize.height) / 2
+                  , left: (previewWidth - imgOriginSize.width) / 2
                   , scale: 1
                 };
-                var e = N / t.height
-                  , a = T / t.width;
-                e < 1 && a < 1 ? s({
-                  scale: e < a ? e : a
-                }) : e < 1 ? s({
-                  scale: e
-                }) : a < 1 ? s({
-                  scale: a
-                }) : m.css(y), angular.extend(E, y), p[0].src = t.src, n.isLoaded = !0, n.containerStyle = null, n.$digest()
-              }, t.onerror = function() {
-                t.onerror = null, alert(_("845ec73"))
-              }, t.src = n.imageList[n.current].url
+
+                // 如果图片超过最大宽度，进行缩放
+                var heightScale = imgInitMaxHeight / img.height
+                  , widthScale = imgInitMaxWidth / img.width;
+                if (heightScale < 1 && widthScale < 1) {
+                  zoom({
+                    scale: heightScale < widthScale ? heightScale : widthScale
+                  });
+                } else if (heightScale < 1) {
+                  zoom({
+                    scale: heightScale
+                  });
+                } else if (widthScale < 1) {
+                  zoom({
+                    scale: widthScale
+                  });
+                } else {
+                  imgWrp$.css(imgData);
+                }
+                angular.extend(imgInitData, imgData);
+
+                imgPreview$[0].src = img.src;
+                scope.isLoaded = true;
+                scope.containerStyle = null;
+                scope.$digest();
+              };
+              img.onerror = function() {
+                img.onerror = null;
+                alert(_("845ec73"));
+              };
+              img.src = scope.imageList[scope.current].url;
             }
-            var m = i.find("#img_dom")
-              , g = i.find("#img_opr_container")
-              , p = m.find("#img_preview")
-              , h = document.documentElement.clientWidth
-              , M = document.documentElement.clientHeight - parseInt(g.css("bottom")) - parseInt(g.height());
-            n.isLoaded = !1, n.rotateDeg = 0, n.isIE = !!(a.browser.msie && a.version < 10), n.actions = {
-              next: function() {
-                n.current < n.imageList.length - 1 && (n.current++, u())
-              }
-              , prev: function() {
-                n.current > 0 && (n.current--, u())
-              }
-              , rotate: function() {
-                n.rotateDeg = (n.rotateDeg + 90) % 360, s({
-                  scale: E.scale
-                }), l({
-                  top: (M - y.height) / 2
-                  , left: (h - y.width) / 2
-                }), n.reflowFlag = !n.reflowFlag
-              }
-              , close: function() {
-                i.remove(), n.$destroy()
-              }
-            }, n.$on("$destroy", function() {
-              e.unbind("keyup", r), e.unbind("keydown", c)
-            }), e.keyup(r);
-            var v, y, b, C, w = 5
-              , S = .1
-              , T = .8 * h
-              , N = .8 * M
-              , E = {}
-              , G = void 0 !== document.mozHidden
-              , k = G ? "DOMMouseScroll" : "mousewheel";
-            m.on("click", function(e) {
-                e.stopPropagation()
-              }), g.on("click", function(e) {
-                e.stopPropagation()
-              }), $("#preview_container")
+
+
+            // 点击空白关闭
+            imgWrp$.on("click", function(e) {
+              e.stopPropagation();
+            });
+            imgOprWrp$.on("click", function(e) {
+              e.stopPropagation();
+            });
+            $("#preview_container")
               .on("click", function(e) {
-                n.actions.close()
-              }), f(), u()
+                scope.actions.close();
+              });
+
+
+            // 初始化
+            bindEvent();
+            loadImg();
           }
-        }
+        };
       }])
-      .provider("preview", function() {
+      .provider('preview', function() {
         return {
-          $get: ["$rootScope", "$document", "$compile", function(e, t, a) {
-            var n = {
-              open: function(i) {
-                if (!i.imageList || i.imageList.length <= 0) return !1;
-                n.instance && (n.instance.close(), n.instance = null);
-                var o = {};
-                n.isOpen = !0, i = i || {}, angular.extend(o, i);
-                var r;
-                r = e.$new(), angular.extend(r, {
-                  imageList: i.imageList
-                  , current: i.current
-                });
-                var c = angular.element('<div preview-directive class="J_Preview" current="current" image-list="imageList"></div>')
-                  , s = a(c)(r)
-                  , l = t.find("body")
-                  .eq(0);
-                l.append(s);
-                var d = {
-                  close: function() {
-                    var e = s.scope();
-                    e && e.$destroy(), s.remove()
+          $get: ['$rootScope', '$document', '$compile'
+            , function($rootScope, $document, $compile) {
+              var instance;
+              var service = {
+
+
+                open: function(options) {
+                  if (!options.imageList || options.imageList.length <= 0) return false;
+
+                  if (service.instance) {
+                    service.instance.close();
+                    service.instance = null;
                   }
-                };
-                return n.instance = d, d
-              }
-            };
-            return n
-          }]
-        }
-      })
-  }
-  , function(e, exports) {
-    angular.module("Directives")
-      .directive("mmlazyDirective", function(e) {
+
+                  var setting = {
+
+                  };
+                  service.isOpen = true;
+                  options = options || {};
+                  angular.extend(setting, options);
+                  var scope;
+
+                  //(message.MMStatus==CONF.MSG_SEND_STATUS_SUCC)&&
+                  scope = $rootScope.$new();
+                  angular.extend(scope, {
+                    imageList: options.imageList
+                    , current: options.current
+                  });
+
+
+                  var angularDomEl = angular.element('<div preview-directive class="J_Preview" current="current" image-list="imageList"></div>');
+                  var domEl = $compile(angularDomEl)(scope);
+
+                  var body = $document.find('body')
+                    .eq(0);
+                  body.append(domEl);
+
+
+                  var instance = {
+                    close: function() {
+                      var elementScope = domEl.scope();
+                      if (elementScope) elementScope.$destroy();
+                      domEl.remove();
+                    }
+                  };
+
+                  service.instance = instance;
+
+                  return instance;
+                }
+              };
+              return service;
+            }
+          ]
+        };
+      });
+
+    /***/
+  })
+  , /* 323 */
+  /***/
+  (function(module, exports) {
+
+    angular.module('Directives')
+      .directive('mmlazyDirective', function($timeout) {
         return {
-          restrict: "A"
-          , link: function(e, t) {
-            var a = "scrollLazyload"
-              , n = function() {
+          restrict: 'A'
+          , link: function(scope, element) {
+            var e = "scrollLazyload"
+              , lazyload = function() {
                 $("img.lazy")
                   .lazyload({
-                    container: t
-                    , event: a
-                  })
+                    "container": element
+                    , //"effect": "fadeIn",
+                    "event": e
+                  });
               };
-            n()
+            lazyload();
+
           }
-        }
+        };
       })
-      .directive("mmlazyWithScrollbarDirective", function(e) {
+      .directive('mmlazyWithScrollbarDirective', function($timeout) {
         return {
-          restrict: "A"
-          , link: function(t, a) {
-            var n, i = "scrollLazyload"
-              , o = function() {
+          restrict: 'A'
+          , link: function(scope, element) {
+            var e = "scrollLazyload"
+              , lazyload = function() {
                 $("img.lazy")
                   .lazyload({
-                    container: a
-                    , event: i
-                  })
+                    "container": element
+                    , //"effect": "fadeIn",
+                    "event": e
+                  });
               }
-              , r = 0
-              , c = 0
-              , s = function(t) {
-                r > 1 || c > 20 || e(function(e) {
-                  o(), s(), c++
-                }, 500 + 200 * c)
+              , updateCounter = 0
+              , lazyloadCounter = 0
+              , lazyloadTimer = function(argument) {
+                if (updateCounter > 1 || lazyloadCounter > 20) return;
+                console.log('call lazyloadTimer');
+                $timeout(function(argument) {
+                  lazyload();
+                  lazyloadTimer();
+                  lazyloadCounter++;
+                }, (500 + lazyloadCounter * 200));
               };
-            t.$on("onScroll", function() {
-              n && e.cancel(n), n = e(function(e) {
-                a.trigger(i)
-              }, 200)
-            }), t.$on("onUpdate", function() {
-              r++, o()
-            }), s()
+
+            var timmer;
+
+            scope.$on('onScroll', function() {
+              timmer && $timeout.cancel(timmer);
+              timmer = $timeout(function(argument) {
+                element.trigger(e);
+              }, 200);
+            });
+            scope.$on('onUpdate', function() {
+              updateCounter++;
+              lazyload();
+            });
+
+            lazyloadTimer();
           }
-        }
-      }), angular.module("jQueryScrollbar", [])
-      .directive("jqueryScrollbar", function() {
+        };
+      });
+    /**
+     * 重写jqueryScrollbar directive
+     */
+    angular.module('jQueryScrollbar', [])
+      .directive('jqueryScrollbar', function() {
         return {
-          link: function(e, t) {
+          "link": function(scope, element) {
+            //console.log('jQueryScrollbar init')
             setTimeout(function() {
-              t.scrollbar({
-                  test: "test"
-                  , type: "simpble"
-                  , onScroll: function(t, a) {
-                    e.$broadcast("onScroll", {
-                      y: t
-                      , x: a
-                    })
+              element.scrollbar({
+                  "test": "test"
+                  , "type": "simpble"
+                  , "onScroll": function(y, x) {
+                    scope.$broadcast('onScroll', {
+                      y: y
+                      , x: x
+                    });
+
                   }
-                  , onUpdate: function() {
-                    e.$broadcast("onUpdate", [].slice.call(arguments))
+                  , "onUpdate": function() {
+                    //console.log('jqueryScrollbar onUpdate');
+                    scope.$broadcast('onUpdate', [].slice.call(arguments));
                   }
-                  , onInit: function(t) {
-                    e.$broadcast("onInit", [].slice.call(arguments))
+                  , "onInit": function(argument) {
+                    //console.log('jqueryScrollbar onInit');
+                    scope.$broadcast('onInit', [].slice.call(arguments));
                   }
                 })
-                .on("$destroy", function() {
-                  t.scrollbar("destroy")
-                })
+                .on('$destroy', function() {
+                  element.scrollbar('destroy');
+                });
             }, 0)
           }
-          , restring: "AC"
-        }
-      })
-  }
-  , function(e, exports, t) {
-    var a, n, i;
-    ! function(o, r) {
-      "undefined" != typeof e && e.exports ? e.exports = r(t(266)) : (n = [t(266)], a = r, i = "function" == typeof a ? a.apply(exports, n) : a, !(void 0 !== i && (e.exports = i)))
-    }(this, function(e, t) {
-      "use strict";
-      var a = e.module("ngDialog", [])
-        , n = e.element
-        , i = e.isDefined
-        , o = (document.body || document.documentElement)
-        .style
-        , r = i(o.animation) || i(o.WebkitAnimation) || i(o.MozAnimation) || i(o.MsAnimation) || i(o.OAnimation)
-        , c = "animationend webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend"
-        , s = !1;
-      a.provider("ngDialog", function() {
-        var t = this.defaults = {
-          className: "ngdialog-theme-default"
-          , plain: !1
-          , showClose: !0
-          , closeByDocument: !0
-          , closeByEscape: !0
-          , closeByNavigation: !1
-          , appendTo: !1
-          , preCloseCallback: !1
-          , overlay: !0
-          , cache: !0
+          , "restring": "AC"
         };
-        this.setForceBodyReload = function(e) {
-          s = e || !1
-        }, this.setDefaults = function(a) {
-          e.extend(t, a)
+      });
+
+    /***/
+  })
+  , /* 324 */
+  /***/
+  (function(module, exports, __webpack_require__) {
+
+    var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;
+    /*
+     * ngDialog - easy modals and popup windows
+     * http://github.com/likeastore/ngDialog
+     * (c) 2013-2014 MIT License, https://likeastore.com
+     */
+
+    (function(root, factory) {
+      if (typeof module !== 'undefined' && module.exports) {
+        // CommonJS
+        module.exports = factory(__webpack_require__(266));
+      } else if (true) {
+        // AMD
+        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(266)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(
+          exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+      } else {
+        // Global Variables
+        factory(root.angular);
+      }
+    }(this, function(angular, undefined) {
+      'use strict';
+
+      var m = angular.module('ngDialog', []);
+
+      var $el = angular.element;
+      var isDef = angular.isDefined;
+      var style = (document.body || document.documentElement)
+        .style;
+      var animationEndSupport = isDef(style.animation) || isDef(style.WebkitAnimation) || isDef(style.MozAnimation) || isDef(style.MsAnimation) || isDef(style.OAnimation);
+      var animationEndEvent = 'animationend webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend';
+      var forceBodyReload = false;
+
+      m.provider('ngDialog', function() {
+        var defaults = this.defaults = {
+          className: 'ngdialog-theme-default'
+          , plain: false
+          , showClose: true
+          , closeByDocument: true
+          , closeByEscape: true
+          , closeByNavigation: false
+          , appendTo: false
+          , preCloseCallback: false
+          , overlay: true
+          , cache: true
         };
-        var a, i = 0
-          , o = 0
-          , l = {};
-        this.$get = ["$document", "$templateCache", "$compile", "$q", "$http", "$rootScope", "$timeout", "$window", "$controller", function(d, f, u, m, g, p, h, M, v) {
-          var y = d.find("body");
-          s && p.$on("$locationChangeSuccess", function() {
-            y = d.find("body")
-          });
-          var b = {
-              onDocumentKeydown: function(e) {
-                27 === e.keyCode && C.close("$escape")
-              }
-              , setBodyPadding: function(e) {
-                var t = parseInt(y.css("padding-right") || 0, 10);
-                y.css("padding-right", t + e + "px"), y.data("ng-dialog-original-padding", t)
-              }
-              , resetBodyPadding: function() {
-                var e = y.data("ng-dialog-original-padding");
-                e ? y.css("padding-right", e + "px") : y.css("padding-right", "")
-              }
-              , performCloseDialog: function(t, n) {
-                var i = t.attr("id");
-                if ("undefined" != typeof M.Hammer) {
-                  var s = e.element(t)
+
+        this.setForceBodyReload = function(_useIt) {
+          forceBodyReload = _useIt || false;
+        };
+
+        this.setDefaults = function(newDefaults) {
+          angular.extend(defaults, newDefaults);
+        };
+
+        var globalID = 0
+          , dialogsCount = 0
+          , closeByDocumentHandler, defers = {};
+
+        this.$get = ['$document', '$templateCache', '$compile', '$q', '$http', '$rootScope', '$timeout', '$window', '$controller'
+          , function($document, $templateCache, $compile, $q, $http, $rootScope, $timeout, $window, $controller) {
+            var $body = $document.find('body');
+            if (forceBodyReload) {
+              $rootScope.$on('$locationChangeSuccess', function() {
+                $body = $document.find('body');
+              });
+            }
+
+            var privateMethods = {
+              onDocumentKeydown: function(event) {
+                if (event.keyCode === 27) {
+                  publicMethods.close('$escape');
+                }
+              },
+
+              setBodyPadding: function(width) {
+                var originalBodyPadding = parseInt(($body.css('padding-right') || 0), 10);
+                $body.css('padding-right', (originalBodyPadding + width) + 'px');
+                $body.data('ng-dialog-original-padding', originalBodyPadding);
+              },
+
+              resetBodyPadding: function() {
+                var originalBodyPadding = $body.data('ng-dialog-original-padding');
+                if (originalBodyPadding) {
+                  $body.css('padding-right', originalBodyPadding + 'px');
+                } else {
+                  $body.css('padding-right', '');
+                }
+              },
+
+              performCloseDialog: function($dialog, value) {
+                var id = $dialog.attr('id');
+
+                if (typeof $window.Hammer !== 'undefined') {
+                  var hammerTime = angular.element($dialog)
                     .scope()
                     .hammerTime;
-                  s.off("tap", a), s.destroy && s.destroy(), delete t.scope()
-                    .hammerTime
-                } else t.unbind("click");
-                1 === o && y.unbind("keydown"), t.hasClass("ngdialog-closing") || (o -= 1), p.$broadcast("ngDialog.closing", t), r ? t.unbind(c)
-                  .bind(c, function() {
-                    t.scope()
-                      .$destroy(), t.remove(), 0 === o && (y.removeClass("ngdialog-open"), b.resetBodyPadding()), p.$broadcast("ngDialog.closed", t)
-                  })
-                  .addClass("ngdialog-closing") : (t.scope()
-                    .$destroy(), t.remove(), 0 === o && (y.removeClass("ngdialog-open"), b.resetBodyPadding()), p.$broadcast("ngDialog.closed", t)), l[i] && (l[i].resolve({
-                    id: i
-                    , value: n
-                    , $dialog: t
-                    , remainingDialogs: o
-                  }), delete l[i])
-              }
-              , closeDialog: function(t, a) {
-                var n = t.data("$ngDialogPreCloseCallback");
-                if (n && e.isFunction(n)) {
-                  var i = n.call(t, a);
-                  e.isObject(i) ? i.closePromise ? i.closePromise.then(function() {
-                    b.performCloseDialog(t, a)
-                  }) : i.then(function() {
-                    b.performCloseDialog(t, a)
-                  }, function() {}) : i !== !1 && b.performCloseDialog(t, a)
-                } else b.performCloseDialog(t, a)
-              }
-            }
-            , C = {
-              open: function(r) {
-                function c(e, t) {
-                  return g.get(e, t || {})
-                    .then(function(e) {
-                      return e.data || ""
-                    })
+                  hammerTime.off('tap', closeByDocumentHandler);
+                  hammerTime.destroy && hammerTime.destroy();
+                  delete $dialog.scope()
+                    .hammerTime;
+                } else {
+                  $dialog.unbind('click');
                 }
 
-                function s(t) {
-                  return t ? e.isString(t) && w.plain ? t : "boolean" != typeof w.cache || w.cache ? f.get(t) || c(t, {
-                    cache: !0
-                  }) : c(t, {
-                    cache: !1
-                  }) : "Empty template"
+                if (dialogsCount === 1) {
+                  $body.unbind('keydown');
                 }
-                var d = this
-                  , w = e.copy(t);
-                r = r || {}, e.extend(w, r), i += 1, d.latestID = "ngdialog" + i;
-                var S;
-                l[d.latestID] = S = m.defer();
-                var T, N, E = e.isObject(w.scope) ? w.scope.$new() : p.$new();
-                return m.when(s(w.template || w.templateUrl))
-                  .then(function(t) {
-                    if (f.put(w.template || w.templateUrl, t), w.showClose && (t += '<div class="ngdialog-close"></div>'), d.$result = T = n('<div id="ngdialog' + i + '" class="ngdialog"></div>'), T.html(w.overlay ?
-                        '<div class="ngdialog-overlay"></div><div class="ngdialog-content">' + t + "</div>" : '<div class="ngdialog-content">' + t + "</div>"), w.data && e.isString(w.data)) {
-                      var r = w.data.replace(/^\s*/, "")[0];
-                      E.ngDialogData = "{" === r || "[" === r ? e.fromJson(w.data) : w.data
-                    } else w.data && e.isObject(w.data) && (E.ngDialogData = w.data);
-                    if (w.controller && (e.isString(w.controller) || e.isArray(w.controller) || e.isFunction(w.controller))) {
-                      var c = v(w.controller, {
-                        $scope: E
-                        , $element: T
-                      });
-                      T.data("$ngDialogControllerController", c)
-                    }
-                    if (w.className && T.addClass(w.className), N = w.appendTo && e.isString(w.appendTo) ? e.element(document.querySelector(w.appendTo)) : y, w.preCloseCallback) {
-                      var s;
-                      e.isFunction(w.preCloseCallback) ? s = w.preCloseCallback : e.isString(w.preCloseCallback) && E && (e.isFunction(E[w.preCloseCallback]) ? s = E[w.preCloseCallback] : E.$parent && e.isFunction(E.$parent[w.preCloseCallback]) ?
-                        s = E.$parent[w.preCloseCallback] : p && e.isFunction(p[w.preCloseCallback]) && (s = p[w.preCloseCallback])), s && T.data("$ngDialogPreCloseCallback", s)
-                    }
-                    if (E.closeThisDialog = function(e) {
-                        b.closeDialog(T, e)
-                      }, h(function() {
-                        u(T)(E);
-                        var e = M.innerWidth - y.prop("clientWidth");
-                        y.addClass("ngdialog-open");
-                        var t = e - (M.innerWidth - y.prop("clientWidth"));
-                        t > 0 && b.setBodyPadding(t), N.append(T), w.name ? p.$broadcast("ngDialog.opened", {
-                          dialog: T
-                          , name: w.name
-                        }) : p.$broadcast("ngDialog.opened", T)
-                      }), w.closeByEscape && y.bind("keydown", b.onDocumentKeydown), w.closeByNavigation && p.$on("$locationChangeSuccess", function() {
-                        b.closeDialog(T)
-                      }), a = function(e) {
-                        var t = !!w.closeByDocument && n(e.target)
-                          .hasClass("ngdialog-overlay")
-                          , a = n(e.target)
-                          .hasClass("ngdialog-close");
-                        (t || a) && C.close(T.attr("id"), a ? "$closeButton" : "$document")
-                      }, "undefined" != typeof M.Hammer) {
-                      var l = E.hammerTime = M.Hammer(T[0]);
-                      l.on("tap", a)
-                    } else T.bind("click", a);
-                    return o += 1, C
-                  }), {
-                    id: "ngdialog" + i
-                    , closePromise: S.promise
-                    , close: function(e) {
-                      b.closeDialog(T, e)
-                    }
+
+                if (!$dialog.hasClass("ngdialog-closing")) {
+                  dialogsCount -= 1;
+                }
+
+                $rootScope.$broadcast('ngDialog.closing', $dialog);
+
+                if (animationEndSupport) {
+                  $dialog.unbind(animationEndEvent)
+                    .bind(animationEndEvent, function() {
+                      $dialog.scope()
+                        .$destroy();
+                      $dialog.remove();
+                      if (dialogsCount === 0) {
+                        $body.removeClass('ngdialog-open');
+                        privateMethods.resetBodyPadding();
+                      }
+                      $rootScope.$broadcast('ngDialog.closed', $dialog);
+                    })
+                    .addClass('ngdialog-closing');
+                } else {
+                  $dialog.scope()
+                    .$destroy();
+                  $dialog.remove();
+                  if (dialogsCount === 0) {
+                    $body.removeClass('ngdialog-open');
+                    privateMethods.resetBodyPadding();
                   }
-              }
-              , openConfirm: function(t) {
-                var a = m.defer()
-                  , i = {
-                    closeByEscape: !1
-                    , closeByDocument: !1
-                  };
-                e.extend(i, t), i.scope = e.isObject(i.scope) ? i.scope.$new() : p.$new(), i.scope.confirm = function(e) {
-                  a.resolve(e);
-                  var t = n(document.getElementById(o.id));
-                  b.performCloseDialog(t, e)
-                };
-                var o = C.open(i);
-                return o.closePromise.then(function(e) {
-                  return e ? a.reject(e.value) : a.reject()
-                }), a.promise
-              }
-              , close: function(e, t) {
-                var a = n(document.getElementById(e));
-                return a.length ? b.closeDialog(a, t) : C.closeAll(t), C
-              }
-              , closeAll: function(t) {
-                var a = document.querySelectorAll(".ngdialog");
-                e.forEach(a, function(e) {
-                  b.closeDialog(n(e), t)
-                })
-              }
-              , getDefaults: function() {
-                return t
+                  $rootScope.$broadcast('ngDialog.closed', $dialog);
+                }
+                if (defers[id]) {
+                  defers[id].resolve({
+                    id: id
+                    , value: value
+                    , $dialog: $dialog
+                    , remainingDialogs: dialogsCount
+                  });
+                  delete defers[id];
+                }
+              },
+
+              closeDialog: function($dialog, value) {
+                var preCloseCallback = $dialog.data('$ngDialogPreCloseCallback');
+
+                if (preCloseCallback && angular.isFunction(preCloseCallback)) {
+
+                  var preCloseCallbackResult = preCloseCallback.call($dialog, value);
+
+                  if (angular.isObject(preCloseCallbackResult)) {
+                    if (preCloseCallbackResult.closePromise) {
+                      preCloseCallbackResult.closePromise.then(function() {
+                        privateMethods.performCloseDialog($dialog, value);
+                      });
+                    } else {
+                      preCloseCallbackResult.then(function() {
+                        privateMethods.performCloseDialog($dialog, value);
+                      }, function() {
+                        return;
+                      });
+                    }
+                  } else if (preCloseCallbackResult !== false) {
+                    privateMethods.performCloseDialog($dialog, value);
+                  }
+                } else {
+                  privateMethods.performCloseDialog($dialog, value);
+                }
               }
             };
-          return C
-        }]
-      }), a.directive("ngDialog", ["ngDialog", function(t) {
+
+            var publicMethods = {
+
+              /*
+               * @param {Object} options:
+               * - template {String} - id of ng-template, url for partial, plain string (if enabled)
+               * - plain {Boolean} - enable plain string templates, default false
+               * - scope {Object}
+               * - controller {String}
+               * - className {String} - dialog theme class
+               * - showClose {Boolean} - show close button, default true
+               * - closeByEscape {Boolean} - default true
+               * - closeByDocument {Boolean} - default true
+               * - preCloseCallback {String|Function} - user supplied function name/function called before closing dialog (if set)
+               *
+               * @return {Object} dialog
+               */
+              open: function(opts) {
+                var self = this;
+                var options = angular.copy(defaults);
+
+                opts = opts || {};
+                angular.extend(options, opts);
+
+                globalID += 1;
+
+                self.latestID = 'ngdialog' + globalID;
+
+                var defer;
+                defers[self.latestID] = defer = $q.defer();
+
+                var scope = angular.isObject(options.scope) ? options.scope.$new() : $rootScope.$new();
+                var $dialog, $dialogParent;
+
+                $q.when(loadTemplate(options.template || options.templateUrl))
+                  .then(function(template) {
+
+                    $templateCache.put(options.template || options.templateUrl, template);
+
+                    if (options.showClose) {
+                      template += '<div class="ngdialog-close"></div>';
+                    }
+
+                    self.$result = $dialog = $el('<div id="ngdialog' + globalID + '" class="ngdialog"></div>');
+                    $dialog.html((options.overlay ?
+                      '<div class="ngdialog-overlay"></div><div class="ngdialog-content">' + template + '</div>' :
+                      '<div class="ngdialog-content">' + template + '</div>'));
+
+                    if (options.data && angular.isString(options.data)) {
+                      var firstLetter = options.data.replace(/^\s*/, '')[0];
+                      scope.ngDialogData = (firstLetter === '{' || firstLetter === '[') ? angular.fromJson(options.data) : options.data;
+                    } else if (options.data && angular.isObject(options.data)) {
+                      scope.ngDialogData = options.data;
+                    }
+
+                    if (options.controller && (angular.isString(options.controller) || angular.isArray(options.controller) || angular.isFunction(options.controller))) {
+                      var controllerInstance = $controller(options.controller, {
+                        $scope: scope
+                        , $element: $dialog
+                      });
+                      $dialog.data('$ngDialogControllerController', controllerInstance);
+                    }
+
+                    if (options.className) {
+                      $dialog.addClass(options.className);
+                    }
+
+                    if (options.appendTo && angular.isString(options.appendTo)) {
+                      $dialogParent = angular.element(document.querySelector(options.appendTo));
+                    } else {
+                      $dialogParent = $body;
+                    }
+
+                    if (options.preCloseCallback) {
+                      var preCloseCallback;
+
+                      if (angular.isFunction(options.preCloseCallback)) {
+                        preCloseCallback = options.preCloseCallback;
+                      } else if (angular.isString(options.preCloseCallback)) {
+                        if (scope) {
+                          if (angular.isFunction(scope[options.preCloseCallback])) {
+                            preCloseCallback = scope[options.preCloseCallback];
+                          } else if (scope.$parent && angular.isFunction(scope.$parent[options.preCloseCallback])) {
+                            preCloseCallback = scope.$parent[options.preCloseCallback];
+                          } else if ($rootScope && angular.isFunction($rootScope[options.preCloseCallback])) {
+                            preCloseCallback = $rootScope[options.preCloseCallback];
+                          }
+                        }
+                      }
+
+                      if (preCloseCallback) {
+                        $dialog.data('$ngDialogPreCloseCallback', preCloseCallback);
+                      }
+                    }
+
+                    scope.closeThisDialog = function(value) {
+                      privateMethods.closeDialog($dialog, value);
+                    };
+
+                    $timeout(function() {
+                      $compile($dialog)(scope);
+
+                      var widthDiffs = $window.innerWidth - $body.prop('clientWidth');
+                      $body.addClass('ngdialog-open');
+                      var scrollBarWidth = widthDiffs - ($window.innerWidth - $body.prop('clientWidth'));
+                      if (scrollBarWidth > 0) {
+                        privateMethods.setBodyPadding(scrollBarWidth);
+                      }
+                      $dialogParent.append($dialog);
+
+                      if (options.name) {
+                        $rootScope.$broadcast('ngDialog.opened', {
+                          dialog: $dialog
+                          , name: options.name
+                        });
+                      } else {
+                        $rootScope.$broadcast('ngDialog.opened', $dialog);
+                      }
+                    });
+
+                    if (options.closeByEscape) {
+                      $body.bind('keydown', privateMethods.onDocumentKeydown);
+                    }
+
+                    if (options.closeByNavigation) {
+                      $rootScope.$on('$locationChangeSuccess', function() {
+                        privateMethods.closeDialog($dialog);
+                      });
+                    }
+
+                    closeByDocumentHandler = function(event) {
+                      var isOverlay = options.closeByDocument ? $el(event.target)
+                        .hasClass('ngdialog-overlay') : false;
+                      var isCloseBtn = $el(event.target)
+                        .hasClass('ngdialog-close');
+
+                      if (isOverlay || isCloseBtn) {
+                        publicMethods.close($dialog.attr('id'), isCloseBtn ? '$closeButton' : '$document');
+                      }
+                    };
+
+                    if (typeof $window.Hammer !== 'undefined') {
+                      var hammerTime = scope.hammerTime = $window.Hammer($dialog[0]);
+                      hammerTime.on('tap', closeByDocumentHandler);
+                    } else {
+                      $dialog.bind('click', closeByDocumentHandler);
+                    }
+
+                    dialogsCount += 1;
+
+                    return publicMethods;
+                  });
+
+                return {
+                  id: 'ngdialog' + globalID
+                  , closePromise: defer.promise
+                  , close: function(value) {
+                    privateMethods.closeDialog($dialog, value);
+                  }
+                };
+
+                function loadTemplateUrl(tmpl, config) {
+                  return $http.get(tmpl, (config || {}))
+                    .then(function(res) {
+                      return res.data || '';
+                    });
+                }
+
+                function loadTemplate(tmpl) {
+                  if (!tmpl) {
+                    return 'Empty template';
+                  }
+
+                  if (angular.isString(tmpl) && options.plain) {
+                    return tmpl;
+                  }
+
+                  if (typeof options.cache === 'boolean' && !options.cache) {
+                    return loadTemplateUrl(tmpl, {
+                      cache: false
+                    });
+                  }
+
+                  return $templateCache.get(tmpl) || loadTemplateUrl(tmpl, {
+                    cache: true
+                  });
+                }
+              },
+
+              /*
+               * @param {Object} options:
+               * - template {String} - id of ng-template, url for partial, plain string (if enabled)
+               * - plain {Boolean} - enable plain string templates, default false
+               * - name {String}
+               * - scope {Object}
+               * - controller {String}
+               * - className {String} - dialog theme class
+               * - showClose {Boolean} - show close button, default true
+               * - closeByEscape {Boolean} - default false
+               * - closeByDocument {Boolean} - default false
+               * - preCloseCallback {String|Function} - user supplied function name/function called before closing dialog (if set); not called on confirm
+               *
+               * @return {Object} dialog
+               */
+              openConfirm: function(opts) {
+                var defer = $q.defer();
+
+                var options = {
+                  closeByEscape: false
+                  , closeByDocument: false
+                };
+                angular.extend(options, opts);
+
+                options.scope = angular.isObject(options.scope) ? options.scope.$new() : $rootScope.$new();
+                options.scope.confirm = function(value) {
+                  defer.resolve(value);
+                  var $dialog = $el(document.getElementById(openResult.id));
+                  privateMethods.performCloseDialog($dialog, value);
+                };
+
+                var openResult = publicMethods.open(options);
+                openResult.closePromise.then(function(data) {
+                  if (data) {
+                    return defer.reject(data.value);
+                  }
+                  return defer.reject();
+                });
+
+                return defer.promise;
+              },
+
+              /*
+               * @param {String} id
+               * @return {Object} dialog
+               */
+              close: function(id, value) {
+                var $dialog = $el(document.getElementById(id));
+
+                if ($dialog.length) {
+                  privateMethods.closeDialog($dialog, value);
+                } else {
+                  publicMethods.closeAll(value);
+                }
+
+                return publicMethods;
+              },
+
+              closeAll: function(value) {
+                var $all = document.querySelectorAll('.ngdialog');
+
+                angular.forEach($all, function(dialog) {
+                  privateMethods.closeDialog($el(dialog), value);
+                });
+              },
+
+              getDefaults: function() {
+                return defaults;
+              }
+            };
+
+            return publicMethods;
+          }
+        ];
+      });
+
+      m.directive('ngDialog', ['ngDialog', function(ngDialog) {
         return {
-          restrict: "A"
+          restrict: 'A'
           , scope: {
-            ngDialogScope: "="
+            ngDialogScope: '='
           }
-          , link: function(a, n, i) {
-            n.on("click", function(n) {
-              n.preventDefault();
-              var o = e.isDefined(a.ngDialogScope) ? a.ngDialogScope : "noScope";
-              e.isDefined(i.ngDialogClosePrevious) && t.close(i.ngDialogClosePrevious);
-              var r = t.getDefaults();
-              t.open({
-                template: i.ngDialog
-                , className: i.ngDialogClass || r.className
-                , controller: i.ngDialogController
-                , scope: o
-                , data: i.ngDialogData
-                , showClose: "false" !== i.ngDialogShowClose && ("true" === i.ngDialogShowClose || r.showClose)
-                , closeByDocument: "false" !== i.ngDialogCloseByDocument && ("true" === i.ngDialogCloseByDocument || r.closeByDocument)
-                , closeByEscape: "false" !== i.ngDialogCloseByEscape && ("true" === i.ngDialogCloseByEscape || r.closeByEscape)
-                , preCloseCallback: i.ngDialogPreCloseCallback || r.preCloseCallback
-              })
-            })
+          , link: function(scope, elem, attrs) {
+            elem.on('click', function(e) {
+              e.preventDefault();
+
+              var ngDialogScope = angular.isDefined(scope.ngDialogScope) ? scope.ngDialogScope : 'noScope';
+              angular.isDefined(attrs.ngDialogClosePrevious) && ngDialog.close(attrs.ngDialogClosePrevious);
+
+              var defaults = ngDialog.getDefaults();
+
+              ngDialog.open({
+                template: attrs.ngDialog
+                , className: attrs.ngDialogClass || defaults.className
+                , controller: attrs.ngDialogController
+                , scope: ngDialogScope
+                , data: attrs.ngDialogData
+                , showClose: attrs.ngDialogShowClose === 'false' ? false : (attrs.ngDialogShowClose === 'true' ? true : defaults.showClose)
+                , closeByDocument: attrs.ngDialogCloseByDocument === 'false' ? false : (attrs.ngDialogCloseByDocument === 'true' ? true : defaults.closeByDocument)
+                , closeByEscape: attrs.ngDialogCloseByEscape === 'false' ? false : (attrs.ngDialogCloseByEscape === 'true' ? true : defaults.closeByEscape)
+                , preCloseCallback: attrs.ngDialogPreCloseCallback || defaults.preCloseCallback
+              });
+            });
           }
-        }
-      }])
-    })
-  }
-  , function(e, exports) {
-    angular.module("Directives")
-      .directive("mmRepeat", ["$document", "$compile", "$rootScope", function(e, t, a) {
-        function n(e, t, a, n, i) {
-          var o, r, c = 0;
-          if (0 === e.length) return 0;
-          if (a > n) {
-            for (var s = t; s > -1; s--)
-              if (o = e[s], r = c, c += o._h || (o._h = i(o)), a - c < n) return {
-                index: s
-                , total: r
-              };
+        };
+      }]);
+    }));
+
+    /***/
+  })
+  , /* 325 */
+  /***/
+  (function(module, exports) {
+
+    angular.module('Directives')
+      .directive('mmRepeat', ['$document', '$compile', '$rootScope', function($document, $compile, $rootScope) {
+
+
+        /**
+         * 根据当前情况，计算 Y轴 位移之后须显示到的目标项
+         * @param list
+         * @param startIndex
+         * @param startY
+         * @param endY
+         * @param heightCalc
+         * @returns {*}
+         */
+        function getShowArae(list, startIndex, startY, endY, heightCalc) {
+          var item, total = 0
+            , prevTotal;
+          if (list.length === 0) return 0;
+
+          if (startY > endY) {
+            for (var i = startIndex; i > -1; i--) {
+              item = list[i];
+              prevTotal = total;
+              total += (item._h || (item._h = heightCalc(item)));
+              if (startY - total < endY) {
+                return {
+                  index: i
+                  , total: prevTotal
+                };
+              }
+            }
             return {
               index: 0
               , total: 0
-            }
-          }
-          for (var s = t; s < e.length; s++)
-            if (o = e[s], r = c, c += o._h || (o._h = i(o)), a + c > n) return {
-              index: s
-              , total: r
             };
+          } else {
+            for (var i = startIndex; i < list.length; i++) {
+              item = list[i];
+              prevTotal = total;
+              total += (item._h || (item._h = heightCalc(item)));
+              if (startY + total > endY) {
+                return {
+                  index: i
+                  , total: prevTotal
+                };
+              }
+            }
+            return {
+              index: list.length - 1
+              , total: total
+            };
+          }
+
+        }
+
+        /**
+         * 获取一部分item的高度总和
+         * @param list
+         * @param start
+         * @param end
+         * @param heightCalc
+         * @returns {number}
+         */
+        function getTotalHeight(list, start, end, heightCalc) {
+          if (list.length === 0 || start === end) return 0;
+
+          var item, total = 0;
+          for (var i = start; i < end; i++) {
+            item = list[i];
+            total += (item._h || (item._h = heightCalc(item)));
+          }
+          return total;
+        }
+
+
+        function getRenderData(list, scrollDataY, bufferHeight, heightCalc) {
+
+          var startIndex, endIndex, topHeight, bottomHeight, showAraeResult;
+          var startY = scrollDataY.scroll - bufferHeight;
+          var endY = scrollDataY.scroll + scrollDataY.visible + bufferHeight;
+
+          if (startY > 0) {
+            showAraeResult = getShowArae(list, 0, 0, startY, heightCalc);
+            startIndex = showAraeResult.index;
+            startY = showAraeResult.total;
+          } else {
+            startIndex = 0;
+            startY = 0;
+          }
+
+          endIndex = getShowArae(list, startIndex, startY, endY, heightCalc)
+            .index;
+          endIndex = endIndex >= list.length ? (list.length - 1) : endIndex;
+
+          topHeight = getTotalHeight(list, 0, startIndex, heightCalc);
+          bottomHeight = getTotalHeight(list, endIndex + 1, list.length, heightCalc);
+
+
+
           return {
-            index: e.length - 1
-            , total: c
+            topHeight: topHeight
+            , bottomHeight: bottomHeight
+            , startIndex: startIndex
+            , endIndex: endIndex
+          }
+
+        }
+
+
+        function render(scope, scrollDataY, currentList, list) {
+          var renderList;
+          var renderData = getRenderData(list, scrollDataY, scope.bufferHeight, scope.heightCalc);
+          scope.bottomHeight = renderData.bottomHeight;
+          scope.topHeight = renderData.topHeight;
+          currentList.length = 0;
+          renderList = list.slice(renderData.startIndex, renderData.endIndex + 1);
+
+
+          [].push.apply(currentList, renderList);
+
+
+          console.timeEnd('render');
+        }
+
+        function addOffset(list) {
+          if (list.length <= 0) return;
+          var item;
+          var offsetTop = 0;
+          for (var i = 0; i < list.length; i++) {
+            item = list[i];
+            item._offsetTop = offsetTop;
+            offsetTop += item._h;
           }
         }
 
-        function i(e, t, a, n) {
-          if (0 === e.length || t === a) return 0;
-          for (var i, o = 0, r = t; r < a; r++) i = e[r], o += i._h || (i._h = n(i));
-          return o
+        function calc(list, heightCalc, noCache) {
+          if (list.length <= 0) return;
+          var item;
+
+          for (var i = 0; i < list.length; i++) {
+            item = list[i];
+            if (!item._h || noCache) item._h = heightCalc(item);
+          }
         }
 
-        function o(e, t, a, o) {
-          var r, c, s, l, d, f = t.scroll - a
-            , u = t.scroll + t.visible + a;
-          return f > 0 ? (d = n(e, 0, 0, f, o), r = d.index, f = d.total) : (r = 0, f = 0), c = n(e, r, f, u, o)
-            .index, c = c >= e.length ? e.length - 1 : c, s = i(e, 0, r, o), l = i(e, c + 1, e.length, o), {
-              topHeight: s
-              , bottomHeight: l
-              , startIndex: r
-              , endIndex: c
-            }
-        }
-
-        function r(e, t, a, n) {
-          var i, r = o(n, t, e.bufferHeight, e.heightCalc);
-          e.bottomHeight = r.bottomHeight, e.topHeight = r.topHeight, a.length = 0, i = n.slice(r.startIndex, r.endIndex + 1), [].push.apply(a, i)
-        }
-
-        function c(e) {
-          if (!(e.length <= 0))
-            for (var t, a = 0, n = 0; n < e.length; n++) t = e[n], t._offsetTop = a, a += t._h
-        }
-
-        function s(e, t, a) {
-          if (!(e.length <= 0))
-            for (var n, i = 0; i < e.length; i++) n = e[i], n._h && !a || (n._h = t(n))
-        }
-
-        function l(e, t, a) {
-          var n = function(e) {
+        function preCalc(list, heightCalc, cb) {
+          var newcb = function(list) {
             setTimeout(function() {
-              a(e)
+
+              cb(list);
             }, 0)
           };
-          if (0 == e.length) return void a(e);
-          for (var i, o = e.length, r = 0, c = 0; c < o; c++) i = e[c], i._h ? (r++, r == o && n(e)) : t(i, function(t) {
-            return function(a) {
-              t._h = a, t._calcing = !1, r++, r == o && n(e)
-            }
-          }(i))
-        }
 
-        function d(e) {
-          for (var t = !0, a = 0; a < e.length; a++) e[a]._h || (t = !1);
-          return t
-        }
-        return {
-          restrict: "EA"
-          , priority: 1e3
-          , scope: !0
-          , terminal: !0
-          , link: function(e, a, n) {
-            var i = []
-              , o = {
-                maxScroll: 0
-                , scroll: 0
-                , size: 0
-                , visible: 687
+
+          if (list.length == 0) {
+            cb(list);
+            return;
+          }
+
+          var len = list.length;
+          var flag = 0
+            , item;
+          for (var i = 0; i < len; i++) {
+            item = list[i];
+            if (item._h) {
+              flag++;
+              if (flag == len) {
+                newcb(list);
               }
-              , f = n.mmRepeat.match(/^\s*([\s\S]+?)\s+in\s+([\s\S]+?)(?:\s+track\s+by\s+([\s\S]+?))?\s*$/)
-              , u = f[2]
-              , m = (f[1], '<div ng-style="{height:topHeight}" class="top-placeholder"></div><div ng-repeat="' + n.mmRepeat + '">' + a.html() + '</div><div ng-style="{height:bottomHeight}" class="bottom-placeholder"></div>')
-              , g = t(m)(e);
-            a.html(""), a.append(g), e.bufferHeight || (e.bufferHeight = 100), n.preCalc && "false" !== n.preCalc ? e.preCalc = !0 : e.preCalc = !1, e[u] = [], e.$on("onScroll", function(t, a) {
-              return o = a.y, e.heightCalc && 2 === e.heightCalc.length && !d(i) ? void l(i, e.heightCalc, function() {
-                d(i) && (c(i), r(e, o, e[u], i), e.$digest(), e.$emit("mmRepeat:reCalc"))
-              }) : (r(e, o, e[u], i), void e.$digest())
-            }), e.$parent.$watch(n.heightCalc, function(t) {
-              "function" == typeof t && (e.heightCalc = t)
-            }), n.height && (e.heightCalc = function() {
-              return parseInt(n.height)
-            }), e.bufferHeight = parseInt(n.bufferHeight), e.$parent.$watchCollection(f[2], function(t) {
-              if (t instanceof Array)
-                if (i = t, t.length > 0) {
-                  for (var a = 0; a < i.length; a++) i[a]._index = a;
-                  e.preCalc ? l(i, e.heightCalc, function() {
-                    d(i) && (c(i), r(e, o, e[u], i), e.$digest(), e.$emit("mmRepeat:change"))
-                  }) : (s(i, e.heightCalc, n.noCache), c(i), r(e, o, e[u], i), e.$emit("mmRepeat:change"))
-                } else e[u].length = 0, e.$emit("mmRepeat:change")
-            })
+            } else {
+              console.log('pre', 'callcalc')
+                /* if(!item._calcing){
+                     item._calcing = true;*/
+              heightCalc(item, (function(item) {
+                return function(height) {
+                  item._h = height;
+                  item._calcing = false;
+                  flag++;
+                  console.log('pre', item, flag);
+                  if (flag == len) {
+                    newcb(list);
+                  }
+                }
+              })(item));
+              /*  }*/
+
+            }
+
           }
         }
-      }])
-  }
-  , function(e, exports) {
-    angular.module("Directives")
-      .directive("mmRepeatKeyboard", ["$timeout", "utilFactory", "confFactory", function(e, t, a) {
+
+        function alreadyCalc(list) {
+          var result = true;
+          for (var i = 0; i < list.length; i++) {
+            if (!list[i]._h) {
+              result = false;
+            }
+          }
+          return result;
+        }
+
+
+
+
+        /**
+         * 组件参数：
+         * heightCalc（item）(function): item 为数据计算， heightCalc 应该返回该数据项对应的列表项的高度
+         * bufferHeight（number）: mmrepeater 为可视区域外预留的缓冲区，缓冲区的元素同样会被加载
+         * preCalc (bool): mmrepeater 是否在渲染节点前先计算节点的高度，支持异步
+         */
         return {
-          restrict: "A"
-          , priority: 1001
-          , scope: !1
-          , link: function(e, n, i) {
-            function o(t) {
-              e.$emit("mmrepeat:select", t)
+          restrict: 'EA'
+          , priority: 1000
+          , scope: true
+          , /*{
+          	                heightCalc:"=",
+          	                bufferHeight:"="
+          	            },*/
+          terminal: true
+          , link: function(scope, element, attributes) {
+
+            var selectedItems = [];
+            var list = [];
+            var scrollDataY = {
+              maxScroll: 0
+              , scroll: 0
+              , size: 0
+              , visible: 687
+            };
+            var onSelectedChangeHandler;
+
+
+            var match = attributes.mmRepeat.match(/^\s*([\s\S]+?)\s+in\s+([\s\S]+?)(?:\s+track\s+by\s+([\s\S]+?))?\s*$/);
+            // match[2] 是 item in XXX 中的 XXX
+            var listKey = match[2];
+            var itemKey = match[1];
+
+            var angularDomEl = '<div ng-style="{height:topHeight}" class="top-placeholder"></div><div ng-repeat="' + attributes.mmRepeat + '">' + element.html() +
+              '</div><div ng-style="{height:bottomHeight}" class="bottom-placeholder"></div>';
+            var domEl = $compile(angularDomEl)(scope);
+
+            element.html('');
+            element.append(domEl);
+
+            if (!scope.bufferHeight) {
+              scope.bufferHeight = 100;
             }
 
-            function r(e, t, a) {
-              var n = t._h
-                , i = t._offsetTop
-                , o = e.scrollTop;
-              if (o >= i) return e.scrollTop = i, void(a && (e.scrollTop = 0));
-              var r = i + n - e.clientHeight;
-              o < r && (e.scrollTop = r)
+            if (!attributes.preCalc || attributes.preCalc === 'false') {
+              scope.preCalc = false;
+            } else {
+              scope.preCalc = true;
             }
 
-            function c(e) {
-              if (d) {
-                var n, i = !1;
-                if (n = e.ctrlKey ? g.ctrl || g.default : g.default, n || (n = function() {
-                    return !0
-                  }), !m) {
-                  if (m = d[0], !m) return;
-                  if (n(m)) return void o(m)
+
+
+
+            scope[listKey] = [];
+            scope.$on('onScroll', function(e, scrollData) {
+              scrollDataY = scrollData.y;
+
+              if (scope.heightCalc && scope.heightCalc.length === 2) {
+                if (!alreadyCalc(list)) {
+
+                  preCalc(list, scope.heightCalc, function() {
+                    if (!alreadyCalc(list)) {
+                      return;
+                    }
+                    addOffset(list);
+                    render(scope, scrollDataY, scope[listKey], list);
+                    scope.$digest();
+                    scope.$emit('mmRepeat:reCalc');
+                  });
+                  return;
                 }
-                if (m) {
-                  var c = m;
-                  if (c) {
+              }
+
+              //if(element.offset().left>100 && element.children().length > 6) {alert( JSON.stringify(scrollData)); }
+              //console.log('scroll',scrollData);
+              render(scope, scrollDataY, scope[listKey], list);
+              scope.$digest();
+            });
+
+
+
+
+            scope.$parent.$watch(attributes.heightCalc, function(value) {
+              if (typeof value === 'function') {
+                scope.heightCalc = value;
+              }
+            });
+            if (attributes.height) {
+              scope.heightCalc = function() {
+                return parseInt(attributes.height);
+              }
+            }
+
+            scope.bufferHeight = parseInt(attributes.bufferHeight)
+            scope.$parent.$watchCollection(match[2], function(collection) {
+
+              if (!(collection instanceof Array)) {
+                return;
+              }
+
+              list = collection;
+              if (collection.length > 0) {
+                // 因为回收了大部分不可区域的项，所以要有一个 _index 来指明该项的位置
+                for (var i = 0; i < list.length; i++) {
+                  list[i]._index = i;
+                }
+
+                console.time('calc');
+                if (scope.preCalc) {
+                  preCalc(list, scope.heightCalc, function() {
+                    console.timeEnd('calc');
+                    console.time('render')
+                    if (!alreadyCalc(list)) {
+                      return;
+                    }
+                    addOffset(list);
+                    render(scope, scrollDataY, scope[listKey], list);
+                    scope.$digest();
+                    scope.$emit('mmRepeat:change');
+
+
+                  });
+                } else {
+                  calc(list, scope.heightCalc, attributes.noCache);
+                  addOffset(list);
+
+                  render(scope, scrollDataY, scope[listKey], list);
+                  scope.$emit('mmRepeat:change');
+
+
+                }
+
+
+              } else {
+                scope[listKey].length = 0;
+                scope.$emit('mmRepeat:change');
+
+
+              }
+            })
+          }
+        };
+      }])
+
+    /***/
+  })
+  , /* 326 */
+  /***/
+  (function(module, exports) {
+
+    angular.module('Directives')
+      .directive('mmRepeatKeyboard', ['$timeout', 'utilFactory', 'confFactory', function($timeout, utilFactory, confFactory) {
+
+        return {
+          restrict: 'A'
+          , priority: 1001
+          , scope: false
+          , link: function(scope, element, attrs) {
+
+            var match = attrs.mmRepeat.match(/^\s*([\s\S]+?)\s+in\s+([\s\S]+?)(?:\s+track\s+by\s+([\s\S]+?))?\s*$/);
+            var listKey = match[2];
+
+            scope.$parent.$watch(listKey, function(value) {
+              if (value) list = value;
+            })
+
+            var list = scope.$parent[listKey]
+            var scrollSelector = attrs.mmRepeatKeyboardScrollSelector;
+
+            var scrollContainer = $(scrollSelector)[0];
+            if (!scrollContainer) {
+              console.error('scrollContainer 不存在');
+              return;
+            }
+
+            var currentItem;
+            var judgeFunMap = {};
+            scope.$parent.mmRepeatKeyboard = {
+              started: false
+              , start: function() {
+                if (!this.started) {
+                  $(document)
+                    .on('keydown', 'body', navKeydown);
+                  this.started = true;
+                }
+
+              }
+              , stop: function() {
+
+                this.started = false;
+                $(document)
+                  .off('keydown', 'body', navKeydown);
+              }
+              , setJudgeFun: function(fun, key) {
+                if (key) {
+                  judgeFunMap[key] = fun;
+                } else {
+                  judgeFunMap['default'] = fun;
+                }
+              }
+              , setSelectItem: function(item) {
+                currentItem = item;
+              }
+            };
+
+            function selectItem(item) {
+              scope.$emit('mmrepeat:select', item);
+            };
+
+
+            function showContact(container, item, lastSelectable) {
+              var itemHeigth = item._h;
+              var offsetTop = item._offsetTop;
+              var scrollTop = container.scrollTop;
+
+              if (scrollTop >= offsetTop) {
+                container.scrollTop = offsetTop;
+                if (lastSelectable) container.scrollTop = 0;
+                return;
+              }
+
+              var BottomLimit = offsetTop + itemHeigth - container.clientHeight;
+              if (scrollTop < BottomLimit) {
+                container.scrollTop = BottomLimit;
+              }
+            }
+
+
+
+            function navKeydown(e) {
+              if (!list) return;
+              var lastSelectable = false;
+              var judgeFun;
+              if (e.ctrlKey) {
+                judgeFun = judgeFunMap['ctrl'] || judgeFunMap['default'];
+
+              } else {
+                judgeFun = judgeFunMap['default'];
+              }
+
+              if (!judgeFun) {
+                judgeFun = function() {
+                  return true
+                };
+
+              }
+
+
+              if (!currentItem) {
+                currentItem = list[0];
+                if (!currentItem) return;
+
+                if (judgeFun(currentItem)) {
+                  selectItem(currentItem);
+                  return;
+                }
+              }
+
+              if (!currentItem) return;
+
+              var nextItem = currentItem;
+
+              if (nextItem) {
+                switch (e.keyCode) {
+                  case confFactory.KEYCODE_ARROW_UP:
+                    do {
+                      nextItem = (nextItem._index - 1 < 0) ? currentItem : list[nextItem._index - 1];
+                    } while (!judgeFun(nextItem))
+                    if (nextItem == currentItem) {
+                      lastSelectable = true;
+                    }
+                    break;
+                  case confFactory.KEYCODE_ARROW_DOWN:
+                    do {
+                      nextItem = (nextItem._index + 1 >= list.length) ? currentItem : list[nextItem._index + 1];
+                    } while (!judgeFun(nextItem))
+                    break;
+                  default:
+                    return;
+                }
+
+
+
+                //if(currentItem != nextItem){
+                /* utilFactory.fitRun('navKeydown', function () {
+                     selectItem(nextItem);
+                     */
+                /*                      scope.showProfile(nextItem);
+                	                                     $rootScope.$digest();*/
+                /*
+                	                                }, 200, 800)*/
+                currentItem = nextItem;
+                utilFactory.wait(function() {
+                  return typeof currentItem._offsetTop != 'undefined';
+                }, function() {
+                  showContact(scrollContainer, nextItem, lastSelectable);
+                  selectItem(nextItem);
+
+                }, 10);
+
+                // }
+
+
+
+              }
+
+
+              /*$rootScope.$digest();
+              showContact($(scrollBodySelector)[0], nextItem);*/
+
+
+              /*  utilFactory.wait(function () {
+	                        return typeof currentItem._offsetTop != 'undefined';
+	                    }, function () {
+	
+	
+	                    }, 10);*/
+
+
+              if (e.keyCode == confFactory.KEYCODE_ARROW_UP || e.keyCode == confFactory.KEYCODE_ARROW_DOWN) {
+                e.preventDefault();
+              }
+
+
+            }
+
+            scope.$on('$destroy', function() {
+              $(document)
+                .off('keydown', 'body', navKeydown);
+            })
+
+          }
+        };
+      }])
+
+    /***/
+  })
+  , /* 327 */
+  /***/
+  (function(module, exports) {
+
+    angular.module('Directives')
+      .directive('searchListDirective', [function() {
+        return {
+          restrict: 'A'
+          , link: function(scope, element) {
+            var HEADER_HEIGHT = 30
+              , ITEM_HEIGTH = 66;
+            var allContacts = scope.allContacts
+              , ele = element[0]
+              , minIndex = allContacts.length && allContacts[0].type && allContacts[0].type == "header" ? 1 : 0
+              , maxIndex = allContacts.length - 1;
+            scope.selectIndex = minIndex;
+
+            function showContact(selectIndex) {
+              var item = allContacts[selectIndex];
+              if (!item) return;
+
+              var itemHeigth = item._h;
+              var offsetTop = item._offsetTop;
+              var scrollTop = ele.scrollTop;
+              if (scrollTop > offsetTop || typeof item.NickName === 'undefined') {
+                if (item._index == 1) {
+                  ele.scrollTop = 0;
+                } else {
+                  ele.scrollTop = offsetTop;
+                }
+
+                return;
+              }
+
+              // 用 clientHeight 是为了去掉 IE 下滚动条高度的影响
+              var BottomLimit = offsetTop + itemHeigth - ele.clientHeight;
+              if (scrollTop < BottomLimit) {
+                ele.scrollTop = BottomLimit;
+              }
+            }
+
+            scope.$on("root:searchList:keyArrowUp", function() {
+
+              var index = scope.selectIndex;
+              do {
+                --index;
+              } while (index > minIndex && allContacts[index].type == "header");
+
+              index = index < minIndex ? minIndex : index;
+              scope.selectIndex = index;
+              showContact(index);
+            });
+            scope.$on("root:searchList:keyArrowDown", function() {
+              var maxIndex = allContacts.length - 1;
+              var index = scope.selectIndex;
+              do {
+                ++index;
+              } while (index < maxIndex && allContacts[index].type == "header");
+
+              index = index > maxIndex ? maxIndex : index;
+              scope.selectIndex = index;
+              showContact(index);
+            });
+            scope.$on("root:searchList:keyEnter", function() {
+              scope.clickUserCallback(allContacts[scope.selectIndex]);
+            });
+          }
+        }
+      }]);
+
+    /***/
+  })
+  , /* 328 */
+  /***/
+  (function(module, exports) {
+
+    angular.module('Directives')
+      .directive('navChatDirective', [
+        '$timeout'
+        , '$log'
+        , '$document'
+        , '$stateParams'
+        , '$rootScope'
+        , 'chatFactory'
+        , 'accountFactory'
+        , 'contactFactory'
+        , 'appFactory'
+        , 'confFactory'
+        , 'utilFactory'
+        , 'stateManageService'
+        , function($timeout, $log, $document, $stateParams, $rootScope, chatFactory, accountFactory, contactFactory, appFactory, confFactory, utilFactory, stateManageService) {
+
+
+
+          return {
+            restrict: 'EA'
+            , scope: true,
+
+            templateUrl: 'navChat.html'
+            , link: function(scope, element, attributes) {
+
+              stateManageService.on('navChat:active', function navChatStateChange(value) {
+                if (value) {
+                  $(document)
+                    .on('keydown', 'body', navKeydown);
+
+                } else {
+                  $(document)
+                    .off('keydown', 'body', navKeydown);
+
+                }
+              });
+
+              function navKeydown(e) {
+
+                var list = scope.chatList
+                  , item, nextItem;
+                if (!stateManageService.canDo('navKeydown')) return;
+                if (!scope.currentUserName) {
+                  var first;
+                  if ((e.keyCode == confFactory.KEYCODE_ARROW_UP || e.keyCode == confFactory.KEYCODE_ARROW_DOWN) && (first = list[0])) {
+                    scope.currentUserName = first.UserName;
+
+                    chatFactory.setCurrentUserName(first.UserName);
+                    scope.showChatContentByUserName(first.UserName);
+                    $rootScope.$digest();
+                    showContact($('.chat_list.scroll-content')[0], first);
+                  } else {
+                    return;
+                  }
+                } else {
+                  item = getItemByUserName(list, scope.currentUserName);
+                  nextItem = item;
+                  utilFactory.wait(function() {
+                    return typeof item._offsetTop != 'undefined';
+                  }, function() {
+
                     switch (e.keyCode) {
-                      case a.KEYCODE_ARROW_UP:
-                        do c = c._index - 1 < 0 ? m : d[c._index - 1]; while (!n(c));
-                        c == m && (i = !0);
+                      case confFactory.KEYCODE_ARROW_UP:
+                        nextItem = (item._index - 1 < 0) ? item : list[item._index - 1];
                         break;
-                      case a.KEYCODE_ARROW_DOWN:
-                        do c = c._index + 1 >= d.length ? m : d[c._index + 1]; while (!n(c));
+                      case confFactory.KEYCODE_ARROW_DOWN:
+                        nextItem = (item._index + 1 >= list.length) ? item : list[item._index + 1];
                         break;
                       default:
-                        return
+                        return;
                     }
-                    m = c, t.wait(function() {
-                      return "undefined" != typeof m._offsetTop
-                    }, function() {
-                      r(u, c, i), o(c)
-                    }, 10)
+
+
+                    utilFactory.fitRun('navKeydown', function() {
+                      chatFactory.setCurrentUserName(nextItem.UserName);
+                      $rootScope.$digest();
+                    }, 200, 800)
+                    scope.showChatContentByUserName(nextItem.UserName);
+                    $rootScope.$digest();
+                    showContact($('.chat_list.scroll-content')[0], nextItem);
+
+                  }, 10);
+                }
+
+
+
+
+
+                if (e.keyCode == confFactory.KEYCODE_ARROW_UP || e.keyCode == confFactory.KEYCODE_ARROW_DOWN) {
+                  e.preventDefault();
+                }
+
+
+              }
+
+
+
+              $timeout(function() {
+
+                scope.chatList = chatFactory.getChatList();
+                scope.currentUserName = chatFactory.getCurrentUserName();
+
+                // 挫逼实现watch contacts更新来更新chatList
+                scope.$watch(function() {
+                  return contactFactory.contactChangeFlag;
+                }, function(newValue) {
+
+                  //update chatlist
+                  chatFactory.getChatList();
+                });
+              }, 0);
+
+              $rootScope.$on('contact:settop', function() {
+                chatFactory.getChatList();
+              });
+
+              function getItemByUserName(list, userName) {
+                var item;
+                for (var i = 0; i < list.length; i++) {
+                  item = list[i];
+                  if (item.UserName === userName) {
+                    return item;
                   }
-                  e.keyCode != a.KEYCODE_ARROW_UP && e.keyCode != a.KEYCODE_ARROW_DOWN || e.preventDefault()
                 }
               }
-            }
-            var s = i.mmRepeat.match(/^\s*([\s\S]+?)\s+in\s+([\s\S]+?)(?:\s+track\s+by\s+([\s\S]+?))?\s*$/)
-              , l = s[2];
-            e.$parent.$watch(l, function(e) {
-              e && (d = e)
-            });
-            var d = e.$parent[l]
-              , f = i.mmRepeatKeyboardScrollSelector
-              , u = $(f)[0];
-            if (u) {
-              var m, g = {};
-              e.$parent.mmRepeatKeyboard = {
-                started: !1
-                , start: function() {
-                  this.started || ($(document)
-                    .on("keydown", "body", c), this.started = !0)
+
+
+              function showContact(container, item) {
+                var itemHeigth = item._h;
+                var offsetTop = item._offsetTop;
+                var scrollTop = container.scrollTop;
+
+                if (scrollTop > offsetTop) {
+                  container.scrollTop = offsetTop;
+                  return;
                 }
-                , stop: function() {
-                  this.started = !1, $(document)
-                    .off("keydown", "body", c)
+
+                var BottomLimit = offsetTop + itemHeigth - container.clientHeight;
+                if (scrollTop < BottomLimit) {
+                  container.scrollTop = BottomLimit;
                 }
-                , setJudgeFun: function(e, t) {
-                  t ? g[t] = e : g.default = e
+              }
+
+
+
+
+
+
+              scope.$watch(function() {
+                return chatFactory.getCurrentUserName();
+              }, function(value) {
+                if (value) {
+                  scope.showChatContentByUserName(value);
+                  contactFactory.addBatchgetChatroomMembersContact(value);
                 }
-                , setSelectItem: function(e) {
-                  m = e
-                }
-              }, e.$on("$destroy", function() {
-                $(document)
-                  .off("keydown", "body", c)
               })
-            }
-          }
-        }
-      }])
-  }
-  , function(e, exports) {
-    angular.module("Directives")
-      .directive("searchListDirective", [function() {
-        return {
-          restrict: "A"
-          , link: function(e, t) {
-            function a(e) {
-              var t = n[e];
-              if (t) {
-                var a = t._h
-                  , o = t._offsetTop
-                  , r = i.scrollTop;
-                if (r > o || "undefined" == typeof t.NickName) return void(1 == t._index ? i.scrollTop = 0 : i.scrollTop = o);
-                var c = o + a - i.clientHeight;
-                r < c && (i.scrollTop = c)
-              }
-            }
-            var n = e.allContacts
-              , i = t[0]
-              , o = n.length && n[0].type && "header" == n[0].type ? 1 : 0;
-            n.length - 1;
-            e.selectIndex = o, e.$on("root:searchList:keyArrowUp", function() {
-              var t = e.selectIndex;
-              do --t; while (t > o && "header" == n[t].type);
-              t = t < o ? o : t, e.selectIndex = t, a(t)
-            }), e.$on("root:searchList:keyArrowDown", function() {
-              var t = n.length - 1
-                , i = e.selectIndex;
-              do ++i; while (i < t && "header" == n[i].type);
-              i = i > t ? t : i, e.selectIndex = i, a(i)
-            }), e.$on("root:searchList:keyEnter", function() {
-              e.clickUserCallback(n[e.selectIndex])
-            })
-          }
-        }
-      }])
-  }
-  , function(e, exports) {
-    angular.module("Directives")
-      .directive("navChatDirective", ["$timeout", "$log", "$document", "$stateParams", "$rootScope", "chatFactory", "accountFactory", "contactFactory", "appFactory", "confFactory", "utilFactory", "stateManageService", function(e, t, a, n, i, o
-        , r, c, s, l, d, f) {
-        return {
-          restrict: "EA"
-          , scope: !0
-          , templateUrl: "navChat.html"
-          , link: function(t, a, n) {
-            function r(e) {
-              var a, n, r = t.chatList;
-              if (f.canDo("navKeydown")) {
-                if (t.currentUserName) a = s(r, t.currentUserName), n = a, d.wait(function() {
-                  return "undefined" != typeof a._offsetTop
-                }, function() {
-                  switch (e.keyCode) {
-                    case l.KEYCODE_ARROW_UP:
-                      n = a._index - 1 < 0 ? a : r[a._index - 1];
-                      break;
-                    case l.KEYCODE_ARROW_DOWN:
-                      n = a._index + 1 >= r.length ? a : r[a._index + 1];
-                      break;
-                    default:
-                      return
+
+              /**
+               * 点击聊天列表项，显示对应的聊天内容
+               * @param  {string} userName
+               * @param  {[type]} $index
+               */
+              scope.showChatContentByUserName = function(userName) {
+                console.log('setusername', userName);
+                // chatFactory.setCurrentUserName(userName);
+                scope.currentUserName = userName;
+
+                //update chatlist
+                chatFactory.getChatList();
+
+              };
+
+              scope.itemClick = function(userName) {
+                chatFactory.setCurrentUserName(userName);
+                scope.showChatContentByUserName(userName);
+              };
+
+
+              scope.$on('root:notification:click', function(e, username) {
+                scope.$apply(function() {
+                  chatFactory.setCurrentUserName(username);
+                  scope.showChatContentByUserName(username);
+                });
+              });
+
+              scope.$on('root:statechange', function(e) {
+                setTimeout(function() {
+                  $('.chat_list.scroll-content')[0].scrollTop = 0;
+                }, 0)
+
+
+              });
+
+              scope.$on('app:chat:dblclick', function(e) {
+                // alert('dblclick');
+              });
+
+              scope.$on('root:deleteChat', function(e, userName) {
+                chatFactory.deleteChatList(userName);
+                chatFactory.deleteChatMessage(userName);
+                if (chatFactory.getCurrentUserName() == userName) {
+                  chatFactory.setCurrentUserName('');
+                }
+              });
+
+              scope.$on('root:msgSend:success', function(e, msg) {
+                var to = msg.ToUserName;
+                angular.forEach(scope.chatList, function(item, index) {
+                  if (item.UserName === to) {
+                    item.MMStatus = msg.MMStatus;
+                    if (!scope.$$phase) scope.$digest();
+                    return;
                   }
-                  d.fitRun("navKeydown", function() {
-                    o.setCurrentUserName(n.UserName), i.$digest()
-                  }, 200, 800), t.showChatContentByUserName(n.UserName), i.$digest(), u($(".chat_list.scroll-content")[0], n)
-                }, 10);
-                else {
-                  var c;
-                  if (e.keyCode != l.KEYCODE_ARROW_UP && e.keyCode != l.KEYCODE_ARROW_DOWN || !(c = r[0])) return;
-                  t.currentUserName = c.UserName, o.setCurrentUserName(c.UserName), t.showChatContentByUserName(c.UserName), i.$digest(), u($(".chat_list.scroll-content")[0], c)
-                }
-                e.keyCode != l.KEYCODE_ARROW_UP && e.keyCode != l.KEYCODE_ARROW_DOWN || e.preventDefault()
-              }
-            }
+                });
+              });
+              scope.$on('$destroy', function() {
+                stateManageService.change('navChat:active', false);
+              });
 
-            function s(e, t) {
-              for (var a, n = 0; n < e.length; n++)
-                if (a = e[n], a.UserName === t) return a
-            }
-
-            function u(e, t) {
-              var a = t._h
-                , n = t._offsetTop
-                , i = e.scrollTop;
-              if (i > n) return void(e.scrollTop = n);
-              var o = n + a - e.clientHeight;
-              i < o && (e.scrollTop = o)
-            }
-            f.on("navChat:active", function(e) {
-              e ? $(document)
-                .on("keydown", "body", r) : $(document)
-                .off("keydown", "body", r)
-            }), e(function() {
-              t.chatList = o.getChatList(), t.currentUserName = o.getCurrentUserName(), t.$watch(function() {
-                return c.contactChangeFlag
-              }, function(e) {
-                o.getChatList()
-              })
-            }, 0), i.$on("contact:settop", function() {
-              o.getChatList()
-            }), t.$watch(function() {
-              return o.getCurrentUserName()
-            }, function(e) {
-              e && (t.showChatContentByUserName(e), c.addBatchgetChatroomMembersContact(e))
-            }), t.showChatContentByUserName = function(e) {
-              t.currentUserName = e, o.getChatList()
-            }, t.itemClick = function(e) {
-              o.setCurrentUserName(e), t.showChatContentByUserName(e)
-            }, t.$on("root:notification:click", function(e, a) {
-              t.$apply(function() {
-                o.setCurrentUserName(a), t.showChatContentByUserName(a)
-              })
-            }), t.$on("root:statechange", function(e) {
-              setTimeout(function() {
-                $(".chat_list.scroll-content")[0].scrollTop = 0
-              }, 0)
-            }), t.$on("app:chat:dblclick", function(e) {}), t.$on("root:deleteChat", function(e, t) {
-              o.deleteChatList(t), o.deleteChatMessage(t), o.getCurrentUserName() == t && o.setCurrentUserName("")
-            }), t.$on("root:msgSend:success", function(e, a) {
-              var n = a.ToUserName;
-              angular.forEach(t.chatList, function(e, i) {
-                if (e.UserName === n) return e.MMStatus = a.MMStatus, void(t.$$phase || t.$digest())
-              })
-            }), t.$on("$destroy", function() {
-              f.change("navChat:active", !1)
-            })
-          }
-        }
-      }])
-  }
-  , function(e, exports) {
-    angular.module("Directives")
-      .directive("navContactDirective", ["$rootScope", "$timeout", "$state", "contactFactory", "stateManageService", "confFactory", "utilFactory", function(e, t, a, n, i, o, r) {
-        return {
-          restrict: "EA"
-          , scope: !0
-          , templateUrl: "navContact.html"
-          , link: function(c, s, l) {
-            function d(t) {
-              if (i.canDo("navKeydown")) {
-                var a = c.allContacts
-                  , n = c.currentContact || a[0]
-                  , s = n;
-                r.wait(function() {
-                  return "undefined" != typeof n._offsetTop
-                }, function() {
-                  if (n)
-                    if (t.ctrlKey) {
-                      switch (t.keyCode) {
-                        case o.KEYCODE_ARROW_UP:
-                          do s = s._index - 1 < 0 ? n : a[s._index - 1]; while ("undefined" != typeof s.NickName);
-                          break;
-                        case o.KEYCODE_ARROW_DOWN:
-                          do {
-                            if (s._index + 1 >= a.length) {
-                              for (var i = s._index - 1; i >= 0 && (s = a[i], "undefined" != typeof s.NickName); i--);
-                              break
-                            }
-                            s = a[s._index + 1]
-                          } while ("undefined" != typeof s.NickName);
-                          break;
-                        default:
-                          return
-                      }
-                      c.currentContact = s
-                    } else {
-                      switch (t.keyCode) {
-                        case o.KEYCODE_ARROW_UP:
-                          do {
-                            if (s._index - 1 < 0) {
-                              for (var i = s._index + 1; i < a.length && (s = a[i], "undefined" == typeof s.NickName); i++);
-                              break
-                            }
-                            s = a[s._index - 1]
-                          } while ("undefined" == typeof s.NickName);
-                          break;
-                        case o.KEYCODE_ARROW_DOWN:
-                          do s = s._index + 1 >= a.length ? n : a[s._index + 1]; while ("undefined" == typeof s.NickName);
-                          break;
-                        default:
-                          return
-                      }
-                      r.fitRun("navKeydown", function() {
-                        c.showProfile(s), e.$digest()
-                      }, 200, 800), c.currentContact = s
-                    }
-                  e.$digest(), f($(m)[0], s)
-                }, 10), t.keyCode != o.KEYCODE_ARROW_UP && t.keyCode != o.KEYCODE_ARROW_DOWN || t.preventDefault()
-              }
-            }
-
-            function f(e, t) {
-              var a = t._h
-                , n = t._offsetTop
-                , i = e.scrollTop;
-              if (i > n || "undefined" == typeof t.NickName) return void(1 == t._index ? e.scrollTop = 0 : e.scrollTop = n);
-              var o = n + a - e.clientHeight;
-              i < o && (e.scrollTop = o)
-            }
-
-            function u(e) {
-              c.currentContact = n.getCurrentContact(), c.allContacts = n.pickContacts(["star", "chatroom", "friend"], {
-                  friend: {
-                    isWithoutStar: !0
-                    , isWithoutBrand: !0
-                  }
-                  , chatroom: {
-                    isSaved: !0
-                  }
-                })
-                .result
-            }
-            var m = "#navContact.J_ContactScrollBody";
-            i.on("navContact:active", function(e) {
-              e ? $(document)
-                .on("keydown", "body", d) : $(document)
-                .off("keydown", "body", d)
-            }), c.dblclick = function(e) {
-              a.go("chat", {
-                userName: e.UserName
-              })
-            }, t(function() {
-              c.$watch(function() {
-                return n.contactChangeFlag
-              }, function(e, t) {
-                u()
-              }), c.showProfile = function(e) {
-                n.setCurrentContact(e), c.currentContact = n.getCurrentContact()
-              }
-            }, 0)
-          }
-        }
-      }])
-  }
-  , function(e, exports) {
-    angular.module("Directives")
-      .directive("navReadDirective", ["$timeout", "$log", "$document", "$stateParams", "$rootScope", "$state", "chatFactory", "accountFactory", "contactFactory", "appFactory", "confFactory", "utilFactory", "stateManageService"
-        , "subscribeMsgService"
-        , function(e, t, a, n, i, o, r, c, s, l, d, f, u, m) {
-          function g(e) {
-            for (var t, a = [], n = 0; n < e.length; n++) t = e[n], a.push(t), [].push.apply(a, t.MPArticleList);
-            return a
-          }
-          return {
-            restrict: "EA"
-            , scope: !0
-            , templateUrl: "navRead.html"
-            , link: function(e, t, a) {
-              e.subscribeMsgs = [], e.articleList = [], e.subscribeMsgs.defaultValue = !0, e.$watch(function() {
-                return m.changeFlag
-              }, function(t) {
-                0 != t && (e.subscribeMsgs = m.getSubscribeMsgs(), e.articleList = g(e.subscribeMsgs), !e.currentItem && e.subscribeMsgs.length > 0 && (m.current = e.currentItem = e.subscribeMsgs[0].MPArticleList[0], e.mmRepeatKeyboard.setSelectItem(
-                  e.currentItem)))
-              }), e.mmRepeatKeyboard.setJudgeFun(function(e) {
-                return !e.UserName
-              }), u.on("dialog:open", function(t) {
-                t ? e.mmRepeatKeyboard.stop() : e.mmRepeatKeyboard.start()
-              }), u.on("navRead:active", function(t) {
-                t ? e.mmRepeatKeyboard.start() : e.mmRepeatKeyboard.stop()
-              }), e.heightCalc = function(e) {
-                return e.UserName ? 0 == e._index ? 45 : 55 : 60
-              }, e.$on("mmrepeat:select", function(t, a) {
-                f.fitRun("navKeydown", function() {
-                  o.go("read", {
-                    readItem: a
-                  })
-                }, 200, 1400), m.current = e.currentItem = a
-              }), e.itemClick = function(t) {
-                m.current = e.currentItem = t, e.mmRepeatKeyboard.setSelectItem(t), o.go("read", {
-                  readItem: t
-                })
-              }
-            }
-          }
-        }
-      ])
-  }
-  , function(e, exports) {
-    angular.module("Directives")
-      .directive("mmSrc", ["$document", "$timeout", "$rootScope", function(e, t, a) {
-        return {
-          priority: 99
-          , link: function(e, a, n) {
-            function i() {
-              for (var t; t = v.pop();) delete t.src, t.onload = null, t.onerror = null;
-              b && e[b] && e[b].call(a)
-            }
-
-            function o(t) {
-              p.onerror = null, p.onload = null, c() || (n.$set(d, f), C && e[C] && e[C].call(a))
-            }
-
-            function r() {
-              M = !1, p.onload = function() {
-                p.src && p.src.indexOf(s) > -1 && (M = !0, p.onload = null, p.onerror = null, i())
-              }, p.onerror = o, p.src = s, y.push(t(function() {
-                M || p.src && p.src.indexOf(s) > -1 && !p.complete || c()
-              }, u))
-            }
-
-            function c() {
-              if (h < m) {
-                if (h++, g) {
-                  l = s, l.indexOf("?") < 0 && (l += "?"), l += "&mmSrcParallelRetry=" + Date.now();
-                  var e = new Image;
-                  e.onload = function() {
-                    n.$set(d, e.src), i()
-                  }, e.onerror = o, e.src = l, y.push(t(function() {
-                    M || c()
-                  }, u)), v.push(e)
-                } else n.$set(d, f), t(function() {
-                  r()
-                }, 0);
-                return !0
-              }
-              return !1
-            }
-            var s, l, d = "src"
-              , f = n.src
-              , u = n.mmSrcTimeout ? parseInt(n.mmSrcTimeout) : 5e3
-              , m = n.mmSrcRetryCount ? parseInt(n.mmSrcRetryCount) : 4
-              , g = "undefined" != typeof n.mmSrcParallel
-              , p = a[0]
-              , h = 0
-              , M = !1
-              , v = []
-              , y = []
-              , b = n.mmSrcLoad
-              , C = n.mmSrcError;
-            n.$observe("mmSrc", function(e) {
-              e && (s = e, r())
-            }), e.$on("$destroy", function() {
-              for (var e; e = y.pop();) t.cancel(e)
-            })
-          }
-        }
-      }])
-  }
-  , function(e, exports) {
-    angular.module("Directives")
-      .directive("mmPaste", ["$timeout", "utilFactory", "stateManageService", function(e, t, a) {
-        return {
-          restrict: "EA"
-          , scope: {
-            pasteLimit: "="
-            , pasteResetTime: "="
-          }
-          , link: function(n, i, o) {
-            var r, c = n.pasteLimit || 1
-              , s = n.pasteResetTime || 200
-              , l = 0;
-            i.on("paste", function(n) {
-              var i = n.originalEvent;
-              return a.canDo("pasteFile") ? (t.browser.mozilla && i.clipboardData && 0 == i.clipboardData.types.length && (n.preventDefault(), n.stopImmediatePropagation()), void(l >= c ? (n.preventDefault(), n.stopImmediatePropagation()) :
-                (r && e.cancel(r), r = e(function() {
-                  l = 0
-                }, s), l++))) : (n.preventDefault(), void n.stopImmediatePropagation())
-            })
-          }
-        }
-      }])
-  }
-  , function(e, exports) {
-    angular.module("Directives")
-      .directive("contactPicker", ["$timeout", "$log", "$document", "$stateParams", "$rootScope", "chatFactory", "accountFactory", "contactFactory", "appFactory", "confFactory", "utilFactory", "stateManageService", "mmpop", function(e, t, a, n
-        , i, o, r, c, s, l, d, f, u) {
-        function m(e) {
-          for (var t, a = {}, n = 0; n < e.length; n++) t = e[n], a[t.UserName] = t;
-          return a
-        }
-        return {
-          restrict: "EA"
-          , scope: {
-            selectList: "="
-            , pickConfig: "="
-            , initList: "="
-          }
-          , templateUrl: "contactPicker.html"
-          , link: function(t, a, n) {
-            function i(e) {
-              var a = -1;
-              return angular.forEach(t.selectList, function(t, n) {
-                if (t.UserName == e) return void(a = n)
-              }), a
-            }
-
-            function o(e, t) {
-              return e.unshift.apply(e, t), e
-            }
-
-            function r(e) {
-              t.current = e, t.mmRepeatKeyboard.setSelectItem(e)
-            }
-
-            function s(e) {
-              (!t.current || e) && t.contactList.length > 0 && t.keyword && r("header" == t.contactList[0].type ? t.contactList[1] : t.contactList[0])
-            }
-            var u;
-            t.$watch(function() {
-              return t.selectList.length
-            }, function(e) {
-              e > 15 && (u || (u = $(".selector", a)[0]), setTimeout(function() {
-                u.scrollTop = 1e4
-              }, 20))
-            }), f.change("contactPicker:active", !0), t.$on("$destroy", function() {
-              f.change("contactPicker:active", !1)
-            });
-            var g, p, h = t.pickConfig;
-            h.opt.all = h.opt.all || {};
-            var M = t.initList || [];
-            t.contactList = o(c.pickContacts(h.types, h.opt, !0)
-                .result, M), t.selectList = t.selectList || [], s(), t.search = function(a) {
-                g && e.cancel(g), g = e(function() {
-                  if (t.keyword) {
-                    c.searchKey = t.keyword, p && p.close();
-                    var e = $.extend(m(t.selectList), h.opt.all.filterContacts)
-                      , a = $.extend({}, h.opt, {
-                        all: $.extend({}, h.opt.all, {
-                          noHeader: !0
-                          , keyword: t.keyword
-                          , filterContacts: e
-                        })
-                      });
-                    t.contactList = c.pickContacts(h.types, a, !0)
-                      .result, s(!0)
-                  } else t.contactList = o(c.pickContacts(h.types, h.opt, !0)
-                    .result, M), s(!0)
-                }, 200)
-              }, t.toggleUser = function(e) {
-                t.current = e;
-                var a = i(e.UserName);
-                t.keyword && (t.keyword = "", t.current = void 0, t.search()), a == -1 ? t.selectList.push(e) : t.selectList.splice(a, 1)
-              }, t.delUser = function(e) {
-                var a = i(e);
-                a > -1 && t.selectList.splice(a, 1)
-              }, t.isCheck = function(e) {
-                return i(e) != -1
-              }, t.searchKeydown = function(e) {
-                switch (e.keyCode) {
-                  case l.KEYCODE_ENTER:
-                    t.current && t.toggleUser(t.current), e.preventDefault(), e.stopPropagation(), t.$digest();
-                    break;
-                  case l.KEYCODE_BACKSPACE:
-                    if (!t.keyword) {
-                      var a = t.selectList.pop();
-                      a && t.delUser(a.UserName), e.stopPropagation(), e.preventDefault(), t.$digest()
-                    }
-                    d.browser.msie && 9 == d.browser.version && t.search()
-                }
-              }, $(document)
-              .on("keydown", "body", t.searchKeydown), t.heightCalc = function(e) {
-                return "header" === e.type ? 32 : 62
-              }, t.mmRepeatKeyboard.start(), t.mmRepeatKeyboard.setJudgeFun(function(e) {
-                return e.UserName
-              }), t.$on("mmrepeat:select", function(e, a) {
-                t.current = a, t.$digest()
-              }), t.$on("$destroy", function() {
-                $(document)
-                  .off("keydown", "body", t.searchKeydown)
-              })
-          }
-        }
-      }])
-  }
-  , function(e, exports) {
-    angular.module("Directives")
-      .directive("mmActionTrack", ["actionTrack", "utilFactory", function(e, t) {
-        var a = $(window)
-          , n = a.height()
-          , i = a.width();
-        return a.on("resize", function(o) {
-          t.fitRun("resize", function() {
-            var t = a.height()
-              , o = a.width()
-              , r = []
-              , c = "height-" + (n > t ? "smaller" : "bigger")
-              , s = "width-" + (i > o ? "smaller" : "bigger");
-            n != t && r.push(c), i != o && r.push(s), r.length > 0 && e.addRecord({
-              action: r.join(" ")
-              , type: "resize"
-            }), n = t, i = o
-          }, 200, 500)
-        }), {
-          priority: 99
-          , scope: {
-            types: "=trackType"
-            , opt: "=trackOpt"
-          }
-          , link: function(t, a, n) {
-            var i = t.opt
-              , o = t.types;
-            for (var r in o) {
-              var c = o[r];
-              if ("keydown" == c) {
-                var s = i.keys
-                  , l = {
-                    enter: 13
-                    , backspace: 8
-                    , blankspace: 32
-                  };
-                a.on("keydown", function(t) {
-                  for (var a in s) l[s[a]] == t.keyCode && e.addRecord({
-                    type: "keydown"
-                    , action: i.target + "-" + s[a]
-                  })
-                })
-              }
-              if ("click" == c) {
-                var d;
-                a.on("click", function(t) {
-                  d && t.timeStamp - d <= 30 || (d = t.timeStamp, e.addRecord({
-                    type: "click"
-                    , action: i.target
-                  }))
-                })
-              }
-              "focus" == c && a.on("focus", function() {
-                e.addRecord({
-                  type: "focus"
-                  , action: i.target
-                })
-              })
-            }
-          }
-        }
-      }])
-      .factory("actionTrack", ["reportService", function(e) {
-        var t = 100
-          , a = []
-          , n = {
-            report: function() {
-              a.length > 0 && e.report(e.ReportType.actionRecord, {
-                actions: a
-              }, !0), a = []
-            }
-            , addRecord: function(e) {
-              a.length > t || (e.time = Date.now(), a.push(e))
             }
           };
-        return n
-      }])
-  }
-  , function(e, exports) {
-    angular.module("Directives")
-      .directive("mmError", ["$parse", function(e) {
-        return {
-          restrict: "A"
-          , compile: function(t, a) {
-            var n = e(a.mmError);
-            return function(e, t, a) {
-              t.on("error", function(t) {
-                e.$apply(function() {
-                  n(e, {
-                    $event: t
+        }
+      ]);
+
+    /***/
+  })
+  , /* 329 */
+  /***/
+  (function(module, exports) {
+
+    angular.module('Directives')
+      .directive('navContactDirective', [
+        '$rootScope'
+        , '$timeout'
+        , '$state'
+        , 'contactFactory'
+        , 'stateManageService'
+        , 'confFactory'
+        , 'utilFactory'
+        , function($rootScope, $timeout, $state, contactFactory, stateManageService, confFactory, utilFactory) {
+
+
+
+          return {
+            restrict: 'EA'
+            , scope: true,
+
+            templateUrl: 'navContact.html'
+            , link: function(scope, element, attributes) {
+              var scrollBodySelector = '#navContact.J_ContactScrollBody';
+              stateManageService.on('navContact:active', function navContactStateChange(value) {
+                if (value) {
+                  $(document)
+                    .on('keydown', 'body', navKeydown);
+                } else {
+                  $(document)
+                    .off('keydown', 'body', navKeydown);
+
+                }
+
+              });
+
+              function navKeydown(e) {
+                //if(!scope.currentContact) return;
+                if (!stateManageService.canDo('navKeydown')) return;
+                var list = scope.allContacts;
+                var item = scope.currentContact || list[0]; //getItemByUserName(list,scope.currentContact);
+                var nextItem = item;
+
+                utilFactory.wait(function() {
+                  return typeof item._offsetTop != 'undefined';
+                }, function() {
+                  if (item) {
+                    if (!e.ctrlKey) {
+                      switch (e.keyCode) {
+                        case confFactory.KEYCODE_ARROW_UP:
+                          do {
+                            if (nextItem._index - 1 < 0) {
+                              // 回溯机制
+                              for (var i = nextItem._index + 1; i < list.length; i++) {
+                                nextItem = list[i];
+                                if (typeof nextItem.NickName !== 'undefined') break;
+
+                              }
+
+                              // 回溯失败直接跳出
+                              break;
+                            } else {
+                              nextItem = list[nextItem._index - 1];
+                            }
+
+                          } while (typeof nextItem.NickName === 'undefined')
+
+                          break;
+                        case confFactory.KEYCODE_ARROW_DOWN:
+                          do {
+                            nextItem = (nextItem._index + 1 >= list.length) ? item : list[nextItem._index + 1];
+                          } while (typeof nextItem.NickName === 'undefined')
+                          break;
+                        default:
+                          return;
+                      }
+                      utilFactory.fitRun('navKeydown', function() {
+                        scope.showProfile(nextItem);
+                        $rootScope.$digest();
+                      }, 200, 800)
+
+                      scope.currentContact = nextItem;
+                    } else {
+                      switch (e.keyCode) {
+                        case confFactory.KEYCODE_ARROW_UP:
+                          do {
+                            nextItem = (nextItem._index - 1 < 0) ? item : list[nextItem._index - 1];
+                          } while (typeof nextItem.NickName !== 'undefined');
+
+                          break;
+                        case confFactory.KEYCODE_ARROW_DOWN:
+                          do {
+
+
+                            if (nextItem._index + 1 >= list.length) {
+                              for (var i = nextItem._index - 1; i >= 0; i--) {
+                                nextItem = list[i];
+                                if (typeof nextItem.NickName === 'undefined') break;
+
+                              }
+
+                              // 一般情况下回溯能找到想要的那个 head ，如果找不到，就是异常情况，直接跳出
+                              break;
+                            } else {
+                              nextItem = list[nextItem._index + 1];
+                            }
+
+                          } while (typeof nextItem.NickName !== 'undefined')
+                          break;
+                        default:
+                          return;
+                      }
+                      scope.currentContact = nextItem;
+                    }
+
+                  }
+
+
+
+                  $rootScope.$digest();
+                  showContact($(scrollBodySelector)[0], nextItem);
+
+                }, 10);
+
+
+                if (e.keyCode == confFactory.KEYCODE_ARROW_UP || e.keyCode == confFactory.KEYCODE_ARROW_DOWN) {
+                  e.preventDefault();
+                }
+
+
+              }
+
+
+
+
+
+
+              scope.dblclick = function(contact) {
+                $state.go('chat', {
+                  userName: contact.UserName
+                });
+              }
+
+              function showContact(container, item) {
+                var itemHeigth = item._h;
+                var offsetTop = item._offsetTop;
+                var scrollTop = container.scrollTop;
+                if (scrollTop > offsetTop || typeof item.NickName === 'undefined') {
+                  if (item._index == 1) {
+                    container.scrollTop = 0;
+                  } else {
+                    container.scrollTop = offsetTop;
+                  }
+
+                  return;
+                }
+
+                var BottomLimit = offsetTop + itemHeigth - container.clientHeight;
+                if (scrollTop < BottomLimit) {
+                  container.scrollTop = BottomLimit;
+                }
+              }
+              /**
+               * 更新contacts
+               */
+              function updateContacts(argument) {
+                // console.time("showContacts");
+                scope.currentContact = contactFactory.getCurrentContact();
+
+                scope.allContacts = contactFactory.pickContacts(['star', 'chatroom', 'friend'], {
+                    friend: {
+                      isWithoutStar: true
+                      , isWithoutBrand: true
+                    }
+                    , chatroom: {
+                      isSaved: true
+                    }
                   })
-                })
+                  .result;
+
+                // console.timeEnd("showContacts");
+                //lazyloadImages();
+              }
+
+              $timeout(function() {
+                scope.$watch(function() {
+                  return contactFactory.contactChangeFlag;
+                }, function(newValue, oldValue) {
+                  updateContacts();
+                });
+
+                scope.showProfile = function(contact) {
+                  contactFactory.setCurrentContact(contact);
+                  scope.currentContact = contactFactory.getCurrentContact();
+                }
+              }, 0);
+
+
+            }
+          };
+        }
+      ])
+
+    /***/
+  })
+  , /* 330 */
+  /***/
+  (function(module, exports) {
+
+    angular.module('Directives')
+      .directive('navReadDirective', [
+        '$timeout'
+        , '$log'
+        , '$document'
+        , '$stateParams'
+        , '$rootScope'
+        , '$state'
+        , 'chatFactory'
+        , 'accountFactory'
+        , 'contactFactory'
+        , 'appFactory'
+        , 'confFactory'
+        , 'utilFactory'
+        , 'stateManageService'
+        , 'subscribeMsgService',
+
+        function($timeout, $log, $document, $stateParams, $rootScope, $state, chatFactory, accountFactory, contactFactory, appFactory, confFactory, utilFactory, stateManageService, subscribeMsgService) {
+
+
+          function format(subscribeMsgs) {
+            var result = []
+              , item;
+            for (var i = 0; i < subscribeMsgs.length; i++) {
+              item = subscribeMsgs[i];
+              result.push(item);
+              [].push.apply(result, item.MPArticleList);
+            }
+            return result;
+          }
+
+          return {
+            restrict: 'EA'
+            , scope: true
+            , templateUrl: 'navRead.html'
+            , link: function(scope, element, attributes) {
+              scope.subscribeMsgs = [];
+              scope.articleList = [];
+              // 初始化完成之后 ，[] 会被替换成 subscribeMsgService 里面的对象，defaultValue 会消失，代表该列表已经不是默认列表
+              // 用来识别初始化完成之后为 空数组 和初始化完成前就是 空数组 两种情况
+              scope.subscribeMsgs.defaultValue = true;
+              scope.$watch(function() {
+                return subscribeMsgService.changeFlag;
+              }, function(newValue) {
+                if (newValue == 0) {
+                  return;
+                }
+                scope.subscribeMsgs = subscribeMsgService.getSubscribeMsgs();
+                scope.articleList = format(scope.subscribeMsgs);
+
+                if (!scope.currentItem && scope.subscribeMsgs.length > 0) {
+                  subscribeMsgService.current = scope.currentItem = scope.subscribeMsgs[0].MPArticleList[0];
+
+                  scope.mmRepeatKeyboard.setSelectItem(scope.currentItem);
+                }
+              });
+
+              scope.mmRepeatKeyboard.setJudgeFun(function(item) {
+                return !item.UserName;
               })
+              stateManageService.on('dialog:open', function(value) {
+                if (value) {
+                  scope.mmRepeatKeyboard.stop();
+
+                  // $(document).on('keydown','body',keydown);
+
+                } else {
+                  scope.mmRepeatKeyboard.start();
+                  //  $(document).off('keydown','body',keydown);
+                }
+              });
+              stateManageService.on('navRead:active', function navChatStateChange(value) {
+
+                if (value) {
+                  scope.mmRepeatKeyboard.start();
+                  // $(document).on('keydown','body',keydown);
+
+                } else {
+                  scope.mmRepeatKeyboard.stop();
+                  //  $(document).off('keydown','body',keydown);
+                }
+              });
+
+
+              /* var navActive = true;
+	                    function keydown(e){
+	                        switch (e.keyCode) {
+	                            case confFactory.KEYCODE_ARROW_LEFT:
+	                                scope.mmRepeatKeyboard.start();
+	                                navActive = true;
+	                                break;
+	                            case confFactory.KEYCODE_ARROW_RIGHT:
+	                                scope.mmRepeatKeyboard.stop();
+	                                $('.reader .iframe')[0].contentWindow.focus()
+	                                navActive = false;
+	
+	                               */
+              /* $('#navView').focus();*/
+              /*
+              	                                break;
+              	
+              	                        }
+              	*/
+              /* */
+              /*
+              	                        if ((e.keyCode == confFactory.KEYCODE_ARROW_UP || e.keyCode == confFactory.KEYCODE_ARROW_DOWN)&&!navActive) {
+              	                          //  $('.reader .iframe').focus();
+              	                            */
+              /*setTimeout(function(){
+              	                                $('.reader .iframe').blur();
+              	                            },100);*/
+              /*
+              	                        }
+              	
+              	
+              	
+              	                        if (e.keyCode == confFactory.KEYCODE_ARROW_LEFT || e.keyCode == confFactory.KEYCODE_ARROW_RIGHT) {
+              	                            e.preventDefault();
+              	                        }
+              	                    }
+              	*/
+
+              scope.heightCalc = function(item) {
+                if (item.UserName) {
+                  if (item._index == 0) {
+                    return 45;
+                  } else {
+                    return 55;
+                  }
+                } else {
+                  return 60;
+                }
+
+              };
+
+              scope.$on('mmrepeat:select', function(e, item) {
+                utilFactory.fitRun('navKeydown', function() {
+
+                  $state.go('read', {
+                    readItem: item
+                  });
+
+                }, 200, 1400);
+                subscribeMsgService.current = scope.currentItem = item;
+
+                console.log('select', item);
+              });
+
+
+
+              scope.itemClick = function(item) {
+                subscribeMsgService.current = scope.currentItem = item;
+                scope.mmRepeatKeyboard.setSelectItem(item);
+                $state.go('read', {
+                  readItem: item
+                });
+              };
+
+              /* scope.$on('$destroy',function(){
+               stateManageService.change('navChat:active',false);
+               })*/
+            }
+          };
+        }
+      ]);
+
+    /***/
+  })
+  , /* 331 */
+  /***/
+  (function(module, exports) {
+
+    /**
+     * Created by arminchen on 2015/3/25.
+     * demo: <img class="qrcode" mm-src="{{qrcodeUrl}}"  mm-src-parallel mm-src-timeout="2000" mm-src-retry-count="10" src="images/qrcode.jpg">
+     */
+    angular.module('Directives')
+      .directive('mmSrc', ['$document', '$timeout', '$rootScope', function($document, $timeout, $rootScope) {
+
+        return {
+          priority: 99
+          , link: function(scope, element, attr) {
+            var name = 'src';
+            var defaultSrc = attr.src;
+            var retryTimeout = attr.mmSrcTimeout ? parseInt(attr.mmSrcTimeout) : 5000;
+            var retryCount = attr.mmSrcRetryCount ? parseInt(attr.mmSrcRetryCount) : 4;
+            var parallel = typeof attr.mmSrcParallel != 'undefined';
+            var node = element[0];
+            var count = 0;
+            var srcValue, loaded = false;
+            var srcTmp;
+            var imgTmpList = [];
+            var timeoutList = [];
+            var failCount = 0;
+            var onloadKey = attr.mmSrcLoad;
+            var onerrorKey = attr.mmSrcError;
+            attr.$observe('mmSrc', function(value) {
+              if (value) {
+                srcValue = value;
+                load();
+              }
+            });
+
+            function clearImgTmp() {
+              var img;
+              while (img = imgTmpList.pop()) {
+                delete img.src;
+                img.onload = null;
+                img.onerror = null;
+              }
+
+              if (onloadKey && scope[onloadKey]) scope[onloadKey].call(element);
+            }
+
+            function fail(e) {
+
+              node.onerror = null;
+              node.onload = null;
+              if (!retry()) {
+                console.log(e);
+                // 可能会触发多次
+                attr.$set(name, defaultSrc);
+                if (onerrorKey && scope[onerrorKey]) scope[onerrorKey].call(element);
+              }
+            }
+
+            function load() {
+              loaded = false;
+
+              node.onload = function() {
+                if (node.src && node.src.indexOf(srcValue) > -1) {
+                  loaded = true;
+                  node.onload = null;
+                  node.onerror = null;
+                  clearImgTmp();
+                }
+
+              }
+              node.onerror = fail;
+
+              node.src = srcValue;
+              timeoutList.push($timeout(function() {
+
+                if (!loaded && !(node.src && node.src.indexOf(srcValue) > -1 && !node.complete)) {
+                  retry();
+                }
+              }, retryTimeout))
+            }
+
+
+            scope.$on('$destroy', function() {
+              var timeoutItem;
+              while (timeoutItem = timeoutList.pop()) {
+                $timeout.cancel(timeoutItem);
+              }
+            })
+
+            function retry() {
+              if (count < retryCount) {
+
+                count++;
+
+                if (!parallel) {
+
+                  attr.$set(name, defaultSrc);
+                  /*$timeout(function(){
+                      attr.$set(name, defaultSrc);*/
+                  $timeout(function() {
+                    load();
+                  }, 0);
+                  /*  },0)*/
+                } else {
+                  srcTmp = srcValue;
+                  console.log('retry count', count, retryCount);
+                  if (srcTmp.indexOf('?') < 0) {
+                    srcTmp += '?'
+                  }
+
+                  srcTmp += ('&mmSrcParallelRetry=' + Date.now());
+                  var imgTmp = new Image();
+
+
+                  imgTmp.onload = function() {
+                    attr.$set(name, imgTmp.src);
+                    console.log(imgTmp.src, imgTmp, node.complete)
+                      //setTimeout(function(){
+                    clearImgTmp();
+                    // },0)
+
+
+                  }
+
+                  imgTmp.onerror = fail;
+
+
+                  imgTmp.src = srcTmp;
+
+                  timeoutList.push($timeout(function() {
+                    if (!loaded) {
+                      retry();
+                    }
+                  }, retryTimeout));
+
+                  imgTmpList.push(imgTmp);
+                }
+
+                return true;
+
+              } else {
+                return false;
+
+              }
+
             }
           }
-        }
+        };
+
       }])
-  }
-  , function(e, exports, t) {
-    ! function(e, a, n) {
-      "use strict";
-      a.module("ngClipboard", [])
-        .provider("ngClip", function() {
-          var e = this;
-          return this.path = "//cdnjs.cloudflare.com/ajax/libs/zeroclipboard/2.1.6/ZeroClipboard.swf", {
-            setPath: function(t) {
-              e.path = t
+
+    /***/
+  })
+  , /* 332 */
+  /***/
+  (function(module, exports) {
+
+    angular.module('Directives')
+      .directive('mmPaste', [
+        '$timeout'
+        , 'utilFactory'
+        , 'stateManageService'
+        , function($timeout, utilFactory, stateManageService) {
+
+
+          function hasFile(clipboardData) {
+            var items = clipboardData.items;
+            var hasFile = false;
+            if (clipboardData.items && clipboardData.items.length >= 0) {
+              for (var i = 0; i < items.length; i++) {
+                if (items[i].kind == 'file') {
+                  hasFile = true;
+                }
+              }
             }
-            , setConfig: function(t) {
-              e.config = t
+            return hasFile;
+          }
+
+          return {
+            restrict: 'EA'
+            , scope: {
+              pasteLimit: '='
+              , pasteResetTime: '='
+            }
+            , link: function(scope, element, attributes) {
+              var limit = scope.pasteLimit || 1;
+              var resetTime = scope.pasteResetTime || 200;
+              var currentCount = 0;
+              var timer;
+              element.on('paste', function(e) {
+                var originalEvent = e.originalEvent;
+                if (!stateManageService.canDo('pasteFile')) {
+                  e.preventDefault();
+                  e.stopImmediatePropagation();
+                  return;
+                }
+
+                if (utilFactory.browser.mozilla) {
+                  if (originalEvent.clipboardData && originalEvent.clipboardData.types.length == 0) {
+                    e.preventDefault();
+                    e.stopImmediatePropagation();
+                  }
+                }
+
+
+
+                if (currentCount >= limit) {
+                  e.preventDefault();
+                  e.stopImmediatePropagation();
+                } else {
+                  timer && $timeout.cancel(timer);
+                  timer = $timeout(function() {
+                    currentCount = 0;
+                  }, resetTime);
+                  currentCount++;
+                }
+              })
+            }
+          };
+        }
+      ])
+
+    /***/
+  })
+  , /* 333 */
+  /***/
+  (function(module, exports) {
+
+    angular.module('Directives')
+      .directive('contactPicker', [
+        '$timeout'
+        , '$log'
+        , '$document'
+        , '$stateParams'
+        , '$rootScope'
+        , 'chatFactory'
+        , 'accountFactory'
+        , 'contactFactory'
+        , 'appFactory'
+        , 'confFactory'
+        , 'utilFactory'
+        , 'stateManageService'
+        , 'mmpop'
+        , function($timeout, $log, $document, $stateParams, $rootScope, chatFactory, accountFactory, contactFactory, appFactory, confFactory, utilFactory, stateManageService, mmpop) {
+
+
+
+          function getContactMap(contactList) {
+            var result = {}
+              , item;
+            for (var i = 0; i < contactList.length; i++) {
+              item = contactList[i];
+              result[item.UserName] = item;
+            }
+            return result;
+          }
+
+          return {
+            restrict: 'EA'
+            , scope: {
+              selectList: '='
+              , //contactList:'=',
+              pickConfig: '='
+              , initList: '='
+            }
+            , templateUrl: 'contactPicker.html'
+            , link: function($scope, element, attributes) {
+
+
+              var selectorContainer;
+
+              $scope.$watch(function() {
+                return $scope.selectList.length;
+              }, function(len) {
+                if (len > 15) {
+                  if (!selectorContainer) selectorContainer = $('.selector', element)[0];
+                  setTimeout(function() {
+                    selectorContainer.scrollTop = 10000;
+                  }, 20);
+
+                }
+              })
+
+
+
+              stateManageService.change('contactPicker:active', true);
+              $scope.$on('$destroy', function() {
+                stateManageService.change('contactPicker:active', false);
+              })
+
+              var searchTimer;
+
+              var searchList;
+              var pickConfig = $scope.pickConfig;
+
+              pickConfig.opt['all'] = pickConfig.opt['all'] || {};
+              var initList = $scope.initList || [];
+              $scope.contactList = getContactList(contactFactory.pickContacts(pickConfig.types, pickConfig.opt, true)
+                .result, initList);
+              $scope.selectList = $scope.selectList || [];
+
+              initCurrent();
+              $scope.search = function(e) {
+                if (searchTimer) {
+                  $timeout.cancel(searchTimer);
+                }
+
+                searchTimer = $timeout(function() {
+                  if (!$scope.keyword) {
+                    $scope.contactList = getContactList(contactFactory.pickContacts(pickConfig.types, pickConfig.opt, true)
+                      .result, initList);
+                    initCurrent(true);
+
+                  } else {
+                    contactFactory.searchKey = $scope.keyword;
+                    searchList && searchList.close();
+
+                    var filterContacts = $.extend(getContactMap($scope.selectList), pickConfig.opt['all'].filterContacts);
+                    var searchPickConfig = $.extend({}, pickConfig.opt, {
+                      all: $.extend({}, pickConfig.opt['all'], {
+                        noHeader: true
+                        , keyword: $scope.keyword
+                        , filterContacts: filterContacts
+                      })
+                    })
+                    $scope.contactList = contactFactory.pickContacts(pickConfig.types, searchPickConfig, true)
+                      .result;
+                    initCurrent(true);
+                  }
+
+                }, 200);
+              };
+
+              /**
+               * 点击选择或取消选择联系人
+               * @param  {[type]} contact
+               */
+              $scope.toggleUser = function(contact) {
+                  $scope.current = contact;
+                  var index = _isCheck(contact.UserName);
+                  if ($scope.keyword) {
+                    $scope.keyword = '';
+                    $scope.current = undefined;
+                    $scope.search();
+                  }
+
+                  if (index == -1) {
+                    $scope.selectList.push(contact);
+                  } else {
+                    $scope.selectList.splice(index, 1);
+                  }
+                }
+                /**
+                 * 点击删除选择联系人
+                 * @param  {[type]} userName
+                 */
+              $scope.delUser = function(userName) {
+                var index = _isCheck(userName);
+                if (index > -1) {
+                  $scope.selectList.splice(index, 1);
+                }
+              }
+
+              function _isCheck(userName) {
+                var index = -1;
+                angular.forEach($scope.selectList, function(user, i) {
+                  if (user.UserName == userName) {
+                    index = i;
+                    return;
+                  }
+                });
+                return index;
+              }
+
+              function getContactList(searchContact, initContact) {
+                searchContact.unshift.apply(searchContact, initContact);
+                return searchContact;
+              }
+
+              /**
+               * 检测联系人是否在当前选择列表
+               * @param  {[type]}  userName
+               */
+              $scope.isCheck = function(userName) {
+                return _isCheck(userName) == -1 ? false : true;
+              }
+
+              $scope.searchKeydown = function(e) {
+                switch (e.keyCode) {
+                  case confFactory.KEYCODE_ENTER:
+                    $scope.current && $scope.toggleUser($scope.current);
+
+                    e.preventDefault();
+                    e.stopPropagation();
+                    $scope.$digest();
+                    break;
+                  case confFactory.KEYCODE_BACKSPACE:
+                    // delLastUser
+                    if (!$scope.keyword) {
+                      var user = $scope.selectList.pop();
+                      user && $scope.delUser(user.UserName);
+                      e.stopPropagation();
+                      e.preventDefault();
+                      $scope.$digest();
+                    }
+
+                    // ie9 的 input 事件是不支持 backspace 的
+                    (utilFactory.browser.msie && utilFactory.browser.version == 9) && $scope.search();
+                    break;
+                }
+
+              };
+              $(document)
+                .on('keydown', 'body', $scope.searchKeydown);
+
+              $scope.heightCalc = function(item) {
+                if (item.type === 'header') {
+                  return 32;
+                } else {
+                  return 62;
+                }
+              }
+
+              $scope.mmRepeatKeyboard.start();
+
+              /*       scope.$watch(function () {
+	                        return scope.allContacts;
+	                    }, function (newValue) {
+	                        if(!scope.current && newValue.length > 0){
+	                            scope.current =scope.allContacts[0];
+	                            scope.mmRepeatKeyboard.setSelectItem(scope.current);
+	                        }
+	                    });
+	*/
+              function selectItem(item) {
+                $scope.current = item;
+                $scope.mmRepeatKeyboard.setSelectItem(item);
+
+              }
+
+              function initCurrent(reset) {
+                if ((!$scope.current || reset) && $scope.contactList.length > 0 && $scope.keyword) {
+                  if ($scope.contactList[0].type == 'header') {
+                    selectItem($scope.contactList[1]);
+                  } else {
+                    selectItem($scope.contactList[0]);
+                  }
+
+                }
+              }
+              $scope.mmRepeatKeyboard.setJudgeFun(function(item) {
+                return item.UserName;
+              });
+
+              $scope.$on('mmrepeat:select', function(e, item) {
+                $scope.current = item;
+                $scope.$digest();
+              });
+
+              $scope.$on('$destroy', function() {
+                $(document)
+                  .off('keydown', 'body', $scope.searchKeydown);
+              })
+
+
+            }
+          };
+        }
+      ])
+
+    /***/
+  })
+  , /* 334 */
+  /***/
+  (function(module, exports) {
+
+    /**
+     * Created by arminchen on 2015/3/25.
+     * demo: <img class="qrcode" mm-src="{{qrcodeUrl}}"  mm-src-parallel mm-src-timeout="2000" mm-src-retry-count="10" src="images/qrcode.jpg">
+     */
+    angular.module('Directives')
+      .directive('mmActionTrack', ['actionTrack', 'utilFactory', function(actionTrack, utilFactory) {
+
+        var $window = $(window);
+        var height = $window.height();
+        var width = $window.width();
+        $window.on('resize', function(e) {
+
+          utilFactory.fitRun('resize', function() {
+            var currentHeight = $window.height();
+            var currentWidth = $window.width();
+            var stateList = [];
+            var heightState = 'height-' + (height > currentHeight ? 'smaller' : 'bigger');
+            var widthState = 'width-' + (width > currentWidth ? 'smaller' : 'bigger');
+
+            if (height != currentHeight) {
+              stateList.push(heightState);
+            }
+
+            if (width != currentWidth) {
+              stateList.push(widthState);
+            }
+
+
+            stateList.length > 0 && actionTrack.addRecord({
+              action: stateList.join(' ')
+              , type: 'resize'
+            });
+
+            height = currentHeight;
+            width = currentWidth;
+          }, 200, 500);
+        });
+
+        return {
+          priority: 99
+          , scope: {
+            types: '=trackType'
+            , opt: '=trackOpt'
+          }
+          , link: function(scope, element, attr) {
+            var opt = scope.opt;
+            var types = scope.types;
+            for (var key in types) {
+              var type = types[key];
+              if (type == 'keydown') {
+                var keys = opt.keys;
+                var keyMap = {
+                  enter: 13
+                  , backspace: 8
+                  , blankspace: 32
+                }
+                element.on('keydown', function(e) {
+                  for (var index in keys) {
+                    if (keyMap[keys[index]] == e.keyCode) {
+                      actionTrack.addRecord({
+                        type: 'keydown'
+                        , action: opt.target + '-' + keys[index]
+                      })
+                    }
+                  }
+                })
+              }
+
+
+
+
+
+              if (type == 'click') {
+                var prevTimeStamp;
+                element.on('click', function(e) {
+
+                  // 发送文件按钮用了 webuploader 有一次点击触发两次的现象
+                  if (prevTimeStamp && (e.timeStamp - prevTimeStamp <= 30)) {
+                    return;
+                  }
+
+                  prevTimeStamp = e.timeStamp;
+                  actionTrack.addRecord({
+                      type: 'click'
+                      , action: opt.target
+                    })
+                    /*    utilFactory.fitRun('trackClick',function(){
+	
+	                            },100,200);*/
+
+                })
+
+              }
+
+
+              if (type == 'focus') {
+                element.on('focus', function() {
+                  actionTrack.addRecord({
+                    type: 'focus'
+                    , action: opt.target
+                  })
+                })
+              }
+            }
+
+
+
+
+          }
+        };
+
+      }])
+      .factory('actionTrack', [
+        'reportService'
+        , function(reportService) {
+          var limit = 100;
+          var recordList = [];
+
+          var service = {
+            report: function() {
+              recordList.length > 0 && reportService.report(reportService.ReportType.actionRecord, {
+                actions: recordList
+              }, true);
+              recordList = [];
+            }
+            , addRecord: function(actionRecord) {
+              if (recordList.length > limit) {
+                return;
+              }
+              console.log('record', actionRecord)
+              actionRecord.time = Date.now();
+              recordList.push(actionRecord);
+            }
+          };
+          return service;
+        }
+      ]);
+
+    /***/
+  })
+  , /* 335 */
+  /***/
+  (function(module, exports) {
+
+    angular.module('Directives')
+      .directive('mmError', ['$parse', function($parse) {
+        return {
+          restrict: 'A'
+          , compile: function($element, attr) {
+            var fn = $parse(attr['mmError']);
+
+            return function(scope, element, attr) {
+              element.on('error', function(event) {
+                scope.$apply(function() {
+                  fn(scope, {
+                    $event: event
+                  });
+                });
+              });
+            };
+
+          }
+        };
+
+      }]);
+
+    /***/
+  })
+  , /* 336 */
+  /***/
+  (function(module, exports, __webpack_require__) {
+
+    (function(window, angular, undefined) {
+      'use strict';
+
+      angular.module('ngClipboard', [])
+        .
+      provider('ngClip', function() {
+          var self = this;
+          this.path = '//cdnjs.cloudflare.com/ajax/libs/zeroclipboard/2.1.6/ZeroClipboard.swf';
+          return {
+            setPath: function(newPath) {
+              self.path = newPath;
+            }
+            , setConfig: function(config) {
+              self.config = config;
             }
             , $get: function() {
               return {
-                path: e.path
-                , config: e.config
-              }
+                path: self.path
+                , config: self.config
+              };
             }
-          }
+          };
         })
-        .run(["$rootScope", "ngClip", function(n, i) {
-          function o() {
-            t.e(4, function(require) {
-              var e = t(337);
-              e.config(a.extend(r, i.config || {}))
-            })
-          }
-          var r = {
-            swfPath: i.path
+        .
+      run(['$rootScope', 'ngClip', function($rootScope, ngClip) {
+          var config = {
+            swfPath: ngClip.path
             , trustedDomains: ["*"]
             , allowScriptAccess: "always"
-            , forceHandCursor: !0
-          };
-          e.ZeroClipboard ? o() : n.$on("root:pageInit:success", function() {
-            o()
-          })
+            , forceHandCursor: true
+          , };
+
+          function initZeroClipboard() {
+            __webpack_require__.e /* nsure */ (4, function(require) {
+              var ZeroClipboard = __webpack_require__(337);
+              ZeroClipboard.config(angular.extend(config, ngClip.config || {}));
+            });
+          }
+          if (window.ZeroClipboard) {
+            initZeroClipboard();
+          } else {
+            $rootScope.$on('root:pageInit:success', function() {
+              initZeroClipboard();
+            });
+          }
         }])
-        .directive("clipCopy", ["ngClip", function(e) {
-          return {
-            scope: {
-              clipCopy: "&"
-              , clipClick: "&"
-              , clipClickFallback: "&"
-            }
-            , restrict: "A"
-            , link: function(e, n, i) {
-              t.e(4, function(require) {
-                var o = t(337);
-                if (o.isFlashUnusable()) return void n.bind("click", function(t) {
-                  e.$apply(e.clipClickFallback({
-                    $event: t
-                    , copy: e.$eval(e.clipCopy)
-                  }))
+        .
+      directive('clipCopy', ['ngClip', function(ngClip) {
+        return {
+          scope: {
+            clipCopy: '&'
+            , clipClick: '&'
+            , clipClickFallback: '&'
+          }
+          , restrict: 'A'
+          , link: function(scope, element, attrs) {
+            // Bind a fallback function if flash is unavailable
+            __webpack_require__.e /* nsure */ (4 /* duplicate */ , function(require) {
+              var ZeroClipboard = __webpack_require__(337);
+              if (ZeroClipboard.isFlashUnusable()) {
+                element.bind('click', function($event) {
+                  // Execute the expression with local variables `$event` and `copy`
+                  scope.$apply(scope.clipClickFallback({
+                    $event: $event
+                    , copy: scope.$eval(scope.clipCopy)
+                  }));
                 });
-                var r = new o(n);
-                "" === i.clipCopy && (e.clipCopy = function(e) {
-                  return n[0].previousElementSibling.innerText
-                }), r.on("ready", function(t) {
-                  r.on("copy", function(t) {
-                    var a = t.clipboardData;
-                    a.setData(i.clipCopyMimeType || "text/plain", e.$eval(e.clipCopy))
-                  }), r.on("aftercopy", function(t) {
-                    a.isDefined(i.clipClick) && e.$apply(e.clipClick)
-                  }), e.$on("$destroy", function() {
-                    r.destroy()
-                  })
-                })
-              })
-            }
+
+                return;
+              }
+
+              // Create the client object
+              var client = new ZeroClipboard(element);
+              if (attrs.clipCopy === "") {
+                scope.clipCopy = function(scope) {
+                  return element[0].previousElementSibling.innerText;
+                };
+              }
+              client.on('ready', function(readyEvent) {
+
+                client.on('copy', function(event) {
+                  var clipboard = event.clipboardData;
+                  clipboard.setData(attrs.clipCopyMimeType || 'text/plain', scope.$eval(scope.clipCopy));
+                });
+
+                client.on('aftercopy', function(event) {
+                  if (angular.isDefined(attrs.clipClick)) {
+                    scope.$apply(scope.clipClick);
+                  }
+                });
+
+                scope.$on('$destroy', function() {
+                  client.destroy();
+                });
+              });
+            });
           }
-        }])
-    }(window, window.angular)
-  }, 
-  , function(e, exports) {
-    ! function() {
-      "use strict";
-      angular.module("Filters")
-        .filter("HTMLEnCode", function(e, t, a) {})
-        .filter("HTMLDeCode", function() {
-          return function(e, t, a) {
-            return 0 == e.length ? "" : e = e.replace(/&lt;/g, "<")
-              .replace(/&gt;/g, ">")
-              .replace(/&#39;/g, "'")
-              .replace(/&quot;/g, '"')
-              .replace(/&amp;/g, "&")
-          }
+        };
+      }]);
+    })(window, window.angular);
+
+    /***/
+  })
+  , /* 337 */
+  , /* 338 */
+  /***/
+  (function(module, exports) {
+
+    (function() {
+      'use strict';
+
+      /* Services */
+
+      angular.module('Filters')
+        .filter('HTMLEnCode', function(text, length, end) {
+          // body...
         })
-        .filter("VoiceLengthFilter", function() {
-          return function(e, t, a) {
-            return 0 == e.length ? 0 : Math.round(e / 1e3)
-          }
+        .filter('HTMLDeCode', function() {
+          return function(text, length, end) {
+            if (text.length == 0) return "";
+            text = text.replace(/&lt;/g, "<")
+              .replace(/&gt;/g, ">")
+              .replace(/&#39;/g, "\'")
+              .replace(/&quot;/g, "\"")
+              .replace(/&amp;/g, "&");
+
+            return text;
+          };
+        })
+        .filter('VoiceLengthFilter', function() {
+          return function(text, length, end) {
+            if (text.length == 0) return 0;
+
+            return Math.round(text / 1000);
+          };
         })
         .filter("emojiHideFilter", function() {
-          return function(e, t, a) {
-            return e && 0 != e.length ? e.replace(/<span class=.emoji.*?<\/span>/g, _("809bb9d")) : ""
+          return function(text, length, end) {
+            if (!text || text.length == 0) return "";
+
+            return text.replace(/<span class=.emoji.*?<\/span>/g, _("809bb9d"));
           }
         })
-        .filter("checkurlFilter", ["utilFactory", function(e) {
-          return function(t, a, n) {
-            return t && 0 != t.length ? e.genCheckURL(t) : ""
+        .filter("checkurlFilter", ["utilFactory", function(utilFactory) {
+          return function(text, length, end) {
+            if (!text || text.length == 0) return "";
+
+            return utilFactory.genCheckURL(text);
           }
         }])
-        .filter("timeFormat", ["utilFactory", function(e) {
-          var t = [_("562d747"), _("1603b06"), _("b5a6a07"), _("e60725e"), _("170fc8e"), _("eb79cea"), _("2457513")];
-          return function(e) {
-            var e = 1e3 * e
-              , a = new Date
-              , n = a.getTime() / 1e3
-              , i = a.getDay();
-            a.setTime(e);
-            var o, r = a.getHours()
-              , c = a.getMinutes()
-              , s = a.getDay()
-              , l = a.getFullYear() % 100
-              , d = a.getMonth() + 1
-              , f = n - e > 604800
-              , u = n - e < 86400 && s == i;
-            return c < 10 && (c = "0" + c), o = u ? r + ":" + c : f ? l + "/" + d + "/" + a.getDate() : t[s]
+        .filter("timeFormat", ["utilFactory", function(utilFactory) {
+          var map = [_("562d747"), _("1603b06"), _("b5a6a07"), _("e60725e"), _("170fc8e"), _("eb79cea"), _("2457513")];
+          return function(time) {
+            var time = time * 1000;
+            var date = new Date();
+            var now = date.getTime() / 1000;
+            var today = date.getDay();
+            date.setTime(time);
+            var hours = date.getHours();
+            var minutes = date.getMinutes();
+            var day = date.getDay();
+            var years = date.getFullYear() % 100;
+            var month = date.getMonth() + 1;
+            var result;
+            var sevenDayAgo = (now - time) > 7 * 24 * 60 * 60;
+            var isToday = ((now - time) < 24 * 60 * 60) && (day == today);
+
+            if (minutes < 10) {
+              minutes = '0' + minutes;
+            }
+            if (isToday) {
+              result = hours + ':' + minutes;
+            } else if (!sevenDayAgo) {
+              result = map[day];
+            } else {
+              result = years + '/' + month + '/' + date.getDate()
+            }
+
+
+            return result;
           }
-        }])
-    }()
-  }
-  , function(e, exports) {
-    ! function() {
-      "use strict";
-      angular.module("Filters")
-        .filter("emojiFilter", ["emojiFactory", function(e) {
-          return function(t, a, n) {
-            return 0 == t.length ? "" : t = t.replace(/\[([^\]]+)\]/g, function(t, a) {
-              return e.getEmoticonByText(a)
-            })
-          }
-        }])
-    }()
-  }
+        }]);
+    })();
+
+    /***/
+  })
+  , /* 339 */
+  /***/
+  (function(module, exports) {
+
+    (function() {
+      'use strict';
+
+      /* Services */
+
+      angular.module('Filters')
+        .filter('emojiFilter', ['emojiFactory', function(emojiFactory) {
+          return function(text, length, end) {
+            if (text.length == 0) return "";
+            text = text.replace(/\[([^\]]+)\]/g, function(content, text) {
+              return emojiFactory.getEmoticonByText(text);
+            });
+            return text;
+          };
+        }]);
+    })();
+
+    /***/
+  })
 ]); /* vhtml-webpack-plugin version: 0.1.38 */
