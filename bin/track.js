@@ -96,7 +96,7 @@ function log(message) {
   console.log(desc + format.apply(null, arguments))
 }
 
-function main () {
+async function main () {
   gitPull()
 
   const html = get('https://wx.qq.com')
@@ -166,3 +166,4 @@ function main () {
 }
 
 main()
+  .catch(console.error)
