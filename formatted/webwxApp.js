@@ -6,308 +6,560 @@ webpackJsonp([1], [
     module.exports = __webpack_require__(259) + __webpack_require__(274);
 
     /***/
-  })
-  , /* 1 */
-  , /* 2 */
-  , /* 3 */
-  , /* 4 */
-  , /* 5 */
-  , /* 6 */
-  , /* 7 */
-  , /* 8 */
-  , /* 9 */
-  , /* 10 */
-  , /* 11 */
-  , /* 12 */
-  , /* 13 */
-  , /* 14 */
-  , /* 15 */
-  , /* 16 */
-  , /* 17 */
-  , /* 18 */
-  , /* 19 */
-  , /* 20 */
-  , /* 21 */
-  , /* 22 */
-  , /* 23 */
-  , /* 24 */
-  , /* 25 */
-  , /* 26 */
-  , /* 27 */
-  , /* 28 */
-  , /* 29 */
-  , /* 30 */
-  , /* 31 */
-  , /* 32 */
-  , /* 33 */
-  , /* 34 */
-  , /* 35 */
-  , /* 36 */
-  , /* 37 */
-  , /* 38 */
-  , /* 39 */
-  , /* 40 */
-  , /* 41 */
-  , /* 42 */
-  , /* 43 */
-  , /* 44 */
-  , /* 45 */
-  , /* 46 */
-  , /* 47 */
-  , /* 48 */
-  , /* 49 */
-  , /* 50 */
-  , /* 51 */
-  , /* 52 */
-  , /* 53 */
-  , /* 54 */
-  , /* 55 */
-  , /* 56 */
-  , /* 57 */
-  , /* 58 */
-  , /* 59 */
-  , /* 60 */
-  , /* 61 */
-  , /* 62 */
-  , /* 63 */
-  , /* 64 */
-  , /* 65 */
-  , /* 66 */
-  , /* 67 */
-  , /* 68 */
+  }),
+  /* 1 */
+  ,
+  /* 2 */
+  ,
+  /* 3 */
+  ,
+  /* 4 */
+  ,
+  /* 5 */
+  ,
+  /* 6 */
+  ,
+  /* 7 */
+  ,
+  /* 8 */
+  ,
+  /* 9 */
+  ,
+  /* 10 */
+  ,
+  /* 11 */
+  ,
+  /* 12 */
+  ,
+  /* 13 */
+  ,
+  /* 14 */
+  ,
+  /* 15 */
+  ,
+  /* 16 */
+  ,
+  /* 17 */
+  ,
+  /* 18 */
+  ,
+  /* 19 */
+  ,
+  /* 20 */
+  ,
+  /* 21 */
+  ,
+  /* 22 */
+  ,
+  /* 23 */
+  ,
+  /* 24 */
+  ,
+  /* 25 */
+  ,
+  /* 26 */
+  ,
+  /* 27 */
+  ,
+  /* 28 */
+  ,
+  /* 29 */
+  ,
+  /* 30 */
+  ,
+  /* 31 */
+  ,
+  /* 32 */
+  ,
+  /* 33 */
+  ,
+  /* 34 */
+  ,
+  /* 35 */
+  ,
+  /* 36 */
+  ,
+  /* 37 */
+  ,
+  /* 38 */
+  ,
+  /* 39 */
+  ,
+  /* 40 */
+  ,
+  /* 41 */
+  ,
+  /* 42 */
+  ,
+  /* 43 */
+  ,
+  /* 44 */
+  ,
+  /* 45 */
+  ,
+  /* 46 */
+  ,
+  /* 47 */
+  ,
+  /* 48 */
+  ,
+  /* 49 */
+  ,
+  /* 50 */
+  ,
+  /* 51 */
+  ,
+  /* 52 */
+  ,
+  /* 53 */
+  ,
+  /* 54 */
+  ,
+  /* 55 */
+  ,
+  /* 56 */
+  ,
+  /* 57 */
+  ,
+  /* 58 */
+  ,
+  /* 59 */
+  ,
+  /* 60 */
+  ,
+  /* 61 */
+  ,
+  /* 62 */
+  ,
+  /* 63 */
+  ,
+  /* 64 */
+  ,
+  /* 65 */
+  ,
+  /* 66 */
+  ,
+  /* 67 */
+  ,
+  /* 68 */
   /***/
   (function(module, exports) {
 
     // removed by extract-text-webpack-plugin
 
     /***/
-  })
-  , /* 69 */
-  , /* 70 */
-  , /* 71 */
-  , /* 72 */
-  , /* 73 */
-  , /* 74 */
-  , /* 75 */
-  , /* 76 */
-  , /* 77 */
-  , /* 78 */
-  , /* 79 */
+  }),
+  /* 69 */
+  ,
+  /* 70 */
+  ,
+  /* 71 */
+  ,
+  /* 72 */
+  ,
+  /* 73 */
+  ,
+  /* 74 */
+  ,
+  /* 75 */
+  ,
+  /* 76 */
+  ,
+  /* 77 */
+  ,
+  /* 78 */
+  ,
+  /* 79 */
   /***/
   (function(module, exports, __webpack_require__) {
 
     module.exports = __webpack_require__.p + "/static/img/a7Nznaj.gif";
 
     /***/
-  })
-  , /* 80 */
-  , /* 81 */
-  , /* 82 */
-  , /* 83 */
-  , /* 84 */
-  , /* 85 */
-  , /* 86 */
-  , /* 87 */
-  , /* 88 */
-  , /* 89 */
-  , /* 90 */
+  }),
+  /* 80 */
+  ,
+  /* 81 */
+  ,
+  /* 82 */
+  ,
+  /* 83 */
+  ,
+  /* 84 */
+  ,
+  /* 85 */
+  ,
+  /* 86 */
+  ,
+  /* 87 */
+  ,
+  /* 88 */
+  ,
+  /* 89 */
+  ,
+  /* 90 */
   /***/
   (function(module, exports) {
 
     // removed by extract-text-webpack-plugin
 
     /***/
-  })
-  , /* 91 */
-  , /* 92 */
-  , /* 93 */
-  , /* 94 */
-  , /* 95 */
-  , /* 96 */
-  , /* 97 */
-  , /* 98 */
-  , /* 99 */
-  , /* 100 */
-  , /* 101 */
-  , /* 102 */
-  , /* 103 */
-  , /* 104 */
-  , /* 105 */
-  , /* 106 */
-  , /* 107 */
-  , /* 108 */
-  , /* 109 */
-  , /* 110 */
-  , /* 111 */
-  , /* 112 */
-  , /* 113 */
-  , /* 114 */
-  , /* 115 */
-  , /* 116 */
-  , /* 117 */
-  , /* 118 */
-  , /* 119 */
-  , /* 120 */
-  , /* 121 */
-  , /* 122 */
-  , /* 123 */
-  , /* 124 */
-  , /* 125 */
-  , /* 126 */
-  , /* 127 */
-  , /* 128 */
-  , /* 129 */
-  , /* 130 */
-  , /* 131 */
-  , /* 132 */
-  , /* 133 */
-  , /* 134 */
-  , /* 135 */
-  , /* 136 */
-  , /* 137 */
-  , /* 138 */
-  , /* 139 */
-  , /* 140 */
-  , /* 141 */
-  , /* 142 */
-  , /* 143 */
-  , /* 144 */
-  , /* 145 */
-  , /* 146 */
-  , /* 147 */
-  , /* 148 */
-  , /* 149 */
-  , /* 150 */
-  , /* 151 */
-  , /* 152 */
-  , /* 153 */
-  , /* 154 */
-  , /* 155 */
-  , /* 156 */
-  , /* 157 */
-  , /* 158 */
-  , /* 159 */
-  , /* 160 */
-  , /* 161 */
-  , /* 162 */
-  , /* 163 */
-  , /* 164 */
-  , /* 165 */
-  , /* 166 */
-  , /* 167 */
-  , /* 168 */
-  , /* 169 */
-  , /* 170 */
-  , /* 171 */
-  , /* 172 */
-  , /* 173 */
-  , /* 174 */
-  , /* 175 */
-  , /* 176 */
-  , /* 177 */
-  , /* 178 */
-  , /* 179 */
-  , /* 180 */
-  , /* 181 */
-  , /* 182 */
-  , /* 183 */
-  , /* 184 */
-  , /* 185 */
-  , /* 186 */
-  , /* 187 */
-  , /* 188 */
-  , /* 189 */
-  , /* 190 */
-  , /* 191 */
-  , /* 192 */
-  , /* 193 */
-  , /* 194 */
-  , /* 195 */
-  , /* 196 */
-  , /* 197 */
-  , /* 198 */
-  , /* 199 */
-  , /* 200 */
-  , /* 201 */
-  , /* 202 */
-  , /* 203 */
-  , /* 204 */
-  , /* 205 */
-  , /* 206 */
-  , /* 207 */
-  , /* 208 */
-  , /* 209 */
-  , /* 210 */
-  , /* 211 */
-  , /* 212 */
-  , /* 213 */
-  , /* 214 */
-  , /* 215 */
-  , /* 216 */
-  , /* 217 */
-  , /* 218 */
-  , /* 219 */
-  , /* 220 */
-  , /* 221 */
-  , /* 222 */
-  , /* 223 */
-  , /* 224 */
-  , /* 225 */
-  , /* 226 */
-  , /* 227 */
-  , /* 228 */
-  , /* 229 */
-  , /* 230 */
-  , /* 231 */
-  , /* 232 */
-  , /* 233 */
-  , /* 234 */
-  , /* 235 */
-  , /* 236 */
-  , /* 237 */
-  , /* 238 */
-  , /* 239 */
-  , /* 240 */
-  , /* 241 */
-  , /* 242 */
-  , /* 243 */
-  , /* 244 */
-  , /* 245 */
-  , /* 246 */
-  , /* 247 */
-  , /* 248 */
-  , /* 249 */
-  , /* 250 */
-  , /* 251 */
-  , /* 252 */
-  , /* 253 */
-  , /* 254 */
-  , /* 255 */
-  , /* 256 */
+  }),
+  /* 91 */
+  ,
+  /* 92 */
+  ,
+  /* 93 */
+  ,
+  /* 94 */
+  ,
+  /* 95 */
+  ,
+  /* 96 */
+  ,
+  /* 97 */
+  ,
+  /* 98 */
+  ,
+  /* 99 */
+  ,
+  /* 100 */
+  ,
+  /* 101 */
+  ,
+  /* 102 */
+  ,
+  /* 103 */
+  ,
+  /* 104 */
+  ,
+  /* 105 */
+  ,
+  /* 106 */
+  ,
+  /* 107 */
+  ,
+  /* 108 */
+  ,
+  /* 109 */
+  ,
+  /* 110 */
+  ,
+  /* 111 */
+  ,
+  /* 112 */
+  ,
+  /* 113 */
+  ,
+  /* 114 */
+  ,
+  /* 115 */
+  ,
+  /* 116 */
+  ,
+  /* 117 */
+  ,
+  /* 118 */
+  ,
+  /* 119 */
+  ,
+  /* 120 */
+  ,
+  /* 121 */
+  ,
+  /* 122 */
+  ,
+  /* 123 */
+  ,
+  /* 124 */
+  ,
+  /* 125 */
+  ,
+  /* 126 */
+  ,
+  /* 127 */
+  ,
+  /* 128 */
+  ,
+  /* 129 */
+  ,
+  /* 130 */
+  ,
+  /* 131 */
+  ,
+  /* 132 */
+  ,
+  /* 133 */
+  ,
+  /* 134 */
+  ,
+  /* 135 */
+  ,
+  /* 136 */
+  ,
+  /* 137 */
+  ,
+  /* 138 */
+  ,
+  /* 139 */
+  ,
+  /* 140 */
+  ,
+  /* 141 */
+  ,
+  /* 142 */
+  ,
+  /* 143 */
+  ,
+  /* 144 */
+  ,
+  /* 145 */
+  ,
+  /* 146 */
+  ,
+  /* 147 */
+  ,
+  /* 148 */
+  ,
+  /* 149 */
+  ,
+  /* 150 */
+  ,
+  /* 151 */
+  ,
+  /* 152 */
+  ,
+  /* 153 */
+  ,
+  /* 154 */
+  ,
+  /* 155 */
+  ,
+  /* 156 */
+  ,
+  /* 157 */
+  ,
+  /* 158 */
+  ,
+  /* 159 */
+  ,
+  /* 160 */
+  ,
+  /* 161 */
+  ,
+  /* 162 */
+  ,
+  /* 163 */
+  ,
+  /* 164 */
+  ,
+  /* 165 */
+  ,
+  /* 166 */
+  ,
+  /* 167 */
+  ,
+  /* 168 */
+  ,
+  /* 169 */
+  ,
+  /* 170 */
+  ,
+  /* 171 */
+  ,
+  /* 172 */
+  ,
+  /* 173 */
+  ,
+  /* 174 */
+  ,
+  /* 175 */
+  ,
+  /* 176 */
+  ,
+  /* 177 */
+  ,
+  /* 178 */
+  ,
+  /* 179 */
+  ,
+  /* 180 */
+  ,
+  /* 181 */
+  ,
+  /* 182 */
+  ,
+  /* 183 */
+  ,
+  /* 184 */
+  ,
+  /* 185 */
+  ,
+  /* 186 */
+  ,
+  /* 187 */
+  ,
+  /* 188 */
+  ,
+  /* 189 */
+  ,
+  /* 190 */
+  ,
+  /* 191 */
+  ,
+  /* 192 */
+  ,
+  /* 193 */
+  ,
+  /* 194 */
+  ,
+  /* 195 */
+  ,
+  /* 196 */
+  ,
+  /* 197 */
+  ,
+  /* 198 */
+  ,
+  /* 199 */
+  ,
+  /* 200 */
+  ,
+  /* 201 */
+  ,
+  /* 202 */
+  ,
+  /* 203 */
+  ,
+  /* 204 */
+  ,
+  /* 205 */
+  ,
+  /* 206 */
+  ,
+  /* 207 */
+  ,
+  /* 208 */
+  ,
+  /* 209 */
+  ,
+  /* 210 */
+  ,
+  /* 211 */
+  ,
+  /* 212 */
+  ,
+  /* 213 */
+  ,
+  /* 214 */
+  ,
+  /* 215 */
+  ,
+  /* 216 */
+  ,
+  /* 217 */
+  ,
+  /* 218 */
+  ,
+  /* 219 */
+  ,
+  /* 220 */
+  ,
+  /* 221 */
+  ,
+  /* 222 */
+  ,
+  /* 223 */
+  ,
+  /* 224 */
+  ,
+  /* 225 */
+  ,
+  /* 226 */
+  ,
+  /* 227 */
+  ,
+  /* 228 */
+  ,
+  /* 229 */
+  ,
+  /* 230 */
+  ,
+  /* 231 */
+  ,
+  /* 232 */
+  ,
+  /* 233 */
+  ,
+  /* 234 */
+  ,
+  /* 235 */
+  ,
+  /* 236 */
+  ,
+  /* 237 */
+  ,
+  /* 238 */
+  ,
+  /* 239 */
+  ,
+  /* 240 */
+  ,
+  /* 241 */
+  ,
+  /* 242 */
+  ,
+  /* 243 */
+  ,
+  /* 244 */
+  ,
+  /* 245 */
+  ,
+  /* 246 */
+  ,
+  /* 247 */
+  ,
+  /* 248 */
+  ,
+  /* 249 */
+  ,
+  /* 250 */
+  ,
+  /* 251 */
+  ,
+  /* 252 */
+  ,
+  /* 253 */
+  ,
+  /* 254 */
+  ,
+  /* 255 */
+  ,
+  /* 256 */
   /***/
   (function(module, exports, __webpack_require__) {
 
     module.exports = __webpack_require__.p + "/static/img/2z6meE1.gif";
 
     /***/
-  })
-  , /* 257 */
+  }),
+  /* 257 */
   /***/
   (function(module, exports, __webpack_require__) {
 
     module.exports = __webpack_require__.p + "/static/img/2KriyDK.png";
 
     /***/
-  })
-  , /* 258 */
+  }),
+  /* 258 */
   /***/
   (function(module, exports, __webpack_require__) {
 
     module.exports = __webpack_require__.p + "/static/img/xasUyAI.gif";
 
     /***/
-  })
-  , /* 259 */
+  }),
+  /* 259 */
   /***/
   (function(module, exports, __webpack_require__) {
 
@@ -329,36 +581,48 @@ webpackJsonp([1], [
     __webpack_require__(273);
 
     /***/
-  })
-  , /* 260 */
+  }),
+  /* 260 */
   /***/
   (function(module, exports, __webpack_require__) {
 
     module.exports = __webpack_require__.p + "/static/res/1OM7Ut2.swf";
 
     /***/
-  })
-  , /* 261 */
+  }),
+  /* 261 */
   /***/
   (function(module, exports, __webpack_require__) {
 
     module.exports = __webpack_require__.p + "/static/res/GIqH2cS.swf";
 
     /***/
-  })
-  , /* 262 */
-  , /* 263 */
-  , /* 264 */
-  , /* 265 */
-  , /* 266 */
-  , /* 267 */
-  , /* 268 */
-  , /* 269 */
-  , /* 270 */
-  , /* 271 */
-  , /* 272 */
-  , /* 273 */
-  , /* 274 */
+  }),
+  /* 262 */
+  ,
+  /* 263 */
+  ,
+  /* 264 */
+  ,
+  /* 265 */
+  ,
+  /* 266 */
+  ,
+  /* 267 */
+  ,
+  /* 268 */
+  ,
+  /* 269 */
+  ,
+  /* 270 */
+  ,
+  /* 271 */
+  ,
+  /* 272 */
+  ,
+  /* 273 */
+  ,
+  /* 274 */
   /***/
   (function(module, exports, __webpack_require__) {
 
@@ -646,8 +910,8 @@ webpackJsonp([1], [
                        */
                       $scope.optionMenu = function() {
                         mmpop.toggleOpen({
-                          templateUrl: "readMenu.html"
-                          , //top:40,
+                          templateUrl: "readMenu.html",
+                          //top:40,
                           //left: 520,
                           container: angular.element(document.querySelector('.read_list_header'))
                           , controller: 'readMenuController'
@@ -678,8 +942,8 @@ webpackJsonp([1], [
     })();
 
     /***/
-  })
-  , /* 275 */
+  }),
+  /* 275 */
   /***/
   (function(module, exports) {
 
@@ -805,8 +1069,8 @@ webpackJsonp([1], [
                 }
                 searchList && searchList.close();
                 searchList = mmpop.open({
-                  templateUrl: "searchList.html"
-                  , //templateUrl:"searchList.html",
+                  templateUrl: "searchList.html",
+                  //templateUrl:"searchList.html",
                   controller: ['$rootScope', '$scope', '$state', function($rootScope, scope, $state) {
                     scope.$watch(function() {
                       return contactFactory.contactChangeFlag;
@@ -959,8 +1223,8 @@ webpackJsonp([1], [
             // show system menu
             $scope.toggleSystemMenu = function(e) {
               mmpop.toggleOpen({
-                templateUrl: "systemMenu.html"
-                , //templateUrl:"systemMenu.html",
+                templateUrl: "systemMenu.html",
+                //templateUrl:"systemMenu.html",
                 top: 60
                 , left: 85
                 , container: angular.element(document.querySelector('.panel'))
@@ -982,8 +1246,8 @@ webpackJsonp([1], [
               var left = e.pageX + 6;
 
               mmpop.open({
-                templateUrl: 'profile_mini.html'
-                , //templateUrl:'profile_mini.html',
+                templateUrl: 'profile_mini.html',
+                //templateUrl:'profile_mini.html',
                 className: 'profile_mini_wrap scale-fade'
                 , top: top
                 , left: left
@@ -1363,8 +1627,8 @@ webpackJsonp([1], [
 
 
     /***/
-  })
-  , /* 276 */
+  }),
+  /* 276 */
   /***/
   (function(module, exports) {
 
@@ -1674,8 +1938,8 @@ webpackJsonp([1], [
 
 
     /***/
-  })
-  , /* 277 */
+  }),
+  /* 277 */
   /***/
   (function(module, exports, __webpack_require__) {
 
@@ -1748,13 +2012,13 @@ webpackJsonp([1], [
               $scope.newMsg = null;
               $scope.isScrollToUnread = false;
               setTimeout(function() {
-                  chatBd.scrollTop = 999999;
-                  $scope.autoScrollFlag = true;
-                  setTimeout(function() {
-                    $scope.autoScrollFlag = false;
-                  }, 200)
-                }, 10)
-                //}
+                chatBd.scrollTop = 999999;
+                $scope.autoScrollFlag = true;
+                setTimeout(function() {
+                  $scope.autoScrollFlag = false;
+                }, 200)
+              }, 10)
+              //}
             });
 
             $scope.$on('root:cleanMsg', function(e, userName) {
@@ -2100,8 +2364,8 @@ webpackJsonp([1], [
              */
             $scope.showChatRoomMembers = function(e) {
               mmpop.toggleOpen({
-                templateUrl: 'chatRoomMember.html'
-                , //templateUrl: 'chatRoomMember.html',
+                templateUrl: 'chatRoomMember.html',
+                //templateUrl: 'chatRoomMember.html',
                 scope: $scope
                 , container: angular.element(document.getElementById('chatRoomMembersWrap'))
                 , className: 'members_wrp slide-down'
@@ -2330,7 +2594,7 @@ webpackJsonp([1], [
               if (!$scope.$$phase) $scope.$digest();
             };
             $scope.playVoice = function(message) {
-              __webpack_require__.e /* nsure */ (2, function(require) {
+              __webpack_require__.e /* nsure */(2, function(require) {
                 var jplayer = __webpack_require__(278);
                 var voicePlayer = jQuery('#voiceMsgPlayer');
                 if (window.MMplayingMsg) {
@@ -2531,7 +2795,7 @@ webpackJsonp([1], [
 
                     newScope.$digest();
                     console.log(domEl.height())
-                      /*todo: 是否需要对异常情况做计算 */
+                    /*todo: 是否需要对异常情况做计算 */
                     cb(domEl.height());
                     newScope.$destroy();
                     domEl.remove();
@@ -2553,7 +2817,7 @@ webpackJsonp([1], [
                   function onerror(e) {
 
                     console.error(e)
-                      // todo: 图片加载错误处理
+                    // todo: 图片加载错误处理
 
 
                     reportService.report(reportService.ReportType.imageLoadError, {
@@ -2595,9 +2859,10 @@ webpackJsonp([1], [
     })();
 
     /***/
-  })
-  , /* 278 */
-  , /* 279 */
+  }),
+  /* 278 */
+  ,
+  /* 279 */
   /***/
   (function(module, exports) {
 
@@ -2621,8 +2886,8 @@ webpackJsonp([1], [
     })();
 
     /***/
-  })
-  , /* 280 */
+  }),
+  /* 280 */
   /***/
   (function(module, exports, __webpack_require__) {
 
@@ -3222,8 +3487,8 @@ webpackJsonp([1], [
                       ToUserName: this.ToUserName
                       , MsgType: confFactory.MSGTYPE_EMOTICON
                       , EmojiFlag: confFactory.EMOJI_FLAG_GIF
-                        /*,
-                        	                            MediaId:MediaId*/
+                      /*,
+                      	                            MediaId:MediaId*/
                     });
 
 
@@ -3380,7 +3645,7 @@ webpackJsonp([1], [
             var uploader;
 
             function initWebUploader() {
-              __webpack_require__.e /* nsure */ (3, function(require) {
+              __webpack_require__.e /* nsure */(3, function(require) {
                 var WebUploader = __webpack_require__(281);
                 window.WebUploader = WebUploader;
                 // 系统没有安装flash、浏览器不支持H5上传时，傻逼webuploader会抛出异常，要自己捕获
@@ -3390,8 +3655,8 @@ webpackJsonp([1], [
                       , dnd: "#chatArea"
                       , paste: utilFactory.browser.webkit ? "#chatArea" : undefined
                       , swf: confFactory.RES_PATH + "third_party/webuploader-0.1.5/Uploader.swf"
-                      , server: confFactory.API_webwxuploadmedia + "?f=json"
-                      , //threads: 1, // 设置进程为1是为了确保顺序
+                      , server: confFactory.API_webwxuploadmedia + "?f=json",
+                      //threads: 1, // 设置进程为1是为了确保顺序
                       fileVal: "filename"
                       , pick: ".js_fileupload"
                       , compress: false
@@ -3417,19 +3682,19 @@ webpackJsonp([1], [
 
                       file._data = file._data || {
 
-                        }
-                        /*    if(isImg(file.ext)){
-                                if(file.size > MAX_IMG_UPLOAD_SIZE * 1024 * 1024){
-                                    alert(_("8c88ff6") + MAX_IMG_UPLOAD_SIZE + "M");
-                                    return false;
-                                }
-                            }else{
-                                if(file.size > MAX_FILE_UPLOAD_SIZE * 1024 * 1024){
-                                    alert(_("0c9c48a") + MAX_FILE_UPLOAD_SIZE + "M");
-                                    return false;
-                                }
-                            }
-                            */
+                      }
+                      /*    if(isImg(file.ext)){
+                              if(file.size > MAX_IMG_UPLOAD_SIZE * 1024 * 1024){
+                                  alert(_("8c88ff6") + MAX_IMG_UPLOAD_SIZE + "M");
+                                  return false;
+                              }
+                          }else{
+                              if(file.size > MAX_FILE_UPLOAD_SIZE * 1024 * 1024){
+                                  alert(_("0c9c48a") + MAX_FILE_UPLOAD_SIZE + "M");
+                                  return false;
+                              }
+                          }
+                          */
 
                       if (!chatFactory.getSendFileUsername()) {
                         uploader.skipFile(file);
@@ -3682,9 +3947,10 @@ webpackJsonp([1], [
 
 
     /***/
-  })
-  , /* 281 */
-  , /* 282 */
+  }),
+  /* 281 */
+  ,
+  /* 282 */
   /***/
   (function(module, exports) {
 
@@ -3742,8 +4008,8 @@ webpackJsonp([1], [
     })();
 
     /***/
-  })
-  , /* 283 */
+  }),
+  /* 283 */
   /***/
   (function(module, exports) {
 
@@ -3964,8 +4230,8 @@ webpackJsonp([1], [
     })();
 
     /***/
-  })
-  , /* 284 */
+  }),
+  /* 284 */
   /***/
   (function(module, exports) {
 
@@ -4447,8 +4713,8 @@ webpackJsonp([1], [
 
 
     /***/
-  })
-  , /* 285 */
+  }),
+  /* 285 */
   /***/
   (function(module, exports) {
 
@@ -4537,8 +4803,8 @@ webpackJsonp([1], [
     })();
 
     /***/
-  })
-  , /* 286 */
+  }),
+  /* 286 */
   /***/
   (function(module, exports) {
 
@@ -4647,8 +4913,8 @@ webpackJsonp([1], [
     })();
 
     /***/
-  })
-  , /* 287 */
+  }),
+  /* 287 */
   /***/
   (function(module, exports) {
 
@@ -4706,8 +4972,8 @@ webpackJsonp([1], [
 
 
     /***/
-  })
-  , /* 288 */
+  }),
+  /* 288 */
   /***/
   (function(module, exports) {
 
@@ -4876,8 +5142,8 @@ webpackJsonp([1], [
     })();
 
     /***/
-  })
-  , /* 289 */
+  }),
+  /* 289 */
   /***/
   (function(module, exports) {
 
@@ -4887,140 +5153,141 @@ webpackJsonp([1], [
       /* Services */
 
       angular.module('Services')
-        .factory('appFactory', ['$http'
-          , '$q'
-          , 'confFactory'
-          , 'accountFactory'
-          , 'loginFactory'
-          , 'utilFactory'
-          , 'reportService'
-          , 'mmHttp'
-          , function($http, $q, confFactory, accountFactory, loginFactory, utilFactory, reportService, mmHttp) {
+        .factory('appFactory'
+          , ['$http'
+            , '$q'
+            , 'confFactory'
+            , 'accountFactory'
+            , 'loginFactory'
+            , 'utilFactory'
+            , 'reportService'
+            , 'mmHttp'
+            , function($http, $q, confFactory, accountFactory, loginFactory, utilFactory, reportService, mmHttp) {
 
-            var service = {
-              globalData: {
-                chatList: []
-              }
-              , /**
-               * 初始化webwxApp
-               */
-              init: function() {
-                var deferred = $q.defer();
+              var service = {
+                globalData: {
+                  chatList: []
+                },
+                /**
+                 * 初始化webwxApp
+                 */
+                init: function() {
+                  var deferred = $q.defer();
 
 
-                mmHttp({
-                    method: "POST"
-                    , url: confFactory.API_webwxinit
-                    , MMRetry: {
-                      count: 1
-                      , timeout: 1
-                    }
-                    , data: {
-                      BaseRequest: {
-                        Uin: accountFactory.getUin()
-                        , Sid: accountFactory.getSid()
-                        , Skey: accountFactory.getSkey()
-                        , DeviceID: accountFactory.getDeviceID()
+                  mmHttp({
+                      method: "POST"
+                      , url: confFactory.API_webwxinit
+                      , MMRetry: {
+                        count: 1
+                        , timeout: 1
                       }
-                    }
-                  })
-                  .success(function(data) {
-                    deferred.resolve(data);
-                  })
-                  .error(function(data) {
-                    deferred.reject('error:' + data);
-                  });
-                return deferred.promise;
-              },
-
-              /**
-               * sync获取消息更新具体内容
-               * @return {promise}
-               */
-              sync: function() {
-                var deferred = $q.defer()
-                  , that = this;
-                // todo:bug
-                mmHttp({
-                    method: "POST"
-                    , MMRetry: {
-                      serial: true
-                    }
-                    , url: confFactory.API_webwxsync + '?' + ['sid=' + accountFactory.getSid(), 'skey=' + accountFactory.getSkey()].join('&')
-                    , data: angular.extend(accountFactory.getBaseRequest(), {
-                      SyncKey: accountFactory.getSyncKey()
-                      , rr: ~new Date()
+                      , data: {
+                        BaseRequest: {
+                          Uin: accountFactory.getUin()
+                          , Sid: accountFactory.getSid()
+                          , Skey: accountFactory.getSkey()
+                          , DeviceID: accountFactory.getDeviceID()
+                        }
+                      }
                     })
-                  })
-                  .success(function(data) {
-                    deferred.resolve(data);
+                    .success(function(data) {
+                      deferred.resolve(data);
+                    })
+                    .error(function(data) {
+                      deferred.reject('error:' + data);
+                    });
+                  return deferred.promise;
+                },
 
-                    if (!utilFactory.getCookie('webwx_data_ticket')) {
-                      reportService.report(reportService.ReportType.cookieError, {
-                        text: 'webwx_data_ticket 票据丢失'
-                        , cookie: document.cookie
-                      });
-                    }
-
-                  })
-                  .error(function(data) {
-                    deferred.reject('error:' + data);
-                    utilFactory.log("sync error");
-                  });
-                return deferred.promise;
-              },
-
-              /**
-               * syncCheck轮询是否有消息更新
-               * @return {promise}
-               */
-              syncCheck: function() {
-                var deferred = $q.defer()
-                  , me = this;
-                var url = confFactory.API_synccheck + '?' + [
-                  'r=' + utilFactory.now()
-                  , 'skey=' + encodeURIComponent(accountFactory.getSkey())
-                  , 'sid=' + encodeURIComponent(accountFactory.getSid())
-                  , 'uin=' + accountFactory.getUin()
-                  , 'deviceid=' + accountFactory.getDeviceID()
-                  , 'synckey=' + encodeURIComponent(accountFactory.getFormateSyncCheckKey())
-                ].join('&');
-
-                window.synccheck && (window.synccheck.selector = 0);
-                // ie8
-                $.ajax({
-                    url: url
-                    , dataType: "script"
-                    , timeout: 35000
-                  })
-                  .done(function() {
-                    if (window.synccheck && window.synccheck.retcode == "0") {
-                      if (window.synccheck.selector != "0") {
-                        me.sync()
-                          .then(function(data) {
-                            deferred.resolve(data);
-                          }, function(data) {
-                            console.log('syncCheck sync nothing', data);
-
-                          });
-                      } else {
-                        deferred.reject(window.synccheck && window.synccheck.selector);
+                /**
+                 * sync获取消息更新具体内容
+                 * @return {promise}
+                 */
+                sync: function() {
+                  var deferred = $q.defer()
+                    , that = this;
+                  // todo:bug
+                  mmHttp({
+                      method: "POST"
+                      , MMRetry: {
+                        serial: true
                       }
-                    } else if (window.synccheck && (window.synccheck.retcode == "1101" || window.synccheck.retcode == "1102")) {
-                      loginFactory.loginout(1);
-                      //document.location.reload();
-                    } else if (window.synccheck && window.synccheck.retcode == "1100") {
-                      loginFactory.loginout(0);
-                      //document.location.reload();
-                    } else {
-                      deferred.reject('syncCheck net error');
-                      reportService.report(reportService.ReportType.netError, {
-                        text: 'syncCheck net error'
-                        , url: url
+                      , url: confFactory.API_webwxsync + '?' + ['sid=' + accountFactory.getSid(), 'skey=' + accountFactory.getSkey()].join('&')
+                      , data: angular.extend(accountFactory.getBaseRequest(), {
+                        SyncKey: accountFactory.getSyncKey()
+                        , rr: ~new Date()
                       })
-                    }
-                  });
-                /*$http.jsonp(url,{
+                    })
+                    .success(function(data) {
+                      deferred.resolve(data);
+
+                      if (!utilFactory.getCookie('webwx_data_ticket')) {
+                        reportService.report(reportService.ReportType.cookieError, {
+                          text: 'webwx_data_ticket 票据丢失'
+                          , cookie: document.cookie
+                        });
+                      }
+
+                    })
+                    .error(function(data) {
+                      deferred.reject('error:' + data);
+                      utilFactory.log("sync error");
+                    });
+                  return deferred.promise;
+                },
+
+                /**
+                 * syncCheck轮询是否有消息更新
+                 * @return {promise}
+                 */
+                syncCheck: function() {
+                  var deferred = $q.defer()
+                    , me = this;
+                  var url = confFactory.API_synccheck + '?' + [
+                    'r=' + utilFactory.now()
+                    , 'skey=' + encodeURIComponent(accountFactory.getSkey())
+                    , 'sid=' + encodeURIComponent(accountFactory.getSid())
+                    , 'uin=' + accountFactory.getUin()
+                    , 'deviceid=' + accountFactory.getDeviceID()
+                    , 'synckey=' + encodeURIComponent(accountFactory.getFormateSyncCheckKey())
+                  ].join('&');
+
+                  window.synccheck && (window.synccheck.selector = 0);
+                  // ie8
+                  $.ajax({
+                      url: url
+                      , dataType: "script"
+                      , timeout: 35000
+                    })
+                    .done(function() {
+                      if (window.synccheck && window.synccheck.retcode == "0") {
+                        if (window.synccheck.selector != "0") {
+                          me.sync()
+                            .then(function(data) {
+                              deferred.resolve(data);
+                            }, function(data) {
+                              console.log('syncCheck sync nothing', data);
+
+                            });
+                        } else {
+                          deferred.reject(window.synccheck && window.synccheck.selector);
+                        }
+                      } else if (window.synccheck && (window.synccheck.retcode == "1101" || window.synccheck.retcode == "1102")) {
+                        loginFactory.loginout(1);
+                        //document.location.reload();
+                      } else if (window.synccheck && window.synccheck.retcode == "1100") {
+                        loginFactory.loginout(0);
+                        //document.location.reload();
+                      } else {
+                        deferred.reject('syncCheck net error');
+                        reportService.report(reportService.ReportType.netError, {
+                          text: 'syncCheck net error'
+                          , url: url
+                        })
+                      }
+                    });
+                  /*$http.jsonp(url,{
 	                timeout:35000
 	            }).success(function (data) {
 	                console.log('syncCheck success?!',data);
@@ -5052,24 +5319,24 @@ webpackJsonp([1], [
 	                }
 	
 	            });*/
-                return deferred.promise;
-              },
+                  return deferred.promise;
+                },
 
-              /**
-               * 统计
-               */
-              report: function(argument) {
-                // body...
-              }
-            };
-            return service;
-          }
-        ]);
+                /**
+                 * 统计
+                 */
+                report: function(argument) {
+                  // body...
+                }
+              };
+              return service;
+            }
+          ]);
     })();
 
     /***/
-  })
-  , /* 290 */
+  }),
+  /* 290 */
   /***/
   (function(module, exports) {
 
@@ -5114,8 +5381,8 @@ webpackJsonp([1], [
                 _currentUserName = userName;
                 var currentContact = contactFactory.getContact(userName);
                 currentContact._notActive = false;
-              }
-              , /**
+              },
+              /**
                * 获取当前聊天对象`UserName`
                * @returns {string}
                */
@@ -5206,8 +5473,8 @@ webpackJsonp([1], [
                   utilFactory.reportSendState('sendcheckElementError');
                   return false;
                 }
-              }
-              , /**
+              },
+              /**
                * 创建消息
                * @param msg 消息体
                */
@@ -5274,16 +5541,16 @@ webpackJsonp([1], [
                 }
 
                 return msg;
-              }
-              , /**
+              },
+              /**
                * 添加消息到消息库（并且展示消息）
                * @param msg
                */
               appendMessage: function(msg) {
                 msg.MMStatus = confFactory.MSG_SEND_STATUS_SENDING;
                 this.messageProcess(msg);
-              }
-              , /**
+              },
+              /**
                * 发送消息（触发sendmsgAPI）
                * @param msg
                */
@@ -5361,11 +5628,11 @@ webpackJsonp([1], [
                       $rootScope.$broadcast('root:msgSend:success', msg);
                     } else {
                       reportService.report(reportService.ReportType.netError, {
-                          text: 'postMessage error'
-                          , url: url
-                          , res: data
-                        })
-                        //console.log('chatSender error, ret:' + data.BaseResponse.Ret);
+                        text: 'postMessage error'
+                        , url: url
+                        , res: data
+                      })
+                      //console.log('chatSender error, ret:' + data.BaseResponse.Ret);
                       msg.MMStatus = confFactory.MSG_SEND_STATUS_FAIL;
                     }
                   })
@@ -5378,8 +5645,8 @@ webpackJsonp([1], [
 
                     msg.MMStatus = confFactory.MSG_SEND_STATUS_FAIL;
                   });
-              }
-              , // 发送纯文本消息
+              },
+              // 发送纯文本消息
               postTextMessage: function(msg) {
                 var data = {
                   Type: confFactory.MSGTYPE_TEXT
@@ -5403,8 +5670,8 @@ webpackJsonp([1], [
                 }
 
                 this._postMessage(confFactory.API_webwxsendmsg, data, msg);
-              }
-              , // 发送图片消息
+              },
+              // 发送图片消息
               postImgMessage: function(msg) {
                 var data = {
                   Type: confFactory.MSGTYPE_IMAGE, //兼容后台而带上Type
@@ -5412,8 +5679,8 @@ webpackJsonp([1], [
                   , Content: msg.Content
                 };
                 this._postMessage(confFactory.API_webwxsendmsgimg + "?fun=async&f=json", data, msg);
-              }
-              , // 发送视频消息
+              },
+              // 发送视频消息
               postVideoMessage: function(msg) {
                 var data = {
                   Type: confFactory.MSGTYPE_VIDEO, //兼容后台而带上Type
@@ -5439,8 +5706,8 @@ webpackJsonp([1], [
               postAppMessage: function(msg) {
                 var data;
                 data = {
-                  Signature: msg.Signature
-                  , /*
+                  Signature: msg.Signature,
+                  /*
                    *  当可以发其他 app 消息，比如图文链接的时候就有问题
                    * */
                   Type: msg.AppMsgType, //兼容后台而带上Type
@@ -5470,8 +5737,8 @@ webpackJsonp([1], [
 
 
                 this._postMessage(confFactory.API_webwxsendappmsg + "?fun=async&f=json" + (confFactory.isClientVersion ? '&mod=desktop' : ''), data, msg);
-              }
-              , // 发送表情消息
+              },
+              // 发送表情消息
               postEmoticonMessage: function(msg) {
                 var data = {
                   Type: confFactory.MSGTYPE_EMOTICON, // 兼容后台而带上Type
@@ -5502,8 +5769,8 @@ webpackJsonp([1], [
                 });
                 //updat chatlistInfos
                 me.getChatList();
-              }
-              , /**
+              },
+              /**
                * 添加聊天列表用户
                */
               addChatList: function(list) {
@@ -5540,8 +5807,8 @@ webpackJsonp([1], [
                 //updat chatlistInfos
                 me.getChatList();
                 $rootScope.$broadcast('chat:add:success');
-              }
-              , /**
+              },
+              /**
                * 删除聊天列表用户
                */
               deleteChatList: function(list) {
@@ -5558,8 +5825,8 @@ webpackJsonp([1], [
                 });
                 //updat chatlistInfos
                 me.getChatList();
-              }
-              , /**
+              },
+              /**
                * 获取聊天列表用户
                */
               getChatList: function() {
@@ -5602,8 +5869,8 @@ webpackJsonp([1], [
                 //console.log('chatlist',_chatListInfos)
                 [].push.apply(_chatListInfos, handleChatList(tmp));
                 return _chatListInfos;
-              }
-              , /**
+              },
+              /**
                * 获取用户最后的消息
                */
               _getLastMessage: function(userName) {
@@ -5615,8 +5882,8 @@ webpackJsonp([1], [
                 } else {
                   return {};
                 }
-              }
-              , /**
+              },
+              /**
                * 添加聊天用户内容
                */
               addChatMessage: function(message) {
@@ -5666,8 +5933,8 @@ webpackJsonp([1], [
               }
               , updateMessage: function(userMessages, index, message) {
                 angular.extend(userMessages[index], message);
-              }
-              , /**
+              },
+              /**
                * 根据`username`，获取聊天用户内容
                * @param userName
                * @param clearNoticeCount
@@ -5690,8 +5957,8 @@ webpackJsonp([1], [
                 if (_chatMessages[userName]) {
                   _chatMessages[userName].splice(0, _chatMessages[userName].length);
                 }
-              }
-              , /**
+              },
+              /**
                * 获取聊天用户内容
                */
               getChatMessageBySlice: function(userName, index, count) {
@@ -5739,8 +6006,8 @@ webpackJsonp([1], [
                 }
 
 
-              }
-              , /**
+              },
+              /**
                * 标记用户消息为已读
                * @param userName
                */
@@ -5756,8 +6023,8 @@ webpackJsonp([1], [
 
                 this.setCurrentUnread(userName, 0);
                 return hasUnreaded;
-              }
-              , /**
+              },
+              /**
                * 消息处理入口
                * @param message 消息体
                */
@@ -5866,8 +6133,8 @@ webpackJsonp([1], [
 
                 me.addChatMessage(message);
                 me.addChatList([message]);
-              }
-              , /**
+              },
+              /**
                * 状态通知消息处理
                * @param message 消息体
                * @private
@@ -5886,8 +6153,8 @@ webpackJsonp([1], [
                     // do nothing
                     break;
                 }
-              }
-              , /**
+              },
+              /**
                * 通用消息处理
                * @param message 消息体
                * @private
@@ -5945,8 +6212,8 @@ webpackJsonp([1], [
                 message.MMActualContent = actualContent;
                 message.MMActualSender = actualSender || message.FromUserName;
                 me._calcMsgDisplayTime(userMessages[userMessages.length - 1], message);
-              }
-              , /**
+              },
+              /**
                * 文本消息处理
                * @param message 消息体
                * @private
@@ -5954,8 +6221,8 @@ webpackJsonp([1], [
               _textMsgProcess: function(message) {
                 message.MsgType = confFactory.MSGTYPE_TEXT;
                 message.MMDigest += message.MMActualContent.replace(/<br ?[^><]*\/?>/g, '');;
-              }
-              , /**
+              },
+              /**
                * 图片消息处理
                * @param message 消息体
                * @private
@@ -5963,8 +6230,8 @@ webpackJsonp([1], [
               _imageMsgProcess: function(message) {
                 message.MsgType = confFactory.MSGTYPE_IMAGE;
                 message.MMDigest += _("a5627e8");
-              }
-              , /**
+              },
+              /**
                * 语音消息处理
                * @param message 消息体
                * @private
@@ -5973,8 +6240,8 @@ webpackJsonp([1], [
                 message.MsgType = confFactory.MSGTYPE_VOICE;
                 message.MMDigest += _("b28dac0");
                 message.MMVoiceUnRead = !message.MMIsSend && message.MMUnread; // 如果语音有别人发出并且未读
-              }
-              , /**
+              },
+              /**
                * 视频消息处理
                * @param message 消息体
                * @private
@@ -5982,8 +6249,8 @@ webpackJsonp([1], [
               _videoMsgProcess: function(message) {
                 message.MsgType = confFactory.MSGTYPE_VIDEO;
                 message.MMDigest += _("4078104");
-              }
-              , /**
+              },
+              /**
                * 小视频消息处理
                * @param message 消息体
                * @private
@@ -5991,8 +6258,8 @@ webpackJsonp([1], [
               _mircovideoMsgProcess: function(message) {
                 message.MsgType = confFactory.MSGTYPE_MICROVIDEO;
                 message.MMDigest += _("1f94b1b");
-              }
-              , /**
+              },
+              /**
                * news消息处理
                * @param message 消息体
                * @private
@@ -6003,8 +6270,8 @@ webpackJsonp([1], [
                 content = utilFactory.encodeEmoji(content);
                 content = utilFactory.xml2json(content);
                 message.MMCategory = content && content.category;
-              }
-              , /**
+              },
+              /**
                * emoji消息处理
                * @param message 消息体
                * @private
@@ -6031,16 +6298,16 @@ webpackJsonp([1], [
                 }
 
                 //  var content = utilFactory.xml2json(message.content);
-              }
-              , /**
+              },
+              /**
                * voip消息处理
                * @param message 消息体
                * @private
                */
               _voipMsgProcess: function(message) {
                 this._appAsTextMsgProcess(message, _("fdaa3a3"));
-              }
-              , /**
+              },
+              /**
                * 地理位置消息处理
                * @param message 消息体
                * @private
@@ -6058,8 +6325,8 @@ webpackJsonp([1], [
                 message.MMLocationUrl = message.Url || message.MMLocationUrl;
                 message.MMDigest += message.MMLocationDesc;
                 //this._appAsTextMsgProcess(message, _("2cc0cfc"));
-              }
-              , /**
+              },
+              /**
                * app消息处理
                * @param message 消息体
                * @private
@@ -6115,8 +6382,8 @@ webpackJsonp([1], [
                   default:
                     me._appUnknowMsgProcess(message);
                 }
-              }
-              , /**
+              },
+              /**
                * app文本消息
                * @param  {[type]} message
                */
@@ -6128,8 +6395,8 @@ webpackJsonp([1], [
                 content = utilFactory.encodeEmoji(content);
                 content = utilFactory.xml2json(content);
                 this._appAsTextMsgProcess(message, utilFactory.decodeEmoji(utilFactory.htmlEncode(content.appmsg.title)));
-              }
-              , /**
+              },
+              /**
                * app语音消息
                * @param  {[type]} message
                */
@@ -6138,8 +6405,8 @@ webpackJsonp([1], [
                   , digest = _("0e23719") + message.FileName;
 
                 me._appUrlMsgProcess(message, digest);
-              }
-              , /**
+              },
+              /**
                * app视频消息
                * @param  {[type]} message
                */
@@ -6148,8 +6415,8 @@ webpackJsonp([1], [
                   , digest = _("4078104") + message.FileName;
 
                 me._appUrlMsgProcess(message, digest);
-              }
-              , /**
+              },
+              /**
                * app应用消息
                * @param  {[type]} message
                */
@@ -6159,8 +6426,8 @@ webpackJsonp([1], [
 
                 me._appUrlMsgProcess(message, digest);
                 message.MMAlert = _("c4e04ee");
-              }
-              , /**
+              },
+              /**
                * app链接消息
                * @param  {[type]} message
                * @param  {[type]} digest
@@ -6201,8 +6468,8 @@ webpackJsonp([1], [
                   }
                 });
                 message.MMDigest += message.MMCategory.length && message.MMCategory[0].title;
-              }
-              , /**
+              },
+              /**
                * app附件消息
                * @param  {[type]} message
                */
@@ -6229,22 +6496,22 @@ webpackJsonp([1], [
                   '&fromuser=' + accountFactory.getUin() +
                   '&pass_ticket=' + encodeURIComponent(accountFactory.getPassticket()) +
                   "&webwx_data_ticket=" + encodeURIComponent(utilFactory.getCookie('webwx_data_ticket'));
-              }
-              , /**
+              },
+              /**
                * app转账消息
                * @param  {[type]} message
                */
               _appTransfersMsgProcess: function(message) {
                 this._appAsTextMsgProcess(message, _("0cdad09"));
-              }
-              , /**
+              },
+              /**
                * app卡券消息
                * @param  {[type]} message
                */
               _appCardTicketMsgProcess: function(message) {
                 this._appAsTextMsgProcess(message, _("c534fc3"));
-              }
-              , /**
+              },
+              /**
                * app共享实时位置消息处理
                * @param message 消息体
                * @private
@@ -6262,24 +6529,24 @@ webpackJsonp([1], [
                   content = "[" + (displayName ? displayName : _("a41d576")) + _("a1f1299") + "]";
                 }
                 this._appAsTextMsgProcess(message, content);
-              }
-              , /**
+              },
+              /**
                * app扫商品消息处理
                * @param message 消息体
                * @private
                */
               _appScanGoodMsgProcess: function(message) {
                 this._appAsTextMsgProcess(message, _("95afe20"));
-              }
-              , /**
+              },
+              /**
                * app商品消息处理
                * @param message 消息体
                * @private
                */
               _appGoodMsgProcess: function(message) {
                 this._appAsTextMsgProcess(message, _("355765a"));
-              }
-              , /**
+              },
+              /**
                * app表情分享消息处理
                * @param message 消息体
                * @private
@@ -6290,8 +6557,8 @@ webpackJsonp([1], [
               , _appRedEnvelopesMsgProcess: function(message) {
                 message.MMDigest += _("e24e75c");
                 //this._appAsTextMsgProcess(message, _("c5e6ab0"));
-              }
-              , /**
+              },
+              /**
                * app未知消息，用于调试
                * @param  {[type]} message
                */
@@ -6302,8 +6569,8 @@ webpackJsonp([1], [
                   this._appAsTextMsgProcess(message, '[收到一条网页版微信暂不支持的消息类型，请在手机上查看]');
                 }
 
-              }
-              , /**
+              },
+              /**
                * 将网页不支持的APP消息 以 文本方式 展现
                * @param message 消息体
                * @private
@@ -6312,8 +6579,8 @@ webpackJsonp([1], [
                 message.MMActualContent = text;
                 message._noSupportMsg = true;
                 this._textMsgProcess(message);
-              }
-              , /**
+              },
+              /**
                * 消息撤回处理
                * @param message 消息体
                * @private
@@ -6366,8 +6633,8 @@ webpackJsonp([1], [
                       Content: _("7d048b1")
                   });*/
                 }
-              }
-              , /**
+              },
+              /**
                * 推荐消息处理
                * @param message 消息体
                * @private
@@ -6379,8 +6646,8 @@ webpackJsonp([1], [
                 } else {
                   message.Content = message.Contact.NickName || message.Contact.UserName + "text_posible_friend_msg_digest";
                 }
-              }
-              , /**
+              },
+              /**
                * 认证消息处理
                * @param message 消息体
                * @private
@@ -6402,8 +6669,8 @@ webpackJsonp([1], [
                 //if(!contactFactory.getContact(message.RecommendInfo.UserName)){
                 contactFactory.addStrangerContact(message.RecommendInfo);
                 //}
-              }
-              , /**
+              },
+              /**
                * 名片消息处理
                * @param message 消息体
                * @private
@@ -6436,8 +6703,8 @@ webpackJsonp([1], [
                 if (!contactFactory.getContact(message.RecommendInfo.UserName, '', true)) {
                   contactFactory.addStrangerContact(message.RecommendInfo);
                 }
-              }
-              , /**
+              },
+              /**
                * 系统消息处理
                * @param msg 消息体
                * @private
@@ -6460,8 +6727,8 @@ webpackJsonp([1], [
                 }
                 //message.MMActualContent = utilFactory.removeHtmlStrTag(message.MMActualContent);
                 message.MMDigest += message.MMActualContent;
-              }
-              , /**
+              },
+              /**
                * 桌面通知
                * @param message
                * @private
@@ -6670,8 +6937,8 @@ webpackJsonp([1], [
 
 
     /***/
-  })
-  , /* 291 */
+  }),
+  /* 291 */
   /***/
   (function(module, exports) {
 
@@ -6710,8 +6977,8 @@ webpackJsonp([1], [
               }
               , getFilterContacts: function() {
                 return _filterContacts;
-              }
-              , /**
+              },
+              /**
                * 创建群聊
                * @param  {[type]} memberList
                */
@@ -6727,10 +6994,10 @@ webpackJsonp([1], [
                     method: 'POST'
                     , url: confFactory.API_webwxcreatechatroom + '?r=' + utilFactory.now()
                     , data: postData
-                      /*,
-                      	                MMRetry:{
-                      	                    serial:true
-                      	                }*/
+                    /*,
+                    	                MMRetry:{
+                    	                    serial:true
+                    	                }*/
                   })
                   .success(function(data) {
                     if (data && data.BaseResponse && data.BaseResponse.Ret == 0) {
@@ -6756,8 +7023,8 @@ webpackJsonp([1], [
                     })
                   });
                 return deferred.promise;
-              }
-              , /**
+              },
+              /**
                * 添加群成员
                * @param {[type]}   userName   [description]
                * @param {[type]}   addMembers [description]
@@ -6810,10 +7077,10 @@ webpackJsonp([1], [
                     method: 'POST'
                     , url: url
                     , data: postData
-                      /*,
-                      	                MMRetry:{
-                      	                    serial:true
-                      	                }*/
+                    /*,
+                    	                MMRetry:{
+                    	                    serial:true
+                    	                }*/
                   })
                   .success(function(res) {
                     //deferred.resolve(data);
@@ -6853,8 +7120,8 @@ webpackJsonp([1], [
     })();
 
     /***/
-  })
-  , /* 292 */
+  }),
+  /* 292 */
   /***/
   (function(module, exports) {
 
@@ -7074,8 +7341,8 @@ webpackJsonp([1], [
     })();
 
     /***/
-  })
-  , /* 293 */
+  }),
+  /* 293 */
   /***/
   (function(module, exports) {
 
@@ -7133,8 +7400,8 @@ webpackJsonp([1], [
             EMOTICON_REG: 'img\\sclass="(qq)?emoji (qq)?emoji([\\da-f]*?)"\\s(text="[^<>(\\s]*")?\\s?src="[^<>(\\s]*"\\s*', // img class="emoji emoji11" text="[..]" src=".."
 
 
-            RES_PATH: "/zh_CN/htmledition/v2/"
-            , // 需要用到RES_PATH的静态变量请参考 写在接近页面底部的 RES_IMG_DEFAULT
+            RES_PATH: "/zh_CN/htmledition/v2/",
+            // 需要用到RES_PATH的静态变量请参考 写在接近页面底部的 RES_IMG_DEFAULT
             API_jsLogin: "https://" + loginHost + "/jslogin?appid=wx782c26e4c19acffb&redirect_uri=" +
               encodeURIComponent(location.protocol + "//" + location.host + "/cgi-bin/mmwebwx-bin/webwxnewloginpage" +
                 (isClientVersion ? '?mod=desktop' : '')) + "&fun=new&lang=" + lang
@@ -7168,8 +7435,8 @@ webpackJsonp([1], [
             , API_webwxreport: '/cgi-bin/mmwebwx-bin/webwxstatreport'
             , API_webwxsearch: '/cgi-bin/mmwebwx-bin/webwxsearchcontact'
             , API_webwxoplog: '/cgi-bin/mmwebwx-bin/webwxoplog'
-            , API_checkupload: '/cgi-bin/mmwebwx-bin/webwxcheckupload'
-            , /*
+            , API_checkupload: '/cgi-bin/mmwebwx-bin/webwxcheckupload',
+            /*
              * 消息撤回
              * */
             API_webwxrevokemsg: '/cgi-bin/mmwebwx-bin/webwxrevokemsg'
@@ -7177,8 +7444,8 @@ webpackJsonp([1], [
             , oplogCmdId: {
               TOPCONTACT: 3
               , MODREMARKNAME: 2
-            }
-            , //
+            },
+            //
             SP_CONTACT_FILE_HELPER: "filehelper"
             , SP_CONTACT_NEWSAPP: "newsapp"
             , SP_CONTACT_RECOMMEND_HELPER: "fmessage",
@@ -7194,8 +7461,8 @@ webpackJsonp([1], [
             , CONTACTFLAG_3RDAPPCONTACT: 0x80
             , CONTACTFLAG_SNSBLACKLISTCONTACT: 0x100
             , CONTACTFLAG_NOTIFYCLOSECONTACT: 0x200
-            , CONTACTFLAG_TOPCONTACT: 0x800
-            , // verify flag
+            , CONTACTFLAG_TOPCONTACT: 0x800,
+            // verify flag
             MM_USERATTRVERIFYFALG_BIZ: 0x1, // 小商家
             MM_USERATTRVERIFYFALG_FAMOUS: 0x2
             , MM_USERATTRVERIFYFALG_BIZ_BIG: 0x4, // 大商家
@@ -7390,8 +7657,8 @@ webpackJsonp([1], [
 
 
     /***/
-  })
-  , /* 294 */
+  }),
+  /* 294 */
   /***/
   (function(module, exports) {
 
@@ -7431,8 +7698,8 @@ webpackJsonp([1], [
               , _contactsGettingList = []
               , _contactsWithErrorToGetList = []
               , _contactsGetErrMap = {}
-              , _remoteSearchCache = {}
-              , //_batchGetErrTokenMap = {},
+              , _remoteSearchCache = {},
+              //_batchGetErrTokenMap = {},
               _batchGetContinuousErrCount = 0
               , _isBatchGetting = false
               , undefined
@@ -7449,56 +7716,56 @@ webpackJsonp([1], [
                */
               isSelf: function() {
                 return accountFactory.getUserName() == this.UserName;
-              }
-              , /**
+              },
+              /**
                * 是否为正常联系人
                */
               isContact: function() {
                 return !!(this.ContactFlag & confFactory.CONTACTFLAG_CONTACT) || this.UserName == accountFactory.getUserName();
-              }
-              , /**
+              },
+              /**
                * 是否为黑名单联系人
                */
               isBlackContact: function() {
                 return !!(this.ContactFlag & confFactory.CONTACTFLAG_BLACKLISTCONTACT);
-              }
-              , /**
+              },
+              /**
                * 是否为聊天联系人
                */
               isConversationContact: function() {
                 return !!(this.ContactFlag & confFactory.CONTACTFLAG_CHATCONTACT);
-              }
-              , /**
+              },
+              /**
                * 是否为群聊
                */
               isRoomContact: function() {
                 return utilFactory.isRoomContact(this.UserName);
-              }
-              , /**
+              },
+              /**
                * 是否为已删除群聊
                */
               isRoomContactDel: function() {
                 return this.isRoomContact() && !(this.ContactFlag & confFactory.CONTACTFLAG_CHATROOMCONTACT);
-              }
-              , /**
+              },
+              /**
                * 是否自己是群聊群主
                */
               isRoomOwner: function() {
                 return this.isRoomContact() && this.IsOwner;
-              }
-              , /**
+              },
+              /**
                * 是否为公众号
                */
               isBrandContact: function() {
                 return this.VerifyFlag & confFactory.MM_USERATTRVERIFYFALG_BIZ_BRAND;
-              }
-              , /**
+              },
+              /**
                * 是否为为特殊联系人
                */
               isSpContact: function() {
                 return utilFactory.isSpUser(this.UserName);
-              }
-              , /**
+              },
+              /**
                * 是否为屏蔽联系人
                */
               isShieldUser: function() {
@@ -7507,26 +7774,26 @@ webpackJsonp([1], [
                   console.log('已屏蔽：', this.UserName, this.NickName);
                 }
                 return flag;
-              }
-              , /**
+              },
+              /**
                * 是否为文件传输助手（特殊联系人）
                */
               isFileHelper: function() {
                 return this.UserName == confFactory.SP_CONTACT_FILE_HELPER;
-              }
-              , /**
+              },
+              /**
                * 是否为文件传输助手（特殊联系人）
                */
               isRecommendHelper: function() {
                 return this.UserName == confFactory.SP_CONTACT_RECOMMEND_HELPER;
-              }
-              , /**
+              },
+              /**
                * 是否为腾讯新闻（特殊联系人）
                */
               isNewsApp: function() {
                 return this.UserName == confFactory.SP_CONTACT_NEWSAPP;
-              }
-              , /**
+              },
+              /**
                * 是否打开消息免打扰
                */
               isMuted: function() {
@@ -7535,8 +7802,8 @@ webpackJsonp([1], [
               }
               , isTop: function() {
                 return this.ContactFlag & confFactory.CONTACTFLAG_TOPCONTACT;
-              }
-              , /**
+              },
+              /**
                * 是否有朋友圈相册
                */
               hasPhotoAlbum: function() {
@@ -7566,8 +7833,8 @@ webpackJsonp([1], [
               }
               , isReadOnlyContact: function() {
                 return _readOnlyContacts.indexOf(this.UserName) > -1;
-              }
-              , /**
+              },
+              /**
                * 获取联系人`DisplayName`
                * @param chatroomUserName 可选
                */
@@ -7616,8 +7883,8 @@ webpackJsonp([1], [
                   }
 
                 }
-              }
-              , /**
+              },
+              /**
                * 是否可以通过某关键字检索
                * @param  {[type]} keyword
                * @param  {[type]} _abContainChatroomMembers [description]
@@ -7743,8 +8010,8 @@ webpackJsonp([1], [
                     })
                   });
                 return deferred.promise;
-              }
-              , /**
+              },
+              /**
                * 联系人预处理
                */
               specialContactHandler: function(contact) {
@@ -7784,8 +8051,8 @@ webpackJsonp([1], [
                 } else {
                   this.addStrangerContact(contact);
                 }
-              }
-              , /**
+              },
+              /**
                * 添加好友联系人
                */
               addFriendContact: function(contact) {
@@ -7836,8 +8103,8 @@ webpackJsonp([1], [
 
                 });
 
-              }
-              , /**
+              },
+              /**
                * 删除联系人，变为陌生人联系人
                * @param  {[type]} userName
                * @param  {[type]} contactFlag
@@ -7849,8 +8116,8 @@ webpackJsonp([1], [
                   angular.extend(contact, deleteContact);
                   _strangerContacts[deleteContact.UserName] = contact;
                 }
-              }
-              , /**
+              },
+              /**
                * 根据`userName`获取联系人
                * @param userName - 联系人名称
                * @param chatroomId
@@ -7874,15 +8141,15 @@ webpackJsonp([1], [
                   });
                 }
                 return contact;
-              }
-              , /**
+              },
+              /**
                * 获取陌生人联系人信息
                * @param  userName
                */
               getStrangerContacts: function(userName) {
                 return _strangerContacts[userName];
-              }
-              , /**
+              },
+              /**
                * 添加陌生人联系人信息
                * @param  userName
                */
@@ -7909,8 +8176,8 @@ webpackJsonp([1], [
                   url: contact.HeadImgUrl
                   , type: 'image'
                 });
-              }
-              , /**
+              },
+              /**
                * 添加群成员DisplayName，用于读取群成员昵称`DisplayName`
                * @param contact
                */
@@ -7954,8 +8221,8 @@ webpackJsonp([1], [
               }
               , inContactsGetErrMap: function(userObj) {
                 return _contactsGetErrMap[userObj.UserName];
-              }
-              , /**
+              },
+              /**
                * 添加到批量获取联系人列表
                */
               addBatchgetContact: function(userObj, isBatchNow, isHadBathGetErrorOnce) {
@@ -8108,8 +8375,8 @@ webpackJsonp([1], [
                     , ChatRoomId: ""
                   });
                 }
-              }
-              , /**
+              },
+              /**
                * batchget群成员
                * @param userName
                */
@@ -8129,8 +8396,8 @@ webpackJsonp([1], [
                     }
                   });
                 }
-              }
-              , /**
+              },
+              /**
                * 批量获取联系人信息
                */
               batchGetContact: function(errorToken) {
@@ -8176,8 +8443,8 @@ webpackJsonp([1], [
                     deferred.reject(errorToken);
                   });
                 return deferred.promise;
-              }
-              , // 不再单独batchGet群用户，直接batchGet chatroom，这样回直接返回群聊用户displayName
+              },
+              // 不再单独batchGet群用户，直接batchGet chatroom，这样回直接返回群聊用户displayName
               /*batchGetChatroomMembersContact: function (userName) {
                   var me = this,chatRoom;
                   chatRoom = me.getContact(userName);
@@ -8221,8 +8488,8 @@ webpackJsonp([1], [
                 } else {
                   return [];
                 }
-              }
-              , /**
+              },
+              /**
                * 获取全部联系人
                * @returns {{Array}}
                */
@@ -8259,8 +8526,8 @@ webpackJsonp([1], [
                 });
 
                 return contacts;
-              }
-              , /**
+              },
+              /**
                * 获取全部群组
                * options.isNewArray 是否产生新数组，避免多个地方使用同一个数组互相影响，但有不及时双向绑定问题
                * options.isSaved 是否保存到通讯录里面的群组
@@ -8290,8 +8557,8 @@ webpackJsonp([1], [
 
 
                 return contacts;
-              }
-              , /**
+              },
+              /**
                * 获取所有公众号列表
                * @param  {[type]} keyword [description]
                * @return {[type]}         [description]
@@ -8324,8 +8591,8 @@ webpackJsonp([1], [
                 });
 
                 return contacts;
-              }
-              , /**
+              },
+              /**
                * 获取好友联系人列表
                * @param  {object} options
                * @param  options.keyword
@@ -8611,8 +8878,8 @@ webpackJsonp([1], [
 
 
     /***/
-  })
-  , /* 295 */
+  }),
+  /* 295 */
   /***/
   (function(module, exports) {
 
@@ -8703,8 +8970,8 @@ webpackJsonp([1], [
 	                deferred.resolve(data);
 	            });*/
               return deferred.promise;
-            }
-            , /**
+            },
+            /**
              * 关联登录
              * @param uin
              */
@@ -8808,8 +9075,8 @@ webpackJsonp([1], [
 
 
     /***/
-  })
-  , /* 296 */
+  }),
+  /* 296 */
   /***/
   (function(module, exports, __webpack_require__) {
 
@@ -8842,8 +9109,8 @@ webpackJsonp([1], [
             , "shakeapp"
             , "medianote"
             , "qqfriend"
-            , "readerapp"
-            , //"newsapp",
+            , "readerapp",
+            //"newsapp",
             "blogapp"
             , "facebookapp"
             , "masssendapp"
@@ -9091,8 +9358,8 @@ webpackJsonp([1], [
                 browser.safari = true;
               }
               return browser;
-            })()
-            , /**
+            })(),
+            /**
              * 是否为特殊联系人，
              * @param  userName
              */
@@ -9105,8 +9372,8 @@ webpackJsonp([1], [
               }
 
               return false;
-            }
-            , /**
+            },
+            /**
              * 是否为屏蔽联系人，不显示
              * @param  userName
              */
@@ -9117,22 +9384,22 @@ webpackJsonp([1], [
                 if (_shieldUsersList[i] == userName) return true;
               }
               return false;
-            }
-            , /**
+            },
+            /**
              * 是否为群聊
              * @param  userName
              */
             isRoomContact: function(userName) {
               if (!userName) return false;
               return /^@@|@chatroom$/.test(userName); // 以@@开头或者@chatroom结尾
-            }
-            , /**
+            },
+            /**
              * 初始化音频播放器
              * @param url
              */
             initMsgNoticePlayer: function(url) {
 
-              __webpack_require__.e /* nsure */ (2 /* duplicate */ , function(require) {
+              __webpack_require__.e /* nsure */(2 /* duplicate */ , function(require) {
                 var jplayer = __webpack_require__(278);
                 var myPlayer = jQuery('#msgNoticePlayer');
                 myPlayer.jPlayer({
@@ -9149,15 +9416,15 @@ webpackJsonp([1], [
                 });
                 myPlayer.jPlayer("play");
               });
-            }
-            , /**
+            },
+            /**
              * 根据UserName获取头像URL
              * @param userName
              * @param skey
              */
             getContactHeadImgUrl: function(options) {
-              return (this.isRoomContact(options.UserName) ? confFactory.API_webwxgetheadimg : confFactory.API_webwxgeticon) + '?seq=0&username=' + options.UserName + '&skey=' + options.Skey + (options.MsgId ? ('&msgid=' + options.MsgId) :
-                '') + (options.EncryChatRoomId ? ('&chatroomid=' + options.EncryChatRoomId) : '');
+              return (this.isRoomContact(options.UserName) ? confFactory.API_webwxgetheadimg : confFactory.API_webwxgeticon) + '?seq=0&username=' + options.UserName + '&skey=' + options.Skey + (options.MsgId ? ('&msgid=' + options
+                .MsgId) : '') + (options.EncryChatRoomId ? ('&chatroomid=' + options.EncryChatRoomId) : '');
             }
             , form: function(url, data) {
               data = data || {};
@@ -9375,8 +9642,8 @@ webpackJsonp([1], [
     })();
 
     /***/
-  })
-  , /* 297 */
+  }),
+  /* 297 */
   /***/
   (function(module, exports) {
 
@@ -9449,15 +9716,15 @@ webpackJsonp([1], [
             , getMd5ByTuzki: function(name) {
               return this.Tuzki2Md5[name];
             }
-            , QQFaceList: ["微笑", "撇嘴", "色", "发呆", "得意", "流泪", "害羞", "闭嘴", "睡", "大哭", "尴尬", "发怒", "调皮", "呲牙", "惊讶", "难过", "酷", "冷汗", "抓狂", "吐", "偷笑", "愉快", "白眼", "傲慢", "饥饿", "困", "惊恐", "流汗", "憨笑", "悠闲", "奋斗", "咒骂", "疑问", "嘘", "晕", "疯了"
-              , "衰", "骷髅", "敲打", "再见", "擦汗", "抠鼻", "鼓掌", "糗大了", "坏笑", "左哼哼", "右哼哼", "哈欠", "鄙视", "委屈", "快哭了", "阴险", "亲亲", "吓", "可怜", "菜刀", "西瓜", "啤酒", "篮球", "乒乓", "咖啡", "饭", "猪头", "玫瑰", "凋谢", "嘴唇", "爱心", "心碎", "蛋糕", "闪电", "炸弹", "刀"
-              , "足球", "瓢虫", "便便", "月亮", "太阳", "礼物", "拥抱", "强", "弱", "握手", "胜利", "抱拳", "勾引", "拳头", "差劲", "爱你", "NO", "OK", "爱情", "飞吻", "跳跳", "发抖", "怄火", "转圈", "磕头", "回头", "跳绳", "投降", "激动", "乱舞", "献吻", "左太极", "右太极"
+            , QQFaceList: ["微笑", "撇嘴", "色", "发呆", "得意", "流泪", "害羞", "闭嘴", "睡", "大哭", "尴尬", "发怒", "调皮", "呲牙", "惊讶", "难过", "酷", "冷汗", "抓狂", "吐", "偷笑", "愉快", "白眼", "傲慢", "饥饿", "困", "惊恐", "流汗", "憨笑", "悠闲", "奋斗", "咒骂", "疑问", "嘘", "晕", "疯了",
+              "衰", "骷髅", "敲打", "再见", "擦汗", "抠鼻", "鼓掌", "糗大了", "坏笑", "左哼哼", "右哼哼", "哈欠", "鄙视", "委屈", "快哭了", "阴险", "亲亲", "吓", "可怜", "菜刀", "西瓜", "啤酒", "篮球", "乒乓", "咖啡", "饭", "猪头", "玫瑰", "凋谢", "嘴唇", "爱心", "心碎", "蛋糕", "闪电", "炸弹", "刀",
+              "足球", "瓢虫", "便便", "月亮", "太阳", "礼物", "拥抱", "强", "弱", "握手", "胜利", "抱拳", "勾引", "拳头", "差劲", "爱你", "NO", "OK", "爱情", "飞吻", "跳跳", "发抖", "怄火", "转圈", "磕头", "回头", "跳绳", "投降", "激动", "乱舞", "献吻", "左太极", "右太极"
             ]
-            , EmojiList: ["笑脸", "生病", "破涕为笑", "吐舌", "脸红", "恐惧", "失望", "无语", '嘿哈', '捂脸', '奸笑', '机智', '皱眉', '耶', "鬼魂", '合十', "强壮", "庆祝", "礼物", '红包', '鸡', "开心", "大笑", "热情", "眨眼", "色", "接吻", "亲吻", "露齿笑", "满意", "戏弄", "得意", "汗", "低落", "呸"
-              , "焦虑", "担心", "震惊", "悔恨", "眼泪", "哭", "晕", "心烦", "生气", "睡觉", "恶魔", "外星人", "心", "心碎", "丘比特", "闪烁", "星星", "叹号", "问号", "睡着", "水滴", "音乐", "火", "便便", "弱", "拳头", "胜利", "上", "下", "右", "左", "第一", "吻", "热恋", "男孩", "女孩", "女士"
-              , "男士", "天使", "骷髅", "红唇", "太阳", "下雨", "多云", "雪人", "月亮", "闪电", "海浪", "猫", "小狗", "老鼠", "仓鼠", "兔子", "狗", "青蛙", "老虎", "考拉", "熊", "猪", "牛", "野猪", "猴子", "马", "蛇", "鸽子", "鸡", "企鹅", "毛虫", "章鱼", "鱼", "鲸鱼", "海豚", "玫瑰", "花", "棕榈树"
-              , "仙人掌", "礼盒", "南瓜灯", "圣诞老人", "圣诞树", "礼物", "铃", "气球", "CD", "相机", "录像机", "电脑", "电视", "电话", "解锁", "锁", "钥匙", "成交", "灯泡", "邮箱", "浴缸", "钱", "炸弹", "手枪", "药丸", "橄榄球", "篮球", "足球", "棒球", "高尔夫", "奖杯", "入侵者", "唱歌", "吉他", "比基尼"
-              , "皇冠", "雨伞", "手提包", "口红", "戒指", "钻石", "咖啡", "啤酒", "干杯", "鸡尾酒", "汉堡", "薯条", "意面", "寿司", "面条", "煎蛋", "冰激凌", "蛋糕", "苹果", "飞机", "火箭", "自行车", "高铁", "警告", "旗", "男人", "女人", "O", "X", "版权", "注册商标", "商标"
+            , EmojiList: ["笑脸", "生病", "破涕为笑", "吐舌", "脸红", "恐惧", "失望", "无语", '嘿哈', '捂脸', '奸笑', '机智', '皱眉', '耶', "鬼魂", '合十', "强壮", "庆祝", "礼物", '红包', '鸡', "开心", "大笑", "热情", "眨眼", "色", "接吻", "亲吻", "露齿笑", "满意", "戏弄", "得意", "汗", "低落", "呸",
+              "焦虑", "担心", "震惊", "悔恨", "眼泪", "哭", "晕", "心烦", "生气", "睡觉", "恶魔", "外星人", "心", "心碎", "丘比特", "闪烁", "星星", "叹号", "问号", "睡着", "水滴", "音乐", "火", "便便", "弱", "拳头", "胜利", "上", "下", "右", "左", "第一", "吻", "热恋", "男孩", "女孩", "女士", "男士",
+              "天使", "骷髅", "红唇", "太阳", "下雨", "多云", "雪人", "月亮", "闪电", "海浪", "猫", "小狗", "老鼠", "仓鼠", "兔子", "狗", "青蛙", "老虎", "考拉", "熊", "猪", "牛", "野猪", "猴子", "马", "蛇", "鸽子", "鸡", "企鹅", "毛虫", "章鱼", "鱼", "鲸鱼", "海豚", "玫瑰", "花", "棕榈树", "仙人掌",
+              "礼盒", "南瓜灯", "圣诞老人", "圣诞树", "礼物", "铃", "气球", "CD", "相机", "录像机", "电脑", "电视", "电话", "解锁", "锁", "钥匙", "成交", "灯泡", "邮箱", "浴缸", "钱", "炸弹", "手枪", "药丸", "橄榄球", "篮球", "足球", "棒球", "高尔夫", "奖杯", "入侵者", "唱歌", "吉他", "比基尼", "皇冠",
+              "雨伞", "手提包", "口红", "戒指", "钻石", "咖啡", "啤酒", "干杯", "鸡尾酒", "汉堡", "薯条", "意面", "寿司", "面条", "煎蛋", "冰激凌", "蛋糕", "苹果", "飞机", "火箭", "自行车", "高铁", "警告", "旗", "男人", "女人", "O", "X", "版权", "注册商标", "商标"
             ]
             , QQFaceMap: {
               "微笑": "0"
@@ -9772,16 +10039,16 @@ webpackJsonp([1], [
               , "轉圈": "95"
               , "磕頭": "96"
               , "回頭": "97"
-              , "跳繩": "98"
-              , //"投降": "99", // 简体有了
+              , "跳繩": "98",
+              //"投降": "99", // 简体有了
               "激動": "100"
               , "亂舞": "101"
               , "獻吻": "102"
               , "左太極": "103"
               , "右太極": "104"
               , "吼嘿": "105"
-              , "掩面": "106"
-              , // "奸笑": "107", // 和简体一样
+              , "掩面": "106",
+              // "奸笑": "107", // 和简体一样
               "機智": "108"
               , "皺眉": "109"
               , "歐耶": "110"
@@ -10488,8 +10755,8 @@ webpackJsonp([1], [
     })();
 
     /***/
-  })
-  , /* 298 */
+  }),
+  /* 298 */
   /***/
   (function(module, exports) {
 
@@ -10521,8 +10788,8 @@ webpackJsonp([1], [
     })();
 
     /***/
-  })
-  , /* 299 */
+  }),
+  /* 299 */
   /***/
   (function(module, exports) {
 
@@ -10628,8 +10895,8 @@ webpackJsonp([1], [
     })();
 
     /***/
-  })
-  , /* 300 */
+  }),
+  /* 300 */
   /***/
   (function(module, exports) {
 
@@ -10693,25 +10960,29 @@ webpackJsonp([1], [
 
           function getNotification(title, options) {
             var notification;
-            if (window.Notification) { /* Safari 6, Chrome (23+) */
+            if (window.Notification) {
+              /* Safari 6, Chrome (23+) */
               notification = new window.Notification(title, {
                 /* The notification's icon - For Chrome in Windows, Linux & Chrome OS */
-                icon: angular.isString(options.icon) ? options.icon : options.icon.x32
-                , /* The notification’s subtitle. */
-                body: options.body || emptyString
-                , /*
+                icon: angular.isString(options.icon) ? options.icon : options.icon.x32,
+                /* The notification’s subtitle. */
+                body: options.body || emptyString,
+                /*
                  The notification’s unique identifier.
                  This prevents duplicate entries from appearing if the user has multiple instances of your website open at once.
                  */
                 tag: options.tag || emptyString
               });
-            } else if (window.webkitNotifications) { /* FF with html5Notifications plugin installed */
+            } else if (window.webkitNotifications) {
+              /* FF with html5Notifications plugin installed */
               notification = window.webkitNotifications.createNotification(options.icon, title, options.body);
               notification.show();
-            } else if (navigator.mozNotification) { /* Firefox Mobile */
+            } else if (navigator.mozNotification) {
+              /* Firefox Mobile */
               notification = navigator.mozNotification.createNotification(title, options.body, options.icon);
               notification.show();
-            } else if (window.external && window.external.msIsSiteMode()) { /* IE9+ */
+            } else if (window.external && window.external.msIsSiteMode()) {
+              /* IE9+ */
               //Clear any previous notifications
               window.external.msSiteModeClearIconOverlay();
               window.external.msSiteModeSetIconOverlay((angular.isString(options.icon) ? options.icon : options.icon.x16), title);
@@ -10771,7 +11042,8 @@ webpackJsonp([1], [
             } else if (navigator.mozNotification) {
               //Firefox Mobile
               permission = PERMISSION_GRANTED;
-            } else if (window.external && (window.external.msIsSiteMode() !== undefined)) { /* keep last */
+            } else if (window.external && (window.external.msIsSiteMode() !== undefined)) {
+              /* keep last */
               //IE9+
               permission = window.external.msIsSiteMode() ? PERMISSION_GRANTED : PERMISSION_DEFAULT;
             }
@@ -10844,8 +11116,8 @@ webpackJsonp([1], [
     })();
 
     /***/
-  })
-  , /* 301 */
+  }),
+  /* 301 */
   /***/
   (function(module, exports) {
 
@@ -10994,8 +11266,8 @@ webpackJsonp([1], [
 
 
     /***/
-  })
-  , /* 302 */
+  }),
+  /* 302 */
   /***/
   (function(module, exports) {
 
@@ -11132,8 +11404,8 @@ webpackJsonp([1], [
     })();
 
     /***/
-  })
-  , /* 303 */
+  }),
+  /* 303 */
   /***/
   (function(module, exports) {
 
@@ -11161,8 +11433,8 @@ webpackJsonp([1], [
 
 
     /***/
-  })
-  , /* 304 */
+  }),
+  /* 304 */
   /***/
   (function(module, exports) {
 
@@ -11364,17 +11636,17 @@ webpackJsonp([1], [
               .unload(function() {
                 runTimeReportMap['unload'] = analyze($rootScope);
                 storageList.push({
-                  type: ReportType.runtime
-                  , data: runTimeReportMap
-                })
+                    type: ReportType.runtime
+                    , data: runTimeReportMap
+                  })
 
 
-                !isTimingSended && storageList.push({
-                  type: ReportType.timing
-                  , data: {
-                    fullTiming: getTiming()
-                  }
-                })
+                  !isTimingSended && storageList.push({
+                    type: ReportType.timing
+                    , data: {
+                      fullTiming: getTiming()
+                    }
+                  })
 
                 localStorage.setItem(REPORT_KEY, JSON.stringify(storageList))
               });
@@ -11497,8 +11769,8 @@ webpackJsonp([1], [
     })();
 
     /***/
-  })
-  , /* 305 */
+  }),
+  /* 305 */
   /***/
   (function(module, exports, __webpack_require__) {
 
@@ -11543,8 +11815,8 @@ webpackJsonp([1], [
     })();
 
     /***/
-  })
-  , /* 306 */
+  }),
+  /* 306 */
   /***/
   (function(module, exports, __webpack_require__) {
 
@@ -11716,8 +11988,8 @@ webpackJsonp([1], [
     });
 
     /***/
-  })
-  , /* 307 */
+  }),
+  /* 307 */
   /***/
   (function(module, exports) {
 
@@ -11871,8 +12143,8 @@ webpackJsonp([1], [
     })()
 
     /***/
-  })
-  , /* 308 */
+  }),
+  /* 308 */
   /***/
   (function(module, exports) {
 
@@ -11907,8 +12179,8 @@ webpackJsonp([1], [
     })()
 
     /***/
-  })
-  , /* 309 */
+  }),
+  /* 309 */
   /***/
   (function(module, exports) {
 
@@ -12025,8 +12297,8 @@ webpackJsonp([1], [
 
 
     /***/
-  })
-  , /* 310 */
+  }),
+  /* 310 */
   /***/
   (function(module, exports) {
 
@@ -12102,8 +12374,8 @@ webpackJsonp([1], [
 
 
     /***/
-  })
-  , /* 311 */
+  }),
+  /* 311 */
   /***/
   (function(module, exports) {
 
@@ -12126,8 +12398,8 @@ webpackJsonp([1], [
     })();
 
     /***/
-  })
-  , /* 312 */
+  }),
+  /* 312 */
   /***/
   (function(module, exports) {
 
@@ -12152,8 +12424,8 @@ webpackJsonp([1], [
       }]);
 
     /***/
-  })
-  , /* 313 */
+  }),
+  /* 313 */
   /***/
   (function(module, exports) {
 
@@ -12173,8 +12445,8 @@ webpackJsonp([1], [
       }]);
 
     /***/
-  })
-  , /* 314 */
+  }),
+  /* 314 */
   /***/
   (function(module, exports) {
 
@@ -12476,8 +12748,8 @@ webpackJsonp([1], [
       });
 
     /***/
-  })
-  , /* 315 */
+  }),
+  /* 315 */
   /***/
   (function(module, exports) {
 
@@ -12624,8 +12896,8 @@ webpackJsonp([1], [
       }]);
 
     /***/
-  })
-  , /* 316 */
+  }),
+  /* 316 */
   /***/
   (function(module, exports) {
 
@@ -12665,8 +12937,8 @@ webpackJsonp([1], [
     })();
 
     /***/
-  })
-  , /* 317 */
+  }),
+  /* 317 */
   /***/
   (function(module, exports) {
 
@@ -12755,8 +13027,8 @@ webpackJsonp([1], [
     })();
 
     /***/
-  })
-  , /* 318 */
+  }),
+  /* 318 */
   /***/
   (function(module, exports) {
 
@@ -12803,8 +13075,8 @@ webpackJsonp([1], [
     })();
 
     /***/
-  })
-  , /* 319 */
+  }),
+  /* 319 */
   /***/
   (function(module, exports) {
 
@@ -12838,8 +13110,8 @@ webpackJsonp([1], [
     })();
 
     /***/
-  })
-  , /* 320 */
+  }),
+  /* 320 */
   /***/
   (function(module, exports) {
 
@@ -12939,8 +13211,8 @@ webpackJsonp([1], [
     }(angular));
 
     /***/
-  })
-  , /* 321 */
+  }),
+  /* 321 */
   /***/
   (function(module, exports, __webpack_require__) {
 
@@ -12969,7 +13241,7 @@ webpackJsonp([1], [
               }
 
               function init() {
-                __webpack_require__.e /* nsure */ (2 /* duplicate */ , function(require) {
+                __webpack_require__.e /* nsure */(2 /* duplicate */ , function(require) {
                   var jplayer = __webpack_require__(278);
                   jQuery(element)
                     .jPlayer({
@@ -13069,8 +13341,8 @@ webpackJsonp([1], [
 
 
     /***/
-  })
-  , /* 322 */
+  }),
+  /* 322 */
   /***/
   (function(module, exports) {
 
@@ -13433,8 +13705,8 @@ webpackJsonp([1], [
       });
 
     /***/
-  })
-  , /* 323 */
+  }),
+  /* 323 */
   /***/
   (function(module, exports) {
 
@@ -13447,8 +13719,8 @@ webpackJsonp([1], [
               , lazyload = function() {
                 $("img.lazy")
                   .lazyload({
-                    "container": element
-                    , //"effect": "fadeIn",
+                    "container": element,
+                    //"effect": "fadeIn",
                     "event": e
                   });
               };
@@ -13465,8 +13737,8 @@ webpackJsonp([1], [
               , lazyload = function() {
                 $("img.lazy")
                   .lazyload({
-                    "container": element
-                    , //"effect": "fadeIn",
+                    "container": element,
+                    //"effect": "fadeIn",
                     "event": e
                   });
               }
@@ -13537,8 +13809,8 @@ webpackJsonp([1], [
       });
 
     /***/
-  })
-  , /* 324 */
+  }),
+  /* 324 */
   /***/
   (function(module, exports, __webpack_require__) {
 
@@ -14015,8 +14287,8 @@ webpackJsonp([1], [
     }));
 
     /***/
-  })
-  , /* 325 */
+  }),
+  /* 325 */
   /***/
   (function(module, exports) {
 
@@ -14190,8 +14462,8 @@ webpackJsonp([1], [
               }
             } else {
               console.log('pre', 'callcalc')
-                /* if(!item._calcing){
-                     item._calcing = true;*/
+              /* if(!item._calcing){
+                   item._calcing = true;*/
               heightCalc(item, (function(item) {
                 return function(height) {
                   item._h = height;
@@ -14232,8 +14504,8 @@ webpackJsonp([1], [
         return {
           restrict: 'EA'
           , priority: 1000
-          , scope: true
-          , /*{
+          , scope: true,
+          /*{
           	                heightCalc:"=",
           	                bufferHeight:"="
           	            },*/
@@ -14368,8 +14640,8 @@ webpackJsonp([1], [
       }])
 
     /***/
-  })
-  , /* 326 */
+  }),
+  /* 326 */
   /***/
   (function(module, exports) {
 
@@ -14559,8 +14831,8 @@ webpackJsonp([1], [
       }])
 
     /***/
-  })
-  , /* 327 */
+  }),
+  /* 327 */
   /***/
   (function(module, exports) {
 
@@ -14631,8 +14903,8 @@ webpackJsonp([1], [
       }]);
 
     /***/
-  })
-  , /* 328 */
+  }),
+  /* 328 */
   /***/
   (function(module, exports) {
 
@@ -14861,8 +15133,8 @@ webpackJsonp([1], [
       ]);
 
     /***/
-  })
-  , /* 329 */
+  }),
+  /* 329 */
   /***/
   (function(module, exports) {
 
@@ -15066,8 +15338,8 @@ webpackJsonp([1], [
       ])
 
     /***/
-  })
-  , /* 330 */
+  }),
+  /* 330 */
   /***/
   (function(module, exports) {
 
@@ -15238,8 +15510,8 @@ webpackJsonp([1], [
       ]);
 
     /***/
-  })
-  , /* 331 */
+  }),
+  /* 331 */
   /***/
   (function(module, exports) {
 
@@ -15356,7 +15628,7 @@ webpackJsonp([1], [
                   imgTmp.onload = function() {
                     attr.$set(name, imgTmp.src);
                     console.log(imgTmp.src, imgTmp, node.complete)
-                      //setTimeout(function(){
+                    //setTimeout(function(){
                     clearImgTmp();
                     // },0)
 
@@ -15391,8 +15663,8 @@ webpackJsonp([1], [
       }])
 
     /***/
-  })
-  , /* 332 */
+  }),
+  /* 332 */
   /***/
   (function(module, exports) {
 
@@ -15462,8 +15734,8 @@ webpackJsonp([1], [
       ])
 
     /***/
-  })
-  , /* 333 */
+  }),
+  /* 333 */
   /***/
   (function(module, exports) {
 
@@ -15499,8 +15771,8 @@ webpackJsonp([1], [
           return {
             restrict: 'EA'
             , scope: {
-              selectList: '='
-              , //contactList:'=',
+              selectList: '=',
+              //contactList:'=',
               pickConfig: '='
               , initList: '='
             }
@@ -15577,24 +15849,24 @@ webpackJsonp([1], [
                * @param  {[type]} contact
                */
               $scope.toggleUser = function(contact) {
-                  $scope.current = contact;
-                  var index = _isCheck(contact.UserName);
-                  if ($scope.keyword) {
-                    $scope.keyword = '';
-                    $scope.current = undefined;
-                    $scope.search();
-                  }
-
-                  if (index == -1) {
-                    $scope.selectList.push(contact);
-                  } else {
-                    $scope.selectList.splice(index, 1);
-                  }
+                $scope.current = contact;
+                var index = _isCheck(contact.UserName);
+                if ($scope.keyword) {
+                  $scope.keyword = '';
+                  $scope.current = undefined;
+                  $scope.search();
                 }
-                /**
-                 * 点击删除选择联系人
-                 * @param  {[type]} userName
-                 */
+
+                if (index == -1) {
+                  $scope.selectList.push(contact);
+                } else {
+                  $scope.selectList.splice(index, 1);
+                }
+              }
+              /**
+               * 点击删除选择联系人
+               * @param  {[type]} userName
+               */
               $scope.delUser = function(userName) {
                 var index = _isCheck(userName);
                 if (index > -1) {
@@ -15710,8 +15982,8 @@ webpackJsonp([1], [
       ])
 
     /***/
-  })
-  , /* 334 */
+  }),
+  /* 334 */
   /***/
   (function(module, exports) {
 
@@ -15798,10 +16070,10 @@ webpackJsonp([1], [
 
                   prevTimeStamp = e.timeStamp;
                   actionTrack.addRecord({
-                      type: 'click'
-                      , action: opt.target
-                    })
-                    /*    utilFactory.fitRun('trackClick',function(){
+                    type: 'click'
+                    , action: opt.target
+                  })
+                  /*    utilFactory.fitRun('trackClick',function(){
 	
 	                            },100,200);*/
 
@@ -15854,8 +16126,8 @@ webpackJsonp([1], [
       ]);
 
     /***/
-  })
-  , /* 335 */
+  }),
+  /* 335 */
   /***/
   (function(module, exports) {
 
@@ -15882,8 +16154,8 @@ webpackJsonp([1], [
       }]);
 
     /***/
-  })
-  , /* 336 */
+  }),
+  /* 336 */
   /***/
   (function(module, exports, __webpack_require__) {
 
@@ -15920,7 +16192,7 @@ webpackJsonp([1], [
           , };
 
           function initZeroClipboard() {
-            __webpack_require__.e /* nsure */ (4, function(require) {
+            __webpack_require__.e /* nsure */(4, function(require) {
               var ZeroClipboard = __webpack_require__(337);
               ZeroClipboard.config(angular.extend(config, ngClip.config || {}));
             });
@@ -15944,7 +16216,7 @@ webpackJsonp([1], [
           , restrict: 'A'
           , link: function(scope, element, attrs) {
             // Bind a fallback function if flash is unavailable
-            __webpack_require__.e /* nsure */ (4 /* duplicate */ , function(require) {
+            __webpack_require__.e /* nsure */(4 /* duplicate */ , function(require) {
               var ZeroClipboard = __webpack_require__(337);
               if (ZeroClipboard.isFlashUnusable()) {
                 element.bind('click', function($event) {
@@ -15989,9 +16261,10 @@ webpackJsonp([1], [
     })(window, window.angular);
 
     /***/
-  })
-  , /* 337 */
-  , /* 338 */
+  }),
+  /* 337 */
+  ,
+  /* 338 */
   /***/
   (function(module, exports) {
 
@@ -16072,8 +16345,8 @@ webpackJsonp([1], [
     })();
 
     /***/
-  })
-  , /* 339 */
+  }),
+  /* 339 */
   /***/
   (function(module, exports) {
 
