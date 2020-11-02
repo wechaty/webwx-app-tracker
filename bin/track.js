@@ -56,7 +56,7 @@ function gitDiff() {
 }
 
 function gitCommit(message) {
-  execSync('git commit -am "' + message + '"')
+  execSync('git -c "user.name=Mike BO" -c "user.email=mike@zixia.net" commit -am "' + message + '"')
 }
 
 function gitPull() {
