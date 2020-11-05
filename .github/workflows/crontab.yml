@@ -2,7 +2,7 @@ name: "Track Webwx Update"
 on:
   push:
   schedule:
-  - cron: 0 * * * *
+  - cron: 0 5 * * *
 
 jobs:
   build:
