@@ -1,4 +1,4 @@
-webpackJsonp([1],[
+webpackJsonp([2],[
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2231,7 +2231,7 @@ webpackJsonp([1],[
 	                        if(!$scope.$$phase) $scope.$digest();
 	                    };
 	                $scope.playVoice = function (message) {
-	                    __webpack_require__.e/* nsure */(2, function (require) {
+	                    __webpack_require__.e/* nsure */(3, function (require) {
 	                        var jplayer = __webpack_require__(278);
 	                        var voicePlayer = jQuery('#voiceMsgPlayer');
 	                        if(window.MMplayingMsg){
@@ -3236,7 +3236,7 @@ webpackJsonp([1],[
 	
 	        var uploader;
 	        function initWebUploader(){
-	            __webpack_require__.e/* nsure */(3, function(require){
+	            __webpack_require__.e/* nsure */(4, function(require){
 	                var WebUploader = __webpack_require__(281);
 	                window.WebUploader = WebUploader;
 	                // 系统没有安装flash、浏览器不支持H5上传时，傻逼webuploader会抛出异常，要自己捕获
@@ -8798,7 +8798,7 @@ webpackJsonp([1],[
 	         */
 	        initMsgNoticePlayer:function (url) {
 	
-	            __webpack_require__.e/* nsure */(2/* duplicate */, function (require) {
+	            __webpack_require__.e/* nsure */(3/* duplicate */, function (require) {
 	                var jplayer = __webpack_require__(278);
 	                var myPlayer = jQuery('#msgNoticePlayer');
 	                myPlayer.jPlayer({
@@ -12328,7 +12328,7 @@ webpackJsonp([1],[
 	                    }
 	
 	                    function init(){
-	                        __webpack_require__.e/* nsure */(2/* duplicate */, function (require) {
+	                        __webpack_require__.e/* nsure */(3/* duplicate */, function (require) {
 	                            var jplayer = __webpack_require__(278);
 	                            jQuery(element).jPlayer({
 	                                ready: function () {
@@ -15098,7 +15098,7 @@ webpackJsonp([1],[
 	                forceHandCursor: true,
 	            };
 	            function initZeroClipboard(){
-	                __webpack_require__.e/* nsure */(4, function (require) {
+	                __webpack_require__.e/* nsure */(5, function (require) {
 	                    var ZeroClipboard = __webpack_require__(337);
 	                    ZeroClipboard.config(angular.extend(config, ngClip.config || {}));
 	                });
@@ -15121,7 +15121,7 @@ webpackJsonp([1],[
 	                restrict: 'A',
 	                link: function (scope, element, attrs) {
 	                    // Bind a fallback function if flash is unavailable
-	                    __webpack_require__.e/* nsure */(4/* duplicate */, function (require) {
+	                    __webpack_require__.e/* nsure */(5/* duplicate */, function (require) {
 	                        var ZeroClipboard = __webpack_require__(337);
 	                        if (ZeroClipboard.isFlashUnusable()) {
 	                            element.bind('click', function($event) {

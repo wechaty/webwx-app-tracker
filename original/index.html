@@ -21,7 +21,7 @@
     <script type="text/javascript" src="//res.wx.qq.com/a/wx_fed/webwx/res/json3.min.js"></script>
 
     <![endif]-->
-<link rel="stylesheet" href="//res.wx.qq.com/a/wx_fed/webwx/res/static/css/c8dda94a1c135ba17e5706ebc4aab1bf.css"/></head>
+<link rel="stylesheet" href="//res.wx.qq.com/t/wx_fed/webwx/res/static/css/1ea01a54529e34fc5dbefb04eaf06510.css"/></head>
 <body draggable="false" mm-action-track track-type='resize' ng-controller="appController" ng-class="{loaded:isLoaded,unlogin:isUnLogin}" ng-click="appClick($event)">
     <canvas style="position:absolute;top:0;left:0;bottom:0;right:0;z-index:-1;width:100%;height:100%;" id="heroCanvas"></canvas>
 
@@ -42,7 +42,7 @@
         <!--BEGIN login_box-->
         <div class="login_box">
             <div class="qrcode" ng-class="{hide: isScan || isAssociationLogin || isBrokenNetwork}">
-                <img class="img" mm-error="qrcodeException()" ng-class="{'qrcode_expired': isNeedRefresh}" mm-src="{{qrcodeUrl}}"  mm-src-load="qrcodeLoad" mm-src-parallel mm-src-timeout="10" mm-src-retry-count="2" src="//res.wx.qq.com/a/wx_fed/webwx/res/static/img/2z6meE1.gif">
+                <img class="img" mm-error="qrcodeException()" ng-class="{'qrcode_expired': isNeedRefresh}" mm-src="{{qrcodeUrl}}"  mm-src-load="qrcodeLoad" mm-src-parallel mm-src-timeout="10" mm-src-retry-count="2" src="//res.wx.qq.com/t/wx_fed/webwx/res/static/img/2z6meE1.gif">
                 <div ng-show="!isNeedRefresh">
                     <p class="sub_title">使用手机微信扫码登录</p>
                     <p class="sub_desc" ng-if="showPrivacyTips">
@@ -60,7 +60,7 @@
                 </div>
             </div>
             <div class="avatar" ng-class="{show: !isAssociationLogin && !isBrokenNetwork && isScan}">
-                <img class="img" mm-src="{{userAvatar}}" alt="" src="//res.wx.qq.com/a/wx_fed/webwx/res/static/img/2KriyDK.png"/>
+                <img class="img" mm-src="{{userAvatar}}" alt="" src="//res.wx.qq.com/t/wx_fed/webwx/res/static/img/2KriyDK.png"/>
                 <!-- <h4 class="sub_title">扫描成功</h4> -->
                 <!-- <p class="tips">请在手机上点击确认以登录</p> -->
                 <a href="javascript:;" ng-click="isScan = false;" class="action">切换帐号</a>
@@ -70,7 +70,7 @@
                                     </p>
             </div>
             <div class="association" ng-class="{show: isAssociationLogin && !isBrokenNetwork}">
-                <img class="img" mm-src="{{userAvatar}}" alt="" src="//res.wx.qq.com/a/wx_fed/webwx/res/static/img/2KriyDK.png"/>
+                <img class="img" mm-src="{{userAvatar}}" alt="" src="//res.wx.qq.com/t/wx_fed/webwx/res/static/img/2KriyDK.png"/>
                 <p ng-show="isWaitingAsConfirm" class="waiting_confirm">请在手机点击确认登录</p>
                 <a href="javascript:;" ng-show="!isWaitingAsConfirm" ng-click="associationLogin()" class="button button_primary">登录</a>
                 <a href="javascript:;" ng-click="qrcodeLogin()" class="button button_default">切换帐号</a>
@@ -123,7 +123,7 @@
     <!--BEGIN header-->
     <div class="header">
         <div class="avatar">
-            <img class="img" src="//res.wx.qq.com/a/wx_fed/webwx/res/static/img/2KriyDK.png" mm-src="{{account.HeadImgUrl}}"  ng-click="showProfile($event)"/>
+            <img class="img" src="//res.wx.qq.com/t/wx_fed/webwx/res/static/img/2KriyDK.png" mm-src="{{account.HeadImgUrl}}"  ng-click="showProfile($event)"/>
         </div>
         <div class="info">
             <h3 class="nickname">
@@ -210,7 +210,7 @@
             <a class="web_wechat_delete_friends" ng-click="$parent.isShowDelIcon=!($parent.isShowDelIcon)"></a>
         </div>
         <div class="member" ng-repeat="item in currentContact.MemberList" title="{{getUserContact(item.UserName,currentContact.UserName).getDisplayName(currentContact.UserName)|emojiHideFilter}}">
-            <img class="avatar" src="//res.wx.qq.com/a/wx_fed/webwx/res/static/img/2KriyDK.png" mm-src="{{getUserContact(item.UserName,currentContact.UserName).HeadImgUrl}}" alt="" ng-click="showProfile($event,item.UserName)" title=""/>
+            <img class="avatar" src="//res.wx.qq.com/t/wx_fed/webwx/res/static/img/2KriyDK.png" mm-src="{{getUserContact(item.UserName,currentContact.UserName).HeadImgUrl}}" alt="" ng-click="showProfile($event,item.UserName)" title=""/>
             <p class="nickname" ng-bind-html="getUserContact(item.UserName,currentContact.UserName).getDisplayName(currentContact.UserName)"></p>
             <div class="opt" ng-if="$parent.isShowDelIcon && item.UserName != accountUserName"><i class="web_wechat_delete" ng-click="removeMemberFromChatroom(currentContact.UserName,item.UserName)"></i></div>
         </div>
@@ -220,7 +220,7 @@
             <i class="web_wechat_add_friends" ng-click="createChatroom()"></i>
         </div>
         <div class="member" href="javascript:;">
-            <img class="avatar" src="//res.wx.qq.com/a/wx_fed/webwx/res/static/img/2z6meE1.gif" mm-src="{{getUserContact(currentContact.UserName).HeadImgUrl}}" alt="" ng-click="showProfile($event,currentContact.UserName)" title=""/>
+            <img class="avatar" src="//res.wx.qq.com/t/wx_fed/webwx/res/static/img/2z6meE1.gif" mm-src="{{getUserContact(currentContact.UserName).HeadImgUrl}}" alt="" ng-click="showProfile($event,currentContact.UserName)" title=""/>
             <p class="nickname" ng-bind-html="getUserContact(currentContact.UserName).getDisplayName()"></p>
         </div>
     </div>
@@ -302,7 +302,7 @@
         <div mm-repeat="member in memberList" data-height="52" data-buffer-height="200" data-scroll-container=".at_wrp" data-no-cache="true">
             <div  class="item" ng-class="{'on': (selectIndex == member._index)}" ng-click="click($event)" username="{{member.UserName}}" displayname="{{member.getDisplayName(chatRoomUserName)}}">
                 <div class="avatar">
-                    <img class="img" src="//res.wx.qq.com/a/wx_fed/webwx/res/static/img/2KriyDK.png" mm-src="{{member.HeadImgUrl}}" alt=""/>
+                    <img class="img" src="//res.wx.qq.com/t/wx_fed/webwx/res/static/img/2KriyDK.png" mm-src="{{member.HeadImgUrl}}" alt=""/>
                 </div>
                 <div class="info">
                     <h4 class="nickname" ng-bind-html="member.getDisplayName(chatRoomUserName)"></h4>
@@ -319,8 +319,8 @@
     <h3 class="title">发送图片</h3>
 </div>
 <div class="dialog_bd">
-    <img class="loading" ng-show="!src" src="//res.wx.qq.com/a/wx_fed/webwx/res/static/img/a7Nznaj.gif" alt=""/>
-    <img class="img" src="//res.wx.qq.com/a/wx_fed/webwx/res/static/img/2z6meE1.gif" mm-src="{{src}}" alt=""/>
+    <img class="loading" ng-show="!src" src="//res.wx.qq.com/t/wx_fed/webwx/res/static/img/a7Nznaj.gif" alt=""/>
+    <img class="img" src="//res.wx.qq.com/t/wx_fed/webwx/res/static/img/2z6meE1.gif" mm-src="{{src}}" alt=""/>
     <span class="vm_box"></span>
 </div>
 <div class="dialog_ft">
@@ -332,7 +332,7 @@
 <div class="profile">
 
     <div class="avatar">
-        <img class="img" src="//res.wx.qq.com/a/wx_fed/webwx/res/static/img/2KriyDK.png" mm-src="{{user.HeadImgUrl + '&type=big'}}" alt="">
+        <img class="img" src="//res.wx.qq.com/t/wx_fed/webwx/res/static/img/2KriyDK.png" mm-src="{{user.HeadImgUrl + '&type=big'}}" alt="">
     </div>
 
     <div class="nickname_area">
@@ -384,7 +384,7 @@
 <script type="text/ng-template" id="miniUserProfile.html">
 <div class="profile_mini">
     <div class="profile_mini_hd">
-        <img class="avatar" src="//res.wx.qq.com/a/wx_fed/webwx/res/static/img/2KriyDK.png" mm-src="{{contact.HeadImgUrl + '&type=big'}}" alt="">
+        <img class="avatar" src="//res.wx.qq.com/t/wx_fed/webwx/res/static/img/2KriyDK.png" mm-src="{{contact.HeadImgUrl + '&type=big'}}" alt="">
         <div class="filter" style="background: url('{{contact.HeadImgUrl}}') no-repeat center bottom; -webkit-background-size: 230px 170px;">
         </div>
         <div class="darken"></div>
@@ -422,7 +422,7 @@
 <div class="profile_mini">
     <div class="profile_mini_hd">
         <div class="avatar">
-            <img class="img" src="//res.wx.qq.com/a/wx_fed/webwx/res/static/img/2KriyDK.png" mm-src="{{contact.HeadImgUrl + '&type=big'}}" alt="">
+            <img class="img" src="//res.wx.qq.com/t/wx_fed/webwx/res/static/img/2KriyDK.png" mm-src="{{contact.HeadImgUrl + '&type=big'}}" alt="">
         </div>
     </div>
     <div class="profile_mini_bd">
@@ -495,7 +495,7 @@
     <h4 class="contact_title" ng-if="showOrderSymbol&&user.MMC">{{user.MMC}}</h4>
     <div class="contact_item {{className}}" ng-click="clickUserCallback && clickUserCallback(user)">
         <div class="avatar">
-            <img class="img lazy" src="//res.wx.qq.com/a/wx_fed/webwx/res/static/img/2KriyDK.png" mm-src="{{user.HeadImgUrl}}" alt=""/>
+            <img class="img lazy" src="//res.wx.qq.com/t/wx_fed/webwx/res/static/img/2KriyDK.png" mm-src="{{user.HeadImgUrl}}" alt=""/>
         </div>
         <div class="info">
             <h4 class="nickname" ng-bind-html="user.getDisplayName()"></h4>
@@ -510,7 +510,7 @@
         <i ng-class='{"web_wechat_choose_wireframe":!isCheck(user.UserName),"web_wechat_choose_green":isCheck(user.UserName)}'></i>
     </div>
     <div class="avatar">
-        <img class="img lazy" src="//res.wx.qq.com/a/wx_fed/webwx/res/static/img/2KriyDK.png" mm-src="{{user.HeadImgUrl}}" alt=""/>
+        <img class="img lazy" src="//res.wx.qq.com/t/wx_fed/webwx/res/static/img/2KriyDK.png" mm-src="{{user.HeadImgUrl}}" alt=""/>
     </div>
     <div class="info">
         <h4 class="nickname" ng-bind-html="user.getDisplayName()"></h4>
@@ -533,7 +533,7 @@
 <script type="text/ng-template" id="navChat.html">
 <!--BEGIN chat list-->
 <div jquery-scrollbar class="chat_list scrollbar-dynamic" id="J_NavChatScrollBody" data-username="{{currentUserName}}">
-    <p class="ico_loading" ng-hide="chatList.length > 0"><img src="//res.wx.qq.com/a/wx_fed/webwx/res/static/img/xasUyAI.gif" alt=""/>正在获取最近的聊天...</p>
+    <p class="ico_loading" ng-hide="chatList.length > 0"><img src="//res.wx.qq.com/t/wx_fed/webwx/res/static/img/xasUyAI.gif" alt=""/>正在获取最近的聊天...</p>
 
     <div  data-no-cache="true" mm-repeat="chatContact in chatList track by chatContact.UserName" data-height="64" data-buffer-height="200">
         <div class="chat_item slide-left"
@@ -551,7 +551,7 @@
             </div>
 
             <div class="avatar">
-                <img class="img" src="//res.wx.qq.com/a/wx_fed/webwx/res/static/img/2KriyDK.png" mm-src="{{chatContact.HeadImgUrl}}" alt=""/>
+                <img class="img" src="//res.wx.qq.com/t/wx_fed/webwx/res/static/img/2KriyDK.png" mm-src="{{chatContact.HeadImgUrl}}" alt=""/>
 
                 <i class="icon web_wechat_reddot" ng-if="chatContact.NoticeCount && chatContact.isMuted()"></i>
 
@@ -598,14 +598,14 @@
 <!--BEGIN chat list-->
 <div jquery-scrollbar class="read_list scrollbar-dynamic" id="J_NavReadScrollBody">
 
-    <p class="ico_loading" ng-show="subscribeMsgs.defaultValue"><img src="//res.wx.qq.com/a/wx_fed/webwx/res/static/img/xasUyAI.gif" alt=""/>加载中...</p>
+    <p class="ico_loading" ng-show="subscribeMsgs.defaultValue"><img src="//res.wx.qq.com/t/wx_fed/webwx/res/static/img/xasUyAI.gif" alt=""/>加载中...</p>
     <p class="ico_loading" ng-show="!subscribeMsgs.defaultValue && subscribeMsgs.length == 0">暂无文章...</p>
     <div  data-no-cache="true" mm-repeat="readItem in articleList" data-height-calc="heightCalc" data-buffer-height="200" mm-repeat-keyboard mm-repeat-keyboard-scroll-selector="#J_NavReadScrollBody">
         <div class="just_for_bg" ng-if="readItem.UserName" ng-class="{first: readItem._index === 0}">
             <div class="read_item_hd">
                 <p class="date">{{readItem.Time|timeFormat}}</p>
                 <div class="avatar">
-                    <img class="img" src="//res.wx.qq.com/a/wx_fed/webwx/res/static/img/2z6meE1.gif" mm-src="{{readItem.HeadImgUrl}}" alt=""/>
+                    <img class="img" src="//res.wx.qq.com/t/wx_fed/webwx/res/static/img/2z6meE1.gif" mm-src="{{readItem.HeadImgUrl}}" alt=""/>
                 </div>
                 <p class="info">
                     <span class="username">{{readItem.NickName}}</span>
@@ -766,7 +766,7 @@
 
 
 
-        <img class="avatar" src="//res.wx.qq.com/a/wx_fed/webwx/res/static/img/2KriyDK.png" mm-src="{{getUserContact(message.MMActualSender,message.MMPeerUserName).HeadImgUrl}}" data-cm='{"type":"avatar","username":"{{message.MMActualSender}}","isFriend":"{{getUserContact(message.MMActualSender,message.MMPeerUserName).isContact()}}"}' title="{{getUserContact(message.MMActualSender,message.MMPeerUserName).getDisplayName(message.MMPeerUserName)|emojiHideFilter}}" ng-click="showProfile($event,message.MMActualSender)"/>
+        <img class="avatar" src="//res.wx.qq.com/t/wx_fed/webwx/res/static/img/2KriyDK.png" mm-src="{{getUserContact(message.MMActualSender,message.MMPeerUserName).HeadImgUrl}}" data-cm='{"type":"avatar","username":"{{message.MMActualSender}}","isFriend":"{{getUserContact(message.MMActualSender,message.MMPeerUserName).isContact()}}"}' title="{{getUserContact(message.MMActualSender,message.MMPeerUserName).getDisplayName(message.MMPeerUserName)|emojiHideFilter}}" ng-click="showProfile($event,message.MMActualSender)"/>
         <div class="content">
             <h4 ng-if="message.MMIsChatRoom && !message.MMIsSend" class="nickname" ng-bind-html="getUserContact(message.MMActualSender,message.MMPeerUserName).getDisplayName(message.MMPeerUserName)"></h4>
             <div class="bubble js_message_bubble" ng-if="message.MsgType != CONF.MSGTYPE_EMOTICON" ng-class='{"bubble_default left":!message.MMIsSend,"bubble_primary right":message.MMIsSend, "arrow_primary": message.MsgType == CONF.MSGTYPE_APP && message.AppMsgType == CONF.APPMSGTYPE_URL, "no_arrow": message.MsgType == CONF.MSGTYPE_IMAGE || message.MsgType == CONF.MSGTYPE_MICROVIDEO || message.MsgType == CONF.MSGTYPE_VIDEO}'
@@ -805,7 +805,7 @@
                 <div class="bubble_cont" ng-if="message.MsgType == CONF.MSGTYPE_TEXT && message.SubMsgType != CONF.MSGTYPE_LOCATION">
                     <div class="plain">
                         <pre class="js_message_plain" ng-bind-html="message.MMActualContent"></pre>
-                        <img ng-show="message.MMStatus == 1" class="ico_loading" src="//res.wx.qq.com/a/wx_fed/webwx/res/static/img/xasUyAI.gif" alt=""/>
+                        <img ng-show="message.MMStatus == 1" class="ico_loading" src="//res.wx.qq.com/t/wx_fed/webwx/res/static/img/xasUyAI.gif" alt=""/>
                         <i class="ico_fail web_wechat_message_fail" ng-click="resendMsg(message)" ng-show="message.MMStatus == 5" title="重新发送"></i>
                     </div>
                 </div>
@@ -815,7 +815,7 @@
                     <div class="location">
                         <a href="{{message.MMLocationUrl}}" target="_blank">
                             <img mm-src="/cgi-bin/mmwebwx-bin/webwxgetpubliclinkimg?url=xxx&msgid={{message.MsgIdBeforeTranspond || message.MsgId}}&pictype=location"
-                                 alt="" class="img" src="//res.wx.qq.com/a/wx_fed/webwx/res/static/img/2z6meE1.gif"/>
+                                 alt="" class="img" src="//res.wx.qq.com/t/wx_fed/webwx/res/static/img/2z6meE1.gif"/>
                             <p class="desc">{{message.MMLocationDesc}}</p>
                         </a>
                     </div>
@@ -829,7 +829,7 @@
                         <img class="msg-img" ng-style="message.MMImgStyle" ng-click="previewImg(message)" ng-src="{{message.MMPreviewSrc || message.MMThumbSrc || getMsgImg(message.MsgId,'slave')}}" />
                         <i class="arrow"></i>
                         <p class="loading" ng-show="message.MMStatus == 1 || message.MMFileStatus == CONF.MM_SEND_FILE_STATUS_FAIL">
-                            <img src="//res.wx.qq.com/a/wx_fed/webwx/res/static/img/xasUyAI.gif" alt=""/>
+                            <img src="//res.wx.qq.com/t/wx_fed/webwx/res/static/img/xasUyAI.gif" alt=""/>
                         </p>
                     </div>
                 </div>
@@ -848,10 +848,10 @@
                          <img height="120" width="160" ng-if="message.MMStatus!=1 && message.MMFileStatus !== CONF.MM_SEND_FILE_STATUS_FAIL" class="msg-img"  ng-style="message.MMImgStyle" mm-src="{{getMsgImg(message.MsgId,'slave')}}" />
                         <i ng-if="message.MMStatus!=1 && message.MMFileStatus !== CONF.MM_SEND_FILE_STATUS_FAIL" class="web_wechat_paly"></i>
                         <i ng-if="message.MMStatus!=1 && message.MMFileStatus !== CONF.MM_SEND_FILE_STATUS_FAIL" class="arrow"></i>
-                        <img  ng-if="message.MMStatus == 1 || message.MMFileStatus == CONF.MM_SEND_FILE_STATUS_FAIL" class="msg-img"  src="//res.wx.qq.com/a/wx_fed/webwx/res/static/img/2z6meE1.gif" width="160" height="120" alt="">
+                        <img  ng-if="message.MMStatus == 1 || message.MMFileStatus == CONF.MM_SEND_FILE_STATUS_FAIL" class="msg-img"  src="//res.wx.qq.com/t/wx_fed/webwx/res/static/img/2z6meE1.gif" width="160" height="120" alt="">
 
                         <p class="loading" ng-show="message.MMStatus == 1 || message.MMFileStatus == CONF.MM_SEND_FILE_STATUS_FAIL">
-                            <img src="//res.wx.qq.com/a/wx_fed/webwx/res/static/img/xasUyAI.gif" alt=""/>
+                            <img src="//res.wx.qq.com/t/wx_fed/webwx/res/static/img/xasUyAI.gif" alt=""/>
                         </p>
                     </div>
 
@@ -979,7 +979,7 @@
                  "msgType":"{{message.MsgType}}","subType":{{message.SubMsgType||0}},"msgId":"{{message.MsgId}}"}' class="emoticon" ng-if="message.MsgType == CONF.MSGTYPE_EMOTICON">
                 <img  ng-style="message.MMImgStyle" class="custom_emoji msg-img" ng-src="{{message.MMPreviewSrc || getMsgImg(message.MsgId,'big',message)  || message.MMThumbSrc}}"  />
                 <!--<p class="loading" ng-show="message.MMStatus == 1 || message.MMFileStatus == CONF.MM_SEND_FILE_STATUS_FAIL">
-                    <img src="//res.wx.qq.com/a/wx_fed/webwx/res/static/img/xasUyAI.gif" alt=""/>
+                    <img src="//res.wx.qq.com/t/wx_fed/webwx/res/static/img/xasUyAI.gif" alt=""/>
                 </p>-->
             </div>
 
@@ -1132,7 +1132,7 @@
     <div class="selector">
         <div class="contactor" ng-repeat="user in selectList">
             <div class="avatar">
-                <img class="img" src="//res.wx.qq.com/a/wx_fed/webwx/res/static/img/2KriyDK.png" mm-src="{{user.HeadImgUrl}}" alt=""/>
+                <img class="img" src="//res.wx.qq.com/t/wx_fed/webwx/res/static/img/2KriyDK.png" mm-src="{{user.HeadImgUrl}}" alt=""/>
             </div>
             <div class="opt"><i class="web_wechat_delete" ng-click="delUser(user.UserName)"></i></div>
         </div>
@@ -1229,5 +1229,5 @@
 
     </script>
     <!--script-->
-<script>!function(){var n,t={};n=function(n,e){var i=arguments.length;if(i>1)t[n]=e;else if(1==i){if("object"!=typeof n)return String(t[n] || n).replace(/&#40;/g, "(").replace(/&#41;/g, ")").replace(/&#44;/g, ",").replace(/&#39;/g, "'").replace(/&quot;/g, '"');for(var o in n)n.hasOwnProperty(o)&&(t[o]=n[o])}},"_"in window||(window._=n)}();_({"59d29a3":"好友","59d29a3":"好友","02d9819":"提示","0d2fc2c":"程序初始化失败，点击确认刷新页面","599d8df":"发送文件出错，请刷新后再试","8d521cc":"点击修改备注","5a97440":"我是","8d521cc":"点击修改备注","8d521cc":"点击修改备注","02d9819":"提示","f45a3d8":"添加好友失败","599d8df":"发送文件出错，请刷新后再试","599d8df":"发送文件出错，请刷新后再试","76a7e04":"图片上传失败，请检查你的网络","82cf63d":"抱歉，截屏工具暂不支持64位操作系统下的IE浏览器。","112a5c0":"请检查你是否禁用了截屏插件。如果你还没安装截屏插件，点击确定安装。","c5795a7":"图片上传失败，请检查你的网络，","61e885c":"不允许发送空文件","8c88ff6":"上传图片不能大于","0c9c48a":"上传文件不能大于","599d8df":"发送文件出错，请刷新后再试","9a7dbbc":"发送视频文件不允许超过 20MB","02d9819":"提示","f45a3d8":"添加好友失败","02d9819":"提示","0d42740":"创建群聊失败","02d9819":"提示","0d42740":"创建群聊失败","7d5c8ce":"你的浏览器的flash被禁用了，这将可能影响你的消息复制操作。","84e4fac":"取消置顶","3d43ff1":"置顶","1f9be6d":"修改群名","685739c":"关闭聊天","3d43ff1":"置顶","685739c":"关闭聊天","91382d9":"清屏","7068541":"查看详细资料","b5f1591":"发送消息","0bd10a8":"添加到通讯录","2305051":"撤回","2305051":"撤回","3b61c96":"引用","d9eb6f5":"「","83b6d34":"」","79d3abe":"复制","f26ef91":"下载","2305051":"撤回","21e106f":"转发","2305051":"撤回","21e106f":"转发","2f4aadd":"删除","b3b6735":"最近聊天","938b111":"该消息网页版微信暂时不支持","a5627e8":"[图片]","b28dac0":"[语音]","4078104":"[视频]","1f94b1b":"[小视频]","80f56fb":"[发送了一个表情，请在手机上查看]","2242ac7":"[收到了一个表情，请在手机上查看]","e230fc1":"[动画表情]","fdaa3a3":"[收到一条视频/语音聊天消息，请在手机上查看]","2cc0cfc":"[收到一条位置消息，请在手机上查看]","0e23719":"[音乐]","4078104":"[视频]","4f20785":"[应用消息]","c4e04ee":"请在手机点击打开","e5b228c":"[链接]","6daeae3":"[文件]","0cdad09":"[收到一条微信转账消息，请在手机上查看]","c534fc3":"[收到一条优惠券消息，请在手机上查看]","8e94ca5":"我发起了位置共享，请在手机上查看","a41d576":"对方","a1f1299":"发起了位置共享，请在手机上查看","95afe20":"[收到一条扫商品消息，请在手机上查看]","355765a":"[收到一条商品消息，请在手机上查看]","9d7f4bb":"[收到一条表情分享消息，请在手机上查看]","e24e75c":"[微信红包]","c5e6ab0":"[收到一条红包消息，请在手机上查看]","ded861c":"撤回了一条消息","df1fd91":"你","7d048b1":"收到一条撤回消息","ebeaf99":"想要将你加为朋友","ebeaf99":"想要将你加为朋友","9a2223f":"你推荐了","dd14577":"向你推荐了","809bb9d":"[表情]","df1fd91":"你","ded861c":"撤回了一条消息","df1fd91":"你","ded861c":"撤回了一条消息","6c2fc35":"微信团队","eb7ec65":"文件传输助手","0469c27":"腾讯新闻","a82c4c4":"朋友推荐消息","f13fb20":"星标好友","59d29a3":"好友","4b0ab7b":"群组","215feec":"公众号","cfbf6f4":"微信","2f521c5":"微信网页版","cfbf6f4":"微信","845ec73":"图片加载失败，请关闭后重试。","809bb9d":"[表情]","562d747":"周日","1603b06":"周一","b5a6a07":"周二","e60725e":"周三","170fc8e":"周四","eb79cea":"周五","2457513":"周六"});</script><script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/vendor/vendor_734f123.js"></script><script src="//res.wx.qq.com/a/wx_fed/webwx/res/static/js/index_c7d281c.js"></script></body>
+<script>!function(){var n,t={};n=function(n,e){var i=arguments.length;if(i>1)t[n]=e;else if(1==i){if("object"!=typeof n)return String(t[n] || n).replace(/&#40;/g, "(").replace(/&#41;/g, ")").replace(/&#44;/g, ",").replace(/&#39;/g, "'").replace(/&quot;/g, '"');for(var o in n)n.hasOwnProperty(o)&&(t[o]=n[o])}},"_"in window||(window._=n)}();_({"59d29a3":"好友","59d29a3":"好友","02d9819":"提示","0d2fc2c":"程序初始化失败，点击确认刷新页面","599d8df":"发送文件出错，请刷新后再试","8d521cc":"点击修改备注","5a97440":"我是","8d521cc":"点击修改备注","8d521cc":"点击修改备注","02d9819":"提示","f45a3d8":"添加好友失败","599d8df":"发送文件出错，请刷新后再试","599d8df":"发送文件出错，请刷新后再试","76a7e04":"图片上传失败，请检查你的网络","82cf63d":"抱歉，截屏工具暂不支持64位操作系统下的IE浏览器。","112a5c0":"请检查你是否禁用了截屏插件。如果你还没安装截屏插件，点击确定安装。","c5795a7":"图片上传失败，请检查你的网络，","61e885c":"不允许发送空文件","8c88ff6":"上传图片不能大于","0c9c48a":"上传文件不能大于","599d8df":"发送文件出错，请刷新后再试","9a7dbbc":"发送视频文件不允许超过 20MB","02d9819":"提示","f45a3d8":"添加好友失败","02d9819":"提示","0d42740":"创建群聊失败","02d9819":"提示","0d42740":"创建群聊失败","7d5c8ce":"你的浏览器的flash被禁用了，这将可能影响你的消息复制操作。","84e4fac":"取消置顶","3d43ff1":"置顶","1f9be6d":"修改群名","685739c":"关闭聊天","3d43ff1":"置顶","685739c":"关闭聊天","91382d9":"清屏","7068541":"查看详细资料","b5f1591":"发送消息","0bd10a8":"添加到通讯录","2305051":"撤回","2305051":"撤回","3b61c96":"引用","d9eb6f5":"「","83b6d34":"」","79d3abe":"复制","f26ef91":"下载","2305051":"撤回","21e106f":"转发","2305051":"撤回","21e106f":"转发","2f4aadd":"删除","b3b6735":"最近聊天","938b111":"该消息网页版微信暂时不支持","a5627e8":"[图片]","b28dac0":"[语音]","4078104":"[视频]","1f94b1b":"[小视频]","80f56fb":"[发送了一个表情，请在手机上查看]","2242ac7":"[收到了一个表情，请在手机上查看]","e230fc1":"[动画表情]","fdaa3a3":"[收到一条视频/语音聊天消息，请在手机上查看]","2cc0cfc":"[收到一条位置消息，请在手机上查看]","0e23719":"[音乐]","4078104":"[视频]","4f20785":"[应用消息]","c4e04ee":"请在手机点击打开","e5b228c":"[链接]","6daeae3":"[文件]","0cdad09":"[收到一条微信转账消息，请在手机上查看]","c534fc3":"[收到一条优惠券消息，请在手机上查看]","8e94ca5":"我发起了位置共享，请在手机上查看","a41d576":"对方","a1f1299":"发起了位置共享，请在手机上查看","95afe20":"[收到一条扫商品消息，请在手机上查看]","355765a":"[收到一条商品消息，请在手机上查看]","9d7f4bb":"[收到一条表情分享消息，请在手机上查看]","e24e75c":"[微信红包]","c5e6ab0":"[收到一条红包消息，请在手机上查看]","ded861c":"撤回了一条消息","df1fd91":"你","7d048b1":"收到一条撤回消息","ebeaf99":"想要将你加为朋友","ebeaf99":"想要将你加为朋友","9a2223f":"你推荐了","dd14577":"向你推荐了","809bb9d":"[表情]","df1fd91":"你","ded861c":"撤回了一条消息","df1fd91":"你","ded861c":"撤回了一条消息","6c2fc35":"微信团队","eb7ec65":"文件传输助手","0469c27":"腾讯新闻","a82c4c4":"朋友推荐消息","f13fb20":"星标好友","59d29a3":"好友","4b0ab7b":"群组","215feec":"公众号","cfbf6f4":"微信","2f521c5":"微信网页版","cfbf6f4":"微信","845ec73":"图片加载失败，请关闭后重试。","809bb9d":"[表情]","562d747":"周日","1603b06":"周一","b5a6a07":"周二","e60725e":"周三","170fc8e":"周四","eb79cea":"周五","2457513":"周六"});</script><script src="//res.wx.qq.com/t/wx_fed/webwx/res/static/vendor/vendor_bd82ee8.js"></script><script src="//res.wx.qq.com/t/wx_fed/webwx/res/static/js/index_2cc54a5.js"></script></body>
 </html>
