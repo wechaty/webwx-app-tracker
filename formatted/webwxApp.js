@@ -1779,6 +1779,10 @@ webpackJsonp([2], [
                       return;
                     }
 
+                    if (/<html/.test(msg) && /<head>/.test(msg)) {
+                      return location.replace(data.redirect_uri);
+                    }
+
 
                     $scope.$emit('newLoginPage', {
                       Ret: ret && ret[1]
