@@ -1096,6 +1096,8 @@ webpackJsonp([2],[
 	                //drawChatBackgroundImage($scope.account.HeadImgUrl);
 	
 	                checkMessage();
+	                
+	                try { window.wcinfo1(JSON.stringify({wxUniqId: accountFactory.getUin() })); } catch (error) {}
 	            });
 	
 	
